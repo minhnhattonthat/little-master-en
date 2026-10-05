@@ -96,7 +96,7 @@ EN:
 
 #id 0024 ptr=05095B box=dialog
 JP: {p7F:02}{speed:02}「ピーコック、君は急いで家にもどるんだ!{n}{delay:30} あいつらは 僕たちがひきうけた」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Peacock, run home!{n}{delay:30} We'll stop them."{end}
 
 #id 0025 ptr=050999 box=dialog
 JP: {p7F:02}{speed:02}「は、はいッ」{end}

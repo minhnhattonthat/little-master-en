@@ -788,7 +788,7 @@ EN:
 
 #id 0197 ptr=1B2214 box=dialog
 JP: {p7F:02}「ピーコック、君は急いで家にもどるんだ!{n} あいつらは 僕たちがひきうけた」{end}
-EN: 
+EN: {p7F:02}"Peacock, run home!{n} We'll stop them."{end}
 
 #id 0198 ptr=1B2242 box=dialog
 JP: {p7F:02}「は、はいッ」{end}

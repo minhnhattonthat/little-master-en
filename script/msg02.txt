@@ -24,7 +24,7 @@ EN:
 
 #id 0006 ptr=013309 box=screen
 JP: {c80:00}{c9B:30}{cF1:05}{p07:18}◀{c80:00}{c84:82EA7E}{p07:19}◀{c80:00}{c84:80EA7E}{p06:1A}{c83:8AEA7E}{p05:1A}◀{p05:1B}◀{c9B:20}{p01:18}-{p01:19}-{p01:1A}-{p01:1B}-{p0B:17}({p0B:18}){p0B:19}){p0B:1A}){p0B:1B}){cF1:25}{p0B:1C}({cF1:01}{p0D:1A}勇者軍の ばんです。{p0D:18}{cFA:00}{end}
-EN: 
+EN: {c80:00}{c9B:30}{cF1:05}{p07:18}[3C]{c80:00}{c84:82EA7E}{p07:19}[3C]{c80:00}{c84:80EA7E}{p06:1A}{c83:8AEA7E}{p05:1A}[3C]{p05:1B}[3C]{c9B:20}{p01:18}-{p01:19}-{p01:1A}-{p01:1B}-{p0B:17}({p0B:18}){p0B:19}){p0B:1A}){p0B:1B}){cF1:25}{p0B:1C}({cF1:01}{p0D:1A}Heroes' turn.{p0D:18}{cFA:00}{end}
 
 #id 0007 ptr=013382 box=screen cont=1
 JP: {cF1:05}{p1B:16},,,{p1B:17},,,{p1B:18},,,{p1B:19}{c85:600E00}={p0A:16}/{cF1:25}{p0A:17}/{cF1:06}{p17:16}?∶ぢ{p17:17}Aでづ{p17:18}Bど{cF1:26}づ{cF1:06}{p17:19}C∶ぢ{cF1:07}{c80:00}{c81:000E00}{jF0:E0B302}{p19:16}パ
@@ -52,7 +52,7 @@ EN:
 
 #id 0013 ptr=013470 box=screen
 JP: {p7F:01}{p04:18}ターン{c80:00}{c95:80EA7E} 魔物軍の攻撃{p04:1A}敵が 移動中です。{end}
-EN: 
+EN: {p7F:01}{p04:18}Turn{c80:00}{c95:80EA7E} Monsters{p04:1A}Enemy moving.{end}
 
 #id 0014 ptr=01349E box=screen
 JP: {clear:00}{p03:16}{uiC4}{uiC5}{p04:18}{c80:00}{c81:6A0E00}{jF0:C3B402}{uiF4}{uiF5}  {goto:C9B402}
@@ -176,11 +176,11 @@ EN:
 
 #id 0044 ptr=013960 box=screen cont=1
 JP: {c80:00}{c81:670E00}{jF0:A0B902}ナイスガードで防御力UP!
-EN: 
+EN: {c80:00}{c81:670E00}{jF0:A0B902}Nice guard! DEF up!
 
 #id 0045 ptr=01397D box=screen
 JP: {n}敵の攻撃を{c80:00}{c95:520E00}ポイントのダメージにおさえたぞ。{end}
-EN: 
+EN: {n}Damage cut to{c80:00}{c95:520E00}!{end}
 
 #id 0046 ptr=01399F box=screen cont=1
 JP: {n}
@@ -728,7 +728,7 @@ EN:
 
 #id 0182 ptr=014E7F box=screen
 JP: {p7F:09}アイテムを使用するのを{n}とりやめました。{scroll:00}{end}
-EN: 
+EN: {p7F:09}Item use{n}canceled.{scroll:00}{end}
 
 #id 0183 ptr=014E9C box=screen
 JP: {c80:00}{c81:320000}{c82:18}{c88:0AE0A402} を{n}装備していいですか?{goto:6BD302}
