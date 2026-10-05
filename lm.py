@@ -3,7 +3,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from lmtools import dis65, gfx, ips, locate, mesen, rom
+from lmtools import blocks, dis65, gfx, ips, locate, mesen, rom, script
 from lmtools.tbl import Table
 
 BETA2 = Path("patch/LM3-Beta2.IPS")
@@ -67,6 +67,17 @@ def cmd_dis(a):
         print(line)
 
 
+def cmd_dump(a):
+    base, t = rom.load_base(), Table.load("tbl/jp.tbl")
+    Path("script").mkdir(exist_ok=True)
+    for b in blocks.load_blocks():
+        if a.only and b.name != a.only:
+            continue
+        es = blocks.dump_block(base, b, t)
+        script.save(Path(f"script/{b.name}.txt"), es, a.force)
+        print(f"script/{b.name}.txt: {len(es)} entries")
+
+
 def build_parser():
     ap = argparse.ArgumentParser(prog="lm")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -92,6 +103,7 @@ def build_parser():
     p.add_argument("addr"); p.add_argument("-n", type=int, default=40)
     p.add_argument("--m16", action="store_true"); p.add_argument("--x16", action="store_true")
     p.set_defaults(fn=cmd_dis)
+    p = sub.add_parser("dump"); p.add_argument("--only"); p.add_argument("--force", action="store_true"); p.set_defaults(fn=cmd_dump)
     p = sub.add_parser("boot"); p.add_argument("rom", nargs="?"); p.set_defaults(fn=cmd_boot)
     return ap
 
