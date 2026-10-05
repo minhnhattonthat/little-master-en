@@ -3,7 +3,8 @@ import argparse
 import sys
 from pathlib import Path
 
-from lmtools import gfx, ips, rom
+from lmtools import gfx, ips, locate, rom
+from lmtools.tbl import Table
 
 BETA2 = Path("patch/LM3-Beta2.IPS")
 
@@ -33,6 +34,27 @@ def cmd_betadiff(a):
     print(f"wrote docs/re/beta2-regions.md ({len(lines) - 6} regions)")
 
 
+def cmd_findbytes(a):
+    for o in locate.find_bytes(rom.load_base(), bytes.fromhex(a.hex)):
+        print(f"{o:06X}  ${rom.pc_to_lorom(o):06X}")
+
+
+def cmd_findptr(a):
+    b = rom.load_base()
+    for o, w in locate.find_pointers(b, int(a.pc, 16)):
+        print(f"{o:06X} w{w}  context: {bytes(b[max(o - 4, 0):o + 8]).hex(' ')}")
+
+
+def cmd_freespace(a):
+    for s, n, f in locate.free_runs(rom.load_base(), int(a.min, 0)):
+        print(f"{s:06X}-{s + n:06X}  {n:6d} bytes of {f:02X}")
+
+
+def cmd_scan(a):
+    for s, text in locate.scan_strings(rom.load_base(), Table.load("tbl/jp.tbl"), a.min):
+        print(f"{s:06X}  {text}")
+
+
 def build_parser():
     ap = argparse.ArgumentParser(prog="lm")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -50,6 +72,10 @@ def build_parser():
     p.add_argument("--out", required=True)
     p.set_defaults(fn=cmd_gfx)
     sub.add_parser("betadiff", help="map regions Beta2 changed").set_defaults(fn=cmd_betadiff)
+    p = sub.add_parser("findbytes"); p.add_argument("hex"); p.set_defaults(fn=cmd_findbytes)
+    p = sub.add_parser("findptr", help="find pointers to a PC offset (hex)"); p.add_argument("pc"); p.set_defaults(fn=cmd_findptr)
+    p = sub.add_parser("freespace"); p.add_argument("--min", default="0x100"); p.set_defaults(fn=cmd_freespace)
+    p = sub.add_parser("scan", help="heuristic text scan using tbl/jp.tbl"); p.add_argument("--min", type=int, default=4); p.set_defaults(fn=cmd_scan)
     return ap
 
 
