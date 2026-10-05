@@ -40,3 +40,10 @@ def test_wrong_rom_rejected(tmp_path):
     p.write_bytes(bytes(0x200000))
     with pytest.raises(ValueError, match="SHA1"):
         rom.load_base(p)
+
+
+def test_expand_4mb(base):
+    b = rom.expand(bytearray(base))
+    assert len(b) == 0x400000 and b[0x7FD7] == 0x0C
+    assert b[:0x7FD7] == base[:0x7FD7] and b[0x200000:] == bytes(0x200000)
+    assert int.from_bytes(b[0x7FDE:0x7FE0], "little") == rom.checksum(b)

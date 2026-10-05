@@ -35,3 +35,13 @@ def checksum(buf) -> int:
 def fix_checksum(buf: bytearray) -> None:
     c = checksum(buf)
     buf[0x7FDC:0x7FE0] = (c ^ 0xFFFF).to_bytes(2, "little") + c.to_bytes(2, "little")
+
+
+def expand(buf: bytearray, size=0x400000) -> bytearray:
+    """Pad to `size` (LoROM; new data is read at banks $C0-$FF:8000-FFFF), fix header size byte + checksum."""
+    if len(buf) > size:
+        raise ValueError(f"ROM already {len(buf):#x} bytes > {size:#x}")
+    buf += bytes(size - len(buf))
+    buf[0x7FD7] = (size // 1024).bit_length() - 1
+    fix_checksum(buf)
+    return buf
