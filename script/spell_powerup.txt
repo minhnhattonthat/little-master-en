@@ -1,0 +1,55 @@
+#id 0000 ptr=01524B box=name18
+JP: シャルルがつかうエレメンタル
+EN: Elemental magic
+
+#id 0001 ptr=01525D box=name18
+JP: 
+EN: 
+
+#id 0002 ptr=01526F box=name18
+JP: 
+EN: 
+
+#id 0003 ptr=015281 box=name18
+JP: シャルルがつかうスパイラルバスト
+EN: Spiralbust
+
+#id 0004 ptr=015293 box=name18
+JP: シャルルがつかうスパークビット
+EN: Spark Bit
+
+#id 0005 ptr=0152A5 box=name18
+JP: シャルルがつかうフォールトゥギャザ
+EN: Group Fall
+
+#id 0006 ptr=0152B7 box=name18
+JP: シャルルがつかうエレメンタルエイク
+EN: Elem Quake
+
+#id 0007 ptr=0152C9 box=name18
+JP: シャルルがつかうルインビースト
+EN: Ruin Beast
+
+#id 0008 ptr=0152DB box=name18
+JP: リルルがつかうポップン
+EN: Pop'n
+
+#id 0009 ptr=0152ED box=name18
+JP: リルルがつかうガッツン
+EN: Guts'n
+
+#id 0010 ptr=0152FF box=name18
+JP: リルルがつかうトコトコ
+EN: Scurry
+
+#id 0011 ptr=015311 box=name18
+JP: リルルがつかうハッピー
+EN: Happy
+
+#id 0012 ptr=015323 box=name18
+JP: リルルがつかうヒーリン
+EN: Healin'
+
+#id 0013 ptr=015335 box=name18
+JP: リルルがつかうデ・ポップン
+EN: De-Pop'n

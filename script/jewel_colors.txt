@@ -1,0 +1,27 @@
+#id 0000 ptr=015221 box=name6
+JP: 1:アカイロ
+EN: Red
+
+#id 0001 ptr=015227 box=name6
+JP: 2:オレンジ
+EN: Orange
+
+#id 0002 ptr=01522D box=name6
+JP: 3:キイロ
+EN: Yellow
+
+#id 0003 ptr=015233 box=name6
+JP: 4:ミドリ
+EN: Green
+
+#id 0004 ptr=015239 box=name6
+JP: 5:アオイロ
+EN: Blue
+
+#id 0005 ptr=01523F box=name6
+JP: 6:アイイロ
+EN: Indigo
+
+#id 0006 ptr=015245 box=name6
+JP: 7:ムラサキ
+EN: Violet

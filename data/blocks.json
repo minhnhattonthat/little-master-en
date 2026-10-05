@@ -275,5 +275,49 @@
   "pad": "0x00",
   "box": "name11",
   "note": "40-byte records; 12-byte name field, length 11 so byte 12 (always 00) stays as terminator"
+ },
+ {
+  "name": "elements",
+  "type": "fixed",
+  "start": "0x0151DE",
+  "count": 3,
+  "stride": 4,
+  "length": 3,
+  "pad": "0x20",
+  "box": "name3",
+  "note": "element names (c88 03 $02:D1DE), battle odds screen"
+ },
+ {
+  "name": "jewel_colors",
+  "type": "fixed",
+  "start": "0x015221",
+  "count": 7,
+  "stride": 6,
+  "length": 6,
+  "pad": "0x20",
+  "box": "name6",
+  "note": "Jewel color labels (c88 06 $02:D221), drawn over 6 cells of the jewel prompt"
+ },
+ {
+  "name": "spell_powerup",
+  "type": "fixed",
+  "start": "0x01524B",
+  "count": 14,
+  "stride": 18,
+  "length": 18,
+  "pad": "0xCE",
+  "box": "name18",
+  "note": "'<caster> uses <spell>' (c88 12 $02:D24B), amber power-up message"
+ },
+ {
+  "name": "spells",
+  "type": "fixed",
+  "start": "0x113566",
+  "count": 16,
+  "stride": 16,
+  "length": 10,
+  "pad": "0xCE",
+  "box": "name10",
+  "note": "spell names (c88 0A $22:B566)"
  }
 ]

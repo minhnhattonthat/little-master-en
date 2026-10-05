@@ -1,0 +1,63 @@
+#id 0000 ptr=113566 box=name10
+JP: シャインフォール
+EN: Shine Fall
+
+#id 0001 ptr=113576 box=name10
+JP: ロックスプレッド
+EN: Rock Spray
+
+#id 0002 ptr=113586 box=name10
+JP: ウインドストリーム
+EN: Windstream
+
+#id 0003 ptr=113596 box=name10
+JP: スパイラルバスト
+EN: Spiralbust
+
+#id 0004 ptr=1135A6 box=name10
+JP: スパークビット
+EN: Spark Bit
+
+#id 0005 ptr=1135B6 box=name10
+JP: フォールトゥギャザ
+EN: Group Fall
+
+#id 0006 ptr=1135C6 box=name10
+JP: エレメンタルエイク
+EN: Elem Quake
+
+#id 0007 ptr=1135D6 box=name10
+JP: ルインビースト
+EN: Ruin Beast
+
+#id 0008 ptr=1135E6 box=name10
+JP: ポップン
+EN: Pop'n
+
+#id 0009 ptr=1135F6 box=name10
+JP: ガッツン
+EN: Guts'n
+
+#id 0010 ptr=113606 box=name10
+JP: トコトコ
+EN: Scurry
+
+#id 0011 ptr=113616 box=name10
+JP: ハッピー
+EN: Happy
+
+#id 0012 ptr=113626 box=name10
+JP: ヒーリン
+EN: Healin'
+
+#id 0013 ptr=113636 box=name10
+JP: デ・ポップン
+EN: De-Pop'n
+
+#id 0014 ptr=113646 box=name10
+JP: デ・ガッツン
+EN: De-Guts'n
+
+#id 0015 ptr=113656 box=name10
+JP: ノロノロ
+EN: Slowpoke

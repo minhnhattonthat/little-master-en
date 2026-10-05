@@ -1,0 +1,11 @@
+#id 0000 ptr=0151DE box=name3
+JP: グー
+EN: Rck
+
+#id 0001 ptr=0151E2 box=name3
+JP: チョキ
+EN: Scs
+
+#id 0002 ptr=0151E6 box=name3
+JP: パー
+EN: Ppr
