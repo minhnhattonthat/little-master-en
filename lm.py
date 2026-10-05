@@ -3,7 +3,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from lmtools import blocks, build, dis65, gfx, ips, locate, mesen, rom, script
+from lmtools import blocks, build, dis65, lint, gfx, ips, locate, mesen, rom, script
 from lmtools.tbl import Table
 
 BETA2 = Path("patch/LM3-Beta2.IPS")
@@ -96,7 +96,18 @@ def cmd_roundtrip(a):
     print("IDENTICAL" if not diff else f"{len(diff)} bytes differ: " + " ".join(f"{i:06X}" for i in diff[:20]))
 
 
+def cmd_lint(a):
+    msgs = lint.lint_all()
+    print(chr(10).join(msgs) if msgs else "lint clean")
+    sys.exit(1 if msgs else 0)
+
+
 def cmd_build(a):
+    if not a.no_lint and a.source == "en":
+        msgs = lint.lint_all()
+        if msgs:
+            print(chr(10).join(msgs))
+            sys.exit(f"lint: {len(msgs)} problem(s); fix them or pass --no-lint")
     out = build.build(a.out, a.source)
     print(f"wrote {out} and {out.with_suffix('.bps')}")
 
@@ -131,7 +142,9 @@ def build_parser():
     sub.add_parser("roundtrip", help="reinsert JP script, compare with base ROM").set_defaults(fn=cmd_roundtrip)
     p = sub.add_parser("build", help="build patched ROM + BPS")
     p.add_argument("--out", default="build"); p.add_argument("--source", default="en", choices=["en", "jp"])
+    p.add_argument("--no-lint", action="store_true")
     p.set_defaults(fn=cmd_build)
+    sub.add_parser("lint", help="check EN lines (widths, lines, controls, glossary, name bytes)").set_defaults(fn=cmd_lint)
     p = sub.add_parser("boot"); p.add_argument("rom", nargs="?"); p.set_defaults(fn=cmd_boot)
     return ap
 

@@ -1,0 +1,10 @@
+{
+ "dialog": {"px": 216, "lines": 2, "note": "field message window: 28 cells (224 px) minus 1 cell (VWF parks the cursor past a partial cell)"},
+ "msg":    {"px": 216, "lines": 3, "note": "battle/report window 28 x 3"},
+ "item":   {"px": 144, "lines": 3, "note": "item caution window: 19 cells"},
+ "desc":   {"px": null, "lines": 3, "note": "personal-info description: fixed font, 29 cells x 3 (set per entry with win=desc)"},
+ "screen": {"px": null, "lines": null, "note": "status/system screens: positioned layouts, checked by cell budget"},
+ "name8":  {"bytes": 8},
+ "name10": {"bytes": 10},
+ "name11": {"bytes": 11}
+}
