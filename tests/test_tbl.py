@@ -57,3 +57,8 @@ def test_load_bom_crlf(tmp_path):
     p = tmp_path / "t.tbl"
     p.write_bytes("﻿# c\r\n41=A\r\nFF={end}\r\n".encode("utf-8"))
     assert Table.load(p).decode(b"A\xff") == ("A{end}", 2)
+
+
+def test_goto_terminates_string():
+    t = Table(["41=A", "FFC0={goto:3}", "00={end}"])
+    assert t.decode(b"A\xff\xc0\x00\xb2\x22A\x00") == ("A{goto:00B222}", 6)

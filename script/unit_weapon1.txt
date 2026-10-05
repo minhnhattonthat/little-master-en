@@ -1,0 +1,211 @@
+#id 0000 ptr=010852 box=name10
+JP: こんぼう
+EN: 
+
+#id 0001 ptr=010872 box=name10
+JP: いしのこぶし
+EN: 
+
+#id 0002 ptr=010892 box=name10
+JP: おおきなくち
+EN: 
+
+#id 0003 ptr=0108B2 box=name10
+JP: うさぎのゆみや
+EN: 
+
+#id 0004 ptr=0108D2 box=name10
+JP: マラカス
+EN: 
+
+#id 0005 ptr=0108F2 box=name10
+JP: ダチョウのくちばし
+EN: 
+
+#id 0006 ptr=010912 box=name10
+JP: はらづつみ
+EN: 
+
+#id 0007 ptr=010932 box=name10
+JP: するどいキバ
+EN: 
+
+#id 0008 ptr=010952 box=name10
+JP: ボクサーグローブ
+EN: 
+
+#id 0009 ptr=010972 box=name10
+JP: するどいツメ
+EN: 
+
+#id 0010 ptr=010992 box=name10
+JP: てっきゅう
+EN: 
+
+#id 0011 ptr=0109B2 box=name10
+JP: ライオンクロー
+EN: 
+
+#id 0012 ptr=0109D2 box=name10
+JP: ドラゴンのキバ
+EN: 
+
+#id 0013 ptr=0109F2 box=name10
+JP: くちばし
+EN: 
+
+#id 0014 ptr=010A12 box=name10
+JP: コアラのつめ
+EN: 
+
+#id 0015 ptr=010A32 box=name10
+JP: ちいさなつるぎ
+EN: 
+
+#id 0016 ptr=010A52 box=name10
+JP: スカルヘッド
+EN: 
+
+#id 0017 ptr=010A72 box=name10
+JP: はずれるあたま
+EN: 
+
+#id 0018 ptr=010A92 box=name10
+JP: トゲトゲのくびわ
+EN: 
+
+#id 0019 ptr=010AB2 box=name10
+JP: ゆきのけっしょう
+EN: 
+
+#id 0020 ptr=010AD2 box=name10
+JP: するどいツメ
+EN: 
+
+#id 0021 ptr=010AF2 box=name10
+JP: スカルアンカー
+EN: 
+
+#id 0022 ptr=010B12 box=name10
+JP: ドラゴンランス
+EN: 
+
+#id 0023 ptr=010B32 box=name10
+JP: こんぼう
+EN: 
+
+#id 0024 ptr=010B52 box=name10
+JP: スワンウイング
+EN: 
+
+#id 0025 ptr=010B72 box=name10
+JP: ふしぎなちから
+EN: 
+
+#id 0026 ptr=010B92 box=name10
+JP: くない
+EN: 
+
+#id 0027 ptr=010BB2 box=name10
+JP: ダークパワー
+EN: 
+
+#id 0028 ptr=010BD2 box=name10
+JP: グリーンソード
+EN: 
+
+#id 0029 ptr=010BF2 box=name10
+JP: あくとくのつるぎ
+EN: 
+
+#id 0030 ptr=010C12 box=name10
+JP: ガラバーニュ
+EN: 
+
+#id 0031 ptr=010C32 box=name10
+JP: ハガネのこぶし
+EN: 
+
+#id 0032 ptr=010C52 box=name10
+JP: いやしのつえ
+EN: 
+
+#id 0033 ptr=010C72 box=name10
+JP: うしパンチ
+EN: 
+
+#id 0034 ptr=010C92 box=name10
+JP: こはくのつえ
+EN: 
+
+#id 0035 ptr=010CB2 box=name10
+JP: こはくのつえ
+EN: 
+
+#id 0036 ptr=010CD2 box=name10
+JP: スカルヘッド
+EN: 
+
+#id 0037 ptr=010CF2 box=name10
+JP: スカルキャノン
+EN: 
+
+#id 0038 ptr=010D12 box=name10
+JP: スカルポンプ
+EN: 
+
+#id 0039 ptr=010D32 box=name10
+JP: みわくのこぶし
+EN: 
+
+#id 0040 ptr=010D52 box=name10
+JP: するどいはなびら
+EN: 
+
+#id 0041 ptr=010D72 box=name10
+JP: プア・ランス
+EN: 
+
+#id 0042 ptr=010D92 box=name10
+JP: パープルアックス
+EN: 
+
+#id 0043 ptr=010DB2 box=name10
+JP: ネコのツメ
+EN: 
+
+#id 0044 ptr=010DD2 box=name10
+JP: たいようのキバ
+EN: 
+
+#id 0045 ptr=010DF2 box=name10
+JP: つきのキバ
+EN: 
+
+#id 0046 ptr=010E12 box=name10
+JP: ほしのキバ
+EN: 
+
+#id 0047 ptr=010E32 box=name10
+JP: こんぼう
+EN: 
+
+#id 0048 ptr=010E52 box=name10
+JP: コアラのツメ
+EN: 
+
+#id 0049 ptr=010E72 box=name10
+JP: ほそいヤリ
+EN: 
+
+#id 0050 ptr=010E92 box=name10
+JP: つめたいクチバシ
+EN: 
+
+#id 0051 ptr=010EB2 box=name10
+JP: かいりきハンド
+EN: 
+
+#id 0052 ptr=010ED2 box=name10
+JP: おもちゃのニンジン
+EN: 

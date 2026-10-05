@@ -1,0 +1,1951 @@
+#id 0000 ptr=1B83D0 box=dialog
+JP: シャルル{n}「はい」{end}
+EN: 
+
+#id 0001 ptr=1B83DA box=dialog
+JP: モーモー{n}「そうだ!」{end}
+EN: 
+
+#id 0002 ptr=1B83E6 box=dialog
+JP: 「じいさん、お土産だ。とっときな」{end}
+EN: 
+
+#id 0003 ptr=1B83FA box=dialog
+JP: ラドック{n}「なんじゃ?」{end}
+EN: 
+
+#id 0004 ptr=1B8407 box=dialog
+JP: モーモー{n}「ジャスバンで拾ったんだよ。{n} じいさん、石コロ好きだろ? やるよ」{end}
+EN: 
+
+#id 0005 ptr=1B8432 box=dialog
+JP: ラドック{n}「お、おお。ありがとよ」{end}
+EN: 
+
+#id 0006 ptr=1B8444 box=dialog
+JP: リチャード{n}「リイム、たいへんなことに なってしまった」{delay:78}{clear:00}「よもや教授が狙われるとはな‥‥」{delay:78}{clear:00}「しかたがない。{n} 彼らとの交渉に応じるしか あるまい」{end}
+EN: 
+
+#id 0007 ptr=1B84A1 box=dialog
+JP: タムタム{n}「でも、魔石を ボンバーズに渡すわけには‥‥」{end}
+EN: 
+
+#id 0008 ptr=1B84C1 box=dialog
+JP: リチャード{n}「オレンジ と アイイロの魔石を{n} 持っていきなさい」{delay:78}{clear:00}「ライナークに伝わる アカイロの魔石の事は{n} 伏せておけば よかろう」{end}
+EN: 
+
+#id 0009 ptr=1B8514 box=dialog
+JP: 「ソロモンの塔は マテドラルの外れにある。{n} この事をハウサーにも知らせ、{n} 彼らの協力を あおいでくれ」{delay:78}{clear:00}「たのんだぞ」{end}
+EN: 
+
+#id 0010 ptr=1B855E box=dialog
+JP: {end}
+EN: 
+
+#id 0011 ptr=1B855F box=dialog
+JP: {end}
+EN: 
+
+#id 0012 ptr=1B8560 box=dialog
+JP: ヴァイス{n}「フン、奴等め、{n} とうとう しびれを切らして動き出したか」{delay:78}{clear:00}「いいさ、手間が省けたってもんだ。{n} 俺の部隊でのり込んで、叩きのめしてやるぜ‼」{end}
+EN: 
+
+#id 0013 ptr=1B85C0 box=dialog
+JP: シャルル{n}「ダメ! 人質がいるのよ!」{end}
+EN: 
+
+#id 0014 ptr=1B85D6 box=dialog
+JP: ヴァイス{n}「知ったことか」{end}
+EN: 
+
+#id 0015 ptr=1B85E5 box=dialog
+JP: シャルル{n}「そんな‥‥」{end}
+EN: 
+
+#id 0016 ptr=1B85F2 box=dialog
+JP: リイム{n}「待ってよ、ヴァイス。{n} 僕たちは、ボンバーズとの交渉に望もうとおもう」{end}
+EN: 
+
+#id 0017 ptr=1B8620 box=dialog
+JP: ヴァイス{n}「おいおい、勝手なことは こまるな」{delay:78}{clear:00}「この機をのがす手はねえぜ。{n} それとも、お前達に なにか策でもあるのかい?」{end}
+EN: 
+
+#id 0018 ptr=1B866C box=dialog
+JP: シャルル{n}「あるわよ!」{end}
+EN: 
+
+#id 0019 ptr=1B8679 box=dialog
+JP: シャルル{n}「教王、私たちに やらせてください。{n} きっと、解決してみせますから」{end}
+EN: 
+
+#id 0020 ptr=1B86A7 box=dialog
+JP: ハウサー{n}「ふむ、シャルルが そこまで言うのなら‥‥」{delay:78}{clear:00}「どうだろう? ヴァイス。{n} 勇者殿たちに 任せてみては?」{delay:78}{clear:00}「いざとなれば、お主が出て行けば よいじゃろう」{end}
+EN: 
+
+#id 0021 ptr=1B870D box=dialog
+JP: ヴァイス{n}「教王がそうおっしゃるのなら、{n} 奴等との交渉はリイム殿にお任せしましょう」{delay:78}{clear:00}「我々は部隊を率いて、ソロモンの外で{n} 待機します」{end}
+EN: 
+
+#id 0022 ptr=1B8769 box=dialog
+JP: 「リイム殿、{n} 助けが必要になったら いつでもお呼びください」{end}
+EN: 
+
+#id 0023 ptr=1B878E box=dialog
+JP: シャルル{n}「おあいにくさま。{n} ボンバーズなんか、私とモーモーで十分よ!」{end}
+EN: 
+
+#id 0024 ptr=1B87B7 box=dialog
+JP: リイム{n}「教王、ボンバーズの狙いは魔石です。{n} じゅうぶん お気をつけ下さい」{end}
+EN: 
+
+#id 0025 ptr=1B87E6 box=dialog
+JP: ハウサー{n}「ああ。余は だいじょうぶじゃ。{n} ヴァイスが ついていてくれるからの」{end}
+EN: 
+
+#id 0026 ptr=1B8811 box=dialog
+JP: {end}
+EN: 
+
+#id 0027 ptr=1B8812 box=dialog
+JP: {end}
+EN: 
+
+#id 0028 ptr=1B8813 box=dialog
+JP: {end}
+EN: 
+
+#id 0029 ptr=1B8814 box=dialog
+JP: 蒼月{n}「‥‥もうすこし、頭の切れる人達かと{n} おもったんですけどね、いがいと単純でいらっしゃる」{end}
+EN: 
+
+#id 0030 ptr=1B884D box=dialog
+JP: トランプ{n}「ヒャハハ!{n} 俺様より頭の切れるやつなんて、いやしねえのさ」{delay:78}{clear:00}「さぁ、さっさと かたづけちまおうぜ」{end}
+EN: 
+
+#id 0031 ptr=1B888F box=dialog
+JP: 蒼月{n}「まぁ待ってくださいよ。{n} どうせ魔石は、我らの手に堕ちるんです」{delay:78}{clear:00}「彼らの力が どの程度のものか?{n} じっくり見定めさせて もらいましょうよ」{end}
+EN: 
+
+#id 0032 ptr=1B88EE box=dialog
+JP: トランプ{n}「‥‥おお怖いねぇ。ヘッヘッヘ」{end}
+EN: 
+
+#id 0033 ptr=1B8905 box=dialog
+JP: 蒼月{n}「よくここまで これましたね。{n} だいぶ苦労なさったんじゃ ないんですか?」{end}
+EN: 
+
+#id 0034 ptr=1B8933 box=dialog
+JP: トランプ{n}「ものは持ってきたんだろうな!」{end}
+EN: 
+
+#id 0035 ptr=1B894A box=dialog
+JP: リイム{n}「‥‥うん」{end}
+EN: 
+
+#id 0036 ptr=1B8955 box=dialog
+JP: トランプ{n}「ヒャッヒャッヒャ! よこしな」{end}
+EN: 
+
+#id 0037 ptr=1B896B box=dialog
+JP: シャルル{n}「教授を離しなさいよ!」{end}
+EN: 
+
+#id 0038 ptr=1B8980 box=dialog
+JP: 蒼月{n}「交換といきましょう」{end}
+EN: 
+
+#id 0039 ptr=1B8993 box=dialog
+JP: 蒼月{n}「ん? 魔石はこれで全部ですか?」{end}
+EN: 
+
+#id 0040 ptr=1B89AE box=dialog
+JP: リイム{n}「‥‥そうだよ」{end}
+EN: 
+
+#id 0041 ptr=1B89BB box=dialog
+JP: 蒼月{n}「ウソは いけませんねぇ。{n} アカイロの魔石が 無いじゃないですか」{end}
+EN: 
+
+#id 0042 ptr=1B89E6 box=dialog
+JP: 「お忘れですか? ライナークのお姫様が{n} 身に着けている カチューシャの魔石ですよ」{end}
+EN: 
+
+#id 0043 ptr=1B8A18 box=dialog
+JP: リイム{n}「!」{end}
+EN: 
+
+#id 0044 ptr=1B8A20 box=dialog
+JP: 蒼月{n}「やれやれ、我々が知らないとでも思ったのですか? みくびらないでくださいよ」{end}
+EN: 
+
+#id 0045 ptr=1B8A50 box=dialog
+JP: 「直接いただきにあがっても 良かったのですが、{n} それには、あなたたちが邪魔なんでね」{delay:78}{clear:00}「ちょっと、遊びにつきあって{n} もらったってわけですよ」{end}
+EN: 
+
+#id 0046 ptr=1B8AA4 box=dialog
+JP: 蒼月{n}「もっとも、あまりにも簡単に ひっかかって{n} くれたんで、いささか拍子ぬけしましたけどね」{end}
+EN: 
+
+#id 0047 ptr=1B8ADB box=dialog
+JP: トランプ{n}「そういうことだ、チビスケ! ヒャッハッハ!」{end}
+EN: 
+
+#id 0048 ptr=1B8AF8 box=dialog
+JP: 蒼月{n}「こんなやり方は本意ではなかったんですけどね‥‥{n} トランプの非礼は お詫びしますよ」{end}
+EN: 
+
+#id 0049 ptr=1B8B2F box=dialog
+JP: トランプ{n}「ケッ、もんくあんのかよ」{end}
+EN: 
+
+#id 0050 ptr=1B8B42 box=dialog
+JP: 蒼月{n}「さてと、それじゃあ ライナークの魔石を{n} いただきに行くとしましょうか」{end}
+EN: 
+
+#id 0051 ptr=1B8B70 box=dialog
+JP: モーモー{n}「なんだと!」{end}
+EN: 
+
+#id 0052 ptr=1B8B7D box=dialog
+JP: 蒼月{n}「さぁ、Dr.スカル!{n} 彼らを丁重に もてなしてあげてください」{delay:78}{clear:00}「我々はまだ仕事が残っているんでね、{n} おさきに失礼させて いただきますよ」{end}
+EN: 
+
+#id 0053 ptr=1B8BD9 box=dialog
+JP: {end}
+EN: 
+
+#id 0054 ptr=1B8BDA box=dialog
+JP: リイム{n}「教授!」{end}
+EN: 
+
+#id 0055 ptr=1B8BE6 box=dialog
+JP: モーモー{n}「じいさん、だいじょうぶか?」{end}
+EN: 
+
+#id 0056 ptr=1B8BFB box=dialog
+JP: ラドック{n}「バカモン! もっと早く助けにこんかい!」{end}
+EN: 
+
+#id 0057 ptr=1B8C18 box=dialog
+JP: ラドック{n}「おお、いかん。いかん。{n} そんなことは どうでもいいのじゃ!」{delay:78}{clear:00}「わかった。ワシには全て わかったぞ」{delay:78}{clear:00}「カラードの教典に記された、願いをかなえる{n} 秘宝とは、まさに魔石の事!{n} そして、ジャスバンに封じられしは、魔物じゃ!」{end}
+EN: 
+
+#id 0058 ptr=1B8CA7 box=dialog
+JP: リイム{n}「?」{end}
+EN: 
+
+#id 0059 ptr=1B8CAF box=dialog
+JP: ラドック{n}「教典の付記には こうある」{delay:78}{clear:00}～ 手におえない魔物をここに封じる。{n}  魔石の加護をうけ、ねがわくば、{n}  我が護符が永遠に働かんことを。  ～{end}
+EN: 
+
+#id 0060 ptr=1B8D14 box=dialog
+JP: ラドック{n}「その昔、カラード教に ゆかりの深い者が{n} ジャスバンの祭壇に、魔物を封じた」{delay:78}{clear:00}「魔物とは、人をだます小悪魔のこと」{delay:78}{clear:00}「そして、魔物が蘇らぬよう、退魔の石として{n} 伝わっていた虹色の魔石を奉った。{n} まぁ、まじないの意味を込めたんじゃろうな」{end}
+EN: 
+
+#id 0061 ptr=1B8DBB box=dialog
+JP: リイム{n}「退魔の石?」{end}
+EN: 
+
+#id 0062 ptr=1B8DCA box=dialog
+JP: ラドック{n}「魔物に苦しめられていた カラードの民に{n} とって、願いとは まさに、魔物の封印」{delay:78}{clear:00}「すなわち、願いをかなえる秘宝とは、{n} 虹色の魔石に ほかならない!」{end}
+EN: 
+
+#id 0063 ptr=1B8E32 box=dialog
+JP: リイム{n}「じゃあ‥‥」{end}
+EN: 
+
+#id 0064 ptr=1B8E3E box=dialog
+JP: ラドック{n}「そう。封印された魔物こそが ヤゴ。{n} マテドラルに現れた あのヤゴなのじゃ!」{delay:78}{clear:00}「おそらく、だれかが封印をやぶり、{n} そして ヤゴに魅せられた。それが‥‥」{end}
+EN: 
+
+#id 0065 ptr=1B8EA0 box=dialog
+JP: リイム{n}「ヴァイス‥‥」{end}
+EN: 
+
+#id 0066 ptr=1B8EAD box=dialog
+JP: ラドック{n}「奴等は魔石を集めてしまった」{delay:78}{clear:00}「もし、奴等が魔石のちからを{n} 解放する術を 知っているならば、{n} 魔界への道は開かれる」{end}
+EN: 
+
+#id 0067 ptr=1B8F06 box=dialog
+JP: モーモー{n}「ん? 7つ揃わなきゃ ダメなんだろ?」{end}
+EN: 
+
+#id 0068 ptr=1B8F21 box=dialog
+JP: ラドック{n}「いや、その必要は ない」{delay:78}{clear:00}「魔石は、いわば鍵のような役割をはたすもの。{n} たとえ ひとつしかなくとも、ただしく使えば{n} 魔界への扉を開くことは 可能なハズじゃ」{end}
+EN: 
+
+#id 0069 ptr=1B8F8B box=dialog
+JP: ラドック{n}「魔石を取り戻さねばならぬ。{n} リイム、皆を護ってくれ!」{end}
+EN: 
+
+#id 0070 ptr=1B8FB4 box=dialog
+JP: リイム{n}「はい!」{end}
+EN: 
+
+#id 0071 ptr=1B8FBE box=dialog
+JP: ラドック{n}「あー、待て待て。{n} これを持って行かずに どうするつもりじゃ」{end}
+EN: 
+
+#id 0072 ptr=1B8FE8 box=dialog
+JP: 「ほれ」{end}
+EN: 
+
+#id 0073 ptr=1B8FED box=dialog
+JP: リイム{n}「これは?」{end}
+EN: 
+
+#id 0074 ptr=1B8FF8 box=dialog
+JP: ラドック{n}「アオイロの魔石。{n} モーモーがジャスバンで拾った あの石じゃよ」{end}
+EN: 
+
+#id 0075 ptr=1B9023 box=dialog
+JP: タムタム{n}「でも、教授の研究所は ボロボロに‥‥」{end}
+EN: 
+
+#id 0076 ptr=1B9042 box=dialog
+JP: ラドック{n}「あいつら、ワシのふところまでは{n} さがさなかったからのお」{end}
+EN: 
+
+#id 0077 ptr=1B9066 box=dialog
+JP: ラドック{n}「‥‥その昔、魔石は我らを救ったという。{n} 期待しようではないか。いまいちどの奇跡を」{end}
+EN: 
+
+#id 0078 ptr=1B90A0 box=dialog
+JP: {end}
+EN: 
+
+#id 0079 ptr=1B90A1 box=dialog
+JP: ヴァイス{n}「ほう、Dr.スカルを退けたか。{n} 勇者軍の名は だてじゃないってとこかな」{end}
+EN: 
+
+#id 0080 ptr=1B90D1 box=dialog
+JP: シャルル{n}「やっぱりあんた、ボンバーズの手先だったんだね!」{end}
+EN: 
+
+#id 0081 ptr=1B90F2 box=dialog
+JP: ヴァイス{n}「フン、そうみえるかい」{end}
+EN: 
+
+#id 0082 ptr=1B9104 box=dialog
+JP: リイム{n}「ヴァイス! 君はいったい?」{end}
+EN: 
+
+#id 0083 ptr=1B9119 box=dialog
+JP: ヴァイス{n}「言っただろ、俺は力を手に入れると‥‥」{delay:78}{clear:00}「そして手に入れたのさ。{n} ジャスバンに眠る伝説の秘宝。{n} 願いをかなえる ヤゴの秘宝をな!」{end}
+EN: 
+
+#id 0084 ptr=1B9177 box=dialog
+JP: 「そうさ、いまじゃボンバーズも俺の配下なんだよ」{end}
+EN: 
+
+#id 0085 ptr=1B9193 box=dialog
+JP: ヤゴ{n}「そうそう。ニャンニャン」{end}
+EN: 
+
+#id 0086 ptr=1B91A4 box=dialog
+JP: タムタム{n}「違うわ! ヴァイス、{n} そいつは 願いの秘宝なんかじゃないの!」{delay:78}{clear:00}「だまされちゃダメよ!」{end}
+EN: 
+
+#id 0087 ptr=1B91E1 box=dialog
+JP: ヤゴ{n}「そんなことは ないニャ」{end}
+EN: 
+
+#id 0088 ptr=1B91F2 box=dialog
+JP: ヴァイス{n}「そうか?{n} 俺は願いを かなえてもらったぜ。十分にな」{end}
+EN: 
+
+#id 0089 ptr=1B9218 box=dialog
+JP: 「ヤゴは俺に力をくれた。 見ろ! この力を!」{end}
+EN: 
+
+#id 0090 ptr=1B9234 box=dialog
+JP: リイム{n}「ヴァイス、目をさまして!{n} 魔石を集めて どうするつもりなんだい?」{delay:78}{clear:00}「虹は魔界への かけ橋となるんだよ!」{end}
+EN: 
+
+#id 0091 ptr=1B927D box=dialog
+JP: ヤゴ{n}「すばらしいじゃニャいか。{n} 魔界には ボクの仲間がいっぱいいるんだ」{end}
+EN: 
+
+#id 0092 ptr=1B92A8 box=dialog
+JP: ヴァイス{n}「そう、この力、ゆるぎなきものに」{end}
+EN: 
+
+#id 0093 ptr=1B92C0 box=dialog
+JP: 「‥‥リイム、これが最後だ。ひざまづけ。{n} そして俺の元へこい。{n} いっしょに国をつくろう。俺たちの国を!」{end}
+EN: 
+
+#id 0094 ptr=1B92FE box=dialog
+JP: リイム{n}「だめだよ、ヴァイス!{n} ‥‥キミのやりかたは まちがってる」{delay:78}{clear:00}「力による平定は、{n} 新たな混乱と悲しみを生むだけだよ」{delay:78}{clear:00}「わかってよ、ヴァイス! いまならやり直せる」{end}
+EN: 
+
+#id 0095 ptr=1B936A box=dialog
+JP: ヴァイス{n}「これから最後の仕上げに かかる。{n} 残された魔石を我が手に」{delay:78}{clear:00}「‥‥リイム、つぎに会うときは{n} 刃を交わさねば ならぬかもな。 さらばだ!」{end}
+EN: 
+
+#id 0096 ptr=1B93C8 box=dialog
+JP: {end}
+EN: 
+
+#id 0097 ptr=1B93C9 box=dialog
+JP: {end}
+EN: 
+
+#id 0098 ptr=1B93CA box=dialog
+JP: ライム{n}「リイム!」{end}
+EN: 
+
+#id 0099 ptr=1B93D5 box=dialog
+JP: 蒼月{n}「おっと」{end}
+EN: 
+
+#id 0100 ptr=1B93E0 box=dialog
+JP: 「お姫さまを お借りしますよ」{end}
+EN: 
+
+#id 0101 ptr=1B93F2 box=dialog
+JP: リイム{n}「ライム姫!」{end}
+EN: 
+
+#id 0102 ptr=1B93FF box=dialog
+JP: リチャード{n}「おお、なんということじゃ‥‥{n} 魔石を、ライムを奴等に奪われてしまった」{end}
+EN: 
+
+#id 0103 ptr=1B9430 box=dialog
+JP: リイム{n}「‥‥だいじょうぶです。{n} 僕たちが、必ずや姫を とりもどしてみせます!」{end}
+EN: 
+
+#id 0104 ptr=1B945D box=dialog
+JP: モーモー{n}「おっしゃ、行こうぜリイム!」{delay:78}{clear:00}「あいつらに、後悔させてやろうぜ。{n} ライナークに ちょっかいかけたことをな!」{n}{end}
+EN: 
+
+#id 0105 ptr=1B94A4 box=dialog
+JP: リチャード{n}「‥‥すまぬ、まかせたぞ。{n} お主たちだけが たよりじゃ」{end}
+EN: 
+
+#id 0106 ptr=1B94C9 box=dialog
+JP: リイム{n}「うん。ありがとう、タップン。助かるよ」{end}
+EN: 
+
+#id 0107 ptr=1B94E3 box=dialog
+JP: 「では、いってまいります」{end}
+EN: 
+
+#id 0108 ptr=1B94F1 box=dialog
+JP: {end}
+EN: 
+
+#id 0109 ptr=1B94F2 box=dialog
+JP: タップン{n}「ああ、おどれえた。えらいめにあったよ」{delay:78}{clear:00}「おまえさんたち、騎士団なんだろ?」{delay:78}{clear:00}「俺も商売だから、タダでってわけにはいかねえが、{n} お安くしとくからよ、強力な装備をそろえて{n} あいつらを、ガーンと やっつけちまってくれよ」{end}
+EN: 
+
+#id 0110 ptr=1B957C box=dialog
+JP: ハウサー{n}「ヴァイス、そなたは初めから これが目的で‥‥」{end}
+EN: 
+
+#id 0111 ptr=1B959D box=dialog
+JP: ヴァイス{n}「そう。俺たちが欲しかったのは、{n} この国に伝わる ミドリの魔石」{delay:78}{clear:00}「そして マテドラルの名前さ」{end}
+EN: 
+
+#id 0112 ptr=1B95E1 box=dialog
+JP: ヤゴ{n}「ニャハハ。{n} おまえたちは カラードを信じる民だろう?」{delay:78}{clear:00}「これは復讐だニャン。ボクがうけた{n} 苦しみは、倍にしてかえしてあげるニャ」{end}
+EN: 
+
+#id 0113 ptr=1B9634 box=dialog
+JP: ハウサー{n}「何故、何故お主はカラードを信仰する{n} 我ら マテドラルに災いをなすのか‥‥」{end}
+EN: 
+
+#id 0114 ptr=1B966A box=dialog
+JP: ヤゴ{n}「おまえの仲間が、ボクにしたことを{n} 忘れたとは いわせないニャ」{end}
+EN: 
+
+#id 0115 ptr=1B9692 box=dialog
+JP: ハウサー{n}「???」{end}
+EN: 
+
+#id 0116 ptr=1B969D box=dialog
+JP: ヴァイス{n}「教王、あんたは用ずみだ。{n} あんたの夢は 俺たちが実現してやるよ」{end}
+EN: 
+
+#id 0117 ptr=1B96CC box=dialog
+JP: 「魔物も人間もねえ、{n} すべてが俺の前に ひれふすのさ」{delay:78}{clear:00}「どうだ? これこそ、みんなが平等な{n} 理想郷だと思わねえか?」{end}
+EN: 
+
+#id 0118 ptr=1B971B box=dialog
+JP: ピーコック{n}「あにき～、もう止めてくだせ～」{delay:78}{clear:00}「どうしたんすか、むかしの優しかった{n} あにきは どこいっちまったんすか～!」{end}
+EN: 
+
+#id 0119 ptr=1B9761 box=dialog
+JP: 「あにきは、そのネコに そそのかされてるんすよ。{n} めをさまして ほしいっす～!」{end}
+EN: 
+
+#id 0120 ptr=1B978B box=dialog
+JP: ヤゴ{n}「うるさいニャ!」{end}
+EN: 
+
+#id 0121 ptr=1B9798 box=dialog
+JP: ピーコック{n}「ちくしょー、このバケモノめー!」{end}
+EN: 
+
+#id 0122 ptr=1B97B0 box=dialog
+JP: リイム{n}「ヴァイス!」{end}
+EN: 
+
+#id 0123 ptr=1B97BC box=dialog
+JP: ヴァイス{n}「おそかったな、リイム。{n} マテドラルの魔石は 俺たちが頂いた」{end}
+EN: 
+
+#id 0124 ptr=1B97E6 box=dialog
+JP: ヤゴ{n}「これで魔石は5つ。もう十分だニャ」{end}
+EN: 
+
+#id 0125 ptr=1B9800 box=dialog
+JP: ピーコック{n}「アニキ‥‥」{end}
+EN: 
+
+#id 0126 ptr=1B980E box=dialog
+JP: ヴァイス{n}「‥‥失せろ」{end}
+EN: 
+
+#id 0127 ptr=1B981C box=dialog
+JP: ヴァイス{n}「魔石は我が元へ。{n} もう、誰も俺たちを止めることはできない!」{delay:78}{clear:00}「いまこそライモスへ向かいて 虹をかけん。{n} ‥‥もうすぐだ。もうすぐ俺の望みが かなう」{end}
+EN: 
+
+#id 0128 ptr=1B9880 box=dialog
+JP: ハウサー{n}「余はヴァイスに 理想をみてしまった。{n} ヤゴの見せる奇跡を 信じてしまった」{delay:78}{clear:00}「あまりに妄信的であった。{n} 余には、人々の王たる資格などない‥‥」{delay:78}{clear:00}「ヴァイスを止めなければならぬ。{n} なんとか、なんとか彼を‥‥」{end}
+EN: 
+
+#id 0129 ptr=1B990D box=dialog
+JP: シャルル{n}「なんとしても彼を止めてみせます」{end}
+EN: 
+
+#id 0130 ptr=1B9926 box=dialog
+JP: ハウサー{n}「魔石は虹を呼び、虹は魔物を呼ぶ。{n} 全ては余の責任だ‥‥{n} すまない、本当にすまない」{end}
+EN: 
+
+#id 0131 ptr=1B9966 box=dialog
+JP: リイム{n}「そんなに御自分を責めないでください。{n} あとは僕たちが‥‥」{delay:78}{clear:00}「僕たちは、そのために来たのですから」{end}
+EN: 
+
+#id 0132 ptr=1B99AA box=dialog
+JP: ハウサー{n}「すまない、勇者殿‥‥」{end}
+EN: 
+
+#id 0133 ptr=1B99BF box=dialog
+JP: モーモー{n}「なーに、毎度のことですよ。な」{end}
+EN: 
+
+#id 0134 ptr=1B99D7 box=dialog
+JP: リイム{n}「よし、いこう」{end}
+EN: 
+
+#id 0135 ptr=1B99E4 box=dialog
+JP: {end}
+EN: 
+
+#id 0136 ptr=1B99E5 box=dialog
+JP: {end}
+EN: 
+
+#id 0137 ptr=1B99E6 box=dialog
+JP: {end}
+EN: 
+
+#id 0138 ptr=1B99E7 box=dialog
+JP: トランプ{n}「おい、じじいを はなしてやれ」{end}
+EN: 
+
+#id 0139 ptr=1B99FD box=dialog
+JP: タムタム{n}「よかった。炎が消えたわ」{end}
+EN: 
+
+#id 0140 ptr=1B9A12 box=dialog
+JP: リルル{n}「あっ、あれを見てください」{end}
+EN: 
+
+#id 0141 ptr=1B9A26 box=dialog
+JP: モーモー{n}「おー、虹だぜ!」{end}
+EN: 
+
+#id 0142 ptr=1B9A36 box=dialog
+JP: リルル{n}「教授は言ってましたよね。{n} 時がくれば、空が示してくれるって‥‥」{end}
+EN: 
+
+#id 0143 ptr=1B9A63 box=dialog
+JP: タムタム{n}「これが‥‥ 光りの印しなの‥‥?」{end}
+EN: 
+
+#id 0144 ptr=1B9A7D box=dialog
+JP: リイム{n}「‥‥行こう。ライモスはもうすぐだよ」{end}
+EN: 
+
+#id 0145 ptr=1B9A96 box=dialog
+JP: {end}
+EN: 
+
+#id 0146 ptr=1B9A97 box=dialog
+JP: {end}
+EN: 
+
+#id 0147 ptr=1B9A98 box=dialog
+JP: 蒼月{n}「姫はここの地下神殿に幽閉されています。{n} あなたたちなら、助け出すこともできるでしょう」{end}
+EN: 
+
+#id 0148 ptr=1B9AD4 box=dialog
+JP: リイム{n}「どうして僕たちにそんな話を‥‥」{end}
+EN: 
+
+#id 0149 ptr=1B9AEC box=dialog
+JP: 蒼月{n}「さあ? どうしてでしょうね」{end}
+EN: 
+
+#id 0150 ptr=1B9B01 box=dialog
+JP: タムタム{n}「あなたが やったことじゃない!」{end}
+EN: 
+
+#id 0151 ptr=1B9B18 box=dialog
+JP: 蒼月{n}「手荒なまねは 許してくださいよ」{delay:78}{clear:00}「ああでもしないと、ヤゴをだしぬいて魔石を{n} 手に入れるチャンスが なかったものでね」{end}
+EN: 
+
+#id 0152 ptr=1B9B67 box=dialog
+JP: リイム{n}「ライム姫は無事なんだろうね?」{end}
+EN: 
+
+#id 0153 ptr=1B9B7F box=dialog
+JP: 蒼月{n}「御安心を。姫には なにもしていませんよ。{n} 私はカチューシャが 欲しかっただけですからね」{end}
+EN: 
+
+#id 0154 ptr=1B9BB9 box=dialog
+JP: タムタム{n}「なんで急に そんな話をするのよ!{n} あなたも ヤゴの手下なんでしょう?」{end}
+EN: 
+
+#id 0155 ptr=1B9BE8 box=dialog
+JP: 蒼月{n}「‥‥違いますよ。{n} 一時的に手を組んでいるだけです」{end}
+EN: 
+
+#id 0156 ptr=1B9C0F box=dialog
+JP: タムタム{n}「だって‥‥」{end}
+EN: 
+
+#id 0157 ptr=1B9C1C box=dialog
+JP: 蒼月{n}「ヤゴの思い通りに事が運んでしまうと、{n} すこしマズイことに なってしまうんですよ」{delay:78}{clear:00}「彼の理想と私の理想は、{n} だいぶ かけはなれていますからね‥‥」{end}
+EN: 
+
+#id 0158 ptr=1B9C7D box=dialog
+JP: 「あなたたち、魔石をもっているんでしょう?{n} ネズミの教授から託された 魔石を」{delay:78}{clear:00}「そして、わずかな希望にかけて{n} 我々を追ってきた」{end}
+EN: 
+
+#id 0159 ptr=1B9CD2 box=dialog
+JP: リイム{n}「‥‥」{end}
+EN: 
+
+#id 0160 ptr=1B9CDB box=dialog
+JP: 蒼月{n}「御覧なさい。この古文書を」 {end}
+EN: 
+
+#id 0161 ptr=1B9CF5 box=dialog
+JP: 蒼月{n}「魔石の並びは虹の色。秩序をもって{n} 並べれば、レインボーロードが魔を封じる」{end}
+EN: 
+
+#id 0162 ptr=1B9D2C box=dialog
+JP: リイム{n}「レインボーロード‥‥」{end}
+EN: 
+
+#id 0163 ptr=1B9D3D box=dialog
+JP: 蒼月{n}「そう。虹色の魔石が7つ揃うとき、{n} 天空に七色の光が現れる」{n}{delay:78}{clear:00}「これこそ、レインボーロードと呼ばれる退魔の道。 悪しきものを魔界へと送還する虹の道です」{end}
+EN: 
+
+#id 0164 ptr=1B9DAC box=dialog
+JP: 「ヤゴは‥‥ ヤゴは危険な存在です。{n} 私は彼の元で、魔石を集める{n} 機会を うかがっていたんですよ」{end}
+EN: 
+
+#id 0165 ptr=1B9DEC box=dialog
+JP: 「魔石を我が手に、そして彼を封印する。{n} ‥‥あなた方だけが、この世界を{n} 救おうとしているわけでは ないのですよ」{end}
+EN: 
+
+#id 0166 ptr=1B9E32 box=dialog
+JP: タムタム{n}「そんな話、信じられないわ!」{delay:78}{clear:00}「それに、ヤゴを封印したとしても、{n} あなたが レインボーロードを{n} 悪用しないとは 限らないじゃない」{end}
+EN: 
+
+#id 0167 ptr=1B9E88 box=dialog
+JP: 蒼月{n}「フフフ、そうかもしれませんね」{end}
+EN: 
+
+#id 0168 ptr=1B9E9E box=dialog
+JP: 蒼月{n}「ライナークの姫は 神殿の地下に。{n} あとは、あなたたち しだいですよ」{end}
+EN: 
+
+#id 0169 ptr=1B9ECD box=dialog
+JP: タムタム{n}「リイム、信じられる?」{end}
+EN: 
+
+#id 0170 ptr=1B9EE0 box=dialog
+JP: モーモー{n}「ほかに手がねえよな」{end}
+EN: 
+
+#id 0171 ptr=1B9EF2 box=dialog
+JP: リイム{n}「うん、いまは信じるしかないよね」{end}
+EN: 
+
+#id 0172 ptr=1B9F09 box=dialog
+JP: {end}
+EN: 
+
+#id 0173 ptr=1B9F0A box=dialog
+JP: {end}
+EN: 
+
+#id 0174 ptr=1B9F0B box=dialog
+JP: {end}
+EN: 
+
+#id 0175 ptr=1B9F0C box=dialog
+JP: リイム{n}「姫、御無事でしたか」{end}
+EN: 
+
+#id 0176 ptr=1B9F20 box=dialog
+JP: ライム{n}「わたし‥‥平気です」{delay:78}{clear:00}「きっと、きっとリイムが 助けにきてくれるって、{n} 信じてましたから‥‥」{end}
+EN: 
+
+#id 0177 ptr=1B9F5F box=dialog
+JP: タムタム{n}「コホン、おとりこみちゅう すいませんけど、{n} そろそろ いきませんこと? おほほほ」{end}
+EN: 
+
+#id 0178 ptr=1B9F90 box=dialog
+JP: モーモー{n}「おい」{end}
+EN: 
+
+#id 0179 ptr=1B9F9A box=dialog
+JP: シャルル{n}「?」{end}
+EN: 
+
+#id 0180 ptr=1B9FA3 box=dialog
+JP: モーモー{n}「タムタムのやつ、何イライラしてんだ?{n} なんか迫力だよな。モー」{end}
+EN: 
+
+#id 0181 ptr=1B9FCD box=dialog
+JP: シャルル{n}「‥‥あんた、ニブイわねー」{end}
+EN: 
+
+#id 0182 ptr=1B9FE1 box=dialog
+JP: モーモー{n}「ん?」{end}
+EN: 
+
+#id 0183 ptr=1B9FEB box=dialog
+JP: シャルル{n}「ハァ～」{end}
+EN: 
+
+#id 0184 ptr=1B9FF6 box=dialog
+JP: リイム{n}「よし、いこう!」{end}
+EN: 
+
+#id 0185 ptr=1BA004 box=dialog
+JP: 一同{n}「おー!」{end}
+EN: 
+
+#id 0186 ptr=1BA00F box=dialog
+JP: {end}
+EN: 
+
+#id 0187 ptr=1BA010 box=dialog
+JP: {end}
+EN: 
+
+#id 0188 ptr=1BA011 box=dialog
+JP: {end}
+EN: 
+
+#id 0189 ptr=1BA012 box=dialog
+JP: {end}
+EN: 
+
+#id 0190 ptr=1BA013 box=dialog
+JP: {end}
+EN: 
+
+#id 0191 ptr=1BA014 box=dialog
+JP: {end}
+EN: 
+
+#id 0192 ptr=1BA015 box=dialog
+JP: 蒼月{n}「そろそろ はじめましょうか」{end}
+EN: 
+
+#id 0193 ptr=1BA02A box=dialog
+JP: リイム{n}「ひとつ‥‥ きかせてほしいんだ。{n} 蒼月、キミは何のために?」{end}
+EN: 
+
+#id 0194 ptr=1BA052 box=dialog
+JP: 蒼月{n}「‥‥いいでしょう、教えてあげますよ。{n} 我らボンバーズの目的を」{delay:78}{clear:00}「われわれも また、国を目指していたのです。{n} そう、あのヴァイスと同じくね」{end}
+EN: 
+
+#id 0195 ptr=1BA0AE box=dialog
+JP: 「われわれは、何故この大地に生まれたのか。{n} そんなことを 考えたことがありますか?」{delay:78}{clear:00}「考えてみてください。この大地は{n} あなた方 人間の為にあるようです」{delay:78}{clear:00}「世界のすべての仕組みが あなた方に{n} あつらえたかのように まとまっているのです」{delay:78}{clear:00}「わかりますか? この大地では、{n} 我ら魔物は マイノリティなんですよ」{delay:78}{clear:00}「私は想う。{n} 我ら魔物は何処へ行けばよいのか?」{delay:78}{clear:00}「やがて、同胞トランプと出会い、{n} 私の想いは確信にかわりました」{end}
+EN: 
+
+#id 0196 ptr=1BA1CA box=dialog
+JP: {end}
+EN: 
+
+#id 0197 ptr=1BA1CB box=dialog
+JP: 「スカルボンバーズは、もともとトランプが ひきいていた{n} ゴロツキの集まりだったんです」{delay:78}{clear:00}「これに組織としての 統一性と、{n} 方向性を与えたのが 私だったというわけです」{delay:78}{clear:00}「われわれが どこへいくべきなのか?{n} そう。どこでもない」{delay:78}{clear:00}「この大地にわれわれの 居場所はないんです。{n} 自分の居場所は、自分で創るしか{n} ないんですよ」{end}
+EN: 
+
+#id 0198 ptr=1BA298 box=dialog
+JP: 「私たちの求めた秘宝は ジャスバンにあった。{n} そして私たちより先にヴァイスが秘宝をみつけた」{delay:78}{clear:00}「願いは かなわないのか。{n} そんな思いに かられていたときに、ヤゴが現れた。{n} ヤゴは言った。{n} この大地に魔物の国をつくろうと」{delay:78}{clear:00}「その為に協力しろと。{n} 秘宝を失い、目標を見失いかけていた{n} 私たちは ヤゴの話にのった」{end}
+EN: 
+
+#id 0199 ptr=1BA361 box=dialog
+JP: 「それからは、あなたたちの知ってのとおりですよ」{end}
+EN: 
+
+#id 0200 ptr=1BA37B box=dialog
+JP: 蒼月{n}「ごらんなさい。あれは魔石の光です。{n} もう遅いんですよ。不完全なれど、{n} 彼らは虹を完成させている」{delay:78}{clear:00}「魔界への道が 通じてしまっているんですよ。{n} もはや、引き返すことの できないところまで{n} 来てしまって いるんです」{end}
+EN: 
+
+#id 0201 ptr=1BA408 box=dialog
+JP: 蒼月{n}「しかし、まだ全てが 終わったわけではない」{delay:78}{clear:00}「アオイロの魔石と アカイロの魔石。{n} 彼らが まだ手に入れていない{n} この2つの魔石があれば、{n} ヤゴを魔界へと 追放することができる」{end}
+EN: 
+
+#id 0202 ptr=1BA47E box=dialog
+JP: 「そして切り札は まだ我が手にある。{n} あなたのもつアオイロの魔石。そしてライナークの{n} 王女がもつ この、アカイロの魔石さえあれば」{end}
+EN: 
+
+#id 0203 ptr=1BA4CC box=dialog
+JP: 蒼月{n}「そろそろ決着をつけましょう。{n} 虹をかける者は 一人でいい」{end}
+EN: 
+
+#id 0204 ptr=1BA4F7 box=dialog
+JP: タムタム{n}「まって! 私たち協力しあうことはできないの!?{n} なぜ争わなくっちゃ ならないのよ!」{end}
+EN: 
+
+#id 0205 ptr=1BA52D box=dialog
+JP: 蒼月{n}「最後にもう一度だけ うかがいます。{n} 魔石を渡して貰えませんか?」{end}
+EN: 
+
+#id 0206 ptr=1BA55D box=dialog
+JP: リイム{n}「ゴメン、貴方に任せることは出来ないよ。{n} 僕たちのことは、僕たちで けりをつけたいんだ」{end}
+EN: 
+
+#id 0207 ptr=1BA596 box=dialog
+JP: 「貴方は、この大地は僕たちの ものだと{n} 言ったね。でも、ほんとうに そうなのかい?」{delay:78}{clear:00}「ボクにはわからない。{n} 何が正しいことなのかは わからない」{n}{delay:78}{clear:00}「‥‥それは誰にも決められない事なんだと思う」{end}
+EN: 
+
+#id 0208 ptr=1BA611 box=dialog
+JP: 「でも、ヴァイスたちの やろうとしていることを{n} 見過ごすわけには いかない。{n} だから、ボクたちは闘うんだ」{delay:78}{clear:00}「ほかならぬ、ボクたちの ためにね」{end}
+EN: 
+
+#id 0209 ptr=1BA664 box=dialog
+JP: 蒼月{n}「‥‥勇者よ、もっと早く出逢っていたならば、{n} キミたちと共に歩むことも出来たかもしれない」{delay:78}{clear:00}「しかし、それもいまとなっては かなわぬこと。{n} 互いの理想の為、互いの信ずるものの為、{n} 結果を出すためには{n} どちらかが 先に進まねばならぬ」{end}
+EN: 
+
+#id 0210 ptr=1BA6FC box=dialog
+JP: 「‥‥勝負だ、リイム・ライクバーン。{n} 雷光の騎士率いる 勇者軍の力、{n} とくと あじあわせてもらいましょう!」{end}
+EN: 
+
+#id 0211 ptr=1BA740 box=dialog
+JP: シャルル{n}「どうして、どうして こんなことになっちゃうのよ!」{end}
+EN: 
+
+#id 0212 ptr=1BA760 box=dialog
+JP: 蒼月{n}「‥‥いったでしょう、互いの理想の為だと」{end}
+EN: 
+
+#id 0213 ptr=1BA77F box=dialog
+JP: トランプ{n}「ヒャッハッハ! そんなあまっちょろいこと{n} 言ってっから、負けちまうんだよ」{end}
+EN: 
+
+#id 0214 ptr=1BA7AE box=dialog
+JP: ヴァイス{n}「そして、力の強いものが すべてを手にする!」{end}
+EN: 
+
+#id 0215 ptr=1BA7CE box=dialog
+JP: 「トランプ! ヴァイス!」{end}
+EN: 
+
+#id 0216 ptr=1BA7DC box=dialog
+JP: トランプ{n}「ヒャッハッハ ざまぁねえな、蒼月よ」{delay:78}{clear:00}「まあ、安心しな。{n} おめえがいなくても俺様のボンバーズは安泰よ」{delay:78}{clear:00}「すっげえ力がわいてくるのよ。{n} 俺はヴァイス達と組むぜ。{n} おめえの偉そうなツラは 見飽きちまったからな」{end}
+EN: 
+
+#id 0217 ptr=1BA867 box=dialog
+JP: ヤゴ{n}「おしゃべりはそれぐらいにするニャ」{delay:78}{clear:00}「蒼月、キミの役目は おわりだニャン。{n} コソコソやってた みたいだけど、{n} みんな御見通しだニャ。ごくろうさまだニャン」{end}
+EN: 
+
+#id 0218 ptr=1BA8C7 box=dialog
+JP: ヤゴ{n}「‥‥キミたち、よくきくんだニャン」{delay:78}{clear:00}「ボクたちは魔界への道を 手に入れたニャ。{n} この大地は、ボクのものだニャン」{end}
+EN: 
+
+#id 0219 ptr=1BA911 box=dialog
+JP: トランプ{n}「ギャッハッハ!{n} ボンバーズは最強だぜ。 誰でもかかってきな!」{end}
+EN: 
+
+#id 0220 ptr=1BA93B box=dialog
+JP: ヴァイス{n}「いまこそ、理想の国をつくるときだ。{n} 全ての力を 我が元へ!」{end}
+EN: 
+
+#id 0221 ptr=1BA968 box=dialog
+JP: 蒼月{n}「ヤゴには 気をゆるしてはなりません。{n} 彼は言葉たくみに 私たちをコントロールします」{delay:78}{clear:00}「ちょっとでも迷いを見せたら、つけこまれますよ」{end}
+EN: 
+
+#id 0222 ptr=1BA9BF box=dialog
+JP: リイム{n}「うん、わかったよ」{end}
+EN: 
+
+#id 0223 ptr=1BA9CE box=dialog
+JP: 蒼月{n}「これを」{end}
+EN: 
+
+#id 0224 ptr=1BA9D9 box=dialog
+JP: 「勇者よ、私の望みを あなたに託そう。{n} やはり、この大地は あなたたちの‥‥」{end}
+EN: 
+
+#id 0225 ptr=1BAA09 box=dialog
+JP: リイム{n}「えっ、何? なんていったんだい?」{end}
+EN: 
+
+#id 0226 ptr=1BAA21 box=dialog
+JP: 「教えてやろうか?{n} 闘いこそすべて。力こそすべてなのさ」{end}
+EN: 
+
+#id 0227 ptr=1BAA42 box=dialog
+JP: モーモー{n}「お～い、リイム～!」{end}
+EN: 
+
+#id 0228 ptr=1BAA53 box=dialog
+JP: 蒼月{n}「‥‥お仲間が きたようですね」{end}
+EN: 
+
+#id 0229 ptr=1BAA6B box=dialog
+JP: ヤゴ{n}「ねぇ、ヴァイス。彼をどうする?{n} やっつけちゃおうか? ニャンニャン」{end}
+EN: 
+
+#id 0230 ptr=1BAA94 box=dialog
+JP: シャルル{n}「まちなさい! 仲間なんでしょう?{n} どうして そんな酷いことが出来るのよ!」{end}
+EN: 
+
+#id 0231 ptr=1BAAC6 box=dialog
+JP: ヤゴ{n}「フフン、仲間なんて かんけーニャイね」{delay:78}{clear:00}「‥‥まあいいや。ボクはいま、{n} 機嫌がいいんだニャ。みのがしてあげるよ」{end}
+EN: 
+
+#id 0232 ptr=1BAB0D box=dialog
+JP: リイム{n}「蒼月‥‥‥‥」{end}
+EN: 
+
+#id 0233 ptr=1BAB1C box=dialog
+JP: {end}
+EN: 
+
+#id 0234 ptr=1BAB1D box=dialog
+JP: {end}
+EN: 
+
+#id 0235 ptr=1BAB1E box=dialog
+JP: {end}
+EN: 
+
+#id 0236 ptr=1BAB1F box=dialog
+JP: {end}
+EN: 
+
+#id 0237 ptr=1BAB20 box=dialog
+JP: {end}
+EN: 
+
+#id 0238 ptr=1BAB21 box=dialog
+JP: {end}
+EN: 
+
+#id 0239 ptr=1BAB22 box=dialog
+JP: トランプ{n}「きたなチビスケ。てめえら きにくわねえんだよ、{n} いつもいつも俺様の邪魔しやがって!」{delay:78}{clear:00}「ボンバーズ最強軍団が 相手をしてやるよ。{n} こんどこそ ギタギタにしてやるぜ」{delay:78}{clear:00}「どーだ、ビビったか? ヒャッヒャッヒャ!」{end}
+EN: 
+
+#id 0240 ptr=1BABA8 box=dialog
+JP: モーモー{n}「おい! ガイコツ野郎!」{end}
+EN: 
+
+#id 0241 ptr=1BABBD box=dialog
+JP: 「逃げるなら いまのうちだぜ」{end}
+EN: 
+
+#id 0242 ptr=1BABCE box=dialog
+JP: {end}
+EN: 
+
+#id 0243 ptr=1BABCF box=dialog
+JP: {end}
+EN: 
+
+#id 0244 ptr=1BABD0 box=dialog
+JP: ヴァイス{n}「さぁ、リイム。けりをつけようぜ」{end}
+EN: 
+
+#id 0245 ptr=1BABE7 box=dialog
+JP: リイム{n}「キミはだまされているんだ! まだわからないのかい?{n} おねがいだ、剣を収めてくれ」{end}
+EN: 
+
+#id 0246 ptr=1BAC18 box=dialog
+JP: ヴァイス{n}「なにをいってやがる! もう少しだ。{n} もう少しで 俺の国が手に入るんだ」{end}
+EN: 
+
+#id 0247 ptr=1BAC49 box=dialog
+JP: ヤゴ{n}「そうだヴァイス。もうすこしだニャ」{delay:78}{clear:00}「すでに魔界から、君を応援してくれる{n} 魔物が続々と到着しているよ。{n} 君の国をつくろう。それは遠いことではないんだ」{end}
+EN: 
+
+#id 0248 ptr=1BACAE box=dialog
+JP: ヴァイス{n}「誰にも邪魔はさせねえ。いくぞ、リイム!」{end}
+EN: 
+
+#id 0249 ptr=1BACCC box=dialog
+JP: {end}
+EN: 
+
+#id 0250 ptr=1BACCD box=dialog
+JP: {end}
+EN: 
+
+#id 0251 ptr=1BACCE box=dialog
+JP: {end}
+EN: 
+
+#id 0252 ptr=1BACCF box=dialog
+JP: ヤゴ{n}「ゆるさない? それはボクの言いたかったことだニャ」{end}
+EN: 
+
+#id 0253 ptr=1BACEE box=dialog
+JP: 一同{n}「?」{end}
+EN: 
+
+#id 0254 ptr=1BACF7 box=dialog
+JP: ヤゴ{n}「お前達は ボクをだました」{n}{delay:78}{clear:00}「あんなちっちゃな壺に 何百年も{n} このボクを閉じ込めた」{delay:78}{clear:00}「だからボクは お前たちをゆるさニャい」{end}
+EN: 
+
+#id 0255 ptr=1BAD50 box=dialog
+JP: モーモー{n}「むかしの話だろ!」{end}
+EN: 
+
+#id 0256 ptr=1BAD61 box=dialog
+JP: ヤゴ{n}「ボクにとっては、ついこの間のことなんだニャン」{end}
+EN: 
+
+#id 0257 ptr=1BAD7E box=dialog
+JP: 一同「‥‥」{end}
+EN: 
+
+#id 0258 ptr=1BAD87 box=dialog
+JP: ヤゴ{n}「ボクが なにをしたニャ?」{end}
+EN: 
+
+#id 0259 ptr=1BAD99 box=dialog
+JP: タムタム{n}「人をだまして いたんじゃないの!」{end}
+EN: 
+
+#id 0260 ptr=1BADB2 box=dialog
+JP: ヤゴ{n}「だます? とんでもニャい。{n} ボクは願いをかなえて あげるつもりだったニャ、{n} いつだってね」{end}
+EN: 
+
+#id 0261 ptr=1BADE7 box=dialog
+JP: モーモー{n}「なんだと、このやろう」{end}
+EN: 
+
+#id 0262 ptr=1BADF9 box=dialog
+JP: リイム{n}「たしかにキミにも 言い分はあると思う」{delay:78}{clear:00}「むかしなにがあったのか、僕たちには解らないけど、{n} 今のキミに危害を加えるつもりは ないんだ」{end}
+EN: 
+
+#id 0263 ptr=1BAE51 box=dialog
+JP: 「お願いだ、僕たちの暮らしを乱さないでほしい」{delay:78}{clear:00}「キミに踊らされた人達がいる。{n} 無意味な争いと 衝突がおきてしまったんだ」{delay:78}{clear:00}「これ以上争うのは やめようよ。{n} キミには ちょっかいを出さない。約束する」{end}
+EN: 
+
+#id 0264 ptr=1BAED5 box=dialog
+JP: ヤゴ{n}「フフン、だまされる方が わるいと思わニャいかい?{n} ボクは キミたちを信じニャいよ」{end}
+EN: 
+
+#id 0265 ptr=1BAF07 box=dialog
+JP: タムタム{n}「どうして!? どうして わかってくれないのよ!」{end}
+EN: 
+
+#id 0266 ptr=1BAF26 box=dialog
+JP: ヤゴ{n}「うるさ～い。{n} ボクにさしずするニャ! 覚悟しろだニャン」{end}
+EN: 
+
+#id 0267 ptr=1BAF4A box=dialog
+JP: {end}
+EN: 
+
+#id 0268 ptr=1BAF4B box=dialog
+JP: {end}
+EN: 
+
+#id 0269 ptr=1BAF4C box=dialog
+JP: {end}
+EN: 
+
+#id 0270 ptr=1BAF4D box=dialog
+JP: {end}
+EN: 
+
+#id 0271 ptr=1BAF4E box=dialog
+JP: {end}
+EN: 
+
+#id 0272 ptr=1BAF4F box=dialog
+JP: {end}
+EN: 
+
+#id 0273 ptr=1BAF50 box=dialog
+JP: {end}
+EN: 
+
+#id 0274 ptr=1BAF51 box=dialog
+JP: 蒼月{n}「よーく見ておけ。あれが虹の光、{n} 捜し求めた レインボーロードの光だ」{end}
+EN: 
+
+#id 0275 ptr=1BAF81 box=dialog
+JP: 「さぁ、行くぞ。我らの理想はまだ遠い」{end}
+EN: 
+
+#id 0276 ptr=1BAF9A box=dialog
+JP: モーモー{n}「おっ、主役のおでましだぜ」{delay:78}{clear:00}「よかったな、ヴァイス。また、マテドラルに{n} もどれんだろ?」{end}
+EN: 
+
+#id 0277 ptr=1BAFD5 box=dialog
+JP: シャルル{n}「こんどは仲間同士ってワケか‥‥」{delay:78}{clear:00}「でもね、あたしは あんたのこと完全に{n} 信用したわけじゃないわよ」{delay:78}{clear:00}「教王の御命令だから、しかたなく{n} いっしょに組むんですからね」{n}{delay:78}{clear:00}「‥‥まぁ、ちょっとは{n} 期待してあげても いいけどね♪」{end}
+EN: 
+
+#id 0278 ptr=1BB06E box=dialog
+JP: タムタム{n}「願いをかなえる魔物‥‥{n} ヤゴはあなたの気持ちにつけこんだのね」{delay:78}{clear:00}「でも、もうあなたは大丈夫よ。{n} 初めて出逢ったときの事を思い出して!」{delay:78}{clear:00}「これからは、いっしょに頑張っていきましょう」{end}
+EN: 
+
+#id 0279 ptr=1BB0EC box=dialog
+JP: ヴァイス{n}「おれは、自分の理想におぼれちまってたようだ。{n} なかなか かなわない夢を、ささえきれなかった‥‥」{delay:78}{clear:00}「おまえたち‥‥ もし、秘宝を手に入れたら、{n} もし、望みが かなうとしたら‥‥ 何を望む?」{end}
+EN: 
+
+#id 0280 ptr=1BB165 box=dialog
+JP: モーモー{n}「そうだな、とりあえずは‥‥{n} 腹いっぱい うめえモンが喰いてえな」{end}
+EN: 
+
+#id 0281 ptr=1BB18F box=dialog
+JP: シャルル{n}「プッ、なによそれ。まったく いじきたないわね」{end}
+EN: 
+
+#id 0282 ptr=1BB1AD box=dialog
+JP: リイム{n}「ボクも同じだな。{n} みんなで、おなかいっぱい パイナップルを食べたいな」{end}
+EN: 
+
+#id 0283 ptr=1BB1D9 box=dialog
+JP: タムタム{n}「んーと、あたしはオレンジがいい」{end}
+EN: 
+
+#id 0284 ptr=1BB1F0 box=dialog
+JP: シャルル{n}「‥‥それじゃ、あたしはクッキー。{n} 誰にもあげないよ。ひとりで食べるんだモン♡」{end}
+EN: 
+
+#id 0285 ptr=1BB221 box=dialog
+JP: ライム{n}「わたしも‥‥ パイナップルをたべてみたいです♡」{end}
+EN: 
+
+#id 0286 ptr=1BB23F box=dialog
+JP: リチャード{n}「ほっほっほ。みんなおなかが すいているようじゃな。{n} さ、こちらへまいれ。好きなだけ食べるがよい」{delay:78}{clear:00}「ほんとうに ごくろうであった」{end}
+EN: 
+
+#id 0287 ptr=1BB290 box=dialog
+JP: モーモー{n}「こりゃ ありがてぇや」{end}
+EN: 
+
+#id 0288 ptr=1BB2A2 box=dialog
+JP: リイム{n}「どうしたんだい? さあ、いこう」{end}
+EN: 
+
+#id 0289 ptr=1BB2B8 box=dialog
+JP: ヴァイス{n}「‥‥ああ」{delay:78}{clear:00}「リイム、こんどは‥‥」{end}
+EN: 
+
+#id 0290 ptr=1BB2D6 box=dialog
+JP: リイム{n}「ん?」{end}
+EN: 
+
+#id 0291 ptr=1BB2DF box=dialog
+JP: ヴァイス{n}「こんどチャンスがあったら、{n} 俺もなにか食い物でも願うとするよ」{end}
+EN: 
+
+#id 0292 ptr=1BB30A box=dialog
+JP: リイム{n}「‥‥そうだね」{delay:78}{clear:00}「さぁ、ぼくたちもいこうよ。はやく いかなきゃ、{n} モーモーに みんな食べられちゃうからさ」{end}
+EN: 
+
+#id 0293 ptr=1BB34C box=dialog
+JP: ヴァイス{n}「へへッ」{end}
+EN: 
+
+#id 0294 ptr=1BB357 box=dialog
+JP: リチャード{n}「ヴァイス、おぬし達の しでかしたことは、{n} 本来なら決して許されるものではない」{delay:78}{clear:00}「しかしながら、{n} 魔物ヤゴの甘言に のってしまったがゆえの{n} 愚行であることは 想像にかたくない」{end}
+EN: 
+
+#id 0295 ptr=1BB3CC box=dialog
+JP: {end}
+EN: 
+
+#id 0296 ptr=1BB3CD box=dialog
+JP: ハウサー{n}「人は誰しも過ちをおかすものだ。{n} 余も、償いきれない過ちをおかしてしまった‥‥」{end}
+EN: 
+
+#id 0297 ptr=1BB402 box=dialog
+JP: 「二度とこのような悲劇を繰り返すまい。{n} マテドラルには強き意思をもった{n} 若者が必要なのだ」{end}
+EN: 
+
+#id 0298 ptr=1BB43F box=dialog
+JP: 「私はつねに考えている。{n} 争いのない みな平等な世界をつくりたい」{delay:78}{clear:00}「それがカラードの教えでもあった。{n} そのためには、力は不要なものだとおもっていた」{delay:78}{clear:00}「‥‥だが、それは間違いだったのだろう。{n} 理想を守る為にこそ力は必要なのだ」{delay:78}{clear:00}「物事を見誤ることのなく使われる{n} 正しい力が」{end}
+EN: 
+
+#id 0299 ptr=1BB4F8 box=dialog
+JP: 「‥‥ヴァイス、いまいちど余のもとにまいれ。{n} そなたの力を借りたい」{delay:78}{clear:00}「ともに国を創っていこうではないか」{end}
+EN: 
+
+#id 0300 ptr=1BB539 box=dialog
+JP: ヴァイス{n}「しかし‥‥」{end}
+EN: 
+
+#id 0301 ptr=1BB546 box=dialog
+JP: リチャード{n}「ヴァイスと その一味に命ずる」{delay:78}{clear:00}「ハウサー教王の元、{n} 今回の一件で疲弊してしまった{n} マテドラルの復興に尽力をつくしてあたるように」{delay:78}{clear:00}「それが お主たちの罪滅ぼしとなろう」{end}
+EN: 
+
+#id 0302 ptr=1BB5C2 box=dialog
+JP: ヴァイス{n}「だが、おれは‥‥」{end}
+EN: 
+
+#id 0303 ptr=1BB5D2 box=dialog
+JP: ハウサー{n}「もうよい、ヴァイス。わだかまりはあろうが、{n} 時間が解決してくれるものと信じておるよ」{delay:78}{clear:00}「余と共に過ちを償おうではないか」{end}
+EN: 
+
+#id 0304 ptr=1BB624 box=dialog
+JP: ヴァイス{n}「‥‥」{end}
+EN: 
+
+#id 0305 ptr=1BB62E box=dialog
+JP: ピーコック{n}「よかったっスね、あにき!{n} これからも いっしょに頑張りましょう」{end}
+EN: 
+
+#id 0306 ptr=1BB659 box=dialog
+JP: {end}
+EN: 
+
+#id 0307 ptr=1BB65A box=dialog
+JP: {end}
+EN: 
+
+#id 0308 ptr=1BB65B box=dialog
+JP: {end}
+EN: 
+
+#id 0309 ptr=1BB65C box=dialog
+JP: {end}
+EN: 
+
+#id 0310 ptr=1BB65D box=dialog
+JP: {end}
+EN: 
+
+#id 0311 ptr=1BB65E box=dialog
+JP: {end}
+EN: 
+
+#id 0312 ptr=1BB65F box=dialog
+JP: 兵士{n}「閣下に申し上げます、{n} 過日マテドラル城下にて{n} 巨大な洞穴が発見されました」{delay:78}{clear:00}「早速調査隊を派遣しましたところ、{n} 魔物が暴れていてとても奥に進めないとのこと」{delay:78}{clear:00}「どうか、お力をお貸しください」{end}
+EN: 
+
+#id 0313 ptr=1BB6EE box=dialog
+JP: {end}
+EN: 
+
+#id 0314 ptr=1BB6EF box=dialog
+JP: ヴァイス{n}「リイム、おまえの勝ちだ」{end}
+EN: 
+
+#id 0315 ptr=1BB703 box=dialog
+JP: リイム{n}「ヴァイス‥‥」{end}
+EN: 
+
+#id 0316 ptr=1BB710 box=dialog
+JP: ヴァイス{n}「よるな!」{end}
+EN: 
+
+#id 0317 ptr=1BB71C box=dialog
+JP: リイム{n}「ヴァイス、キミにはまだやるべきことがある。{n} なにをすべきか、キミ自身が解っているはずだよ」{end}
+EN: 
+
+#id 0318 ptr=1BB753 box=dialog
+JP: ヴァイス{n}「しかし‥‥ おれは‥‥」{end}
+EN: 
+
+#id 0319 ptr=1BB766 box=dialog
+JP: タムタム{n}「あなたの行動で傷ついた人達がいるわ」{delay:78}{clear:00}「なにをすればいいのか?{n} それは、これから考えればいいことよ」{end}
+EN: 
+
+#id 0320 ptr=1BB7AB box=dialog
+JP: ヴァイス{n}「‥‥‥‥」{end}
+EN: 
+
+#id 0321 ptr=1BB7B7 box=dialog
+JP: ヤゴ{n}「ニャーン。お話は終わったかニャン」{end}
+EN: 
+
+#id 0322 ptr=1BB7CF box=dialog
+JP: モーモー{n}「あぶねえ!」{end}
+EN: 
+
+#id 0323 ptr=1BB7DC box=dialog
+JP: モーモー{n}「おっとっと」{end}
+EN: 
+
+#id 0324 ptr=1BB7E9 box=dialog
+JP: ヤゴ{n}「どいつもこいつも 役たたずだニャン」{delay:78}{clear:00}「‥‥そうだ、お前たち、すごい力を持っているね。{n} どう? ボクといっしょに国をつくらないかニャ?」{end}
+EN: 
+
+#id 0325 ptr=1BB83D box=dialog
+JP: モーモー{n}「おおきなお世話だよ」{end}
+EN: 
+
+#id 0326 ptr=1BB850 box=dialog
+JP: ヤゴ{n}「お前、魔物だね。{n} どうして人間と いっしょにいるんだい?」{delay:78}{clear:00}「こっちにおいでよ。{n} いっしょに世界を手にしようニャ」{end}
+EN: 
+
+#id 0327 ptr=1BB89D box=dialog
+JP: モーモー{n}「フン! ごめんだね」{end}
+EN: 
+
+#id 0328 ptr=1BB8AE box=dialog
+JP: ヤゴ{n}「君達の望みは なんだい?{n} ボクが かなえてあげるニャ」{end}
+EN: 
+
+#id 0329 ptr=1BB8D2 box=dialog
+JP: シャルル{n}「あんた、かってなことばかり言ってるんじゃないわよ!」{delay:78}{clear:00}「自分じゃ なにもできないんでしょう、{n} だから私たちの心に つけこむのよ」{end}
+EN: 
+
+#id 0330 ptr=1BB924 box=dialog
+JP: 「でもね、おあいにくさま。世界の全てが{n} 思い通りになるなんて考えないでよね」{delay:78}{clear:00}「望みは かなえてもらうものじゃなくて、{n} 自分の力で かなえるものなのよ!」{end}
+EN: 
+
+#id 0331 ptr=1BB983 box=dialog
+JP: タムタム{n}「さぁ、かんねんなさい!{n} あなたの味方は誰もいなくなったわ!」{end}
+EN: 
+
+#id 0332 ptr=1BB9AC box=dialog
+JP: ヤゴ{n}「いいきになるニャ～～! ボクが本気をだせば、{n} おまえたちなんか ひとひねりだニャー」{end}
+EN: 
+
+#id 0333 ptr=1BB9DE box=dialog
+JP: ヴァイス{n}「リイム! 魔石をおまえに」{end}
+EN: 
+
+#id 0334 ptr=1BB9F4 box=dialog
+JP: 「くそっ、届いてくれっ!!」{end}
+EN: 
+
+#id 0335 ptr=1BBA04 box=dialog
+JP: {end}
+EN: 
+
+#id 0336 ptr=1BBA05 box=dialog
+JP: {end}
+EN: 
+
+#id 0337 ptr=1BBA06 box=dialog
+JP: {end}
+EN: 
+
+#id 0338 ptr=1BBA07 box=dialog
+JP: {end}
+EN: 
+
+#id 0339 ptr=1BBA08 box=dialog
+JP: {end}
+EN: 
+
+#id 0340 ptr=1BBA09 box=dialog
+JP: {end}
+EN: 
+
+#id 0341 ptr=1BBA0A box=dialog
+JP: {end}
+EN: 
+
+#id 0342 ptr=1BBA0B box=dialog
+JP: 「しんきろうの平原へ ようこそ。{n} ここにはミラージュと呼ばれる4本の塔がある」{delay:78}{clear:00}「この塔は、心を映す不思議の塔。{n} 魔物を恐れれば、魔物が現れ、{n} 水を恐れれば、水が現れる」{delay:78}{clear:00}「それはマボロシのような ものなのかもしれない」{delay:78}{clear:00}「しかし、そのマボロシを克服すれば、{n} いくばくかの経験を得ることができる」{delay:78}{clear:00}「もし、この先、お主たちが入れない階が{n} あったとしたら、それは塔が拒んでおるのじゃ。{n} また別な機会に 挑戦すればよいじゃろう」{delay:78}{clear:00}「さあ、昇るがよい!!」{end}
+EN: 
+
+#id 0343 ptr=1BBB33 box=dialog
+JP: タムタム{n}「ここは‥‥」{end}
+EN: 
+
+#id 0344 ptr=1BBB40 box=dialog
+JP: リイム{n}「もとの教会だよ。もどってきたんだね」{end}
+EN: 
+
+#id 0345 ptr=1BBB5A box=dialog
+JP: タムタム{n}「これで おわったの?」{end}
+EN: 
+
+#id 0346 ptr=1BBB6C box=dialog
+JP: モーモー{n}「どうかな‥‥」{end}
+EN: 
+
+#id 0347 ptr=1BBB7A box=dialog
+JP: シャルル{n}「ヤゴは どうなったのかしら?」{end}
+EN: 
+
+#id 0348 ptr=1BBB90 box=dialog
+JP: リイム{n}「魔界へ はじき飛ばされただけだよ。{n} ‥‥たぶん元気なんじゃないかな」{end}
+EN: 
+
+#id 0349 ptr=1BBBBE box=dialog
+JP: シャルル{n}「また、もどってくるかしら?」{end}
+EN: 
+
+#id 0350 ptr=1BBBD3 box=dialog
+JP: モーモー{n}「さあね?」{end}
+EN: 
+
+#id 0351 ptr=1BBBDF box=dialog
+JP: 「リイム! ヴァイスが」{end}
+EN: 
+
+#id 0352 ptr=1BBBEC box=dialog
+JP: {end}
+EN: 
+
+#id 0353 ptr=1BBBED box=dialog
+JP: リイム{n}「ヴァイス! 大丈夫かい?」{end}
+EN: 
+
+#id 0354 ptr=1BBC03 box=dialog
+JP: ヴァイス{n}「‥‥リ、イム‥‥{n} おまえ、無事だったのか‥‥」{end}
+EN: 
+
+#id 0355 ptr=1BBC24 box=dialog
+JP: 「あいつは‥‥ヤゴは‥‥」{end}
+EN: 
+
+#id 0356 ptr=1BBC32 box=dialog
+JP: リイム{n}「ヤゴは魔界へ還ったよ。{n} 終わったんだよ、ヴァイス」{end}
+EN: 
+
+#id 0357 ptr=1BBC56 box=dialog
+JP: ヴァイス{n}「へへっ、そうか、{n} 俺の悪だくみもこれまでってワケだな」{end}
+EN: 
+
+#id 0358 ptr=1BBC7B box=dialog
+JP: リイム{n}「‥‥‥‥」{end}
+EN: 
+
+#id 0359 ptr=1BBC86 box=dialog
+JP: ヴァイス{n}「おめえら、やっぱり凄いよな。{n} ヤゴを やっつけちまうなんてな」{delay:78}{clear:00}「はは、俺は‥‥おれは、{n} なんてことを しちまったんだろうな」{end}
+EN: 
+
+#id 0360 ptr=1BBCD5 box=dialog
+JP: 「ヤゴに いいように利用されていたなんて‥‥{n} まったく、マヌケな話だぜ」{end}
+EN: 
+
+#id 0361 ptr=1BBCFE box=dialog
+JP: リイム{n}「‥‥いいんだよ、ヴァイス。もういいんだ」{end}
+EN: 
+
+#id 0362 ptr=1BBD18 box=dialog
+JP: 「さぁ、帰ろう。みんなが待っているよ」{end}
+EN: 
+
+#id 0363 ptr=1BBD2E box=dialog
+JP: {end}
+EN: 
+
+#id 0364 ptr=1BBD2F box=dialog
+JP: {end}
+EN: 
+
+#id 0365 ptr=1BBD30 box=dialog
+JP: {end}
+EN: 
+
+#id 0366 ptr=1BBD31 box=dialog
+JP: {end}
+EN: 
+
+#id 0367 ptr=1BBD32 box=dialog
+JP: {end}
+EN: 
+
+#id 0368 ptr=1BBD33 box=dialog
+JP: シャルル{n}「ンもう!」{end}
+EN: 
+
+#id 0369 ptr=1BBD3F box=dialog
+JP: 「‥‥‥‥‥‥‥‥怖かったぞい」{delay:78}{clear:00}「ああ、そんなことは どうでもいいんじゃ!」{end}
+EN: 
+
+#id 0370 ptr=1BBD6D box=dialog
+JP: {end}
+EN: 
+
+#id 0371 ptr=1BBD6E box=dialog
+JP: {end}
+EN: 
+
+#id 0372 ptr=1BBD6F box=dialog
+JP: {end}
+EN: 
+
+#id 0373 ptr=1BBD70 box=dialog
+JP: {end}
+EN: 
+
+#id 0374 ptr=1BBD71 box=dialog
+JP: {end}
+EN: 
+
+#id 0375 ptr=1BBD72 box=dialog
+JP: {end}
+EN: 
+
+#id 0376 ptr=1BBD73 box=dialog
+JP: {end}
+EN: 
+
+#id 0377 ptr=1BBD74 box=dialog
+JP: {end}
+EN: 
+
+#id 0378 ptr=1BBD75 box=dialog
+JP: {end}
+EN: 
+
+#id 0379 ptr=1BBD76 box=dialog
+JP: {end}
+EN: 
+
+#id 0380 ptr=1BBD77 box=dialog
+JP: {end}
+EN: 
+
+#id 0381 ptr=1BBD78 box=dialog
+JP: {end}
+EN: 
+
+#id 0382 ptr=1BBD79 box=dialog
+JP: {end}
+EN: 
+
+#id 0383 ptr=1BBD7A box=dialog
+JP: {end}
+EN: 
+
+#id 0384 ptr=1BBD7B box=dialog
+JP: {end}
+EN: 
+
+#id 0385 ptr=1BBD7C box=dialog
+JP: {end}
+EN: 
+
+#id 0386 ptr=1BBD7D box=dialog
+JP: {end}
+EN: 
+
+#id 0387 ptr=1BBD7E box=dialog
+JP: {end}
+EN: 
+
+#id 0388 ptr=1BBD7F box=dialog cont=1
+JP: モーモー{n}「おっ、主役のおでましだぜ」{delay:78}{clear:00}「よかったな、ヴァイス。また、マテドラルに{n} もどれんだろ?」
+EN: 
+
+#id 0389 ptr=1BBDB9 box=dialog
+JP: {end}
+EN: 
+
+#id 0390 ptr=1BBDBA box=dialog
+JP: シャルル{n}「これからは仲間同士ってワケね‥‥」{end}
+EN: 
+
+#id 0391 ptr=1BBDD6 box=dialog
+JP: 「でも、あたしは あんたのこと完全に{n} 信用したわけじゃないわよ」{delay:78}{clear:00}「教王の御命令だから、しかたなく{n} いっしょに組むんですからね‥‥」{n}{end}
+EN: 
+
+#id 0392 ptr=1BBE2B box=dialog
+JP: 「‥‥まぁ、仲良くやりましょ。{n} ちょっとは期待してあげてもいいわ♡」{end}
+EN: 
+
+#id 0393 ptr=1BBE53 box=dialog
+JP: タムタム{n}「願いをかなえる魔物‥‥{n} ヤゴはあなたの気持ちにつけこんだのね」{end}
+EN: 
+
+#id 0394 ptr=1BBE7F box=dialog
+JP: 「でも、あなたは自分をとりもどしたわ。{n} 初めて出逢ったときのようにね」{end}
+EN: 
+
+#id 0395 ptr=1BBEA9 box=dialog
+JP: 「ヴァイス、これからは、{n} いっしょに頑張っていきましょう」{end}
+EN: 
+
+#id 0396 ptr=1BBECA box=dialog
+JP: ヴァイス{n}「おまえたち‥‥」{delay:78}{clear:00}「おれは、自分の理想におぼれちまってたようだ。{n} おおきすぎた夢を、ささえきれなかった‥‥」{end}
+EN: 
+
+#id 0397 ptr=1BBF12 box=dialog
+JP: 「おまえたち‥‥ もし、秘宝を手に入れたら、{n} もし、望みが かなうとしたら‥‥」{end}
+EN: 
+
+#id 0398 ptr=1BBF41 box=dialog
+JP: 「何を望む?」{end}
+EN: 
+
+#id 0399 ptr=1BBF4B box=dialog
+JP: モーモー{n}「そうだな、とりあえずは‥‥{n} 腹いっぱい うめえモンが喰いてえな」{end}
+EN: 
+
+#id 0400 ptr=1BBF75 box=dialog
+JP: シャルル{n}「ぷっ、なによそれ。まったく モーモーらしいわね」{end}
+EN: 
+
+#id 0401 ptr=1BBF94 box=dialog
+JP: リイム{n}「ボクも同じだよ。{n} みんなでおなかいっぱい、パイナップルを食べたいな♪」{end}
+EN: 
+
+#id 0402 ptr=1BBFC0 box=dialog
+JP: タムタム{n}「んーと、あたしはオレンジがいい」{end}
+EN: 
+
+#id 0403 ptr=1BBFD7 box=dialog
+JP: シャルル{n}「‥‥それじゃ、あたしはクッキー。{n} 誰にもあげないよ。ひとりで食べるんだモン♡」{end}
+EN: 
+
+#id 0404 ptr=1BC008 box=dialog
+JP: ライム{n}「わたしも‥‥ パイナップルをたべてみたいです♡」{end}
+EN: 
+
+#id 0405 ptr=1BC026 box=dialog
+JP: リチャード{n}「ほっほっほ。みんな、おなかが すいているようじゃな。{n} さ、あちらへまいれ。食事の用意をしておいた。{n} 好きなだけ食べるがよい」{end}
+EN: 
+
+#id 0406 ptr=1BC074 box=dialog
+JP: 「ほんとうに ごくろうであった」{end}
+EN: 
+
+#id 0407 ptr=1BC085 box=dialog
+JP: モーモー{n}「おおっ! こりゃ うまそうだぜ。モー♪」{end}
+EN: 
+
+#id 0408 ptr=1BC0A0 box=dialog
+JP: リイム{n}「どうしたんだい? さあ、いこう」{end}
+EN: 
+
+#id 0409 ptr=1BC0B6 box=dialog
+JP: ヴァイス{n}「‥‥ああ」{end}
+EN: 
+
+#id 0410 ptr=1BC0C2 box=dialog
+JP: 「リイム、こんどは‥‥」{end}
+EN: 
+
+#id 0411 ptr=1BC0CF box=dialog
+JP: リイム{n}「ん?」{end}
+EN: 
+
+#id 0412 ptr=1BC0D8 box=dialog
+JP: ヴァイス{n}「こんどチャンスがあったら、{n}{delay:30} 俺もなにか食い物でも願うとするよ」{end}
+EN: 
+
+#id 0413 ptr=1BC106 box=dialog
+JP: リイム{n}「‥‥そうだね」{end}
+EN: 
+
+#id 0414 ptr=1BC113 box=dialog
+JP: {delay:78}{clear:00}「さぁ、ぼくたちもいこうよ。はやく いかなきゃ、{n} モーモーに みんな食べられちゃうからさ」{end}
+EN: 
+
+#id 0415 ptr=1BC149 box=dialog
+JP: ヴァイス{n}「へへッ」{end}
+EN: 
+
+#id 0416 ptr=1BC154 box=dialog
+JP: {end}
+EN: 
+
+#id 0417 ptr=1BC155 box=dialog
+JP: {end}
+EN: 
+
+#id 0418 ptr=1BC156 box=dialog
+JP: {end}
+EN: 
+
+#id 0419 ptr=1BC157 box=dialog
+JP: {end}
+EN: 
+
+#id 0420 ptr=1BC158 box=dialog
+JP: {end}
+EN: 
+
+#id 0421 ptr=1BC159 box=dialog
+JP: {end}
+EN: 
+
+#id 0422 ptr=1BC15A box=dialog
+JP: {end}
+EN: 
+
+#id 0423 ptr=1BC15B box=dialog
+JP: {end}
+EN: 
+
+#id 0424 ptr=1BC15C box=dialog
+JP: {end}
+EN: 
+
+#id 0425 ptr=1BC15D box=dialog
+JP: {end}
+EN: 
+
+#id 0426 ptr=1BC15E box=dialog
+JP: {end}
+EN: 
+
+#id 0427 ptr=1BC15F box=dialog
+JP: {end}
+EN: 
+
+#id 0428 ptr=1BC160 box=dialog
+JP: {end}
+EN: 
+
+#id 0429 ptr=1BC161 box=dialog
+JP: {end}
+EN: 
+
+#id 0430 ptr=1BC162 box=dialog
+JP: {end}
+EN: 
+
+#id 0431 ptr=1BC163 box=dialog
+JP: {end}
+EN: 
+
+#id 0432 ptr=1BC164 box=dialog
+JP: {end}
+EN: 
+
+#id 0433 ptr=1BC165 box=dialog
+JP: {end}
+EN: 
+
+#id 0434 ptr=1BC166 box=dialog
+JP: {end}
+EN: 
+
+#id 0435 ptr=1BC167 box=dialog
+JP: {end}
+EN: 
+
+#id 0436 ptr=1BC168 box=dialog
+JP: {end}
+EN: 
+
+#id 0437 ptr=1BC169 box=dialog
+JP: {end}
+EN: 
+
+#id 0438 ptr=1BC16A box=dialog
+JP: {end}
+EN: 
+
+#id 0439 ptr=1BC16B box=dialog
+JP: {end}
+EN: 
+
+#id 0440 ptr=1BC16C box=dialog
+JP: {end}
+EN: 
+
+#id 0441 ptr=1BC16D box=dialog
+JP: {end}
+EN: 
+
+#id 0442 ptr=1BC16E box=dialog
+JP: {end}
+EN: 
+
+#id 0443 ptr=1BC16F box=dialog
+JP: {end}
+EN: 
+
+#id 0444 ptr=1BC170 box=dialog
+JP: {end}
+EN: 
+
+#id 0445 ptr=1BC171 box=dialog
+JP: {end}
+EN: 
+
+#id 0446 ptr=1BC172 box=dialog
+JP: {end}
+EN: 
+
+#id 0447 ptr=1BC173 box=dialog
+JP: {end}
+EN: 
+
+#id 0448 ptr=1BC174 box=dialog
+JP: {end}
+EN: 
+
+#id 0449 ptr=1BC175 box=dialog
+JP: {end}
+EN: 
+
+#id 0450 ptr=1BC176 box=dialog
+JP: {end}
+EN: 
+
+#id 0451 ptr=1BC177 box=dialog
+JP: {end}
+EN: 
+
+#id 0452 ptr=1BC178 box=dialog
+JP: {end}
+EN: 
+
+#id 0453 ptr=1BC179 box=dialog
+JP: {end}
+EN: 
+
+#id 0454 ptr=1BC17A box=dialog
+JP: {end}
+EN: 
+
+#id 0455 ptr=1BC17B box=dialog
+JP: {end}
+EN: 
+
+#id 0456 ptr=1BC17C box=dialog
+JP: {end}
+EN: 
+
+#id 0457 ptr=1BC17D box=dialog
+JP: {end}
+EN: 
+
+#id 0458 ptr=1BC17E box=dialog
+JP: {end}
+EN: 
+
+#id 0459 ptr=1BC17F box=dialog
+JP: {end}
+EN: 
+
+#id 0460 ptr=1BC180 box=dialog
+JP: {end}
+EN: 
+
+#id 0461 ptr=1BC181 box=dialog
+JP: {end}
+EN: 
+
+#id 0462 ptr=1BC182 box=dialog
+JP: {end}
+EN: 
+
+#id 0463 ptr=1BC183 box=dialog
+JP: {end}
+EN: 
+
+#id 0464 ptr=1BC184 box=dialog
+JP: {end}
+EN: 
+
+#id 0465 ptr=1BC185 box=dialog
+JP: {end}
+EN: 
+
+#id 0466 ptr=1BC186 box=dialog
+JP: {end}
+EN: 
+
+#id 0467 ptr=1BC187 box=dialog
+JP: {end}
+EN: 
+
+#id 0468 ptr=1BC188 box=dialog
+JP: {end}
+EN: 
+
+#id 0469 ptr=1BC189 box=dialog
+JP: {end}
+EN: 
+
+#id 0470 ptr=1BC18A box=dialog
+JP: {end}
+EN: 
+
+#id 0471 ptr=1BC18B box=dialog
+JP: {end}
+EN: 
+
+#id 0472 ptr=1BC18C box=dialog
+JP: {end}
+EN: 
+
+#id 0473 ptr=1BC18D box=dialog
+JP: {end}
+EN: 
+
+#id 0474 ptr=1BC18E box=dialog
+JP: {end}
+EN: 
+
+#id 0475 ptr=1BC18F box=dialog
+JP: {end}
+EN: 
+
+#id 0476 ptr=1BC190 box=dialog
+JP: {end}
+EN: 
+
+#id 0477 ptr=1BC191 box=dialog
+JP: {end}
+EN: 
+
+#id 0478 ptr=1BC192 box=dialog
+JP: {end}
+EN: 
+
+#id 0479 ptr=1BC193 box=dialog
+JP: {end}
+EN: 
+
+#id 0480 ptr=1BC194 box=dialog
+JP: {end}
+EN: 
+
+#id 0481 ptr=1BC195 box=dialog
+JP: {end}
+EN: 
+
+#id 0482 ptr=1BC196 box=dialog
+JP: {end}
+EN: 
+
+#id 0483 ptr=1BC197 box=dialog
+JP: {end}
+EN: 
+
+#id 0484 ptr=1BC198 box=dialog
+JP: {end}
+EN: 
+
+#id 0485 ptr=1BC199 box=dialog
+JP: {end}
+EN: 
+
+#id 0486 ptr=1BC19A box=dialog
+JP: {end}
+EN: 
+
+#id 0487 ptr=1BC19B box=dialog
+JP: {end}
+EN: 

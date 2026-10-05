@@ -28,11 +28,11 @@ def scan_strings(rom, tbl, min_chars=4, exclude=()) -> list[tuple[int, str]]:
     end = tbl.ctrl_enc["end"][0]
     out = []
     for s in [0] + [m.start() + len(end) for m in re.finditer(re.escape(end), rom)]:
-        if any(a <= s < b for a, b in exclude):
-            continue
         try:
-            text, _ = tbl.decode(rom, s, maxlen=256)
+            text, n = tbl.decode(rom, s, maxlen=256)
         except ValueError:
+            continue
+        if any(a < s + n and s < b for a, b in exclude):
             continue
         if "[" not in text and len(TAG.sub("", text)) >= min_chars:
             out.append((s, text))

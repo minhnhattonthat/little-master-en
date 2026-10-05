@@ -1,0 +1,11 @@
+[
+ {"start": "00369C", "end": "0036A0", "what": "code: text preprocessor $00:B69C (Beta2 hook)"},
+ {"start": "007FCE", "end": "007FDC", "what": "ROM header (title/size/checksum)"},
+ {"start": "020000", "end": "0201BF", "what": "kanji font glyphs 000-00D (Beta2 overwrote with its own font)"},
+ {"start": "020C3C", "end": "02F68F", "what": "kanji font area (Beta2 replaced with code/font data)"},
+ {"start": "02F920", "end": "02FFBC", "what": "kanji font glyphs 7C9-7FD (English UI label graphics)"},
+ {"start": "09DB16", "end": "09DC93", "what": "2bpp tile graphics"},
+ {"start": "11C206", "end": "11CFFD", "what": "tile graphics"},
+ {"start": "1700A1", "end": "171FF3", "what": "single-byte 8x16 font graphics (PC 170000)"},
+ {"start": "174040", "end": "17437E", "what": "tile graphics"}
+]

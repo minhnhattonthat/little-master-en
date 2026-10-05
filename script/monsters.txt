@@ -1,0 +1,719 @@
+#id 0000 ptr=05BF64 box=name11
+JP: マウスマン
+EN: 
+
+#id 0001 ptr=05BF8C box=name11
+JP: ゴーレム
+EN: 
+
+#id 0002 ptr=05BFB4 box=name11
+JP: ペリカンマン
+EN: 
+
+#id 0003 ptr=05BFDC box=name11
+JP: ラビットマン
+EN: 
+
+#id 0004 ptr=05C004 box=name11
+JP: カクタス
+EN: 
+
+#id 0005 ptr=05C02C box=name11
+JP: ダチョラー
+EN: 
+
+#id 0006 ptr=05C054 box=name11
+JP: ポンポコ
+EN: 
+
+#id 0007 ptr=05C07C box=name11
+JP: クロコダイル
+EN: 
+
+#id 0008 ptr=05C0A4 box=name11
+JP: カンガルー
+EN: 
+
+#id 0009 ptr=05C0CC box=name11
+JP: ガーゴイル
+EN: 
+
+#id 0010 ptr=05C0F4 box=name11
+JP: サイクロプス
+EN: 
+
+#id 0011 ptr=05C11C box=name11
+JP: ライオンマン
+EN: 
+
+#id 0012 ptr=05C144 box=name11
+JP: ドラゴン
+EN: 
+
+#id 0013 ptr=05C16C box=name11
+JP: チキンマン
+EN: 
+
+#id 0014 ptr=05C194 box=name11
+JP: コアラマン
+EN: 
+
+#id 0015 ptr=05C1BC box=name11
+JP: オーク
+EN: 
+
+#id 0016 ptr=05C1E4 box=name11
+JP: スカル・パイレーツ
+EN: 
+
+#id 0017 ptr=05C20C box=name11
+JP: マリオネット
+EN: 
+
+#id 0018 ptr=05C234 box=name11
+JP: ヘルハウンド
+EN: 
+
+#id 0019 ptr=05C25C box=name11
+JP: スノーマン
+EN: 
+
+#id 0020 ptr=05C284 box=name11
+JP: ウルフコマンド
+EN: 
+
+#id 0021 ptr=05C2AC box=name11
+JP: スカル・キャプテン
+EN: 
+
+#id 0022 ptr=05C2D4 box=name11
+JP: ドラゴンナイト
+EN: 
+
+#id 0023 ptr=05C2FC box=name11
+JP: ビッグ・マウスマン
+EN: 
+
+#id 0024 ptr=05C324 box=name11
+JP: バトルスワン
+EN: 
+
+#id 0025 ptr=05C34C box=name11
+JP: ゴースト
+EN: 
+
+#id 0026 ptr=05C374 box=name11
+JP: アサシン
+EN: 
+
+#id 0027 ptr=05C39C box=name11
+JP: イビル・アイ
+EN: 
+
+#id 0028 ptr=05C3C4 box=name11
+JP: スカル・ウォリアー
+EN: 
+
+#id 0029 ptr=05C3EC box=name11
+JP: とうりょう
+EN: 
+
+#id 0030 ptr=05C414 box=name11
+JP: ゆうしゃ
+EN: 
+
+#id 0031 ptr=05C43C box=name11
+JP: ミノタウロス
+EN: 
+
+#id 0032 ptr=05C464 box=name11
+JP: そうりょ
+EN: 
+
+#id 0033 ptr=05C48C box=name11
+JP: ぬいぐるみ
+EN: 
+
+#id 0034 ptr=05C4B4 box=name11
+JP: くろコハクつかい
+EN: 
+
+#id 0035 ptr=05C4DC box=name11
+JP: しろコハクつかい
+EN: 
+
+#id 0036 ptr=05C504 box=name11
+JP: スカル・ダンク
+EN: 
+
+#id 0037 ptr=05C52C box=name11
+JP: スカル・タンク
+EN: 
+
+#id 0038 ptr=05C554 box=name11
+JP: スカル・ポンプ
+EN: 
+
+#id 0039 ptr=05C57C box=name11
+JP: ミミック
+EN: 
+
+#id 0040 ptr=05C5A4 box=name11
+JP: サンフラワー
+EN: 
+
+#id 0041 ptr=05C5CC box=name11
+JP: マテドラルへい
+EN: 
+
+#id 0042 ptr=05C5F4 box=name11
+JP: マテドラル・ナイト
+EN: 
+
+#id 0043 ptr=05C61C box=name11
+JP: プチデーモン
+EN: 
+
+#id 0044 ptr=05C644 box=name11
+JP: たいよう
+EN: 
+
+#id 0045 ptr=05C66C box=name11
+JP: つき
+EN: 
+
+#id 0046 ptr=05C694 box=name11
+JP: ほし
+EN: 
+
+#id 0047 ptr=05C6BC box=name11
+JP: キング・マウスマン
+EN: 
+
+#id 0048 ptr=05C6E4 box=name11
+JP: コアラ・キング
+EN: 
+
+#id 0049 ptr=05C70C box=name11
+JP: カードマン
+EN: 
+
+#id 0050 ptr=05C734 box=name11
+JP: ペングー
+EN: 
+
+#id 0051 ptr=05C75C box=name11
+JP: イエティ
+EN: 
+
+#id 0052 ptr=05C784 box=name11
+JP: TOYホース
+EN: 
+
+#id 0053 ptr=05C7AC box=name11
+JP: 
+EN: 
+
+#id 0054 ptr=05C7D4 box=name11
+JP: 
+EN: 
+
+#id 0055 ptr=05C7FC box=name11
+JP: 
+EN: 
+
+#id 0056 ptr=05C824 box=name11
+JP: 
+EN: 
+
+#id 0057 ptr=05C84C box=name11
+JP: 
+EN: 
+
+#id 0058 ptr=05C874 box=name11
+JP: 
+EN: 
+
+#id 0059 ptr=05C89C box=name11
+JP: 
+EN: 
+
+#id 0060 ptr=05C8C4 box=name11
+JP: 
+EN: 
+
+#id 0061 ptr=05C8EC box=name11
+JP: 
+EN: 
+
+#id 0062 ptr=05C914 box=name11
+JP: 
+EN: 
+
+#id 0063 ptr=05C93C box=name11
+JP: 
+EN: 
+
+#id 0064 ptr=05C964 box=name11
+JP: オレンジマウスマン
+EN: 
+
+#id 0065 ptr=05C98C box=name11
+JP: ルビーゴーレム
+EN: 
+
+#id 0066 ptr=05C9B4 box=name11
+JP: ペリカンブルー
+EN: 
+
+#id 0067 ptr=05C9DC box=name11
+JP: ブルーラビット
+EN: 
+
+#id 0068 ptr=05CA04 box=name11
+JP: カクタスエース
+EN: 
+
+#id 0069 ptr=05CA2C box=name11
+JP: ダチョラーパープル
+EN: 
+
+#id 0070 ptr=05CA54 box=name11
+JP: ダークポンポコ
+EN: 
+
+#id 0071 ptr=05CA7C box=name11
+JP: クロコダイルホワイト
+EN: 
+
+#id 0072 ptr=05CAA4 box=name11
+JP: はいいろカンガルー
+EN: 
+
+#id 0073 ptr=05CACC box=name11
+JP: グリーンガーゴイル
+EN: 
+
+#id 0074 ptr=05CAF4 box=name11
+JP: サイコロプス
+EN: 
+
+#id 0075 ptr=05CB1C box=name11
+JP: むらさきライオン
+EN: 
+
+#id 0076 ptr=05CB44 box=name11
+JP: ブルードラゴン
+EN: 
+
+#id 0077 ptr=05CB6C box=name11
+JP: ネガ・チキンマン
+EN: 
+
+#id 0078 ptr=05CB94 box=name11
+JP: ブロンズコアラ
+EN: 
+
+#id 0079 ptr=05CBBC box=name11
+JP: ブルーオーク
+EN: 
+
+#id 0080 ptr=05CBE4 box=name11
+JP: ファンキー・パイレーツ
+EN: 
+
+#id 0081 ptr=05CC0C box=name11
+JP: スカイパペット
+EN: 
+
+#id 0082 ptr=05CC34 box=name11
+JP: ナイトハウンド
+EN: 
+
+#id 0083 ptr=05CC5C box=name11
+JP: フローズンマン
+EN: 
+
+#id 0084 ptr=05CC84 box=name11
+JP: 
+EN: 
+
+#id 0085 ptr=05CCAC box=name11
+JP: 
+EN: 
+
+#id 0086 ptr=05CCD4 box=name11
+JP: ブラウンナイト
+EN: 
+
+#id 0087 ptr=05CCFC box=name11
+JP: ビッグ・オレンジ
+EN: 
+
+#id 0088 ptr=05CD24 box=name11
+JP: ピンクダンサー
+EN: 
+
+#id 0089 ptr=05CD4C box=name11
+JP: ナイトメア
+EN: 
+
+#id 0090 ptr=05CD74 box=name11
+JP: ナイトアサシン
+EN: 
+
+#id 0091 ptr=05CD9C box=name11
+JP: ダーク・アイ
+EN: 
+
+#id 0092 ptr=05CDC4 box=name11
+JP: スカル・ウォリアーG
+EN: 
+
+#id 0093 ptr=05CDEC box=name11
+JP: とうりょう
+EN: 
+
+#id 0094 ptr=05CE14 box=name11
+JP: 
+EN: 
+
+#id 0095 ptr=05CE3C box=name11
+JP: 
+EN: 
+
+#id 0096 ptr=05CE64 box=name11
+JP: 
+EN: 
+
+#id 0097 ptr=05CE8C box=name11
+JP: ぬいぐるみ
+EN: 
+
+#id 0098 ptr=05CEB4 box=name11
+JP: 
+EN: 
+
+#id 0099 ptr=05CEDC box=name11
+JP: 
+EN: 
+
+#id 0100 ptr=05CF04 box=name11
+JP: スカル・ダンカー
+EN: 
+
+#id 0101 ptr=05CF2C box=name11
+JP: スカル・タンクS
+EN: 
+
+#id 0102 ptr=05CF54 box=name11
+JP: スカル・ポンプS
+EN: 
+
+#id 0103 ptr=05CF7C box=name11
+JP: ふるびたミミック
+EN: 
+
+#id 0104 ptr=05CFA4 box=name11
+JP: 
+EN: 
+
+#id 0105 ptr=05CFCC box=name11
+JP: ベテランへいし
+EN: 
+
+#id 0106 ptr=05CFF4 box=name11
+JP: パープルアーマーナイト
+EN: 
+
+#id 0107 ptr=05D01C box=name11
+JP: 
+EN: 
+
+#id 0108 ptr=05D044 box=name11
+JP: 
+EN: 
+
+#id 0109 ptr=05D06C box=name11
+JP: 
+EN: 
+
+#id 0110 ptr=05D094 box=name11
+JP: 
+EN: 
+
+#id 0111 ptr=05D0BC box=name11
+JP: オレンジキング
+EN: 
+
+#id 0112 ptr=05D0E4 box=name11
+JP: ブロンズキング
+EN: 
+
+#id 0113 ptr=05D10C box=name11
+JP: 
+EN: 
+
+#id 0114 ptr=05D134 box=name11
+JP: こうていペングー
+EN: 
+
+#id 0115 ptr=05D15C box=name11
+JP: グラス・イエティ
+EN: 
+
+#id 0116 ptr=05D184 box=name11
+JP: 
+EN: 
+
+#id 0117 ptr=05D1AC box=name11
+JP: 
+EN: 
+
+#id 0118 ptr=05D1D4 box=name11
+JP: 
+EN: 
+
+#id 0119 ptr=05D1FC box=name11
+JP: 
+EN: 
+
+#id 0120 ptr=05D224 box=name11
+JP: 
+EN: 
+
+#id 0121 ptr=05D24C box=name11
+JP: 
+EN: 
+
+#id 0122 ptr=05D274 box=name11
+JP: 
+EN: 
+
+#id 0123 ptr=05D29C box=name11
+JP: 
+EN: 
+
+#id 0124 ptr=05D2C4 box=name11
+JP: 
+EN: 
+
+#id 0125 ptr=05D2EC box=name11
+JP: 
+EN: 
+
+#id 0126 ptr=05D314 box=name11
+JP: 
+EN: 
+
+#id 0127 ptr=05D33C box=name11
+JP: 
+EN: 
+
+#id 0128 ptr=05D364 box=name11
+JP: ファイヤーマウスマン
+EN: 
+
+#id 0129 ptr=05D38C box=name11
+JP: ゴーレムゴールド
+EN: 
+
+#id 0130 ptr=05D3B4 box=name11
+JP: ゴールドペリカン
+EN: 
+
+#id 0131 ptr=05D3DC box=name11
+JP: ラビット・スナイパー
+EN: 
+
+#id 0132 ptr=05D404 box=name11
+JP: カクタスX
+EN: 
+
+#id 0133 ptr=05D42C box=name11
+JP: ダチョラーブラウン
+EN: 
+
+#id 0134 ptr=05D454 box=name11
+JP: ポンポコだいおう
+EN: 
+
+#id 0135 ptr=05D47C box=name11
+JP: アリゲーター
+EN: 
+
+#id 0136 ptr=05D4A4 box=name11
+JP: カンガルーチャンプ
+EN: 
+
+#id 0137 ptr=05D4CC box=name11
+JP: レッドガーゴイル
+EN: 
+
+#id 0138 ptr=05D4F4 box=name11
+JP: サイクロ・スカーレット
+EN: 
+
+#id 0139 ptr=05D51C box=name11
+JP: マイティ・ライオンマン
+EN: 
+
+#id 0140 ptr=05D544 box=name11
+JP: ファイヤー・ドラゴン
+EN: 
+
+#id 0141 ptr=05D56C box=name11
+JP: ゴージャス・チキンマン
+EN: 
+
+#id 0142 ptr=05D594 box=name11
+JP: レッドコアラマン
+EN: 
+
+#id 0143 ptr=05D5BC box=name11
+JP: レッドオーク
+EN: 
+
+#id 0144 ptr=05D5E4 box=name11
+JP: ゴールド・パイレーツ
+EN: 
+
+#id 0145 ptr=05D60C box=name11
+JP: あやつりにんぎょう
+EN: 
+
+#id 0146 ptr=05D634 box=name11
+JP: ハウンドドッグ
+EN: 
+
+#id 0147 ptr=05D65C box=name11
+JP: グレート・スノーマン
+EN: 
+
+#id 0148 ptr=05D684 box=name11
+JP: 
+EN: 
+
+#id 0149 ptr=05D6AC box=name11
+JP: 
+EN: 
+
+#id 0150 ptr=05D6D4 box=name11
+JP: ナイトゴールド
+EN: 
+
+#id 0151 ptr=05D6FC box=name11
+JP: ビッグ・ファイヤー
+EN: 
+
+#id 0152 ptr=05D724 box=name11
+JP: ダンス・スター
+EN: 
+
+#id 0153 ptr=05D74C box=name11
+JP: ファントム
+EN: 
+
+#id 0154 ptr=05D774 box=name11
+JP: マーダー
+EN: 
+
+#id 0155 ptr=05D79C box=name11
+JP: マジックマスター
+EN: 
+
+#id 0156 ptr=05D7C4 box=name11
+JP: ゴールド・ウォリアー
+EN: 
+
+#id 0157 ptr=05D7EC box=name11
+JP: 
+EN: 
+
+#id 0158 ptr=05D814 box=name11
+JP: 
+EN: 
+
+#id 0159 ptr=05D83C box=name11
+JP: 
+EN: 
+
+#id 0160 ptr=05D864 box=name11
+JP: 
+EN: 
+
+#id 0161 ptr=05D88C box=name11
+JP: 
+EN: 
+
+#id 0162 ptr=05D8B4 box=name11
+JP: 
+EN: 
+
+#id 0163 ptr=05D8DC box=name11
+JP: 
+EN: 
+
+#id 0164 ptr=05D904 box=name11
+JP: ダンク・マスター
+EN: 
+
+#id 0165 ptr=05D92C box=name11
+JP: スカル・タンクSS
+EN: 
+
+#id 0166 ptr=05D954 box=name11
+JP: スカル・ポンプSS
+EN: 
+
+#id 0167 ptr=05D97C box=name11
+JP: すごいミミック
+EN: 
+
+#id 0168 ptr=05D9A4 box=name11
+JP: 
+EN: 
+
+#id 0169 ptr=05D9CC box=name11
+JP: マテドラル・ソルジャー
+EN: 
+
+#id 0170 ptr=05D9F4 box=name11
+JP: レッドアーマーナイト
+EN: 
+
+#id 0171 ptr=05DA1C box=name11
+JP: 
+EN: 
+
+#id 0172 ptr=05DA44 box=name11
+JP: 
+EN: 
+
+#id 0173 ptr=05DA6C box=name11
+JP: 
+EN: 
+
+#id 0174 ptr=05DA94 box=name11
+JP: 
+EN: 
+
+#id 0175 ptr=05DABC box=name11
+JP: ファイヤーキング
+EN: 
+
+#id 0176 ptr=05DAE4 box=name11
+JP: レッドコアラキング
+EN: 
+
+#id 0177 ptr=05DB0C box=name11
+JP: 
+EN: 
+
+#id 0178 ptr=05DB34 box=name11
+JP: ホット・ペングー
+EN: 
+
+#id 0179 ptr=05DB5C box=name11
+JP: リバー・イエティ
+EN: 

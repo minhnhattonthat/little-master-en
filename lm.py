@@ -78,6 +78,13 @@ def cmd_dump(a):
         print(f"script/{b.name}.txt: {len(es)} entries")
 
 
+def cmd_coverage(a):
+    base, t = rom.load_base(), Table.load("tbl/jp.tbl")
+    known = [s for b in blocks.load_blocks() for s in blocks.spans(base, b, t)]
+    for s, text in locate.scan_strings(base, t, a.min, exclude=known):
+        print(f"{s:06X}  {text[:60]}")
+
+
 def build_parser():
     ap = argparse.ArgumentParser(prog="lm")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -104,6 +111,7 @@ def build_parser():
     p.add_argument("--m16", action="store_true"); p.add_argument("--x16", action="store_true")
     p.set_defaults(fn=cmd_dis)
     p = sub.add_parser("dump"); p.add_argument("--only"); p.add_argument("--force", action="store_true"); p.set_defaults(fn=cmd_dump)
+    p = sub.add_parser("coverage", help="list decodable strings not in any block"); p.add_argument("--min", type=int, default=4); p.set_defaults(fn=cmd_coverage)
     p = sub.add_parser("boot"); p.add_argument("rom", nargs="?"); p.set_defaults(fn=cmd_boot)
     return ap
 

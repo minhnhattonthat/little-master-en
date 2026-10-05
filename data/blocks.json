@@ -1,0 +1,279 @@
+[
+ {
+  "name": "msg06",
+  "type": "ptr16",
+  "bank": "0x06",
+  "box": "msg",
+  "tables": [
+   [
+    "0x030000",
+    256
+   ],
+   [
+    "0x030200",
+    256
+   ],
+   [
+    "0x030400",
+    128
+   ],
+   [
+    "0x030600",
+    256
+   ],
+   [
+    "0x030800",
+    96
+   ]
+  ],
+  "note": "message tables #5,#1,#13,#14,#15 (list at PC 010000)"
+ },
+ {
+  "name": "msg36",
+  "type": "ptr16",
+  "bank": "0x36",
+  "box": "dialog",
+  "tables": [
+   [
+    "0x1B0000",
+    256
+   ],
+   [
+    "0x1B0200",
+    256
+   ],
+   [
+    "0x1B0800",
+    53
+   ],
+   [
+    "0x1B0A00",
+    53
+   ],
+   [
+    "0x1B0C00",
+    53
+   ],
+   [
+    "0x1B0E00",
+    53
+   ],
+   [
+    "0x1B1000",
+    53
+   ]
+  ],
+  "note": "tables #3/#16, #4/#17, #6-#10 (5 variant tables over one pool)"
+ },
+ {
+  "name": "msg37",
+  "type": "ptr16",
+  "bank": "0x37",
+  "box": "dialog",
+  "tables": [
+   [
+    "0x1B8000",
+    256
+   ],
+   [
+    "0x1B8200",
+    232
+   ]
+  ],
+  "note": "tables #18, #19"
+ },
+ {
+  "name": "msg22",
+  "type": "ptr16",
+  "bank": "0x22",
+  "box": "msg",
+  "tables": [
+   [
+    "0x112011",
+    7
+   ],
+   [
+    "0x111EE3",
+    59
+   ],
+   [
+    "0x111F59",
+    60
+   ],
+   [
+    "0x111FE9",
+    17
+   ]
+  ],
+  "note": "7 status-ailment msgs (table at 112011), tables #2 (scenario summaries), #11, #12"
+ },
+ {
+  "name": "msg02",
+  "type": "ptr16",
+  "bank": "0x02",
+  "box": "screen",
+  "tables": [
+   [
+    "0x0130E0",
+    200
+   ]
+  ],
+  "note": "table #0: system/battle messages and status-screen layout scripts (branch targets split strings: cont)"
+ },
+ {
+  "name": "ev03",
+  "type": "inline",
+  "box": "dialog",
+  "ranges": [
+   [
+    "0x018000",
+    "0x020000"
+   ]
+  ],
+  "note": "map event text inline after opcode 10 (bank $03)"
+ },
+ {
+  "name": "ev0A",
+  "type": "inline",
+  "box": "dialog",
+  "ranges": [
+   [
+    "0x050000",
+    "0x058000"
+   ]
+  ],
+  "note": "event text inline after opcode 10 (bank $0A)"
+ },
+ {
+  "name": "ev22",
+  "type": "inline",
+  "box": "dialog",
+  "ranges": [
+   [
+    "0x113943",
+    "0x118000"
+   ]
+  ],
+  "note": "event text inline after opcode 10 (bank $22, after msg22 pool)"
+ },
+ {
+  "name": "unit_weapon0",
+  "type": "fixed",
+  "start": "0x010052",
+  "count": 53,
+  "stride": 32,
+  "length": 10,
+  "pad": "0x20",
+  "box": "name10",
+  "note": "per-unit attack name; 4 tables differ in a few records"
+ },
+ {
+  "name": "unit_armor0",
+  "type": "fixed",
+  "start": "0x01005C",
+  "count": 53,
+  "stride": 32,
+  "length": 10,
+  "pad": "0x20",
+  "box": "name10",
+  "note": "per-unit defence name"
+ },
+ {
+  "name": "unit_weapon1",
+  "type": "fixed",
+  "start": "0x010852",
+  "count": 53,
+  "stride": 32,
+  "length": 10,
+  "pad": "0x20",
+  "box": "name10",
+  "note": "per-unit attack name; 4 tables differ in a few records"
+ },
+ {
+  "name": "unit_armor1",
+  "type": "fixed",
+  "start": "0x01085C",
+  "count": 53,
+  "stride": 32,
+  "length": 10,
+  "pad": "0x20",
+  "box": "name10",
+  "note": "per-unit defence name"
+ },
+ {
+  "name": "unit_weapon2",
+  "type": "fixed",
+  "start": "0x011052",
+  "count": 53,
+  "stride": 32,
+  "length": 10,
+  "pad": "0x20",
+  "box": "name10",
+  "note": "per-unit attack name; 4 tables differ in a few records"
+ },
+ {
+  "name": "unit_armor2",
+  "type": "fixed",
+  "start": "0x01105C",
+  "count": 53,
+  "stride": 32,
+  "length": 10,
+  "pad": "0x20",
+  "box": "name10",
+  "note": "per-unit defence name"
+ },
+ {
+  "name": "unit_weapon3",
+  "type": "fixed",
+  "start": "0x011852",
+  "count": 53,
+  "stride": 32,
+  "length": 10,
+  "pad": "0x20",
+  "box": "name10",
+  "note": "per-unit attack name; 4 tables differ in a few records"
+ },
+ {
+  "name": "unit_armor3",
+  "type": "fixed",
+  "start": "0x01185C",
+  "count": 53,
+  "stride": 32,
+  "length": 10,
+  "pad": "0x20",
+  "box": "name10",
+  "note": "per-unit defence name"
+ },
+ {
+  "name": "unit_names",
+  "type": "fixed",
+  "start": "0x012050",
+  "count": 146,
+  "stride": 8,
+  "length": 8,
+  "pad": "0x20",
+  "box": "name8"
+ },
+ {
+  "name": "accessories",
+  "type": "fixed",
+  "start": "0x0124E0",
+  "count": 128,
+  "stride": 24,
+  "length": 10,
+  "pad": "0xCE",
+  "box": "name10",
+  "note": "24-byte records, name padded with CE (renderer no-op)"
+ },
+ {
+  "name": "monsters",
+  "type": "fixed",
+  "start": "0x05BF64",
+  "count": 180,
+  "stride": 40,
+  "length": 12,
+  "pad": "0x00",
+  "box": "name11",
+  "note": "40-byte records; name max 11 bytes + 00"
+ }
+]

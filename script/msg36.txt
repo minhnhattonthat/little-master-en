@@ -1,0 +1,2551 @@
+#id 0000 ptr=1B1200 box=dialog
+JP: 「チュー!!」{end}
+EN: 
+
+#id 0001 ptr=1B1208 box=dialog
+JP: 「・・・・・・・・・・・・・・・・・・・・・・・・・」{end}
+EN: 
+
+#id 0002 ptr=1B1224 box=dialog
+JP: 「!!!!!!!!!!!!!!!!!!!!!!!!!」{end}
+EN: 
+
+#id 0003 ptr=1B1240 box=dialog
+JP: 「ペリペリ」{end}
+EN: 
+
+#id 0004 ptr=1B1247 box=dialog
+JP: 「まんぼー」{end}
+EN: 
+
+#id 0005 ptr=1B124E box=dialog
+JP: 「シェルシェル」{end}
+EN: 
+
+#id 0006 ptr=1B1257 box=dialog
+JP: 「ラビラビ」{end}
+EN: 
+
+#id 0007 ptr=1B125E box=dialog
+JP: 「えーい!」{end}
+EN: 
+
+#id 0008 ptr=1B1265 box=dialog
+JP: 「アミーゴ!」{end}
+EN: 
+
+#id 0009 ptr=1B126D box=dialog
+JP: 「いっくぞ～♪」{end}
+EN: 
+
+#id 0010 ptr=1B1276 box=dialog
+JP: 「グルグルグルグル」{end}
+EN: 
+
+#id 0011 ptr=1B1281 box=dialog
+JP: 「ポンポコポン♪」{end}
+EN: 
+
+#id 0012 ptr=1B128B box=dialog
+JP: 「ポンポコポコポコ」{end}
+EN: 
+
+#id 0013 ptr=1B1296 box=dialog
+JP: 「ガプッ♡」{end}
+EN: 
+
+#id 0014 ptr=1B129D box=dialog
+JP: 「ンがー」{end}
+EN: 
+
+#id 0015 ptr=1B12A3 box=dialog
+JP: 「シュッシュッ」{end}
+EN: 
+
+#id 0016 ptr=1B12AC box=dialog
+JP: 「だーーーっ!」{end}
+EN: 
+
+#id 0017 ptr=1B12B5 box=dialog
+JP: 「ジャーンプ!」{end}
+EN: 
+
+#id 0018 ptr=1B12BE box=dialog
+JP: 「シャーッ グルルル」{end}
+EN: 
+
+#id 0019 ptr=1B12CA box=dialog
+JP: 「シャーッ」{end}
+EN: 
+
+#id 0020 ptr=1B12D1 box=dialog
+JP: 「シャッ!」{end}
+EN: 
+
+#id 0021 ptr=1B12D8 box=dialog
+JP: 「そりゃッ!」{end}
+EN: 
+
+#id 0022 ptr=1B12E0 box=dialog
+JP: 「イエ～イ♡」{end}
+EN: 
+
+#id 0023 ptr=1B12E8 box=dialog
+JP: 「とりゃー」{end}
+EN: 
+
+#id 0024 ptr=1B12EF box=dialog
+JP: 「むんッ」{end}
+EN: 
+
+#id 0025 ptr=1B12F5 box=dialog
+JP: {end}
+EN: 
+
+#id 0026 ptr=1B12F6 box=dialog
+JP: 「コケッ」{end}
+EN: 
+
+#id 0027 ptr=1B12FC box=dialog
+JP: 「コケケッ」{end}
+EN: 
+
+#id 0028 ptr=1B1303 box=dialog
+JP: 「むーん」{end}
+EN: 
+
+#id 0029 ptr=1B1309 box=dialog
+JP: 「むむーん」{end}
+EN: 
+
+#id 0030 ptr=1B1310 box=dialog
+JP: 「ぶひっ」{end}
+EN: 
+
+#id 0031 ptr=1B1316 box=dialog
+JP: 「ぶひひっ」{end}
+EN: 
+
+#id 0032 ptr=1B131D box=dialog
+JP: 「ジェイソーン!」{end}
+EN: 
+
+#id 0033 ptr=1B1327 box=dialog
+JP: 「ギッギー」{end}
+EN: 
+
+#id 0034 ptr=1B132E box=dialog
+JP: 「スカル・ダイナマイッ!」{end}
+EN: 
+
+#id 0035 ptr=1B133C box=dialog
+JP: 「ATTACK」{end}
+EN: 
+
+#id 0036 ptr=1B1345 box=dialog
+JP: 「FRY」{end}
+EN: 
+
+#id 0037 ptr=1B134B box=dialog
+JP: 「SHOOT」{end}
+EN: 
+
+#id 0038 ptr=1B1353 box=dialog
+JP: 「ワンワン ファイヤーリングだ ワン!」{end}
+EN: 
+
+#id 0039 ptr=1B1368 box=dialog
+JP: 「ワンワン デッドボールだ ワン!」{end}
+EN: 
+
+#id 0040 ptr=1B137B box=dialog
+JP: 「ワンワン ヘル・ファイヤーだ ワン!」{end}
+EN: 
+
+#id 0041 ptr=1B1390 box=dialog
+JP: 「スノー ブラザーズ!!」{end}
+EN: 
+
+#id 0042 ptr=1B139E box=dialog
+JP: 「おいしいアイスクリームは いかがかな?」{end}
+EN: 
+
+#id 0043 ptr=1B13B4 box=dialog
+JP: 「シャクシャクつめたい かきごおり キーンとくるゾ」{end}
+EN: 
+
+#id 0044 ptr=1B13CF box=dialog
+JP: 「ふんッ」{end}
+EN: 
+
+#id 0045 ptr=1B13D5 box=dialog
+JP: 「いきますよ」{end}
+EN: 
+
+#id 0046 ptr=1B13DD box=dialog
+JP: 「‥‥ブチのめしてやる」{end}
+EN: 
+
+#id 0047 ptr=1B13EA box=dialog
+JP: 「スカル・アンカー!」{end}
+EN: 
+
+#id 0048 ptr=1B13F6 box=dialog
+JP: 「どりゃッ」{end}
+EN: 
+
+#id 0049 ptr=1B13FD box=dialog
+JP: {end}
+EN: 
+
+#id 0050 ptr=1B13FE box=dialog
+JP: 「チュー!!」{end}
+EN: 
+
+#id 0051 ptr=1B1406 box=dialog
+JP: 「スピンダーンス!」{end}
+EN: 
+
+#id 0052 ptr=1B1411 box=dialog
+JP: 「ラララー♪」{end}
+EN: 
+
+#id 0053 ptr=1B1419 box=dialog
+JP: 「秘技 白鳥の舞!」{end}
+EN: 
+
+#id 0054 ptr=1B1429 box=dialog
+JP: 「ポ～ル～タ～ 騒霊現象 ガ ガ ガ ガ ♡」{end}
+EN: 
+
+#id 0055 ptr=1B1445 box=dialog
+JP: 「幽霊君 おいでませ～～～♡」{end}
+EN: 
+
+#id 0056 ptr=1B1458 box=dialog
+JP: 「お命ちょうだいつかまつる」{end}
+EN: 
+
+#id 0057 ptr=1B1468 box=dialog
+JP: 「いくで ござる」{end}
+EN: 
+
+#id 0058 ptr=1B1472 box=dialog
+JP: 「デッドリー ロック!」{end}
+EN: 
+
+#id 0059 ptr=1B147F box=dialog
+JP: 「デモン ブラスト!」{end}
+EN: 
+
+#id 0060 ptr=1B148B box=dialog
+JP: 「デモン スパーク!」{end}
+EN: 
+
+#id 0061 ptr=1B1497 box=dialog
+JP: 「ギッギッギ」{end}
+EN: 
+
+#id 0062 ptr=1B149F box=dialog
+JP: 「デュワッ!」{end}
+EN: 
+
+#id 0063 ptr=1B14A7 box=dialog
+JP: 「かくごしな!」{end}
+EN: 
+
+#id 0064 ptr=1B14B0 box=dialog
+JP: 「くらえッ!」{end}
+EN: 
+
+#id 0065 ptr=1B14B8 box=dialog
+JP: 「これでもくらいな!」{end}
+EN: 
+
+#id 0066 ptr=1B14C4 box=dialog
+JP: 「ぬおーー!」{end}
+EN: 
+
+#id 0067 ptr=1B14CC box=dialog
+JP: 「いくよ!」{end}
+EN: 
+
+#id 0068 ptr=1B14D3 box=dialog
+JP: 「やっ!」{end}
+EN: 
+
+#id 0069 ptr=1B14D9 box=dialog
+JP: 「いくよ! ライトニングボール!!」{end}
+EN: 
+
+#id 0070 ptr=1B14EC box=dialog
+JP: 「いくぜ!」{end}
+EN: 
+
+#id 0071 ptr=1B14F3 box=dialog
+JP: 「これでも くらえ! モー!!」{end}
+EN: 
+
+#id 0072 ptr=1B1504 box=dialog
+JP: 「うおおおおおお!!」{end}
+EN: 
+
+#id 0073 ptr=1B1510 box=dialog
+JP: 「それっ」{end}
+EN: 
+
+#id 0074 ptr=1B1516 box=dialog
+JP: 「もー もー」{end}
+EN: 
+
+#id 0075 ptr=1B151E box=dialog
+JP: 「えいッ モーモー キーック!」{end}
+EN: 
+
+#id 0076 ptr=1B152F box=dialog
+JP: 「えいっ えいっ!!」{end}
+EN: 
+
+#id 0077 ptr=1B153B box=dialog
+JP: 「いくわよっ シャインフォール!」{end}
+EN: 
+
+#id 0078 ptr=1B154D box=dialog
+JP: 「とんでっちゃえ ウインドストリーム!」{end}
+EN: 
+
+#id 0079 ptr=1B1562 box=dialog
+JP: 「わるいこには これよっ! ロックスプレッド!」{end}
+EN: 
+
+#id 0080 ptr=1B157B box=dialog
+JP: 「ハムス やっちゃいなさい!」{end}
+EN: 
+
+#id 0081 ptr=1B158B box=dialog
+JP: 「えーい♡」{end}
+EN: 
+
+#id 0082 ptr=1B1592 box=dialog
+JP: 「ハムスさん おねがいですぅ」{end}
+EN: 
+
+#id 0083 ptr=1B15A2 box=dialog
+JP: 「GO DUNK!」{end}
+EN: 
+
+#id 0084 ptr=1B15AD box=dialog
+JP: 「キメルゼ 3ポイント シューッ!!」{end}
+EN: 
+
+#id 0085 ptr=1B15C1 box=dialog
+JP: 「ギッギー イクゾー!」{end}
+EN: 
+
+#id 0086 ptr=1B15CE box=dialog
+JP: 「ギッギー ハッシャシマース」{end}
+EN: 
+
+#id 0087 ptr=1B15DE box=dialog
+JP: 「ビックリ箱 パーンチ!」{end}
+EN: 
+
+#id 0088 ptr=1B15ED box=dialog
+JP: 「出るよ 出るよ～～～」{end}
+EN: 
+
+#id 0089 ptr=1B15FC box=dialog
+JP: 「さわらぬ箱に たたり なし」{end}
+EN: 
+
+#id 0090 ptr=1B160D box=dialog
+JP: 「しょえ～～!!」{end}
+EN: 
+
+#id 0091 ptr=1B1617 box=dialog
+JP: 「クエッ!」{end}
+EN: 
+
+#id 0092 ptr=1B161E box=dialog
+JP: 「キーーン」{end}
+EN: 
+
+#id 0093 ptr=1B1625 box=dialog
+JP: 「お花がいっぱいだよー♡」{end}
+EN: 
+
+#id 0094 ptr=1B1634 box=dialog
+JP: 「キミに花をおくろう♡」{end}
+EN: 
+
+#id 0095 ptr=1B1642 box=dialog
+JP: 「きれいに咲いたかな～」{end}
+EN: 
+
+#id 0096 ptr=1B1650 box=dialog
+JP: 「うりゃ うりゃ うりゃ」{end}
+EN: 
+
+#id 0097 ptr=1B165E box=dialog
+JP: 「ホッピング アターック!」{end}
+EN: 
+
+#id 0098 ptr=1B166D box=dialog
+JP: 「うわ～～～!」{end}
+EN: 
+
+#id 0099 ptr=1B1676 box=dialog
+JP: 「・・・イクゾ」{end}
+EN: 
+
+#id 0100 ptr=1B167F box=dialog
+JP: 「フンッ」{end}
+EN: 
+
+#id 0101 ptr=1B1685 box=dialog
+JP: 「ドリャッ」{end}
+EN: 
+
+#id 0102 ptr=1B168C box=dialog
+JP: 「ニャンニャン♡」{end}
+EN: 
+
+#id 0103 ptr=1B1696 box=dialog
+JP: 「{g10}{g11}{g12}{g13}{g14}!」{end}
+EN: 
+
+#id 0104 ptr=1B169F box=dialog
+JP: 「{g15}{g16}{g17}」{end}
+EN: 
+
+#id 0105 ptr=1B16A5 box=dialog
+JP: 「{g13}{g14}{g17}{g10}{g11}{g11}{g12}‼」{end}
+EN: 
+
+#id 0106 ptr=1B16B0 box=dialog
+JP: 「{g16}{g13}{g10}{g10}!」{end}
+EN: 
+
+#id 0107 ptr=1B16B8 box=dialog
+JP: 「{g11}{g11}{g12}」{end}
+EN: 
+
+#id 0108 ptr=1B16BE box=dialog
+JP: 「{g17}{g17}{g14}{g17}{g16}‼」{end}
+EN: 
+
+#id 0109 ptr=1B16C7 box=dialog
+JP: 「{g12}{g11}{g10}」{end}
+EN: 
+
+#id 0110 ptr=1B16CD box=dialog
+JP: 「{g17}{g13}{g17}」{end}
+EN: 
+
+#id 0111 ptr=1B16D3 box=dialog
+JP: 「{g15}{g10}{g13}{g14}{g17}{g12}‼」{end}
+EN: 
+
+#id 0112 ptr=1B16DD box=dialog
+JP: 「チュー!!」{end}
+EN: 
+
+#id 0113 ptr=1B16E5 box=dialog
+JP: 「むーん」{end}
+EN: 
+
+#id 0114 ptr=1B16EB box=dialog
+JP: 「むむーん」{end}
+EN: 
+
+#id 0115 ptr=1B16F2 box=dialog
+JP: 「アソボ♡ アソボ♡」{end}
+EN: 
+
+#id 0116 ptr=1B16FE box=dialog
+JP: 「ハートブレイクショット!」{end}
+EN: 
+
+#id 0117 ptr=1B170D box=dialog
+JP: 「ピーッ」{end}
+EN: 
+
+#id 0118 ptr=1B1713 box=dialog
+JP: 「アイスキューブ!」{end}
+EN: 
+
+#id 0119 ptr=1B171E box=dialog
+JP: 「ゴー!」{end}
+EN: 
+
+#id 0120 ptr=1B1724 box=dialog
+JP: 「ばひゅーん」{end}
+EN: 
+
+#id 0121 ptr=1B172C box=dialog
+JP: 「どひゃー」{end}
+EN: 
+
+#id 0122 ptr=1B1733 box=dialog
+JP: 「グルグル ぱーんち!」{end}
+EN: 
+
+#id 0123 ptr=1B1740 box=dialog
+JP: 「カチンコチーン!」{end}
+EN: 
+
+#id 0124 ptr=1B174B box=dialog
+JP: 「ヒヒーン」{end}
+EN: 
+
+#id 0125 ptr=1B1752 box=dialog
+JP: 「ヒンヒン」{end}
+EN: 
+
+#id 0126 ptr=1B1759 box=dialog
+JP:     「王国歴137年 ジャスバン」{n}{delay:78}{clear:00}「かんねんしろ、おまえの悪行もここまでだ」{end}
+EN: 
+
+#id 0127 ptr=1B178F box=dialog
+JP: 「はなせ!! ボクをここから出せだニャー」{end}
+EN: 
+
+#id 0128 ptr=1B17A6 box=dialog
+JP: 「よし、封印するぞ!!」{end}
+EN: 
+
+#id 0129 ptr=1B17B5 box=dialog
+JP: 「おぼえてろだニャー。{n} 何年かかろうとも、ここからぬけだしてやるニャー!」{end}
+EN: 
+
+#id 0130 ptr=1B17DE box=dialog
+JP: ヴァイス{n}「めぼしをつけた遺跡も あとわずか。{n}{delay:20} 今度こそ 頂いてみせるぜ‥‥」{end}
+EN: 
+
+#id 0131 ptr=1B180F box=dialog
+JP: 「ヴァイスの兄貴! 皆が呼んでますぜ。{n} 兄貴がいねえと、場が盛り上がらねえっす!!」{end}
+EN: 
+
+#id 0132 ptr=1B1844 box=dialog
+JP: ヴァイス{n}「おう! わかった、いま行くぜ!!」{end}
+EN: 
+
+#id 0133 ptr=1B185D box=dialog
+JP: トランプ{n}「おい、ヤローども!{n} 明日も暴れまくるぞ、しっかりついてこい!!」{end}
+EN: 
+
+#id 0134 ptr=1B1888 box=dialog
+JP: 「よ～し、気合は いいか～～～～～!!」{end}
+EN: 
+
+#id 0135 ptr=1B189F box=dialog
+JP: 「ヒッヒーヒッヒーーーーーーーーー!!」{end}
+EN: 
+
+#id 0136 ptr=1B18B4 box=dialog
+JP: モーモー{n}「さ～て、次はどこの遺跡だったっけ?」{end}
+EN: 
+
+#id 0137 ptr=1B18D0 box=dialog
+JP: リイム{n}「明日はハップル遺跡だね」{delay:78}{clear:00}「たしか、ラドック教授が中心になって{n} 発掘を行っているんじゃなかったかな」{end}
+EN: 
+
+#id 0138 ptr=1B1919 box=dialog
+JP: タムタム{n}「そうそう。なんでも、秘宝にかんする{n} 有力な手がかりが みつかりそうなんですって」{n}{delay:78}{clear:00}「教授、はりきってたわよ」{end}
+EN: 
+
+#id 0139 ptr=1B1964 box=dialog
+JP: モーモー{n}「おいおい!{n} あのじいさん、このあいだも同じこといってたぜ。{n}"こんどこそだいじょぶじゃ" ってな」{end}
+EN: 
+
+#id 0140 ptr=1B199E box=dialog
+JP: タムタム{n}「しょうがないじゃない。{n} 遺跡が いっぱいあるんだもの‥‥」{end}
+EN: 
+
+#id 0141 ptr=1B19C5 box=dialog
+JP: 「‥‥とは言っても、こう、いつもいつも{n} ガラクタばっかり掘りだしてると、{n} 疑いのひとつも持ちたくなるけどさ」{delay:78}{clear:00}「ね、リイム?」{end}
+EN: 
+
+#id 0142 ptr=1B1A10 box=dialog
+JP: リイム{n}「あはは、そうだね」{end}
+EN: 
+
+#id 0143 ptr=1B1A1F box=dialog
+JP: モーモー{n}「ったく、あちこち ほじくりかえすから、{n} 魔物が暴れだしちまうんだよ」{n}{delay:78}{clear:00}「おかげでこちとら、大忙しだぜ。モー」 {end}
+EN: 
+
+#id 0144 ptr=1B1A69 box=dialog
+JP: リイム{n}「まぁ、しょうがないよ。{n} それをなんとかするのが、ぼくたちの役目なんだから」{end}
+EN: 
+
+#id 0145 ptr=1B1A97 box=dialog
+JP: 「‥‥もっとも、教授さえ無茶しなければ、{n} もうちょっと 楽ができるかもね」{end}
+EN: 
+
+#id 0146 ptr=1B1AC3 box=dialog
+JP: タムタム{n}「そうよね、いっつも大変なんだから‥‥」{delay:78}{clear:00}「さぁ、そろそろ休みましょうよ」{n}         {n}{end}
+EN: 
+
+#id 0147 ptr=1B1B01 box=dialog
+JP: 「ここからハップルまでは、まだ距離があるし。{n} 早起きしないと、お昼までに着けないわよ」{delay:78}{clear:00}「きちんと行かないと、{n} また教授に 怒られちゃうわ」{n}{end}
+EN: 
+
+#id 0148 ptr=1B1B5A box=dialog
+JP: モーモー{n}「ヘイヘイ」{end}
+EN: 
+
+#id 0149 ptr=1B1B66 box=dialog
+JP: タムタム{n}「‥‥モーモー、寝坊しちゃダメよ」{end}
+EN: 
+
+#id 0150 ptr=1B1B7F box=dialog
+JP: 「やりましたね、教授!」{end}
+EN: 
+
+#id 0151 ptr=1B1B8E box=dialog
+JP: 「うむ、今度こそみつけたぞ」{n}{delay:78}{clear:00}「この古文書が 本物であるならば、{n} カラードの秘宝伝承を裏付ける{n} なによりの証拠になるじゃろう。やったぞい!」{end}
+EN: 
+
+#id 0152 ptr=1B1BEC box=dialog
+JP: 「助かった! 教授、助けが来たみたいですよ!」{end}
+EN: 
+
+#id 0153 ptr=1B1C09 box=dialog
+JP: 「しかし、そっちは‥‥」{end}
+EN: 
+
+#id 0154 ptr=1B1C16 box=dialog
+JP: 「おーい、こっちだ。助けてくれ!」{end}
+EN: 
+
+#id 0155 ptr=1B1C29 box=dialog
+JP: 「ひーーーーーー」{end}
+EN: 
+
+#id 0156 ptr=1B1C33 box=dialog
+JP: 「ヒヒーン、だれか!! だれか～!!」{end}
+EN: 
+
+#id 0157 ptr=1B1C47 box=dialog
+JP: 「うおー!」{end}
+EN: 
+
+#id 0158 ptr=1B1C4E box=dialog
+JP: リイム{n}「ふう、あぶないところでしたね」{end}
+EN: 
+
+#id 0159 ptr=1B1C63 box=dialog
+JP: モーモー{n}「じいさん、命拾いしたな」{end}
+EN: 
+
+#id 0160 ptr=1B1C78 box=dialog
+JP: ラドック{n}「もっとはやく助けにこんかい! このバカもんが!!」{end}
+EN: 
+
+#id 0161 ptr=1B1C99 box=dialog
+JP: 「あ～あ」{end}
+EN: 
+
+#id 0162 ptr=1B1C9F box=dialog
+JP: タムタム{n}「リイム! だいじょうぶ?」{end}
+EN: 
+
+#id 0163 ptr=1B1CB3 box=dialog
+JP: リイム{n}「ああ、それよりも 教授たちを」{end}
+EN: 
+
+#id 0164 ptr=1B1CCA box=dialog
+JP: タムタム{n}「ええ」{end}
+EN: 
+
+#id 0165 ptr=1B1CD4 box=dialog
+JP: ラドック{n}「おお、タムタムか。これを見てくれ。ついにみつけたぞ」{end}
+EN: 
+
+#id 0166 ptr=1B1CF6 box=dialog
+JP: タムタム{n}「もう! 話はあとで ききますから、{n} じっとしてて ください」{end}
+EN: 
+
+#id 0167 ptr=1B1D1D box=dialog
+JP: ラドック教授が げんきになった!{end}
+EN: 
+
+#id 0168 ptr=1B1D30 box=dialog
+JP: ラドック{n}「おお、ありがとよ。それよりも大変じゃ。{n} やはり本当だったんじゃ。{n} この古文書を見るのじゃ。ほれ、ここじゃ」{end}
+EN: 
+
+#id 0169 ptr=1B1D76 box=dialog
+JP: "{g10}{g11}{g12}{g14}{g12}{g10}{g13}{g14}{g13}{g11}{g10}{g15}‥‥"{end}
+EN: 
+
+#id 0170 ptr=1B1D87 box=dialog
+JP: モーモー{n}「‥‥こんな文字よめねえよ」{end}
+EN: 
+
+#id 0171 ptr=1B1D9D box=dialog
+JP: タムタム{n}「むかしの文字よ。{n} んと‥‥ねがいは ジャスバンにてかなう‥‥」{end}
+EN: 
+
+#id 0172 ptr=1B1DC6 box=dialog
+JP: ラドック{n}「そう。これは古代カラードの文字じゃ。{n} タムタム、よく覚えておったな」{end}
+EN: 
+
+#id 0173 ptr=1B1DF5 box=dialog
+JP: 「お前さんに カラードの事を教えたのは{n} もう何年まえになるかのお‥‥」{delay:78}{clear:00}「ほんに懐かしいのお。{n} くどくど くどくど‥‥‥‥」{end}
+EN: 
+
+#id 0174 ptr=1B1E41 box=dialog
+JP: 「くどくど くどくど‥‥‥‥{n} くどくど くどくど‥‥‥‥{n} くどくど くどくど‥‥‥‥{n} くどくど くどくど‥‥‥‥」{end}
+EN: 
+
+#id 0175 ptr=1B1E7E box=dialog
+JP: モーモー{n}「で? なにが 本当だったんだい?」{end}
+EN: 
+
+#id 0176 ptr=1B1E98 box=dialog
+JP: ラドック{n}「うおっほん。{n} カラード教の言い伝えは おぬしらも知っとるな」{end}
+EN: 
+
+#id 0177 ptr=1B1EC2 box=dialog
+JP: リイム{n}「うしなわれた秘宝の ことですね?」{end}
+EN: 
+
+#id 0178 ptr=1B1EDB box=dialog
+JP: ラドック{n}「そう。それは、手にした者の願いを{n} かなえてくれると いわれる伝説の秘宝」{delay:78}{clear:00}「どこにあるのか?{n} どんなものなのか? それは誰にもわからん」{end}
+EN: 
+
+#id 0179 ptr=1B1F35 box=dialog
+JP: 「だがな、秘宝は実在する。{n} そしてこれは、その存在を裏付ける{n} 古文書なのじゃ!」{end}
+EN: 
+
+#id 0180 ptr=1B1F6B box=dialog
+JP: 「こうしちゃおれん。{n} ワシは さっそく解読にかかるとしよう」{end}
+EN: 
+
+#id 0181 ptr=1B1F8D box=dialog
+JP: ラドック{n}「ああ、そうそう」{n}{delay:78}{clear:00}「ピーコック、お前は村に戻って例の石を{n} ワシの研究室に もって来ておくれ」{end}
+EN: 
+
+#id 0182 ptr=1B1FD2 box=dialog
+JP: 「村までは リイム達に送ってもらうと{n} よいじゃろう。じゃあな。たのんだぞい」{end}
+EN: 
+
+#id 0183 ptr=1B1FFD box=dialog
+JP: モーモー{n}「‥‥いそがしい じいさんだなあ」{end}
+EN: 
+
+#id 0184 ptr=1B2014 box=dialog
+JP: タムタム{n}「ほんと。あんなに落ち着きの無い{n} 賢者なんて、そういないわよね‥‥」{n}{delay:78}{clear:00}「あっ、そうそう」{end}
+EN: 
+
+#id 0185 ptr=1B2052 box=dialog
+JP: 「さっきライナーク城から 伝令が来たの。{n} 王様が 呼んでるんですって。{n} 発掘が片付いたら お城に来るようにって」{end}
+EN: 
+
+#id 0186 ptr=1B209A box=dialog
+JP: リイム{n}「リチャード王が?」{end}
+EN: 
+
+#id 0187 ptr=1B20AA box=dialog
+JP: タムタム{n}「そう。モーモーも いっしょにね」{end}
+EN: 
+
+#id 0188 ptr=1B20C1 box=dialog
+JP: モーモー{n}「チェッ、まったく人使いのあらい王様だぜ。{n} なあ、リイム」{end}
+EN: 
+
+#id 0189 ptr=1B20E9 box=dialog
+JP: タムタム{n}「‥‥ボヤかないの。さっ、いきましょう」{end}
+EN: 
+
+#id 0190 ptr=1B2103 box=dialog
+JP: リイム{n}「よし、それじゃあ{n} パズタ村をまわって ライナークに戻ろうか」{end}
+EN: 
+
+#id 0191 ptr=1B212A box=dialog
+JP: {p7F:02}「きけ～～～～い!! オレたちゃ 泣く子も黙る{n} 魔獣盗賊団 スカルボンバーズ だ!!」{n}{delay:78}{clear:00}「この村の宝は、あらいざらい このトランプ様が{n} 頂くことにした。ありがたく思えよ。ヒャッハッハ」{end}
+EN: 
+
+#id 0192 ptr=1B219F box=dialog
+JP: {p7F:02}「おう、ヤローども、てってー的にやっちまえ!」{end}
+EN: 
+
+#id 0193 ptr=1B21BB box=dialog
+JP: {p7F:02}「ギッギーーー!!」{end}
+EN: 
+
+#id 0194 ptr=1B21C9 box=dialog
+JP: {p7F:02}「迎えが来たようだな。{n} よし、あとはおまえ等にまかせる。しっかりヤレよ!」{end}
+EN: 
+
+#id 0195 ptr=1B21F6 box=dialog
+JP: {p7F:02}「ヒッヒー!」{end}
+EN: 
+
+#id 0196 ptr=1B2201 box=dialog
+JP: {p7F:02}「あいつら、何者なんだ!」{end}
+EN: 
+
+#id 0197 ptr=1B2214 box=dialog
+JP: {p7F:02}「ピーコック、君は急いで家にもどるんだ!{n} あいつらは 僕たちがひきうけた」{end}
+EN: 
+
+#id 0198 ptr=1B2242 box=dialog
+JP: {p7F:02}「は、はいッ」{end}
+EN: 
+
+#id 0199 ptr=1B224D box=dialog
+JP: {p7F:02}「オレたち ボンバーズの見習部隊だ、ペリペリ」{scroll:00}{delay:78}{clear:00}「おまえら、なにもんだ?{n} じゃますると ただじゃおかねえぞ、ペリペリ」{end}
+EN: 
+
+#id 0200 ptr=1B2299 box=dialog
+JP: {p7F:02}「それはこっちのセリフだよ。{n} いくよ、モーモー。村を守るんだ!」{end}
+EN: 
+
+#id 0201 ptr=1B22C0 box=dialog
+JP: {p7F:02}「いただき～～ ギッギー!」{end}
+EN: 
+
+#id 0202 ptr=1B22D2 box=dialog
+JP: {p7F:02}「まってくれ、その石を 持って行かないで!」{end}
+EN: 
+
+#id 0203 ptr=1B22EF box=dialog
+JP: {p7F:02}「ヒーーーーー、ごめんなさい。ペリペリ」{end}
+EN: 
+
+#id 0204 ptr=1B2307 box=dialog
+JP: ピーコック{n}「なんてこった! あいつらに発掘した調度品を{n} 根こそぎ 奪われちまったよ!」{end}
+EN: 
+
+#id 0205 ptr=1B233C box=dialog
+JP: 「ちくしょう‥‥ ヴァイスの兄貴が いてくれたら、{n} こんなことには ならなかったのに‥‥」{end}
+EN: 
+
+#id 0206 ptr=1B236D box=dialog
+JP: モーモー{n}「ヴァイス?」{end}
+EN: 
+
+#id 0207 ptr=1B237A box=dialog
+JP: ピーコック{n}「ええ、この村の面倒を みてくれてるんでさ」{n}{delay:78}{clear:00}「兄貴の留守中に こんなことになっちまって、{n} なさけねえ‥‥」{end}
+EN: 
+
+#id 0208 ptr=1B23C6 box=dialog
+JP: 「おまけに教授に なんて言ったらいいやら‥‥{n} おれ、あのじいさん苦手なんスよ。」{n}{delay:78}{clear:00}「頼まれ物は 盗られちまいました。{n} なんていおうもんなら、怒られちまいやすよ。トホホ」{end}
+EN: 
+
+#id 0209 ptr=1B242C box=dialog
+JP: タムタム{n}「いいわ。教授には 私から話しておいてあげる。{n} だいじょうぶよ。事情を話せば わかってくれるわ」{delay:78}{clear:00}「それにどうせ、いつものガラクタなんでしょう?」{end}
+EN: 
+
+#id 0210 ptr=1B2488 box=dialog
+JP: リイム{n}「ふう、そうだといいんだけどね{g1E}」{end}
+EN: 
+
+#id 0211 ptr=1B249E box=dialog
+JP: MES{n}「ピーコックと別れた勇者軍は ライナーク城に向かいます」{end}
+EN: 
+
+#id 0212 ptr=1B24C5 box=dialog
+JP: リチャード{n}「おお、リイムよ。よくぞ参った。{n} 教授のお守り、ごくろうであったな」{delay:78}{clear:00}「‥‥首尾は どうであった?」{end}
+EN: 
+
+#id 0213 ptr=1B250A box=dialog
+JP: リイム{n}「はい。なんでも、秘宝にかんする重要な{n} 発見をしたとかで、ごまんえつです」{end}
+EN: 
+
+#id 0214 ptr=1B253B box=dialog
+JP: リチャード{n}「そうか。まあ、おいおい報告が はいるだろう」{delay:78}{clear:00}「それよりもな、急に呼びつけたのは ほかでもない。{n} おぬしたちに頼みがあるのだ」{end}
+EN: 
+
+#id 0215 ptr=1B258D box=dialog
+JP: リチャード{n}「先だって、隣国マテドラルの{n} 教王ハウサーより 書簡があった」{end}
+EN: 
+
+#id 0216 ptr=1B25BB box=dialog
+JP: 「国を荒らすスカルボンバーズの凶行と、{n} 遺跡を狙う盗掘団の横行に{n} 手をこまねいている」{delay:78}{clear:00}「事態収拾のために、{n} 力を貸してほしい。とのことだ」{end}
+EN: 
+
+#id 0217 ptr=1B261D box=dialog
+JP: タムタム{n}「そんなひどいことに‥‥」{end}
+EN: 
+
+#id 0218 ptr=1B2630 box=dialog
+JP: リチャード{n}"この世界の 何処かに、{n} 願いをかなえる秘宝が 眠っている"{end}
+EN: 
+
+#id 0219 ptr=1B265E box=dialog
+JP: 「半年ほど前に 解読された、{n} カラード教に伝わる 古文書の一節じゃ」{end}
+EN: 
+
+#id 0220 ptr=1B268E box=dialog
+JP: 「秘宝はどこにあるのか!?」{end}
+EN: 
+
+#id 0221 ptr=1B269F box=dialog
+JP: {end}
+EN: 
+
+#id 0222 ptr=1B26A0 box=dialog
+JP: {end}
+EN: 
+
+#id 0223 ptr=1B26A1 box=dialog
+JP: 「‥‥結果、大陸をあげての大騒ぎに{n} なっているわけだが、とりわけ、カラードに{n} ゆかりの深いマテドラルの混乱は ひどいものだ」{end}
+EN: 
+
+#id 0224 ptr=1B26EB box=dialog
+JP: 「承知のように カラード信仰の母体である{n} マテドラルは 兵を持たぬ国‥‥」{end}
+EN: 
+
+#id 0225 ptr=1B271B box=dialog
+JP: 「それをいいことに、遺跡を荒す盗掘団は、{n} 後を絶たぬ。スカルボンバーズも頻繁に{n} 襲ってくるようになった‥」{delay:78}{clear:00}「すべてはカラードの秘宝伝説が原因じゃ」{end}
+EN: 
+
+#id 0226 ptr=1B277E box=dialog
+JP: 「マテドラルにとっては、{n} まさに降ってわいたような災厄」{delay:78}{clear:00}「教王は信心深く、争いは好まぬ男だが、{n} やむなく、旧知の仲である{n} このわしに 助けを求めてきたというわけじゃ」{end}
+EN: 
+
+#id 0227 ptr=1B27EB box=dialog
+JP: 「このままでは 国は荒れ、たみは{n} こんきゅうするであろう」{end}
+EN: 
+
+#id 0228 ptr=1B280C box=dialog
+JP: 「‥‥リイムよ、仲間を集いて マテドラルに{n} おもむき、教王ハウサーの下で、盗掘団の{n} 討伐に あたってほしい」{end}
+EN: 
+
+#id 0229 ptr=1B2850 box=dialog
+JP: モーモー{n}「ようはボンバーズってのを やっつけちまえばいいんだろ? ま、俺たちにまかせりゃ安心だモー」{end}
+EN: 
+
+#id 0230 ptr=1B2887 box=dialog
+JP: リチャード{n}「うむ。たよりにしておるぞ」{end}
+EN: 
+
+#id 0231 ptr=1B289C box=dialog
+JP: ライム{n}「リイム‥‥ さま」{end}
+EN: 
+
+#id 0232 ptr=1B28AB box=dialog
+JP: リイム{n}「ん?」{end}
+EN: 
+
+#id 0233 ptr=1B28B4 box=dialog
+JP: ライム{n}「あ、あの‥ おきをつけて‥‥」{end}
+EN: 
+
+#id 0234 ptr=1B28C9 box=dialog
+JP: モーモー{n}「姫、オレさまのことは{n} しんぱい してくれないのかい?」{end}
+EN: 
+
+#id 0235 ptr=1B28ED box=dialog
+JP: ライム{n}「あ‥ いえ、けしてそのような‥」{end}
+EN: 
+
+#id 0236 ptr=1B2903 box=dialog
+JP: モーモー{n}「しんぱいすんなって。{n} リイムには、このオレさまがついてるんだ」{n}{delay:78}{clear:00}「どんな相手だろうが、指一本ふれさせねえよ」{end}
+EN: 
+
+#id 0237 ptr=1B294C box=dialog
+JP: リイム{n}「姫、おこころづかい ありがとうございます。{n} では、いってきます!」{end}
+EN: 
+
+#id 0238 ptr=1B2975 box=dialog
+JP: ライム{n}「ええ」{end}
+EN: 
+
+#id 0239 ptr=1B297E box=dialog
+JP: ピーコック{n}「リイムさん!」{end}
+EN: 
+
+#id 0240 ptr=1B298D box=dialog
+JP: リイム{n}「やあ、ピーコック 君だったのか」{end}
+EN: 
+
+#id 0241 ptr=1B29A4 box=dialog
+JP: ピーコック{n}「ハアハア、ライナークのお城で きいたら{n} こっちだって いうもんですからね」{n}{delay:78}{clear:00}「ハアハア、あわてて 追いかけてきたんスよ」{n}    {n}{end}
+EN: 
+
+#id 0242 ptr=1B29F7 box=dialog
+JP: ピーコック{n}「あにき、村を救ってくれた リイムさんです」{n}{end}
+EN: 
+
+#id 0243 ptr=1B2A17 box=dialog
+JP: ヴァイス{n}「おう、パズタ村では うちのピーコックが{n} 世話になったな」{n}{delay:78}{clear:00}「俺は ヴァイス」{n}{delay:78}{clear:00}「ヴァイス・キャンベル ってんだ。{n} おまえたちに ひとこと 礼がいいたくてな」{end}
+EN: 
+
+#id 0244 ptr=1B2A7F box=dialog
+JP: モーモー{n}「ああ、どうってことないぜ」     {n}{end}
+EN: 
+
+#id 0245 ptr=1B2A99 box=dialog
+JP: ヴァイス{n}「まったくマヌケな話だぜ。{n} ちょっとサフランの遺跡に 足を伸ばしてた隙に ボンバーズに 狙われちまうとはな」{end}
+EN: 
+
+#id 0246 ptr=1B2ADD box=dialog
+JP: タムタム{n}「あなたたち 盗掘団なの!?」  {n}{end}
+EN: 
+
+#id 0247 ptr=1B2AF8 box=dialog
+JP: ヴァイス{n}「おっと、そんな目で 見ないでくれよ」{end}
+EN: 
+
+#id 0248 ptr=1B2B13 box=dialog
+JP: 「なにも悪いことを してるわけじゃねえ。{n} ちょっとばかし 遺跡を探索して、{n} ちょっとばかし 古いガラクタを 拾ってくる」{n}{delay:78}{clear:00}「世の中には、そのガラクタを 高く買ってくれる{n} 物好きなヤツらも いるのよ」{n}{delay:78}{clear:00}「それだけのことだ。誰も困りゃしないさ」{end}
+EN: 
+
+#id 0249 ptr=1B2BAA box=dialog
+JP: タムタム{n}「でも‥‥」{end}
+EN: 
+
+#id 0250 ptr=1B2BB6 box=dialog
+JP: ヴァイス{n}「しかし、おまえら なかなかのウデ前だな。どうだ?{n} オレたちと いっしょに こないか?」{end}
+EN: 
+
+#id 0251 ptr=1B2BEA box=dialog
+JP: リイム{n}「?」{end}
+EN: 
+
+#id 0252 ptr=1B2BF2 box=dialog
+JP: ヴァイス{n}「オレは 力が欲しいんだ。{n} オレの願いを かなえられるだけの力が」{n}{delay:78}{clear:00}「そのために 仲間を集めている」{end}
+EN: 
+
+#id 0253 ptr=1B2C38 box=dialog
+JP: モーモー{n}「どうするつもりだい?」{end}
+EN: 
+
+#id 0254 ptr=1B2C4A box=dialog
+JP: ヴァイス{n}「国をつくるのさ。オレたちみたいな{n} 生まれの悪いものでも 平等に暮らせる国。{n} いわれのない憤りを感じずにすむ国をつくるんだ」{delay:78}{clear:00}「いまは、こんなさえねえ なりわいだが、おれはやるぜ。{n} そのためなら、どんなことだって するつもりさ」{end}
+EN: 
+
+#id 0255 ptr=1B2CD4 box=dialog
+JP: リイム{n}「ヴァイス、きみの気持ちはわかるけど‥‥」{end}
+EN: 
+
+#id 0256 ptr=1B2CF0 box=dialog
+JP: 「でも、いまは いっしょに いけないよ{n} 僕たちには、やらなければならないことが あるから」{n}       {n}{end}
+EN: 
+
+#id 0257 ptr=1B2D29 box=dialog
+JP: ヴァイス{n}「‥‥そうか、残念だな。{n} お前とは 気があいそうだったんだがな」{end}
+EN: 
+
+#id 0258 ptr=1B2D54 box=dialog
+JP: ヴァイス{n}「あばよ! またどこかで会うこともあるだろう。{n} そのときは、いい返事を 期待してるぜ」{end}
+EN: 
+
+#id 0259 ptr=1B2D8B box=dialog
+JP: リイム{n}「うん」{end}
+EN: 
+
+#id 0260 ptr=1B2D94 box=dialog
+JP: ピーコック{n}「それじゃ、リイムさん。{n} 教授に よろしく言っといてください」{delay:78}{clear:00}「兄貴が ジャスバンに 行くってんで、{n} おいらも ついて行くんスよ」{end}
+EN: 
+
+#id 0261 ptr=1B2DEB box=dialog
+JP: リイム{n}「ジャスバンに?」{end}
+EN: 
+
+#id 0262 ptr=1B2DF9 box=dialog
+JP: ピーコック{n}「ええ、例のカラードのお宝は ジャスバンに{n} あるんじゃないかって、にらんでるんス」{end}
+EN: 
+
+#id 0263 ptr=1B2E2C box=dialog
+JP: ヴァイス{n}「ピーコック! 行くぞ」{end}
+EN: 
+
+#id 0264 ptr=1B2E3F box=dialog
+JP: ピーコック{n}「へい!{n} じゃ、リイムさん。あっしはこれで」{end}
+EN: 
+
+#id 0265 ptr=1B2E5D box=dialog
+JP: モーモー{n}「例の宝‥‥{n} あいつらも 秘宝を狙っているのか?」{end}
+EN: 
+
+#id 0266 ptr=1B2E82 box=dialog
+JP: タムタム{n}「そりゃそうよ。彼らだけじゃない。{n} もっともっと、大勢の人が 秘宝を狙って{n} マテドラルに 押し寄せているわ」{delay:78}{clear:00}「だから、私たちが 呼ばれているんじゃない」{end}
+EN: 
+
+#id 0267 ptr=1B2EE7 box=dialog
+JP: リイム{n}「僕たちも 先を急ごう」{end}
+EN: 
+
+#id 0268 ptr=1B2EFB box=dialog
+JP: ハウサー{n}「誉れ高い 雷光の勇者殿に{n} おこしいただけるとは、{n} これも カラードの神の おぼしめしでしょう」{end}
+EN: 
+
+#id 0269 ptr=1B2F3B box=dialog
+JP: 「ようこそマテドラルへ。歓迎いたしますぞ」{end}
+EN: 
+
+#id 0270 ptr=1B2F53 box=dialog
+JP: リイム{n}「ありがとうございます。{n} ライナーク国王 リチャード3世の命により{n} 参りました リイム・ライクバーン と申します」{end}
+EN: 
+
+#id 0271 ptr=1B2F99 box=dialog
+JP: 「教王、なんなりと 御申しつけ下さい」{end}
+EN: 
+
+#id 0272 ptr=1B2FB2 box=dialog
+JP: ハウサー{n}「御承知かと思うが、{n} 我がマテドラルが兵力を持たぬのは、{n} 争いを放棄する カラードの教えによるもの」{end}
+EN: 
+
+#id 0273 ptr=1B2FF8 box=dialog
+JP: 「人は 望外な力を持つと{n} 自らの方向を 見誤りがちになる。{n} 自分の欲するがままに 行動するようになる」{end}
+EN: 
+
+#id 0274 ptr=1B303D box=dialog
+JP: 「リイムどの、そなたの武勇伝は{n} 広くラクナマイト大陸に響いておる」{n}{delay:78}{clear:00}「それほどの力を お持ちならば、{n} 何を欲することも できよう」{end}
+EN: 
+
+#id 0275 ptr=1B3092 box=dialog
+JP: 「されど、自らの戒律を固く守り、{n} 王への忠誠を尽くす」{end}
+EN: 
+
+#id 0276 ptr=1B30B8 box=dialog
+JP: 「そなたこそ まことの騎士よ。{n} 私はリチャードを うらやましく思うよ」{end}
+EN: 
+
+#id 0277 ptr=1B30E1 box=dialog
+JP: リイム{n}「教王‥‥」{end}
+EN: 
+
+#id 0278 ptr=1B30EE box=dialog
+JP: ハウサー{n}「おっと、いけませんな。{n} つい愚痴を こぼしてしまいました。{n} どうか お気になさらんでくだされ」{end}
+EN: 
+
+#id 0279 ptr=1B3129 box=dialog
+JP: ハウサー{n}「さて、勇者殿には{n} 遺跡の警護を お願い いたしたい」{end}
+EN: 
+
+#id 0280 ptr=1B3153 box=dialog
+JP: 「とくにジャスバン遺跡には 気をつけてくだされ。{n} 近いうちに ボンバーズの手が伸びてくることが{n} じゅうぶん考えられますのでな」{end}
+EN: 
+
+#id 0281 ptr=1B319C box=dialog
+JP: リイム{n}「わかりました」{end}
+EN: 
+
+#id 0282 ptr=1B31A9 box=dialog
+JP: ハウサー{n}「では、よろしく頼みましたぞ」{end}
+EN: 
+
+#id 0283 ptr=1B31BF box=dialog
+JP: 「そうそう。なれぬ土地では、{n} なにかと不便もおありでしょう」{end}
+EN: 
+
+#id 0284 ptr=1B31E3 box=dialog
+JP: 「勇者殿、コハク使いの司祭を ひとりおともに つけましょう。なんでも命じてやって くだされ」{end}
+EN: 
+
+#id 0285 ptr=1B3219 box=dialog
+JP: リイム{n}「はい」{end}
+EN: 
+
+#id 0286 ptr=1B3222 box=dialog
+JP: 「あんたが 噂に聞こえる勇者殿かい?」{end}
+EN: 
+
+#id 0287 ptr=1B323B box=dialog
+JP: 「あたしはシャルル。{n} シャルル・ブレッド。 よろしくね」{end}
+EN: 
+
+#id 0288 ptr=1B3259 box=dialog
+JP: ハウサー{n}「シャルル、リイム殿を案内して さしあげなさい」{end}
+EN: 
+
+#id 0289 ptr=1B327A box=dialog
+JP: 「熱帯ジャングル、ライチ村をまわって、{n} ジャスバンに むかうとよいでしょう」{end}
+EN: 
+
+#id 0290 ptr=1B32A5 box=dialog
+JP: シャルル{n}「はい」{end}
+EN: 
+
+#id 0291 ptr=1B32AF box=dialog
+JP: 「では勇者殿、参りましょう」{end}
+EN: 
+
+#id 0292 ptr=1B32C2 box=dialog
+JP: ハウサー{n}「ふう、だれか‥‥{n} この争いを止める力をもつ者はおらぬのか‥‥」{end}
+EN: 
+
+#id 0293 ptr=1B32ED box=dialog
+JP: 「‥‥すまない、リイムどの。この争いの{n} なくならぬ世界で、己の力に溺れることなく{n} カラードの教えを守っていける おとこさえいれば、{n} このような難題を 持ちかけずにすむものを‥‥」{end}
+EN: 
+
+#id 0294 ptr=1B3355 box=dialog
+JP: シャルル{n}「タムタム!」{end}
+EN: 
+
+#id 0295 ptr=1B3362 box=dialog
+JP: 「なつかしいな、こうして会うのは3年ぶりじゃない?」{end}
+EN: 
+
+#id 0296 ptr=1B337F box=dialog
+JP: タムタム{n}「シャルル!{n} あなたが来てくれるなんて‥‥」{end}
+EN: 
+
+#id 0297 ptr=1B339D box=dialog
+JP: タムタム{n}「シャルル、あらためて紹介するわ」{end}
+EN: 
+
+#id 0298 ptr=1B33B6 box=dialog
+JP: 「かれがリイム、私たちのマスター。{n} かれの活躍は 知っているわよね」{end}
+EN: 
+
+#id 0299 ptr=1B33DE box=dialog
+JP: 「そして、かれがモーモー。{n} どんな困難にも立ち向かう勇敢な仲間よ」{end}
+EN: 
+
+#id 0300 ptr=1B3409 box=dialog
+JP: タムタム{n}「彼女は シャルル・ブレッド」{end}
+EN: 
+
+#id 0301 ptr=1B3420 box=dialog
+JP: 「ラドック教授の下で{n} いっしょに学んでいたときに 知り合ったの」{n}{delay:78}{clear:00}「有能なるコハクの魔女にして、私の親友。{n} 攻撃魔法が得意なのよ」{end}
+EN: 
+
+#id 0302 ptr=1B347D box=dialog
+JP: 「ちょっと気が強いのが たまにきずだけどね」{end}
+EN: 
+
+#id 0303 ptr=1B3496 box=dialog
+JP: シャルル{n}「そんなことないわよ!」{end}
+EN: 
+
+#id 0304 ptr=1B34A8 box=dialog
+JP: タムタム{n}「そして‥‥」{end}
+EN: 
+
+#id 0305 ptr=1B34B5 box=dialog
+JP: モーモー{n}「どーなってんだ?」{end}
+EN: 
+
+#id 0306 ptr=1B34C5 box=dialog
+JP: タムタム{n}「うふふ、驚いた?{n} 彼女は リルル。{n} シャルルのなかにいる もう一人のおんなのこ」{end}
+EN: 
+
+#id 0307 ptr=1B34FB box=dialog
+JP: 「彼女、{n} ショックをうけると 性格が変わっちゃうの。{n} おとなしくて かわいい娘よ」{end}
+EN: 
+
+#id 0308 ptr=1B352D box=dialog
+JP: リルル{n}「あの、はじめまして。リルルです」{end}
+EN: 
+
+#id 0309 ptr=1B3543 box=dialog
+JP: 「みなさんのお役にたてるよう、がんばります。{n} よろしくお願いします」{end}
+EN: 
+
+#id 0310 ptr=1B3569 box=dialog
+JP: モーモー{n}「お、おう」{end}
+EN: 
+
+#id 0311 ptr=1B3575 box=dialog
+JP: リイム{n}「こ、こちらこそよろしく」{end}
+EN: 
+
+#id 0312 ptr=1B3587 box=dialog
+JP: タムタム{n}「変わるのは、性格だけじゃないのよ。{n} 扱える魔法も 補助魔法になっちゃうの。{n} おもしろいでしょ」{end}
+EN: 
+
+#id 0313 ptr=1B35C9 box=dialog
+JP: リルル{n}「それでは参りましょうか」{end}
+EN: 
+
+#id 0314 ptr=1B35DC box=dialog
+JP: {end}
+EN: 
+
+#id 0315 ptr=1B35DD box=dialog
+JP: {end}
+EN: 
+
+#id 0316 ptr=1B35DE box=dialog
+JP: {end}
+EN: 
+
+#id 0317 ptr=1B35DF box=dialog
+JP: 「はじめまして、勇者のみなさん」{end}
+EN: 
+
+#id 0318 ptr=1B35F2 box=dialog
+JP: 「あなたたちですね。{n} わが ボンバーズの邪魔を してくれているのは」{end}
+EN: 
+
+#id 0319 ptr=1B3618 box=dialog
+JP: タムタム{n}「ボンバーズ!」{end}
+EN: 
+
+#id 0320 ptr=1B3626 box=dialog
+JP: 「わたしは 蒼月。こちらは トランプ」{end}
+EN: 
+
+#id 0321 ptr=1B363C box=dialog
+JP: トランプ{n}「ヒャッハッハ! おれたちゃ、泣く子もだまる{n} 魔獣盗賊団スカルボンバーズのリーダーさまよ」{end}
+EN: 
+
+#id 0322 ptr=1B3677 box=dialog
+JP: 「どうだ 怖いだろう?{n} ビビったんなら さっさとけえんな。{n} いまなら見逃してやるぜぇ。 ヒャッハッハ!」{end}
+EN: 
+
+#id 0323 ptr=1B36B1 box=dialog
+JP: モーモー{n}「なんだと!」{end}
+EN: 
+
+#id 0324 ptr=1B36BE box=dialog
+JP: リイム{n}「キミたちは どうして村を襲うんだい!?{n} どうして、こんな略奪を繰り返すのさ?」{end}
+EN: 
+
+#id 0325 ptr=1B36F2 box=dialog
+JP: 蒼月{n}「ちょっと、捜し物をしていましてね‥‥」{end}
+EN: 
+
+#id 0326 ptr=1B370E box=dialog
+JP: 「ご迷惑を おかけするかもしれませんが、{n} ま、御協力の程を よろしくお願いしますよ」{end}
+EN: 
+
+#id 0327 ptr=1B3741 box=dialog
+JP: タムタム{n}「勝手なこと いわないでよ」{end}
+EN: 
+
+#id 0328 ptr=1B3757 box=dialog
+JP: モーモー{n}「俺たちが いるかぎり、{n} 好きかってには させないぜ!」{end}
+EN: 
+
+#id 0329 ptr=1B377C box=dialog
+JP: 蒼月{n}「おお、勇ましいですね。{n} まあ、せいぜい頑張ってください」{end}
+EN: 
+
+#id 0330 ptr=1B37A3 box=dialog
+JP: 「そうだ、ひとついいことを教えておいてあげましょう。{n} 高名な勇者軍の名を傷つけたくなかったら、 ワレワレの邪魔をしようなんて考えない事ですよ」{end}
+EN: 
+
+#id 0331 ptr=1B37F8 box=dialog
+JP: 「私は暴力は 嫌いなんですが、{n} 相棒は、そうでもないみたいですからねぇ」{end}
+EN: 
+
+#id 0332 ptr=1B3824 box=dialog
+JP: トランプ{n}「ヒャッヒャッヒャ、そう。俺様 乱暴者!」{end}
+EN: 
+
+#id 0333 ptr=1B3844 box=dialog
+JP: 蒼月{n}「あなたたちとは これからも縁がありそうですね。{n} 先を急いでいるので、これで失礼しますよ」{end}
+EN: 
+
+#id 0334 ptr=1B387D box=dialog
+JP: タムタム{n}「あれが ボンバーズのリーダーなの‥‥」{end}
+EN: 
+
+#id 0335 ptr=1B3897 box=dialog
+JP: モーモー{n}「あのウルフコマンド、かなりキレるな」{end}
+EN: 
+
+#id 0336 ptr=1B38B0 box=dialog
+JP: リイム{n}「うん、やっかいなことに なりそうだね」{end}
+EN: 
+
+#id 0337 ptr=1B38C9 box=dialog
+JP: モーモー{n}「お!{n} こうしちゃいられねえ、敵さんのおでましだぜ」{end}
+EN: 
+
+#id 0338 ptr=1B38EB box=dialog
+JP: {end}
+EN: 
+
+#id 0339 ptr=1B38EC box=dialog
+JP: {end}
+EN: 
+
+#id 0340 ptr=1B38ED box=dialog
+JP: リイム{n}「ボンバーズの狙いも ジャスバンなのか?」{end}
+EN: 
+
+#id 0341 ptr=1B3908 box=dialog
+JP: リルル{n}「ジャスバンは カラード教の聖地として{n} 崇められている遺跡です」{end}
+EN: 
+
+#id 0342 ptr=1B3934 box=dialog
+JP: モーモー{n}「そんな有名な遺跡だ、{n} 今回の騒動では 真っ先に調べたんだろ?」{end}
+EN: 
+
+#id 0343 ptr=1B3966 box=dialog
+JP: リルル{n}「いえ」{end}
+EN: 
+
+#id 0344 ptr=1B396F box=dialog
+JP: モーモー{n}「あらら」{end}
+EN: 
+
+#id 0345 ptr=1B397A box=dialog
+JP: リルル{n}「あそこは 私たちマテドラルにとっては、{n} 非常に神聖な場所なんですよぉ」{end}
+EN: 
+
+#id 0346 ptr=1B39AB box=dialog
+JP: 「たとえハウサー教王だって、{n} 遺跡には 特別な儀式の時にしか{n} 立ち入ることは 許されてないんです」{end}
+EN: 
+
+#id 0347 ptr=1B39EB box=dialog
+JP: 「そんなところを 散策するなんて、{n} とても出来ないですぅ」{end}
+EN: 
+
+#id 0348 ptr=1B3A0E box=dialog
+JP: モーモー{n}「そんなん、あいつらには関係ない事だよな」{end}
+EN: 
+
+#id 0349 ptr=1B3A2C box=dialog
+JP: リルル{n}「それは‥‥そうですけどぉ‥‥」{end}
+EN: 
+
+#id 0350 ptr=1B3A41 box=dialog
+JP: リイム{n}「とにかく、ジャスバンに急ごう!」{end}
+EN: 
+
+#id 0351 ptr=1B3A58 box=dialog
+JP:     「王国歴395年 マテドラル」{n}{end}
+EN: 
+
+#id 0352 ptr=1B3A71 box=dialog
+JP: {end}
+EN: 
+
+#id 0353 ptr=1B3A72 box=dialog
+JP: {end}
+EN: 
+
+#id 0354 ptr=1B3A73 box=dialog
+JP: {end}
+EN: 
+
+#id 0355 ptr=1B3A74 box=dialog
+JP: {end}
+EN: 
+
+#id 0356 ptr=1B3A75 box=dialog
+JP: {end}
+EN: 
+
+#id 0357 ptr=1B3A76 box=dialog
+JP: {end}
+EN: 
+
+#id 0358 ptr=1B3A77 box=dialog
+JP: {end}
+EN: 
+
+#id 0359 ptr=1B3A78 box=dialog
+JP: {end}
+EN: 
+
+#id 0360 ptr=1B3A79 box=dialog
+JP: {end}
+EN: 
+
+#id 0361 ptr=1B3A7A box=dialog
+JP: {end}
+EN: 
+
+#id 0362 ptr=1B3A7B box=dialog
+JP: {end}
+EN: 
+
+#id 0363 ptr=1B3A7C box=dialog
+JP: {end}
+EN: 
+
+#id 0364 ptr=1B3A7D box=dialog
+JP: {end}
+EN: 
+
+#id 0365 ptr=1B3A7E box=dialog
+JP: {end}
+EN: 
+
+#id 0366 ptr=1B3A7F box=dialog
+JP: {end}
+EN: 
+
+#id 0367 ptr=1B3A80 box=dialog
+JP: {end}
+EN: 
+
+#id 0368 ptr=1B3A81 box=dialog
+JP: {end}
+EN: 
+
+#id 0369 ptr=1B3A82 box=dialog
+JP: {end}
+EN: 
+
+#id 0370 ptr=1B3A83 box=dialog
+JP: {end}
+EN: 
+
+#id 0371 ptr=1B3A84 box=dialog
+JP: {end}
+EN: 
+
+#id 0372 ptr=1B3A85 box=dialog
+JP: {end}
+EN: 
+
+#id 0373 ptr=1B3A86 box=dialog
+JP: {end}
+EN: 
+
+#id 0374 ptr=1B3A87 box=dialog
+JP: {end}
+EN: 
+
+#id 0375 ptr=1B3A88 box=dialog
+JP: {end}
+EN: 
+
+#id 0376 ptr=1B3A89 box=dialog
+JP: {end}
+EN: 
+
+#id 0377 ptr=1B3A8A box=dialog
+JP: {end}
+EN: 
+
+#id 0378 ptr=1B3A8B box=dialog
+JP: {end}
+EN: 
+
+#id 0379 ptr=1B3A8C box=dialog
+JP: {end}
+EN: 
+
+#id 0380 ptr=1B3A8D box=dialog
+JP: {end}
+EN: 
+
+#id 0381 ptr=1B3A8E box=dialog
+JP: {end}
+EN: 
+
+#id 0382 ptr=1B3A8F box=dialog
+JP: トランプ{n}「ほんとうに、ここにお宝が ねむってるのかよ?」{end}
+EN: 
+
+#id 0383 ptr=1B3AAE box=dialog
+JP: 蒼月{n}「ええ。‥‥どんな願いもかなう伝説の秘宝です」{delay:78}{clear:00}「ついにみつけました。{n} われらの悲願が成就するときが きたんですよ」{end}
+EN: 
+
+#id 0384 ptr=1B3AFD box=dialog
+JP: 蒼月{n}「ん? また、あなた達ですか」{end}
+EN: 
+
+#id 0385 ptr=1B3B13 box=dialog
+JP: シャルル{n}「あなたたち、何をしてるの!」{delay:78}{clear:00}「マテドラルの領土で 勝手なことはさせないわ。{n} はやく、ここから立ち去りなさい!」{end}
+EN: 
+
+#id 0386 ptr=1B3B5F box=dialog
+JP: トランプ{n}「なんだ、このアマあ!」{delay:78}{clear:00}「俺様はいま、スゲーむしゃくしゃしてるんだ。{n} ちょろちょろしてんじゃねぇ! ブッとばされてえか!」{end}
+EN: 
+
+#id 0387 ptr=1B3BAB box=dialog
+JP: モーモー{n}「やれるもんなら やってもらおうか!」{end}
+EN: 
+
+#id 0388 ptr=1B3BC4 box=dialog
+JP: シャルル{n}「かかってらっしゃい!」{end}
+EN: 
+
+#id 0389 ptr=1B3BD6 box=dialog
+JP: トランプ{n}「じょうとうだ、てめえら!{n} ギタギタにしちまうぞ、覚悟しやがれ!」{end}
+EN: 
+
+#id 0390 ptr=1B3C00 box=dialog
+JP: 蒼月{n}「まあ、まってください。{n} ここで争ったって、何の得にもなりませんよ」{delay:78}{clear:00}「いまは秘宝の行方を捜すのが先決です。{n} この場は一旦ひくとしましょう」{end}
+EN: 
+
+#id 0391 ptr=1B3C60 box=dialog
+JP: トランプ{n}「なにいってんでぇ」{end}
+EN: 
+
+#id 0392 ptr=1B3C70 box=dialog
+JP: トランプ{n}「チッ‥‥ てめえら、命拾いしたな」{delay:78}{clear:00}「だがな、俺様は決めたぜ。{n} 必ずてめえらをブッとばしてやるってな。ヒャッハッハ」{end}
+EN: 
+
+#id 0393 ptr=1B3CBD box=dialog
+JP: モーモー{n}「ふん‥‥ なんでえ、あいつら」{end}
+EN: 
+
+#id 0394 ptr=1B3CD3 box=dialog
+JP: リイム{n}「よし、僕たちも中に入ろう」{end}
+EN: 
+
+#id 0395 ptr=1B3CE9 box=dialog
+JP: シャルル{n}「ちょ、ちょっと! ここは神聖な‥‥」{end}
+EN: 
+
+#id 0396 ptr=1B3D04 box=dialog
+JP: モーモー{n}「そんなこと言ってる場合じゃないだろ?{n} ほら、行くぞ」{end}
+EN: 
+
+#id 0397 ptr=1B3D2A box=dialog
+JP: シャルル{n}「ちょ、ちょっとちょっと! なんてことするのよ!!」{delay:78}{clear:00}「あなた、この遺跡が{n} どれだけ貴重なものか 知ってるでしょう?」{end}
+EN: 
+
+#id 0398 ptr=1B3D76 box=dialog
+JP: モーモー{n}「‥‥さあ?」{end}
+EN: 
+
+#id 0399 ptr=1B3D83 box=dialog
+JP: シャルル{n}「さあ? って、もう、信じらんない!」{delay:78}{clear:00}「ここはカラード教の聖地なのよ!{n} 勇者殿、何とか言ってやってよ!!」{end}
+EN: 
+
+#id 0400 ptr=1B3DCE box=dialog
+JP: リイム{n}「あ、ああ。‥‥まあ、知らずにやったことだし‥‥{n} その‥‥この場合は仕方ないんじゃないか‥な?」{end}
+EN: 
+
+#id 0401 ptr=1B3E09 box=dialog
+JP: シャルル{n}「勇者殿まで そんな事を!」{end}
+EN: 
+
+#id 0402 ptr=1B3E21 box=dialog
+JP: 「マテドラルの司祭として、{n} こんな暴挙は 見過ごせないわ!」{delay:78}{clear:00}「さあ、早く元に戻しなさいよ!」{end}
+EN: 
+
+#id 0403 ptr=1B3E60 box=dialog
+JP: モーモー{n}「わかったわかった、あとでもどしておくさ」{end}
+EN: 
+
+#id 0404 ptr=1B3E7B box=dialog
+JP: 「さッ、行こうぜ」{end}
+EN: 
+
+#id 0405 ptr=1B3E86 box=dialog
+JP: シャルル{n}「ムッキー!」{end}
+EN: 
+
+#id 0406 ptr=1B3E93 box=dialog
+JP: タムタム{n}「まあまあ{g1E}」{end}
+EN: 
+
+#id 0407 ptr=1B3EA0 box=dialog
+JP: ラドック{n}「おお、いいところにきた。{n} やはり、ワシの推測は ただしかったぞ!」{delay:78}{clear:00}「ジャスバンじゃ!{n} カラード教の聖地ジャスバンこそが、{n} 伝説の秘宝が眠る場所だったんじゃ」{end}
+EN: 
+
+#id 0408 ptr=1B3F0A box=dialog
+JP: リイム{n}「そうですか、じゃあやっぱり‥‥」{end}
+EN: 
+
+#id 0409 ptr=1B3F20 box=dialog
+JP: ラドック{n}「ん? どうした?」{end}
+EN: 
+
+#id 0410 ptr=1B3F30 box=dialog
+JP: リイム{n}「モーモー、きてくれるかい」{end}
+EN: 
+
+#id 0411 ptr=1B3F43 box=dialog
+JP: ラドック{n}「うおッ!」{end}
+EN: 
+
+#id 0412 ptr=1B3F4F box=dialog
+JP: ラドック{n}「ん? そこにいるのは シャルルかい?」{end}
+EN: 
+
+#id 0413 ptr=1B3F69 box=dialog
+JP: シャルル{n}「教授、ごぶさたしてます」{end}
+EN: 
+
+#id 0414 ptr=1B3F7E box=dialog
+JP: ラドック{n}「おーおー、元気そうじゃのお。{n} こうして話すのは何年ぶりかな?」{delay:78}{clear:00}「お前はずいぶんと おっちょこちょいな{n} ところがあったが、もうおちついたかの」{delay:78}{clear:00}「いつだったかな‥‥ そうそう。{n} タルルン山にいった時のことを 覚えているかね?」{end}
+EN: 
+
+#id 0415 ptr=1B400C box=dialog
+JP: 「あのときは、お前さんの はやとちりで{n} えらいめにあったっけな。フォッフォッフォ」{delay:78}{clear:00}「そういえば、カナカナ高地に行ったときも{n} 傑作じゃったな。くどくど くどくど‥‥」{delay:78}{clear:00}「くどくど くどくど‥‥‥‥{n} くどくど くどくど‥‥‥‥{n} くどくど くどくど‥‥‥‥」{end}
+EN: 
+
+#id 0416 ptr=1B40A0 box=dialog
+JP: モーモー{n}「じいさん、この石板をみてほしいんだ」{end}
+EN: 
+
+#id 0417 ptr=1B40BB box=dialog
+JP: ラドック{n}「うおっほん、これは‥‥ カラードのものか?」{end}
+EN: 
+
+#id 0418 ptr=1B40D8 box=dialog
+JP: リイム{n}「そうです。さきほどおっしゃっていた、{n} ジャスバンから運んできました」{end}
+EN: 
+
+#id 0419 ptr=1B4102 box=dialog
+JP: ラドック{n}「むう‥‥」{end}
+EN: 
+
+#id 0420 ptr=1B410E box=dialog
+JP: リイム{n}「秘宝はジャスバンに‥‥{n} 教授の考察は ただしかったんですよ」{end}
+EN: 
+
+#id 0421 ptr=1B4139 box=dialog
+JP: ラドック{n}「ふむ」{delay:78}{clear:00}「やはり、なにものかが 秘宝を持ちさってしまったと 考えるべきじゃろうな」{delay:78}{clear:00}「リイムたちはライナークへ戻り、王に相談を。{n} シャルル、お前もマテドラルに戻り、{n} 教王に この事を伝えるがよいじゃろう」{end}
+EN: 
+
+#id 0422 ptr=1B41C0 box=dialog
+JP: リイム{n}「はい。{n} 教授は どうなさいます?」{end}
+EN: 
+
+#id 0423 ptr=1B41DA box=dialog
+JP: ラドック{n}「‥‥わしは、もうすこしこの石版を調べてみよう。{n} 結果が出たら、城へ行くとするよ」{end}
+EN: 
+
+#id 0424 ptr=1B4212 box=dialog
+JP: シャルル{n}「あたし、一足先に{n} マテドラルに もどってます!」{end}
+EN: 
+
+#id 0425 ptr=1B4235 box=dialog
+JP: リイム{n}「僕たちはライナークに戻ってから、{n} マテドラルに むかうよ」{end}
+EN: 
+
+#id 0426 ptr=1B425B box=dialog
+JP: シャルル{n}「ええ。あとで おちあいましょう」{end}
+EN: 
+
+#id 0427 ptr=1B4272 box=dialog
+JP: リチャード{n}「‥‥願いをかなえる秘宝か」{end}
+EN: 
+
+#id 0428 ptr=1B428A box=dialog
+JP: {end}
+EN: 
+
+#id 0429 ptr=1B428B box=dialog
+JP: リチャード{n}「人の望みは尽きぬ。{n} 手に入れしものは 何を願うというのだ?」{delay:78}{clear:00}「われわれの暮らしが根底から覆るやもしれぬ。{n} ましておや、ボンバーズのような者たちにわたると、{n} なにがおきるか 考えもつかぬ」{end}
+EN: 
+
+#id 0430 ptr=1B4306 box=dialog
+JP: ライム{n}「この世界を治めたいと欲するのも自由です」{end}
+EN: 
+
+#id 0431 ptr=1B4326 box=dialog
+JP: リイム{n}「たしかに‥‥ でも、ボクたちが それを拒むのも、{n} また、自由なハズです」{end}
+EN: 
+
+#id 0432 ptr=1B4354 box=dialog
+JP: リチャード{n}「うむ。その者が何を望むのかを{n} 見定めねば ならぬな」{delay:78}{clear:00}「そして、それが悪しき願いだった場合は、{n} なんとしても 阻止せねばならぬ」{delay:78}{clear:00}「ほかならぬ われわれの営みを守るためにな。{n} ‥‥身勝手かもしれぬが、{n} 国をあずかる王としての偽らざる気持ちだ」{end}
+EN: 
+
+#id 0433 ptr=1B43F8 box=dialog
+JP: モーモー{n}「なによりも、秘宝を手に入れたのが{n} どこの どいつなのか?」{delay:78}{clear:00}「それをはっきりさせねえと、話がはじまらねえモー」{end}
+EN: 
+
+#id 0434 ptr=1B4441 box=dialog
+JP: リチャード{n}「事態は深刻だ。マテドラルのハウサーにも、{n} この事を知らせなければ ならぬな」{end}
+EN: 
+
+#id 0435 ptr=1B4476 box=dialog
+JP: リイム{n}「シャルルが、先にマテドラルに向かっています。{n} 僕たちもすぐに 後を追います」{end}
+EN: 
+
+#id 0436 ptr=1B44A8 box=dialog
+JP: リチャード{n}「たのんだぞ」{end}
+EN: 
+
+#id 0437 ptr=1B44B6 box=dialog
+JP: ハウサー{n}「おお、良いところにきた、勇者殿」{delay:78}{clear:00}「紹介しよう。このたび、マテドラルの兵を{n} 取り仕切ることになった ヴァイス・キャンベルだ」{end}
+EN: 
+
+#id 0438 ptr=1B450B box=dialog
+JP: 「この者は遺跡の盗掘をなりわいとしていたが、{n} カラードの教義を知り、かんめいをうけたそうじゃ」{delay:78}{clear:00}「彼とその仲間は、{n} 心をいれかえたいと言っておる」{delay:78}{clear:00}「そして、その力を、カラード教とマテドラルの為に{n} 使いたいと申し入れてきたのじゃ」{n}{delay:78}{clear:00}「さきのボンバーズ襲来のおりも、{n} 彼らの活躍で うちはらうことが出来た。{n} 実に たよりになる男じゃ」{end}
+EN: 
+
+#id 0439 ptr=1B45E3 box=dialog
+JP: リイム{n}「マテドラルに兵力が‥‥」{end}
+EN: 
+
+#id 0440 ptr=1B45F7 box=dialog
+JP: リルル{n}「わずかな近衛兵はいますが、とてもこんな力は{n} ありません。彼が連れてきた兵隊さんです」{end}
+EN: 
+
+#id 0441 ptr=1B4630 box=dialog
+JP: ハウサー{n}「勇者殿。今後、ここ、マテドラルでは{n} 彼の指揮にしたがって行動していただきたい」{delay:78}{clear:00}「たのみましたぞ」{end}
+EN: 
+
+#id 0442 ptr=1B4678 box=dialog
+JP: ヴァイス{n}「というわけだ。よろしくな」{delay:78}{clear:00}「‥‥リイム、おまえ達と組めて嬉しいぜ」{end}
+EN: 
+
+#id 0443 ptr=1B46A9 box=dialog
+JP: リイム{n}「ヴァイス‥‥」{end}
+EN: 
+
+#id 0444 ptr=1B46B6 box=dialog
+JP: ヴァイス{n}「早速だが、君達には{n} コレを集める手伝いを してほしい」{end}
+EN: 
+
+#id 0445 ptr=1B46E0 box=dialog
+JP: リイム{n}「これは!?」{end}
+EN: 
+
+#id 0446 ptr=1B46EC box=dialog
+JP: ヴァイス{n}「知らないか? 虹色の魔石の言い伝えを」{n}{delay:78}{clear:00}「この石を7つ集めれば 何かがおこる」{delay:78}{clear:00}「さっきのボンバーズは、{n} マテドラルに伝わる この魔石を狙っているのさ」{end}
+EN: 
+
+#id 0447 ptr=1B4759 box=dialog
+JP: リイム{n}「いったい何が‥‥」{end}
+EN: 
+
+#id 0448 ptr=1B4769 box=dialog
+JP: ヴァイス{n}「虹だよ」{n}{delay:78}{clear:00}「世界の果てに 虹がたつ。{n} そして、魔石を集めた者の願いが かなうのさ」{end}
+EN: 
+
+#id 0449 ptr=1B47AA box=dialog
+JP: ヤゴ{n}「ニヤーン」{end}
+EN: 
+
+#id 0450 ptr=1B47B4 box=dialog
+JP: リルル{n}「!」{delay:78}{clear:00}「そのネコさんは?」{end}
+EN: 
+
+#id 0451 ptr=1B47CC box=dialog
+JP: ヴァイス{n}「ん、こいつか?{n} こいつは相棒のヤゴってんだ」{end}
+EN: 
+
+#id 0452 ptr=1B47EC box=dialog
+JP: ヴァイス{n}「どこまで話したかな‥‥ そう、魔石だよ。{n} どうやらボンバーズはこの魔石を集めているようだ」{delay:78}{clear:00}「そこで、俺たちも魔石を集めて ヤツらに{n} 取引をもちかけるのさ」{delay:78}{clear:00}「そして、取引の場に ノコノコでてきたところを、{n} 叩きツブす!」{end}
+EN: 
+
+#id 0453 ptr=1B487F box=dialog
+JP: リイム{n}「‥‥‥」{end}
+EN: 
+
+#id 0454 ptr=1B4889 box=dialog
+JP: ヴァイス{n}「ヤツらの願いなんざ、{n} ロクなもんじゃねぇにきまってる」{delay:78}{clear:00}「その前に俺たちが魔石を手に入れて、{n} カラードの教えで ヤツらを改心させるのさ」{end}
+EN: 
+
+#id 0455 ptr=1B48E5 box=dialog
+JP: ハウサー{n}「すばらしい。すばらしいぞ、ヴァイスよ」{delay:78}{clear:00}「彼ら魔物とて、争いは好まぬハズ。{n} カラードの教義のもと、魔物と我らとの{n} 理想郷を実現してくれようぞ」{delay:78}{clear:00}「そのためには 虹をかけねばならぬ。{n} これこそ、カラードに忠実なる我らの役目よ」{end}
+EN: 
+
+#id 0456 ptr=1B497E box=dialog
+JP: 「リイムよ、ライナークにもどってリチャードに伝えよ。{n} 来るべき理想郷にむけ、我とともに歩もうと」{end}
+EN: 
+
+#id 0457 ptr=1B49B7 box=dialog
+JP: 「ヴァイスよ、すべては そちにまかせよう。{n} マテドラルの名において、{n} 魔石を見事集めてみせよ」{delay:78}{clear:00}「そのためには、{n} いかなる犠牲をはらってもかまわん」{end}
+EN: 
+
+#id 0458 ptr=1B4A12 box=dialog
+JP: ヴァイス{n}「おおせのままに」{end}
+EN: 
+
+#id 0459 ptr=1B4A21 box=dialog
+JP: リルル{n}「教王!」{end}
+EN: 
+
+#id 0460 ptr=1B4A2D box=dialog
+JP: ハウサー{n}「リルルよ、{n} そなたはリイム殿と行動を共になさい」{delay:78}{clear:00}「余には ヴァイスがついていてくれる。{n} 心配は無用じゃ」{end}
+EN: 
+
+#id 0461 ptr=1B4A79 box=dialog
+JP: リルル{n}「でも‥‥」{end}
+EN: 
+
+#id 0462 ptr=1B4A84 box=dialog
+JP: ハウサー{n}「大丈夫じゃ」{end}
+EN: 
+
+#id 0463 ptr=1B4A94 box=dialog
+JP: リルル{n}「‥‥わかりました。{n} わたしは勇者様におつかえします」{end}
+EN: 
+
+#id 0464 ptr=1B4AB8 box=dialog
+JP: ハウサー{n}「うむ。では行くがよい。{n} 理想郷にむけて、ともに歩もうぞ」{end}
+EN: 
+
+#id 0465 ptr=1B4AE1 box=dialog
+JP: リイム{n}「と、いうわけなんだ」{end}
+EN: 
+
+#id 0466 ptr=1B4AF1 box=dialog
+JP: モーモー{n}「ったく、どうなってんだい!{n} なんだってヴァイスの野郎がマテドラルにいるんだ?」{delay:78}{clear:00}「おまけに願いをかなえる魔石だって?{n} カラードの秘宝と同じ物じゃないのかよ?」{end}
+EN: 
+
+#id 0467 ptr=1B4B57 box=dialog
+JP: リイム{n}「そうだね‥‥ なんで教王は急にヴァイスを{n} 重用なさったんだろう?」{end}
+EN: 
+
+#id 0468 ptr=1B4B84 box=dialog
+JP: 「リルル、ボクたちの留守に{n} 何があったのか、説明してくれるかい?」{end}
+EN: 
+
+#id 0469 ptr=1B4BAC box=dialog
+JP: リルル{n}「はい、あの‥‥なんでこうなっちゃったのかは{n} 私にもわからないんです」{delay:78}{clear:00}「マテドラルに戻ったら、ヴァイスさんに{n} 引き合わされて、これからは彼の言うことは{n} 余の言葉だと思ってくれって‥‥」{end}
+EN: 
+
+#id 0470 ptr=1B4C20 box=dialog
+JP: 「教王はヘンです。まるで、なにかに{n} 魅入られて しまったかのような‥‥」{delay:78}{clear:00}「いつもはやさしくて、あんな事いったりしないんです。{n} それなのに、それなのに‥‥」{end}
+EN: 
+
+#id 0471 ptr=1B4C7B box=dialog
+JP: リイム{n}「リルル、おちついて。{n} ヴァイスのことは どうおもう?」{end}
+EN: 
+
+#id 0472 ptr=1B4C9D box=dialog
+JP: リルル{n}「えっと、そんなに悪い人じゃなさそうですよね」{delay:78}{clear:00}「ボンバーズの魔物さんとだって、なかよくなれる{n} はずだって、リルルも考えてたんです。{n} でも、ちょっとやりかたが乱暴ですよね」{end}
+EN: 
+
+#id 0473 ptr=1B4D06 box=dialog
+JP: シャルル{n}「いたいじゃない!」{delay:78}{clear:00}「まったく乱暴なんだから。{n} もうちょっと やさしくしてよね!」{end}
+EN: 
+
+#id 0474 ptr=1B4D3E box=dialog
+JP: リイム{n}「シャルル、乱暴にしてゴメンよ‥‥{n} キミの意見が聞きたいんだ」{delay:78}{clear:00}「ヴァイスを どうおもう?」{end}
+EN: 
+
+#id 0475 ptr=1B4D7C box=dialog
+JP: シャルル{n}「彼、盗掘団だったんでしょ?」{delay:78}{clear:00}「いきなりやって来て、改心したなんて言っても{n} かんたんに信じられる? 怪しいわよ!」{end}
+EN: 
+
+#id 0476 ptr=1B4DCC box=dialog
+JP: 「教王も 自分を見失ってる気がする‥‥」{delay:78}{clear:00}「そりゃあ、魔物と人間の共存は、{n} 教王が常に考えてらっしゃることだわ」{delay:78}{clear:00}「もちろん、私だって{n} 実現してほしいと おもってる‥‥」{delay:78}{clear:00}「でも、こんなやりかたは ないとおもう{n} イヤな予感がするわ」{end}
+EN: 
+
+#id 0477 ptr=1B4E69 box=dialog
+JP: タムタム{n}「魔石とカラードの秘宝は同じ物なのかしら?{n} 教授なら、なにか解るんじゃないかしら‥‥」{delay:78}{clear:00}「‥‥ヴァイスには、まだ気を許せないわね。{n} パートナーのヤゴにも 大きな力を感じたわ」{end}
+EN: 
+
+#id 0478 ptr=1B4EDB box=dialog
+JP: リイム{n}「彼は力を欲していたよね。ひとの考えかたは、{n} そう簡単に変わるものじゃないとおもう」{end}
+EN: 
+
+#id 0479 ptr=1B4F12 box=dialog
+JP: タムタム{n}「じゃあ、やっぱり‥‥」{end}
+EN: 
+
+#id 0480 ptr=1B4F24 box=dialog
+JP: モーモー{n}「そうだな。決めつけるワケには いかねえけど、{n} 信用できねえのも 確かだよなぁ」{end}
+EN: 
+
+#id 0481 ptr=1B4F57 box=dialog
+JP: タムタム{n}「リイム、これからどうするの?」{end}
+EN: 
+
+#id 0482 ptr=1B4F6D box=dialog
+JP: リイム{n}「一度ライナークへ戻ろうよ。{n} リチャード王に報告しなきゃならないからね」{delay:78}{clear:00}「‥‥それからは、魔石を捜そうとおもう」{end}
+EN: 
+
+#id 0483 ptr=1B4FBA box=dialog
+JP: シャルル{n}「彼らに 協力するつもり?」{end}
+EN: 
+
+#id 0484 ptr=1B4FD1 box=dialog
+JP: リイム{n}「もちろん、すべてを信じているワケじゃないよ」{delay:78}{clear:00}「でも‥‥{n} 彼らの言うことが真実かどうかは ともかく、{n} 魔石を ひとつのところに集めちゃいけない‥‥」{delay:78}{clear:00}「そんな気がするんだ」{end}
+EN: 
+
+#id 0485 ptr=1B5042 box=dialog
+JP: タムタム{n}「‥‥そうね。今は できるだけのことをしましょう」{end}
+EN: 
+
+#id 0486 ptr=1B5062 box=dialog
+JP: ヤゴ{n}「よろしくニャ♪」{end}
+EN: 
+
+#id 0487 ptr=1B506F box=dialog
+JP: リルル{n}「かぁわい～♡{n} こちらこそ、よろしくね♪」{end}
+EN: 
+
+#id 0488 ptr=1B508A box=dialog
+JP: リチャード{n}「そうか‥‥ ボンバーズが集めようとしているのは、{n} 虹色の魔石と呼ばれる石だ」{delay:78}{clear:00}「7つ集めることにより、{n} 天空に虹をかけると 言い伝えられている」{delay:78}{clear:00}「虹は、この世界と魔界とをつなぐ{n} かけ橋となる。ボンバーズは、{n} 魔界復権を狙っているのか?」{end}
+EN: 
+
+#id 0489 ptr=1B512F box=dialog
+JP: リイム{n}「虹色の魔石‥‥」{end}
+EN: 
+
+#id 0490 ptr=1B5141 box=dialog
+JP: ラドック{n}「色にちなんで、そう呼ばれているのじゃ。{n} すなわち‥‥{end}
+EN: 
+
+#id 0491 ptr=1B5165 box=dialog
+JP:  マテドラルに伝わりし、   ミドリの魔石{n} 乾いた地に安置されし、キイロの魔石{n} クルクルの森に託されし、オレンジの魔石{n} クイズ村の王冠、   アイイロの魔石{delay:78}{clear:00} アオイロと ムラサキの魔石は行方が{n} 伝えられておらん。あるいは、すでに{n} ボンバーズの手に おちているのかも知れんな」{end}
+EN: 
+
+#id 0492 ptr=1B5213 box=dialog
+JP: リチャード{n}「そして、わがライナークに伝わる{n} アカイロの魔石」{end}
+EN: 
+
+#id 0493 ptr=1B5237 box=dialog
+JP: リイム{n}「ライナークに魔石が?」{end}
+EN: 
+
+#id 0494 ptr=1B524A box=dialog
+JP: リチャード{n}「うむ」{end}
+EN: 
+
+#id 0495 ptr=1B5255 box=dialog
+JP: 「ライムが身に着けている このカチューシャこそが、{n} 伝えられし魔石なのだ」{delay:78}{clear:00}「魔石は、みな美しい。このように、{n} 装飾品に転じられていることも あろう」{end}
+EN: 
+
+#id 0496 ptr=1B52B4 box=dialog
+JP: リイム{n}「そんな大切な物をですか!?」{end}
+EN: 
+
+#id 0497 ptr=1B52CB box=dialog
+JP: ラドック{n}「古い話だし、王族にしか伝えられなかった{n} 嘘か真か わからぬ話じゃ。無理もなかろう」{delay:78}{clear:00}「しかし、魔石がこのような形で{n} 我らの暮らしに とけこんでいるとすると、{n} 集めるのは ひとくろうじゃな」{delay:78}{clear:00}「ボンバーズが、無差別に略奪を{n} くり返すのも うなずけるわい」{end}
+EN: 
+
+#id 0498 ptr=1B5374 box=dialog
+JP: リチャード{n}「教授!」{end}
+EN: 
+
+#id 0499 ptr=1B5382 box=dialog
+JP: ラドック{n}「おお、これは失言でしたな」{delay:78}{clear:00}「‥‥しかし、願いをかなえる秘宝とは、{n} ジャスバンに眠る魔石の事なのか?」{end}
+EN: 
+
+#id 0500 ptr=1B53CB box=dialog
+JP: 「ワシは研究所に戻って、{n} 魔石に関する文献を調べるとしよう」{end}
+EN: 
+
+#id 0501 ptr=1B53F5 box=dialog
+JP: リチャード{n}「それにしても、ヴァイスという男、気になるな。{n} いかにして ハウサーにとりいったのか?」{delay:78}{clear:00}「なにより、ハウサーが{n} 力による平定を望むとは とても思えぬ‥‥」{delay:78}{clear:00}「わしには解らぬ‥‥{n} リイムよ、われわれは何をなすべきだろう?」{end}
+EN: 
+
+#id 0502 ptr=1B5481 box=dialog
+JP: リイム{n}「ボンバーズが何を望んでいるのかは解りません」{delay:78}{clear:00}「だけど、魔石がライナークにある以上、{n} いつか衝突するときが くるでしょう」{end}
+EN: 
+
+#id 0503 ptr=1B54D3 box=dialog
+JP: 「王はそのときのために、お城の守りを固めて{n} 彼らの来襲にそなえてください」{delay:78}{clear:00}「僕たちは、しばらくのあいだ{n} マテドラルの指示に従って行動してみます」{delay:78}{clear:00}「ヴァイスのことや、ハウサー教王の真意も{n} みえてくるとおもいます」{end}
+EN: 
+
+#id 0504 ptr=1B555D box=dialog
+JP: リチャード{n}「うむ。たよりにしておるぞ」{end}
+EN: 
+
+#id 0505 ptr=1B5572 box=dialog
+JP: リイム{n}「‥‥と、いうわけなんだ」{delay:78}{clear:00}「シャルル、マテドラル領内の{n} 大きな遺跡に案内してくれるかな?」{end}
+EN: 
+
+#id 0506 ptr=1B55B2 box=dialog
+JP: シャルル{n}「わかったわ。{n} ジリジリ砂漠に行ってみましょう」{end}
+EN: 
+
+#id 0507 ptr=1B55D4 box=dialog
+JP: リイム{n}「ボンバーズの狙いも ジャスバンなのかな?」{end}
+EN: 
+
+#id 0508 ptr=1B55F0 box=dialog
+JP: リルル{n}「ジャスバンは、カラード教の聖地として{n} 崇められている遺跡です」{end}
+EN: 
+
+#id 0509 ptr=1B561C box=dialog
+JP: モーモー{n}「そんな有名な遺跡だ、{n} 今回の騒動では真っ先に調べたんだろ?」{end}
+EN: 
+
+#id 0510 ptr=1B564D box=dialog
+JP: リルル{n}「いえ」{end}
+EN: 
+
+#id 0511 ptr=1B5656 box=dialog
+JP: モーモー{n}「あらら」{end}
+EN: 
+
+#id 0512 ptr=1B5661 box=dialog
+JP: リルル{n}「あそこは、私たちマテドラルにとって、{n} 非常に神聖な場所なんです」{delay:78}{clear:00}「たとえハウサー教王でも、{n} 遺跡には特別な儀式の時にしか{n} 立ち入ることは許されていないんですよぉ」{delay:78}{clear:00}「そんなところを散策するなんて、{n} とても できないですぅ」{end}
+EN: 
+
+#id 0513 ptr=1B56FA box=dialog
+JP: モーモー{n}「そんなん、あいつらには関係ない事だよな」{end}
+EN: 
+
+#id 0514 ptr=1B5718 box=dialog
+JP: リイム{n}「とにかく、ジャスバンに急ごうよ!」{end}
+EN: 
+
+#id 0515 ptr=1B5730 box=dialog
+JP: モーモー{n}「チッ、遅かったみたいだな」{end}
+EN: 
+
+#id 0516 ptr=1B5745 box=dialog
+JP: タムタム{n}「これをみて。文字が刻んであるわ」{end}
+EN: 
+
+#id 0517 ptr=1B575F box=dialog
+JP: "‥‥魔石の一片をここに。{n} いつの日か、再び虹をかけん"{delay:78}{clear:00}"とまどうことはない。天空に印しが現れる‥‥"{n}{n}「ですって」{end}
+EN: 
+
+#id 0518 ptr=1B57AD box=dialog
+JP: シャルル{n}「どういう意味?」{end}
+EN: 
+
+#id 0519 ptr=1B57BE box=dialog
+JP: タムタム{n}「魔石にまつわる事みたいね。{n} くわしくは‥‥わからないわ」{end}
+EN: 
+
+#id 0520 ptr=1B57E5 box=dialog
+JP: ピーコック{n}「ブルブルブル‥‥‥‥」{end}
+EN: 
+
+#id 0521 ptr=1B57F8 box=dialog
+JP: リイム{n}「ん! だれかいるのかい?」{end}
+EN: 
+
+#id 0522 ptr=1B580B box=dialog
+JP: リイム{n}「ピーコック! ピーコックじゃないか。{n} キミはヴァイスと一緒だったんじゃ ないのかい?」{end}
+EN: 
+
+#id 0523 ptr=1B583F box=dialog
+JP: ピーコック{n}「あ、やあ‥‥ リイムさん」{end}
+EN: 
+
+#id 0524 ptr=1B5854 box=dialog
+JP: タムタム{n}「どうしてあなたが こんな所に居るの?」{end}
+EN: 
+
+#id 0525 ptr=1B5870 box=dialog
+JP: リイム{n}「あそこの石を持ち出したのは キミ達かい?{n} ヴァイスは どこにいるんだい?」{end}
+EN: 
+
+#id 0526 ptr=1B58A0 box=dialog
+JP: モーモー{n}「ボンバーズが来たんじゃねえのか?」{end}
+EN: 
+
+#id 0527 ptr=1B58B9 box=dialog
+JP: ピーコック{n}「う‥‥あ‥‥」{end}
+EN: 
+
+#id 0528 ptr=1B58C8 box=dialog
+JP: 蒼月{n}「‥‥そうですか、{n} 我々を出し抜くとは たいしたもんですね」{end}
+EN: 
+
+#id 0529 ptr=1B58F1 box=dialog
+JP: ????{n}「お前達の事は知ってるぜ。{n} フン、どうだ? オレに協力しないか?」{delay:78}{clear:00}「オレたちは、この魔石を捜している。{n} 魔石を集めてくれたら願いをかなえてやるぜ」{end}
+EN: 
+
+#id 0530 ptr=1B5955 box=dialog
+JP: トランプ{n}「フ、フザケンジャネー!!」{end}
+EN: 
+
+#id 0531 ptr=1B5969 box=dialog
+JP: ????{n}「おれは、力を手に入れた。{n} 次は国を手に入れる。それだけだ」{delay:78}{clear:00}「その他の事には興味がねえ。{n} お前らにくれてやる。好きにするがいいさ」{end}
+EN: 
+
+#id 0532 ptr=1B59C5 box=dialog
+JP: 「どうだ? 悪い話じゃないだろう?」{end}
+EN: 
+
+#id 0533 ptr=1B59DA box=dialog
+JP: 蒼月{n}「断ったら?」{end}
+EN: 
+
+#id 0534 ptr=1B59E8 box=dialog
+JP: ????{n}「どうぞ、御自由に」{delay:78}{clear:00}「でも、わすれんじゃねえぜ。{n} お前らが捜してた秘宝は、オレの手にあるんだ」{delay:78}{clear:00}「どうあがいても、おまえの望みは かなわねえんだぜ」{end}
+EN: 
+
+#id 0535 ptr=1B5A4D box=dialog
+JP: ??{n}「悪いことはいわないニャ、ボクに協力するニャン。{n} そうすれば、願いを かなえてあげるニャ」{end}
+EN: 
+
+#id 0536 ptr=1B5A83 box=dialog
+JP: 蒼月{n}「‥‥‥」{end}
+EN: 
+
+#id 0537 ptr=1B5A8E box=dialog
+JP: {end}
+EN: 
+
+#id 0538 ptr=1B5A8F box=dialog
+JP: リルル{n}「あっ、勇者様!{n} たいへんなことに なっちゃったんですぅ」{end}
+EN: 
+
+#id 0539 ptr=1B5AB5 box=dialog
+JP: リイム{n}「どうしたんだい?」{end}
+EN: 
+
+#id 0540 ptr=1B5AC4 box=dialog
+JP: リルル{n}「ハウサー教王が‥‥」{end}
+EN: 
+
+#id 0541 ptr=1B5AD6 box=dialog
+JP: 「敵襲だ～!」{end}
+EN: 
+
+#id 0542 ptr=1B5AE0 box=dialog
+JP: リイム{n}「話はあとだ。いこう、みんな!」{end}
+EN: 
+
+#id 0543 ptr=1B5AF6 box=dialog
+JP: ピーコック{n}「お、おれ、なんにも わからねえっス。{n} わからねえっス～～!」{end}
+EN: 
+
+#id 0544 ptr=1B5B1D box=dialog
+JP: モーモー{n}「なんでえ、あいつ?」{end}
+EN: 
+
+#id 0545 ptr=1B5B2E box=dialog
+JP: シャルル{n}「あのこ、ヴァイスの仲間なんでしょ?」{delay:78}{clear:00}「いいわ。なにがあったのか、{n} あとであたしが ヴァイスにきいてやるわよ」{end}
+EN: 
+
+#id 0546 ptr=1B5B74 box=dialog
+JP: 「それより勇者殿、これからどうするの?」{end}
+EN: 
+
+#id 0547 ptr=1B5B8C box=dialog
+JP: リイム{n}「クルクルの森に いってみようよ。{n} ボンバーズより先に魔石をあつめないとね」{end}
+EN: 
+
+#id 0548 ptr=1B5BBC box=dialog
+JP: リイム{n}「ライナーク国王の命をうけて参りました、{n} リイム・ライクバーンと 申します」{delay:78}{clear:00}「こちらに伝わる魔石を{n} お譲りいただけますでしょうか?」{end}
+EN: 
+
+#id 0549 ptr=1B5C14 box=dialog
+JP: ボルシチ{n}「ああ、話はきいてるよ。{n} じさまの残した石コロのことだな」{delay:78}{clear:00}「たしか、そこいらに転がってるハズだよ。{n} 勝手に もっていっておくれ」{delay:78}{clear:00}「こちとら、それどころじゃねえんだ」{end}
+EN: 
+
+#id 0550 ptr=1B5C80 box=dialog
+JP: タムタム{n}「どうなさったのですか?」{end}
+EN: 
+
+#id 0551 ptr=1B5C93 box=dialog
+JP: ボルシチ{n}「みてのとおりだぁよ。子供の熱が さがんねえんだ」{delay:78}{clear:00}「どうやら魔物の毒らしいんだが、{n} 薬をつくろうにも肝心な材料をきらしちまった」{delay:78}{clear:00}「あんたら、バルバル鳥の羽を持ってたら、{n} ゆずってくれねえかい?」{end}
+EN: 
+
+#id 0552 ptr=1B5D16 box=dialog
+JP: タムタム{n}「ごめんなさい。あいにく‥‥」{end}
+EN: 
+
+#id 0553 ptr=1B5D2B box=dialog
+JP: ボルシチ{n}「そうか、まあ、しょうがねえや」{end}
+EN: 
+
+#id 0554 ptr=1B5D41 box=dialog
+JP: 「ポトフ、まってろよ。{n} すぐに バルバル鳥を捕まえてきてやっから、{n} もうしばらく辛抱してるんだぞ」{end}
+EN: 
+
+#id 0555 ptr=1B5D79 box=dialog
+JP: モーモー{n}「ちょっとまちな。おれたちが行ってきてやるよ。{n} おっさんは、子供のそばに いてやんな」{end}
+EN: 
+
+#id 0556 ptr=1B5DAE box=dialog
+JP: ボルシチ{n}「だけんど‥‥」{end}
+EN: 
+
+#id 0557 ptr=1B5DBC box=dialog
+JP: リイム{n}「いいんですよ。僕たちに まかせてください」{delay:78}{clear:00}「で、どこに捕まえにいく つもりだったんですか?」{end}
+EN: 
+
+#id 0558 ptr=1B5DF8 box=dialog
+JP: ボルシチ{n}「バルバル鳥は いまの時期、ハイエスト山脈に{n} 飛んでくるだ。でかくて羽が青っぽい鳥だよ」{delay:78}{clear:00}「‥‥すまねえ、おんにきるよ」{end}
+EN: 
+
+#id 0559 ptr=1B5E49 box=dialog
+JP: {end}
+EN: 
+
+#id 0560 ptr=1B5E4A box=dialog
+JP: モーモー{n}「おっしゃ、捕まえたぜ」{end}
+EN: 
+
+#id 0561 ptr=1B5E5D box=dialog
+JP: リイム{n}「よーし、はやいとこ、羽をとどけてあげなきゃ」{end}
+EN: 
+
+#id 0562 ptr=1B5E7A box=dialog
+JP: タムタム{n}「ええ。おおいそぎでね♡」{end}
+EN: 
+
+#id 0563 ptr=1B5E8D box=dialog
+JP: ボルシチ{n}「おお、それはまさしく バルバル鳥の羽!{n} ささ、はやくこっちへ。ささ、はやく」{end}
+EN: 
+
+#id 0564 ptr=1B5EBD box=dialog
+JP: ボルシチ{n}「ありがとう御座います。{n} これで息子も元気になります」{end}
+EN: 
+
+#id 0565 ptr=1B5EE5 box=dialog
+JP: 「そうそう、じさまの残した本があったんですよ。{n} なんかの役にたつかもしれねえでしょう。{n} いっしょに もっていってください」{end}
+EN: 
+
+#id 0566 ptr=1B5F28 box=dialog
+JP: "虹色の魔石は魔を はらう。{n} 7つあつめれば、ねがいがかなう"{end}
+EN: 
+
+#id 0567 ptr=1B5F4E box=dialog
+JP: リイム{n}「んと、なんの形だろ?」{end}
+EN: 
+
+#id 0568 ptr=1B5F60 box=dialog
+JP: タムタム{n}「なにかの 順番かしら‥‥」{end}
+EN: 
+
+#id 0569 ptr=1B5F76 box=dialog
+JP: ボルシチ{n}「おお、ポトフの熱が下がった、薬がきいた!」{end}
+EN: 
+
+#id 0570 ptr=1B5F95 box=dialog
+JP: シャルル{n}「ぼうや、よかったわね。元気になって」{end}
+EN: 
+
+#id 0571 ptr=1B5FB0 box=dialog
+JP: ポトフ{n}「‥‥ねえ、お兄ちゃんたち強いの?」{end}
+EN: 
+
+#id 0572 ptr=1B5FC9 box=dialog
+JP: モーモー{n}「あたぼうよ。{n} 俺たちが弱そうに見えるかい? がっはっは」{end}
+EN: 
+
+#id 0573 ptr=1B5FF0 box=dialog
+JP: シャルル{n}「‥‥あんたと いっしょにしないでよ」{end}
+EN: 
+
+#id 0574 ptr=1B6009 box=dialog
+JP: 「コホン、お姉ちゃんはね、{n} この国いちばんの コハク使いなのよ」{delay:78}{clear:00}「なにか心配な事でも あるの?{n} お姉ちゃんに 話してごらんなさい」{end}
+EN: 
+
+#id 0575 ptr=1B605B box=dialog
+JP: ポトフ{n}「‥‥」{end}
+EN: 
+
+#id 0576 ptr=1B6064 box=dialog
+JP: リイム{n}「あはは、だまっていたんじゃ わからないよ。{n} 僕たちに 話してくれないかな?」{end}
+EN: 
+
+#id 0577 ptr=1B6093 box=dialog
+JP: ポトフ{n}「ちょっと前の事なんだ‥‥」{delay:78}{clear:00}「友達といっしょに、{n} おもちゃの塔に遊びにいったの」{delay:78}{clear:00}「そしたら、とつぜん魔物が現れて‥‥{n} ボクは なんとか逃げだしたんだけど、{n} 他のみんなは 捕まっちゃった」{end}
+EN: 
+
+#id 0578 ptr=1B6110 box=dialog
+JP: 「魔物が叫ぶんだ。{n} "誰かに喋ったら、ただじゃおかないぞ" って」{delay:78}{clear:00}「ボク、怖くて怖くて‥‥{n} おうちにかえってきたら 気分が悪くなって‥‥」{end}
+EN: 
+
+#id 0579 ptr=1B6168 box=dialog
+JP: シャルル{n}「そうだったの‥‥」{end}
+EN: 
+
+#id 0580 ptr=1B6178 box=dialog
+JP: ポトフ{n}「お願い、お兄ちゃんたち強いんでしょう?{n} だったらみんなを‥‥」{delay:78}{clear:00}「みんなを 助けてよ!」{end}
+EN: 
+
+#id 0581 ptr=1B61B4 box=dialog
+JP: リイム{n}「よし。お兄ちゃんたちに まかせてごらん。{n} きっと、キミの友達を助けてあげるよ」{end}
+EN: 
+
+#id 0582 ptr=1B61E6 box=dialog
+JP: モーモー{n}「よっしゃ、一発ガーンといこうぜ!」{end}
+EN: 
+
+#id 0583 ptr=1B6200 box=dialog
+JP: {end}
+EN: 
+
+#id 0584 ptr=1B6201 box=dialog
+JP: トランプ{n}「んだあ～? またおまえらか。{n} よくよく俺様の邪魔をするやつらだな」{end}
+EN: 
+
+#id 0585 ptr=1B622E box=dialog
+JP: リイム{n}「子供たちを どうするつもりだい!?」{end}
+EN: 
+
+#id 0586 ptr=1B6248 box=dialog
+JP: トランプ{n}「ガキは帰してやるよ」{delay:78}{clear:00}「村のやつらが、宝石をもってくりゃあ、{n} いつでも交換してやるぜ!」{end}
+EN: 
+
+#id 0587 ptr=1B6287 box=dialog
+JP: タムタム{n}「な!」{end}
+EN: 
+
+#id 0588 ptr=1B6291 box=dialog
+JP: トランプ{n}「ヒャッヒャッヒャ! おそわったんだよ。{n} 貴重品を ガバチョとあつめる方法さ」{delay:78}{clear:00}「こうすりゃ、{n} いちいち出向く手間が はぶけるだろう?」{end}
+EN: 
+
+#id 0589 ptr=1B62EB box=dialog
+JP: タムタム{n}「卑怯よ!」{end}
+EN: 
+
+#id 0590 ptr=1B62F9 box=dialog
+JP: トランプ{n}「卑怯?{n} あったりまえじゃねえか。ヒャハハ!」{end}
+EN: 
+
+#id 0591 ptr=1B6319 box=dialog
+JP: リイム{n}「いそごう! みんなを助けなくっちゃ」{end}
+EN: 
+
+#id 0592 ptr=1B6332 box=dialog
+JP: {end}
+EN: 
+
+#id 0593 ptr=1B6333 box=dialog
+JP: ミーシャの母{n}「ありがとうございます。{n} ああ、なんとお礼を申し上げてよいやら」{end}
+EN: 
+
+#id 0594 ptr=1B6360 box=dialog
+JP: モーモー{n}「いいってことよ」{end}
+EN: 
+
+#id 0595 ptr=1B636F box=dialog
+JP: ミーシャ{n}「ねえ、ヌイグルミの プーちゃんはドコにいったの?」{end}
+EN: 
+
+#id 0596 ptr=1B638F box=dialog
+JP: ミーシャの母{n}「え、あ、プーちゃん、プーちゃんはもう‥‥」{end}
+EN: 
+
+#id 0597 ptr=1B63AE box=dialog
+JP: モーモー{n}「どうしたんだい?」{end}
+EN: 
+
+#id 0598 ptr=1B63BE box=dialog
+JP: ミーシャの母{n}「ええ。じつは‥‥」{delay:78}{clear:00}「この子が いなくなってから、酷いことが{n} 続きました。魔物が村を襲ってきたのです」{delay:78}{clear:00}「魔物は、村中の食糧という{n} 食糧を奪っていきました。{n} その時、プーちゃんも一緒に‥‥」{end}
+EN: 
+
+#id 0599 ptr=1B6447 box=dialog
+JP: ミーシャ{n}「え～～～～」{end}
+EN: 
+
+#id 0600 ptr=1B6454 box=dialog
+JP: ミーシャの母{n}「魔物はそこらじゅうに雪だるまをつくって{n} 奪った食糧を貯蔵しています。{n} おそらく、プーちゃんもそこに‥‥」{end}
+EN: 
+
+#id 0601 ptr=1B649C box=dialog
+JP: リイム{n}「じゃあ、雪だるまを崩せば{n} プーちゃんが出てくるかも しれないんですね」{end}
+EN: 
+
+#id 0602 ptr=1B64C9 box=dialog
+JP: ミーシャの母{n}「あ、待ってください」{delay:78}{clear:00}「雪だるまを崩そうとすると、{n} 魔物が怒って 雪玉を投げてくるんです」{n}{delay:78}{clear:00}「危なっかしくって、{n} どうすることも できないんですよ‥‥」{end}
+EN: 
+
+#id 0603 ptr=1B6536 box=dialog
+JP: モーモー{n}「雪玉なんかへっちゃらだぜ。{n} よっしゃ、俺たちがプーちゃんを捜してやるよ」{end}
+EN: 
+
+#id 0604 ptr=1B6566 box=dialog
+JP: 「ヌイグルミを とりもどした勇者軍は、{n} オレンジの魔石を求めて クイズ村へ急ぐ」{end}
+EN: 
+
+#id 0605 ptr=1B6598 box=dialog
+JP: {end}
+EN: 
+
+#id 0606 ptr=1B6599 box=dialog
+JP: リイム{n}「ライナーク国王の命をうけて参りました。{n} リイム・ライクバーンと申します」{delay:78}{clear:00}「このクイズ村に伝わる 知性の王冠を{n} お譲りいただけないでしょうか?」{end}
+EN: 
+
+#id 0607 ptr=1B65FA box=dialog
+JP: 司会者{n}「ふむふむ、事情はわかりました。{n} そういうことならば、協力は惜しみません」{end}
+EN: 
+
+#id 0608 ptr=1B662D box=dialog
+JP: リイム{n}「ありがとう ございます」{end}
+EN: 
+
+#id 0609 ptr=1B663F box=dialog
+JP: 司会者{n}「ただし! ただしですぞ。我が村自慢の{n} ゲートクイズに参加して いただきますぞ」{end}
+EN: 
+
+#id 0610 ptr=1B6676 box=dialog
+JP: 「見事、すべてのゲートを トッパしたならば、{n} この知性の冠を お譲り致しましょう」{end}
+EN: 
+
+#id 0611 ptr=1B66A8 box=dialog
+JP: モーモー{n}「え～、クイズすんのかモー?{n} べつにいいぢゃん、そんなことしなくても」{end}
+EN: 
+
+#id 0612 ptr=1B66D2 box=dialog
+JP: 司会者{n}「ななな、なんですと!{n} 予選をパスして、{n} いきなり決勝クイズなんですぞ!」{delay:78}{clear:00}「だいだい伝え守られた、この村の格式を{n} 無視してまで 協力しようという、{n} この私の気持ちが{n} 理解して いただけないのですか!」{end}
+EN: 
+
+#id 0613 ptr=1B675B box=dialog
+JP: 「ほほほ、ほんらいなら、バラマキクイズの予選を{n} 勝ち抜かなければ、ゲートクイズには{n} 挑戦できないんですぞ。それを‥‥ それを‥‥」{delay:78}{clear:00}「いきなりゲートクイズへの 挑戦を認めた{n} この私の気持ちを～～～!!」{end}
+EN: 
+
+#id 0614 ptr=1B67D5 box=dialog
+JP: リイム{n}「わ、わかりました」{end}
+EN: 
+
+#id 0615 ptr=1B67E4 box=dialog
+JP: モーモー{n}「なんでえ、ケチくせ‥‥モゴモゴ」{end}
+EN: 
+
+#id 0616 ptr=1B67FB box=dialog
+JP: タムタム{n}「さ、さっそく挑戦させて もらいますね♡」{end}
+EN: 
+
+#id 0617 ptr=1B6818 box=dialog
+JP: {end}
+EN: 
+
+#id 0618 ptr=1B6819 box=dialog
+JP: 司会者{n}「いや～、よくぞこの難問を突破なさいました。{n} じつに数年ぶりの合格者ですよ～～～」{end}
+EN: 
+
+#id 0619 ptr=1B6854 box=dialog
+JP: モーモー{n}「がっはっは、かるいかるい」{end}
+EN: 
+
+#id 0620 ptr=1B6868 box=dialog
+JP: 司会者{n}「あなたこそ、{n} この、知性の冠に ふさわしい方です!」{delay:78}{clear:00}「ささ、この冠を かぶってみてくだされ」{end}
+EN: 
+
+#id 0621 ptr=1B68AB box=dialog
+JP: 司会者{n}「おお、よくお似合いですぞ ♪」{end}
+EN: 
+
+#id 0622 ptr=1B68C5 box=dialog
+JP: モーモー{n}「そ、そう?」{end}
+EN: 
+
+#id 0623 ptr=1B68D2 box=dialog
+JP: リイム{n}「そ、それじゃ、ボクたちはこれで{g1E}」{end}
+EN: 
+
+#id 0624 ptr=1B68E9 box=dialog
+JP: {end}
+EN: 
+
+#id 0625 ptr=1B68EA box=dialog
+JP: {end}
+EN: 
+
+#id 0626 ptr=1B68EB box=dialog
+JP: ラドック{n}「むう。これがジャスバンの秘宝だというのか‥‥」{delay:78}{clear:00}「こうしちゃおれん!{n} いっこくもはやく、この事を知らせねば!」{end}
+EN: 
+
+#id 0627 ptr=1B6933 box=dialog
+JP: ??{n}「ココで なにしてるんだニャン?」{end}
+EN: 
+
+#id 0628 ptr=1B6948 box=dialog
+JP: ラドック{n}「あ、ああ、あ‥‥」{end}
+EN: 
+
+#id 0629 ptr=1B6958 box=dialog
+JP: ??{n}「まさかカラードの文字を{n} 読めるヤツがいるとは思わなかったニャ」{delay:78}{clear:00}「コソコソ嗅ぎまわるのは、よくないニャン」{end}
+EN: 
+
+#id 0630 ptr=1B699D box=dialog
+JP: {end}
+EN: 
+
+#id 0631 ptr=1B699E box=dialog
+JP: モーモー{n}「おーい、じいさん居るか～?{n} 魔石を あつめてきたモ～」{end}
+EN: 
+
+#id 0632 ptr=1B69C4 box=dialog
+JP: 「‥‥ って、なんじゃこりゃぁ!」{end}
+EN: 
+
+#id 0633 ptr=1B69D6 box=dialog
+JP: タムタム{n}「ひどい! 研究所が めちゃくちゃだわ!」{delay:78}{clear:00}「教授、教授はどこなの!?」{end}
+EN: 
+
+#id 0634 ptr=1B6A0C box=dialog
+JP: リイム{n}「ラドック教授‥‥」{end}
+EN: 
+
+#id 0635 ptr=1B6A1D box=dialog
+JP: {end}
+EN: 
+
+#id 0636 ptr=1B6A1E box=dialog
+JP: {end}
+EN: 
+
+#id 0637 ptr=1B6A1F box=dialog
+JP: ラドック{n}「‥‥祭壇には なにも残ってなかったんじゃな?」{end}
+EN: 

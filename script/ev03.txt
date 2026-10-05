@@ -1,0 +1,535 @@
+#id 0000 ptr=01BEDF box=dialog
+JP: {p7F:00}すべての絵柄がそろったぞ。{scroll:00}{end}
+EN: 
+
+#id 0001 ptr=01BEF6 box=dialog
+JP: {p7F:00}神殿の番人が姿をあらわした!{end}
+EN: 
+
+#id 0002 ptr=01BF2A box=dialog
+JP: {p7F:00}パネルが回転していきます。{end}
+EN: 
+
+#id 0003 ptr=01BF50 box=dialog
+JP: {p7F:00}絵が揃った。扉が開きました。{end}
+EN: 
+
+#id 0004 ptr=01BF68 box=dialog
+JP: {p7F:00}砂の下に スイッチがありました。{scroll:00}{end}
+EN: 
+
+#id 0005 ptr=01BF83 box=dialog
+JP: {p7F:00}ここには もう何もありません。{scroll:00}{end}
+EN: 
+
+#id 0006 ptr=01BF9C box=dialog
+JP: {p7F:03}「ひーーーーーーーーーーーーーー!」{end}
+EN: 
+
+#id 0007 ptr=01C019 box=dialog
+JP: {p7F:02}{speed:02}「これは‥{delay:20}バルバル鳥じゃないね。{delay:20}はなしてやろう」{scroll:00}{end}
+EN: 
+
+#id 0008 ptr=01C050 box=dialog
+JP: {p7F:02}{speed:02}「ああ‥これだ。{delay:30}このイロはまさにバルバル鳥。{n}{delay:30} やっとつかまえたぞ」{scroll:00}{end}
+EN: 
+
+#id 0009 ptr=01C095 box=dialog
+JP: {p7F:02}{speed:02}「こら～! 鳥をいじめてはいか～ん!」{end}
+EN: 
+
+#id 0010 ptr=01C0C7 box=dialog
+JP: {p7F:00}矢印が 浮き出てきました。{n}矢印のほうに 進んでみましょう。{end}
+EN: 
+
+#id 0011 ptr=01C1ED box=dialog
+JP: {p7F:00}針が ひっこみました。{end}
+EN: 
+
+#id 0012 ptr=01C2E1 box=dialog
+JP: {p7F:00}針が とびだしました。{end}
+EN: 
+
+#id 0013 ptr=01C3BA box=dialog
+JP: {p7F:00}針が ひっこみました。{end}
+EN: 
+
+#id 0014 ptr=01C52B box=dialog
+JP: {p7F:00}針が ひっこみました。{end}
+EN: 
+
+#id 0015 ptr=01C719 box=dialog
+JP: {p7F:00}扉が 開きました。{end}
+EN: 
+
+#id 0016 ptr=01C773 box=dialog
+JP: {p7F:00}扉が 開きました。{end}
+EN: 
+
+#id 0017 ptr=01C7CD box=dialog
+JP: {p7F:00}扉が 開きました。{end}
+EN: 
+
+#id 0018 ptr=01C86C box=dialog
+JP: {p7F:00}はね橋が かかりました。{end}
+EN: 
+
+#id 0019 ptr=01C912 box=dialog
+JP: {p7F:00}あなたは、とてつもない力を手に入れました。{n}秘密のメニューに入ることができます。{scroll:00}{end}
+EN: 
+
+#id 0020 ptr=01CBFD box=dialog
+JP: {p7F:02}{speed:02}「ぬぬぬ、秘密のスイッチを 見つけるとは、{n} やるでござるな」{end}
+EN: 
+
+#id 0021 ptr=01CC2A box=dialog
+JP: {p7F:02}{speed:02}「しかし、ここは通さないでござる」{scroll:00}{end}
+EN: 
+
+#id 0022 ptr=01D189 box=dialog
+JP: {p7F:00}スイッチパネルを ふみました。{n}大きな音がして 壁が崩れました。{end}
+EN: 
+
+#id 0023 ptr=01D218 box=dialog
+JP: {p7F:00}スイッチパネルを ふみました。{n}大きな音がして 壁が崩れました。{end}
+EN: 
+
+#id 0024 ptr=01D3EB box=dialog
+JP: {p7F:00}スイッチパネルを ふみました。{n}ベルトコンベアの向きが反転しました。{end}
+EN: 
+
+#id 0025 ptr=01D749 box=dialog
+JP: {p7F:02}{speed:02}「よくここまで来ましたね。{delay:30}おめでとう。{n}{delay:30} それではごきげんよう」{scroll:00}{end}
+EN: 
+
+#id 0026 ptr=01D781 box=dialog
+JP: {p7F:02}{speed:02}「すばらしい。{delay:30}あなたは全問正解しました。{n}{delay:30} この先の、スペシャルアイテムがもらえます」{scroll:00}{end}
+EN: 
+
+#id 0027 ptr=01D7C9 box=dialog
+JP: {p7F:02}{speed:02}「好きなほうのパネルにのってね」{scroll:00}{end}
+EN: 
+
+#id 0028 ptr=01D80A box=dialog
+JP: {p7F:00}中には、"ジョーカーキャップ"が{n}入っていました。{scroll:00}{end}
+EN: 
+
+#id 0029 ptr=01D832 box=dialog
+JP: {p7F:02}{speed:02}「わーーい。{delay:30}いいもの、もらっちゃった」{end}
+EN: 
+
+#id 0030 ptr=01D87E box=dialog
+JP: {p7F:00}中には、"たたかいのゆびわ"が{n}入っていました。{scroll:00}{end}
+EN: 
+
+#id 0031 ptr=01D8A5 box=dialog
+JP: {p7F:02}{speed:02}「よーーし。{delay:30}アイテムを手にいれたぞ」{end}
+EN: 
+
+#id 0032 ptr=01DA93 box=dialog
+JP: {p7F:00}隠れていた魔物が姿をあらわした!{scroll:00}{end}
+EN: 
+
+#id 0033 ptr=01DB3B box=dialog
+JP: {p7F:00}この魔方陣は スイッチになっているようです。{n}踏んでみましょう。{scroll:00}{end}
+EN: 
+
+#id 0034 ptr=01DB6E box=dialog
+JP: {p7F:00}扉が 開きました。{end}
+EN: 
+
+#id 0035 ptr=01DB96 box=dialog
+JP: {p7F:02}{speed:02}「ここを開けては ダメでスワン。{n}{delay:30} この私が こらしめてあげまスワン!」{scroll:00}{end}
+EN: 
+
+#id 0036 ptr=01DBDC box=dialog
+JP: {p7F:00}??? 何も起こりません。どうしましょう?{scroll:00}{end}
+EN: 
+
+#id 0037 ptr=01DCAD box=dialog
+JP: {p7F:01}この台座には、もう魔石が置かれています。{scroll:00}{end}
+EN: 
+
+#id 0038 ptr=01DCE4 box=dialog
+JP: {p7F:01}そのユニットは魔石を扱うことができません。{scroll:00}{end}
+EN: 
+
+#id 0039 ptr=01DD43 box=dialog
+JP: {p7F:02}{speed:02}「おまえたち、何をするつもりだニャ?」{end}
+EN: 
+
+#id 0040 ptr=01DD67 box=dialog
+JP: {p7F:00}魔石を置くのをやめました。{scroll:00}{end}
+EN: 
+
+#id 0041 ptr=01DD84 box=dialog
+JP: {p7F:00}台座の魔石が反応しています。{end}
+EN: 
+
+#id 0042 ptr=01DE63 box=dialog
+JP: {p7F:02}{speed:02}「ダメダメ。キミたちには無理だニャ」{end}
+EN: 
+
+#id 0043 ptr=01DF07 box=dialog
+JP: {p7F:02}{speed:02}「うわっ、これがレインボーロードなの?」{end}
+EN: 
+
+#id 0044 ptr=01DF30 box=dialog
+JP: {p7F:02}{speed:02}「ニャ! なんてことをするんだニャー!」{end}
+EN: 
+
+#id 0045 ptr=01DF53 box=dialog
+JP: {p7F:02}「こりゃまずいニャン」{end}
+EN: 
+
+#id 0046 ptr=01DF96 box=dialog
+JP: {p7F:01}たいよう が召喚されました。{end}
+EN: 
+
+#id 0047 ptr=01DFC1 box=dialog
+JP: {p7F:02}{speed:02}「あいつらを やっつけるんだニャーー!」{end}
+EN: 
+
+#id 0048 ptr=01E208 box=dialog
+JP: {p7F:00}スイッチパネルを ふみました。{n}ベルトコンベアの向きが反転しました。{end}
+EN: 
+
+#id 0049 ptr=01E251 box=dialog
+JP: {p7F:00}秘密の世界への道のりは遠いです。{scroll:00}{end}
+EN: 
+
+#id 0050 ptr=01E270 box=dialog
+JP: {p7F:00}秘密の世界への扉が開かれました。{scroll:00}{end}
+EN: 
+
+#id 0051 ptr=01E295 box=dialog
+JP: {p7F:00}誰も いないようです。{scroll:00}{end}
+EN: 
+
+#id 0052 ptr=01E2AA box=dialog
+JP: {p7F:02}{speed:02}「‥‥とおもったけど、もう仲間がいっぱいみたいだね。{delay:30} 残念、またこんどさそってね」{scroll:00}{end}
+EN: 
+
+#id 0053 ptr=01E2F7 box=dialog
+JP: {p7F:00}新しい仲間が 加わりました。{scroll:00}{end}
+EN: 
+
+#id 0054 ptr=01E312 box=dialog
+JP: {p7F:00}壊れた家です。人の気配は ありません。{scroll:00}{end}
+EN: 
+
+#id 0055 ptr=01E333 box=dialog
+JP: {p7F:02}{speed:02}「ここは家なのだ」{scroll:00}{end}
+EN: 
+
+#id 0056 ptr=01E351 box=dialog
+JP: {p7F:02}{speed:02}「やあ、こんにちは。{delay:30}ぼくも ついていくよ。{delay:30}コケコケ」{end}
+EN: 
+
+#id 0057 ptr=01E397 box=dialog
+JP: {p7F:02}{speed:02}「こんにちは。{delay:30}わたしも おともします。{delay:30}ペリペリ」{end}
+EN: 
+
+#id 0058 ptr=01E3DB box=dialog
+JP: {p7F:02}{speed:02}「いらっしゃい。{delay:30}ぼくも いこうか。{delay:30}ペリペリ」{end}
+EN: 
+
+#id 0059 ptr=01E41D box=dialog
+JP: {p7F:02}{speed:02}「ブヒヒッ いっしょにたたかう。{delay:30}ブヒッ!」{end}
+EN: 
+
+#id 0060 ptr=01E45B box=dialog
+JP: {p7F:02}{speed:02}「チューチュー。{delay:30}ラドック教授のところへ{n} いくんだったら、おともさせてください。{delay:30}チュー」{end}
+EN: 
+
+#id 0061 ptr=01E4B5 box=dialog
+JP: {p7F:02}{speed:02}「おやおや、お客さんとはめずらしいね」{scroll:00}{clear:00}「え?{delay:20} ピラミッドに行くのかい?{n}{delay:30} おもしろそうだね。{delay:30}よし、ボクもついていくよ」{end}
+EN: 
+
+#id 0062 ptr=01E527 box=dialog
+JP: {p7F:02}{speed:02}「わたしも おてつだいしましょう。{delay:30}ペリペリ」{end}
+EN: 
+
+#id 0063 ptr=01E566 box=dialog
+JP: {p7F:02}{speed:02}「シーソーふむんでしょ?{delay:30} ぼくもてつだってあげるポン」{end}
+EN: 
+
+#id 0064 ptr=01E5AA box=dialog
+JP: {p7F:02}{speed:02}「ポ～ルタ～ さがしものてつだってあげるよ。{delay:30}ガガガ♡」{end}
+EN: 
+
+#id 0065 ptr=01E5EE box=dialog
+JP: {p7F:02}{speed:02}「やあ、こんにちは。{delay:30}ぼくも ついていくよ」{end}
+EN: 
+
+#id 0066 ptr=01E62C box=dialog
+JP: {p7F:02}{speed:02}「よかった!{delay:20} とじこめられていたんだよ。{n}{delay:30} もう、でられないかと おもっちゃったよ」{end}
+EN: 
+
+#id 0067 ptr=01E682 box=dialog
+JP: {p7F:02}{speed:02}「ああ、たすかったわ。{delay:30}まよっちゃったの。{n}{delay:30} 出口はどこかしら?{delay:30} 連れていってくださる?」{end}
+EN: 
+
+#id 0068 ptr=01E6E0 box=dialog
+JP: {p7F:02}{speed:02}「ああっ、やっと助けがきてくれた。{n}{delay:30} もうちょっとで 枯れちゃうところだったよ」{end}
+EN: 
+
+#id 0069 ptr=01E733 box=dialog
+JP: {p7F:02}{speed:02}「シャーッ! オレモ ナカマ ニ イレロ!」{end}
+EN: 
+
+#id 0070 ptr=01E76F box=dialog
+JP: {p7F:02}{speed:02}「クルクルたいへんなことになった。{n}{delay:30} おれもいっしょたたかう。{delay:30}あいつら、{delay:20}こらしめる」{end}
+EN: 
+
+#id 0071 ptr=01E7C8 box=dialog
+JP: {p7F:02}{speed:02}「クエッ♡ クエッ♡」{end}
+EN: 
+
+#id 0072 ptr=01E7F1 box=dialog
+JP: {p7F:02}{speed:02}「だれか、{delay:20}だれかボンバーズをとめてくだされ!{n}{delay:30} このままじゃ村は壊滅してしまいますぞ」{scroll:00}{end}
+EN: 
+
+#id 0073 ptr=01E839 box=dialog
+JP: {p7F:02}{speed:02}「この家は、最初に狙われるような{n} きがするなあ。{delay:30}ブルブル」{scroll:00}{end}
+EN: 
+
+#id 0074 ptr=01E872 box=dialog
+JP: {p7F:02}{speed:02}「この家は、2番目に狙われるような{n} きがするなあ。{delay:30}ブルブル」{scroll:00}{end}
+EN: 
+
+#id 0075 ptr=01E8AC box=dialog
+JP: {p7F:02}{speed:02}「この家は、3番目に狙われるような{n} きがするなあ。{delay:30}ブルブル」{scroll:00}{end}
+EN: 
+
+#id 0076 ptr=01E8E6 box=dialog
+JP: {p7F:02}{speed:02}「この家は、4番目に狙われるような{n} きがするなあ。{delay:30}ブルブル」{scroll:00}{end}
+EN: 
+
+#id 0077 ptr=01E920 box=dialog
+JP: {p7F:02}{speed:02}「この家は、5番目に狙われるような{n} きがするなあ。{delay:30}ブルブル」{scroll:00}{end}
+EN: 
+
+#id 0078 ptr=01E95A box=dialog
+JP: {p7F:02}{speed:02}「この家は、6番目に狙われるような{n} きがするなあ。{delay:30}ブルブル」{scroll:00}{end}
+EN: 
+
+#id 0079 ptr=01E994 box=dialog
+JP: {p7F:02}{speed:02}「この家は、7番目に狙われるような{n} きがするなあ。{delay:30}ブルブル」{scroll:00}{end}
+EN: 
+
+#id 0080 ptr=01E9CE box=dialog
+JP: {p7F:02}{speed:02}「この家は、8番目に狙われるような{n} きがするなあ。{delay:30}ブルブル」{scroll:00}{end}
+EN: 
+
+#id 0081 ptr=01EA08 box=dialog
+JP: {p7F:02}{speed:02}「この家は、最後に狙われるような{n} きがするんだ。{delay:30}ブルブル」{scroll:00}{end}
+EN: 
+
+#id 0082 ptr=01EA39 box=dialog
+JP: {p7F:02}{speed:02}「この家の左にある 立て札の前にたつのだ。{n}{delay:30} そして、矢印のとおりに進むがよい」{scroll:00}{end}
+EN: 
+
+#id 0083 ptr=01EA85 box=dialog
+JP: {p7F:02}{speed:02}「残念でした。こっちはハズレだよ。{delay:30}2つ並んだ{n} 立て札のところまで 戻ってごらん」{scroll:00}{end}
+EN: 
+
+#id 0084 ptr=01EAC3 box=dialog
+JP: {p7F:02}{speed:02}「ゴメン、今ちょっと 手がはなせないんだ。{n}{delay:30} またあとで きてくれない?」{scroll:00}{end}
+EN: 
+
+#id 0085 ptr=01EB06 box=dialog
+JP: {p7F:02}{speed:02}「ここを護るは 4つの結界。{n}{delay:30} 絵の描かれたパネルは、その鍵になっている」{scroll:00}{clear:00}「パネルの上で 魔物を倒せ。{n}{delay:30} 図柄が揃うとき、道は開かれるであろう」{scroll:00}{end}
+EN: 
+
+#id 0086 ptr=01EB75 box=dialog
+JP: {p7F:02}{speed:02}「たいへんだ たいへんだ!{n}{delay:30} ついにここも ボンバーズに目をつけられちまった」{scroll:00}{clear:00}「はやいとこ逃げなきゃ、なにされるか わからないよ。{n}{delay:30} キミたちも、はやく逃げたほうが いいぜ」{scroll:00}{end}
+EN: 
+
+#id 0087 ptr=01EBE7 box=dialog
+JP: {p7F:00}・・・だれもいないようです。{scroll:00}{end}
+EN: 
+
+#id 0088 ptr=01EBFE box=dialog
+JP: {p7F:02}{speed:02}「このあいだ、おれの友達が{n} たつまきにとばされて ひどいめにあった」{scroll:00}{clear:00}「おまえさんたちも きをつけな‥‥{n}{delay:20} とはいっても どうすることもできないんだけどさ」{scroll:00}{end}
+EN: 
+
+#id 0089 ptr=01EC63 box=dialog
+JP: {p7F:02}{speed:02}「いやー、まいったまいった。{n}{delay:30} このあいだ、たつまきに とばされちゃってさ」{scroll:00}{clear:00}「沖の出島まで つれていかれちゃうんだもん。{n}{delay:30} ここまで帰ってくるのが ひと苦労だったよ」{scroll:00}{end}
+EN: 
+
+#id 0090 ptr=01ECD4 box=dialog
+JP: {p7F:02}{speed:02}「ここらへんは いっつも雨が降ってるんだ。{n}{delay:30} だから、スンゲー大きな 水たまりができるのよ」{scroll:00}{clear:00}「オレおよげないからさ、水たまりは困っちゃうのよ。{n}{delay:30} だって、ひあがるまでは 通せんぼなんだもん」{n}{clear:00}「やんなっちゃうよなあ」{scroll:00}{end}
+EN: 
+
+#id 0091 ptr=01ED62 box=dialog
+JP: {p7F:02}{speed:02}「いらっしゃい。{n}{delay:30} おもての宝箱をあけてくださいな」{scroll:00}{end}
+EN: 
+
+#id 0092 ptr=01ED8D box=dialog
+JP: {p7F:02}{speed:02}「おれ、あこがれのヴァイス団に入ったんだ。{n}{delay:30} トレジャーハンターだぜ。{delay:20}かっこいいだろ?」{scroll:00}{clear:00}「腕に自信があるなら、あんたらもどうだい?{n}{delay:30} 人手がほしいみたいだから、いれてもらえるかもよ」{scroll:00}{end}
+EN: 
+
+#id 0093 ptr=01EE16 box=dialog
+JP: {p7F:02}{speed:02}「ややや! よくここまで これましたね。{n}{delay:30} 何回ぐらい 地雷ふんじゃった?」{scroll:00}{end}
+EN: 
+
+#id 0094 ptr=01EE60 box=dialog
+JP: {p7F:02}{speed:02}「えっ、そりゃスゴい!」{scroll:00}{clear:00}「よし、{delay:20}勘のさえわたったキミには{n} これをプレゼントしちゃおう!」{scroll:00}{end}
+EN: 
+
+#id 0095 ptr=01EEA2 box=dialog
+JP: {p7F:00}勇者軍は"せんしのうでわ"を いただいた。{scroll:00}{end}
+EN: 
+
+#id 0096 ptr=01EEC8 box=dialog
+JP: {p7F:02}{speed:02}「ふーん、いい勘してるねぇ。{n}{delay:30} まあ、これでも食べていきなよ」{scroll:00}{end}
+EN: 
+
+#id 0097 ptr=01EEF7 box=dialog
+JP: {p7F:00}勇者軍は、ドロップを4つ いただいた。{scroll:00}{end}
+EN: 
+
+#id 0098 ptr=01EF2A box=dialog
+JP: {p7F:02}{speed:02}「まあ、そんなもんかな。{n}{delay:30} それじゃ がんばってね～～～」{scroll:00}{end}
+EN: 
+
+#id 0099 ptr=01EF56 box=dialog
+JP: {p7F:02}{speed:02}「ありゃりゃりゃ、それは大変だったね。{delay:30} これで キズぐすりでも買いなよ」{scroll:00}{end}
+EN: 
+
+#id 0100 ptr=01EF98 box=dialog
+JP: {p7F:02}{speed:02}「それじゃ がんばってね～～～」{scroll:00}{end}
+EN: 
+
+#id 0101 ptr=01EFB4 box=dialog
+JP: {p7F:02}{speed:02}「ねー、プーちゃんさがしてくれるんでしょ?{n}{delay:30} やくそくだよ。{delay:30}途中であきらめないでね♡」{scroll:00}{end}
+EN: 
+
+#id 0102 ptr=01EFF3 box=dialog
+JP: {p7F:02}{speed:02}「砂場を 掘るのじゃ。!{n}{delay:30} 掘って、掘って、{delay:20}掘りまくるのじゃー!」{scroll:00}{end}
+EN: 
+
+#id 0103 ptr=01F02C box=dialog
+JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「ヒャッヒャッヒャ!{delay:20} ワープの迷路は{n} 気に入って もらえましたか?」{scroll:00}{clear:00}「パネルのとび先を覚えないと、{n} 先にすすむのは ムズかしいですよ」{scroll:00}{clear:00}「頭をつかって、挑戦してくださいねー!{n}{delay:30} ムリかな?{delay:20} ヒャハ♡」{scroll:00}{end}
+EN: 
+
+#id 0104 ptr=01F0DA box=dialog
+JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「はーい、なかなかガンバルね。{n}{delay:30} そろそろ 歩きつかれたんじゃない?」{scroll:00}{clear:00}「オーケイ、OK。{delay:20}キミたちに 楽をさせてあげよう。{n}{delay:30} そこのコンベアに のっかりな」{scroll:00}{clear:00}「キミたちを いいところに運んであげるよ。ヒャハ♡」{scroll:00}{end}
+EN: 
+
+#id 0105 ptr=01F183 box=dialog
+JP: {p7F:02}{speed:02}「ここはクルクルの森。{n}{delay:30} 西にぬけると、ライモスの遺跡があります」{scroll:00}{end}
+EN: 
+
+#id 0106 ptr=01F1B7 box=dialog
+JP: {p7F:02}{speed:02}「部屋を分かつは、知力の扉。{n}{delay:30} パネルスイッチをふんで、図柄を揃えよ」{scroll:00}{clear:00}「答えは、いずこかに記されている」{scroll:00}{end}
+EN: 
+
+#id 0107 ptr=01F20B box=dialog
+JP: {p7F:02}{speed:02}「ここは、ジャスバンの遺跡。{n}{delay:30} スイッチをふむと、扉がひらく」{scroll:00}{end}
+EN: 
+
+#id 0108 ptr=01F23C box=dialog
+JP: {p7F:02}{speed:02}「祭壇は、この奥にあります。{n}{delay:30} 参拝がすんだら、針をもとにもどしておくように」{scroll:00}{end}
+EN: 
+
+#id 0109 ptr=01F278 box=dialog
+JP: {p7F:02}{speed:02}「ここは 不思議な ピラミッド。{n}{delay:30} 足下をふみしめよ。{delay:30}さすれば、道はひらかれん」{scroll:00}{end}
+EN: 
+
+#id 0110 ptr=01F2B8 box=dialog
+JP: {p7F:02}{speed:02}「ここは、まよいの森って 呼ばれてんだぜ。{n}{delay:30} カンバンをしっかり見とかないと、すぐに迷子さ」{scroll:00}{end}
+EN: 
+
+#id 0111 ptr=01F2FA box=dialog
+JP: {p7F:02}{speed:02}「ここは おもちゃの塔だよ」{scroll:00}{clear:00}「扉を開けたければ、{n} 宝箱を開けることだね。{delay:30} ケケケ」{scroll:00}{end}
+EN: 
+
+#id 0112 ptr=01F33F box=dialog
+JP: {p7F:02}{speed:02}「ここは、おもちゃの塔の シーソーのお部屋。{n}{delay:30} シーソーをつかえば、壁を飛び越えられるよ」{scroll:00}{clear:00}「2人ひとくみで 行動しないと、{n} シーソーを うまく使えないから注意してね」{scroll:00}{end}
+EN: 
+
+#id 0113 ptr=01F3B4 box=dialog
+JP: {p7F:02}{speed:02}「シーソーハ フタリジャナイト ウゴカセナイヨ。{n}{delay:30} ココマデ コレタンダカラ ワカッテルヨネ」{scroll:00}{end}
+EN: 
+
+#id 0114 ptr=01F3F2 box=dialog
+JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「おどろいたでしょ?{delay:30} 分身した我が輩の強さを{n} 思い知らしてあげましょう」{scroll:00}{clear:00}「さぁ、{delay:30}どこからでも かかってきなさい。{delay:30}ヒャハ♡」{scroll:00}{end}
+EN: 
+
+#id 0115 ptr=01F470 box=dialog
+JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「まずは この先のパネルをふんで 次の部屋に{n} すすんでください。{delay:30}運だめしのゲームをしましょう」{scroll:00}{clear:00}「3枚のパネルからお好きなパネルをお選び下さい。{delay:30} ただし、パネルをふむときは みなさんでどうぞ」{scroll:00}{clear:00}「パネルをふむと この部屋の入り口が{n} 閉まる仕掛けに なってますからね。{scroll:00}{clear:00} ヘタすりゃ、全員とじこめられてアウトです。{n}{delay:30} では、幸運を祈ってますよ。{delay:30}ヒャハ♡」{scroll:00}{end}
+EN: 
+
+#id 0116 ptr=01F57C box=dialog
+JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「おやおや、けっこう がんばりますね。{n}{delay:30} この調子で 私をたのしませてくださいよ」{scroll:00}{end}
+EN: 
+
+#id 0117 ptr=01F5D5 box=dialog
+JP: {p7F:02}{speed:02}「マテドラルの城で なにがおこってるんだい?{n}{delay:30} 兵隊がおしかけてきて、えれえ騒ぎだよ」{scroll:00}{clear:00}「いったいどうなっちまうんだ?」{scroll:00}{end}
+EN: 
+
+#id 0118 ptr=01F629 box=dialog
+JP: {p7F:02}{speed:02}「ああ、こまったこまった。{n}{delay:30} はね橋のスイッチを 占拠されちゃったッ!」{scroll:00}{clear:00}「ああッ、この大変なときにッ!{n}{delay:30} ああッ、これでは 兄に会いにいけないッ!」{scroll:00}{clear:00}「橋のむこうには、私の兄が暮しているんですよ。{n}{delay:30} 私とちがって、たくましいんですよ、これがッ!」{scroll:00}{clear:00}「橋さえかかれば、兄が おちからになれるのにッ。{n}{delay:30} ああッ、ひよわな自分がもどかしいッ!」{end}
+EN: 
+
+#id 0119 ptr=01F70F box=dialog
+JP: {p7F:02}{speed:02}「ああ、たすかったッ。{delay:30}オレもついていくぜッ!」{end}
+EN: 
+
+#id 0120 ptr=01F74F box=dialog
+JP: {p7F:02}{speed:02}「チューチュー! いっしょに戦うチュー!」{end}
+EN: 
+
+#id 0121 ptr=01F78B box=dialog
+JP: {p7F:02}{speed:02}「・・・・・・・」{end}
+EN: 
+
+#id 0122 ptr=01F7BA box=dialog
+JP: {p7F:02}{speed:02}「チュー!」{end}
+EN: 
+
+#id 0123 ptr=01F7E6 box=dialog
+JP: {p7F:02}{speed:02}「アミーゴ! いっしょに行くぜ」{end}
+EN: 
+
+#id 0124 ptr=01F81D box=dialog
+JP: {p7F:02}{speed:02}「ごいっしょさせてくださいな。{delay:30}ペリペリ」{end}
+EN: 
+
+#id 0125 ptr=01F85A box=dialog
+JP: {p7F:02}{speed:02}「連れてってくれワニ♡」{end}
+EN: 
+
+#id 0126 ptr=01F88D box=dialog
+JP: {p7F:02}{speed:02}「こんにちは ともに戦いましょう」{end}
+EN: 
+
+#id 0127 ptr=01F8C5 box=dialog
+JP: {p7F:02}{speed:02}「いっしょにいくスノー♪」{end}
+EN: 
+
+#id 0128 ptr=01F8F8 box=dialog
+JP: {p7F:02}{speed:02}「ワンワン いっしょに行くワン!」{end}
+EN: 
+
+#id 0129 ptr=01F930 box=dialog
+JP: {p7F:02}{speed:02}「よくぞ訪ねてくださった。{delay:30}仲間になるペンギン」{end}
+EN: 
+
+#id 0130 ptr=01F96B box=dialog
+JP: {p7F:02}{speed:02}「おもての ゆきだるまを くずしてごらん。{n}{delay:30} いいものが みつかるかもよ。{delay:30}うー、寒い寒い」{scroll:00}{end}
+EN: 
+
+#id 0131 ptr=01F9B4 box=dialog
+JP: {p7F:00}なんと、宝箱は ミミックだった!{scroll:00}{end}
+EN: 
+
+#id 0132 ptr=01F9CE box=dialog
+JP: {p7F:02}{speed:02}「よくぞ、みつけてくださった。{delay:30}ともに戦いましょう」{end}
+EN: 
+
+#id 0133 ptr=01FA10 box=dialog
+JP: {p7F:02}{speed:02}「それじゃ、{n}{delay:20} 全問正解をめざして 頑張るでチュー」{scroll:00}{end}
+EN: 

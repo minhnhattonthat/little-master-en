@@ -1,0 +1,2431 @@
+#id 0000 ptr=030A00 box=msg
+JP: 姿はちいさく、力もそれほど強くはない。{n}質より量で勝負のユニット。{n}ときおり、チーズを運んでくるぞ。{end}
+EN: 
+
+#id 0001 ptr=030A3B box=msg
+JP: 防御力が ひときわ高いユニット。{n}水路などでは、隠された能力を発揮するぞ。{end}
+EN: 
+
+#id 0002 ptr=030A6C box=msg
+JP: いろんなモノをはき出して、相手を攻撃する{n}空のユニット。{n}3種類の攻撃パターンをもっているぞ。{end}
+EN: 
+
+#id 0003 ptr=030AA6 box=msg
+JP: スタンダードな能力をもった射撃ユニット。{n}間接攻撃をうまくつかっていこう。{n}上手に育ててやれば、貴重な戦力になるぞ。{end}
+EN: 
+
+#id 0004 ptr=030AF0 box=msg
+JP: 名前どおりのサボテン魔獣。{n}間接攻撃力は なかなかのものがあるぞ。マラカスを投げるよ。アミーゴ!{end}
+EN: 
+
+#id 0005 ptr=030B2B box=msg
+JP: 高い機動性をほこる ダチョウユニット。{n}空のユニットなので、防御面でやや不安あり。{end}
+EN: 
+
+#id 0006 ptr=030B5F box=msg
+JP: かわいらしい タヌキのユニットだが、{n}攻撃力はなかなかのもの。{n}龍や虎の姿に化けるぞ。{end}
+EN: 
+
+#id 0007 ptr=030B92 box=msg
+JP: するどいキバで襲いかかる水のユニット。{n}会心率が高いのが特徴だ。{n}親ワニ子ワニ攻撃が強力だぞ。ワニワニ。{end}
+EN: 
+
+#id 0008 ptr=030BD5 box=msg
+JP: 脅威のジャンプ力で、間接攻撃もできるぞ。{n}バネをいかした ファイヤーアッパーが必殺ブローだ。{n}HPが少なくなると、パラライズ攻撃を出すぞ。{end}
+EN: 
+
+#id 0009 ptr=030C28 box=msg
+JP: するどい爪で相手を引き裂く魔物。{n}高い防御力を誇る中堅ユニットだ。{n}HPが少なくなると、ポイズン攻撃を出す。{end}
+EN: 
+
+#id 0010 ptr=030C71 box=msg
+JP: ユーモラスな容姿とは うらはらに、{n}高い攻撃力を誇る射撃ユニットだ。{n}HPも多いから強いタフだぞ。{end}
+EN: 
+
+#id 0011 ptr=030CAE box=msg
+JP: 機動力と防御力の優れたユニットだ。{n}味方につければ頼もしい働きをするぞ。ライオンビームを君はみたか?{end}
+EN: 
+
+#id 0012 ptr=030CED box=msg
+JP: 非常に高い能力を持つユニットだ。{n}その攻撃力はLVに応じて、強力になる。{n}LVが高いドラゴンは近寄りがたい存在だ。{end}
+EN: 
+
+#id 0013 ptr=030D38 box=msg
+JP: 不思議な空飛ぶニワトリさんだ。防御力は{n}あまり高くないが、機動性に優れているので{n}使いやすいユニットだ。たまごを産むぞ。{end}
+EN: 
+
+#id 0014 ptr=030D84 box=msg
+JP: 合体でのみ、姿を現わす珍しいユニット。{n}高い攻撃力とHPを誇るが、{n}機動性に難ありの重戦車タイプ。{end}
+EN: 
+
+#id 0015 ptr=030DC7 box=msg
+JP: 平均的な能力を持ったユニット。{n}防御力は低いけど、HPが多いタフなヤツだ。{n}一撃必殺のジェイソン攻撃もあるぞ。{end}
+EN: 
+
+#id 0016 ptr=030E10 box=msg
+JP: 魔獣盗賊団スカル・ボンバーズの構成員。{n}それぞれの能力は、それほど高くない。{n}HPが少なくなると、ポイズン攻撃をしかけてくるぞ。{end}
+EN: 
+
+#id 0017 ptr=030E5F box=msg
+JP: 空を飛び、口から怪光線を発する操り{n}人形。魔導士がコハクの力で動かしているが、{n}ときには自分の意思で行動することも。{end}
+EN: 
+
+#id 0018 ptr=030EAF box=msg
+JP: 地獄の門を守る番犬。{n}その鋭い牙は、鋼の鎧をも引きちぎるという。{n}口からしゃく熱の炎をはく。{end}
+EN: 
+
+#id 0019 ptr=030EEC box=msg
+JP: 雪ダルマの精霊。夜になって気温がさがると{n}元気になる。コミカルなユニットだが、{n}HPが少なくなると、ポイズン攻撃を出すぞ。{end}
+EN: 
+
+#id 0020 ptr=030F36 box=msg
+JP: スカルボンバーズを影でまとめるニヒルな人狼。{n}ニンジュツを学んでおり、情に厚い一面も。{end}
+EN: 
+
+#id 0021 ptr=030F6A box=msg
+JP: スカルボンバーズの頭目。生前は船乗りを{n}していたが、この世界に未練があったため、{n}アンデッドになった。非常に気性があらい。{end}
+EN: 
+
+#id 0022 ptr=030FB6 box=msg
+JP: 彫像に命が吹き込まれた魔導生物。{n}硬い装甲に身をつつみ、{n}鋭い槍で突進してくる強力なユニットだ。{end}
+EN: 
+
+#id 0023 ptr=030FFA box=msg
+JP: 突然変異によって巨大化したマウスマンが、{n}独自の進化を遂げた モンスター。{n}巨体の割には、抜群のSPDを誇る。{end}
+EN: 
+
+#id 0024 ptr=031044 box=msg
+JP: バレエを闘いに取り入れた、{n}恐るべき格闘センスを持つ白鳥。{n}秘技・白鳥の舞が敵を撃つ!{end}
+EN: 
+
+#id 0025 ptr=031080 box=msg
+JP: いたずら好きの幽霊。主に遺跡や塔の中{n}に住み着いている。ポルターガイストを引き起こ{n}し、侵入者を追い払う。{end}
+EN: 
+
+#id 0026 ptr=0310C7 box=msg
+JP: 蒼月直属のニンジャ部隊に所属する暗{n}殺者。高いSPDと一撃必殺のクリティカ{n}ルヒットに注意。{end}
+EN: 
+
+#id 0027 ptr=031108 box=msg
+JP: 間接攻撃しかできないユニットだ。{n}魔法攻撃のおどろくべき射程は脅威だが、{n}接近してしまえば恐くないぞ。{end}
+EN: 
+
+#id 0028 ptr=03114B box=msg
+JP: スカルボンバーズの切込み隊長。{n}攻撃力、防御力ともに優れているので、{n}あなどれない。{end}
+EN: 
+
+#id 0029 ptr=031181 box=msg
+JP: 盗掘団を束ねる若き頭目。{n}野望に取り付かれた瞳は何を見つめるのか‥‥{end}
+EN: 
+
+#id 0030 ptr=0311B2 box=msg
+JP: 雷光の騎士の称号を持つ若き勇者。{n}不思議な能力で、動物と心を通わせること{n}ができる。我らが勇者軍のリーダー。{end}
+EN: 
+
+#id 0031 ptr=031200 box=msg
+JP: 怪力無双のミノタウロス。リイムの良きパートナー{n}であり、理解者でもある。格闘技の経験を{n}活かした、豪快無比な攻撃が魅力。{end}
+EN: 
+
+#id 0032 ptr=031253 box=msg
+JP: コハクを使って、ユニットのHPを回復させる。{n}回復には、回数制限があるぞ。{n}ピンチになると、変身して身を守る。{end}
+EN: 
+
+#id 0033 ptr=031298 box=msg
+JP: タムタムの最強変身がこのモーモー・スーツだ。{n}その力はミノタウロスに匹敵する破壊力!{n}すごいね。{end}
+EN: 
+
+#id 0034 ptr=0312D3 box=msg
+JP: コハクの力を解放して、敵に攻撃魔法を{n}かけるコハク使い。勝ち気な性格だけど、{n}怖がりな一面も。ペットのハムスを連れている。{end}
+EN: 
+
+#id 0035 ptr=031322 box=msg
+JP: コハクの力を解放して、味方に援護魔法{n}をかけるコハク使い。おっとりした性格だけど、{n}芯は強い女の子。ペットの名前はハムス。{end}
+EN: 
+
+#id 0036 ptr=031372 box=msg
+JP: 魔導力によって出現したゴールに、{n}自らの頭を叩き込む肉体派。{n}得意技は 3ポイントシュート。{end}
+EN: 
+
+#id 0037 ptr=0313B0 box=msg
+JP: 魔導科学が生み出したスカルマシーン。{n}クラシックなデザインの戦車だ。MVは少ないが、{n}攻撃力と防御力は非常に強力。{end}
+EN: 
+
+#id 0038 ptr=0313FD box=msg
+JP: 魔導科学が生み出したスカルマシーン。{n}コハクの力を利用して、浮力を得ている。{n}射程は長いが、接近戦には弱い。{end}
+EN: 
+
+#id 0039 ptr=031447 box=msg
+JP: 宝箱に擬態したユニット。クリティカルヒットが{n}怖い。本物の宝箱とミミックを見分ける事は{n}不可能なのだ。{end}
+EN: 
+
+#id 0040 ptr=03148A box=msg
+JP: 植物の精霊。どこにでも花を咲かせちゃう{n}ヘンな能力を持っている。太陽の光が大好きなので、昼間は元気がいいぞ。{end}
+EN: 
+
+#id 0041 ptr=0314D3 box=msg
+JP: そまつなよろいに守られた新米兵士。{n}不馴れな戦いに、とまどっている。{n}{end}
+EN: 
+
+#id 0042 ptr=0314FF box=msg
+JP: ヘビーアーマーに身をつつんだ重装兵士。{n}歩みはノロいが、破壊力はバツグン。{end}
+EN: 
+
+#id 0043 ptr=03152E box=msg
+JP: カワイイ子猫の姿をしているのは カモフラージュ。{n}その正体は、人をだます悪魔なのだ。{n}天球儀から、ほしを召還するよ。{end}
+EN: 
+
+#id 0044 ptr=031576 box=msg
+JP: ヤゴによって呼び出された魔界の精霊。{n}その姿は、太陽を模しており、{n}口から強烈なブレスをはく。{end}
+EN: 
+
+#id 0045 ptr=0315B3 box=msg
+JP: ヤゴによって呼び出された魔界の精霊。{n}その姿は、月を模しており、{n}強烈なパラライズ攻撃をしかけてくる。{end}
+EN: 
+
+#id 0046 ptr=0315F4 box=msg
+JP: ヤゴによって呼び出された魔界の精霊。{n}その姿は星を模しており、{n}強烈な体当たり攻撃をしかけてくる。{end}
+EN: 
+
+#id 0047 ptr=031635 box=msg
+JP: 最強最後の合体魔獣。{n}その基本性能は、なんとマウスマンの32倍!{n}さすがネズミの王様である。{end}
+EN: 
+
+#id 0048 ptr=031673 box=msg
+JP: 合体によって生まれた、コアラの王様。{n}コアラマンの欠点を克服しているぞ。{n}王冠がチャームポイントだ。{end}
+EN: 
+
+#id 0049 ptr=0316B1 box=msg
+JP: おもちゃの塔を守るおもちゃの兵隊さん。{n}不思議な力で動いているぞ。{end}
+EN: 
+
+#id 0050 ptr=0316DC box=msg
+JP: 寒いところを好むユニットだ。{n}攻撃力と移動力が高いぞ。{n}氷のブロックを蹴飛ばしちゃうよ。{end}
+EN: 
+
+#id 0051 ptr=031715 box=msg
+JP: 吹雪が大好きな、雪の魔獣。{n}グルグルパンチと、クリティカルヒットが強力だ。{n}モコモコの毛皮がチャーミング。{end}
+EN: 
+
+#id 0052 ptr=031756 box=msg
+JP: おもちゃのおうまさんです。パカパカ。{n}みためは かわいいけれど、{n}ニンジン攻撃は痛いぞー!{end}
+EN: 
+
+#id 0053 ptr=031787 box=msg
+JP: {end}
+EN: 
+
+#id 0054 ptr=031788 box=msg
+JP: {end}
+EN: 
+
+#id 0055 ptr=031789 box=msg
+JP: {end}
+EN: 
+
+#id 0056 ptr=03178A box=msg
+JP: {end}
+EN: 
+
+#id 0057 ptr=03178B box=msg
+JP: {end}
+EN: 
+
+#id 0058 ptr=03178C box=msg
+JP: {end}
+EN: 
+
+#id 0059 ptr=03178D box=msg
+JP: {end}
+EN: 
+
+#id 0060 ptr=03178E box=msg
+JP: {end}
+EN: 
+
+#id 0061 ptr=03178F box=msg
+JP: {end}
+EN: 
+
+#id 0062 ptr=031790 box=msg
+JP: {end}
+EN: 
+
+#id 0063 ptr=031791 box=msg
+JP: {end}
+EN: 
+
+#id 0064 ptr=031792 box=msg
+JP: 姿はちいさいが、そのおかげでSPDは速い。{n}HPが少なくなると、ポイズン攻撃を出すぞ。{n}うーん、オレンジ色のニクイやつ。{end}
+EN: 
+
+#id 0065 ptr=0317D6 box=msg
+JP: 防御力がひときわ高いユニット。{n}攻撃力は低いが、必殺率は高い。{n}水路などでは、隠された能力を発揮するぞ。{end}
+EN: 
+
+#id 0066 ptr=03181E box=msg
+JP: 羽を青く染めた、ペリカンマンの兄貴だ。{n}3種類のモノをはき出して攻撃する。{n}HPが少なくなると、パラライズ攻撃が出るぞ。{end}
+EN: 
+
+#id 0067 ptr=031869 box=msg
+JP: アーチェリーのウデを磨くあまりに、{n}間接攻撃しか出来なくなってしまったユニット。{n}射撃のウデ前はバツグン。威力もバツグン。{end}
+EN: 
+
+#id 0068 ptr=0318B3 box=msg
+JP: マリンブルーのサボテン野郎。{n}マラカスから繰り出される攻撃は、いずれも強力。HPが少なくなると、ポイズン攻撃が出る。{end}
+EN: 
+
+#id 0069 ptr=0318FA box=msg
+JP: 高い機動性をほこるユニット。{n}空のユニットなので、防御面でやや不安あり。{n}HPが少なくなると、ポイズン攻撃が出る。{end}
+EN: 
+
+#id 0070 ptr=031942 box=msg
+JP: HPと攻撃力が高い、てごわいユニット。{n}龍と虎の姿に化けるぞ。{n}HPが少なくなると、パラライズ攻撃が出る。{end}
+EN: 
+
+#id 0071 ptr=031984 box=msg
+JP: するどいキバで襲いかかる水のユニット。{n}攻撃力は高いが、防御力はゼロ。{n}{end}
+EN: 
+
+#id 0072 ptr=0319B2 box=msg
+JP: トレーニングをつんで、はいいろになったカンガルー。{n}ジャンプ力を活かした間接攻撃が強いぞ。{n}HPが少なくなると、ポイズン攻撃が出る。{end}
+EN: 
+
+#id 0073 ptr=031A00 box=msg
+JP: 高い防御力を誇る緑の魔物。{n}HPは少ないが、ポイズン攻撃を持っている。{n}ひとくせあるユニットだ。{end}
+EN: 
+
+#id 0074 ptr=031A3D box=msg
+JP: 攻撃力が高く、HPも多い強力なユニットだ。{n}間接攻撃の射程は3。接近戦もOK。{n}強敵なので、こころして挑むように。{end}
+EN: 
+
+#id 0075 ptr=031A8A box=msg
+JP: パワーアップしたライオンマン。{n}体色が紫色なのは、敵をイカクするためだ。{n}トランス攻撃を持っているぞ。{end}
+EN: 
+
+#id 0076 ptr=031AC6 box=msg
+JP: 非常に強力なユニットだ。{n}唯一の欠点は、攻撃力がやや低いことだが、{n}HPの多さと射程の長さで十分カバーしている。{end}
+EN: 
+
+#id 0077 ptr=031B11 box=msg
+JP: 洞窟で独自の進化をとげたチキンマン。{n}過酷な環境に適応したクチバシは鋭さをましている。HPが少なくなると、パラライズ攻撃を出す。{end}
+EN: 
+
+#id 0078 ptr=031B63 box=msg
+JP: 近寄りがたい色をしているが、{n}機動性に難があるのはあいかわらず。{n}合体でのみ、その姿を現わす。{end}
+EN: 
+
+#id 0079 ptr=031B9E box=msg
+JP: 防御力が低い、うたれ弱いユニットだ。{n}HPが少なくなると、ポイズン攻撃を出す。{end}
+EN: 
+
+#id 0080 ptr=031BCF box=msg
+JP: ポップな服装でキメてる陽気なオシャレさん。{n}ガイコツなのに、HPは多いヘンなやつだ。{n}HPが少なくなると、ポイズン攻撃をしかけてくる。{end}
+EN: 
+
+#id 0081 ptr=031C1B box=msg
+JP: 長い年月をへて、意志をもつようになった人形。夜になると活発に行動する怪奇派である。{n}HPが少なくなると、トランス攻撃をしかけてくる。{end}
+EN: 
+
+#id 0082 ptr=031C70 box=msg
+JP: 真夜中に何処ともなく現れる夜の番人。{n}その恐ろしい姿は、みるものに死を予感させる。{n}HPが少なくなると、トランス攻撃が出る。{end}
+EN: 
+
+#id 0083 ptr=031CC1 box=msg
+JP: 吹雪がだいすきな、氷の精霊。{n}体温はスノーマンより低い。{n}HPが少なくなると、ウイーク攻撃を出す。{end}
+EN: 
+
+#id 0084 ptr=031CFF box=msg
+JP: {end}
+EN: 
+
+#id 0085 ptr=031D00 box=msg
+JP: {end}
+EN: 
+
+#id 0086 ptr=031D01 box=msg
+JP: カッパーコーティングを施されたドラゴンナイト。{n}その鋭い槍は、切れ味をましている。{n}HPが少なくなると、スロウ攻撃を出す。{end}
+EN: 
+
+#id 0087 ptr=031D48 box=msg
+JP: オレンジマウスマンの変異体だ。その巨体から{n}降りおろすコン棒は、絶大な破壊力を誇る。{n}HPが少なくなると、スロウ攻撃を出す。{end}
+EN: 
+
+#id 0088 ptr=031D98 box=msg
+JP: 明日のプリマを夢見る若き乙女。{n}桃色の羽は、高い防御力のみなもとだ。{n}HPが少なくなると、トランス攻撃を出す。{end}
+EN: 
+
+#id 0089 ptr=031DE2 box=msg
+JP: 悪さが大好きな幽霊。{n}だれかれかまわず、ちょっかいをかけてくるイヤなヤツだ。{n}HPが少なくなると、ポイズン攻撃を出す。{end}
+EN: 
+
+#id 0090 ptr=031E27 box=msg
+JP: ニンジャ部隊の中核をなす存在。{n}高いSPDと、必殺のクリティカルヒットが恐い。{n}HPが少なくなると、ポイズン攻撃をしかけてくる。{end}
+EN: 
+
+#id 0091 ptr=031E75 box=msg
+JP: マテドラル軍の攻撃の要。{n}魔法攻撃の驚くべき射程と、凶悪な{n}ウイーク攻撃は、勇者軍の脅威となるだろう。{end}
+EN: 
+
+#id 0092 ptr=031EBD box=msg
+JP: グリーンソードを持つガイコツファイター。{n}スカルボンバーズの小隊長的な存在で、{n}配下にパイレーツの部隊が付くことが多い。{end}
+EN: 
+
+#id 0093 ptr=031F07 box=msg
+JP: ヴァイス団をまとめる若き頭目。{n}秘宝騒動を転機とし、心をいれかえて、{n}マテドラル王国の復興に尽力をつくしている。{end}
+EN: 
+
+#id 0094 ptr=031F51 box=msg
+JP: {end}
+EN: 
+
+#id 0095 ptr=031F52 box=msg
+JP: {end}
+EN: 
+
+#id 0096 ptr=031F53 box=msg
+JP: {end}
+EN: 
+
+#id 0097 ptr=031F54 box=msg
+JP: タムタムの最強変身がこのモーモー・スーツだ。{n}その力はミノタウロスに匹敵する破壊力!{n}すごいね。{end}
+EN: 
+
+#id 0098 ptr=031F8F box=msg
+JP: {end}
+EN: 
+
+#id 0099 ptr=031F90 box=msg
+JP: {end}
+EN: 
+
+#id 0100 ptr=031F91 box=msg
+JP: スカル・ダンクが名声を得て昇格すると、{n}スカル・ダンカーになる。ゴールをむりやりゲットする実力派だ。トランス攻撃も出るよ。{end}
+EN: 
+
+#id 0101 ptr=031FDA box=msg
+JP: スカル・タンクを改良して造られたSシリーズ。{n}タンクは攻撃力と間接攻撃力が変わらないのが特徴だ。名前のSは、スペシャルの意。{end}
+EN: 
+
+#id 0102 ptr=03202A box=msg
+JP: スカル・ポンプの改良強化型マシーン。{n}搭載されているバクダンが強力になったようだ。{n}射程は長いが、間接攻撃しかできない。{end}
+EN: 
+
+#id 0103 ptr=032077 box=msg
+JP: 宝箱に擬態したユニット。クリティカルヒットが{n}怖い。本物の宝箱とミミックを見分けるの{n}は不可能なのだ。{end}
+EN: 
+
+#id 0104 ptr=0320B9 box=msg
+JP: {end}
+EN: 
+
+#id 0105 ptr=0320BA box=msg
+JP: ようやく戦場にもなれてきた、のびざかりの兵士。{n}もう少し武功をつむと、ソルジャーに昇格する。{end}
+EN: 
+
+#id 0106 ptr=0320F2 box=msg
+JP: パープルコーティングをほどこしたアーマーに身をつつむ、{n}マテドラルの重装兵士。防御力がすごく高い。HPが少なくなると、トランス攻撃をしかけてくる。{end}
+EN: 
+
+#id 0107 ptr=032148 box=msg
+JP: {end}
+EN: 
+
+#id 0108 ptr=032149 box=msg
+JP: {end}
+EN: 
+
+#id 0109 ptr=03214A box=msg
+JP: {end}
+EN: 
+
+#id 0110 ptr=03214B box=msg
+JP: {end}
+EN: 
+
+#id 0111 ptr=03214C box=msg
+JP: {end}
+EN: 
+
+#id 0112 ptr=03214D box=msg
+JP: {end}
+EN: 
+
+#id 0113 ptr=03214E box=msg
+JP: {end}
+EN: 
+
+#id 0114 ptr=03214F box=msg
+JP: ペングーの純血種が、この、こうていペングー。{n}絶滅の危機にひんしている貴重な種族だ。{n}HPが少なくなると、スロウ攻撃を出す。{end}
+EN: 
+
+#id 0115 ptr=03219D box=msg
+JP: 雪の少ない環境に適応したイエティ。{n}体色は、草むらなどになじむ保護色になっている。HPが少なくなると、スロウ攻撃を出す。{end}
+EN: 
+
+#id 0116 ptr=0321EA box=msg
+JP: {end}
+EN: 
+
+#id 0117 ptr=0321EB box=msg
+JP: {end}
+EN: 
+
+#id 0118 ptr=0321EC box=msg
+JP: {end}
+EN: 
+
+#id 0119 ptr=0321ED box=msg
+JP: {end}
+EN: 
+
+#id 0120 ptr=0321EE box=msg
+JP: {end}
+EN: 
+
+#id 0121 ptr=0321EF box=msg
+JP: {end}
+EN: 
+
+#id 0122 ptr=0321F0 box=msg
+JP: {end}
+EN: 
+
+#id 0123 ptr=0321F1 box=msg
+JP: {end}
+EN: 
+
+#id 0124 ptr=0321F2 box=msg
+JP: {end}
+EN: 
+
+#id 0125 ptr=0321F3 box=msg
+JP: {end}
+EN: 
+
+#id 0126 ptr=0321F4 box=msg
+JP: {end}
+EN: 
+
+#id 0127 ptr=0321F5 box=msg
+JP: {end}
+EN: 
+
+#id 0128 ptr=0321F6 box=msg
+JP: 燃えるような赤いボディに鋼のような意志を秘めた最強のマウスマンだ。{n}HPが少なくなると、ポイズン攻撃を出すぞ。{end}
+EN: 
+
+#id 0129 ptr=03223A box=msg
+JP: 黄金にかがやくボディはほとんどの衝撃を吸収してしまう。最強のゴーレムだ。{n}ピンチになると、スロウ攻撃を出すぞ。{end}
+EN: 
+
+#id 0130 ptr=03227D box=msg
+JP: 黄金の羽につつまれた最強のペリカンだ。{n}HPが少なくなると、ウイーク攻撃をだすぞ。{end}
+EN: 
+
+#id 0131 ptr=0322AF box=msg
+JP: むらさき色の弓を持つラビットマン。{n}広い射程が強力な間接攻撃ユニットだ。{n}HPが少なくなると、ウイーク攻撃をだすぞ。{end}
+EN: 
+
+#id 0132 ptr=0322F9 box=msg
+JP: 名前がカッコいいカクタスの突然変異体だ。{n}HPが少なくなると、エピデミック攻撃をだすぞ。{end}
+EN: 
+
+#id 0133 ptr=032330 box=msg
+JP: 猛烈な脚力で突進するダチョウの親分だ。{n}HPが少なくなると、トランス攻撃をだすぞ。{n}ダッシュ一発! がんばろう。{end}
+EN: 
+
+#id 0134 ptr=032376 box=msg
+JP: ちょっとズルがしこい赤毛の古だぬきだ。{n}HPが少なくなると、ウイーク攻撃をだすぞ。{end}
+EN: 
+
+#id 0135 ptr=0323A6 box=msg
+JP: おおきな口で、相手をかじる赤ワニさんだ。{n}親ワニ子ワニ攻撃は健在だぞ。ワニワニ。{n}HPが少なくなると、エピデミック攻撃をだす。{end}
+EN: 
+
+#id 0136 ptr=0323F3 box=msg
+JP: 苦闘のすえ、ついに格闘ロードの頂点に{n}のぼりつめたカンガルーだ。HPが少なくなると、トランス攻撃をだすぞ。{end}
+EN: 
+
+#id 0137 ptr=032432 box=msg
+JP: 全身まっ赤な魔界よりの使者。ピンチになるとカース攻撃を出すぞ。{end}
+EN: 
+
+#id 0138 ptr=03245C box=msg
+JP: スカーレットはサイクロプス族のエリートの称号。{n}間接攻撃しかできないユニットだが、攻撃力は{n}高い。ピンチになるとカース攻撃を出すぞ。{end}
+EN: 
+
+#id 0139 ptr=0324AD box=msg
+JP: 黄金のたてがみが勇ましいライオン族の闘士だ。{n}鋭い眼光で相手をいかくするぞ。{n}HPが少なくなると、パラライズ攻撃を出す。{end}
+EN: 
+
+#id 0140 ptr=0324F9 box=msg
+JP: 高い知能をもつファイヤードラゴンは、めったに{n}その姿を人前にさらすことのない幻のドラゴンだ。{n}HPが少なくなると、エピデミック攻撃をだすぞ。{end}
+EN: 
+
+#id 0141 ptr=03254A box=msg
+JP: 豪華けんらんきらびやか! 黄金のチキンマンだ。{n}HPが少なくなると、エピデミック攻撃をだすぞ。{n}黄金のくちばしで敵をつっつくよ。コケコケ♪{end}
+EN: 
+
+#id 0142 ptr=03259A box=msg
+JP: 彼らはコアラ族のなかでも気性の荒い種族だ。{n}まっ赤な体色は相手を圧倒するすごい迫力だぞ。{n}ピンチになると、スロウ攻撃を出すよ。{end}
+EN: 
+
+#id 0143 ptr=0325ED box=msg
+JP: 警戒色をしたレッドオーク。ブルーオークとは{n}兄弟みたいな間柄だ。力はそれほど強くないが、{n}HPが少なくなると、ウイーク攻撃をだすぞ。{end}
+EN: 
+
+#id 0144 ptr=03263C box=msg
+JP: 黄金に輝くボンバーズの上級構成員だ。{n}あいかわらず数で勝負のユニットだが、{n}ピンチになると、トランス攻撃をだすのでやっかいだ。{end}
+EN: 
+
+#id 0145 ptr=032689 box=msg
+JP: みるからに不気味な あやつりにんぎょうだ。{n}おまけに必殺率もなかなかのもの。へたにちょっかいをかけると、カース攻撃で呪われちゃうぞ。{end}
+EN: 
+
+#id 0146 ptr=0326D5 box=msg
+JP: 地獄より使わされた黄金の犬。{n}紫の炎を操り、全てを燃やし尽くすといわれる{n}滅びの魔物だ。カース攻撃で敵を苦しめるぞ。{end}
+EN: 
+
+#id 0147 ptr=032723 box=msg
+JP: 年期のはいった雪ダルマの精霊。{n}ちょっと黄色いけど、きにしないきにしない。{n}ピンチになると、スロウ攻撃を出すぞ。{end}
+EN: 
+
+#id 0148 ptr=032766 box=msg
+JP: {end}
+EN: 
+
+#id 0149 ptr=032767 box=msg
+JP: {end}
+EN: 
+
+#id 0150 ptr=032768 box=msg
+JP: ゴールドコーティングを施されたドラゴンナイト。{n}欠点の少ない、かなり強力なユニットだ。{n}ピンチになると、ウイーク攻撃をだすぞ。{end}
+EN: 
+
+#id 0151 ptr=0327B0 box=msg
+JP: 山のような巨体に、非常に高い攻撃力を{n}秘めたファイヤーマウスマンの突然変異体だ。{n}HPが少なくなると、エピデミック攻撃をだすぞ。{end}
+EN: 
+
+#id 0152 ptr=032803 box=msg
+JP: 舞踏界のスターとなる黄金の白鳥だ。{n}HPが少なくなると、トランス攻撃をだすぞ。{n}彼の活躍は、伝説となって語りつがれるだろう。{end}
+EN: 
+
+#id 0153 ptr=032852 box=msg
+JP: 亡霊だけあって、身のこなしは非常に素早い。{n}相手にするときはSPDに気をくばったほうがいい。{n}ピンチになるとカース攻撃を出すぞ。{end}
+EN: 
+
+#id 0154 ptr=0328A0 box=msg
+JP: 蒼月率いるニンジャ部隊に所属する上忍。{n}赤い装束は上級忍者のあかしだ。{n}HPが少なくなると、トランス攻撃をだすぞ。{end}
+EN: 
+
+#id 0155 ptr=0328ED box=msg
+JP: 驚くべき攻撃力を持つ上級魔導士だ。{n}なんとか接近戦に持ち込んで倒そう。{n}HPが少なくなると、トランス攻撃をだすぞ。{end}
+EN: 
+
+#id 0156 ptr=03293A box=msg
+JP: ゴールドソードを持つ、スカルボンバーズ最強の{n}闘士だ。普段はトランプの護衛をつとめている。HPが少なくなると、ウイーク攻撃をだすぞ。{end}
+EN: 
+
+#id 0157 ptr=032989 box=msg
+JP: {end}
+EN: 
+
+#id 0158 ptr=03298A box=msg
+JP: {end}
+EN: 
+
+#id 0159 ptr=03298B box=msg
+JP: {end}
+EN: 
+
+#id 0160 ptr=03298C box=msg
+JP: {end}
+EN: 
+
+#id 0161 ptr=03298D box=msg
+JP: {end}
+EN: 
+
+#id 0162 ptr=03298E box=msg
+JP: {end}
+EN: 
+
+#id 0163 ptr=03298F box=msg
+JP: {end}
+EN: 
+
+#id 0164 ptr=032990 box=msg
+JP: ダンク・マスターは、どんな状況からでも、ゴールを{n}ゲットする技術をもっているスーパープレイヤーだ。{n}HPが少なくなると、パラライズ攻撃を出すぞ。{end}
+EN: 
+
+#id 0165 ptr=0329E1 box=msg
+JP: Sシリーズをさらに強化、改良して造られたのが{n}この、タンク・スーパースペシャルだ。{n}装甲の強化で、より実戦的になったようだぞ。{end}
+EN: 
+
+#id 0166 ptr=032A2D box=msg
+JP: ポンプSに超強力なバクダンを積んだモデル。{n}それがこの、ポンプ・スーパーストライクだ。{n}あいもかわらず、間接攻撃しかできないぞ。{end}
+EN: 
+
+#id 0167 ptr=032A76 box=msg
+JP: 体色が金色なので、すごくいいものが入って{n}いるように見えるが、それはワナだ。{n}HPが少なくなると、エピデミック攻撃をだすぞ。{end}
+EN: 
+
+#id 0168 ptr=032ABE box=msg
+JP: {end}
+EN: 
+
+#id 0169 ptr=032ABF box=msg
+JP: ヴァイス率いるマテドラル軍の精鋭。{n}赤い鎧は力の象徴だ。{n}HPが少なくなると、パラライズ攻撃を出すぞ。{end}
+EN: 
+
+#id 0170 ptr=032B00 box=msg
+JP: レッドアーマーに身をつつんだマテドラル軍最強の{n}重装兵士。ヴァイスの直属の部下だ。{n}HPが少なくなると、トランス攻撃をだすぞ。{end}
+EN: 
+
+#id 0171 ptr=032B4F box=msg
+JP: {end}
+EN: 
+
+#id 0172 ptr=032B50 box=msg
+JP: {end}
+EN: 
+
+#id 0173 ptr=032B51 box=msg
+JP: {end}
+EN: 
+
+#id 0174 ptr=032B52 box=msg
+JP: {end}
+EN: 
+
+#id 0175 ptr=032B53 box=msg
+JP: {end}
+EN: 
+
+#id 0176 ptr=032B54 box=msg
+JP: {end}
+EN: 
+
+#id 0177 ptr=032B55 box=msg
+JP: {end}
+EN: 
+
+#id 0178 ptr=032B56 box=msg
+JP: 南国育ちのペンギンさんだ。普段はジャングルに{n}生息しているので、体の色がカラフルだね。{n}ピンチになると、スロウ攻撃を出すぞ。{end}
+EN: 
+
+#id 0179 ptr=032BA1 box=msg
+JP: もとは雪山にしか生息していなかった魔獣だが、{n}最近は暖かいところにも適応したようだ。{n}ピンチになると、スロウ攻撃を出すぞ。{end}
+EN: 
+
+#id 0180 ptr=032BED box=msg
+JP: {end}
+EN: 
+
+#id 0181 ptr=032BEE box=msg
+JP: {end}
+EN: 
+
+#id 0182 ptr=032BEF box=msg
+JP: {end}
+EN: 
+
+#id 0183 ptr=032BF0 box=msg
+JP: {end}
+EN: 
+
+#id 0184 ptr=032BF1 box=msg
+JP: {end}
+EN: 
+
+#id 0185 ptr=032BF2 box=msg
+JP: {end}
+EN: 
+
+#id 0186 ptr=032BF3 box=msg
+JP: {end}
+EN: 
+
+#id 0187 ptr=032BF4 box=msg
+JP: {end}
+EN: 
+
+#id 0188 ptr=032BF5 box=msg
+JP: {end}
+EN: 
+
+#id 0189 ptr=032BF6 box=msg
+JP: {end}
+EN: 
+
+#id 0190 ptr=032BF7 box=msg
+JP: {end}
+EN: 
+
+#id 0191 ptr=032BF8 box=msg
+JP: {end}
+EN: 
+
+#id 0192 ptr=032BF9 box=msg
+JP: {end}
+EN: 
+
+#id 0193 ptr=032BFA box=msg
+JP: {end}
+EN: 
+
+#id 0194 ptr=032BFB box=msg
+JP: {end}
+EN: 
+
+#id 0195 ptr=032BFC box=msg
+JP: {end}
+EN: 
+
+#id 0196 ptr=032BFD box=msg
+JP: {end}
+EN: 
+
+#id 0197 ptr=032BFE box=msg
+JP: {end}
+EN: 
+
+#id 0198 ptr=032BFF box=msg
+JP: {end}
+EN: 
+
+#id 0199 ptr=032C00 box=msg
+JP: {end}
+EN: 
+
+#id 0200 ptr=032C01 box=msg
+JP: {end}
+EN: 
+
+#id 0201 ptr=032C02 box=msg
+JP: {end}
+EN: 
+
+#id 0202 ptr=032C03 box=msg
+JP: {end}
+EN: 
+
+#id 0203 ptr=032C04 box=msg
+JP: ブロック{n}侵入不可の場所{end}
+EN: 
+
+#id 0204 ptr=032C17 box=msg
+JP: 芝生{n}消費MV 2{n}あおあおとした芝{end}
+EN: 
+
+#id 0205 ptr=032C2F box=msg
+JP: 広葉樹{n}消費MV 4{n}地形効果が たかいぞ{end}
+EN: 
+
+#id 0206 ptr=032C4E box=msg
+JP: 針葉樹{n}消費MV 4{n}地形効果が たかいぞ{end}
+EN: 
+
+#id 0207 ptr=032C6D box=msg
+JP: 枯れ木{n}消費MV 4{n}地形効果が たかいぞ{end}
+EN: 
+
+#id 0208 ptr=032C8B box=msg
+JP: 広葉樹の森{n}消費MV 4{n}地形効果が すごくたかいぞ{end}
+EN: 
+
+#id 0209 ptr=032CB0 box=msg
+JP: 針葉樹の森{n}消費MV 4{n}地形効果が すごくたかいぞ{end}
+EN: 
+
+#id 0210 ptr=032CD5 box=msg
+JP: 芝の荒れ地{n}消費MV 3{n}地形効果は 芝よりひくいぞ{end}
+EN: 
+
+#id 0211 ptr=032CFA box=msg
+JP: 芝生にあるガレキ{n}消費MV 5{n}歩きにくいが 有利な地形{end}
+EN: 
+
+#id 0212 ptr=032D20 box=msg
+JP: 土{n}消費MV 2{n}生き物を育む おおいなる大地{end}
+EN: 
+
+#id 0213 ptr=032D40 box=msg
+JP: 土の荒れ地{n}消費MV 3{n}荒れ地は 進みにくい{end}
+EN: 
+
+#id 0214 ptr=032D60 box=msg
+JP: 土にあるガレキ{n}消費MV 5{n}歩きにくいが 有利な土地{end}
+EN: 
+
+#id 0215 ptr=032D84 box=msg
+JP: 砂地{n}消費MV 5{n}死を呼ぶ 静かなる場所{end}
+EN: 
+
+#id 0216 ptr=032DA3 box=msg
+JP: 砂にあるガレキ{n}消費MV 5{n}歩きにくいが 有利な土地{end}
+EN: 
+
+#id 0217 ptr=032DC7 box=msg
+JP: ジャングルの土{n}消費MV 3{n}こけむした 湿った大地{end}
+EN: 
+
+#id 0218 ptr=032DE8 box=msg
+JP: 熱帯雨林{n}消費MV 4{n}うっそうとした 密林{end}
+EN: 
+
+#id 0219 ptr=032E07 box=msg
+JP: 水{n}消費MV 3{n}ちゃぷちゃぷと いい気持ち{end}
+EN: 
+
+#id 0220 ptr=032E23 box=msg
+JP: 魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0221 ptr=032E48 box=msg
+JP: ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
+EN: 
+
+#id 0222 ptr=032E69 box=msg
+JP: スイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
+EN: 
+
+#id 0223 ptr=032E8C box=msg
+JP: クレーター{n}消費MV 4{n}地形効果が たかいぞ{end}
+EN: 
+
+#id 0224 ptr=032EAA box=msg
+JP: 石床{n}消費MV 2{n}石の床は 歩きやすい{end}
+EN: 
+
+#id 0225 ptr=032EC6 box=msg
+JP: 山{n}消費MV 6{n}歩きにくいが 地形効果がたかい{end}
+EN: 
+
+#id 0226 ptr=032EE7 box=msg
+JP: 険しい山{n}消費MV 2{n}空ユニットのみ 侵入可能{end}
+EN: 
+
+#id 0227 ptr=032F09 box=msg
+JP: すごく険しい山{n}侵入不可の 山岳地帯{n}{end}
+EN: 
+
+#id 0228 ptr=032F27 box=msg
+JP: 橋{n}消費MV 3{n}大地と大地を つなぐ橋{end}
+EN: 
+
+#id 0229 ptr=032F44 box=msg
+JP: 傷んだ橋{n}消費MV 5{n}古くいたんだ 橋です{end}
+EN: 
+
+#id 0230 ptr=032F61 box=msg
+JP: 雪原{n}消費MV 4{n}雪がつもって 歩きにくい{end}
+EN: 
+
+#id 0231 ptr=032F7E box=msg
+JP: 凍った芝生{n}消費MV 2{n}地形効果は ひくめです{end}
+EN: 
+
+#id 0232 ptr=032FA0 box=msg
+JP: 凍った土{n}消費MV 2{n}凍てついた おおいなる大地{end}
+EN: 
+
+#id 0233 ptr=032FC1 box=msg
+JP: 樹氷{n}消費MV 6{n}地形効果が すごくたかい{end}
+EN: 
+
+#id 0234 ptr=032FE0 box=msg
+JP: 凍った針葉樹{n}消費MV 4{n}もうすこし凍ると 樹氷になる{end}
+EN: 
+
+#id 0235 ptr=033006 box=msg
+JP: 凍った枯れ木{n}消費MV 4{n}かちかちに凍った 枯れ木{end}
+EN: 
+
+#id 0236 ptr=033029 box=msg
+JP: 雪山{n}消費MV 6{n}雪がふかくて 歩きにくい{end}
+EN: 
+
+#id 0237 ptr=033046 box=msg
+JP: 険しい雪山{n}消費MV 2{n}空ユニットのみ 侵入可能{end}
+EN: 
+
+#id 0238 ptr=03306A box=msg
+JP: 凍った山{n}消費MV 6{n}つるつるすべって 歩きにくい{end}
+EN: 
+
+#id 0239 ptr=03308A box=msg
+JP: 険しい山{n}消費MV 2{n}空ユニットのみ 侵入可能{end}
+EN: 
+
+#id 0240 ptr=0330AC box=msg
+JP: 凍った魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0241 ptr=0330D5 box=msg
+JP: 氷原{n}消費MV 2{n}つるつるすべるので 注意しよう{end}
+EN: 
+
+#id 0242 ptr=0330F5 box=msg
+JP: ライモスのタイル床{n}消費MV 2{n}タイル張りで 歩きやすい{end}
+EN: 
+
+#id 0243 ptr=033118 box=msg
+JP: 壊れた 橋{n}消費MV 3{n}水に沈んでいます{end}
+EN: 
+
+#id 0244 ptr=033134 box=msg
+JP: ライモスのレンガ床{n}消費MV 2{n}古代に焼かれた 古いレンガ{end}
+EN: 
+
+#id 0245 ptr=03315A box=msg
+JP: クルクルの芝生{n}消費MV 2{n}クルクル地方 特有の芝{end}
+EN: 
+
+#id 0246 ptr=03317E box=msg
+JP: クルクル魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0247 ptr=0331A7 box=msg
+JP: クルクルの木{n}消費MV 3{n}クルクル回る 不思議な木{end}
+EN: 
+
+#id 0248 ptr=0331CA box=msg
+JP: くるくるの針葉樹{n}消費MV 3{n}地形効果が たかいぞ{end}
+EN: 
+
+#id 0249 ptr=0331EE box=msg
+JP: 砦の石床{n}消費MV 2{n}砦に囲まれた 石の床{end}
+EN: 
+
+#id 0250 ptr=03320E box=msg
+JP: 砂にある倒木{n}消費MV 6{n}地形効果が たかいぞ{end}
+EN: 
+
+#id 0251 ptr=033230 box=msg
+JP: クルクルの枯れ木{n}消費MV 4{n}地形効果が たかいぞ{end}
+EN: 
+
+#id 0252 ptr=033253 box=msg
+JP: 燃え上がる芝{n}消費MV 3{n}炎わきたつ 危険な場所{end}
+EN: 
+
+#id 0253 ptr=033277 box=msg
+JP: 燃え上がる木{n}消費MV 3{n}燃える炎が デンジャラス{end}
+EN: 
+
+#id 0254 ptr=033299 box=msg
+JP: 植え込み{n}侵入不可{n}植え込みにはいっては いけません{end}
+EN: 
+
+#id 0255 ptr=0332BC box=msg
+JP: エンタシス柱{n}侵入不可{n}屋根をささえる 大事な柱{end}
+EN: 
+
+#id 0256 ptr=0332DF box=msg
+JP: 公園の備品{n}侵入不可{n}くつろぐときには ベンチをどうぞ{end}
+EN: 
+
+#id 0257 ptr=033303 box=msg
+JP: オブジェ{n}侵入不可{n}制作者 J・L・ピカード{end}
+EN: 
+
+#id 0258 ptr=033321 box=msg
+JP: ソロモンの塔{n}侵入不可{n}そびえたつ 巨大な塔{end}
+EN: 
+
+#id 0259 ptr=033340 box=msg
+JP: 遺跡{n}侵入不可{n}いにしえの建造物{end}
+EN: 
+
+#id 0260 ptr=03335A box=msg
+JP: 崖{n}侵入不可{n}崖で遊んでは いけません{end}
+EN: 
+
+#id 0261 ptr=033375 box=msg
+JP: トゲ{n}侵入不可{n}チクチク痛くて はいれません{end}
+EN: 
+
+#id 0262 ptr=033391 box=msg
+JP: はね橋{n}侵入不可{n}橋がおりたら わたれます{end}
+EN: 
+
+#id 0263 ptr=0333AD box=msg
+JP: 玄関{n}消費MV 2{n}ご用の方は こちらへどうぞ{end}
+EN: 
+
+#id 0264 ptr=0333CB box=msg
+JP: 壊れた家{n}侵入不可{n}ご用のあるかたは 玄関へどうぞ{end}
+EN: 
+
+#id 0265 ptr=0333EE box=msg
+JP: 合体の神殿{n}不思議な壺の力で ユニットを{n}合体させる神聖な場所{end}
+EN: 
+
+#id 0266 ptr=03341D box=msg
+JP: 民家{n}侵入不可{n}ご用のあるかたは 玄関へどうぞ{end}
+EN: 
+
+#id 0267 ptr=03343E box=msg
+JP: 宝箱{n}侵入不可{n}なにかいいもの 入っているかな?{end}
+EN: 
+
+#id 0268 ptr=03345E box=msg
+JP: 宝箱{n}侵入不可{n}箱の中身は からっぽです{end}
+EN: 
+
+#id 0269 ptr=03347C box=msg
+JP: 閉じた扉{n}侵入不可{n}扉を開けなきゃ 通れない{end}
+EN: 
+
+#id 0270 ptr=03349C box=msg
+JP: 開いた扉{n}消費MV 2{n}どうぞ お通りください{end}
+EN: 
+
+#id 0271 ptr=0334B9 box=msg
+JP: 砂漠魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0272 ptr=0334E2 box=msg
+JP: 草{n}消費MV 2{n}草が生えてる場所{end}
+EN: 
+
+#id 0273 ptr=0334FB box=msg
+JP: 草むら{n}消費MV 3{n}草に足をとられて 歩きにくい{end}
+EN: 
+
+#id 0274 ptr=03351B box=msg
+JP: 砦の扉(閉){n}侵入不可{n}扉を開けなきゃ 通れない{end}
+EN: 
+
+#id 0275 ptr=03353E box=msg
+JP: 砦の扉(開){n}消費MV 2{n}どうぞ お通りください{end}
+EN: 
+
+#id 0276 ptr=03355E box=msg
+JP: 民家{n}侵入不可{n}ご用のかたは 玄関へどうぞ{end}
+EN: 
+
+#id 0277 ptr=03357D box=msg
+JP: ジェネレーター{n}侵入不可{n}敵が発生する 危険な場所{end}
+EN: 
+
+#id 0278 ptr=0335A2 box=msg
+JP: ジェネレーター{n}消費MV 3{n}敵が発生する 危険な場所{end}
+EN: 
+
+#id 0279 ptr=0335C7 box=msg
+JP: 雪だるま{n}消費MV 4{n}かわいい雪だるま{end}
+EN: 
+
+#id 0280 ptr=0335E0 box=msg
+JP: 氷づけの魚{n}消費MV 2{n}お魚が凍っています{end}
+EN: 
+
+#id 0281 ptr=0335FD box=msg
+JP: クイズパネル{n}消費MV 2{n}パネルに乗って 答えましょう{end}
+EN: 
+
+#id 0282 ptr=03361E box=msg
+JP: クルクルのカンバン{n}侵入不可{n}前に立てば 道が示される{end}
+EN: 
+
+#id 0283 ptr=033642 box=msg
+JP: クイズ村の木{n}侵入不可{n}近道しないよう なわがはってます{end}
+EN: 
+
+#id 0284 ptr=033667 box=msg
+JP: 地下へ続く穴{n}侵入不可{n}深く 落ちると 危険です{end}
+EN: 
+
+#id 0285 ptr=03368C box=msg
+JP: 未設定{end}
+EN: 
+
+#id 0286 ptr=033693 box=msg
+JP: ブロック{n}侵入不可の場所{n}{end}
+EN: 
+
+#id 0287 ptr=0336A7 box=msg
+JP: 土{n}消費MV 2{n}生き物を育む おおいなる大地{end}
+EN: 
+
+#id 0288 ptr=0336C7 box=msg
+JP: 雑草の生えた土{n}消費MV 2{n}やがて草むらになります{end}
+EN: 
+
+#id 0289 ptr=0336E9 box=msg
+JP: ひび割れた土床{n}消費MV 3{n}ちょっと 歩きにくい{end}
+EN: 
+
+#id 0290 ptr=033709 box=msg
+JP: ジャスバンの床{n}消費MV 2{n}とても古い 床です{end}
+EN: 
+
+#id 0291 ptr=033727 box=msg
+JP: ジャスバンの床{n}消費MV 3{n}ちょっと 歩きにくい{end}
+EN: 
+
+#id 0292 ptr=033745 box=msg
+JP: 石床{n}消費MV 2{n}まる石が しきつめられている{end}
+EN: 
+
+#id 0293 ptr=033763 box=msg
+JP: ゴツゴツした石床{n}消費MV 3{n}ちょっと 歩きにくい{end}
+EN: 
+
+#id 0294 ptr=033783 box=msg
+JP: ゴツゴツしたレンガ床{n}消費MV 3{n}ちょっと 歩きにくい{end}
+EN: 
+
+#id 0295 ptr=0337A4 box=msg
+JP: 洞窟の床{n}消費MV 2{n}{end}
+EN: 
+
+#id 0296 ptr=0337B6 box=msg
+JP: 砂利{n}消費MV 3{n}足をとられて 歩きにくい{end}
+EN: 
+
+#id 0297 ptr=0337D3 box=msg
+JP: ライナーク城の床{n}消費MV 2{n}みごとな 石の床です{end}
+EN: 
+
+#id 0298 ptr=0337F4 box=msg
+JP: 城のじゅうたん{n}消費MV 2{n}地形効果が たかいよ{end}
+EN: 
+
+#id 0299 ptr=033815 box=msg
+JP: マテドラル城の床{n}消費MV 2{n}みごとな 石の床です{end}
+EN: 
+
+#id 0300 ptr=033836 box=msg
+JP: 屋内石床(普){n}消費MV 2{n}{end}
+EN: 
+
+#id 0301 ptr=03384D box=msg
+JP: 針床 出{n}消費MV 3{n}針をふむと ダメージを受けます{end}
+EN: 
+
+#id 0302 ptr=033870 box=msg
+JP: 針床 引{n}消費MV 2{n}いまは ふんでも平気{end}
+EN: 
+
+#id 0303 ptr=03388E box=msg
+JP: 魔方陣{n}消費MV 2{n}不思議な力で 体力が回復します{end}
+EN: 
+
+#id 0304 ptr=0338B6 box=msg
+JP: ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
+EN: 
+
+#id 0305 ptr=0338D7 box=msg
+JP: スイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
+EN: 
+
+#id 0306 ptr=0338FA box=msg
+JP: 月のパネル{n}侵入不可{n}レリーフが彫られています{end}
+EN: 
+
+#id 0307 ptr=033918 box=msg
+JP: 太陽のパネル{n}侵入不可{n}レリーフが彫られています{end}
+EN: 
+
+#id 0308 ptr=033938 box=msg
+JP: ガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
+EN: 
+
+#id 0309 ptr=03395A box=msg
+JP: ガレキ{n}侵入不可{n}チクチク痛くて 入れません{end}
+EN: 
+
+#id 0310 ptr=033977 box=msg
+JP: 土の荒れ地{n}消費MV 3{n}荒れた大地 歩きにくい{end}
+EN: 
+
+#id 0311 ptr=033999 box=msg
+JP: クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
+EN: 
+
+#id 0312 ptr=0339B7 box=msg
+JP: ピラミッド クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
+EN: 
+
+#id 0313 ptr=0339DB box=msg
+JP: すのこ床{n}消費MV 2{n}歩きやすいな{end}
+EN: 
+
+#id 0314 ptr=0339F2 box=msg
+JP: 屋内の湖{n}消費MV 3{n}静かに 波うつ水{end}
+EN: 
+
+#id 0315 ptr=033A0F box=msg
+JP: 屋内の砂地{n}消費MV 5{n}歩きにくく 静かな場所{end}
+EN: 
+
+#id 0316 ptr=033A32 box=msg
+JP: 大理石の床{n}消費MV 2{n}{end}
+EN: 
+
+#id 0317 ptr=033A46 box=msg
+JP: 崩れた大理石{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
+EN: 
+
+#id 0318 ptr=033A6F box=msg
+JP: 大理石魔方陣{n}消費MV 2{n}不思議な力で 体力が回復します{end}
+EN: 
+
+#id 0319 ptr=033A9D box=msg
+JP: おもちゃのブロック床{n}消費MV 2{n}おもちゃの塔の カラフルな床{end}
+EN: 
+
+#id 0320 ptr=033AC3 box=msg
+JP: 乱雑なブロック床{n}消費MV 4{n}ブロックが置かれていて 歩きにくい{end}
+EN: 
+
+#id 0321 ptr=033AEC box=msg
+JP: ブロック魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0322 ptr=033B15 box=msg
+JP: ブロックスイッチ{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
+EN: 
+
+#id 0323 ptr=033B39 box=msg
+JP: ブロックワープ{n}消費MV 2{n}遠き場所へ みちびかれます{end}
+EN: 
+
+#id 0324 ptr=033B5B box=msg
+JP: ブロッククレーター{n}消費MV 4{n}地形効果が たかいよ{end}
+EN: 
+
+#id 0325 ptr=033B7D box=msg
+JP: 石床魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0326 ptr=033BA6 box=msg
+JP: 石床ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
+EN: 
+
+#id 0327 ptr=033BCB box=msg
+JP: 石床スイッチ{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
+EN: 
+
+#id 0328 ptr=033BEF box=msg
+JP: 鉄の床{n}消費MV 2{n}魔導科学で 創られた金属{end}
+EN: 
+
+#id 0329 ptr=033C12 box=msg
+JP: 鉄床魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0330 ptr=033C3B box=msg
+JP: 鉄床ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
+EN: 
+
+#id 0331 ptr=033C60 box=msg
+JP: 鉄床スイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
+EN: 
+
+#id 0332 ptr=033C87 box=msg
+JP: さびた鉄床{n}消費MV 4{n}魔法科学でも さびはとめられない{end}
+EN: 
+
+#id 0333 ptr=033CAD box=msg
+JP: ベルトコンベア{n}消費MV 2{n}魔法科学の力で 動きます{end}
+EN: 
+
+#id 0334 ptr=033CD1 box=msg
+JP: ベルトコンベア{n}消費MV 10{n}魔法科学の力で 動きます{end}
+EN: 
+
+#id 0335 ptr=033CF6 box=msg
+JP: 鉄床クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
+EN: 
+
+#id 0336 ptr=033D18 box=msg
+JP: 鉄床のガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
+EN: 
+
+#id 0337 ptr=033D3F box=msg
+JP: 教会のガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
+EN: 
+
+#id 0338 ptr=033D66 box=msg
+JP: 教会魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0339 ptr=033D8F box=msg
+JP: 教会床クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
+EN: 
+
+#id 0340 ptr=033DB3 box=msg
+JP: 城のワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
+EN: 
+
+#id 0341 ptr=033DD7 box=msg
+JP: 城のスイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
+EN: 
+
+#id 0342 ptr=033DFD box=msg
+JP: 城の石床{n}消費MV2{n}りっぱな 石の床{end}
+EN: 
+
+#id 0343 ptr=033E18 box=msg
+JP: ピラミッドの床{n}消費MV 2{n}ふしぎな模様が刻まれてます{end}
+EN: 
+
+#id 0344 ptr=033E3B box=msg
+JP: ピラミッド魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0345 ptr=033E65 box=msg
+JP: ピラミッドスイッチ{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
+EN: 
+
+#id 0346 ptr=033E8A box=msg
+JP: ピラミッドワープ{n}消費MV 2{n}遠き場所へ みちびかれます{end}
+EN: 
+
+#id 0347 ptr=033EAD box=msg
+JP: 教会の床{n}消費MV 2{n}ワックスでピカピカ{end}
+EN: 
+
+#id 0348 ptr=033EC8 box=msg
+JP: 教会クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
+EN: 
+
+#id 0349 ptr=033EEA box=msg
+JP: 教会魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0350 ptr=033F13 box=msg
+JP: 城魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0351 ptr=033F3A box=msg
+JP: ピラミッドのガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
+EN: 
+
+#id 0352 ptr=033F62 box=msg
+JP: シーソー 出{n}消費MV 2{n}ユニットが 飛ばされます{end}
+EN: 
+
+#id 0353 ptr=033F81 box=msg
+JP: シーソー 引{n}消費MV 2{n}ユニットが 飛ばされます{end}
+EN: 
+
+#id 0354 ptr=033FA0 box=msg
+JP: まぼろしの床{n}消費MV 2{n}ぶきみな床{end}
+EN: 
+
+#id 0355 ptr=033FB8 box=msg
+JP: まぼろしの魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
+EN: 
+
+#id 0356 ptr=033FE2 box=msg
+JP: 輝く大理石{n}消費MV 2{n}こうごうしい 輝きを放ってます{end}
+EN: 
+
+#id 0357 ptr=034007 box=msg
+JP: 室内の柱{n}消費MV 4{n}地形効果が たかいよ{end}
+EN: 
+
+#id 0358 ptr=034027 box=msg
+JP: 民家{n}侵入不可{n}ご用のかたは 玄関にどうぞ{end}
+EN: 
+
+#id 0359 ptr=034046 box=msg
+JP: ジェネレータ{n}消費MV 3{n}敵が発生する 危険な場所{end}
+EN: 
+
+#id 0360 ptr=03406A box=msg
+JP: ジェネレータ{n}侵入不可{n}敵が発生する 危険な場所{end}
+EN: 
+
+#id 0361 ptr=03408E box=msg
+JP: 教会のドア{n}侵入不可{n}勝手に開けては いけません{end}
+EN: 
+
+#id 0362 ptr=0340B0 box=msg
+JP: 教会の祭壇{n}侵入不可{n}神父さんいがいは 近寄っちゃダメ{end}
+EN: 
+
+#id 0363 ptr=0340D8 box=msg
+JP: 教会{n}侵入不可{n}聖ガウディ教会です{end}
+EN: 
+
+#id 0364 ptr=0340F3 box=msg
+JP: パズルパネル2{n}侵入不可{n}おなじ絵柄を そろえよう{end}
+EN: 
+
+#id 0365 ptr=034113 box=msg
+JP: パズルパネル1{n}消費MV 2{n}敵を倒すと パネルが変わります{end}
+EN: 
+
+#id 0366 ptr=034137 box=msg
+JP: 玉座{n}侵入不可{n}王様いがいは 近寄っちゃダメ{end}
+EN: 
+
+#id 0367 ptr=034158 box=msg
+JP: ジャスバン像{n}侵入不可{n}天使の彫像です{end}
+EN: 
+
+#id 0368 ptr=034175 box=msg
+JP: 危険な穴{n}侵入不可{n}底はふかいぞ 近付かないように{end}
+EN: 
+
+#id 0369 ptr=034199 box=msg
+JP: しょく台{n}侵入不可{n}ロウソクをたてる台です{end}
+EN: 
+
+#id 0370 ptr=0341B5 box=msg
+JP: 合体の神殿{n}不思議な壺の力で ユニットを{n}合体させる 神聖なる場所{end}
+EN: 
+
+#id 0371 ptr=0341E6 box=msg
+JP: 宝箱{n}侵入不可{n}なにかいいもの はいっているかな?{end}
+EN: 
+
+#id 0372 ptr=034206 box=msg
+JP: 宝箱{n}侵入不可{n}箱の中身は 空っぽです{end}
+EN: 
+
+#id 0373 ptr=034224 box=msg
+JP: 開いた扉{n}消費MV 2{n}どうぞ お通りください{end}
+EN: 
+
+#id 0374 ptr=034241 box=msg
+JP: 閉じた扉{n}侵入不可{n}扉を開けなきゃ 通れません{end}
+EN: 
+
+#id 0375 ptr=034262 box=msg
+JP: 王室の紋章{n}侵入不可{n}王室のシンボル{end}
+EN: 
+
+#id 0376 ptr=03427F box=msg
+JP: 玄関{n}消費MV 2{n}ご用の方は こちらへどうぞ{end}
+EN: 
+
+#id 0377 ptr=03429D box=msg
+JP: 階段{n}侵入不可{n}上や下にみちびく 場所{end}
+EN: 
+
+#id 0378 ptr=0342BB box=msg
+JP: 虹色の魔石{n}侵入不可{n}妖しげな光をはなつ魔石{end}
+EN: 
+
+#id 0379 ptr=0342DE box=msg
+JP: 魔石の台座{n}侵入不可{n}魔石のならびは虹の色{end}
+EN: 
+
+#id 0380 ptr=034300 box=msg
+JP: パネルスイッチ{n}消費MV 2{n}スイッチに乗ると パネルが変わる{end}
+EN: 
+
+#id 0381 ptr=034324 box=msg
+JP: 教会の椅子{n}消費MV 4{n}ここに座って お話しをききます{end}
+EN: 
+
+#id 0382 ptr=034349 box=msg
+JP: 洞窟クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
+EN: 
+
+#id 0383 ptr=03436B box=msg
+JP: 未設定{end}
+EN: 
+
+#id 0384 ptr=034372 box=msg
+JP: はめると力がわいてくるふしぎなリングユニットのSTRを1アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0385 ptr=0343A0 box=msg
+JP: はめると力がわいてくるふしぎなリングユニットのSTRを1アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0386 ptr=0343CE box=msg
+JP: はめると力がわいてくるふしぎなリングユニットのSTRを1アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0387 ptr=0343FC box=msg
+JP: ちからのリング+3は、はめると{n}ユニットのSTRを3アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0388 ptr=034427 box=msg
+JP: ちからのリング+3は、はめると{n}ユニットのSTRを3アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0389 ptr=034452 box=msg
+JP: ちからのリング+3は、はめると{n}ユニットのSTRを3アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0390 ptr=03447D box=msg
+JP: むかしの兵隊さんが使ってた{n}指輪だ。STRが5アップするよ。{n}これも装備品だよ{end}
+EN: 
+
+#id 0391 ptr=0344AD box=msg
+JP: むかしの兵隊さんが使ってた{n}指輪だ。STRが5アップするよ。{n}これも装備品だよ{end}
+EN: 
+
+#id 0392 ptr=0344DD box=msg
+JP: むかしの兵隊さんが使ってた{n}指輪だ。STRが5アップするよ。{n}これも装備品だよ{end}
+EN: 
+
+#id 0393 ptr=03450D box=msg
+JP: 聖なる指輪だ。{n}ユニットのSTRを7アップするよ。{n}これはお買得な装備品だぜ{end}
+EN: 
+
+#id 0394 ptr=03453C box=msg
+JP: 聖なる指輪だ。{n}ユニットのSTRを7アップするよ。{n}これはお買得な装備品だぜ{end}
+EN: 
+
+#id 0395 ptr=03456B box=msg
+JP: 聖なる指輪だ。{n}ユニットのSTRを7アップするよ。{n}これはお買得な装備品だぜ{end}
+EN: 
+
+#id 0396 ptr=03459A box=msg
+JP: マルスのゆびわ を はめれば、{n}ユニットのSTRが9アップするぞ。{n}装備品だよ{end}
+EN: 
+
+#id 0397 ptr=0345C5 box=msg
+JP: マルスのゆびわ を はめれば、{n}ユニットのSTRが9アップするぞ。{n}装備品だよ{end}
+EN: 
+
+#id 0398 ptr=0345F0 box=msg
+JP: マルスのゆびわ を はめれば、{n}ユニットのSTRが9アップするぞ。{n}装備品だよ{end}
+EN: 
+
+#id 0399 ptr=03461B box=msg
+JP: これは げんこつリング です。{n}ユニットのSTRを11アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0400 ptr=034647 box=msg
+JP: これは げんこつリング です。{n}ユニットのSTRを11アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0401 ptr=034673 box=msg
+JP: これは げんこつリング です。{n}ユニットのSTRを11アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0402 ptr=03469F box=msg
+JP: これは プラチナリング です。{n}ユニットのSTRを13アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0403 ptr=0346CB box=msg
+JP: これは プラチナリング です。{n}ユニットのSTRを13アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0404 ptr=0346F7 box=msg
+JP: これは プラチナリング です。{n}ユニットのSTRを13アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0405 ptr=034723 box=msg
+JP: これは おうじゃのゆびわ です。{n}ユニットのSTRを15アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0406 ptr=034750 box=msg
+JP: これは おうじゃのゆびわ です。{n}ユニットのSTRを15アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0407 ptr=03477D box=msg
+JP: これは おうじゃのゆびわ です。{n}ユニットのSTRを15アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0408 ptr=0347AA box=msg
+JP: これは まもりのブレス です。{n}ユニットのDEFを1アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0409 ptr=0347D5 box=msg
+JP: これは まもりのブレス です。{n}ユニットのDEFを1アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0410 ptr=034800 box=msg
+JP: これは まもりのブレス です。{n}ユニットのDEFを1アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0411 ptr=03482B box=msg
+JP: これは まもりのブレス+3 です。{n}ユニットのDEFを3アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0412 ptr=034858 box=msg
+JP: これは まもりのブレス+3 です。{n}ユニットのDEFを3アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0413 ptr=034885 box=msg
+JP: これは まもりのブレス+3 です。{n}ユニットのDEFを3アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0414 ptr=0348B2 box=msg
+JP: これは せんしのうでわ です。{n}ユニットのDEFを5アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0415 ptr=0348DD box=msg
+JP: これは せんしのうでわ です。{n}ユニットのDEFを5アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0416 ptr=034908 box=msg
+JP: これは せんしのうでわ です。{n}ユニットのDEFを5アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0417 ptr=034933 box=msg
+JP: これは ガードブレス です。{n}ユニットのDEFを7アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0418 ptr=03495D box=msg
+JP: これは ガードブレス です。{n}ユニットのDEFを7アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0419 ptr=034987 box=msg
+JP: これは ガードブレス です。{n}ユニットのDEFを7アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0420 ptr=0349B1 box=msg
+JP: これは きみょうなうでわ です。{n}ユニットのDEFを9アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0421 ptr=0349DD box=msg
+JP: これは きみょうなうでわ です。{n}ユニットのDEFを9アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0422 ptr=034A09 box=msg
+JP: これは きみょうなうでわ です。{n}ユニットのDEFを9アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0423 ptr=034A35 box=msg
+JP: これは ゴールドブレス です。{n}ユニットのDEFを11アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0424 ptr=034A61 box=msg
+JP: これは ゴールドブレス です。{n}ユニットのDEFを11アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0425 ptr=034A8D box=msg
+JP: これは ゴールドブレス です。{n}ユニットのDEFを11アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0426 ptr=034AB9 box=msg
+JP: これは はおうのうでわ です。{n}ユニットのDEFを13アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0427 ptr=034AE5 box=msg
+JP: これは はおうのうでわ です。{n}ユニットのDEFを13アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0428 ptr=034B11 box=msg
+JP: これは はおうのうでわ です。{n}ユニットのDEFを13アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0429 ptr=034B3D box=msg
+JP: これは ガイア・ブレス です。{n}ユニットのDEFを15アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0430 ptr=034B69 box=msg
+JP: これは ガイア・ブレス です。{n}ユニットのDEFを15アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0431 ptr=034B95 box=msg
+JP: これは ガイア・ブレス です。{n}ユニットのDEFを15アップします。{n}装備品だよ{end}
+EN: 
+
+#id 0432 ptr=034BC1 box=msg
+JP: これは かんせつペンダント です。{n}間接STRを1アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0433 ptr=034BF6 box=msg
+JP: これは かんせつペンダント です。{n}間接STRを1アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0434 ptr=034C2B box=msg
+JP: これは かんせつペンダントZ です。{n}間接STRを3アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0435 ptr=034C61 box=msg
+JP: これは かんせつペンダントZ です。{n}間接STRを3アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0436 ptr=034C97 box=msg
+JP: これは パワーペンダント です。{n}間接STRを5アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0437 ptr=034CCB box=msg
+JP: これは パワーペンダント です。{n}間接STRを5アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0438 ptr=034CFF box=msg
+JP: これは ホークアイ です。{n}間接STRを7アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0439 ptr=034D30 box=msg
+JP: これは ホークアイ です。{n}間接STRを7アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0440 ptr=034D61 box=msg
+JP: これは スーパーペンダント です。{n}間接STRを9アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0441 ptr=034D96 box=msg
+JP: これは スーパーペンダント です。{n}間接STRを9アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0442 ptr=034DCB box=msg
+JP: これは スナイパーズアイ です。{n}間接STRを11アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0443 ptr=034E00 box=msg
+JP: これは スナイパーズアイ です。{n}間接STRを11アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0444 ptr=034E35 box=msg
+JP: これは ミラクルペンダント です。{n}間接STRを13アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0445 ptr=034E6B box=msg
+JP: これは ミラクルペンダント です。{n}間接STRを13アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0446 ptr=034EA1 box=msg
+JP: これは ロビンのペンダント です。{n}間接STRを15アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0447 ptr=034ED7 box=msg
+JP: これは ロビンのペンダント です。{n}間接STRを15アップします。{n}間接攻撃ユニット用です。{end}
+EN: 
+
+#id 0448 ptr=034F0D box=msg
+JP: これを持っていれば合体のときに{n}上級ユニットにチェンジできるよ。{n}合体できるユニットにもたせてね。{end}
+EN: 
+
+#id 0449 ptr=034F46 box=msg
+JP: これを持っていれば合体のときに{n}上級ユニットにチェンジできるよ。{n}合体できるユニットにもたせてね。{end}
+EN: 
+
+#id 0450 ptr=034F7F box=msg
+JP: このクツをはけば MVが{n}1ポイントアップするよ。{n}貴重な装備品です。{end}
+EN: 
+
+#id 0451 ptr=034FA8 box=msg
+JP: このクツをはけば MVが{n}1ポイントアップするよ。{n}貴重な装備品です。{end}
+EN: 
+
+#id 0452 ptr=034FD1 box=msg
+JP: これは ドラゴンのキバ です。{n}ユニットの会心率を3アップします装備品だよ{end}
+EN: 
+
+#id 0453 ptr=034FFD box=msg
+JP: これは ドラゴンのキバ です。{n}ユニットの会心率を3アップします装備品だよ{end}
+EN: 
+
+#id 0454 ptr=035029 box=msg
+JP: これは マモノのおまもり です。{n}ユニットの必殺率を3アップします装備品だよ{end}
+EN: 
+
+#id 0455 ptr=035056 box=msg
+JP: これは マモノのおまもり です。{n}ユニットの必殺率を3アップします装備品だよ{end}
+EN: 
+
+#id 0456 ptr=035083 box=msg
+JP: これは ドラゴンのすごいキバ です。{n}ユニットの会心率を5アップします装備品だよ{end}
+EN: 
+
+#id 0457 ptr=0350B2 box=msg
+JP: これは マモノのおふだ です。{n}ユニットの必殺率を5アップします装備品だよ{end}
+EN: 
+
+#id 0458 ptr=0350DE box=msg
+JP: ピースバッジをつけていれば{n}敵の特殊攻撃を無効に{n}できる。便利だよ{end}
+EN: 
+
+#id 0459 ptr=035109 box=msg
+JP: ピースバッジをつけていれば敵の{n}特殊攻撃を無効に{n}できる。便利だよ{end}
+EN: 
+
+#id 0460 ptr=035134 box=msg
+JP: この帽子をかぶれば戦闘のときにエレメンタル命中率を無効に{n}することができるよ{end}
+EN: 
+
+#id 0461 ptr=035164 box=msg
+JP: この帽子をかぶれば戦闘のときにエレメンタル命中率を無効に{n}することができるよ{end}
+EN: 
+
+#id 0462 ptr=035194 box=msg
+JP: ゆうしゃのあかし は 秘密のアイテム{n}装備するとスゴイことになるよ。{end}
+EN: 
+
+#id 0463 ptr=0351BB box=msg
+JP: うしのてっけん は 秘密のアイテム{n}装備するとすごく強くなるよ{end}
+EN: 
+
+#id 0464 ptr=0351E0 box=msg
+JP: えいようまんてん、ちからのリンゴ。{n}たべるとユニットのSTRが1ふえる。{n}いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0465 ptr=035216 box=msg
+JP: こいつは かんせつのリンゴ。{n}たべると間接STRが1ふえるんだ。いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0466 ptr=035249 box=msg
+JP: まもりのリンゴは だいちのめぐみ。{n}たべるとユニットのDEFが1ふえる。{n}いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0467 ptr=03527F box=msg
+JP: すかっとさわやか すばやさのリンゴ。{n}たべるとユニットのSPDが1ふえます。いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0468 ptr=0352B6 box=msg
+JP: これは貴重な ラッキーアップル。{n}たべるとLUCKが10ふえちゃう。{n}いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0469 ptr=0352EC box=msg
+JP: ちょっとすっぱい ちからのあおリンゴ。たべるとユニットのSTRが3ふえます。いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0470 ptr=035323 box=msg
+JP: かんせつのあおリンゴは ユニットの{n}間接STRを2ふやします。{n}いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0471 ptr=035356 box=msg
+JP: まもりのあおリンゴは めずらしいよ。{n}たべるとユニットのDEFが3ふえます。いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0472 ptr=03538D box=msg
+JP: 早熟な すばやさのあおリンゴ。{n}たべるとユニットのSPDが5ふえます。いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0473 ptr=0353C3 box=msg
+JP: こいつはゴージャス ちからのメロン。{n}たべるとユニットのSTRが5ふえます。いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0474 ptr=0353FA box=msg
+JP: おなじくゴージャス かんせつのメロン。たべると間接STRが5ふえます。{n}いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0475 ptr=035431 box=msg
+JP: まもりのメロンは ガイアのめぐみ。{n}たべるとユニットのDEFが5ふえます。いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0476 ptr=035467 box=msg
+JP: こいつは貴重だ すばやさのメロン。たべるとユニットのSPDが5ふえます。いちどたべると なくなっちゃうよ{end}
+EN: 
+
+#id 0477 ptr=03549E box=msg
+JP: これはすごい マスクメロン ですよ。{n}STR、かんせつSTR、DEF、{n}SPDが それぞれ5成長します{end}
+EN: 
+
+#id 0478 ptr=0354D4 box=msg
+JP: これは すごいもの です。{n}会心率とSPDが10あがります{n}秘密のアイテムですよ。{end}
+EN: 
+
+#id 0479 ptr=035503 box=msg
+JP: これは すごすぎるもの です。{n}STR、かんせつSTR、DEF、{n}SPDが それぞれ10成長します{end}
+EN: 
+
+#id 0480 ptr=035537 box=msg
+JP: やくそう を つかうと{n}パラライズ、ポイズン、トランスを{n}治療します{end}
+EN: 
+
+#id 0481 ptr=03555C box=msg
+JP: おくすり を つかうと{n}パラライズ、ポイズン、トランス、{n}スロウ、ウイークを治療します{end}
+EN: 
+
+#id 0482 ptr=03558A box=msg
+JP: この万能薬は カース以外の{n}状態異常をすべて治療します出かけるときは 忘れずに{end}
+EN: 
+
+#id 0483 ptr=0355BF box=msg
+JP: 天使のお守り は ユニットに{n}ふりかかる災いを すべてはらってくれます。こまったときはコレをどうぞ{end}
+EN: 
+
+#id 0484 ptr=0355F5 box=msg
+JP: EXPがいっぱいつまった経験の種これをたべれば、たたかわなくても{n}ユニットのEXPが 99になります{end}
+EN: 
+
+#id 0485 ptr=03562B box=msg
+JP: これは グーのおまもり です。{n}つかうと ユニットのエレメンタルが{n}グーに変化します。{end}
+EN: 
+
+#id 0486 ptr=035659 box=msg
+JP: これは チョキのおまもり です。{n}つかうと ユニットのエレメンタルが{n}グーに変化します。{end}
+EN: 
+
+#id 0487 ptr=035688 box=msg
+JP: これは パーのおまもり です。{n}つかうと ユニットのエレメンタルが{n}パーに変化します。{end}
+EN: 
+
+#id 0488 ptr=0356B6 box=msg
+JP: これは ちからのドロップ です。{n}つかうとSTRが1ふえます。{n}しばらくすると効果がなくなります{end}
+EN: 
+
+#id 0489 ptr=0356E9 box=msg
+JP: これは かんせつのドロップ です。{n}つかうと間接STRが1ふえます。{n}しばらくすると効果がなくなります{end}
+EN: 
+
+#id 0490 ptr=035721 box=msg
+JP: これは まもりのドロップ です。{n}つかうとDEFが1ふえます。{n}しばらくすると効果がなくなります{end}
+EN: 
+
+#id 0491 ptr=035754 box=msg
+JP: これは すばやさのドロップ です。{n}つかうとSPDが1ふえます。{n}しばらくすると効果がなくなります{end}
+EN: 
+
+#id 0492 ptr=035788 box=msg
+JP: これは フルーツキャンディ です。{n}つかうと すごいことがおこります。{n}このアイテムはなくなります。{end}
+EN: 
+
+#id 0493 ptr=0357BB box=msg
+JP: これは あさひのランプ です。{n}つかうと すごいことがおこります。{n}いちどつかうと なくなります{end}
+EN: 
+
+#id 0494 ptr=0357EC box=msg
+JP: これは よるのロウソク です。{n}つかうと すごいことがおこります。{n}いちどつかうと なくなります{end}
+EN: 
+
+#id 0495 ptr=03581D box=msg
+JP: これは げんきのもと です。{n}行動終了したユニットを{n}げんきにしてくれます。{end}
+EN: 
+
+#id 0496 ptr=035848 box=msg
+JP: これは マキモノ01 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0497 ptr=035871 box=msg
+JP: これは マキモノ02 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0498 ptr=03589A box=msg
+JP: これは マキモノ03 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0499 ptr=0358C3 box=msg
+JP: これは マキモノ04 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0500 ptr=0358EC box=msg
+JP: これは マキモノ05 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0501 ptr=035915 box=msg
+JP: これは マキモノ06 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0502 ptr=03593E box=msg
+JP: これは マキモノ07 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0503 ptr=035967 box=msg
+JP: これは マキモノ08 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0504 ptr=035990 box=msg
+JP: これは クリスタル01 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0505 ptr=0359BA box=msg
+JP: これは クリスタル02 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0506 ptr=0359E4 box=msg
+JP: これは クリスタル03 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0507 ptr=035A0E box=msg
+JP: これは クリスタル04 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0508 ptr=035A38 box=msg
+JP: これは クリスタル05 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0509 ptr=035A62 box=msg
+JP: これは クリスタル06 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0510 ptr=035A8C box=msg
+JP: これは クリスタル07 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0511 ptr=035AB6 box=msg
+JP: これは クリスタル08 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
+EN: 
+
+#id 0512 ptr=035AE0 box=msg
+JP: 問題です 猫の足は何本?{n}{scroll:00}赤のパネル:4本{n}黄のパネル:5本{n}青のパネル:6本{end}
+EN: 
+
+#id 0513 ptr=035B17 box=msg
+JP: おみごと。正解は赤です。簡単でしたね。{end}
+EN: 
+
+#id 0514 ptr=035B30 box=msg
+JP: ライナークの王様の名前は?{n}{scroll:00}赤のパネル:リチャード3世{n}黄のパネル:ハッピー 3世{n}青のパネル:バーナード3世{end}
+EN: 
+
+#id 0515 ptr=035B75 box=msg
+JP: おみごと。正解は赤です。{end}
+EN: 
+
+#id 0516 ptr=035B85 box=msg
+JP: ライナークに攻め込んできた黒魔竜の名は?{n}{scroll:00}赤のパネル:ゲザガイン{n}黄のパネル:ブラックドラゴン{n}青のパネル:バンピー{end}
+EN: 
+
+#id 0517 ptr=035BCC box=msg
+JP: おみごと。正解は赤です。{end}
+EN: 
+
+#id 0518 ptr=035BDC box=msg
+JP: カンガルーのおなかの袋は何に使う?{n}{scroll:00}赤のパネル:子供を入れる{n}黄のパネル:お金を入れる{n}青のパネル:荷物を入れる{end}
+EN: 
+
+#id 0519 ptr=035C26 box=msg
+JP: おみごと。正解は赤です。あたりまえですね。{end}
+EN: 
+
+#id 0520 ptr=035C3F box=msg
+JP: クルクルの森の木はちょっと不思議。どうして?{n}{scroll:00}赤のパネル:クルクル回っている{n}黄のパネル:不思議な匂いがする{n}青のパネル:夜になると色が変わる{end}
+EN: 
+
+#id 0521 ptr=035C9A box=msg
+JP: おみごと。正解は赤です。{end}
+EN: 
+
+#id 0522 ptr=035CAA box=msg
+JP: ライナークの王女さま。ライム姫の年齢は?{n}{scroll:00}赤のパネル:16才{n}黄のパネル:17才{n}青のパネル:14才{end}
+EN: 
+
+#id 0523 ptr=035CEB box=msg
+JP: おみごと。正解は赤です。{end}
+EN: 
+
+#id 0524 ptr=035CFB box=msg
+JP: 宗教国家マテドラルで一番偉い人は?{n}{scroll:00}赤のパネル:教王 ハウサー{n}黄のパネル:狂王 ハウサー{n}青のパネル:王様 ハウサー{end}
+EN: 
+
+#id 0525 ptr=035D4B box=msg
+JP: おみごと。正解は赤です。{end}
+EN: 
+
+#id 0526 ptr=035D5B box=msg
+JP: ラクナマイト大陸の名前の由来は?{n}{scroll:00}赤のパネル:幸運と力{n}黄のパネル:楽な仕事{n}青のパネル:権力と統制{end}
+EN: 
+
+#id 0527 ptr=035DA4 box=msg
+JP: おみごと。ラック&マイトなんだって。{end}
+EN: 
+
+#id 0528 ptr=035DB7 box=msg
+JP: リイムの父の名は?{n}赤のパネル:マイト・ライクバーン{n}黄のパネル:ナイト・ライクバーン{n}青のパネル:リック・ライクバーン{end}
+EN: 
+
+#id 0529 ptr=035DF9 box=msg
+JP: おみごと。正解は赤です。{end}
+EN: 
+
+#id 0530 ptr=035E09 box=msg
+JP: トンチ問題。次の中でほらふきは誰?{n}赤のパネル:ビッグマウスマン{n}黄のパネル:ペリカンマン{n}青のパネル:ダチョラー{end}
+EN: 
+
+#id 0531 ptr=035E4B box=msg
+JP: おみごと。大口をたたくんですね。{end}
+EN: 
+
+#id 0532 ptr=035E5E box=msg
+JP: 属性問題。なかまはずれは誰でしょう?{n}{scroll:00}赤のパネル:ゴーレム{n}黄のパネル:ペリカンマン{n}青のパネル:ゴースト{end}
+EN: 
+
+#id 0533 ptr=035E9F box=msg
+JP: ゴーレムは空を飛べませんね。正解です。{end}
+EN: 
+
+#id 0534 ptr=035EB7 box=msg
+JP: ペリカンマンが口からださないものは?{n}{scroll:00}赤のパネル:サンマ{n}黄のパネル:まんぼー{n}青のパネル:おさかな{end}
+EN: 
+
+#id 0535 ptr=035EF1 box=msg
+JP: おみごと。正解です。でるわけないですよね。{end}
+EN: 
+
+#id 0536 ptr=035F09 box=msg
+JP: シャルルとリルルのペットの名前は?{n}{scroll:00}赤のパネル:ハムス{n}黄のパネル:トッポ{n}青のパネル:チップ{end}
+EN: 
+
+#id 0537 ptr=035F41 box=msg
+JP: 正解です。リルルが名付けたんだって。{end}
+EN: 
+
+#id 0538 ptr=035F58 box=msg
+JP: 僧侶のタムタムはいつも何を持ってる?{n}{scroll:00}赤のパネル:いやしの杖{n}黄のパネル:コハクソード{n}青のパネル:お弁当{end}
+EN: 
+
+#id 0539 ptr=035F9B box=msg
+JP: おみごと。正解は赤です。{end}
+EN: 
+
+#id 0540 ptr=035FAB box=msg
+JP: コアラマンはなにを食べるの?{n}{scroll:00}赤のパネル:ユーカリの葉{n}黄のパネル:ササの葉{n}青のパネル:たけのこ{end}
+EN: 
+
+#id 0541 ptr=035FE6 box=msg
+JP: おみごと。正解は赤です。{end}
+EN: 
+
+#id 0542 ptr=035FF6 box=msg
+JP: ジリジリ砂漠は怖いところです。どうして?{n}{scroll:00}赤のパネル:地雷がうまってる{n}黄のパネル:竜巻がくる{n}青のパネル:迷子になる{end}
+EN: 
+
+#id 0543 ptr=036041 box=msg
+JP: 正解です。地雷はふみたくないですよね。{end}
+EN: 
+
+#id 0544 ptr=036059 box=msg
+JP: ルビーゴーレムってどんな色にみえる?{n}{scroll:00}赤のパネル:白っぽい色{n}黄のパネル:赤っぽい色{n}青のパネル:青っぽい色{end}
+EN: 
+
+#id 0545 ptr=03609D box=msg
+JP: おみごと。ルビー色だから赤ですね。{end}
+EN: 
+
+#id 0546 ptr=0360B1 box=msg
+JP: マウスマンが二人で壺に入ったら、{n}ゴーレムになっちゃった。どうして?{n}{scroll:00}赤のパネル:変身しちゃったから{n}黄のパネル:合体しちゃったから{n}青のパネル:引退しちゃったから{end}
+EN: 
+
+#id 0547 ptr=036114 box=msg
+JP: おみごと。正解です。合体ってふしぎですよね。{end}
+EN: 
+
+#id 0548 ptr=03612F box=msg
+JP: ゾウのおハナはなぜ長いの?{n}{scroll:00}赤のパネル:大人と子供を区別するため{n}黄のパネル:よくわからないけど、便利だから{n}青のパネル:本当は長くない{end}
+EN: 
+
+#id 0549 ptr=036186 box=msg
+JP: おみごと。正解です。器用ですよね。{end}
+EN: 
+
+#id 0550 ptr=03619C box=msg
+JP: オスのライオンの特徴ってなんだろう?{n}{scroll:00}赤のパネル:しなやかな足{n}黄のパネル:立派なたてがみ{n}青のパネル:あまいマスク{end}
+EN: 
+
+#id 0551 ptr=0361E2 box=msg
+JP: おみごと。正解です。めだつよね。{end}
+EN: 
+
+#id 0552 ptr=0361F5 box=msg
+JP: ネコの瞳は、明るいところではどうなってる?{n}{scroll:00}赤のパネル:まるくなっている{n}黄のパネル:ほそくなっている{n}青のパネル:あかくなっている{end}
+EN: 
+
+#id 0553 ptr=036240 box=msg
+JP: おみごと。正解です。{end}
+EN: 
+
+#id 0554 ptr=03624D box=msg
+JP: カードマンって、どんなマークつけてたっけ?{n}{scroll:00}赤のパネル:スペード{n}黄のパネル:ハート{n}青のパネル:ダイヤ{end}
+EN: 
+
+#id 0555 ptr=036288 box=msg
+JP: おみごと。正解です。{end}
+EN: 
+
+#id 0556 ptr=036295 box=msg
+JP: リイムの相棒。モーモーのフルネームは?{n}{scroll:00}赤のパネル:モーモー・ダイバクハツ{n}黄のパネル:モーモー・ダイナマイツ{n}青のパネル:モーモー・ダイナマイト{end}
+EN: 
+
+#id 0557 ptr=0362E7 box=msg
+JP: おみごと。強そうな名前ですよね。{end}
+EN: 
+
+#id 0558 ptr=0362FB box=msg
+JP: ワニのクロコダイル。この種族はおなかのウロコに{n}珍しい特徴があります。なにが珍しいんでしょう?{n}{scroll:00}赤のパネル:ウロコがすきとおっている{n}黄のパネル:ウロコに穴があいている{n}青のパネル:ウロコがつながっている{end}
+EN: 
+
+#id 0559 ptr=03636F box=msg
+JP: 正解です。小さい穴がひとつあいているんだよ。{end}
+EN: 
+
+#id 0560 ptr=03638A box=msg
+JP: サイの足には「ひずめ」がいくつ ついているかな?{n}{scroll:00}赤のパネル:2つ{n}黄のパネル:3つ{n}青のパネル:4つ{end}
+EN: 
+
+#id 0561 ptr=0363C5 box=msg
+JP: 正解です。おおきなひずめがひとつと、その両わきに{n}ちいさなひずめがついているんだよ。{end}
+EN: 
+
+#id 0562 ptr=0363F3 box=msg
+JP: キリンは背高のっぽさん。首と足の他にも{n}長いところがあるんだよ。さて、それはどこ?{n}{scroll:00}赤のパネル:つの{n}黄のパネル:した{n}青のパネル:しっぽ{end}
+EN: 
+
+#id 0563 ptr=036445 box=msg
+JP: 正解です。長い舌をつかってはっぱを食べるよ。{end}
+EN: 
+
+#id 0564 ptr=036461 box=msg
+JP: ライオンは数頭で群れをつくって暮しています。{n}この群れのことをなんとよぶでしょう?{n}{scroll:00}赤のパネル:サークル{n}黄のパネル:プライド{n}青のパネル:コミューン{end}
+EN: 
+
+#id 0565 ptr=0364B8 box=msg
+JP: おみごと。正解です。{end}
+EN: 
+
+#id 0566 ptr=0364C5 box=msg
+JP: どうしてオオカミは遠ぼえをするの?{n}{scroll:00}赤のパネル:求愛のしるし{n}黄のパネル:仲間と連絡をとるため{n}青のパネル:狩りをはじめる合図{end}
+EN: 
+
+#id 0567 ptr=036515 box=msg
+JP: おみごと。正解です。{end}
+EN: 
+
+#id 0568 ptr=036522 box=msg
+JP: 海にすむラッコは、眠るときにある工夫をします。{n}体が流されないようにする その工夫とは?{n}{scroll:00}赤のパネル:むれの仲間と手をつなぐ{n}黄のパネル:海そうを体にまきつける{n}青のパネル:石をたくさんひろってきて重りにする{end}
+EN: 
+
+#id 0569 ptr=0365A0 box=msg
+JP: おみごと。正解です。{n}海そうを船のいかりみたいにしてつかうんだね。{end}
+EN: 
+
+#id 0570 ptr=0365C6 box=msg
+JP: よちよち歩きのペンギンさん。{n}ひれ状に変化したつばさのことをなんて呼ぶ?{n}{scroll:00}赤のパネル:フライヤー{n}黄のパネル:フリッパー{n}青のパネル:ブーメラン{end}
+EN: 
+
+#id 0571 ptr=03661A box=msg
+JP: おみごと。このフリッパーを回転させておよぐんだよ。{end}
+EN: 
+
+#id 0572 ptr=036636 box=msg
+JP: スカルパイレーツは体の一部を武器にして{n}相手を攻撃します。さて、それはどこ?{n}{scroll:00}赤のパネル:うで{n}黄のパネル:あたま{n}青のパネル:あし{end}
+EN: 
+
+#id 0573 ptr=036688 box=msg
+JP: おみごと。正解です。なんかすごいよね。{end}
+EN: 
+
+#id 0574 ptr=03669E box=msg
+JP: リルルとシャルルは「XX魔法使い」。{n}このXXにあてはまる言葉は?{n}{scroll:00}赤のパネル:精霊{n}黄のパネル:コハク{n}青のパネル:どーぶつ{end}
+EN: 
+
+#id 0575 ptr=0366EB box=msg
+JP: おみごと。正解です。コハクは地面に落ちてるよ。{end}
+EN: 
+
+#id 0576 ptr=036708 box=msg
+JP: カバさんのおおきなあくびには意味があるんだって。{n}どんな意味があるのかな?{n}{scroll:00}赤のパネル:水にもぐるじゅんび{n}黄のパネル:ゆうこうのしるし{n}青のパネル:いかくしている{end}
+EN: 
+
+#id 0577 ptr=036766 box=msg
+JP: おみごと。正解です。{end}
+EN: 
+
+#id 0578 ptr=036773 box=msg
+JP: ワンちゃん問題。{n}つぎのうち、犬が怒ったときにやらないことはどれ?{n}{scroll:00}赤のパネル:しっぽをたてる{n}黄のパネル:みみをたてる{n}青のパネル:しっぽをふる{end}
+EN: 
+
+#id 0579 ptr=0367C7 box=msg
+JP: 正解です。しっぽをふるのはうれしいからですね。{end}
+EN: 
+
+#id 0580 ptr=0367E1 box=msg
+JP: ちいさなシマリスは「XXぶくろ」に食べ物を{n}つめて運びます。XXにあてはまる言葉は?{n}{scroll:00}赤のパネル:「しっぽ」{n}黄のパネル:「みみ」{n}青のパネル:「ほお」{end}
+EN: 
+
+#id 0581 ptr=036839 box=msg
+JP: おみごと。正解です。シマリスのほおぶくろには{n}ドングリが2つぐらい入るんだよ。{end}
+EN: 
+
+#id 0582 ptr=036864 box=msg
+JP: 砂漠を旅するラクダさん。{n}背中についている大きなコブの中身はなあに?{n}{scroll:00}赤のパネル:酸素がたくわえてある{n}黄のパネル:水がたくわえてある{n}青のパネル:脂肪がたくわえてある{end}
+EN: 
+
+#id 0583 ptr=0368CC box=msg
+JP: おみごと。正解です。{n}脂肪をエネルギーにかえて旅をするよ。{end}
+EN: 
+
+#id 0584 ptr=0368EF box=msg
+JP: 怖い怖～いガイコツ軍団「スカル・ボンバーズ」。{n}2人のリーダーは誰と誰?{n}{scroll:00}赤のパネル:リイムとモーモー{n}黄のパネル:ヴァイスとピーコック{n}青のパネル:蒼月とトランプ{end}
+EN: 
+
+#id 0585 ptr=036951 box=msg
+JP: 正解。トランプのほうが偉そうにしているけど、{n}陰のリーダーは蒼月なんだよ。{end}
+EN: 
+
+#id 0586 ptr=03697D box=msg
+JP: カバさんのおおきなあくびには意味があるんだって。{n}どんな意味があるのかな?{n}{scroll:00}赤のパネル:水にもぐるじゅんび{n}黄のパネル:ゆうこうのしるし{n}青のパネル:いかくしている{end}
+EN: 
+
+#id 0587 ptr=0369DB box=msg
+JP: おみごと。正解です。{end}
+EN: 
+
+#id 0588 ptr=0369E8 box=msg
+JP: ワンちゃん問題。{n}つぎのうち、犬が怒ったときにやらないことはどれ?{n}{scroll:00}赤のパネル:しっぽをたてる{n}黄のパネル:みみをたてる{n}青のパネル:しっぽをふる{end}
+EN: 
+
+#id 0589 ptr=036A3C box=msg
+JP: 正解です。しっぽをふるのはうれしいからですね。{end}
+EN: 
+
+#id 0590 ptr=036A56 box=msg
+JP: ちいさなシマリスは「XXぶくろ」に食べ物を{n}つめて運びます。XXにあてはまる言葉は?{n}{scroll:00}赤のパネル:「しっぽ」{n}黄のパネル:「みみ」{n}青のパネル:「ほお」{end}
+EN: 
+
+#id 0591 ptr=036AAE box=msg
+JP: おみごと。正解です。シマリスのほおぶくろには{n}ドングリが2つぐらい入るんだよ。{end}
+EN: 
+
+#id 0592 ptr=036AD9 box=msg
+JP: 砂漠を旅するラクダさん。{n}背中についている大きなコブの中身はなあに?{n}{scroll:00}赤のパネル:酸素がたくわえてある{n}黄のパネル:水がたくわえてある{n}青のパネル:脂肪がたくわえてある{end}
+EN: 
+
+#id 0593 ptr=036B41 box=msg
+JP: おみごと。正解です。{n}脂肪をエネルギーにかえて旅をするよ。{end}
+EN: 
+
+#id 0594 ptr=036B64 box=msg
+JP: 怖い怖～いガイコツ軍団「スカル・ボンバーズ」。{n}2人のリーダーは誰と誰?{n}{scroll:00}赤のパネル:リイムとモーモー{n}黄のパネル:ヴァイスとピーコック{n}青のパネル:蒼月とトランプ{end}
+EN: 
+
+#id 0595 ptr=036BC6 box=msg
+JP: 正解。トランプのほうが偉そうにしているけど、{n}陰のリーダーは蒼月なんだよ。{end}
+EN: 
+
+#id 0596 ptr=036BF2 box=msg
+JP: カバさんのおおきなあくびには意味があるんだって。{n}どんな意味があるのかな?{n}{scroll:00}赤のパネル:水にもぐるじゅんび{n}黄のパネル:ゆうこうのしるし{n}青のパネル:いかくしている{end}
+EN: 
+
+#id 0597 ptr=036C50 box=msg
+JP: おみごと。正解です。{end}
+EN: 
+
+#id 0598 ptr=036C5D box=msg
+JP: ワンちゃん問題。{n}つぎのうち、犬が怒ったときにやらないことはどれ?{n}{scroll:00}赤のパネル:しっぽをたてる{n}黄のパネル:みみをたてる{n}青のパネル:しっぽをふる{end}
+EN: 
+
+#id 0599 ptr=036CB1 box=msg
+JP: 正解です。しっぽをふるのはうれしいからですね。{end}
+EN: 
+
+#id 0600 ptr=036CCB box=msg
+JP: ちいさなシマリスは「XXぶくろ」に食べ物を{n}つめて運びます。XXにあてはまる言葉は?{n}{scroll:00}赤のパネル:「しっぽ」{n}黄のパネル:「みみ」{n}青のパネル:「ほお」{end}
+EN: 
+
+#id 0601 ptr=036D23 box=msg
+JP: おみごと。正解です。シマリスのほおぶくろには{n}ドングリが2つぐらい入るんだよ。{end}
+EN: 
+
+#id 0602 ptr=036D4E box=msg
+JP: 砂漠を旅するラクダさん。{n}背中についている大きなコブの中身はなあに?{n}{scroll:00}赤のパネル:酸素がたくわえてある{n}黄のパネル:水がたくわえてある{n}青のパネル:脂肪がたくわえてある{end}
+EN: 
+
+#id 0603 ptr=036DB6 box=msg
+JP: おみごと。正解です。{n}脂肪をエネルギーにかえて旅をするよ。{end}
+EN: 
+
+#id 0604 ptr=036DD9 box=msg
+JP: 怖い怖～いガイコツ軍団「スカル・ボンバーズ」。{n}2人のリーダーは誰と誰?{n}{scroll:00}赤のパネル:リイムとモーモー{n}黄のパネル:ヴァイスとピーコック{n}青のパネル:蒼月とトランプ{end}
+EN: 
+
+#id 0605 ptr=036E3B box=msg
+JP: 正解。トランプのほうが偉そうにしているけど、{n}陰のリーダーは蒼月なんだよ。{end}
+EN: 
+
+#id 0606 ptr=036E67 box=msg
+JP: カバさんのおおきなあくびには意味があるんだって。{n}どんな意味があるのかな?{n}{scroll:00}赤のパネル:水にもぐるじゅんび{n}黄のパネル:ゆうこうのしるし{n}青のパネル:いかくしている{end}
+EN: 
+
+#id 0607 ptr=036EC5 box=msg
+JP: おみごと。正解です。{end}
+EN: 

@@ -1,0 +1,211 @@
+#id 0000 ptr=01105C box=name10
+JP: マウスけがわ
+EN: 
+
+#id 0001 ptr=01107C box=name10
+JP: かたいからだ
+EN: 
+
+#id 0002 ptr=01109C box=name10
+JP: ペリカンのはね
+EN: 
+
+#id 0003 ptr=0110BC box=name10
+JP: けがわ
+EN: 
+
+#id 0004 ptr=0110DC box=name10
+JP: かたいトゲ
+EN: 
+
+#id 0005 ptr=0110FC box=name10
+JP: ダチョウのはね
+EN: 
+
+#id 0006 ptr=01111C box=name10
+JP: けがわ
+EN: 
+
+#id 0007 ptr=01113C box=name10
+JP: かたいうろこ
+EN: 
+
+#id 0008 ptr=01115C box=name10
+JP: けがわ
+EN: 
+
+#id 0009 ptr=01117C box=name10
+JP: かたいからだ
+EN: 
+
+#id 0010 ptr=01119C box=name10
+JP: きたえたからだ
+EN: 
+
+#id 0011 ptr=0111BC box=name10
+JP: りっぱなけがわ
+EN: 
+
+#id 0012 ptr=0111DC box=name10
+JP: ドラゴンのうろこ
+EN: 
+
+#id 0013 ptr=0111FC box=name10
+JP: にわとりのはね
+EN: 
+
+#id 0014 ptr=01121C box=name10
+JP: コアラのけがわ
+EN: 
+
+#id 0015 ptr=01123C box=name10
+JP: ちいさなたて
+EN: 
+
+#id 0016 ptr=01125C box=name10
+JP: スカルボディ
+EN: 
+
+#id 0017 ptr=01127C box=name10
+JP: きのからだ
+EN: 
+
+#id 0018 ptr=01129C box=name10
+JP: じごくのけがわ
+EN: 
+
+#id 0019 ptr=0112BC box=name10
+JP: つめたいからだ
+EN: 
+
+#id 0020 ptr=0112DC box=name10
+JP: きたえたからだ
+EN: 
+
+#id 0021 ptr=0112FC box=name10
+JP: スカルアンカー
+EN: 
+
+#id 0022 ptr=01131C box=name10
+JP: ラージシールド
+EN: 
+
+#id 0023 ptr=01133C box=name10
+JP: マウスけがわ
+EN: 
+
+#id 0024 ptr=01135C box=name10
+JP: スワンウイング
+EN: 
+
+#id 0025 ptr=01137C box=name10
+JP: おばけシーツ
+EN: 
+
+#id 0026 ptr=01139C box=name10
+JP: ニンジャかたびら
+EN: 
+
+#id 0027 ptr=0113BC box=name10
+JP: しんかんのふく
+EN: 
+
+#id 0028 ptr=0113DC box=name10
+JP: ゴールドブレード
+EN: 
+
+#id 0029 ptr=0113FC box=name10
+JP: とうぞくのこて
+EN: 
+
+#id 0030 ptr=01141C box=name10
+JP: ガードメイル
+EN: 
+
+#id 0031 ptr=01143C box=name10
+JP: きたえたからだ
+EN: 
+
+#id 0032 ptr=01145C box=name10
+JP: そうりょのころも
+EN: 
+
+#id 0033 ptr=01147C box=name10
+JP: まどうのころも
+EN: 
+
+#id 0034 ptr=01149C box=name10
+JP: うしのヌイグルミ
+EN: 
+
+#id 0035 ptr=0114BC box=name10
+JP: まどうのころも
+EN: 
+
+#id 0036 ptr=0114DC box=name10
+JP: タンクトップ
+EN: 
+
+#id 0037 ptr=0114FC box=name10
+JP: スカルホイール
+EN: 
+
+#id 0038 ptr=01151C box=name10
+JP: フロントガーダー
+EN: 
+
+#id 0039 ptr=01153C box=name10
+JP: かたいふた
+EN: 
+
+#id 0040 ptr=01155C box=name10
+JP: じょうぶなくき
+EN: 
+
+#id 0041 ptr=01157C box=name10
+JP: ライトアーマー
+EN: 
+
+#id 0042 ptr=01159C box=name10
+JP: レッドアーマー
+EN: 
+
+#id 0043 ptr=0115BC box=name10
+JP: ネコのけがわ
+EN: 
+
+#id 0044 ptr=0115DC box=name10
+JP: あたたかなだいち
+EN: 
+
+#id 0045 ptr=0115FC box=name10
+JP: つめたいだいち
+EN: 
+
+#id 0046 ptr=01161C box=name10
+JP: かがやくだいち
+EN: 
+
+#id 0047 ptr=01163C box=name10
+JP: マウスけがわ
+EN: 
+
+#id 0048 ptr=01165C box=name10
+JP: コアラのけがわ
+EN: 
+
+#id 0049 ptr=01167C box=name10
+JP: ハートマーク
+EN: 
+
+#id 0050 ptr=01169C box=name10
+JP: タキシードけがわ
+EN: 
+
+#id 0051 ptr=0116BC box=name10
+JP: モコモコのけがわ
+EN: 
+
+#id 0052 ptr=0116DC box=name10
+JP: ブリキのからだ
+EN: 

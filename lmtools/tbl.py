@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 
 CTRL = re.compile(r"\{(\w+)(?::(\d+))?\}$")
+TERMINATORS = {"end", "goto"}  # decoding stops after these (goto = unconditional jump)
 TOKEN = re.compile(r"\{(\w+)(?::([0-9A-Fa-f]*))?\}|\[([0-9A-Fa-f]{2})\]")
 
 
@@ -33,7 +34,7 @@ class Table:
         return cls(Path(path).read_text(encoding="utf-8-sig").splitlines())
 
     def decode(self, data, pos=0, length=None, maxlen=4096):
-        """length=None: decode through {end}. Else decode exactly `length` bytes. Returns (text, consumed)."""
+        """length=None: decode through {end}/{goto}. Else decode exactly `length` bytes. Returns (text, consumed)."""
         start, out = pos, []
         stop = len(data) if length is None else pos + length
         while pos < stop:
@@ -46,7 +47,7 @@ class Table:
                     args = bytes(data[pos + k:pos + k + argc])
                     pos += k + argc
                     out.append(f"{{{name}:{args.hex().upper()}}}" if argc else f"{{{name}}}")
-                    if name == "end" and length is None:
+                    if name in TERMINATORS and length is None:
                         return "".join(out), pos - start
                     break
                 if self.enc.get(self.dec.get(code)) == code:

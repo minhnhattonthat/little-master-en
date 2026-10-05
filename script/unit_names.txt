@@ -1,0 +1,583 @@
+#id 0000 ptr=012050 box=name8
+JP: てきユニット
+EN: 
+
+#id 0001 ptr=012058 box=name8
+JP: ピストン
+EN: 
+
+#id 0002 ptr=012060 box=name8
+JP: サンシャイン
+EN: 
+
+#id 0003 ptr=012068 box=name8
+JP: スペース
+EN: 
+
+#id 0004 ptr=012070 box=name8
+JP: ラリー
+EN: 
+
+#id 0005 ptr=012078 box=name8
+JP: チャールズ
+EN: 
+
+#id 0006 ptr=012080 box=name8
+JP: キラー
+EN: 
+
+#id 0007 ptr=012088 box=name8
+JP: マジック
+EN: 
+
+#id 0008 ptr=012090 box=name8
+JP: クラッシュ
+EN: 
+
+#id 0009 ptr=012098 box=name8
+JP: ラッキー
+EN: 
+
+#id 0010 ptr=0120A0 box=name8
+JP: ギガトン
+EN: 
+
+#id 0011 ptr=0120A8 box=name8
+JP: スパーク
+EN: 
+
+#id 0012 ptr=0120B0 box=name8
+JP: ヒクソン
+EN: 
+
+#id 0013 ptr=0120B8 box=name8
+JP: アレクセイ
+EN: 
+
+#id 0014 ptr=0120C0 box=name8
+JP: シャボン
+EN: 
+
+#id 0015 ptr=0120C8 box=name8
+JP: モーリス
+EN: 
+
+#id 0016 ptr=0120D0 box=name8
+JP: マイク
+EN: 
+
+#id 0017 ptr=0120D8 box=name8
+JP: ミカエル
+EN: 
+
+#id 0018 ptr=0120E0 box=name8
+JP: フレッシュ
+EN: 
+
+#id 0019 ptr=0120E8 box=name8
+JP: ゴージャス
+EN: 
+
+#id 0020 ptr=0120F0 box=name8
+JP: フラッシュ
+EN: 
+
+#id 0021 ptr=0120F8 box=name8
+JP: アントニオ
+EN: 
+
+#id 0022 ptr=012100 box=name8
+JP: ボー
+EN: 
+
+#id 0023 ptr=012108 box=name8
+JP: ベルナール
+EN: 
+
+#id 0024 ptr=012110 box=name8
+JP: ローリング
+EN: 
+
+#id 0025 ptr=012118 box=name8
+JP: ハル
+EN: 
+
+#id 0026 ptr=012120 box=name8
+JP: ジェームズ
+EN: 
+
+#id 0027 ptr=012128 box=name8
+JP: サン
+EN: 
+
+#id 0028 ptr=012130 box=name8
+JP: ミカド
+EN: 
+
+#id 0029 ptr=012138 box=name8
+JP: シャーロック
+EN: 
+
+#id 0030 ptr=012140 box=name8
+JP: シュール
+EN: 
+
+#id 0031 ptr=012148 box=name8
+JP: フライング
+EN: 
+
+#id 0032 ptr=012150 box=name8
+JP: マッハ
+EN: 
+
+#id 0033 ptr=012158 box=name8
+JP: ベーコン
+EN: 
+
+#id 0034 ptr=012160 box=name8
+JP: フランク
+EN: 
+
+#id 0035 ptr=012168 box=name8
+JP: アイルトン
+EN: 
+
+#id 0036 ptr=012170 box=name8
+JP: ハングリー
+EN: 
+
+#id 0037 ptr=012178 box=name8
+JP: クール
+EN: 
+
+#id 0038 ptr=012180 box=name8
+JP: ホーリー
+EN: 
+
+#id 0039 ptr=012188 box=name8
+JP: ターボ
+EN: 
+
+#id 0040 ptr=012190 box=name8
+JP: ファンシー
+EN: 
+
+#id 0041 ptr=012198 box=name8
+JP: ローリー
+EN: 
+
+#id 0042 ptr=0121A0 box=name8
+JP: キース
+EN: 
+
+#id 0043 ptr=0121A8 box=name8
+JP: ダン
+EN: 
+
+#id 0044 ptr=0121B0 box=name8
+JP: グレート
+EN: 
+
+#id 0045 ptr=0121B8 box=name8
+JP: デモン
+EN: 
+
+#id 0046 ptr=0121C0 box=name8
+JP: ハッピー
+EN: 
+
+#id 0047 ptr=0121C8 box=name8
+JP: ジェット
+EN: 
+
+#id 0048 ptr=0121D0 box=name8
+JP: スーパー
+EN: 
+
+#id 0049 ptr=0121D8 box=name8
+JP: アングリー
+EN: 
+
+#id 0050 ptr=0121E0 box=name8
+JP: ロケット
+EN: 
+
+#id 0051 ptr=0121E8 box=name8
+JP: ファイヤー
+EN: 
+
+#id 0052 ptr=0121F0 box=name8
+JP: ラブリー
+EN: 
+
+#id 0053 ptr=0121F8 box=name8
+JP: ジャンボ
+EN: 
+
+#id 0054 ptr=012200 box=name8
+JP: クラッシュ
+EN: 
+
+#id 0055 ptr=012208 box=name8
+JP: キング
+EN: 
+
+#id 0056 ptr=012210 box=name8
+JP: コールド
+EN: 
+
+#id 0057 ptr=012218 box=name8
+JP: ワイルド
+EN: 
+
+#id 0058 ptr=012220 box=name8
+JP: ジーク
+EN: 
+
+#id 0059 ptr=012228 box=name8
+JP: アトミック
+EN: 
+
+#id 0060 ptr=012230 box=name8
+JP: ボンバー
+EN: 
+
+#id 0061 ptr=012238 box=name8
+JP: キラー
+EN: 
+
+#id 0062 ptr=012240 box=name8
+JP: サンダー
+EN: 
+
+#id 0063 ptr=012248 box=name8
+JP: ハリケーン
+EN: 
+
+#id 0064 ptr=012250 box=name8
+JP: リイム
+EN: 
+
+#id 0065 ptr=012258 box=name8
+JP: モーモー
+EN: 
+
+#id 0066 ptr=012260 box=name8
+JP: タムタム
+EN: 
+
+#id 0067 ptr=012268 box=name8
+JP: シャルル
+EN: 
+
+#id 0068 ptr=012270 box=name8
+JP: リルル
+EN: 
+
+#id 0069 ptr=012278 box=name8
+JP: ヴァイス
+EN: 
+
+#id 0070 ptr=012280 box=name8
+JP: ヤゴ
+EN: 
+
+#id 0071 ptr=012288 box=name8
+JP: ソウゲツ
+EN: 
+
+#id 0072 ptr=012290 box=name8
+JP: トランプ
+EN: 
+
+#id 0073 ptr=012298 box=name8
+JP: トムソン
+EN: 
+
+#id 0074 ptr=0122A0 box=name8
+JP: ポポレ
+EN: 
+
+#id 0075 ptr=0122A8 box=name8
+JP: オペラ
+EN: 
+
+#id 0076 ptr=0122B0 box=name8
+JP: バックス
+EN: 
+
+#id 0077 ptr=0122B8 box=name8
+JP: マクガイヤー
+EN: 
+
+#id 0078 ptr=0122C0 box=name8
+JP: タンホイザー
+EN: 
+
+#id 0079 ptr=0122C8 box=name8
+JP: ゲイルス
+EN: 
+
+#id 0080 ptr=0122D0 box=name8
+JP: マリオ
+EN: 
+
+#id 0081 ptr=0122D8 box=name8
+JP: マリア
+EN: 
+
+#id 0082 ptr=0122E0 box=name8
+JP: ロイド
+EN: 
+
+#id 0083 ptr=0122E8 box=name8
+JP: サンクス
+EN: 
+
+#id 0084 ptr=0122F0 box=name8
+JP: ガラット
+EN: 
+
+#id 0085 ptr=0122F8 box=name8
+JP: マクドナルド
+EN: 
+
+#id 0086 ptr=012300 box=name8
+JP: ビスマルク
+EN: 
+
+#id 0087 ptr=012308 box=name8
+JP: ボブ
+EN: 
+
+#id 0088 ptr=012310 box=name8
+JP: パンチ
+EN: 
+
+#id 0089 ptr=012318 box=name8
+JP: ポテト
+EN: 
+
+#id 0090 ptr=012320 box=name8
+JP: ラディッツ
+EN: 
+
+#id 0091 ptr=012328 box=name8
+JP: トマト
+EN: 
+
+#id 0092 ptr=012330 box=name8
+JP: パイン
+EN: 
+
+#id 0093 ptr=012338 box=name8
+JP: ジョージ
+EN: 
+
+#id 0094 ptr=012340 box=name8
+JP: ハレルヤ
+EN: 
+
+#id 0095 ptr=012348 box=name8
+JP: ボイジャー
+EN: 
+
+#id 0096 ptr=012350 box=name8
+JP: バッハ
+EN: 
+
+#id 0097 ptr=012358 box=name8
+JP: サンダース
+EN: 
+
+#id 0098 ptr=012360 box=name8
+JP: パトリシア
+EN: 
+
+#id 0099 ptr=012368 box=name8
+JP: ピーマン
+EN: 
+
+#id 0100 ptr=012370 box=name8
+JP: パパイヤ
+EN: 
+
+#id 0101 ptr=012378 box=name8
+JP: ザップス
+EN: 
+
+#id 0102 ptr=012380 box=name8
+JP: ガリクソン
+EN: 
+
+#id 0103 ptr=012388 box=name8
+JP: カメハメハ
+EN: 
+
+#id 0104 ptr=012390 box=name8
+JP: チャック
+EN: 
+
+#id 0105 ptr=012398 box=name8
+JP: バルタン
+EN: 
+
+#id 0106 ptr=0123A0 box=name8
+JP: オレンジ
+EN: 
+
+#id 0107 ptr=0123A8 box=name8
+JP: ワーズワース
+EN: 
+
+#id 0108 ptr=0123B0 box=name8
+JP: コロナ
+EN: 
+
+#id 0109 ptr=0123B8 box=name8
+JP: タイガー
+EN: 
+
+#id 0110 ptr=0123C0 box=name8
+JP: ドリップ
+EN: 
+
+#id 0111 ptr=0123C8 box=name8
+JP: バラカン
+EN: 
+
+#id 0112 ptr=0123D0 box=name8
+JP: パトリオット
+EN: 
+
+#id 0113 ptr=0123D8 box=name8
+JP: サムス
+EN: 
+
+#id 0114 ptr=0123E0 box=name8
+JP: ヒューム
+EN: 
+
+#id 0115 ptr=0123E8 box=name8
+JP: ベル
+EN: 
+
+#id 0116 ptr=0123F0 box=name8
+JP: ポックン
+EN: 
+
+#id 0117 ptr=0123F8 box=name8
+JP: モンキー
+EN: 
+
+#id 0118 ptr=012400 box=name8
+JP: ショパン
+EN: 
+
+#id 0119 ptr=012408 box=name8
+JP: キューカンバ
+EN: 
+
+#id 0120 ptr=012410 box=name8
+JP: ビートン
+EN: 
+
+#id 0121 ptr=012418 box=name8
+JP: シェリフ
+EN: 
+
+#id 0122 ptr=012420 box=name8
+JP: ブルクハルト
+EN: 
+
+#id 0123 ptr=012428 box=name8
+JP: グリム
+EN: 
+
+#id 0124 ptr=012430 box=name8
+JP: オーウェル
+EN: 
+
+#id 0125 ptr=012438 box=name8
+JP: アンデルセン
+EN: 
+
+#id 0126 ptr=012440 box=name8
+JP: ミン
+EN: 
+
+#id 0127 ptr=012448 box=name8
+JP: ドレイク
+EN: 
+
+#id 0128 ptr=012450 box=name8
+JP: ホーキンズ
+EN: 
+
+#id 0129 ptr=012458 box=name8
+JP: ハンゾウ
+EN: 
+
+#id 0130 ptr=012460 box=name8
+JP: ゴエモン
+EN: 
+
+#id 0131 ptr=012468 box=name8
+JP: ジンゴロウ
+EN: 
+
+#id 0132 ptr=012470 box=name8
+JP: クロスケ
+EN: 
+
+#id 0133 ptr=012478 box=name8
+JP: ゲンナイ
+EN: 
+
+#id 0134 ptr=012480 box=name8
+JP: ショウグン
+EN: 
+
+#id 0135 ptr=012488 box=name8
+JP: ウタマロ
+EN: 
+
+#id 0136 ptr=012490 box=name8
+JP: シャラク
+EN: 
+
+#id 0137 ptr=012498 box=name8
+JP: ライクバーン
+EN: 
+
+#id 0138 ptr=0124A0 box=name8
+JP: ダイナマイツ
+EN: 
+
+#id 0139 ptr=0124A8 box=name8
+JP: タンバリン
+EN: 
+
+#id 0140 ptr=0124B0 box=name8
+JP: ブレッド
+EN: 
+
+#id 0141 ptr=0124B8 box=name8
+JP: ブレッド
+EN: 
+
+#id 0142 ptr=0124C0 box=name8
+JP: キャンベル
+EN: 
+
+#id 0143 ptr=0124C8 box=name8
+JP: &&ヤゴ
+EN: 
+
+#id 0144 ptr=0124D0 box=name8
+JP: &&ソウゲツ
+EN: 
+
+#id 0145 ptr=0124D8 box=name8
+JP: &&トランプ
+EN: 

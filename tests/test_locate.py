@@ -24,3 +24,10 @@ def test_scan_strings():
     t = Table(["41=A", "42=B", "FF={end}"])
     rom = b"AAAAB\xff\x99\x99\xffAB\xffBBBB\xff"
     assert locate.scan_strings(rom, t, min_chars=4) == [(0, "AAAAB{end}"), (12, "BBBB{end}")]
+
+
+def test_scan_strings_excludes_overlapping_candidates():
+    t = Table(["41=A", "42=B", "FF={end}"])
+    rom = b"ABAB\xffAAAA\xff"
+    # candidate at 0 overlaps the known span (2, 5) even though it starts before it
+    assert locate.scan_strings(rom, t, min_chars=4, exclude=[(2, 5)]) == [(5, "AAAA{end}")]

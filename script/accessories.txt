@@ -1,0 +1,511 @@
+#id 0000 ptr=0124E0 box=name10
+JP: ちからのリング
+EN: 
+
+#id 0001 ptr=0124F8 box=name10
+JP: ちからのリング
+EN: 
+
+#id 0002 ptr=012510 box=name10
+JP: ちからのリング
+EN: 
+
+#id 0003 ptr=012528 box=name10
+JP: ちからのリング +3
+EN: 
+
+#id 0004 ptr=012540 box=name10
+JP: ちからのリング +3
+EN: 
+
+#id 0005 ptr=012558 box=name10
+JP: ちからのリング +3
+EN: 
+
+#id 0006 ptr=012570 box=name10
+JP: たたかいのゆびわ
+EN: 
+
+#id 0007 ptr=012588 box=name10
+JP: たたかいのゆびわ
+EN: 
+
+#id 0008 ptr=0125A0 box=name10
+JP: たたかいのゆびわ
+EN: 
+
+#id 0009 ptr=0125B8 box=name10
+JP: アークリング
+EN: 
+
+#id 0010 ptr=0125D0 box=name10
+JP: アークリング
+EN: 
+
+#id 0011 ptr=0125E8 box=name10
+JP: アークリング
+EN: 
+
+#id 0012 ptr=012600 box=name10
+JP: マルスのゆびわ
+EN: 
+
+#id 0013 ptr=012618 box=name10
+JP: マルスのゆびわ
+EN: 
+
+#id 0014 ptr=012630 box=name10
+JP: マルスのゆびわ
+EN: 
+
+#id 0015 ptr=012648 box=name10
+JP: げんこつリング
+EN: 
+
+#id 0016 ptr=012660 box=name10
+JP: げんこつリング
+EN: 
+
+#id 0017 ptr=012678 box=name10
+JP: げんこつリング
+EN: 
+
+#id 0018 ptr=012690 box=name10
+JP: プラチナリング
+EN: 
+
+#id 0019 ptr=0126A8 box=name10
+JP: プラチナリング
+EN: 
+
+#id 0020 ptr=0126C0 box=name10
+JP: プラチナリング
+EN: 
+
+#id 0021 ptr=0126D8 box=name10
+JP: おうじゃのゆびわ
+EN: 
+
+#id 0022 ptr=0126F0 box=name10
+JP: おうじゃのゆびわ
+EN: 
+
+#id 0023 ptr=012708 box=name10
+JP: おうじゃのゆびわ
+EN: 
+
+#id 0024 ptr=012720 box=name10
+JP: まもりのブレス
+EN: 
+
+#id 0025 ptr=012738 box=name10
+JP: まもりのブレス
+EN: 
+
+#id 0026 ptr=012750 box=name10
+JP: まもりのブレス
+EN: 
+
+#id 0027 ptr=012768 box=name10
+JP: まもりのブレス +3
+EN: 
+
+#id 0028 ptr=012780 box=name10
+JP: まもりのブレス +3
+EN: 
+
+#id 0029 ptr=012798 box=name10
+JP: まもりのブレス +3
+EN: 
+
+#id 0030 ptr=0127B0 box=name10
+JP: せんしのうでわ
+EN: 
+
+#id 0031 ptr=0127C8 box=name10
+JP: せんしのうでわ
+EN: 
+
+#id 0032 ptr=0127E0 box=name10
+JP: せんしのうでわ
+EN: 
+
+#id 0033 ptr=0127F8 box=name10
+JP: ガードブレス
+EN: 
+
+#id 0034 ptr=012810 box=name10
+JP: ガードブレス
+EN: 
+
+#id 0035 ptr=012828 box=name10
+JP: ガードブレス
+EN: 
+
+#id 0036 ptr=012840 box=name10
+JP: きみょうなうでわ
+EN: 
+
+#id 0037 ptr=012858 box=name10
+JP: きみょうなうでわ
+EN: 
+
+#id 0038 ptr=012870 box=name10
+JP: きみょうなうでわ
+EN: 
+
+#id 0039 ptr=012888 box=name10
+JP: ゴールドブレス
+EN: 
+
+#id 0040 ptr=0128A0 box=name10
+JP: ゴールドブレス
+EN: 
+
+#id 0041 ptr=0128B8 box=name10
+JP: ゴールドブレス
+EN: 
+
+#id 0042 ptr=0128D0 box=name10
+JP: はおうのうでわ
+EN: 
+
+#id 0043 ptr=0128E8 box=name10
+JP: はおうのうでわ
+EN: 
+
+#id 0044 ptr=012900 box=name10
+JP: はおうのうでわ
+EN: 
+
+#id 0045 ptr=012918 box=name10
+JP: ガイア-ブレス
+EN: 
+
+#id 0046 ptr=012930 box=name10
+JP: ガイア-ブレス
+EN: 
+
+#id 0047 ptr=012948 box=name10
+JP: ガイア-ブレス
+EN: 
+
+#id 0048 ptr=012960 box=name10
+JP: かんせつペンダント
+EN: 
+
+#id 0049 ptr=012978 box=name10
+JP: かんせつペンダント
+EN: 
+
+#id 0050 ptr=012990 box=name10
+JP: かんせつペンダントZ
+EN: 
+
+#id 0051 ptr=0129A8 box=name10
+JP: かんせつペンダントZ
+EN: 
+
+#id 0052 ptr=0129C0 box=name10
+JP: パワーペンダント
+EN: 
+
+#id 0053 ptr=0129D8 box=name10
+JP: パワーペンダント
+EN: 
+
+#id 0054 ptr=0129F0 box=name10
+JP: ホークアイ
+EN: 
+
+#id 0055 ptr=012A08 box=name10
+JP: ホークアイ
+EN: 
+
+#id 0056 ptr=012A20 box=name10
+JP: スーパーペンダント
+EN: 
+
+#id 0057 ptr=012A38 box=name10
+JP: スーパーペンダント
+EN: 
+
+#id 0058 ptr=012A50 box=name10
+JP: スナイパーズアイ
+EN: 
+
+#id 0059 ptr=012A68 box=name10
+JP: スナイパーズアイ
+EN: 
+
+#id 0060 ptr=012A80 box=name10
+JP: ミラクルペンダント
+EN: 
+
+#id 0061 ptr=012A98 box=name10
+JP: ミラクルペンダント
+EN: 
+
+#id 0062 ptr=012AB0 box=name10
+JP: ロビンのペンダント
+EN: 
+
+#id 0063 ptr=012AC8 box=name10
+JP: ロビンのペンダント
+EN: 
+
+#id 0064 ptr=012AE0 box=name10
+JP: がったいのおまもり
+EN: 
+
+#id 0065 ptr=012AF8 box=name10
+JP: がったいのおまもり
+EN: 
+
+#id 0066 ptr=012B10 box=name10
+JP: しあわせのクツ
+EN: 
+
+#id 0067 ptr=012B28 box=name10
+JP: しあわせのクツ
+EN: 
+
+#id 0068 ptr=012B40 box=name10
+JP: ドラゴンのキバ
+EN: 
+
+#id 0069 ptr=012B58 box=name10
+JP: ドラゴンのキバ
+EN: 
+
+#id 0070 ptr=012B70 box=name10
+JP: マモノのおまもり
+EN: 
+
+#id 0071 ptr=012B88 box=name10
+JP: マモノのおまもり
+EN: 
+
+#id 0072 ptr=012BA0 box=name10
+JP: ドラゴンのすごいキバ
+EN: 
+
+#id 0073 ptr=012BB8 box=name10
+JP: マモノのおふだ
+EN: 
+
+#id 0074 ptr=012BD0 box=name10
+JP: ピースバッジ
+EN: 
+
+#id 0075 ptr=012BE8 box=name10
+JP: ピースバッジ
+EN: 
+
+#id 0076 ptr=012C00 box=name10
+JP: ジョーカーキャップ
+EN: 
+
+#id 0077 ptr=012C18 box=name10
+JP: ジョーカーキャップ
+EN: 
+
+#id 0078 ptr=012C30 box=name10
+JP: ゆうしゃのあかし
+EN: 
+
+#id 0079 ptr=012C48 box=name10
+JP: うしのてっけん
+EN: 
+
+#id 0080 ptr=012C60 box=name10
+JP: ちからのリンゴ
+EN: 
+
+#id 0081 ptr=012C78 box=name10
+JP: かんせつのリンゴ
+EN: 
+
+#id 0082 ptr=012C90 box=name10
+JP: まもりのリンゴ
+EN: 
+
+#id 0083 ptr=012CA8 box=name10
+JP: すばやさのリンゴ
+EN: 
+
+#id 0084 ptr=012CC0 box=name10
+JP: ラッキーアップル
+EN: 
+
+#id 0085 ptr=012CD8 box=name10
+JP: ちからのあおリンゴ
+EN: 
+
+#id 0086 ptr=012CF0 box=name10
+JP: かんせつのあおリンゴ
+EN: 
+
+#id 0087 ptr=012D08 box=name10
+JP: まもりのあおリンゴ
+EN: 
+
+#id 0088 ptr=012D20 box=name10
+JP: すばやさのあおリンゴ
+EN: 
+
+#id 0089 ptr=012D38 box=name10
+JP: ちからのメロン
+EN: 
+
+#id 0090 ptr=012D50 box=name10
+JP: かんせつのメロン
+EN: 
+
+#id 0091 ptr=012D68 box=name10
+JP: まもりのメロン
+EN: 
+
+#id 0092 ptr=012D80 box=name10
+JP: すばやさのメロン
+EN: 
+
+#id 0093 ptr=012D98 box=name10
+JP: マスクメロン
+EN: 
+
+#id 0094 ptr=012DB0 box=name10
+JP: すごいもの
+EN: 
+
+#id 0095 ptr=012DC8 box=name10
+JP: すごすぎるもの
+EN: 
+
+#id 0096 ptr=012DE0 box=name10
+JP: やくそう
+EN: 
+
+#id 0097 ptr=012DF8 box=name10
+JP: おくすり
+EN: 
+
+#id 0098 ptr=012E10 box=name10
+JP: ばんのうやく
+EN: 
+
+#id 0099 ptr=012E28 box=name10
+JP: てんしのおまもり
+EN: 
+
+#id 0100 ptr=012E40 box=name10
+JP: けいけんのタネ
+EN: 
+
+#id 0101 ptr=012E58 box=name10
+JP: グーのおまもり
+EN: 
+
+#id 0102 ptr=012E70 box=name10
+JP: チョキのおまもり
+EN: 
+
+#id 0103 ptr=012E88 box=name10
+JP: パーのおまもり
+EN: 
+
+#id 0104 ptr=012EA0 box=name10
+JP: ちからのドロップ
+EN: 
+
+#id 0105 ptr=012EB8 box=name10
+JP: かんせつのドロップ
+EN: 
+
+#id 0106 ptr=012ED0 box=name10
+JP: まもりのドロップ
+EN: 
+
+#id 0107 ptr=012EE8 box=name10
+JP: すばやさのドロップ
+EN: 
+
+#id 0108 ptr=012F00 box=name10
+JP: フルーツキャンディ
+EN: 
+
+#id 0109 ptr=012F18 box=name10
+JP: あさひのランプ
+EN: 
+
+#id 0110 ptr=012F30 box=name10
+JP: よるのロウソク
+EN: 
+
+#id 0111 ptr=012F48 box=name10
+JP: げんきのもと
+EN: 
+
+#id 0112 ptr=012F60 box=name10
+JP: ゆうじょうのあかし
+EN: 
+
+#id 0113 ptr=012F78 box=name10
+JP: マキモノ02
+EN: 
+
+#id 0114 ptr=012F90 box=name10
+JP: マキモノ03
+EN: 
+
+#id 0115 ptr=012FA8 box=name10
+JP: マキモノ04
+EN: 
+
+#id 0116 ptr=012FC0 box=name10
+JP: マキモノ05
+EN: 
+
+#id 0117 ptr=012FD8 box=name10
+JP: マキモノ06
+EN: 
+
+#id 0118 ptr=012FF0 box=name10
+JP: マキモノ07
+EN: 
+
+#id 0119 ptr=013008 box=name10
+JP: マキモノ08
+EN: 
+
+#id 0120 ptr=013020 box=name10
+JP: クリスタル01
+EN: 
+
+#id 0121 ptr=013038 box=name10
+JP: クリスタル02
+EN: 
+
+#id 0122 ptr=013050 box=name10
+JP: クリスタル03
+EN: 
+
+#id 0123 ptr=013068 box=name10
+JP: クリスタル04
+EN: 
+
+#id 0124 ptr=013080 box=name10
+JP: クリスタル05
+EN: 
+
+#id 0125 ptr=013098 box=name10
+JP: クリスタル06
+EN: 
+
+#id 0126 ptr=0130B0 box=name10
+JP: クリスタル07
+EN: 
+
+#id 0127 ptr=0130C8 box=name10
+JP: クリスタル08
+EN: 
