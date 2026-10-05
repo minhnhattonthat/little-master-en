@@ -5,6 +5,7 @@ from lmtools.tbl import Table
 
 T = Table.load("tbl/jp.tbl")
 FONT = slice(0x170200, 0x1707F0)                            # fixed tiles $20-$7E (written from Task 3 on)
+HOOKS = [(0x00BE43, 6), (0x00BE70, 5), (0x00BF01, 4), (0x00BF91, 5), (0x01ECE5, 5)]  # src/asm/vwf.asm org sites
 
 
 def test_empty_en_falls_back_to_jp(base):
@@ -33,6 +34,9 @@ def test_build_without_translation_is_expanded_base(tmp_path):
     exp = rom.expand(rom.load_base())
     data[FONT] = exp[FONT]
     data[0x7FDC:0x7FE0] = exp[0x7FDC:0x7FE0]
+    for snes, n in HOOKS:
+        pc = rom.lorom_to_pc(snes)
+        data[pc:pc + n] = exp[pc:pc + n]
     assert len(data) == 0x400000 and data[:0x200000] == exp[:0x200000]   # no EN yet
     patch = (tmp_path / "lm_en.bps").read_bytes()
     assert bps.apply(bytes(rom.load_base()), patch) == (tmp_path / "lm_en.sfc").read_bytes()
