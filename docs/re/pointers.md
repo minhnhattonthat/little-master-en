@@ -77,3 +77,18 @@ The four unit tables (weapon/armor names, per scenario?) are identical except re
 
 - Menu/battle drawing code (see `text-engine.md`).
 - Graphic text: English UI label glyphs `7B2-7FF` already exist. The title screen etc. belong to M5.
+
+## Relocation constraints (M3 spike, 2026-10-06)
+
+- **Control args with ROM addresses:**
+  - No `c8x`/`c9x` arg points into a pool's string spans.
+  - ROM pointers go to fixed name records (`c87:05BF64` monsters; `c88` copies from `010052`/`01005C`/`0124C8`/`0124E0`).
+  - Some point to data sitting in the **gaps** of msg02 (`0151DE`, `0151E9`, `015221`, `01524B`) and of msg22 (`113566`, `113570`).
+  - Relocation leaves original bytes in place, and in-place packing only reuses string spans, so these stay valid. Never widen a pool's free space beyond its string spans.
+- **Inline event text** (opcode `10`, handler `$01:FA4E`):
+  - The text engine returns A = the 16-bit address right after the text's `00`.
+  - `$01:FA5C STA $85` resumes the event there, in the same bank. Verified on 4 consecutive texts in bank `$0A` (e.g. `$0A:895B` → returned `$898F` = start + 52).
+  - So a relocated inline text must finish on its original `00`: old slot `FF 7F xx` (if any) + `{goto:new}` + `{nop}`… + original `00`; new copy = body + `{goto:<old 00>}`.
+- **Message table list `010000`** is read only by `$01:EE57`/`$01:EE5D` (`LDA $028000,x` / `$028002,x`). The other byte match (`$1A:E691`) is data.
+  - At runtime (7200 frames of Start/A), tables 0 and 11 were looked up through it.
+  - Patching a list entry (24-bit) moves a table; its strings must share the table's bank (16-bit pointers).
