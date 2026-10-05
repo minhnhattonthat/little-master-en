@@ -102,11 +102,18 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
                 allowed = max(win["lines"], _shown_lines(jp_pages[i], cap) if i < len(jp_pages) else 0)
                 if len(page) > allowed:
                     out.append(f"#{e.id}: page {i + 1} has {len(page)} lines > {allowed}")
+    if enc is not None:
+        try:
+            enc.encode(e.en)
+        except ValueError as err:
+            out.append(f"#{e.id}: {err}")
     jc, ec = _controls(e.jp), _controls(e.en)
     if jc != ec:
         out.append(f"#{e.id}: control codes differ: missing {sorted((jc - ec).elements())} extra {sorted((ec - jc).elements())}")
+    flat = re.sub(r"\{(n|delay:[0-9A-Fa-f]{2})\}", " ", e.en).replace("_", " ")
+    flat = re.sub(r" +", " ", flat)
     for term, en_term in glossary.items():
-        if term in e.jp and en_term not in e.en:
+        if term in e.jp and en_term.lower() not in flat.lower():
             out.append(f"#{e.id}: glossary: {term} should be '{en_term}'")
     return out
 

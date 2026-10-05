@@ -24,3 +24,7 @@ def test_ui_symbols_use_the_game_glyph_codes():
     for ch in "*;<>@":
         with pytest.raises(ValueError):
             EN.encode(ch)
+
+
+def test_extra_game_symbols():
+    assert EN.encode("♡‥～‼▲▼") == bytes.fromhex("1F1C1D1B090A")

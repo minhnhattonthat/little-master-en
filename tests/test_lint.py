@@ -71,3 +71,18 @@ def test_jp_lines_counted_after_wrapping():
     # JP line of 30 cells wraps to 3 window lines (10 cells); EN may use 3 explicit lines
     e = Entry(12, 0, {}, "あ" * 30 + "{end}", "ABC{n}DEF{n}GHI{end}")
     assert lint_entry(e, "desc", WID, WC, {}) == []
+
+
+def test_glossary_term_split_by_a_line_break_still_counts():
+    e = Entry(13, 0, {}, "魔方陣を{end}", "the magic{n}circle{end}")
+    assert lint_entry(e, "wide", WID, W, {"魔方陣": "magic circle"}) == []
+
+
+def test_unencodable_text_is_reported():
+    e = Entry(14, 0, {}, "あ{end}", "Hi; there{end}")
+    assert lint_entry(e, "wide", WID, W, {}, EN) == ["#14: unencodable ';' at 2 in 'Hi; there{end}'"]
+
+
+def test_glossary_ignores_case():
+    e = Entry(15, 0, {}, "ポイズン攻撃{end}", "X is poisoned!{end}")
+    assert lint_entry(e, "wide", WID, W, {"ポイズン": "Poison"}) == []
