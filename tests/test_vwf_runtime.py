@@ -72,3 +72,35 @@ emu.addEventCallback(function()
 end, emu.eventType.endFrame)
 ''', tmp_path / "o2")
     assert int(res) == 0, f"{res} writes to $7F:B000 from VWF code during a kanji message"
+
+
+def test_overlong_inline_text_renders_and_event_continues(tmp_path, monkeypatch):
+    real = build.parse
+    long_line = '{p7F:02}{speed:02}"Peacock, hurry back home now!{n}{delay:30} We will hold those thugs off."{end}'
+
+    def inject(text):
+        es = real(text)
+        for e in es:
+            if "Peacock, run home!" in e.en:
+                e.en = long_line if "{speed:02}" in e.jp else e.en
+        return es
+
+    monkeypatch.setattr(build, "parse", inject)
+    sfc = build.build(tmp_path / "b", "en")
+    res = run(sfc, "ordinary_field_message", '''
+local inline = 0
+emu.addMemoryCallback(function() if loaded then inline = inline + 1 end end,
+  emu.callbackType.exec, 0x01FA4E, 0x01FA4E, emu.cpuType.snes, emu.memType.snesMemory)
+emu.addEventCallback(function()
+  if loaded and frame > 300 and frame % 60 < 4 then emu.setInput({a = true}, 0) end
+end, emu.eventType.inputPolled)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 250 then local s = io.open(OUT_DIR .. "/long.png", "wb"); s:write(emu.takeScreenshot()); s:close() end
+  if frame == 900 then
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(tostring(inline)); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''', tmp_path / "o3")
+    assert int(res) >= 2, "event did not continue to the next inline text"

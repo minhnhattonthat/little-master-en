@@ -182,7 +182,7 @@ def _check_entries(b, entries, expected):
 TERMINATED = re.compile(r"(\{end\}|\{goto:[0-9A-Fa-f]{6}\})$")
 
 
-def insert_block(rom, b, entries, tbl, source="en", en_tbl=None, base=None) -> None:
+def insert_block(rom, b, entries, tbl, source="en", en_tbl=None, base=None, alloc=None) -> None:
     """Write entries' `source` text in place of the block's original strings.
     tbl decodes the original layout (read from `base`, default `rom`) and encodes JP; en_tbl encodes EN.
     Entries with empty EN fall back to their JP text."""
@@ -207,11 +207,36 @@ def insert_block(rom, b, entries, tbl, source="en", en_tbl=None, base=None) -> N
             if not data.endswith(endcode):
                 raise ValueError(f"{b.name} #{e.id}: inline text must end with {{end}}")
             if len(data) > old[e.ptr]:
-                raise ValueError(f"{b.name} #{e.id}: too long ({len(data)} > {old[e.ptr]} bytes); needs relocation")
+                if alloc is None:
+                    raise ValueError(f"{b.name} #{e.id}: too long ({len(data)} > {old[e.ptr]} bytes); needs relocation")
+                _inline_stub(rom, b, e, text, t, tbl, e.ptr, old[e.ptr], alloc)
+                continue
             pad = (old[e.ptr] - len(data)) // len(nop)
             rom[e.ptr:e.ptr + old[e.ptr]] = data[:-len(endcode)] + nop * pad + endcode
         return
     _insert_pool(rom, layout, b, entries, tbl, source, en_tbl)
+
+
+HEADER = re.compile(r"^\{p7F:[0-9A-Fa-f]{2}\}")
+
+
+def _inline_stub(rom, b, e, text, t, tbl, pc, slot, alloc):
+    """Overlong inline text: slot = [speaker header] + goto(new) + {nop}... + original 00 (same PC, so the event
+    interpreter resumes as before); new copy = body + goto(original 00)."""
+    m = HEADER.match(text)
+    header = _enc(b, e, t, m[0]) if m else b""
+    body = text[m.end() if m else 0:]
+    if body.endswith("{end}"):
+        body = body[:-5]
+    goto, endcode, nop = tbl.ctrl_enc["goto"][0], tbl.ctrl_enc["end"][0], tbl.ctrl_enc["nop"][0]
+    if slot < len(header) + len(goto) + 3 + len(endcode):
+        raise ValueError(f"{b.name} #{e.id}: slot too small ({slot} bytes) for a relocation stub")
+    end_pc = pc + slot - len(endcode)
+    blob = _enc(b, e, t, body) + goto + pc_to_lorom(end_pc).to_bytes(3, "little")
+    new = alloc.take(len(blob))
+    rom[new:new + len(blob)] = blob
+    stub = header + goto + pc_to_lorom(new).to_bytes(3, "little")
+    rom[pc:pc + slot] = stub + nop * ((slot - len(stub) - len(endcode)) // len(nop)) + endcode
 
 
 def _insert_pool(rom, layout, b, entries, tbl, source, en_tbl):

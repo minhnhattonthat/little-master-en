@@ -58,7 +58,7 @@ def build(out_dir="build", source="en") -> Path:
         if b.type == "ptr16":
             relocate_block(work, padded_base, b, entries, jp, source, en, alloc)
         else:
-            insert_block(work, b, entries, jp, source, en_tbl=en, base=padded_base)
+            insert_block(work, b, entries, jp, source, en_tbl=en, base=padded_base, alloc=alloc)
     rom.fix_checksum(work)
     sfc = out_dir / "lm_en.sfc"
     sfc.write_bytes(work)

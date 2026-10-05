@@ -76,3 +76,31 @@ def test_jump_out_of_group_is_an_error(small_list):
 
 def test_lowercase_jump_args_are_recognised():
     assert jump_targets("{goto:00b222}") == [0x113200]
+
+
+from lmtools.blocks import insert_block
+
+TI = Table(["41=A", "FF7F={p7F:1}", "FFC0={goto:3}", "CE={nop}", "00={end}"])
+
+
+def test_inline_overflow_goes_out_and_back():
+    rom = bytearray(0x10000)
+    rom[0x10:0x1B] = b"\x10\xff\x7f\x02AAAAAA\x00"         # slot 0x11-0x1A: header + 6 chars + end
+    blk = Block(name="ev", type="inline", ranges=[[0, 0x100]])
+    es = dump_block(rom, blk, TI)
+    es[0].en = "{p7F:02}" + "A" * 20 + "{end}"
+    insert_block(rom, blk, es, TI, "en", alloc=Alloc(0x8000, 0x10000))
+    assert rom[0x11:0x14] == b"\xff\x7f\x02" and rom[0x14:0x16] == b"\xff\xc0" and rom[0x1A] == 0x00
+    assert rom[0x19] == 0xCE                                   # padding
+    new = lorom_to_pc(int.from_bytes(rom[0x16:0x19], "little"))
+    assert rom[new:new + 20] == b"A" * 20 and rom[new + 20:new + 22] == b"\xff\xc0"
+    assert lorom_to_pc(int.from_bytes(rom[new + 22:new + 25], "little")) == 0x1A
+
+
+def test_inline_slot_too_small_for_stub():
+    rom = bytearray(b"\x10\xff\x7f\x02A\x00" + bytes(0x100))
+    blk = Block(name="ev", type="inline", ranges=[[0, 6]])
+    es = dump_block(rom, blk, TI)
+    es[0].en = "{p7F:02}AAAAAAA{end}"
+    with pytest.raises(ValueError, match="ev #0: slot too small"):
+        insert_block(rom, blk, es, TI, "en", alloc=Alloc(0x8000, 0x10000))
