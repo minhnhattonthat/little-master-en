@@ -164,6 +164,13 @@ def _pick(e, source, tbl, en_tbl):
     return e.jp, tbl
 
 
+def _enc(b, e, t, text):
+    try:
+        return t.encode(text)
+    except ValueError as err:
+        raise ValueError(f"{b.name} #{e.id}: {err}") from None
+
+
 def _check_entries(b, entries, expected):
     got = {e.ptr for e in entries}
     if got != set(expected):
@@ -183,7 +190,7 @@ def insert_block(rom, b, entries, tbl, source="en", en_tbl=None, base=None) -> N
     if b.type == "fixed":
         for e in entries:
             text, t = _pick(e, source, tbl, en_tbl)
-            data = t.encode(text)
+            data = _enc(b, e, t, text)
             if len(data) > b.length:
                 raise ValueError(f"{b.name} #{e.id}: {len(data)} bytes > {b.length}")
             rom[e.ptr:e.ptr + b.length] = data + bytes([b.pad]) * (b.length - len(data))
@@ -196,7 +203,7 @@ def insert_block(rom, b, entries, tbl, source="en", en_tbl=None, base=None) -> N
             text, t = _pick(e, source, tbl, en_tbl)
             if not text:
                 raise ValueError(f"#{e.id}: empty {source.upper()} text")
-            data = t.encode(text)
+            data = _enc(b, e, t, text)
             if not data.endswith(endcode):
                 raise ValueError(f"{b.name} #{e.id}: inline text must end with {{end}}")
             if len(data) > old[e.ptr]:
@@ -227,7 +234,7 @@ def _insert_pool(rom, layout, b, entries, tbl, source, en_tbl):
         if "cont" not in e.meta and not ends:
             raise ValueError(f"{b.name} #{e.id}: must end with {{end}} or {{goto}}")
         chosen[e.ptr] = (text, t)
-    data = {p: t.encode(text) for p, (text, t) in chosen.items()}
+    data = {e.ptr: _enc(b, e, *chosen[e.ptr][::-1]) for e in entries}
     units, cur = [], []
     for e in sorted(entries, key=lambda e: e.ptr):  # cont chains are allocated as one unit
         cur.append(e)

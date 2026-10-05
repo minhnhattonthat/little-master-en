@@ -36,3 +36,18 @@ def test_build_without_translation_is_expanded_base(tmp_path):
     assert len(data) == 0x400000 and data[:0x200000] == exp[:0x200000]   # no EN yet
     patch = (tmp_path / "lm_en.bps").read_bytes()
     assert bps.apply(bytes(rom.load_base()), patch) == (tmp_path / "lm_en.sfc").read_bytes()
+
+
+def test_bad_en_char_names_block_and_entry(tmp_path, monkeypatch):
+    real_parse = build.parse
+
+    def fake_parse(text):
+        es = real_parse(text)
+        if es and es[0].meta.get("box") == "dialog" and not es[0].en:
+            es[0].en = "Hi あ{end}"
+        return es
+
+    monkeypatch.setattr(build, "parse", fake_parse)
+    with pytest.raises(ValueError, match=r"msg36 #0.*unencodable 'あ'"):
+        build.build(tmp_path)
+    assert not (tmp_path / "lm_en.sfc").exists()
