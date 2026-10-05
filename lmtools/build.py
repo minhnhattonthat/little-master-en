@@ -4,6 +4,7 @@ from pathlib import Path
 
 from . import bps, rom
 from .blocks import insert_block, load_blocks
+from .font import fixed_tiles, parse_font, vwf_blobs
 from .script import parse
 from .tbl import Table
 
@@ -16,6 +17,22 @@ def _tool(path, name):
     if not path.exists():
         raise FileNotFoundError(f"{name} not found at {path} (download it into tools/{name}/)")
     return str(path)
+
+
+FIXED_FONT = 0x170000     # single-byte 8x16 font: tile = char code, 16 bytes per tile
+VWF_GLYPHS = 0x200000     # $C0:8000 (vwf.asm vwf_glyphs)
+VWF_WIDTHS = 0x200600     # $C0:8600 (vwf.asm vwf_widths)
+
+
+def write_fonts(work):
+    """Fixed English glyphs over tiles $20-$7E (except []{}), VWF glyphs + widths into bank $C0."""
+    fixed = fixed_tiles(parse_font((ROOT / "src/font/fixed.txt").read_text(encoding="utf-8")))
+    for i in range(95):
+        if chr(0x20 + i) not in "[]{}":
+            work[FIXED_FONT + (0x20 + i) * 16:FIXED_FONT + (0x21 + i) * 16] = fixed[i * 16:i * 16 + 16]
+    glyphs, widths = vwf_blobs(parse_font((ROOT / "src/font/vwf.txt").read_text(encoding="utf-8")))
+    work[VWF_GLYPHS:VWF_GLYPHS + len(glyphs)] = glyphs
+    work[VWF_WIDTHS:VWF_WIDTHS + len(widths)] = widths
 
 
 def build(out_dir="build", source="en") -> Path:
@@ -32,6 +49,7 @@ def build(out_dir="build", source="en") -> Path:
         raise RuntimeError(f"asar failed:\n{r.stdout}{r.stderr}")
     work = bytearray(work_file.read_bytes())
     work_file.unlink()
+    write_fonts(work)
     jp, en = Table.load(ROOT / "tbl/jp.tbl"), Table.load(ROOT / "tbl/en.tbl")
     for b in load_blocks(ROOT / "data/blocks.json"):
         entries = parse((ROOT / f"script/{b.name}.txt").read_text(encoding="utf-8"))

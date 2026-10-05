@@ -51,3 +51,9 @@ def test_bad_en_char_names_block_and_entry(tmp_path, monkeypatch):
     with pytest.raises(ValueError, match=r"msg36 #0.*unencodable 'あ'"):
         build.build(tmp_path)
     assert not (tmp_path / "lm_en.sfc").exists()
+
+
+def test_fonts_written(tmp_path):
+    data = build.build(tmp_path).read_bytes()
+    assert data[build.VWF_WIDTHS + ord("A") - 0x20] == 6 and data[build.VWF_WIDTHS + ord("i") - 0x20] == 2
+    assert data[build.FIXED_FONT + 0x41 * 16:build.FIXED_FONT + 0x42 * 16] != rom.load_base()[0x170410:0x170420]
