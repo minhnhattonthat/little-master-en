@@ -213,3 +213,55 @@ end, emu.eventType.endFrame)
 ''', tmp_path / "o1")
     up, low, under = map(int, res.split())
     assert (up >= 3, low, under) == (True, 0, 0)
+
+
+def test_personal_info_description_uses_vwf(tmp_path, monkeypatch):
+    """$0A1A = 23 leaves 82 slot tiles: 3 lines need slots narrower than 32 cells (27 = 216 px)."""
+    real = build.parse
+
+    def inject(text):
+        es = real(text)
+        for e in es:
+            if e.jp.startswith("怪力無双のミノタウロス"):
+                e.en = "Moomoo is a mighty minotaur.{n}Second line of text here.{n}Third line, the last one.{end}"
+        return es
+
+    monkeypatch.setattr(build, "parse", inject)
+    sfc = build.build(tmp_path / "b", "en")
+    Path("test/lua/_rt.lua").write_text(f'STATE=[[{Path("test/states/personal_infomation.mss").resolve()}]]\n' + '''
+local frame, loaded, ref = 0, false, nil
+ref = emu.addMemoryCallback(function()
+  if loaded then return end
+  local f = io.open(STATE, "rb"); local d = f:read("a"); f:close()
+  emu.loadSavestate(d); loaded = true
+  emu.removeMemoryCallback(ref, emu.callbackType.exec, 0, 0xFFFFFF)
+end, emu.callbackType.exec, 0, 0xFFFFFF)
+emu.addEventCallback(function()
+  if not loaded then return end
+  if frame >= 10 and frame < 14 then emu.setInput({right = true}, 0) end
+  if frame >= 30 and frame < 34 then emu.setInput({a = true}, 0) end
+end, emu.eventType.inputPolled)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 200 then
+    local rows, fixed, inside, outside, shared = {}, 0, {}, {}, 0
+    for r = 22, 27 do rows[r] = 0 end
+    for a = 0x9000, 0x97FE, 2 do
+      local t, r = emu.read16(a, emu.memType.snesWorkRam) & 0x3FF, (a - 0x9000) // 64
+      if r >= 22 and r <= 27 and t >= 0x180 then rows[r] = rows[r] + 1; inside[t] = true end
+      if (r < 22 or r > 27) and t >= 0x180 then outside[t] = true end
+      if r >= 22 and r <= 27 and t >= 0x141 and t <= 0x15A then fixed = fixed + 1 end
+    end
+    local vwf, n = 999, 0
+    for r = 22, 27 do vwf = math.min(vwf, rows[r]) end
+    for t in pairs(inside) do if outside[t] then shared = shared + 1 end end
+    fixed = fixed + 1000 * shared
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(vwf .. " " .. n .. " " .. fixed); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''')
+    assert mesen.run(sfc, "_rt.lua", tmp_path / "o") == 0
+    vwf, rows, fixed = map(int, (tmp_path / "o" / "rt.txt").read_text().split())
+    assert vwf >= 15 and fixed == 0, (vwf, fixed)    # every row of the 3 lines has >= 15 VWF cells; no fixed letters
+                                                     # (units) and no slot tile shared with labels outside (1000s)

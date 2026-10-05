@@ -125,7 +125,7 @@ Not traced yet: it needs in-game save states on the item menu and in battle, whi
   - `$00:BF01` newline: 1-3.
   - `$00:BF91` cursor set: 8-385 (VWF hooks `$BF94` instead: `$BF8C BEQ $BF94` targets it). These are heavy in menus and status screens.
   - `$01:ECE5` window clear: 2-17.
-- **Free RAM:** `$7F:FF00-FF1F` saw no reads or writes in any state (600 frames each with A presses) or in a 3600-frame boot run.
+- **Free RAM:** `$7F:FF00-FFFF` saw no reads or writes in any state (600 frames each with A presses) or in a 3600-frame boot run.
 - **Consequences for the VWF design:**
   - (1) Line slots of 32 cells start at tile `$180 + 2*$0A1A`, and there are `(128 - 2*$0A1A) / 32` of them. If that is fewer than the window's visible lines (`$09F6/2`), the window uses the fixed font. This is why personal info uses the fixed font for now.
   - (2) A cursor-set code inside a message switches the rest of that message to the fixed font. Positioned layouts are menus and captions.
@@ -140,4 +140,11 @@ are used the same way, so there are no free tiles for a separate lowercase set. 
 shipped; the fixed-font char path (`vwf_dispatch` `.fixed`) draws `a-z` with the `A-Z` tiles and `_` as a space, but only
 while `$0A1E` is 0 (default palette). In EN text, graphic kana are written as raw bytes (`[69]`); lint rejects lowercase
 under a `{cF1}` palette.
+
+### VWF slots after the M3 personal-info fix
+
+On personal info, `$0A1A` is 0 when the description starts, and the "Exit/Next" labels (UI glyphs) are copied into the
+low slot tiles afterwards; the panel values ("?" element) are separate messages drawn above the window. So the VWF now
+takes line slots from the top of the tile buffer down (one per visible line, 27 cells = 216 px when the window has 3+
+lines, else 32), and glyphs whose cursor row is outside the window (`$09F2`..`$09F2+$09F6`) use the fixed font.
 

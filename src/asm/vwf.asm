@@ -1,13 +1,16 @@
 ; VWF for the message renderer. Design + RE: docs/re/text-engine.md "Dynamic tiles and VWF hooks".
 ;
-; Each text line gets a "line slot" of 32 cells; cell (slot L, column c) is dynamic tile
-;   $180 + base + L*32 + c      (base = 2*$0A1A: tiles below are window labels, never touched)
+; Each visible text line gets a "line slot" of W cells (32, or 27 = 216 px in windows of 3+ lines), taken from the
+; top of the dynamic tiles down: slot L is tiles $180 + 128 - (L+1)*W ... and cell c of a line is tile slot0 + c - col0
+; (col0 = cursor column where the line's first glyph went). Window labels drawn as UI glyphs fill the tiles from the
+; bottom up (from 2*$0A1A, sometimes drawn after the text), so they stay clear of the slots.
 ; Glyphs are ORed into those 2bpp tiles (plane 0 = top 8 rows, plane 1 = bottom 8 rows) and the
 ; whole slot buffer is uploaded by the NMI ($57 = $FE) once per screen update: drawing only marks the buffer
 ; dirty, and the hook on the game's tilemap upload ($00:C20E) sends the tiles first. Tiles are stored EOR $6F
 ; (the game's font is inverted: $6F = $FFFF in every window seen).
 ; Fixed font (original renderer) is used when: menu mode ($0A1C), kanji in the message ($0A18),
-; too few line slots for the window, a cursor-set code appeared in the message, or char not $20-$7E.
+; too few line slots for the window, a cursor-set code appeared in the message, the cursor is outside the
+; window's rows, or char not $20-$7E.
 ; All VWF RAM is long-addressed (.l): DB belongs to the game.
 
 !px     = $7FFF00         ; pixel offset inside the current cell (0-7)
@@ -24,7 +27,10 @@
 !partial = $7FFF16        ; nonzero: the game cursor sits one cell past a partly filled cell
 !dirty  = $7FFF18         ; nonzero: !slots changed since the last upload
 !needslot = $7FFF1A       ; nonzero: the next VWF glyph starts a fresh line slot (lazy: empty lines cost nothing)
-!col    = $7FFF1C         ; cursor column of the glyph being drawn
+!col    = $7FFF1C         ; cell index (column - !col0) of the glyph being drawn
+!width  = $7FFF1E         ; cells per line slot
+!col0   = $7FFF20         ; cursor column of the current line's first glyph
+!slot0  = $7FFF22         ; first tile index (0-127) of the current line slot
 !slots  = $7FB000         ; 128 x 16-byte tiles -> VRAM $6C00 (BG tiles $180-$1FF)
 
 org $00BE43               ; renderer message start; was: STZ $0A10 / STZ $0A06
@@ -62,8 +68,7 @@ vwf_start:
     JSR vwf_layout
     LDA #$0000 : STA.l !novwf
     LDA $0A18 : ORA $0A1C : BNE .fixed           ; kanji message / menu mode: slot buffer is not ours
-    LDA.l !nlines : CMP #$0000 : BEQ .fixed
-    LDA $09F6 : LSR : CMP.l !nlines : BCC .ok : BEQ .ok   ; visible lines <= slots?
+    LDA.l !nlines : BNE .ok                      ; 0: the visible lines' slots do not fit above the labels
 .fixed:
     LDA #$0001 : STA.l !novwf
     BRA .done
@@ -74,27 +79,39 @@ vwf_start:
     PLY : PLX : PLP
     JML $00BE49
 
-vwf_layout:               ; !base = 2*$0A1A, !nlines = (128 - base) / 32 (0 if base >= 128)
+vwf_layout:               ; !base = 2*$0A1A; !nlines = visible lines ($09F6/2) of !width cells, or 0 if they don't fit
     LDA $0A1A : ASL : STA.l !base
-    CMP #$0080 : BCC +
-    LDA #$0000 : STA.l !nlines : RTS
-+   EOR #$FFFF : INC : CLC : ADC #$0080          ; 128 - base
-    LSR : LSR : LSR : LSR : LSR : STA.l !nlines
+    LDA #$0020 : STA.l !width
+    LDA $09F6 : LSR : STA.l !nlines : STA.l !row                  ; (!row, !v: scratch)
+    CMP #$0003 : BCC + : LDA #$001B : STA.l !width                ; 3+ lines: 27 cells each (lint: 216 px)
++   LDA #$0080 : STA.l !v
+-   LDA.l !row : BEQ +                                            ; !v = 128 - nlines*width
+    DEC : STA.l !row
+    LDA.l !v : SEC : SBC.l !width : STA.l !v
+    BRA -
++   LDA.l !v : BMI .none : CMP.l !base : BCC .none               ; slots must stay above the labels
+    RTS
+.none:
+    LDA #$0000 : STA.l !nlines
     RTS
 
-vwf_advance_line:         ; px = 0, line = (line + 1) mod nlines, clear that slot (16-bit A/X/Y)
+vwf_advance_line:         ; px = 0, line = (line + 1) mod nlines, slot0 = 128 - (line+1)*width, clear it (16-bit A/X/Y)
     LDA #$0000 : STA.l !px : STA.l !partial
     LDA.l !nlines : BEQ .out
     LDA.l !line : INC : CMP.l !nlines : BCC + : LDA #$0000
 +   STA.l !line
+    INC : STA.l !row
+    LDA #$0080 : STA.l !slot0
+-   LDA.l !slot0 : SEC : SBC.l !width : STA.l !slot0
+    LDA.l !row : DEC : STA.l !row : BNE -
+    LDA $09FC : STA.l !col0
     JSR vwf_clearslot
 .out:
     RTS
 
-vwf_clearslot:            ; zero the 32 tiles (512 bytes) of slot !line
-    LDA.l !line : ASL : ASL : ASL : ASL : ASL : CLC : ADC.l !base   ; tile index of cell 0
-    ASL : ASL : ASL : ASL : TAX                                       ; * 16 bytes
-    LDY #$0100
+vwf_clearslot:            ; blank the !width tiles of the current slot
+    LDA.l !slot0 : ASL : ASL : ASL : ASL : TAX                    ; * 16 bytes
+    LDA.l !width : ASL : ASL : ASL : TAY                          ; words
     LDA $6F                                      ; blank tile = paper (inversion mask)
 -   STA.l !slots,x : INX : INX : DEY : BNE -
     RTS
@@ -105,6 +122,7 @@ vwf_dispatch:             ; renderer: A = char (16-bit), X = tilemap offset (16-
 +   PHA
     LDA $0A1C : ORA $0A18 : BNE .fixed
     LDA.l !novwf : BNE .fixed
+    LDA $09FE : SEC : SBC $09F2 : CMP $09F6 : BCS .fixed   ; cursor outside the window's rows (panel values): no slot
     LDA 1,s : CMP #$0020 : BCC .fixed : CMP #$007F : BCS .fixed
     PLA
     JSR vwf_draw
@@ -135,9 +153,8 @@ vwf_draw:                 ; A = char; draws glyph at (!line, $09FC, !px); advanc
     TAX
     SEP #$20 : LDA.l vwf_widths,x : REP #$20 : AND #$00FF : STA.l !wid
     LDA.l !gptr : ASL : ASL : ASL : ASL : CLC : ADC #vwf_glyphs&$FFFF : STA.l !gptr
-    LDA.l !line : ASL : ASL : ASL : ASL : ASL : CLC : ADC.l !base : STA.l !toff
-    LDA $09FC : AND #$001F : STA.l !col
-    CLC : ADC.l !toff : STA.l !toff                                ; tile index of this cell
+    LDA $09FC : SEC : SBC.l !col0 : STA.l !col                    ; cell in the slot
+    CLC : ADC.l !slot0 : STA.l !toff                               ; tile index of this cell
     CLC : ADC #$0180 : STA.l !tile
     LDA.l !toff : ASL : ASL : ASL : ASL : STA.l !toff           ; byte offset
     LDA #$0000 : STA.l !row
@@ -154,7 +171,7 @@ vwf_draw:                 ; A = char; draws glyph at (!line, $09FC, !px); advanc
 ++  CLC : ADC.l !toff : TAX
     SEP #$20                                     ; tiles are stored EOR $6F (game font is inverted)
     LDA.l !slots,x : EOR $6F : ORA.l !v+1 : EOR $6F : STA.l !slots,x       ; this cell
-    LDA.l !col : CMP #$1F : BEQ +                                           ; no next cell after column 31
+    LDA.l !col : INC : CMP.l !width : BEQ +                                 ; no next cell after the slot's last
     LDA.l !slots+16,x : EOR $6F : ORA.l !v : EOR $6F : STA.l !slots+16,x   ; spill into the next cell
 +   REP #$20
     LDA.l !row : INC : STA.l !row : CMP #$0010 : BCS + : JMP .row
@@ -168,7 +185,7 @@ vwf_draw:                 ; A = char; draws glyph at (!line, $09FC, !px); advanc
     INX : INX : INC $09FC
     LDA.l !tile : INC : STA.l !tile
     LDA.l !px : BEQ .adv                         ; nothing spilled: leave the next cell (window border) alone
-    LDA.l !col : CMP #$001F : BEQ .adv           ; column 31 has no next cell in this slot
+    LDA.l !col : INC : CMP.l !width : BEQ .adv   ; the slot's last cell has no next cell
     LDA.l !tile : CLC : ADC $0A02 : STA.l $7E9000,x : CLC : ADC #$0400 : STA.l $7E9040,x
     BRA .adv
 .upload:
@@ -214,7 +231,8 @@ vwf_setcol:
 vwf_clear:
     PHP : REP #$30 : PHX
     JSR vwf_layout
-    LDA #$0000 : STA.l !px : STA.l !line : STA.l !partial : STA.l !needslot
+    LDA #$0000 : STA.l !px : STA.l !line : STA.l !partial
+    LDA #$0001 : STA.l !needslot                 ; the first glyph after a clear takes a fresh slot
     LDA $0A18 : ORA $0A1C : BNE +                ; kanji tiles / menu mode: !slots is not ours
     LDA.l !base : ASL : ASL : ASL : ASL : TAX    ; clear from the first VWF tile to the end
     LDA $6F                                      ; blank tile = paper (inversion mask)
