@@ -458,9 +458,9 @@ EN:
 JP: {c9B:20}{c80:00}{c81:030E00}{c82:20}{p06:08}{c84:668002}{p06:09}{c84:688002}{p06:0A}{c84:6A8002}{cF1:01}{p0D:05}{c88:0A528002}{p0D:07}{c88:0A5C8002}{c80:00}{p0D:09}{c81:160E00}{jF0:A4C502}{c82:18}{c88:0AC8A402}
 EN: 
 
-#id 0115 ptr=0145A4 box=sysmsg slack=1
+#id 0115 ptr=0145A4 box=sysmsg
 JP: {c80:00}{p14:0C}{c87:2A0E00}{color:01}{p12:02}タイプ{p02:02}{c81:680E00}{jF0:D0C502}てきユニット{goto:D8C502}
-EN: {c80:00}{p14:0C}{c87:2A0E00}{color:01}{p12:02}Type{p02:02}{c81:680E00}{jF0:D0C502}Enemy{goto:D8C502}
+EN: {c80:00}{p14:0C}{c87:2A0E00}{color:01}{p12:02}Typ{p02:02}{c81:680E00}{jF0:D0C502}Enemy{goto:D8C502}
 
 #id 0116 ptr=0145D0 box=sysmsg cont=1
 JP: {c80:00}{c97:120E00}

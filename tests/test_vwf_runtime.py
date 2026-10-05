@@ -265,3 +265,33 @@ end, emu.eventType.endFrame)
     vwf, rows, fixed = map(int, (tmp_path / "o" / "rt.txt").read_text().split())
     assert vwf >= 15 and fixed == 0, (vwf, fixed)    # every row of the 3 lines has >= 15 VWF cells; no fixed letters
                                                      # (units) and no slot tile shared with labels outside (1000s)
+
+
+def test_eight_letter_unit_names_stop_at_their_record(tmp_path):
+    """unit_names records are 8 bytes, printed up to a space: 'Dynamite' must not run into 'Tamborin Bread'."""
+    sfc = build.build(tmp_path / "b", "en")
+    Path("test/lua/_rt.lua").write_text(f'STATE=[[{Path("test/states/personal_infomation.mss").resolve()}]]\n' + '''
+local frame, loaded, ref = 0, false, nil
+ref = emu.addMemoryCallback(function()
+  if loaded then return end
+  local f = io.open(STATE, "rb"); local d = f:read("a"); f:close()
+  emu.loadSavestate(d); loaded = true
+  emu.removeMemoryCallback(ref, emu.callbackType.exec, 0, 0xFFFFFF)
+end, emu.callbackType.exec, 0, 0xFFFFFF)
+emu.addEventCallback(function()
+  if not loaded then return end
+  if frame >= 10 and frame < 14 then emu.setInput({right = true}, 0) end
+  if frame >= 30 and frame < 34 then emu.setInput({a = true}, 0) end
+end, emu.eventType.inputPolled)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 200 then
+    local b = 0
+    for a = 0x9000, 0x90FE, 2 do if (emu.read16(a, emu.memType.snesWorkRam) & 0xFF) == 0x42 then b = b + 1 end end
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(tostring(b)); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''')
+    assert mesen.run(sfc, "_rt.lua", tmp_path / "o") == 0
+    assert (tmp_path / "o" / "rt.txt").read_text() == "0"     # no 'B' (TAMBORIN BREAD) in the MOOMOO DYNAMITE title rows

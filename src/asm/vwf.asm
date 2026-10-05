@@ -242,3 +242,21 @@ vwf_clear:
     REP #$20                                     ; replayed
     LDA #$2000
     JML $01ECEA
+
+
+; ---------------------------------------------------------------- unit name print cap
+; $00:B90F / $B925 print a first name / surname from the 8-byte records at $02:A050 / $02:A298 until a space. JP names
+; are space-padded; an 8-letter EN name fills its record and would run into the next one, so stop after 8 bytes.
+!namelen = $7FFF24
+
+org $00B939               ; was: SEP #$20 / LDA [$00],y (copy loop head; [$00] = table, Y = index*8, X = buffer)
+    JML name_copy
+
+org $C0A000
+name_copy:
+    SEP #$20
+    LDA #$08 : STA.l !namelen
+-   LDA [$00],y : INY : CMP #$20 : BEQ +
+    STA $0400,x : INX
+    LDA.l !namelen : DEC : STA.l !namelen : BNE -
++   JML $00B948               ; PLY / RTS
