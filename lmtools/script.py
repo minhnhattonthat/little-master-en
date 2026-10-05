@@ -34,7 +34,7 @@ def parse(text: str) -> list[Entry]:
                     e.meta[k] = v
             entries.append(e)
         elif line[:3] in ("JP:", "EN:") and entries:
-            setattr(entries[-1], line[:2].lower(), line[4:])
+            setattr(entries[-1], line[:2].lower(), line[3:].removeprefix(" "))
         elif line.strip():
             raise ValueError(f"line {n}: unexpected {line!r}")
     return entries

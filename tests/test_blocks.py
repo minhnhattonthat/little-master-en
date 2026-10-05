@@ -179,3 +179,41 @@ def test_cont_chain_moves_together():
     insert_block(rom, B, es, T, "en")
     assert rom[0x100:0x104] == b"A\xffB\xff"
     assert pointers(rom, B) == [0x100, 0x102, 0x101]
+
+
+def test_pool_entry_without_terminator_raises():
+    rom = synth()
+    es = dump_block(rom, B, T)
+    es[0].en, es[1].en = "A", "B{end}"
+    with pytest.raises(ValueError, match=r"t #0: must end with \{end\} or \{goto\}"):
+        insert_block(rom, B, es, T, "en")
+
+
+def test_cont_head_ending_in_terminator_raises():
+    rom = synth()
+    rom[4:6] = (0x8102).to_bytes(2, "little")
+    es = dump_block(rom, B, T)
+    es[0].en, es[1].en, es[2].en = "A{end}", "{end}", "B{end}"
+    with pytest.raises(ValueError, match="falls through"):
+        insert_block(rom, B, es, T, "en")
+
+
+def test_script_entries_not_matching_rom_raise_clearly():
+    rom = synth()
+    es = dump_block(rom, B, T)
+    for e in es:
+        e.en = e.jp
+    with pytest.raises(ValueError, match=r"t: script entries don't match ROM.*000103"):
+        insert_block(rom, B, es[:1], T, "en")
+    t = Table(["41=A", "FF7F={p7F:1}", "CE={nop}", "00={end}"])
+    irom = bytearray(b"\x10\xff\x7f\x02A\x00")
+    blk = Block(name="ev", type="inline", ranges=[[0, len(irom)]])
+    ies = dump_block(irom, blk, t)
+    ies[0].ptr, ies[0].en = 5, ies[0].jp
+    with pytest.raises(ValueError, match="ev: script entries don't match ROM"):
+        insert_block(irom, blk, ies, t, "en")
+
+
+def test_jump_target_past_rom_end_is_ignored():
+    from lmtools.blocks import jump_targets
+    assert jump_targets("{goto:00B222}{jC1:1BFA7A}", rom_size=0x200000) == [0x113200]

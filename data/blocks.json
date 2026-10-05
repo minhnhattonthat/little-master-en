@@ -115,10 +115,10 @@
   "tables": [
    [
     "0x0130E0",
-    200
+    189
    ]
   ],
-  "note": "table #0: system/battle messages and status-screen layout scripts (branch targets split strings: cont)"
+  "note": "table #0: system/battle messages and status-screen layout scripts (branch targets split strings: cont); slots 189-199 unused (point at filler 0164D5), left untouched"
  },
  {
   "name": "ev03",
@@ -271,9 +271,9 @@
   "start": "0x05BF64",
   "count": 180,
   "stride": 40,
-  "length": 12,
+  "length": 11,
   "pad": "0x00",
   "box": "name11",
-  "note": "40-byte records; name max 11 bytes + 00"
+  "note": "40-byte records; 12-byte name field, length 11 so byte 12 (always 00) stays as terminator"
  }
 ]

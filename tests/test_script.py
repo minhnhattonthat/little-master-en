@@ -28,3 +28,8 @@ def test_save_refuses_to_clobber_translations(tmp_path):
         save(p, [Entry(0, 0, {}, "あ", "")])
     save(p, [Entry(0, 0, {}, "い", "")], force=True)
     assert parse(p.read_text(encoding="utf-8"))[0].jp == "い"
+
+
+def test_colon_without_space_keeps_first_char():
+    e = parse("#id 0000 ptr=000010\nJP:あ\nEN:Hello\n")[0]
+    assert (e.jp, e.en) == ("あ", "Hello")

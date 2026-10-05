@@ -61,9 +61,10 @@ def _meta(b):
 JUMP = re.compile(r"\{(?:goto|j[0-9A-F]{2}):([0-9A-F]{6})\}")
 
 
-def jump_targets(text) -> list[int]:
-    """PC offsets of text addresses embedded in jump controls."""
-    return [lorom_to_pc(int.from_bytes(bytes.fromhex(a), "little")) for a in JUMP.findall(text)]
+def jump_targets(text, rom_size=None) -> list[int]:
+    """PC offsets of text addresses embedded in jump controls (ones past the ROM end are dropped)."""
+    pcs = [lorom_to_pc(int.from_bytes(bytes.fromhex(a), "little")) for a in JUMP.findall(text)]
+    return [pc for pc in pcs if rom_size is None or pc < rom_size]
 
 
 def entry_points(rom, b, tbl) -> list[int]:
@@ -77,7 +78,7 @@ def entry_points(rom, b, tbl) -> list[int]:
     while todo:
         pc = todo.pop()
         seen.add(pc)
-        todo |= {t for t in jump_targets(tbl.decode(rom, pc)[0]) if t // 0x8000 in banks and inside(t)} - seen
+        todo |= {t for t in jump_targets(tbl.decode(rom, pc)[0], len(rom)) if t // 0x8000 in banks and inside(t)} - seen
     return sorted(seen)
 
 
@@ -163,6 +164,17 @@ def _encode(tbl, e, source, allow_empty=False):
     return tbl.encode(text)
 
 
+def _check_entries(b, entries, expected):
+    got = {e.ptr for e in entries}
+    if got != set(expected):
+        diff = sorted(got ^ set(expected))
+        raise ValueError(f"{b.name}: script entries don't match ROM (ptr {' '.join(f'{p:06X}' for p in diff[:8])});"
+                         " re-dump or fix ptr=")
+
+
+TERMINATED = re.compile(r"(\{end\}|\{goto:[0-9A-Fa-f]{6}\})$")
+
+
 def insert_block(rom, b, entries, tbl, source="en") -> None:
     """Write entries' `source` text back in place of the block's original strings."""
     if b.type == "fixed":
@@ -175,6 +187,7 @@ def insert_block(rom, b, entries, tbl, source="en") -> None:
     if b.type == "inline":
         endcode, nop = tbl.ctrl_enc["end"][0], tbl.ctrl_enc["nop"][0]
         old = {pc: n for pc, _, n in inline_starts(rom, b, tbl)}
+        _check_entries(b, entries, old)
         for e in entries:
             data = _encode(tbl, e, source)
             if not data.endswith(endcode):
@@ -195,6 +208,16 @@ def _insert_pool(rom, b, entries, tbl, source):
             free[-1][1] = z
         else:
             free.append([s, z])
+    _check_entries(b, entries, [pc for pc, _, _, _ in pool_strings(rom, b, tbl)])
+    for e in entries:
+        text = e.jp if source == "jp" else e.en
+        if not text and "cont" not in e.meta:
+            raise ValueError(f"#{e.id}: empty {source.upper()} text")
+        ends = bool(TERMINATED.search(text))
+        if "cont" in e.meta and ends:
+            raise ValueError(f"{b.name} #{e.id}: cont entry falls through into the next one; it must not end with {{end}}/{{goto}}")
+        if "cont" not in e.meta and not ends:
+            raise ValueError(f"{b.name} #{e.id}: must end with {{end}} or {{goto}}")
     data = {e.ptr: _encode(tbl, e, source, allow_empty="cont" in e.meta) for e in entries}
     units, cur = [], []
     for e in sorted(entries, key=lambda e: e.ptr):  # cont chains are allocated as one unit
