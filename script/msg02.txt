@@ -132,7 +132,7 @@ EN: {c80:00}{c81:D20E00}{jF0:2DB802}{c80:00}{c81:230E00}{jF0:ECB702}Critical!{c8
 
 #id 0033 ptr=0137CA box=sysmsg
 JP: {n}{c80:00}敵を攻撃して{c95:D20E00}ポイントの強烈なダメージ‼{end}
-EN: {n}{c80:00}{c95:D20E00} points of heavy damage‼{end}
+EN: {n}{c80:00}{c9B:CE}{c95:D20E00}{c9B:20} points of heavy damage‼{end}
 
 #id 0034 ptr=0137EC box=sysmsg cont=1
 JP: {c80:00}{c81:670E00}{jF0:0CB802}ナイスインパクトで攻撃力UP!{n}
@@ -140,7 +140,7 @@ EN: {c80:00}{c81:670E00}{jF0:0CB802}Nice Impact! ATK up!{n}
 
 #id 0035 ptr=01380C box=sysmsg
 JP: {c80:00}敵を攻撃して{c95:D20E00}ポイントのダメージをあたえた。{end}
-EN: {c80:00}Hit the foe for{c95:D20E00} damage.{end}
+EN: {c80:00}Hit the foe for {c9B:CE}{c95:D20E00}{c9B:20} damage.{end}
 
 #id 0036 ptr=01382D box=sysmsg
 JP: 攻撃に失敗しました。{n}ダメージをあたえることができません。{end}
@@ -180,7 +180,7 @@ EN: {c80:00}{c81:670E00}{jF0:A0B902}Nice guard! DEF up!
 
 #id 0045 ptr=01397D box=sysmsg
 JP: {n}敵の攻撃を{c80:00}{c95:520E00}ポイントのダメージにおさえたぞ。{end}
-EN: {n}Damage cut to{c80:00}{c95:520E00}!{end}
+EN: {n}Damage cut to {c80:00}{c9B:CE}{c95:520E00}{c9B:20}!{end}
 
 #id 0046 ptr=01399F box=sysmsg cont=1
 JP: {n}
@@ -188,7 +188,7 @@ EN:
 
 #id 0047 ptr=0139A0 box=sysmsg
 JP: 敵の攻撃を受けて{c80:00}{c95:520E00}ポイントのダメージ。{end}
-EN: Hit for{c80:00}{c95:520E00} damage.{end}
+EN: Hit for {c80:00}{c9B:CE}{c95:520E00}{c9B:20} damage.{end}
 
 #id 0048 ptr=0139BF box=sysmsg
 JP: 敵の攻撃をすばやくかわしたぞ。{n}ダメージをうけませんでした。{end}
@@ -200,11 +200,11 @@ EN: {clear:00}{cF1:05}{p02:14}+{p02:13}×{cF1:01}{p03:14}{uiC6}{uiC7}{uiC8}{c80:
 
 #id 0050 ptr=013A73 box=sysmsg cont=1
 JP: {c80:00}{c81:5A0E00}{jF0:9CBA02}{c80:00}魔物を倒して、メダル{c84:5A0E00}個をえた。{n}
-EN: {c80:00}{c81:5A0E00}{jF0:9CBA02}{c80:00}Foe down! Got{c84:5A0E00} Medals.{n}
+EN: {c80:00}{c81:5A0E00}{jF0:9CBA02}{c80:00}Foe down! Got {c9B:CE}{c84:5A0E00}{c9B:20} Medals.{n}
 
 #id 0051 ptr=013A9C box=sysmsg
 JP: {c80:00}{c85:580E00}の経験値をえた。{n}(POW1={c84:001C00}/POW2={c84:021C00}){end}
-EN: {c80:00}Gained{c85:580E00} EXP.{n}(POW1={c84:001C00}/POW2={c84:021C00}){end}
+EN: {c80:00}Gained {c9B:CE}{c85:580E00}{c9B:20} EXP.{n}(POW1={c84:001C00}/POW2={c84:021C00}){end}
 
 #id 0052 ptr=013AC8 box=sysmsg
 JP: {p7F:00}魔方陣で HPを回復します。{end}
@@ -288,7 +288,7 @@ EN: Magic restores HP.{end}
 
 #id 0072 ptr=013EAA box=sysmsg
 JP: {c80:00}魔法で体力が{c85:6E0E00}ポイント回復しました。{end}
-EN: {c80:00}Magic restored{c85:6E0E00} HP.{end}
+EN: {c80:00}Magic restored {c9B:CE}{c85:6E0E00}{c9B:20} HP.{end}
 
 #id 0073 ptr=013ECA box=sysmsg
 JP: {p7F:08}竜巻が やってきます。{n}さわると はじきとばされますよ。{end}
@@ -408,7 +408,7 @@ EN: Huh? There's a Medal here!{scroll:00}{end}
 
 #id 0102 ptr=0142BD box=sysmsg
 JP: {c80:00}{c81:2C0000}{jF0:E2C202}{c80:00}メダルを{c95:2C0000}まいかくとくしました。{end}
-EN: {c80:00}{c81:2C0000}{jF0:E2C202}{c80:00}Got{c95:2C0000} Medals.{end}
+EN: {c80:00}{c81:2C0000}{jF0:E2C202}{c80:00}Got {c9B:CE}{c95:2C0000}{c9B:20} Medals.{end}
 
 #id 0103 ptr=0142E2 box=sysmsg
 JP: メダルのかくとくに失敗しました。{end}
@@ -488,7 +488,7 @@ EN: {speed:00}{c80:00}{c81:5A0E00}{jF0:37C602}{c80:00}Foe beaten!
 
 #id 0122 ptr=014637 box=sysmsg
 JP: {c80:00}{c85:580E00}ポイントの経験値をえた。{end}
-EN: {c80:00}Gained{c85:580E00} EXP.{end}
+EN: {c80:00}Gained {c9B:CE}{c85:580E00}{c9B:20} EXP.{end}
 
 #id 0123 ptr=01464F box=sysmsg
 JP: {cF1:06}{p02:18}KL{cF1:05}{c80:00}{c85:070E00}{cF1:06}{p02:19}KL{c94:1962}{p04:19}{c8C:2200008A}{c8E:24000062}{cF1:01}{end}
@@ -500,7 +500,7 @@ EN: {p02:16}{c94:1B20}{p02:18}{c94:1B20}{p02:16}{c80:00}{speed:00}Yay! Level up!
 
 #id 0125 ptr=0146EA box=sysmsg
 JP: {c80:00}{n}防御力が{c95:3E0E00}に、最大HPが{c95:380E00}になった。{scroll:00}{end}
-EN: {c80:00},{n}DEF{c95:3E0E00}, Max HP{c95:380E00}.{scroll:00}{end}
+EN: {c80:00},{n}DEF {c9B:CE}{c95:3E0E00}{c9B:20}, Max HP {c9B:CE}{c95:380E00}{c9B:20}.{scroll:00}{end}
 
 #id 0126 ptr=014711 box=sysmsg slack=4
 JP: {p09:0E}{uiEE}{uiEF}{cF1:05}{p08:0E}ぞ{p08:0F}だ{p0D:0E}▶{p0D:0F}▶{p0D:10}▶{p0D:11}▶{cF1:01}{p10:0E}リルル・ブレッド{p10:10}シャルル・ブレッド{p0F:0E}{cFC:02}{end}
@@ -700,7 +700,7 @@ EN: Casting {c80:00}{c81:6C0E00}{c82:10}{c88:0A66B522}.{n}{end}
 
 #id 0175 ptr=014D81 box=sysmsg
 JP: {p7F:01}{c80:00}{c81:240000}{c82:28}{c87:64BF0B}に、{c80:00}{c84:260000}のダメージ。{end}
-EN: {p7F:01}{c80:00}{c81:240000}{c82:28}{c87:64BF0B} takes{c80:00}{c84:260000} damage.{end}
+EN: {p7F:01}{c80:00}{c81:240000}{c82:28}{c87:64BF0B} takes {c80:00}{c9B:CE}{c84:260000}{c9B:20} damage.{end}
 
 #id 0176 ptr=014DA5 box=sysmsg
 JP: {p7F:09}そのターゲットには すでに魔法が{n}かかっています。{n}ほかのターゲットをえらんでください。{scroll:00}{end}
@@ -752,7 +752,7 @@ EN: Unequip the item?{goto:6BD302}
 
 #id 0188 ptr=014F76 box=sysmsg
 JP: {c80:00}{c83:9A0E00}メダルはらって、{n}{c81:980E00}{c82:18}{c88:0AE0A402} をかいますか?{goto:6BD302}
-EN: {c80:00}Pay{c83:9A0E00} Medals{n}for {c81:980E00}{c82:18}{c88:0AE0A402}?{goto:6BD302}
+EN: {c80:00}Pay {c9B:CE}{c83:9A0E00}{c9B:20} Medals{n}for {c81:980E00}{c82:18}{c88:0AE0A402}?{goto:6BD302}
 
 #id 0189 ptr=014FA2 box=sysmsg
 JP: アイテムを買いました。{n}ほかにも買い物をしますか?{goto:6BD302}
@@ -776,7 +776,7 @@ EN: {p7F:03}Found nothing.{scroll:00}{end}
 
 #id 0194 ptr=015035 box=sysmsg
 JP: {p7F:03}{c80:00}{c95:240000}このメダルを手に入れました。{scroll:00}{end}
-EN: {p7F:03}{c80:00}Got{c95:240000} Medals.{scroll:00}{end}
+EN: {p7F:03}{c80:00}Got {c9B:CE}{c95:240000}{c9B:20} Medals.{scroll:00}{end}
 
 #id 0195 ptr=015054 box=sysmsg
 JP: {p7F:03}{c80:00}{c9C:120E00}は、コハクを手に入れました。{scroll:00}{end}
@@ -792,7 +792,7 @@ EN: {c80:00}{c87:2A0E00}: {goto:65C702}
 
 #id 0198 ptr=0150BF box=sysmsg
 JP: {c80:00}{c84:5A0E00}メダルをつかって、{n}{c9C:120E00} をなおしますか?{goto:6BD302}
-EN: {c80:00}Use{c84:5A0E00} Medals{n}to heal {c9C:120E00}?{goto:6BD302}
+EN: {c80:00}Use {c9B:CE}{c84:5A0E00}{c9B:20} Medals{n}to heal {c9C:120E00}?{goto:6BD302}
 
 #id 0199 ptr=0150E4 box=sysmsg
 JP: そのユニットをなおすための{n}メダルがたりません。{scroll:00}{end}
@@ -984,7 +984,7 @@ EN: {p7F:08}{c80:00}{c87:2A0E00} recovered{n}and feels fine.{end}
 
 #id 0246 ptr=015CBB box=sysmsg
 JP: {p7F:08}{c80:00}{c87:2A0E00}の体力が、{n}状態異常で、{c85:5A0E00}のダメージ。{end}
-EN: {p7F:08}{c80:00}{c87:2A0E00} takes{c85:5A0E00} damage{n}from its ailment.{end}
+EN: {p7F:08}{c80:00}{c87:2A0E00} takes {c9B:CE}{c85:5A0E00}{c9B:20} damage{n}from its ailment.{end}
 
 #id 0247 ptr=015CE4 box=sysmsg
 JP: {c80:00}{p02:04}・メッセージテスト{p04:07}BANK {c85:011000} / MES# {c84:001000} ({c9A:001000}){p04:09}FRAME {c85:021000}{p0C:0E} (B)EXIT / (Y)EXEC{end}
@@ -1008,7 +1008,7 @@ EN:
 
 #id 0252 ptr=015DB8 box=sysmsg
 JP: {p7F:00}宝箱から{c80:00}{c95:001000}枚のメダルを 手にいれました。{scroll:00}{end}
-EN: {p7F:00}Got{c80:00}{c95:001000} Medals from the chest.{scroll:00}{end}
+EN: {p7F:00}Got {c80:00}{c9B:CE}{c95:001000}{c9B:20} Medals from the chest.{scroll:00}{end}
 
 #id 0253 ptr=015DDE box=sysmsg
 JP: {p0B:18}健康です。治療の必要は、{n}ありません。{cFA:00}{end}
@@ -1056,7 +1056,7 @@ EN:
 
 #id 0264 ptr=015F47 box=sysmsg
 JP: {p7F:00}{c80:00}魔石を1つはめました。{n}残りの台座は、{c85:061000}つです。{scroll:00}{end}
-EN: {p7F:00}{c80:00}One Jewel set.{n}{c85:061000} pedestals remain.{scroll:00}{end}
+EN: {p7F:00}{c80:00}One Jewel set.{n}{c9B:CE}{c85:061000}{c9B:20} pedestals remain.{scroll:00}{end}
 
 #id 0265 ptr=015F72 box=sysmsg slack=4
 JP: {p03:06}  ゲーム スタート{p12:06}  データを けす{p03:0A}1 シナリオ{c80:00}{c81:001000}{jF0:D3DF02}{c89:C0FF}{jF0:BEDF02}{c80:00}{c85:001000}  つづきから{goto:DCDF02}

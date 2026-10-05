@@ -11,9 +11,10 @@ from .tbl import Table
 
 TOKEN = re.compile(r"\{(\w+)(?::([0-9A-Fa-f]*))?\}|\[[0-9A-Fa-f]{2}\]|.", re.S)
 POS = re.compile(r"\{p(?!7F)[0-7][0-9A-Fa-f]:[0-9A-Fa-f]{2}\}")      # cursor positioning (p7F = speaker header)
-LAYOUT = {"n", "delay", "speed", "nop", "clear", "scroll", "end"}    # may change freely between JP and EN
-NAME_INS = {"c87", "c88", "c98", "c99"}                            # name copies: counted as 8 chars
-NUM_INS = {"c83", "c84", "c85", "c86", "c8C", "c8D", "c8E", "c91", "c95", "c96", "c97", "c9A", "c9C"}  # 4 digits
+LAYOUT = {"n", "delay", "speed", "nop", "clear", "scroll", "end", "c9B"}  # may change freely between JP and EN
+                                                                          # (c9B: number pad char, CE = none)
+NAME_INS = {"c87", "c88", "c98", "c99", "c9C"}                     # name copies: counted as 8 chars
+NUM_INS = {"c83", "c84", "c85", "c86", "c8C", "c8D", "c8E", "c91", "c95", "c96", "c97", "c9A"}  # 4 digits
 
 
 def _tokens(text):

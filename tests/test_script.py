@@ -43,3 +43,9 @@ def test_save_merges_translations_for_unchanged_entries(tmp_path):
     lost = merge_en(p, fresh)
     assert fresh[0].en == "A{end}" and fresh[0].meta == {"box": "b"} and fresh[1].en == ""
     assert lost == [1]
+
+
+def test_save_writes_lf_line_endings(tmp_path):
+    p = tmp_path / "s.txt"
+    save(p, [Entry(0, 0x10, {}, "あ{end}", "")])
+    assert b"\r\n" not in p.read_bytes()

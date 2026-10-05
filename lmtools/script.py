@@ -44,7 +44,8 @@ def save(path, entries, force=False):
     path = Path(path)
     if path.exists() and not force and any(e.en for e in parse(path.read_text(encoding="utf-8"))):
         raise FileExistsError(f"{path} has EN translations; refusing to overwrite (use --force)")
-    path.write_text(serialize(entries), encoding="utf-8")
+    path.write_text(serialize(entries), encoding="utf-8", newline="
+")
 
 
 def merge_en(path, fresh) -> list[int]:

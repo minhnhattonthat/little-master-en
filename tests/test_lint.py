@@ -1,3 +1,4 @@
+from lmtools import lint
 from lmtools.lint import lint_entry
 from lmtools.script import Entry
 from lmtools.tbl import Table
@@ -105,3 +106,9 @@ def test_lowercase_under_a_ui_palette_is_flagged():
     assert lint_entry(e, "wide", WID, W, {}) == []
     e.en = "{cF1:05}{p02:16}o{cF1:01}{p03:16}k{end}"
     assert lint_entry(e, "wide", WID, W, {}) == ["#18: lowercase under {cF1} palette draws UI graphics: 'o'"]
+
+
+def test_pad_char_switch_is_layout_and_c9C_is_a_name():
+    e = Entry(19, 0, {}, "{c9C:120E00}は{c85:060E00}レベル{end}", "{c9C:120E00} is LV {c9B:CE}{c85:060E00}{c9B:20}.{end}")
+    assert lint_entry(e, "wide", WID, W, {}) == []
+    assert lint.NAME_INS >= {"c9C"} and "c9C" not in lint.NUM_INS
