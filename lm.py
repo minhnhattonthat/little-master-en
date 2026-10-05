@@ -3,7 +3,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from lmtools import gfx, ips, locate, rom
+from lmtools import gfx, ips, locate, mesen, rom
 from lmtools.tbl import Table
 
 BETA2 = Path("patch/LM3-Beta2.IPS")
@@ -55,6 +55,12 @@ def cmd_scan(a):
         print(f"{s:06X}  {text}")
 
 
+def cmd_boot(a):
+    code = mesen.run(a.rom or rom.BASE, "boot.lua", "build/shots")
+    print("boot OK, see build/shots/boot.png" if code == 0 else f"boot FAILED (exit {code})")
+    sys.exit(code)
+
+
 def build_parser():
     ap = argparse.ArgumentParser(prog="lm")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -76,6 +82,7 @@ def build_parser():
     p = sub.add_parser("findptr", help="find pointers to a PC offset (hex)"); p.add_argument("pc"); p.set_defaults(fn=cmd_findptr)
     p = sub.add_parser("freespace"); p.add_argument("--min", default="0x100"); p.set_defaults(fn=cmd_freespace)
     p = sub.add_parser("scan", help="heuristic text scan using tbl/jp.tbl"); p.add_argument("--min", type=int, default=4); p.set_defaults(fn=cmd_scan)
+    p = sub.add_parser("boot"); p.add_argument("rom", nargs="?"); p.set_defaults(fn=cmd_boot)
     return ap
 
 
