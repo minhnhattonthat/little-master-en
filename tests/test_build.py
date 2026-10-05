@@ -34,6 +34,7 @@ def test_build_without_translation_is_expanded_base(tmp_path):
     exp = rom.expand(rom.load_base())
     data[FONT] = exp[FONT]
     data[0x7FDC:0x7FE0] = exp[0x7FDC:0x7FE0]
+    data[0x10000:0x10050] = exp[0x10000:0x10050]             # message table list (tables relocated)
     for snes, n in HOOKS:
         pc = rom.lorom_to_pc(snes)
         data[pc:pc + n] = exp[pc:pc + n]
@@ -65,3 +66,10 @@ def test_fonts_written(tmp_path):
     assert all(tile(data, c) != tile(base, c) for c in range(0x61, 0x7B))        # a-z added
     keep = [c for c in range(0x20, 0x7F) if not 0x61 <= c <= 0x7A]               # game's UI-styled Latin/symbols
     assert all(tile(data, c) == tile(base, c) for c in keep)
+
+
+def test_build_relocates_message_tables(tmp_path):
+    data = build.build(tmp_path, "jp").read_bytes()
+    for i in range(20):
+        v = int.from_bytes(data[0x10000 + 4 * i:0x10003 + 4 * i], "little")
+        assert rom.lorom_to_pc(v) >= 0x208000, f"list entry {i} still at {v:06X}"

@@ -58,7 +58,7 @@ def _meta(b):
     return {"box": b.box} if b.box else {}
 
 
-JUMP = re.compile(r"\{(?:goto|j[0-9A-F]{2}):([0-9A-F]{6})\}")
+JUMP = re.compile(r"\{(?:goto|j[0-9A-F]{2}):([0-9A-Fa-f]{6})\}")
 
 
 def jump_targets(text, rom_size=None) -> list[int]:
@@ -275,4 +275,4 @@ def _insert_pool(rom, layout, b, entries, tbl, source, en_tbl):
         rom[s:s + w] = nv.to_bytes(w, "little")
 
 
-REMAP = re.compile(r"\{(goto|j[0-9A-F]{2}):([0-9A-F]{6})\}")
+REMAP = re.compile(r"\{(goto|j[0-9A-F]{2}):([0-9A-Fa-f]{6})\}")

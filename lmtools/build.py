@@ -5,6 +5,7 @@ from pathlib import Path
 from . import bps, rom
 from .blocks import insert_block, load_blocks
 from .font import fixed_tiles, parse_font, vwf_blobs
+from .relocate import Alloc, relocate_block
 from .script import parse
 from .tbl import Table
 
@@ -51,9 +52,13 @@ def build(out_dir="build", source="en") -> Path:
     work_file.unlink()
     write_fonts(work)
     jp, en = Table.load(ROOT / "tbl/jp.tbl"), Table.load(ROOT / "tbl/en.tbl")
+    alloc = Alloc()
     for b in load_blocks(ROOT / "data/blocks.json"):
         entries = parse((ROOT / f"script/{b.name}.txt").read_text(encoding="utf-8"))
-        insert_block(work, b, entries, jp, source, en_tbl=en, base=padded_base)
+        if b.type == "ptr16":
+            relocate_block(work, padded_base, b, entries, jp, source, en, alloc)
+        else:
+            insert_block(work, b, entries, jp, source, en_tbl=en, base=padded_base)
     rom.fix_checksum(work)
     sfc = out_dir / "lm_en.sfc"
     sfc.write_bytes(work)
