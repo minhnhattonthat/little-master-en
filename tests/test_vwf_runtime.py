@@ -183,3 +183,33 @@ emu.addEventCallback(function()
 end, emu.eventType.endFrame)
 ''', tmp_path / "o6")
     assert not 0x180 <= int(res) <= 0x1FF, f"border cell holds VWF tile {int(res):03X}"
+
+
+def test_fixed_font_draws_lowercase_with_uppercase_tiles(tmp_path, monkeypatch):
+    real = build.parse
+
+    def inject(text):
+        es = real(text)
+        for e in es:
+            if "Peacock, run home!" in e.en:
+                e.en = e.en.replace("Peacock", "{p02:16}zz_z")
+        return es
+
+    monkeypatch.setattr(build, "parse", inject)
+    sfc = build.build(tmp_path / "b", "en")
+    res = run(sfc, "ordinary_field_message", '''
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 300 then
+    local up, low, under = 0, 0, 0
+    for a = 0x9000, 0x97FE, 2 do
+      local t = emu.read16(a, emu.memType.snesWorkRam) & 0xFF
+      if t == 0x5A then up = up + 1 elseif t == 0x7A then low = low + 1 elseif t == 0x5F then under = under + 1 end
+    end
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(up .. " " .. low .. " " .. under); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''', tmp_path / "o1")
+    up, low, under = map(int, res.split())
+    assert (up >= 3, low, under) == (True, 0, 0)

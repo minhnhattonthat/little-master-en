@@ -112,8 +112,14 @@ vwf_dispatch:             ; renderer: A = char (16-bit), X = tilemap offset (16-
     JML $00BE78
 .fixed:
     LDA #$0000 : STA.l !partial : STA.l !px      ; a fixed char takes the (fresh) cursor cell
+    LDA $0A1E : BEQ .text                       ; {cF1} palette set: UI graphics drawn with font tiles, keep the code
     PLA
     JML $00BE75                                 ; original: JSR $C156 (tile = char code)
+.text:                    ; tiles $5F-$7A are icons/gauges in other palettes: draw '_' as space, a-z with the A-Z tiles
+    PLA
+    CMP #$005F : BNE + : LDA #$0020 : JML $00BE75
++   CMP #$0061 : BCC + : CMP #$007B : BCS + : SBC #$001F   ; carry clear here: subtracts $20
++   JML $00BE75
 
 vwf_draw:                 ; A = char; draws glyph at (!line, $09FC, !px); advances X/$09FC/!px
     PHA

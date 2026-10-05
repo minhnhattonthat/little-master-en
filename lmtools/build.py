@@ -4,7 +4,7 @@ from pathlib import Path
 
 from . import bps, rom
 from .blocks import insert_block, load_blocks
-from .font import fixed_tiles, parse_font, vwf_blobs
+from .font import parse_font, vwf_blobs
 from .relocate import Alloc, relocate_block
 from .script import parse
 from .tbl import Table
@@ -20,17 +20,13 @@ def _tool(path, name):
     return str(path)
 
 
-FIXED_FONT = 0x170000     # single-byte 8x16 font: tile = char code, 16 bytes per tile
 VWF_GLYPHS = 0x200000     # $C0:8000 (vwf.asm vwf_glyphs)
 VWF_WIDTHS = 0x200600     # $C0:8600 (vwf.asm vwf_widths)
 
 
 def write_fonts(work):
-    """Fixed English a-z over tiles $61-$7A and a blank '_' ($5F) (the game font already has UI-styled A-Z, digits and symbols that
-    status screens use as graphics), VWF glyphs + widths into bank $C0."""
-    fixed = fixed_tiles(parse_font((ROOT / "src/font/fixed.txt").read_text(encoding="utf-8")))
-    for c in [0x5F, *range(0x61, 0x7B)]:              # $5F '_' = blank: a space inside copied names
-        work[FIXED_FONT + c * 16:FIXED_FONT + c * 16 + 16] = fixed[(c - 0x20) * 16:(c - 0x1F) * 16]
+    """VWF glyphs + widths into bank $C0. The single-byte font stays as shipped: its tiles double as UI graphics, so the
+    renderer draws fixed-font a-z with the A-Z tiles instead (src/asm/vwf.asm)."""
     glyphs, widths = vwf_blobs(parse_font((ROOT / "src/font/vwf.txt").read_text(encoding="utf-8")))
     work[VWF_GLYPHS:VWF_GLYPHS + len(glyphs)] = glyphs
     work[VWF_WIDTHS:VWF_WIDTHS + len(widths)] = widths

@@ -1,5 +1,5 @@
 import pytest
-from lmtools.font import fixed_tiles, parse_font, vwf_blobs
+from lmtools.font import parse_font, vwf_blobs
 
 
 def art(name, rows):
@@ -24,11 +24,6 @@ def test_vwf_blobs_layout():
     i = ord("A") - 0x20
     assert len(g) == 95 * 16 and g[i * 16] == 0x80 and wid[i] == 3 and wid[0] == 0
 
-
-def test_fixed_tile_planes():
-    t = fixed_tiles(parse_font(ART8))
-    i = (ord("A") - 0x20) * 16
-    assert t[i] == 0x80 and t[i + 1] == 0x20       # row0 -> plane0 (byte 0), row8 -> plane1 (byte 1)
 
 
 def test_bad_glyph_errors():

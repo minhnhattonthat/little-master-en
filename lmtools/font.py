@@ -46,11 +46,3 @@ def vwf_blobs(font):
         widths[i] = w
     return bytes(glyphs), bytes(widths)
 
-
-def fixed_tiles(font):
-    out = bytearray(95 * 16)
-    for ch, (_, rows) in font.items():
-        i = (ord(ch) - 0x20) * 16
-        for r in range(8):
-            out[i + 2 * r], out[i + 2 * r + 1] = rows[r], rows[r + 8]
-    return bytes(out)

@@ -4,7 +4,6 @@ from lmtools.blocks import dump_block, insert_block, load_blocks
 from lmtools.tbl import Table
 
 T = Table.load("tbl/jp.tbl")
-FONT = slice(0x1705F0, 0x1707B0)                            # fixed tiles $5F-$7A (_ and a-z)
 HOOKS = [(0x00BE43, 6), (0x00BE70, 5), (0x00BF01, 4), (0x00BF94, 5), (0x01ECE5, 5), (0x00C20E, 5)]  # src/asm/vwf.asm org sites
 
 
@@ -32,7 +31,6 @@ def test_missing_tool_message(monkeypatch, tmp_path):
 def test_build_without_translation_is_expanded_base(tmp_path):
     data = bytearray(build.build(tmp_path, "jp").read_bytes())
     exp = rom.expand(rom.load_base())
-    data[FONT] = exp[FONT]
     data[0x7FDC:0x7FE0] = exp[0x7FDC:0x7FE0]
     data[0x10000:0x10050] = exp[0x10000:0x10050]             # message table list (tables relocated)
     for snes, n in HOOKS:
@@ -60,12 +58,7 @@ def test_bad_en_char_names_block_and_entry(tmp_path, monkeypatch):
 
 def test_fonts_written(tmp_path):
     data = build.build(tmp_path, "jp").read_bytes()
-    base = rom.load_base()
     assert data[build.VWF_WIDTHS + ord("A") - 0x20] == 6 and data[build.VWF_WIDTHS + ord("i") - 0x20] == 2
-    tile = lambda buf, c: buf[build.FIXED_FONT + c * 16:build.FIXED_FONT + c * 16 + 16]
-    assert all(tile(data, c) != tile(base, c) for c in range(0x61, 0x7B))        # a-z added
-    keep = [c for c in range(0x20, 0x7F) if not 0x61 <= c <= 0x7A and c != 0x5F]               # game's UI-styled Latin/symbols
-    assert all(tile(data, c) == tile(base, c) for c in keep)
 
 
 def test_build_relocates_message_tables(tmp_path):
@@ -90,4 +83,9 @@ def test_underscore_draws_as_a_space(tmp_path):
     i = ord("_") - 0x20
     assert data[build.VWF_GLYPHS + i * 16:build.VWF_GLYPHS + i * 16 + 16] == bytes(16)
     assert data[build.VWF_WIDTHS + i] == 4
-    assert data[build.FIXED_FONT + 0x5F * 16:build.FIXED_FONT + 0x60 * 16] == bytes(16)
+
+
+def test_en_build_keeps_the_game_font(tmp_path, base):
+    """UI icons and gauges draw font tiles with other palettes, so the single-byte font must stay as shipped."""
+    data = build.build(tmp_path, "en").read_bytes()
+    assert data[0x170000:0x171000] == base[0x170000:0x171000]
