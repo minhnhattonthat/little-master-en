@@ -30,14 +30,14 @@ def test_missing_tool_message(monkeypatch, tmp_path):
 
 
 def test_build_without_translation_is_expanded_base(tmp_path):
-    data = bytearray(build.build(tmp_path).read_bytes())
+    data = bytearray(build.build(tmp_path, "jp").read_bytes())
     exp = rom.expand(rom.load_base())
     data[FONT] = exp[FONT]
     data[0x7FDC:0x7FE0] = exp[0x7FDC:0x7FE0]
     for snes, n in HOOKS:
         pc = rom.lorom_to_pc(snes)
         data[pc:pc + n] = exp[pc:pc + n]
-    assert len(data) == 0x400000 and data[:0x200000] == exp[:0x200000]   # no EN yet
+    assert len(data) == 0x400000 and data[:0x200000] == exp[:0x200000]   # JP only: equals the expanded base
     patch = (tmp_path / "lm_en.bps").read_bytes()
     assert bps.apply(bytes(rom.load_base()), patch) == (tmp_path / "lm_en.sfc").read_bytes()
 
