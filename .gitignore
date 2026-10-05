@@ -9,3 +9,4 @@ tools/
 build/
 test/states/
 __pycache__/
+.superpowers/
