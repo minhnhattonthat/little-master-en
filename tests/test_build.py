@@ -4,8 +4,8 @@ from lmtools.blocks import dump_block, insert_block, load_blocks
 from lmtools.tbl import Table
 
 T = Table.load("tbl/jp.tbl")
-FONT = slice(0x170200, 0x1707F0)                            # fixed tiles $20-$7E (written from Task 3 on)
-HOOKS = [(0x00BE43, 6), (0x00BE70, 5), (0x00BF01, 4), (0x00BF91, 5), (0x01ECE5, 5)]  # src/asm/vwf.asm org sites
+FONT = slice(0x170610, 0x1707B0)                            # fixed tiles $61-$7A (a-z)
+HOOKS = [(0x00BE43, 6), (0x00BE70, 5), (0x00BF01, 4), (0x00BF94, 5), (0x01ECE5, 5)]  # src/asm/vwf.asm org sites
 
 
 def test_empty_en_falls_back_to_jp(base):
@@ -58,6 +58,10 @@ def test_bad_en_char_names_block_and_entry(tmp_path, monkeypatch):
 
 
 def test_fonts_written(tmp_path):
-    data = build.build(tmp_path).read_bytes()
+    data = build.build(tmp_path, "jp").read_bytes()
+    base = rom.load_base()
     assert data[build.VWF_WIDTHS + ord("A") - 0x20] == 6 and data[build.VWF_WIDTHS + ord("i") - 0x20] == 2
-    assert data[build.FIXED_FONT + 0x41 * 16:build.FIXED_FONT + 0x42 * 16] != rom.load_base()[0x170410:0x170420]
+    tile = lambda buf, c: buf[build.FIXED_FONT + c * 16:build.FIXED_FONT + c * 16 + 16]
+    assert all(tile(data, c) != tile(base, c) for c in range(0x61, 0x7B))        # a-z added
+    keep = [c for c in range(0x20, 0x7F) if not 0x61 <= c <= 0x7A]               # game's UI-styled Latin/symbols
+    assert all(tile(data, c) == tile(base, c) for c in keep)

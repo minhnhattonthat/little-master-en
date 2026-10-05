@@ -17,3 +17,10 @@ def test_tag_chars_not_encodable():
     for ch in "[]{}あ":
         with pytest.raises(ValueError):
             EN.encode(ch + "{end}")
+
+
+def test_ui_symbols_use_the_game_glyph_codes():
+    assert EN.encode("×∶◀▶©") == bytes.fromhex("2A3B3C3E40")
+    for ch in "*;<>@":
+        with pytest.raises(ValueError):
+            EN.encode(ch)

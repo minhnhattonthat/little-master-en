@@ -34,8 +34,8 @@ org $00BE70               ; renderer char path; was: CMP #$00CE / BEQ $BE4F
 org $00BF01               ; newline; was: LDA $09FE / (CMP #$003E)
     JML vwf_newline
 
-org $00BF91               ; cursor set {pXX:YY}; was: STA $09FC / LDA [$14]
-    JML vwf_setcol
+org $00BF94               ; cursor set {pXX:YY}, row part (both the column and the row-only path reach it;
+    JML vwf_setcol        ; $BF8C BEQ targets $BF94); was: LDA [$14] / AND #$00FF
     NOP
 
 org $01ECE5               ; window clear; was: REP #$20 / LDA #$2000
@@ -53,6 +53,7 @@ vwf_start:
     PHP : REP #$30 : PHX : PHY
     JSR vwf_layout
     LDA #$0000 : STA.l !novwf
+    LDA $0A18 : ORA $0A1C : BNE .fixed           ; kanji message / menu mode: slot buffer is not ours
     LDA.l !nlines : CMP #$0000 : BEQ .fixed
     LDA $09F6 : LSR : CMP.l !nlines : BCC .ok : BEQ .ok   ; visible lines <= slots?
 .fixed:
@@ -101,6 +102,7 @@ vwf_dispatch:             ; renderer: A = char (16-bit), X = tilemap offset (16-
     DEX : DEX : DEC $09FC                       ; native $BE88 adds one cell back
     JML $00BE78
 .fixed:
+    LDA #$0000 : STA.l !partial : STA.l !px      ; a fixed char takes the (fresh) cursor cell
     PLA
     JML $00BE75                                 ; original: JSR $C156 (tile = char code)
 
@@ -158,24 +160,24 @@ vwf_draw:                 ; A = char; draws glyph at (!line, $09FC, !px); advanc
 ; ---------------------------------------------------------------- newline / cursor / clear
 vwf_newline:
     PHP : REP #$30 : PHX : PHY
+    LDA.l !novwf : BNE +                         ; fixed-font message: leave the slot buffer alone
     JSR vwf_advance_line
-    PLY : PLX : PLP
-    LDA $09FE                                    ; replayed
-    JML $00BF04
++   PLY : PLX : PLP
+    LDA $09FE : CMP #$003E                       ; replayed (the JML covers $BF01-$BF04)
+    JML $00BF07
 
 vwf_setcol:
-    STA $09FC                                    ; replayed
+    LDA [$14] : AND #$00FF                       ; replayed
     PHA
     LDA #$0001 : STA.l !novwf                    ; positioned layout: fixed font from here on
     PLA
-    LDA [$14]                                    ; replayed
-    JML $00BF96
+    JML $00BF99
 
 vwf_clear:
     PHP : REP #$30 : PHX
     JSR vwf_layout
     LDA #$0000 : STA.l !px : STA.l !line : STA.l !partial
-    LDA $0A18 : BNE +                            ; kanji tiles of this message live in !slots
+    LDA $0A18 : ORA $0A1C : BNE +                ; kanji tiles / menu mode: !slots is not ours
     LDA.l !base : ASL : ASL : ASL : ASL : TAX    ; clear from the first VWF tile to the end
     LDA $6F                                      ; blank tile = paper (inversion mask)
 -   CPX #$0800 : BCS +

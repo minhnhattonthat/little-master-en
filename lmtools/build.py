@@ -25,11 +25,11 @@ VWF_WIDTHS = 0x200600     # $C0:8600 (vwf.asm vwf_widths)
 
 
 def write_fonts(work):
-    """Fixed English glyphs over tiles $20-$7E (except []{}), VWF glyphs + widths into bank $C0."""
+    """Fixed English a-z over tiles $61-$7A (the game font already has UI-styled A-Z, digits and symbols that
+    status screens use as graphics), VWF glyphs + widths into bank $C0."""
     fixed = fixed_tiles(parse_font((ROOT / "src/font/fixed.txt").read_text(encoding="utf-8")))
-    for i in range(95):
-        if chr(0x20 + i) not in "[]{}":
-            work[FIXED_FONT + (0x20 + i) * 16:FIXED_FONT + (0x21 + i) * 16] = fixed[i * 16:i * 16 + 16]
+    for c in range(0x61, 0x7B):
+        work[FIXED_FONT + c * 16:FIXED_FONT + c * 16 + 16] = fixed[(c - 0x20) * 16:(c - 0x1F) * 16]
     glyphs, widths = vwf_blobs(parse_font((ROOT / "src/font/vwf.txt").read_text(encoding="utf-8")))
     work[VWF_GLYPHS:VWF_GLYPHS + len(glyphs)] = glyphs
     work[VWF_WIDTHS:VWF_WIDTHS + len(widths)] = widths

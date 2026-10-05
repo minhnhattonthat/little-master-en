@@ -123,7 +123,7 @@ Not traced yet: it needs in-game save states on the item menu and in battle, whi
 - **Hook sites** all execute in every saved state (exec counts over 600 frames with A presses):
   - `$00:BE70` char path: 44-1008 runs.
   - `$00:BF01` newline: 1-3.
-  - `$00:BF91` cursor set: 8-385. These are heavy in menus and status screens.
+  - `$00:BF91` cursor set: 8-385 (VWF hooks `$BF94` instead: `$BF8C BEQ $BF94` targets it). These are heavy in menus and status screens.
   - `$01:ECE5` window clear: 2-17.
 - **Free RAM:** `$7F:FF00-FF1F` saw no reads or writes in any state (600 frames each with A presses) or in a 3600-frame boot run.
 - **Consequences for the VWF design:**
