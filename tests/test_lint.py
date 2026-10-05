@@ -86,3 +86,22 @@ def test_unencodable_text_is_reported():
 def test_glossary_ignores_case():
     e = Entry(15, 0, {}, "ポイズン攻撃{end}", "X is poisoned!{end}")
     assert lint_entry(e, "wide", WID, W, {"ポイズン": "Poison"}) == []
+
+
+def test_gloss_off_meta_skips_glossary():
+    e = Entry(16, 0, {"gloss": "off"}, "{p0C:16}地形効果{end}", "{p0C:16}Terrain{end}")
+    assert lint_entry(e, "wide", WID, W, {"地形効果": "terrain bonus"}) == []
+
+
+def test_positioned_budget_is_per_line_with_slack():
+    e = Entry(17, 0, {}, "{p02:10}ああああ{n}あ{p02:12}ステレオ{end}", "{p02:10}ABCD{n}EFGH{p02:12}Stereo{end}")
+    assert lint_entry(e, "wide", WID, W, {}) == ["#17: segment 2 is 6 cells > 4 (positioned layout)"]
+    e.meta["slack"] = "2"
+    assert lint_entry(e, "wide", WID, W, {}) == []
+
+
+def test_lowercase_under_a_ui_palette_is_flagged():
+    e = Entry(18, 0, {}, "{cF1:05}{p02:16}ぞ{cF1:01}{p03:16}ああ{end}", "{cF1:05}{p02:16}[69]{cF1:01}{p03:16}ok{end}")
+    assert lint_entry(e, "wide", WID, W, {}) == []
+    e.en = "{cF1:05}{p02:16}o{cF1:01}{p03:16}k{end}"
+    assert lint_entry(e, "wide", WID, W, {}) == ["#18: lowercase under {cF1} palette draws UI graphics: 'o'"]

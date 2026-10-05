@@ -83,9 +83,12 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
         return out
     if POS.search(e.en):
         jp_seg, en_seg = POS.split(e.jp), POS.split(e.en)
+        slack = int(e.meta.get("slack", 0))       # slack=N: the screen has N free cells after the JP text
         for i, (j, s) in enumerate(zip(jp_seg, en_seg)):
-            if _cells(s) > _cells(j):
-                out.append(f"#{e.id}: segment {i} is {_cells(s)} cells > {_cells(j)} (positioned layout)")
+            budget = max(_cells(x) for x in j.split("{n}")) + slack
+            widest = max(_cells(x) for x in s.split("{n}"))
+            if widest > budget:
+                out.append(f"#{e.id}: segment {i} is {widest} cells > {budget} (positioned layout)")
     else:
         k = 0
         for page in _pages(e.en):
@@ -107,12 +110,20 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
             enc.encode(e.en)
         except ValueError as err:
             out.append(f"#{e.id}: {err}")
+    pal, ui = "01", ""
+    for name, tok in _tokens(e.en):
+        if name == "cF1":
+            pal = tok[5:7]
+        elif name is None and pal != "01" and "a" <= tok <= "z":
+            ui += tok
+    if ui:
+        out.append(f"#{e.id}: lowercase under {{cF1}} palette draws UI graphics: '{ui}'")
     jc, ec = _controls(e.jp), _controls(e.en)
     if jc != ec:
         out.append(f"#{e.id}: control codes differ: missing {sorted((jc - ec).elements())} extra {sorted((ec - jc).elements())}")
     flat = re.sub(r"\{(n|delay:[0-9A-Fa-f]{2})\}", " ", e.en).replace("_", " ")
     flat = re.sub(r" +", " ", flat)
-    for term, en_term in glossary.items():
+    for term, en_term in (glossary.items() if e.meta.get("gloss") != "off" else []):   # gloss=off: tight UI labels
         if term in e.jp and en_term.lower() not in flat.lower():
             out.append(f"#{e.id}: glossary: {term} should be '{en_term}'")
     return out

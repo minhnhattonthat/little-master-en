@@ -68,7 +68,7 @@ EN:
 
 #id 0017 ptr=0134E8 box=sysmsg cont=1
 JP: {p7F:05}{p0B:16}ユニット選択{p02:18}魔法をのターゲットをえらんでください。
-EN: 
+EN: {p7F:05}{p0B:16}Select{p02:18}Pick a spell target.
 
 #id 0018 ptr=01350E box=sysmsg
 JP: {cF1:05}{p0A:16}/{cF1:25}{p0A:17}/{cF1:01}{end}
@@ -76,7 +76,7 @@ EN:
 
 #id 0019 ptr=013520 box=sysmsg
 JP: {p7F:05}{p0B:16}ユニットを選んでください{cFA:00}{end}
-EN: 
+EN: {p7F:05}{p0B:16}Choose a unit{cFA:00}{end}
 
 #id 0020 ptr=013537 box=sysmsg
 JP: {p02:17}{c94:1920}{p02:18}{c94:1920}{p02:1A}{c94:1920}{cF1:05}{p1A:1B}    {cF1:01}{p0A:16}{c94:0C20}{goto:71B502}
@@ -104,75 +104,75 @@ EN:
 
 #id 0026 ptr=0136C1 box=sysmsg
 JP: {c80:00}{c81:660E00}{jF0:F6B602}チャンス! 敵はひるんでいるぞ。{n}{c80:00}{c9C:120E00}が先制攻撃します。{end}
-EN: 
+EN: {c80:00}{c81:660E00}{jF0:F6B602}Chance! The enemy flinched!{n}{c80:00}{c9C:120E00} strikes first.{end}
 
 #id 0027 ptr=0136F6 box=sysmsg
 JP: {c80:00}{c81:240E00}{jF0:14B702}{c80:00}{c9C:120E00}の再攻撃。{end}
-EN: 
+EN: {c80:00}{c81:240E00}{jF0:14B702}{c80:00}{c9C:120E00} attacks again.{end}
 
 #id 0028 ptr=013714 box=sysmsg
 JP: {c80:00}{c81:680E00}{jF0:33B702}{c80:00}{c9C:120E00}が反撃します。{end}
-EN: 
+EN: {c80:00}{c81:680E00}{jF0:33B702}{c80:00}{c9C:120E00} counterattacks.{end}
 
 #id 0029 ptr=013733 box=sysmsg
 JP: {c9C:120E00}が攻撃します。{end}
-EN: 
+EN: {c9C:120E00} attacks.{end}
 
 #id 0030 ptr=013742 box=sysmsg
 JP: {c80:00}{c81:5E0E00}{jF0:8BB702}必殺の一撃‼{n}{c80:00}{c81:D20E00}{jF0:73B702}敵を仕留めたぞ。{end}
-EN: 
+EN: {c80:00}{c81:5E0E00}{jF0:8BB702}A deadly blow‼{n}{c80:00}{c81:D20E00}{jF0:73B702}The enemy is finished!{end}
 
 #id 0031 ptr=013773 box=sysmsg
 JP: しかし運悪く、敵に避けられてしまった。{end}
-EN: 
+EN: Bad luck! The enemy dodged.{end}
 
 #id 0032 ptr=01378B box=sysmsg cont=1
 JP: {c80:00}{c81:D20E00}{jF0:2DB802}{c80:00}{c81:230E00}{jF0:ECB702}会心の一撃!{c80:00}{c81:670E00}{jF0:CAB702} おまけにナイスインパクト‼
-EN: 
+EN: {c80:00}{c81:D20E00}{jF0:2DB802}{c80:00}{c81:230E00}{jF0:ECB702}Critical!{c80:00}{c81:670E00}{jF0:CAB702} Plus Nice Impact‼
 
 #id 0033 ptr=0137CA box=sysmsg
 JP: {n}{c80:00}敵を攻撃して{c95:D20E00}ポイントの強烈なダメージ‼{end}
-EN: 
+EN: {n}{c80:00}{c95:D20E00} points of heavy damage‼{end}
 
 #id 0034 ptr=0137EC box=sysmsg cont=1
 JP: {c80:00}{c81:670E00}{jF0:0CB802}ナイスインパクトで攻撃力UP!{n}
-EN: 
+EN: {c80:00}{c81:670E00}{jF0:0CB802}Nice Impact! ATK up!{n}
 
 #id 0035 ptr=01380C box=sysmsg
 JP: {c80:00}敵を攻撃して{c95:D20E00}ポイントのダメージをあたえた。{end}
-EN: 
+EN: {c80:00}Hit the foe for{c95:D20E00} damage.{end}
 
 #id 0036 ptr=01382D box=sysmsg
 JP: 攻撃に失敗しました。{n}ダメージをあたえることができません。{end}
-EN: 
+EN: The attack failed.{n}No damage was dealt.{end}
 
 #id 0037 ptr=01384F box=sysmsg
 JP: {c80:00}{c81:660E00}{jF0:80B802}しまった、先手をとられた!{n}魔物軍が先制攻撃します。{end}
-EN: 
+EN: {c80:00}{c81:660E00}{jF0:80B802}Oops, they got the jump!{n}The Monsters strike first.{end}
 
 #id 0038 ptr=013880 box=sysmsg
 JP: {c80:00}{c81:240E00}{jF0:A0B802}魔物軍の再攻撃がきます。{end}
-EN: 
+EN: {c80:00}{c81:240E00}{jF0:A0B802}The Monsters attack again.{end}
 
 #id 0039 ptr=0138A0 box=sysmsg
 JP: {c80:00}{c81:680E00}{jF0:BDB802}魔物軍が攻撃します。{end}
-EN: 
+EN: {c80:00}{c81:680E00}{jF0:BDB802}The Monsters attack.{end}
 
 #id 0040 ptr=0138BD box=sysmsg
 JP: 魔物軍が反撃します。{end}
-EN: 
+EN: The Monsters counterattack.{end}
 
 #id 0041 ptr=0138CD box=sysmsg
 JP: {c80:00}{c81:DE0E00}{jF0:1EB902}痛恨の一撃!{n}{c80:00}{c81:520E00}{jF0:05B902}敵の攻撃に耐えきれなかった。{end}
-EN: 
+EN: {c80:00}{c81:DE0E00}{jF0:1EB902}A crushing blow!{n}{c80:00}{c81:520E00}{jF0:05B902}Couldn't withstand it.{end}
 
 #id 0042 ptr=013905 box=sysmsg
 JP: しかし、幸運にもこれを避けることができた。{end}
-EN: 
+EN: But luckily, it dodged!{end}
 
 #id 0043 ptr=01391E box=sysmsg
 JP: {c80:00}{c81:520E00}{jF0:BFB902}{c80:00}{c81:A30E00}{jF0:60B902}どとうの一撃!{c80:00}{c81:670E00}{jF0:9FB902} おおっと ナイスガード‼{goto:7DB902}
-EN: 
+EN: {c80:00}{c81:520E00}{jF0:BFB902}{c80:00}{c81:A30E00}{jF0:60B902}Fierce blow!{c80:00}{c81:670E00}{jF0:9FB902} Nice Guard‼{goto:7DB902}
 
 #id 0044 ptr=013960 box=sysmsg cont=1
 JP: {c80:00}{c81:670E00}{jF0:A0B902}ナイスガードで防御力UP!
@@ -188,27 +188,27 @@ EN:
 
 #id 0047 ptr=0139A0 box=sysmsg
 JP: 敵の攻撃を受けて{c80:00}{c95:520E00}ポイントのダメージ。{end}
-EN: 
+EN: Hit for{c80:00}{c95:520E00} damage.{end}
 
 #id 0048 ptr=0139BF box=sysmsg
 JP: 敵の攻撃をすばやくかわしたぞ。{n}ダメージをうけませんでした。{end}
-EN: 
+EN: Swiftly dodged the attack!{n}No damage taken.{end}
 
-#id 0049 ptr=0139E1 box=sysmsg
+#id 0049 ptr=0139E1 box=sysmsg gloss=off
 JP: {clear:00}{cF1:05}{p02:14}+{p02:13}×{cF1:01}{p03:14}{uiC6}{uiC7}{uiC8}{c80:00}{p05:18}{c8D:E50E0006}{p15:18}{c8C:650E0006}{p05:16}{c8D:E40E0006}{p15:16}{c8C:640E0006}{p0C:16}地形効果{p0C:18}属性優劣{p04:16}{c85:E00E00}%{p19:16}{c85:600E00}%{p04:18}{c80:00}{c81:910E00}{c82:04}{c88:03DED102}{p19:18}{c80:00}{c81:110E00}{c82:04}{c88:03DED102}{end}
-EN: 
+EN: {clear:00}{cF1:05}{p02:14}+{p02:13}×{cF1:01}{p03:14}{uiC6}{uiC7}{uiC8}{c80:00}{p05:18}{c8D:E50E0006}{p15:18}{c8C:650E0006}{p05:16}{c8D:E40E0006}{p15:16}{c8C:640E0006}{p0C:16}Terrain{p0C:18}Element{p04:16}{c85:E00E00}%{p19:16}{c85:600E00}%{p04:18}{c80:00}{c81:910E00}{c82:04}{c88:03DED102}{p19:18}{c80:00}{c81:110E00}{c82:04}{c88:03DED102}{end}
 
 #id 0050 ptr=013A73 box=sysmsg cont=1
 JP: {c80:00}{c81:5A0E00}{jF0:9CBA02}{c80:00}魔物を倒して、メダル{c84:5A0E00}個をえた。{n}
-EN: 
+EN: {c80:00}{c81:5A0E00}{jF0:9CBA02}{c80:00}Foe down! Got{c84:5A0E00} Medals.{n}
 
 #id 0051 ptr=013A9C box=sysmsg
 JP: {c80:00}{c85:580E00}の経験値をえた。{n}(POW1={c84:001C00}/POW2={c84:021C00}){end}
-EN: 
+EN: {c80:00}Gained{c85:580E00} EXP.{n}(POW1={c84:001C00}/POW2={c84:021C00}){end}
 
 #id 0052 ptr=013AC8 box=sysmsg
 JP: {p7F:00}魔方陣で HPを回復します。{end}
-EN: 
+EN: {p7F:00}The magic circle restores HP.{end}
 
 #id 0053 ptr=013ADF box=sysmsg cont=1
 JP: {clear:00}{p03:16}{uiC4}{uiC5}{p0B:16}{uiE9}{uiEA}{p04:18}{uiCB}{uiCC}{uiCD} {uiD0}{uiD1}{p04:1A}{uiE0}{uiE1}{uiE2} {uiD4}{uiD5}{cF1:06}{p0A:17}.
@@ -220,11 +220,11 @@ EN:
 
 #id 0055 ptr=013BD1 box=sysmsg
 JP: {p7F:00}やったぞ。おめでとう!{n}勇者軍は、このマップをクリアしました。{end}
-EN: 
+EN: {p7F:00}Well done! Congratulations!{n}The Heroes cleared this map.{end}
 
 #id 0056 ptr=013BF7 box=sysmsg
 JP: {p7F:03}ユニットがたいきゃくします。{end}
-EN: 
+EN: {p7F:03}A unit retreats.{end}
 
 #id 0057 ptr=013C09 box=sysmsg cont=1
 JP: {c80:00}{p06:05}{c94:1920}{p06:05}{c97:120E00}{p14:05}{c87:2A0E00}{cF1:05}{p13:05}/{cF1:25}{p13:06}/{cF1:06}{p06:07}GH◀   PQ{p06:08}IJ◀{p06:09}KL◀{p0B:08}ST◀{p0B:09}UV◀{p12:07}WX◀{p12:08}YZ◀{p12:09}がぎ◀{p19:07}ゃゅ◀{p19:08}ょっ◀{cF1:08}{p1D:08}{c8E:110E0087}{p18:09}:{cF1:06}◀{c80:00}{c81:100E00}{c82:07}{c88:07E9D102}{cF1:05}{c9B:30}{c80:00}{p09:07}{c95:080E00}{p15:08}{c8E:5C0E0031} {c86:560E00}{p16:08}∶{p0E:07}{c95:380E00}{p15:07}{c95:3C0E00}{p09:08}{c85:060E00}{p09:09}{c85:070E00}{p0E:08}{c95:3A0E00}{p0E:09}{c95:3E0E00}{p15:09}{c85:480E00}{c81:6A0E00}{jF0:14BD02}{cF1:06}{p0B:08}。「◀{cF1:05}{c80:00}{c95:0A0E00}
@@ -236,7 +236,7 @@ EN:
 
 #id 0059 ptr=013D21 box=sysmsg
 JP: {p7F:01}魔物が攻撃をします。{end}
-EN: 
+EN: {p7F:01}The monster attacks.{end}
 
 #id 0060 ptr=013D33 box=sysmsg
 JP: {p02:14}{c80:00}てきコード {c9A:830E00}  じぶんコード {c9A:030E00}{n}BG1   {c9A:5A0E00}  BG2    {c9A:DA0E00}{n}Yボタンでゲームにもどる。     ({c84:5C0E00},{c84:580E00}){end}
@@ -252,7 +252,7 @@ EN:
 
 #id 0063 ptr=013DED box=sysmsg
 JP: {p7F:01}リイムが 退却します。{n}これいじょう 戦うことは できません。{scroll:00}{end}
-EN: 
+EN: {p7F:01}Reem retreats.{n}Reem can fight no more.{scroll:00}{end}
 
 #id 0064 ptr=013E16 box=sysmsg
 JP: {p15:1A}{c80:04}{cFC:82}{end}
@@ -276,39 +276,39 @@ EN:
 
 #id 0069 ptr=013E78 box=sysmsg
 JP: そうりょが変身します。{end}
-EN: 
+EN: The priest transforms.{end}
 
 #id 0070 ptr=013E86 box=sysmsg
 JP: {c80:00}{c87:2A0E00}に変身しました。{end}
-EN: 
+EN: {c80:00}It became {c87:2A0E00}.{end}
 
 #id 0071 ptr=013E99 box=sysmsg
 JP: 魔法でHPを回復します。{end}
-EN: 
+EN: Magic restores HP.{end}
 
 #id 0072 ptr=013EAA box=sysmsg
 JP: {c80:00}魔法で体力が{c85:6E0E00}ポイント回復しました。{end}
-EN: 
+EN: {c80:00}Magic restored{c85:6E0E00} HP.{end}
 
 #id 0073 ptr=013ECA box=sysmsg
 JP: {p7F:08}竜巻が やってきます。{n}さわると はじきとばされますよ。{end}
-EN: 
+EN: {p7F:08}A tornado is coming.{n}Touch it and you'll be thrown!{end}
 
 #id 0074 ptr=013EEC box=sysmsg
 JP: {p7F:01}竜巻にあたったユニットが弾き飛ばされた!{end}
-EN: 
+EN: {p7F:01}A unit hit by the tornado{n}was flung away!{end}
 
 #id 0075 ptr=013F08 box=sysmsg
 JP: {p7F:01}ドカーン!! 地雷をふんでしまった{g1E}{n}HPが 半分になっちゃった。{end}
-EN: 
+EN: {p7F:01}KABOOM!! Stepped on a mine{g1E}{n}HP has been halved.{end}
 
 #id 0076 ptr=013F31 box=sysmsg
 JP: {p7F:09}パネルが にぶく光りました。{end}
-EN: 
+EN: {p7F:09}The panel glowed{n}dimly.{end}
 
 #id 0077 ptr=013F44 box=sysmsg
 JP: {p7F:09}パネルが にぶくひかりました。{n}‥しかし、なにも おこりませんでした。{scroll:00}{end}
-EN: 
+EN: {p7F:09}The panel glowed{n}dimly. ...But{n}nothing happened.{scroll:00}{end}
 
 #id 0078 ptr=013F6E box=sysmsg
 JP: {c80:00}{p02:18}COLOR/{c85:000E00} ( CODE ${c9A:020E00} ){p02:1A}G={c85:040E00}  B={c85:060E00}  R={c85:050E00}{c81:080E00}{jF0:C0BF02}  HALF{goto:C6BF02}
@@ -336,39 +336,39 @@ EN:
 
 #id 0084 ptr=01402E box=sysmsg
 JP: {clear:00}魔法の壺で合体をします。{n}壺が妖しく動きます。{end}
-EN: 
+EN: {clear:00}Fusing with the magic pot.{n}The pot moves eerily.{end}
 
 #id 0085 ptr=014051 box=sysmsg
 JP: {clear:00}・壺ダンスコーナー{n} (方向ボタンで動かしましょう){end}
-EN: 
+EN: {clear:00}- Pot Dance Corner{n} (Move it with the D-pad){end}
 
-#id 0086 ptr=014073 box=sysmsg
+#id 0086 ptr=014073 box=sysmsg slack=8
 JP: {p02:18}・星空のワルツ{p02:1A} (いろんなボタンを押してみよう){end}
-EN: 
+EN: {p02:18}- Starry Waltz{p02:1A} (Try the buttons!){end}
 
 #id 0087 ptr=014095 box=sysmsg
 JP: {p7F:01}合体の壺で、合体をしますか?{n}{goto:6BD302}
-EN: 
+EN: {p7F:01}Fuse with the Fusion Pot?{n}{goto:6BD302}
 
 #id 0088 ptr=0140B1 box=sysmsg
 JP: {clear:00}{c80:00}{c81:020E00}{jF0:FCC002}{p07:18}このシナリオは選ぶことができません。{p06:1A}(勇者軍を移動させてください){c89:FFFF}{jF0:4FC102}{goto:22C102}
-EN: 
+EN: {clear:00}{c80:00}{c81:020E00}{jF0:FCC002}{p07:18}Can't enter here.{p06:1A}(Move the Heroes){c89:FFFF}{jF0:4FC102}{goto:22C102}
 
 #id 0089 ptr=0140FC box=sysmsg cont=1
 JP: {p07:18}この場所に入ることができます。{p08:1A}(Aボタンで決定します)
-EN: 
+EN: {p07:18}You can enter.{p08:1A}(A to confirm)
 
 #id 0090 ptr=014122 box=sysmsg
 JP: {p04:16}{c80:00}{c81:000E00}{jF0:45C102}シナリオ{c80:00}{c85:82EA7E} : {cFA:00}{end}
-EN: 
+EN: {p04:16}{c80:00}{c81:000E00}{jF0:45C102}Stage{c80:00}{c85:82EA7E}: {cFA:00}{end}
 
 #id 0091 ptr=014145 box=sysmsg
 JP: ここは : {cFA:00}{end}
-EN: 
+EN: Area: {cFA:00}{end}
 
 #id 0092 ptr=01414F box=sysmsg
 JP: {p0A:16}ここは : 「???」{end}
-EN: 
+EN: {p0A:16}Area: "???"{end}
 
 #id 0093 ptr=01415E box=sysmsg
 JP: {clear:00}{p03:16}{uiC4}{uiC5}{p04:18}{uiCE}{uiCF}   {uiD0}{uiD1}{p04:1A}{uiE3}{uiE4}   {uiD4}{uiD5}{goto:13BB02}
@@ -380,7 +380,7 @@ EN:
 
 #id 0095 ptr=0141C2 box=sysmsg
 JP: {p7F:01}開ける宝箱を選んで下さい。{end}
-EN: 
+EN: {p7F:01}Choose a chest to open.{end}
 
 #id 0096 ptr=0141D8 box=sysmsg
 JP: {cF1:05}{p09:14}▶{p09:15}▶{p09:16}▶{p09:17}▶{p09:18}▶{p09:19}▶{p09:1A}▶{p09:1B}▶{cF1:05}{p02:14}ぞ{p02:15}だ{cF1:01}{p03:14}{uiEE}{uiEF}{p0B:14}{end}
@@ -392,51 +392,51 @@ EN:
 
 #id 0098 ptr=014250 box=sysmsg
 JP: {p7F:01}その組み合わせでは、{n}合体することはできません。{scroll:00}{end}
-EN: 
+EN: {p7F:01}That combination{n}can't be fused.{scroll:00}{end}
 
 #id 0099 ptr=014273 box=sysmsg
 JP: {p7F:00}セーブしました。{scroll:00}{end}
-EN: 
+EN: {p7F:00}Game saved.{scroll:00}{end}
 
-#id 0100 ptr=014282 box=sysmsg
+#id 0100 ptr=014282 box=sysmsg slack=2
 JP: {p7F:01}セーブするか退却するか。{p14:1A}{uiC9}{uiCA} {uiD2}{uiD3}{p13:1A}{c80:05}{cFC:82}{end}
-EN: 
+EN: {p7F:01}Save or retreat?{p14:1A}{uiC9}{uiCA} {uiD2}{uiD3}{p13:1A}{c80:05}{cFC:82}{end}
 
 #id 0101 ptr=0142A9 box=sysmsg
 JP: おや? メダルがおっこちてるぞ。{scroll:00}{end}
-EN: 
+EN: Huh? There's a Medal here!{scroll:00}{end}
 
 #id 0102 ptr=0142BD box=sysmsg
 JP: {c80:00}{c81:2C0000}{jF0:E2C202}{c80:00}メダルを{c95:2C0000}まいかくとくしました。{end}
-EN: 
+EN: {c80:00}{c81:2C0000}{jF0:E2C202}{c80:00}Got{c95:2C0000} Medals.{end}
 
 #id 0103 ptr=0142E2 box=sysmsg
 JP: メダルのかくとくに失敗しました。{end}
-EN: 
+EN: Couldn't get the Medals.{end}
 
 #id 0104 ptr=0142F5 box=sysmsg
 JP: {c80:00}メダルを{c95:2C0000}まいみつけました。{n}もっとさがしてみる?{p11:18}もういい  さがす{p10:18}{c80:06}{cFC:82}{end}
-EN: 
+EN: {c80:00}Found{c95:2C0000} Medals.{n}Search more?{p11:18}No    Yes{p10:18}{c80:06}{cFC:82}{end}
 
 #id 0105 ptr=01432B box=sysmsg
 JP: {speed:0C}.......{speed:02}こんなところにもおちてるぞ。{scroll:00}{end}
-EN: 
+EN: {speed:0C}.......{speed:02}There's one here too!{scroll:00}{end}
 
 #id 0106 ptr=01434A box=sysmsg
 JP: {speed:0C}.......{speed:02}げげげ、メダルを全部おとしちゃった{g1E}{scroll:00}{end}
-EN: 
+EN: {speed:0C}.......{speed:02}{n}Yikes! Lost all the Medals{g1E}{scroll:00}{end}
 
 #id 0107 ptr=01436F box=sysmsg
 JP: メダルはもう落ちていません。{n}{goto:BDC202}
-EN: 
+EN: No more Medals here.{n}{goto:BDC202}
 
 #id 0108 ptr=014384 box=sysmsg
 JP: {p7F:01}魔物のターンです。{scroll:00}{end}
-EN: 
+EN: {p7F:01}The Monsters' turn.{scroll:00}{end}
 
 #id 0109 ptr=014396 box=sysmsg
 JP: {p7F:01}勇者軍のターンです。{end}
-EN: 
+EN: {p7F:01}The Heroes' turn.{end}
 
 #id 0110 ptr=0143A7 box=sysmsg
 JP: {p03:14}{uiF2}{uiF3}{cF1:05}{p02:14}ぞ{p02:15}だ{cF1:01}{p02:16}{cFA:00}{end}
@@ -458,9 +458,9 @@ EN:
 JP: {c9B:20}{c80:00}{c81:030E00}{c82:20}{p06:08}{c84:668002}{p06:09}{c84:688002}{p06:0A}{c84:6A8002}{cF1:01}{p0D:05}{c88:0A528002}{p0D:07}{c88:0A5C8002}{c80:00}{p0D:09}{c81:160E00}{jF0:A4C502}{c82:18}{c88:0AC8A402}
 EN: 
 
-#id 0115 ptr=0145A4 box=sysmsg
+#id 0115 ptr=0145A4 box=sysmsg slack=1
 JP: {c80:00}{p14:0C}{c87:2A0E00}{color:01}{p12:02}タイプ{p02:02}{c81:680E00}{jF0:D0C502}てきユニット{goto:D8C502}
-EN: 
+EN: {c80:00}{p14:0C}{c87:2A0E00}{color:01}{p12:02}Type{p02:02}{c81:680E00}{jF0:D0C502}Enemy{goto:D8C502}
 
 #id 0116 ptr=0145D0 box=sysmsg cont=1
 JP: {c80:00}{c97:120E00}
@@ -484,27 +484,27 @@ EN:
 
 #id 0121 ptr=01461C box=sysmsg cont=1
 JP: {speed:00}{c80:00}{c81:5A0E00}{jF0:37C602}{c80:00}敵を倒して 
-EN: 
+EN: {speed:00}{c80:00}{c81:5A0E00}{jF0:37C602}{c80:00}Foe beaten! 
 
 #id 0122 ptr=014637 box=sysmsg
 JP: {c80:00}{c85:580E00}ポイントの経験値をえた。{end}
-EN: 
+EN: {c80:00}Gained{c85:580E00} EXP.{end}
 
 #id 0123 ptr=01464F box=sysmsg
 JP: {cF1:06}{p02:18}KL{cF1:05}{c80:00}{c85:070E00}{cF1:06}{p02:19}KL{c94:1962}{p04:19}{c8C:2200008A}{c8E:24000062}{cF1:01}{end}
 EN: 
 
-#id 0124 ptr=014681 box=sysmsg cont=1
+#id 0124 ptr=014681 box=sysmsg cont=1 slack=3
 JP: {p02:16}{c94:1B20}{p02:18}{c94:1B20}{p02:16}{c80:00}{speed:00}やったーレベルアップ!!{n}{c9C:120E00}は{c85:060E00}レベルになった。{scroll:00}{p02:16}攻撃力が{c95:3A0E00}に、{c81:3C0E00}{jF0:EAC602}間接攻撃力が{c80:00}{c95:3C0E00}に
-EN: 
+EN: {p02:16}{c94:1B20}{p02:18}{c94:1B20}{p02:16}{c80:00}{speed:00}Yay! Level up!!{n}{c9C:120E00} is now LV{c85:060E00}.{scroll:00}{p02:16}ATK now{c95:3A0E00}{c81:3C0E00}{jF0:EAC602}, Ranged ATK{c80:00}{c95:3C0E00}
 
 #id 0125 ptr=0146EA box=sysmsg
 JP: {c80:00}{n}防御力が{c95:3E0E00}に、最大HPが{c95:380E00}になった。{scroll:00}{end}
-EN: 
+EN: {c80:00},{n}DEF{c95:3E0E00}, Max HP{c95:380E00}.{scroll:00}{end}
 
-#id 0126 ptr=014711 box=sysmsg
+#id 0126 ptr=014711 box=sysmsg slack=4
 JP: {p09:0E}{uiEE}{uiEF}{cF1:05}{p08:0E}ぞ{p08:0F}だ{p0D:0E}▶{p0D:0F}▶{p0D:10}▶{p0D:11}▶{cF1:01}{p10:0E}リルル・ブレッド{p10:10}シャルル・ブレッド{p0F:0E}{cFC:02}{end}
-EN: 
+EN: {p09:0E}{uiEE}{uiEF}{cF1:05}{p08:0E}[69]{p08:0F}[6A]{p0D:0E}▶{p0D:0F}▶{p0D:10}▶{p0D:11}▶{cF1:01}{p10:0E}Lilulu{p10:10}Charles{p0F:0E}{cFC:02}{end}
 
 #id 0127 ptr=014754 box=sysmsg
 JP: {p0B:16}{c94:3820}{p0B:16}{cFA:00}{end}
@@ -540,11 +540,11 @@ EN:
 
 #id 0135 ptr=01486B box=sysmsg
 JP: ・・・・・ うりきれ{goto:87C802}
-EN: 
+EN:   Sold out{goto:87C802}
 
 #id 0136 ptr=01487A box=sysmsg cont=1
 JP: ・・・・・{c80:00}{c83:9A0E00}
-EN: 
+EN: .....{c80:00}{c83:9A0E00}
 
 #id 0137 ptr=014887 box=sysmsg
 JP: {color:00}{cFA:00}{end}
@@ -552,91 +552,91 @@ EN:
 
 #id 0138 ptr=01488E box=sysmsg
 JP: {p7F:09}何も持っていません。{scroll:00}{end}
-EN: 
+EN: {p7F:09}You have no items.{scroll:00}{end}
 
-#id 0139 ptr=0148A1 box=sysmsg
+#id 0139 ptr=0148A1 box=sysmsg slack=3
 JP: {p10:16} 行動終了です。{p10:18}全ての行動を終了し{p10:1A}て敵にターンをゆずります{end}
-EN: 
+EN: {p10:16} End Turn{p10:18}End all moves{p10:1A}and pass turn.{end}
 
-#id 0140 ptr=0148D2 box=sysmsg
+#id 0140 ptr=0148D2 box=sysmsg slack=7
 JP: {p10:16} アイテムの使用{p10:18}持っている アイテムを{p10:1A}使用します{end}
-EN: 
+EN: {p10:16} Use Item{p10:18}Use an item{p10:1A}you're holding{end}
 
-#id 0141 ptr=0148F9 box=sysmsg
+#id 0141 ptr=0148F9 box=sysmsg slack=3
 JP: {p10:16} ユニットの詳しい説明{p10:18}を呼びだします。ユニットを{p10:1A}カーソルで選んでください{end}
-EN: 
+EN: {p10:16} Unit Info{p10:18}Pick a unit{p10:1A}to view info.{end}
 
-#id 0142 ptr=01492C box=sysmsg
+#id 0142 ptr=01492C box=sysmsg slack=3
 JP: {p10:16} ゲームの中断です。{p10:18}現状をセーブしてタイトル{p10:1A}画面にもどります{end}
-EN: 
+EN: {p10:16} Quit Game{p10:18}Save and go to{p10:1A}title screen.{end}
 
-#id 0143 ptr=01495A box=sysmsg
+#id 0143 ptr=01495A box=sysmsg slack=3
 JP: {c80:00}{c81:6A0E00}{jF0:98C902}{p10:16} 魔法を使用します。{p10:18}カーソルをユニットにあわ{p10:1A}せてAボタンで決定です{end}
-EN: 
+EN: {c80:00}{c81:6A0E00}{jF0:98C902}{p10:16} Cast Magic{p10:18}Aim at a unit,{p10:1A}press A.{end}
 
-#id 0144 ptr=014998 box=sysmsg
+#id 0144 ptr=014998 box=sysmsg slack=3
 JP: {p10:16} 敵を攻撃します。{p10:18}カーソルを敵ユニットにあわ{p10:1A}せてAボタンで決定です{end}
-EN: 
+EN: {p10:16} Attack{p10:18}Aim at a foe,{p10:1A}press A.{end}
 
-#id 0145 ptr=0149C9 box=sysmsg
+#id 0145 ptr=0149C9 box=sysmsg slack=3
 JP: {p10:16} 宝箱や鍵をあけます。{p10:18}箱の中身は箱をあけた{p10:1A}ユニットのものになります{end}
-EN: 
+EN: {p10:16} Open Chest{p10:18}Contents go to{p10:1A}the opener.{end}
 
-#id 0146 ptr=0149FB box=sysmsg
+#id 0146 ptr=0149FB box=sysmsg slack=3
 JP: {p10:16} 移動を終了します。{p10:18}家がある場合は そこを{p10:1A}訪ねたことになります{end}
-EN: 
+EN: {p10:16} End Move{p10:18}If on a house,{p10:1A}you visit it.{end}
 
-#id 0147 ptr=014A2C box=sysmsg
+#id 0147 ptr=014A2C box=sysmsg slack=8
 JP: {p10:16} 地面を捜索します。{p10:18}HPを ちょっぴり消費{p10:1A}しちゃいます{end}
-EN: 
+EN: {p10:16} Search{p10:18}Search ground.{p10:1A}Costs some HP.{end}
 
-#id 0148 ptr=014A57 box=sysmsg
+#id 0148 ptr=014A57 box=sysmsg slack=3
 JP: {p10:16} コンフィグ設定{p10:18}設定を変更したいとき{p10:1A}に使用します{end}
-EN: 
+EN: {p10:16} Config{p10:18}Change game{p10:1A}settings.{end}
 
-#id 0149 ptr=014A81 box=sysmsg
+#id 0149 ptr=014A81 box=sysmsg slack=7
 JP: {p10:16} キャッスル{p10:18}リイムがライナーク城に{p10:1A}移動します{end}
-EN: 
+EN: {p10:16} Castle{p10:18}Reem heads to{p10:1A}Castle Rainark{end}
 
-#id 0150 ptr=014AA4 box=sysmsg
+#id 0150 ptr=014AA4 box=sysmsg slack=7
 JP: {p10:16} アイテム表示{p10:18}持っているアイテムを{p10:1A}表示します{end}
-EN: 
+EN: {p10:16} Items{p10:18}Show items{p10:1A}you're holding{end}
 
-#id 0151 ptr=014AC9 box=sysmsg
+#id 0151 ptr=014AC9 box=sysmsg slack=4
 JP: {p10:16} リターン{p10:18}城に移動する前の{p10:1A}場所へ戻ります{end}
-EN: 
+EN: {p10:16} Return{p10:18}Go back to{p10:1A}where you were{end}
 
-#id 0152 ptr=014AEE box=sysmsg
+#id 0152 ptr=014AEE box=sysmsg slack=3
 JP: {p10:16} ゲームの中断です。{p10:18}現状をセーブしてタイトル{p10:1A}画面にもどります{end}
-EN: 
+EN: {p10:16} Quit Game{p10:18}Save and go to{p10:1A}title screen.{end}
 
 #id 0153 ptr=014B1C box=sysmsg
 JP: {p7F:03}{p04:18}アニメーション・・{p04:1A}ダブルアップ・・・{p12:18}サウンド・・・{p12:1A}セーブ・・・・{cFA:00}{end}
-EN: 
+EN: {p7F:03}{p04:18}Animation{p04:1A}Double Up{p12:18}Sound..{p12:1A}Save...{cFA:00}{end}
 
-#id 0154 ptr=014B4F box=sysmsg
+#id 0154 ptr=014B4F box=sysmsg slack=1
 JP: {p0D:18}{c80:00}{c81:020E00}{jF0:67CB02}かんい{goto:6ACB02}
-EN: 
+EN: {p0D:18}{c80:00}{c81:020E00}{jF0:67CB02}Lite{goto:6ACB02}
 
-#id 0155 ptr=014B67 box=sysmsg cont=1
+#id 0155 ptr=014B67 box=sysmsg cont=1 slack=1
 JP: フル 
-EN: 
+EN: Full
 
-#id 0156 ptr=014B6A box=sysmsg
+#id 0156 ptr=014B6A box=sysmsg slack=2
 JP: {p19:18}{c80:00}{c81:030E00}{jF0:83CB02}ステレオ{goto:87CB02}
-EN: 
+EN: {p19:18}{c80:00}{c81:030E00}{jF0:83CB02}Stereo{goto:87CB02}
 
 #id 0157 ptr=014B83 box=sysmsg cont=1
 JP: モノラル
-EN: 
+EN: Mono
 
-#id 0158 ptr=014B87 box=sysmsg
+#id 0158 ptr=014B87 box=sysmsg slack=1
 JP: {p0D:1A}{c80:00}{c81:040E00}{jF0:9ECB02}なし{goto:A0CB02}
-EN: 
+EN: {p0D:1A}{c80:00}{c81:040E00}{jF0:9ECB02}Off{goto:A0CB02}
 
 #id 0159 ptr=014B9E box=sysmsg cont=1
 JP: あり
-EN: 
+EN: On
 
 #id 0160 ptr=014BA0 box=sysmsg
 JP: {p19:1A}{c80:00}{c81:050E00}{jF0:B8CB02}カット{goto:BBCB02}
