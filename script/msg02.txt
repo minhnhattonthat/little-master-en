@@ -640,11 +640,11 @@ EN: On
 
 #id 0160 ptr=014BA0 box=sysmsg
 JP: {p19:1A}{c80:00}{c81:050E00}{jF0:B8CB02}カット{goto:BBCB02}
-EN: 
+EN: {p19:1A}{c80:00}{c81:050E00}{jF0:B8CB02}Off{goto:BBCB02}
 
-#id 0161 ptr=014BB8 box=sysmsg cont=1
+#id 0161 ptr=014BB8 box=sysmsg cont=1 slack=1
 JP: オート
-EN: 
+EN: Auto
 
 #id 0162 ptr=014BBB box=sysmsg
 JP: {end}
@@ -652,7 +652,7 @@ EN:
 
 #id 0163 ptr=014BBC box=sysmsg
 JP: {p7F:00}ゲームの設定を変更しました。{scroll:00}{end}
-EN: 
+EN: {p7F:00}Settings changed.{scroll:00}{end}
 
 #id 0164 ptr=014BD5 box=sysmsg
 JP: {p03:16}{uiBD}{uiBE}{uiBF}{cF1:05}{p02:16}ぞ{p02:17}だ{cF1:01}{p02:18}{cFA:00}{end}
@@ -688,43 +688,43 @@ EN:
 
 #id 0172 ptr=014D1E box=sysmsg
 JP: {p7F:09}その魔法を使うには{n}コハクがたりません。{scroll:00}{end}
-EN: 
+EN: {p7F:09}Not enough amber{n}for that spell.{scroll:00}{end}
 
 #id 0173 ptr=014D3C box=sysmsg
 JP: {p7F:09}魔法をかけられるユニットが{n}射程内にいませんでした。{scroll:00}{end}
-EN: 
+EN: {p7F:09}No target for the{n}spell in range.{scroll:00}{end}
 
 #id 0174 ptr=014D62 box=sysmsg
 JP: {c80:00}{c81:6C0E00}{c82:10}{c88:0A66B522}の魔法を使います。{n}{end}
-EN: 
+EN: Casting {c80:00}{c81:6C0E00}{c82:10}{c88:0A66B522}.{n}{end}
 
 #id 0175 ptr=014D81 box=sysmsg
 JP: {p7F:01}{c80:00}{c81:240000}{c82:28}{c87:64BF0B}に、{c80:00}{c84:260000}のダメージ。{end}
-EN: 
+EN: {p7F:01}{c80:00}{c81:240000}{c82:28}{c87:64BF0B} takes{c80:00}{c84:260000} damage.{end}
 
 #id 0176 ptr=014DA5 box=sysmsg
 JP: {p7F:09}そのターゲットには すでに魔法が{n}かかっています。{n}ほかのターゲットをえらんでください。{scroll:00}{end}
-EN: 
+EN: {p7F:09}That target already{n}has a spell on it.{n}Pick another one.{scroll:00}{end}
 
 #id 0177 ptr=014DDA box=sysmsg
 JP: {c80:00}{c81:900E00}{jF0:00CE02}魔法でも状態を回復できませんでした。{end}
-EN: 
+EN: {c80:00}{c81:900E00}{jF0:00CE02}Magic failed to cure it.{end}
 
 #id 0178 ptr=014E00 box=sysmsg
 JP: 魔法で状態が回復しました。{end}
-EN: 
+EN: Magic cured the ailment.{end}
 
 #id 0179 ptr=014E14 box=sysmsg
 JP: {p7F:00}{c80:00}{c87:AA0E00}を、{n}魔法で回復させますか?{goto:6BD302}
-EN: 
+EN: {p7F:00}{c80:00}Restore {c87:AA0E00}{n}with magic?{goto:6BD302}
 
 #id 0180 ptr=014E36 box=sysmsg
 JP: {p7F:01}まことに残念ですが、魔法はもうかけられません。{scroll:00}{end}
-EN: 
+EN: {p7F:01}Sorry, no more magic can be cast.{scroll:00}{end}
 
 #id 0181 ptr=014E58 box=sysmsg
 JP: {p7F:01}この範囲のユニットに大ダメージです。{n}これでいいですか?{goto:6BD302}
-EN: 
+EN: {p7F:01}Heavy damage to units in this area.{n}Is that OK?{goto:6BD302}
 
 #id 0182 ptr=014E7F box=sysmsg
 JP: {p7F:09}アイテムを使用するのを{n}とりやめました。{scroll:00}{end}
@@ -732,55 +732,55 @@ EN: {p7F:09}Item use{n}canceled.{scroll:00}{end}
 
 #id 0183 ptr=014E9C box=sysmsg
 JP: {c80:00}{c81:320000}{c82:18}{c88:0AE0A402} を{n}装備していいですか?{goto:6BD302}
-EN: 
+EN: Equip {c80:00}{c81:320000}{c82:18}{c88:0AE0A402}?{goto:6BD302}
 
 #id 0184 ptr=014EC1 box=sysmsg
 JP: 他のユニットが使用しています。{n}それを選ぶことはできません。{scroll:00}{end}
-EN: 
+EN: Another unit is using it.{n}You can't choose that.{scroll:00}{end}
 
 #id 0185 ptr=014EE7 box=sysmsg
 JP: {p7F:05}{p0B:16}ユニット選択{p02:18}{c80:00}{c81:980E00}{c82:18}{c88:0AE0A402} を つかいます。{n}ターゲットを えらんでください。{goto:0EB502}
-EN: 
+EN: {p7F:05}{p0B:16}Select{p02:18}Using {c80:00}{c81:980E00}{c82:18}{c88:0AE0A402}.{n}Choose a target.{goto:0EB502}
 
 #id 0186 ptr=014F28 box=sysmsg
 JP: {p7F:01}{c80:00}{c9C:120E00}が、{c81:980E00}{c82:18}{c88:0AE0A402} のアイテムを{n}つかいます。よろしいですか?{goto:6BD302}
-EN: 
+EN: {p7F:01}{c80:00}{c9C:120E00} will use {c81:980E00}{c82:18}{c88:0AE0A402}.{n}Is that OK?{goto:6BD302}
 
 #id 0187 ptr=014F5E box=sysmsg
 JP: アイテムの装備を解除しますか?{goto:6BD302}
-EN: 
+EN: Unequip the item?{goto:6BD302}
 
 #id 0188 ptr=014F76 box=sysmsg
 JP: {c80:00}{c83:9A0E00}メダルはらって、{n}{c81:980E00}{c82:18}{c88:0AE0A402} をかいますか?{goto:6BD302}
-EN: 
+EN: {c80:00}Pay{c83:9A0E00} Medals{n}for {c81:980E00}{c82:18}{c88:0AE0A402}?{goto:6BD302}
 
 #id 0189 ptr=014FA2 box=sysmsg
 JP: アイテムを買いました。{n}ほかにも買い物をしますか?{goto:6BD302}
-EN: 
+EN: Item bought.{n}Buy anything else?{goto:6BD302}
 
 #id 0190 ptr=014FC3 box=sysmsg
 JP: そのアイテムを買うための、{n}お金が足りません。{scroll:00}{end}
-EN: 
+EN: Not enough Medals{n}for that item.{scroll:00}{end}
 
 #id 0191 ptr=014FE1 box=sysmsg
 JP: {p7F:09}地面をしらべる元気が、{n}もうありません。{scroll:00}{end}
-EN: 
+EN: {p7F:09}No energy left to{n}search the ground.{scroll:00}{end}
 
 #id 0192 ptr=015000 box=sysmsg
 JP: {p7F:01}{speed:02}地面を調べます{speed:0C}.......{speed:02}{end}
-EN: 
+EN: {p7F:01}{speed:02}Searching the ground{speed:0C}.......{speed:02}{end}
 
 #id 0193 ptr=01501E box=sysmsg
 JP: {p7F:03}何も発見できませんでした。{scroll:00}{end}
-EN: 
+EN: {p7F:03}Found nothing.{scroll:00}{end}
 
 #id 0194 ptr=015035 box=sysmsg
 JP: {p7F:03}{c80:00}{c95:240000}このメダルを手に入れました。{scroll:00}{end}
-EN: 
+EN: {p7F:03}{c80:00}Got{c95:240000} Medals.{scroll:00}{end}
 
 #id 0195 ptr=015054 box=sysmsg
 JP: {p7F:03}{c80:00}{c9C:120E00}は、コハクを手に入れました。{scroll:00}{end}
-EN: 
+EN: {p7F:03}{c80:00}{c9C:120E00} got amber.{scroll:00}{end}
 
 #id 0196 ptr=015073 box=sysmsg
 JP: {c80:00}{p03:05}{c94:0D20}{p11:06}{cF1:08}:{cF1:06}◀{c81:100E00}{c82:07}{c88:07E9D102}{c80:00}{cF1:01}{p19:05}{c83:5A0E00}{p03:05}{c97:120E00}{cFA:00}{end}
@@ -788,35 +788,35 @@ EN:
 
 #id 0197 ptr=0150B0 box=sysmsg
 JP: {c80:00}{c87:2A0E00}は、{goto:65C702}
-EN: 
+EN: {c80:00}{c87:2A0E00}: {goto:65C702}
 
 #id 0198 ptr=0150BF box=sysmsg
 JP: {c80:00}{c84:5A0E00}メダルをつかって、{n}{c9C:120E00} をなおしますか?{goto:6BD302}
-EN: 
+EN: {c80:00}Use{c84:5A0E00} Medals{n}to heal {c9C:120E00}?{goto:6BD302}
 
 #id 0199 ptr=0150E4 box=sysmsg
 JP: そのユニットをなおすための{n}メダルがたりません。{scroll:00}{end}
-EN: 
+EN: Not enough Medals{n}to heal that unit.{scroll:00}{end}
 
 #id 0200 ptr=015100 box=sysmsg
 JP: 治療が終わりました。{n}さらに続けますか?{goto:6BD302}
-EN: 
+EN: Treatment complete.{n}Continue?{goto:6BD302}
 
 #id 0201 ptr=01511D box=sysmsg
 JP: そのユニットは健康です。{n}なおす必要はありません。{scroll:00}{end}
-EN: 
+EN: That unit is healthy.{n}No need for treatment.{scroll:00}{end}
 
 #id 0202 ptr=01513E box=sysmsg
 JP: {p7F:0E}「いらっしゃいませ。何かお求めになりますか?」{goto:95D102}
-EN: 
+EN: {p7F:0E}"Welcome! What can I get you?"{goto:95D102}
 
 #id 0203 ptr=01515F box=sysmsg
 JP: {p7F:0E}医者「おやおや、どうしました。」{goto:95D102}
-EN: 
+EN: {p7F:0E}Doctor: "Well, well. What's wrong?"{goto:95D102}
 
 #id 0204 ptr=015179 box=sysmsg cont=1
 JP: {p7F:0E}主人「いらっしゃい。何か買っていくかい?」
-EN: 
+EN: {p7F:0E}Owner: "Welcome. Buying something?"
 
 #id 0205 ptr=015195 box=sysmsg
 JP: {speed:00}{p16:18}{uiE5}{uiE6}{uiE7}{p15:18}{c80:04}{cFC:82}{end}
@@ -824,11 +824,11 @@ EN:
 
 #id 0206 ptr=0151AB box=sysmsg
 JP: {p7F:01}スイッチパネルをふみました。{n}どこかで大きな音がしましたよ。{end}
-EN: 
+EN: {p7F:01}You stepped on a switch panel.{n}Something made a loud noise!{end}
 
 #id 0207 ptr=0151CF box=sysmsg
 JP: {p7F:01}魔物があらわれた。{end}
-EN: 
+EN: {p7F:01}Monsters appeared!{end}
 
 #id 0208 ptr=01536B box=sysmsg
 JP: {p16:1A}{uiE5}{uiE6}{uiE7}{p15:1A}{c80:04}{cFC:82}{end}
@@ -838,9 +838,9 @@ EN:
 JP: {clear:00}{p05:16}アニメテスト{p05:18}ほかのめん{p05:1A}つぼダンス{p12:16}こばなし{p12:18}SEテスト{p12:1A}ポエム{cFA:00}{end}
 EN: 
 
-#id 0210 ptr=0153B3 box=sysmsg
+#id 0210 ptr=0153B3 box=sysmsg slack=8
 JP: {p02:16}{c94:1B20}{p02:18}{c94:1B20}{p02:16}{c80:00}コハクつかい、{c81:240000}{c82:12}{c88:124BD202}の{n}魔法がパワーアップしました。{scroll:00}{end}
-EN: 
+EN: {p02:16}{c94:1B20}{p02:18}{c94:1B20}{p02:16}{c80:00}Used amber!{n}{c81:240000}{c82:12}{c88:124BD202} powered up!{scroll:00}{end}
 
 #id 0211 ptr=0153F2 box=sysmsg
 JP: {p02:18}{goto:FDD302}
@@ -852,11 +852,11 @@ EN:
 
 #id 0213 ptr=0153FD box=sysmsg
 JP: {c94:1920}{p02:1A}{c94:1920}{p0B:16}{c80:00}{c81:5A0F00}{jF0:25D402}みかたユニット {goto:2DD402}
-EN: 
+EN: {c94:1920}{p02:1A}{c94:1920}{p0B:16}{c80:00}{c81:5A0F00}{jF0:25D402}Ally    {goto:2DD402}
 
 #id 0214 ptr=015425 box=sysmsg cont=1
 JP: てきユニット  
-EN: 
+EN: Enemy   
 
 #id 0215 ptr=01542D box=sysmsg cont=1
 JP: {cF1:05}{p1B:16},,,{p1B:17},,,{p1B:18},,,{p0A:16}/{cF1:25}{p0A:17}/{cF1:06}{p02:1A}GH◀   PQ    ST◀   WX◀{p02:1B}IJ◀{p0E:1B}UV◀   YZ◀   ょっ◀{c9B:30}{c80:00}{cF1:05}{p05:1A}{c95:080F00}{p0A:1A}{c95:380F00}{p17:1B}{c8E:5C0F0031}∶{c86:560F00}{p05:1B}{c85:060F00}{p11:1A}{c95:3A0F00}{p17:1A}{c95:3C0F00}{p11:1B}{c95:3E0F00}{c9B:20}{p1B:19}{c85:600E00}={cF1:08}{p1D:1B}{c8E:110F0087}{p08:1B}:{cF1:06}◀{c81:100F00}{c82:07}{c88:07E9D102}{cF1:01}{c80:00}{p02:18}{c94:1920}{p02:18}{c81:740E00}{jF0:13D502}{color:01}
@@ -956,15 +956,15 @@ EN:
 
 #id 0239 ptr=015AF8 box=sysmsg
 JP: {p07:0E}{uiC4}{uiC5}{p08:10}{uiF9}{uiFA}{uiFB}{p08:12}{uiFC}{uiFD}{cF1:06}{p07:11}.{p07:13}.{cF1:05}{p06:0E}ぞ{p06:0F}だ{p0D:0D}({p0D:0E}){p0D:0F}){p0D:10}){p0D:11}){p0D:12}){p0D:13}){cF1:25}{p0D:14}({cF1:01}{p0E:0E}{c94:0F20}{p0E:10}{c94:0F20}{c81:5A0E00}{jF0:83DB02}{c80:00}{p0E:0E}{c87:2A0E00}の{p0E:10}装備を変更します。{cFA:00}{end}
-EN: 
+EN: {p07:0E}{uiC4}{uiC5}{p08:10}{uiF9}{uiFA}{uiFB}{p08:12}{uiFC}{uiFD}{cF1:06}{p07:11}.{p07:13}.{cF1:05}{p06:0E}[69]{p06:0F}[6A]{p0D:0D}({p0D:0E}){p0D:0F}){p0D:10}){p0D:11}){p0D:12}){p0D:13}){cF1:25}{p0D:14}({cF1:01}{p0E:0E}{c94:0F20}{p0E:10}{c94:0F20}{c81:5A0E00}{jF0:83DB02}{c80:00}{p0E:0E}{c87:2A0E00}{p0E:10}Change gear.{cFA:00}{end}
 
 #id 0240 ptr=015B83 box=sysmsg
 JP: {p0E:0E}出撃をします。{p0E:10}準備ができたらえらんでね。{cFA:00}{end}
-EN: 
+EN: {p0E:0E}Deploy.{p0E:10}Go when ready.{cFA:00}{end}
 
 #id 0241 ptr=015BA5 box=sysmsg
 JP: {cF1:05}{p06:0E}ぞ{p06:0F}だ{cF1:01}{p07:0E}{uiEE}{uiEF}{p07:10}出撃します。よろしいですか?{p14:12}{uiE5}{uiE6}{uiE7}{p13:12}{c80:04}{cFC:82}{end}
-EN: 
+EN: {cF1:05}{p06:0E}[69]{p06:0F}[6A]{cF1:01}{p07:0E}{uiEE}{uiEF}{p07:10}Deploy. Ready?{p14:12}{uiE5}{uiE6}{uiE7}{p13:12}{c80:04}{cFC:82}{end}
 
 #id 0242 ptr=015BE0 box=sysmsg
 JP: {p7F:0F}{speed:00}{c80:00}DEMO SCENE END.{n}PUSH ANY BUTTON TO REPLAY.{n}PUSH (X) BUTTON TO EXIT.{n}BG BAP1/{c9A:580900} BAP2/{c9A:5A0900} OK{scroll:00}{end}
@@ -972,19 +972,19 @@ EN:
 
 #id 0243 ptr=015C4C box=sysmsg
 JP: {p7F:09}このユニットは、呪われています。{n}何も起こりませんでした。{end}
-EN: 
+EN: {p7F:09}The unit is cursed.{n}Nothing happened.{end}
 
 #id 0244 ptr=015C70 box=sysmsg
 JP: {p7F:09}{c80:00}伝染病が流行しています。{n}{c87:2A0E00}に伝染しました。{scroll:00}{end}
-EN: 
+EN: {p7F:09}{c80:00}A plague spreads.{n}{c87:2A0E00} caught it.{scroll:00}{end}
 
 #id 0245 ptr=015C9B box=sysmsg
 JP: {p7F:08}{c80:00}{c87:2A0E00}が、{n}回復して元気になりました。{end}
-EN: 
+EN: {p7F:08}{c80:00}{c87:2A0E00} recovered{n}and feels fine.{end}
 
 #id 0246 ptr=015CBB box=sysmsg
 JP: {p7F:08}{c80:00}{c87:2A0E00}の体力が、{n}状態異常で、{c85:5A0E00}のダメージ。{end}
-EN: 
+EN: {p7F:08}{c80:00}{c87:2A0E00} takes{c85:5A0E00} damage{n}from its ailment.{end}
 
 #id 0247 ptr=015CE4 box=sysmsg
 JP: {c80:00}{p02:04}・メッセージテスト{p04:07}BANK {c85:011000} / MES# {c84:001000} ({c9A:001000}){p04:09}FRAME {c85:021000}{p0C:0E} (B)EXIT / (Y)EXEC{end}
@@ -992,15 +992,15 @@ EN:
 
 #id 0248 ptr=015D39 box=sysmsg
 JP: {p7F:00}宝箱に、{c80:00}{c81:980E00}{c82:18}{c88:0AE0A402} が入っています。{n}このアイテムを取りますか?{goto:6BD302}
-EN: 
+EN: {p7F:00}The chest holds {c80:00}{c81:980E00}{c82:18}{c88:0AE0A402}.{n}Take this item?{goto:6BD302}
 
 #id 0249 ptr=015D71 box=sysmsg
 JP: {p7F:00}装備を、{c80:00}{c81:980E00}{c82:18}{c88:0AE0A402} と{n}入れ替えますか?{goto:6BD302}
-EN: 
+EN: {p7F:00}Swap gear for {c80:00}{c81:980E00}{c82:18}{c88:0AE0A402}?{goto:6BD302}
 
 #id 0250 ptr=015D9D box=sysmsg
 JP: {p7F:00}アイテムを手に入れました。{scroll:00}{end}
-EN: 
+EN: {p7F:00}Got the item.{scroll:00}{end}
 
 #id 0251 ptr=015DB3 box=sysmsg
 JP: {goto:6BD302}
@@ -1008,47 +1008,47 @@ EN:
 
 #id 0252 ptr=015DB8 box=sysmsg
 JP: {p7F:00}宝箱から{c80:00}{c95:001000}枚のメダルを 手にいれました。{scroll:00}{end}
-EN: 
+EN: {p7F:00}Got{c80:00}{c95:001000} Medals from the chest.{scroll:00}{end}
 
 #id 0253 ptr=015DDE box=sysmsg
 JP: {p0B:18}健康です。治療の必要は、{n}ありません。{cFA:00}{end}
-EN: 
+EN: {p0B:18}Healthy. No need{n}for treatment.{cFA:00}{end}
 
 #id 0254 ptr=015DFE box=sysmsg
 JP: {p0B:18}毒におかされています。{n}体力が減っていきます。{cFA:00}{end}
-EN: 
+EN: {p0B:18}Poisoned.{n}Losing HP.{cFA:00}{end}
 
 #id 0255 ptr=015E20 box=sysmsg
 JP: {p0B:18}パラライズにかかっています。{n}このままでは動けません。{cFA:00}{end}
-EN: 
+EN: {p0B:18}Paralyzed.{n}Can't move.{cFA:00}{end}
 
 #id 0256 ptr=015E43 box=sysmsg
 JP: {p0B:18}トランスにかかっています。{n}このままでは動けません。{cFA:00}{end}
-EN: 
+EN: {p0B:18}In a trance.{n}Can't move.{cFA:00}{end}
 
 #id 0257 ptr=015E65 box=sysmsg
 JP: {p0B:18}スローにかかっています。{n}動きがゆっくりになっています。{cFA:00}{end}
-EN: 
+EN: {p0B:18}Slowed.{n}Moves slowly.{cFA:00}{end}
 
 #id 0258 ptr=015E89 box=sysmsg
 JP: {p0B:18}ウイークにかかっています。{n}力がとても弱っています。{cFA:00}{end}
-EN: 
+EN: {p0B:18}Weakened.{n}Very weak now.{cFA:00}{end}
 
 #id 0259 ptr=015EAC box=sysmsg
 JP: {p0B:18}伝染病にかかっています。{n}体力が減り、伝染します。{cFA:00}{end}
-EN: 
+EN: {p0B:18}Has a plague.{n}HP falls, spreads{cFA:00}{end}
 
 #id 0260 ptr=015ED4 box=sysmsg
 JP: {p0B:18}呪われています。{n}体力の回復ができません。{cFA:00}{end}
-EN: 
+EN: {p0B:18}Cursed.{n}No HP recovery.{cFA:00}{end}
 
 #id 0261 ptr=015EF5 box=sysmsg
 JP: {p7F:08}{c80:00}{c9C:120E00}が復活しました。{end}
-EN: 
+EN: {p7F:08}{c80:00}{c9C:120E00} was revived.{end}
 
 #id 0262 ptr=015F0B box=sysmsg
 JP: {p7F:05}      の魔石をはめます。{n}(選択してAボタンでけってい){end}
-EN: 
+EN: {p7F:05}             Jewel will be set.{n}(Choose and press A.){end}
 
 #id 0263 ptr=015F32 box=sysmsg
 JP: {c80:00}{p02:18}{c81:240000}{c82:06}{c88:0621D202}{end}
@@ -1056,43 +1056,43 @@ EN:
 
 #id 0264 ptr=015F47 box=sysmsg
 JP: {p7F:00}{c80:00}魔石を1つはめました。{n}残りの台座は、{c85:061000}つです。{scroll:00}{end}
-EN: 
+EN: {p7F:00}{c80:00}One Jewel set.{n}{c85:061000} pedestals remain.{scroll:00}{end}
 
-#id 0265 ptr=015F72 box=sysmsg
+#id 0265 ptr=015F72 box=sysmsg slack=4
 JP: {p03:06}  ゲーム スタート{p12:06}  データを けす{p03:0A}1 シナリオ{c80:00}{c81:001000}{jF0:D3DF02}{c89:C0FF}{jF0:BEDF02}{c80:00}{c85:001000}  つづきから{goto:DCDF02}
-EN: 
+EN: {p03:06}  Start{p12:06}  Erase{p03:0A}1 Stage{c80:00}{c81:001000}{jF0:D3DF02}{c89:C0FF}{jF0:BEDF02}{c80:00}{c85:001000}  Continue{goto:DCDF02}
 
-#id 0266 ptr=015FBE box=sysmsg
+#id 0266 ptr=015FBE box=sysmsg slack=4
 JP: {p05:0A}おしろのまえ  つづきから{goto:DCDF02}
-EN: 
+EN: {p05:0A}Castle   Continue{goto:DCDF02}
 
-#id 0267 ptr=015FD3 box=sysmsg cont=1
+#id 0267 ptr=015FD3 box=sysmsg cont=1 slack=3
 JP:  0  はじめから
-EN: 
+EN:  0  New Game
 
-#id 0268 ptr=015FDC box=sysmsg
+#id 0268 ptr=015FDC box=sysmsg slack=4
 JP: {p03:0E}2 シナリオ{c80:00}{c81:601000}{jF0:24E002}{c89:C0FF}{jF0:0FE002}{c80:00}{c85:601000}  つづきから{goto:2DE002}
-EN: 
+EN: {p03:0E}2 Stage{c80:00}{c81:601000}{jF0:24E002}{c89:C0FF}{jF0:0FE002}{c80:00}{c85:601000}  Continue{goto:2DE002}
 
-#id 0269 ptr=01600F box=sysmsg
+#id 0269 ptr=01600F box=sysmsg slack=4
 JP: {p05:0E}おしろのまえ  つづきから{goto:2DE002}
-EN: 
+EN: {p05:0E}Castle   Continue{goto:2DE002}
 
-#id 0270 ptr=016024 box=sysmsg cont=1
+#id 0270 ptr=016024 box=sysmsg cont=1 slack=3
 JP:  0  はじめから
-EN: 
+EN:  0  New Game
 
-#id 0271 ptr=01602D box=sysmsg
+#id 0271 ptr=01602D box=sysmsg slack=4
 JP: {p03:12}3 シナリオ{c80:00}{c81:C01000}{jF0:75E002}{c89:C0FF}{jF0:60E002}{c80:00}{c85:C01000}  つづきから{goto:7EE002}
-EN: 
+EN: {p03:12}3 Stage{c80:00}{c81:C01000}{jF0:75E002}{c89:C0FF}{jF0:60E002}{c80:00}{c85:C01000}  Continue{goto:7EE002}
 
-#id 0272 ptr=016060 box=sysmsg
+#id 0272 ptr=016060 box=sysmsg slack=4
 JP: {p05:12}おしろのまえ  つづきから{goto:7EE002}
-EN: 
+EN: {p05:12}Castle   Continue{goto:7EE002}
 
-#id 0273 ptr=016075 box=sysmsg cont=1
+#id 0273 ptr=016075 box=sysmsg cont=1 slack=3
 JP:  0  はじめから
-EN: 
+EN:  0  New Game
 
 #id 0274 ptr=01607E box=sysmsg
 JP: {cF1:05}{p0C:0A}/{p0C:0E}/{p0C:12}/{cF1:25}{p0C:0B}/{p0C:0F}/{p0C:13}/{cF1:01}{p03:06}{c80:0F}{cFC:82}{end}
@@ -1100,67 +1100,67 @@ EN:
 
 #id 0275 ptr=0160A9 box=sysmsg
 JP: {p7F:01}{n}冒険を始めますか?{goto:CDE002}
-EN: 
+EN: {p7F:01}{n}Start the adventure?{goto:CDE002}
 
 #id 0276 ptr=0160BE box=sysmsg cont=1
 JP: {p7F:01}{n}ファイルをけしますか?
-EN: 
+EN: {p7F:01}{n}Erase this file?
 
-#id 0277 ptr=0160CD box=sysmsg
+#id 0277 ptr=0160CD box=sysmsg slack=1
 JP: {p03:18}ファイル{c8E:550A0031}{p0C:18}{c81:82EA7E}{c89:C0FF}{jF0:FCE002}シナリオ{c80:00}{c85:82EA7E}{goto:02E102}
-EN: 
+EN: {p03:18}File{c8E:550A0031}{p0C:18}{c81:82EA7E}{c89:C0FF}{jF0:FCE002}Stage{c80:00}{c85:82EA7E}{goto:02E102}
 
 #id 0278 ptr=0160FC box=sysmsg cont=1
 JP: おしろのまえ
-EN: 
+EN: Castle
 
 #id 0279 ptr=016102 box=sysmsg
 JP: {cF1:05}{p02:18}/{p0B:18}/{cF1:25}{p02:19}/{p0B:19}/{cF1:01}{goto:6BD302}
 EN: 
 
-#id 0280 ptr=016120 box=sysmsg
+#id 0280 ptr=016120 box=sysmsg slack=1
 JP: {p03:16}{uiC6}{uiC7}{uiC8}{c80:00}{c81:6C0900}{p0D:17}シナリオ{c85:001000}{c9B:30}{cF1:06}{p06:19}IJ◀{p06:1A}KL◀{p0F:19}IJ◀{p0F:1A}KL◀{p18:19}IJ◀{p18:1A}KL◀{p15:17}ュョッ{cF1:05}{c83:021000}{p09:19}{c85:061000}{p09:1A}{c85:071000}{p12:19}{c85:261000}{p12:1A}{c85:271000}{p1B:19}{c85:461000}{p1B:1A}{c85:471000}{p10:1B}◀{c81:301000}{c82:07}{c88:07E9D102}{cF1:05}{p19:1B}◀{c80:00}{c81:6C0900}{c81:501000}{c82:07}{c88:07E9D102}{cF1:05}{p07:1B}◀{c80:00}{c81:6C0900}{c81:101000}{c82:07}{c88:07E9D102}{cF1:08}{p06:1B}:{p0F:1B}:{p18:1B}:{c80:00}{cF1:01}{p04:17}ファイル{c8E:550A0031}{cF1:05}{p03:17}/{p0C:17}/{p02:16}+{p02:15}×{cF1:25}{p03:18}/{p0C:18}/{cF1:01}{c9B:20}{cFA:00}{end}
-EN: 
+EN: {p03:16}{uiC6}{uiC7}{uiC8}{c80:00}{c81:6C0900}{p0D:17}Stage{c85:001000}{c9B:30}{cF1:06}{p06:19}IJ◀{p06:1A}KL◀{p0F:19}IJ◀{p0F:1A}KL◀{p18:19}IJ◀{p18:1A}KL◀{p15:17}[9D][9E][9F]{cF1:05}{c83:021000}{p09:19}{c85:061000}{p09:1A}{c85:071000}{p12:19}{c85:261000}{p12:1A}{c85:271000}{p1B:19}{c85:461000}{p1B:1A}{c85:471000}{p10:1B}◀{c81:301000}{c82:07}{c88:07E9D102}{cF1:05}{p19:1B}◀{c80:00}{c81:6C0900}{c81:501000}{c82:07}{c88:07E9D102}{cF1:05}{p07:1B}◀{c80:00}{c81:6C0900}{c81:101000}{c82:07}{c88:07E9D102}{cF1:08}{p06:1B}:{p0F:1B}:{p18:1B}:{c80:00}{cF1:01}{p04:17}File{c8E:550A0031}{cF1:05}{p03:17}/{p0C:17}/{p02:16}+{p02:15}×{cF1:25}{p03:18}/{p0C:18}/{cF1:01}{c9B:20}{cFA:00}{end}
 
 #id 0281 ptr=01623B box=sysmsg
 JP: {p02:0C} ▼ ノーマルモード  NORMAL MODE{p02:0E}  ユニットが すくすく成長するモードです。{p02:12} ▼ アドヴァンスドモード ADVANCED MODE{p02:14}  ちょっと手ごたえのある 上級者モードです。{p02:18} § ノーマルモード と アドヴァンスドモードによる{p02:1A}   ゲーム進行上の違いは ありません。{p03:06}どちらの モードではじめますか?{p08:08}ノーマルモード{p13:08}アドヴァンスドモード{p07:08}{c80:0B}{cFC:82}{end}
-EN: 
+EN: {p02:0C} ▼ NORMAL MODE{p02:0E}  Units grow up fast.{p02:12} ▼ ADVANCED MODE{p02:14}  Harder mode for experts.{p02:18} [CF] The story is the same{p02:1A}   in both modes.{p03:06}Choose a mode.{p08:08}Normal{p13:08}Advanced{p07:08}{c80:0B}{cFC:82}{end}
 
 #id 0282 ptr=016318 box=sysmsg
 JP: {p7F:00}アイテムの効果はありませんでした。{scroll:00}{end}
-EN: 
+EN: {p7F:00}The item had no effect.{scroll:00}{end}
 
 #id 0283 ptr=016332 box=sysmsg
 JP: {p7F:00}{c80:00}{c81:980E00}{c82:18}{c88:0AE0A402}をつかいます。{n}何が起こるのかな‥?{delay:50}{end}
-EN: 
+EN: {p7F:00}Using {c80:00}{c81:980E00}{c82:18}{c88:0AE0A402}.{n}What will happen..?{delay:50}{end}
 
 #id 0284 ptr=01635E box=sysmsg
 JP: {p7F:03}{p04:18}バトルレポート・・{p04:1A}敵のうごき・・・{p12:18}サウンド・・・{cFA:00}{end}
-EN: 
+EN: {p7F:03}{p04:18}Reports..{p04:1A}Foe Moves{p12:18}Sound..{cFA:00}{end}
 
-#id 0285 ptr=016387 box=sysmsg
+#id 0285 ptr=016387 box=sysmsg slack=1
 JP: {p0D:18}{c80:00}{c81:000E00}{jF0:9FE302}はやい{goto:A2E302}
-EN: 
+EN: {p0D:18}{c80:00}{c81:000E00}{jF0:9FE302}Fast{goto:A2E302}
 
-#id 0286 ptr=01639F box=sysmsg cont=1
+#id 0286 ptr=01639F box=sysmsg cont=1 slack=1
 JP: おそい
-EN: 
+EN: Slow
 
-#id 0287 ptr=0163A2 box=sysmsg
+#id 0287 ptr=0163A2 box=sysmsg slack=2
 JP: {p19:18}{c80:00}{c81:030E00}{jF0:BBE302}ステレオ{goto:BFE302}
-EN: 
+EN: {p19:18}{c80:00}{c81:030E00}{jF0:BBE302}Stereo{goto:BFE302}
 
 #id 0288 ptr=0163BB box=sysmsg cont=1
 JP: モノラル
-EN: 
+EN: Mono
 
 #id 0289 ptr=0163BF box=sysmsg
 JP: {p0D:1A}{c80:00}{c81:010E00}{jF0:D7E302}みない{goto:DAE302}
-EN: 
+EN: {p0D:1A}{c80:00}{c81:010E00}{jF0:D7E302}Off{goto:DAE302}
 
 #id 0290 ptr=0163D7 box=sysmsg cont=1
 JP: みる 
-EN: 
+EN: On 
 
 #id 0291 ptr=0163DA box=sysmsg
 JP: {end}
@@ -1168,28 +1168,28 @@ EN:
 
 #id 0292 ptr=0163F5 box=sysmsg
 JP: {p7F:01}勇者軍は、このシナリオには入れません。{scroll:00}{end}
-EN: 
+EN: {p7F:01}The Heroes can't enter this stage.{scroll:00}{end}
 
 #id 0293 ptr=016413 box=sysmsg
 JP: {p7F:00}勇者軍が先に進みます。{end}
-EN: 
+EN: {p7F:00}The Heroes move on.{end}
 
 #id 0294 ptr=016427 box=sysmsg
 JP: {c80:00}{c81:220000}{jF0:58E402}そのアイテムは装備品です。{n}それを選ぶことはできません。{scroll:00}{end}
-EN: 
+EN: {c80:00}{c81:220000}{jF0:58E402}That item is equipment.{n}You can't choose it.{scroll:00}{end}
 
 #id 0295 ptr=016458 box=sysmsg
 JP: そのアイテムを装備することは{n}できません。{scroll:00}{end}
-EN: 
+EN: That item can't be{n}equipped.{scroll:00}{end}
 
 #id 0296 ptr=016473 box=sysmsg
 JP: その品物は売り切れです。{n}買うことはできません。{scroll:00}{end}
-EN: 
+EN: That item is sold out.{n}You can't buy it.{scroll:00}{end}
 
 #id 0297 ptr=016494 box=sysmsg
 JP: {p7F:00}合体の部屋を出て、城に戻りますか?{goto:6BD302}
-EN: 
+EN: {p7F:00}Leave the fusion room and{n}return to the castle?{goto:6BD302}
 
 #id 0298 ptr=0164B4 box=sysmsg
 JP: {p7F:01}いままでの思い出を見てから退却しますか?{goto:6BD302}
-EN: 
+EN: {p7F:01}View your memories before{n}retreating?{goto:6BD302}

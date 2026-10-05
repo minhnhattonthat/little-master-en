@@ -250,9 +250,9 @@ EN: {p02:15}Goal: Clear quiz gate!{goto:13B222}
 JP: {p02:15}クリア条件:ボスを倒せ!!
 EN: {p02:15}Goal: Beat boss!
 
-#id 0063 ptr=113213 box=summary
+#id 0063 ptr=113213 box=summary slack=1
 JP: {cF1:05}{p02:18}ぞ{p02:19}だ{p08:18}▶{p08:19}▶{p08:1A}▶{p08:1B}▶{cF1:01}{p03:18}{uiC0}{uiC1}{c80:00}{p0D:18}シナリオ{c85:82EA7E}を はじめます。{p16:1A}{uiE5}{uiE6}{uiE7}{p02:05}シナリオ{c80:00}{c85:82EA7E}:{end}
-EN: 
+EN: {cF1:05}{p02:18}[69]{p02:19}[6A]{p08:18}▶{p08:19}▶{p08:1A}▶{p08:1B}▶{cF1:01}{p03:18}{uiC0}{uiC1}{c80:00}{p0D:18}Begin Stage{c85:82EA7E}.{p16:1A}{uiE5}{uiE6}{uiE7}{p02:05}Stage{c80:00}{c85:82EA7E}:{end}
 
 #id 0064 ptr=113269 box=summary
 JP: 「???」{end}
