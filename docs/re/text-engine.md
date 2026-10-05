@@ -99,3 +99,34 @@ Not traced yet: it needs in-game save states on the item menu and in battle, whi
 - Item records at PC `010052` are 32 bytes: two 10-byte name fields (`20`-padded) followed by stats.
 - The single-byte font is the same tile set, so names drawn into menus use tile = char code.
 - Many menu labels ("Save", "Attack", "Equip", "YES/NO"...) are already English graphics: kanji glyphs `7B2-7FF`.
+
+## Dynamic tiles and VWF hooks (M2 spike, 2026-10-06)
+
+- **Slot buffer:** `$7F:B000` holds 128 2bpp tiles (16 bytes each, byte `2r` = top row r in plane 0, byte `2r+1` = row r+8 in plane 1). It is uploaded to VRAM word `$6C00`, which is BG tiles `$180-$1FF`, when the NMI sees `$57 == $FE` (`$00:D927`, which also clears `$57`). Verified by poking a pattern and screenshotting: VRAM tile `$180` changed on the next frame.
+- **`$57` is an exclusive NMI command**, not a set of flags (`$00:D51D`):
+  - `0` = none.
+  - `$FE` = slot tiles (`$D927`).
+  - `$FF` = another `$7F` upload (`$D954`).
+  - Any other non-zero value = text tilemap `$7E:9000` (`$D8F9`). `$C20E` requests it with `INC $57` followed by an NMI wait (`$00:E3BE` waits on `$4A`).
+  - **So a writer must not leave `$FE` pending when the renderer's delay path INCs `$57`.** The VWF requests `$FE` and waits one frame with `JSL $00E3BE`.
+- **Reserved slots:** `$0A1A` = slots already taken by window labels drawn as UI glyphs ("Message", "Caution", names...). New kanji go to slot `$0A18 + $0A1A`, i.e. tiles `$180 + 2*slot`.
+
+  | State | `$0A1A` |
+  |---|---|
+  | field / battle / item | 2 |
+  | personal info | 23 |
+  | report | 0 |
+
+  The VWF must use tiles from `$180 + 2*$0A1A` only, and must never clear below that.
+- **Kanji copy is skipped** when `$0A18 == 0` (`$00:BBC6` → `JMP $BC75`). An all-English message leaves `$7F:B000` to the VWF.
+- **Tilemap cursor:** offset = `2*$09FC + 64*(($09FE + $0A00) & 31)` (`$00:C233`).
+- **Hook sites** all execute in every saved state (exec counts over 600 frames with A presses):
+  - `$00:BE70` char path: 44-1008 runs.
+  - `$00:BF01` newline: 1-3.
+  - `$00:BF91` cursor set: 8-385. These are heavy in menus and status screens.
+  - `$01:ECE5` window clear: 2-17.
+- **Free RAM:** `$7F:FF00-FF1F` saw no reads or writes in any state (600 frames each with A presses) or in a 3600-frame boot run.
+- **Consequences for the VWF design:**
+  - (1) Line slots of 32 cells start at tile `$180 + 2*$0A1A`, and there are `(128 - 2*$0A1A) / 32` of them. If that is fewer than the window's visible lines (`$09F6/2`), the window uses the fixed font. This is why personal info uses the fixed font for now.
+  - (2) A cursor-set code inside a message switches the rest of that message to the fixed font. Positioned layouts are menus and captions.
+  - (3) The per-message renderer start (`$00:BE43`) resets the VWF state.

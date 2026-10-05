@@ -13,7 +13,7 @@ emu.addEventCallback(function()
   if frame == after then
     local s = io.open(OUT_DIR .. "/" .. NAME .. ".png", "wb"); s:write(emu.takeScreenshot()); s:close()
     local t = {}
-    for a = 0x09F0, 0x0A0B, 2 do t[#t+1] = string.format("%04X=%04X", a, emu.read16(a, emu.memType.snesWorkRam)) end
+    for a = 0x09F0, 0x0A1F, 2 do t[#t+1] = string.format("%04X=%04X", a, emu.read16(a, emu.memType.snesWorkRam)) end
     local r = io.open(OUT_DIR .. "/" .. NAME .. ".txt", "w"); r:write(table.concat(t, " ")); r:close()
     emu.stop(0)
   end
