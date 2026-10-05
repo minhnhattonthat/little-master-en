@@ -98,3 +98,84 @@ def test_inline_caption_with_position_header_and_garbage_rejected():
     es = dump_block(rom, Block(name="ev", type="inline", ranges=[[0, len(rom)]]), t)
     assert [(e.ptr, e.jp) for e in es] == [(1, "{p08:0C}AB{end}")]
 
+
+
+from lmtools.blocks import insert_block, pointers
+
+
+def test_insert_roundtrip_synth():
+    rom = synth()
+    orig = bytes(rom)
+    insert_block(rom, B2, dump_block(rom, B2, T), T, "jp")
+    assert bytes(rom) == orig
+
+
+def test_shared_pointers_follow_their_string():
+    rom = synth()
+    es = dump_block(rom, B2, T)
+    es[0].en, es[1].en = "A{end}", "BA{end}"
+    insert_block(rom, B2, es, T, "en")
+    assert pointers(rom, B2) == [0x100, 0x102, 0x100, 0x102]
+    assert rom[0x100:0x105] == b"A\xffBA\xff"
+
+
+def test_insert_overflow_raises():
+    rom = synth()
+    es = dump_block(rom, B, T)
+    es[0].en, es[1].en = "ABAB{end}", "B{end}"
+    with pytest.raises(ValueError, match="out of space"):
+        insert_block(rom, B, es, T, "en")
+
+
+def test_insert_fixed_pads_and_rejects_long():
+    rom = bytearray(b"AB  BA  ")
+    fb = Block(name="f", type="fixed", start=0, count=2, stride=4, length=4, pad=0x20)
+    es = dump_block(rom, fb, T)
+    es[0].en, es[1].en = "B", "AAAA"
+    insert_block(rom, fb, es, T, "en")
+    assert bytes(rom) == b"B   AAAA"
+    es[0].en = "AAAAA"
+    with pytest.raises(ValueError, match="bytes >"):
+        insert_block(rom, fb, es, T, "en")
+
+
+def test_empty_text_raises():
+    rom = synth()
+    with pytest.raises(ValueError, match="empty EN"):
+        insert_block(rom, B, dump_block(rom, B, T), T, "en")
+
+
+def test_inline_pads_with_nop_and_rejects_long():
+    t = Table(["41=A", "42=B", "CE={nop}", "FF7F={p7F:1}", "00={end}"])
+    rom = bytearray(b"\x10\xff\x7f\x02AB\x00\x05")
+    blk = Block(name="ev", type="inline", ranges=[[0, len(rom)]])
+    es = dump_block(rom, blk, t)
+    es[0].en = "{p7F:02}A{end}"
+    insert_block(rom, blk, es, t, "en")
+    assert bytes(rom) == b"\x10\xff\x7f\x02A\xce\x00\x05"
+    es[0].en = "{p7F:02}AAB{end}"
+    with pytest.raises(ValueError, match="too long"):
+        insert_block(rom, blk, es, t, "en")
+
+
+def test_jump_args_follow_moved_strings():
+    t = Table(["41=A", "42=B", "FFC0={goto:3}", "00={end}"])
+    rom = bytearray(0x200)
+    rom[0x100:0x108] = b"AA\xff\xc0\x07\x81\x00" + b"B"   # "AA" goto $00:8107 ("B" at PC 0x107)
+    rom[0x108] = 0x00
+    rom[0:2] = (0x8100).to_bytes(2, "little")
+    blk = Block(name="j", type="ptr16", tables=[[0, 1]], bank=0)
+    es = dump_block(rom, blk, t)
+    es[0].en, es[1].en = "A" + es[0].jp[2:], es[1].jp    # 1 byte shorter -> "B" moves to 0x106
+    insert_block(rom, blk, es, t, "en")
+    assert rom[0x100:0x108] == b"A\xff\xc0\x06\x81\x00B\x00"
+
+
+def test_cont_chain_moves_together():
+    rom = synth()
+    rom[4:6] = (0x8102).to_bytes(2, "little")             # splits "AB" into "AB"(cont) + "{end}"
+    es = dump_block(rom, B, T)
+    es[0].en, es[1].en, es[2].en = "A", "{end}", "B{end}"  # head shrinks; its tail must follow directly
+    insert_block(rom, B, es, T, "en")
+    assert rom[0x100:0x104] == b"A\xffB\xff"
+    assert pointers(rom, B) == [0x100, 0x102, 0x101]

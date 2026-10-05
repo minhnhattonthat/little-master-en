@@ -85,6 +85,17 @@ def cmd_coverage(a):
         print(f"{s:06X}  {text[:60]}")
 
 
+def cmd_roundtrip(a):
+    base, t = rom.load_base(), Table.load("tbl/jp.tbl")
+    out = bytearray(base)
+    for b in blocks.load_blocks():
+        blocks.insert_block(out, b, script.parse(Path(f"script/{b.name}.txt").read_text(encoding="utf-8")), t, "jp")
+    Path("build").mkdir(exist_ok=True)
+    Path("build/roundtrip.sfc").write_bytes(out)
+    diff = [i for i, (x, y) in enumerate(zip(out, base)) if x != y]
+    print("IDENTICAL" if not diff else f"{len(diff)} bytes differ: " + " ".join(f"{i:06X}" for i in diff[:20]))
+
+
 def build_parser():
     ap = argparse.ArgumentParser(prog="lm")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -112,6 +123,7 @@ def build_parser():
     p.set_defaults(fn=cmd_dis)
     p = sub.add_parser("dump"); p.add_argument("--only"); p.add_argument("--force", action="store_true"); p.set_defaults(fn=cmd_dump)
     p = sub.add_parser("coverage", help="list decodable strings not in any block"); p.add_argument("--min", type=int, default=4); p.set_defaults(fn=cmd_coverage)
+    sub.add_parser("roundtrip", help="reinsert JP script, compare with base ROM").set_defaults(fn=cmd_roundtrip)
     p = sub.add_parser("boot"); p.add_argument("rom", nargs="?"); p.set_defaults(fn=cmd_boot)
     return ap
 
