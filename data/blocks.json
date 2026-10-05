@@ -3,7 +3,7 @@
   "name": "msg06",
   "type": "ptr16",
   "bank": "0x06",
-  "box": "msg",
+  "box": "desc",
   "tables": [
    [
     "0x030000",
@@ -86,7 +86,7 @@
   "name": "msg22",
   "type": "ptr16",
   "bank": "0x22",
-  "box": "msg",
+  "box": "summary",
   "tables": [
    [
     "0x112011",
@@ -111,7 +111,7 @@
   "name": "msg02",
   "type": "ptr16",
   "bank": "0x02",
-  "box": "screen",
+  "box": "sysmsg",
   "tables": [
    [
     "0x0130E0",

@@ -1,9 +1,12 @@
 {
- "dialog": {"px": 216, "lines": 2, "note": "field message window: 28 cells (224 px) minus 1 cell (VWF parks the cursor past a partial cell)"},
- "msg":    {"px": 216, "lines": 3, "note": "battle/report window 28 x 3"},
- "item":   {"px": 144, "lines": 3, "note": "item caution window: 19 cells"},
- "desc":   {"px": null, "lines": 3, "note": "personal-info description: fixed font, 29 cells x 3 (set per entry with win=desc)"},
- "screen": {"px": null, "lines": null, "note": "status/system screens: positioned layouts, checked by cell budget"},
+ "headers": {"02": "dialog", "09": "item", "00": "msg", "01": "msg", "03": "msg", "05": "msg", "08": "msg", "0E": "msg", "0F": "msg"},
+ "dialog": {"px": 216, "lines": 2, "note": "field Message window: 28 cells minus 1 (VWF parks the cursor past a partial cell)"},
+ "msg":    {"px": 216, "lines": 3, "note": "Report / Information windows 28 x 3"},
+ "item":   {"px": 144, "cells": 19, "lines": 3, "note": "Caution window beside the item list: 19 cells ({p7F:09})"},
+ "desc":   {"px": 216, "cells": 28, "lines": 3, "note": "unit/terrain/item descriptions (msg06); JP relies on auto-wrap, EN breaks lines explicitly"},
+ "summary": {"px": 216, "cells": 28, "lines": 4, "note": "scenario summaries / conditions (msg22)"},
+ "sysmsg": {"px": 216, "cells": 28, "lines": 3, "note": "msg02 non-positioned system/battle messages"},
+ "screen": {"px": null, "lines": null, "note": "positioned layouts: checked by cell budget"},
  "name8":  {"bytes": 8},
  "name10": {"bytes": 10},
  "name11": {"bytes": 11}

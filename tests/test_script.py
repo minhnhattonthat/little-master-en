@@ -33,3 +33,13 @@ def test_save_refuses_to_clobber_translations(tmp_path):
 def test_colon_without_space_keeps_first_char():
     e = parse("#id 0000 ptr=000010\nJP:あ\nEN:Hello\n")[0]
     assert (e.jp, e.en) == ("あ", "Hello")
+
+
+def test_save_merges_translations_for_unchanged_entries(tmp_path):
+    from lmtools.script import merge_en
+    p = tmp_path / "s.txt"
+    save(p, [Entry(0, 0x10, {"box": "a"}, "あ{end}", "A{end}"), Entry(1, 0x20, {}, "い{end}", "I{end}")])
+    fresh = [Entry(0, 0x10, {"box": "b"}, "あ{end}"), Entry(1, 0x20, {}, "う{end}")]   # #1's JP changed
+    lost = merge_en(p, fresh)
+    assert fresh[0].en == "A{end}" and fresh[0].meta == {"box": "b"} and fresh[1].en == ""
+    assert lost == [1]

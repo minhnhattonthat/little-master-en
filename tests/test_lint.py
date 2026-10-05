@@ -52,3 +52,22 @@ def test_name_inserts_count_in_width():
 def test_repository_is_lint_clean():
     from lmtools.lint import lint_all
     assert lint_all() == []
+
+
+WC = {"desc": {"cells": 10, "lines": 2}, "item": {"cells": 5, "lines": 3}, "headers": {"09": "item"}}
+
+
+def test_cell_width_for_fixed_or_wrapping_windows():
+    e = Entry(10, 0, {}, "あ{end}", "ABCDEFGHIJK{end}")
+    assert lint_entry(e, "desc", WID, WC, {}) == ["#10: line 1 is 11 cells > 10"]
+
+
+def test_header_selects_the_window():
+    e = Entry(11, 0, {}, "{p7F:09}あ{end}", "{p7F:09}ABCDEF{end}")
+    assert lint_entry(e, "desc", WID, WC, {}) == ["#11: line 1 is 6 cells > 5"]
+
+
+def test_jp_lines_counted_after_wrapping():
+    # JP line of 30 cells wraps to 3 window lines (10 cells); EN may use 3 explicit lines
+    e = Entry(12, 0, {}, "あ" * 30 + "{end}", "ABC{n}DEF{n}GHI{end}")
+    assert lint_entry(e, "desc", WID, WC, {}) == []

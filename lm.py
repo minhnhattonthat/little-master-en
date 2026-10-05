@@ -74,8 +74,12 @@ def cmd_dump(a):
         if a.only and b.name != a.only:
             continue
         es = blocks.dump_block(base, b, t)
-        script.save(Path(f"script/{b.name}.txt"), es, a.force)
-        print(f"script/{b.name}.txt: {len(es)} entries")
+        path = Path(f"script/{b.name}.txt")
+        lost = script.merge_en(path, es)
+        if lost and not a.force:
+            sys.exit(f"{path}: EN of #{lost} would be lost (their JP or ptr changed); fix or pass --force")
+        script.save(path, es, force=True)
+        print(f"{path}: {len(es)} entries" + (f", EN dropped for #{lost}" if lost else ""))
 
 
 def cmd_coverage(a):

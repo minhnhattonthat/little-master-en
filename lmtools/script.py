@@ -45,3 +45,16 @@ def save(path, entries, force=False):
     if path.exists() and not force and any(e.en for e in parse(path.read_text(encoding="utf-8"))):
         raise FileExistsError(f"{path} has EN translations; refusing to overwrite (use --force)")
     path.write_text(serialize(entries), encoding="utf-8")
+
+
+def merge_en(path, fresh) -> list[int]:
+    """Copy EN from the existing file at `path` into `fresh` entries with the same ptr and JP.
+    Returns ids of old entries whose EN could not be carried over (their ptr/JP changed)."""
+    path = Path(path)
+    if not path.exists():
+        return []
+    old = parse(path.read_text(encoding="utf-8"))
+    by_key = {(e.ptr, e.jp): e.en for e in old if e.en}
+    for e in fresh:
+        e.en = by_key.pop((e.ptr, e.jp), e.en)
+    return [e.id for e in old if e.en and (e.ptr, e.jp) in by_key]

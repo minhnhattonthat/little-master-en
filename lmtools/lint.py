@@ -53,10 +53,28 @@ def _controls(text):
     return Counter(tok for name, tok in _tokens(text) if name and name not in LAYOUT)
 
 
+HEADER = re.compile(r"^\{p7F:([0-9A-Fa-f]{2})\}")
+
+
+def _window(e, box, windows):
+    """Per-entry win= meta, else the speaker header's window ({p7F:xx}), else the block's box."""
+    if "win" in e.meta:
+        return windows.get(e.meta["win"], {})
+    m = HEADER.match(e.jp)
+    if m and m[1].upper() in windows.get("headers", {}):
+        return windows[windows["headers"][m[1].upper()]]
+    return windows.get(box, {})
+
+
+def _shown_lines(page, cap):
+    """Window lines a page occupies when the game wraps each line at `cap` cells."""
+    return sum(max(1, -(-_cells(line) // cap)) for line in page) if cap else len(page)
+
+
 def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
     if not e.en:
         return []
-    win = windows.get(e.meta.get("win", box), {})
+    win = _window(e, box, windows)
     out = []
     if win.get("bytes") is not None:
         n = len(enc.encode(e.en)) if enc else len(e.en)
@@ -69,17 +87,19 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
             if _cells(s) > _cells(j):
                 out.append(f"#{e.id}: segment {i} is {_cells(s)} cells > {_cells(j)} (positioned layout)")
     else:
-        if win.get("px"):
-            k = 0
-            for page in _pages(e.en):
-                for line in page:
-                    k += 1
-                    if _px(line, widths) > win["px"]:
-                        out.append(f"#{e.id}: line {k} is {_px(line, widths)} px > {win['px']}")
+        k = 0
+        for page in _pages(e.en):
+            for line in page:
+                k += 1
+                if win.get("px") and _px(line, widths) > win["px"]:
+                    out.append(f"#{e.id}: line {k} is {_px(line, widths)} px > {win['px']}")
+                if win.get("cells") and _cells(line) > win["cells"]:
+                    out.append(f"#{e.id}: line {k} is {_cells(line)} cells > {win['cells']}")
         if win.get("lines"):
             jp_pages = _pages(e.jp)
+            cap = win.get("cells") or (win["px"] // 8 if win.get("px") else None)
             for i, page in enumerate(_pages(e.en)):
-                allowed = max(win["lines"], len(jp_pages[i]) if i < len(jp_pages) else 0)
+                allowed = max(win["lines"], _shown_lines(jp_pages[i], cap) if i < len(jp_pages) else 0)
                 if len(page) > allowed:
                     out.append(f"#{e.id}: page {i + 1} has {len(page)} lines > {allowed}")
     jc, ec = _controls(e.jp), _controls(e.en)
