@@ -4,7 +4,7 @@ from lmtools.blocks import dump_block, insert_block, load_blocks
 from lmtools.tbl import Table
 
 T = Table.load("tbl/jp.tbl")
-FONT = slice(0x170610, 0x1707B0)                            # fixed tiles $61-$7A (a-z)
+FONT = slice(0x1705F0, 0x1707B0)                            # fixed tiles $5F-$7A (_ and a-z)
 HOOKS = [(0x00BE43, 6), (0x00BE70, 5), (0x00BF01, 4), (0x00BF94, 5), (0x01ECE5, 5), (0x00C20E, 5)]  # src/asm/vwf.asm org sites
 
 
@@ -64,7 +64,7 @@ def test_fonts_written(tmp_path):
     assert data[build.VWF_WIDTHS + ord("A") - 0x20] == 6 and data[build.VWF_WIDTHS + ord("i") - 0x20] == 2
     tile = lambda buf, c: buf[build.FIXED_FONT + c * 16:build.FIXED_FONT + c * 16 + 16]
     assert all(tile(data, c) != tile(base, c) for c in range(0x61, 0x7B))        # a-z added
-    keep = [c for c in range(0x20, 0x7F) if not 0x61 <= c <= 0x7A]               # game's UI-styled Latin/symbols
+    keep = [c for c in range(0x20, 0x7F) if not 0x61 <= c <= 0x7A and c != 0x5F]               # game's UI-styled Latin/symbols
     assert all(tile(data, c) == tile(base, c) for c in keep)
 
 
@@ -83,3 +83,11 @@ def test_failed_build_leaves_no_stale_outputs(tmp_path, monkeypatch):
     with pytest.raises(RuntimeError, match="asar failed"):
         build.build(tmp_path, "jp")
     assert not any((tmp_path / n).exists() for n in ("lm_en.sfc", "lm_en.bps", "_work.sfc"))
+
+
+def test_underscore_draws_as_a_space(tmp_path):
+    data = build.build(tmp_path, "jp").read_bytes()
+    i = ord("_") - 0x20
+    assert data[build.VWF_GLYPHS + i * 16:build.VWF_GLYPHS + i * 16 + 16] == bytes(16)
+    assert data[build.VWF_WIDTHS + i] == 4
+    assert data[build.FIXED_FONT + 0x5F * 16:build.FIXED_FONT + 0x60 * 16] == bytes(16)
