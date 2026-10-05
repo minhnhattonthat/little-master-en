@@ -1,214 +1,214 @@
 #id 0000 ptr=05BF64 box=name11
 JP: マウスマン
-EN: 
+EN: Mouseman
 
 #id 0001 ptr=05BF8C box=name11
 JP: ゴーレム
-EN: 
+EN: Golem
 
 #id 0002 ptr=05BFB4 box=name11
 JP: ペリカンマン
-EN: 
+EN: Pelicanman
 
 #id 0003 ptr=05BFDC box=name11
 JP: ラビットマン
-EN: 
+EN: Rabbitman
 
 #id 0004 ptr=05C004 box=name11
 JP: カクタス
-EN: 
+EN: Cactus
 
 #id 0005 ptr=05C02C box=name11
 JP: ダチョラー
-EN: 
+EN: Ostrich
 
 #id 0006 ptr=05C054 box=name11
 JP: ポンポコ
-EN: 
+EN: Ponpoko
 
 #id 0007 ptr=05C07C box=name11
 JP: クロコダイル
-EN: 
+EN: Crocodile
 
 #id 0008 ptr=05C0A4 box=name11
 JP: カンガルー
-EN: 
+EN: Kangaroo
 
 #id 0009 ptr=05C0CC box=name11
 JP: ガーゴイル
-EN: 
+EN: Gargoyle
 
 #id 0010 ptr=05C0F4 box=name11
 JP: サイクロプス
-EN: 
+EN: Cyclops
 
 #id 0011 ptr=05C11C box=name11
 JP: ライオンマン
-EN: 
+EN: Lionman
 
 #id 0012 ptr=05C144 box=name11
 JP: ドラゴン
-EN: 
+EN: Dragon
 
 #id 0013 ptr=05C16C box=name11
 JP: チキンマン
-EN: 
+EN: Chickenman
 
 #id 0014 ptr=05C194 box=name11
 JP: コアラマン
-EN: 
+EN: Koalaman
 
 #id 0015 ptr=05C1BC box=name11
 JP: オーク
-EN: 
+EN: Orc
 
 #id 0016 ptr=05C1E4 box=name11
 JP: スカル・パイレーツ
-EN: 
+EN: SkullPirate
 
 #id 0017 ptr=05C20C box=name11
 JP: マリオネット
-EN: 
+EN: Marionette
 
 #id 0018 ptr=05C234 box=name11
 JP: ヘルハウンド
-EN: 
+EN: Hellhound
 
 #id 0019 ptr=05C25C box=name11
 JP: スノーマン
-EN: 
+EN: Snowman
 
 #id 0020 ptr=05C284 box=name11
 JP: ウルフコマンド
-EN: 
+EN: WolfCommand
 
 #id 0021 ptr=05C2AC box=name11
 JP: スカル・キャプテン
-EN: 
+EN: Skull_Capt.
 
 #id 0022 ptr=05C2D4 box=name11
 JP: ドラゴンナイト
-EN: 
+EN: Wyrm_Knight
 
 #id 0023 ptr=05C2FC box=name11
 JP: ビッグ・マウスマン
-EN: 
+EN: BigMouseman
 
 #id 0024 ptr=05C324 box=name11
 JP: バトルスワン
-EN: 
+EN: Battle_Swan
 
 #id 0025 ptr=05C34C box=name11
 JP: ゴースト
-EN: 
+EN: Ghost
 
 #id 0026 ptr=05C374 box=name11
 JP: アサシン
-EN: 
+EN: Assassin
 
 #id 0027 ptr=05C39C box=name11
 JP: イビル・アイ
-EN: 
+EN: Evil_Eye
 
 #id 0028 ptr=05C3C4 box=name11
 JP: スカル・ウォリアー
-EN: 
+EN: Skull_Guard
 
 #id 0029 ptr=05C3EC box=name11
 JP: とうりょう
-EN: 
+EN: Chieftain
 
 #id 0030 ptr=05C414 box=name11
 JP: ゆうしゃ
-EN: 
+EN: Hero
 
 #id 0031 ptr=05C43C box=name11
 JP: ミノタウロス
-EN: 
+EN: Minotaur
 
 #id 0032 ptr=05C464 box=name11
 JP: そうりょ
-EN: 
+EN: Priest
 
 #id 0033 ptr=05C48C box=name11
 JP: ぬいぐるみ
-EN: 
+EN: Plushie
 
 #id 0034 ptr=05C4B4 box=name11
 JP: くろコハクつかい
-EN: 
+EN: Black_Mage
 
 #id 0035 ptr=05C4DC box=name11
 JP: しろコハクつかい
-EN: 
+EN: White_Mage
 
 #id 0036 ptr=05C504 box=name11
 JP: スカル・ダンク
-EN: 
+EN: Skull_Dunk
 
 #id 0037 ptr=05C52C box=name11
 JP: スカル・タンク
-EN: 
+EN: Skull_Tank
 
 #id 0038 ptr=05C554 box=name11
 JP: スカル・ポンプ
-EN: 
+EN: Skull_Pump
 
 #id 0039 ptr=05C57C box=name11
 JP: ミミック
-EN: 
+EN: Mimic
 
 #id 0040 ptr=05C5A4 box=name11
 JP: サンフラワー
-EN: 
+EN: Sunflower
 
 #id 0041 ptr=05C5CC box=name11
 JP: マテドラルへい
-EN: 
+EN: Holy_Guard
 
 #id 0042 ptr=05C5F4 box=name11
 JP: マテドラル・ナイト
-EN: 
+EN: Holy_Knight
 
 #id 0043 ptr=05C61C box=name11
 JP: プチデーモン
-EN: 
+EN: Petit_Demon
 
 #id 0044 ptr=05C644 box=name11
 JP: たいよう
-EN: 
+EN: Sun
 
 #id 0045 ptr=05C66C box=name11
 JP: つき
-EN: 
+EN: Moon
 
 #id 0046 ptr=05C694 box=name11
 JP: ほし
-EN: 
+EN: Star
 
 #id 0047 ptr=05C6BC box=name11
 JP: キング・マウスマン
-EN: 
+EN: Mouse_King
 
 #id 0048 ptr=05C6E4 box=name11
 JP: コアラ・キング
-EN: 
+EN: Koala_King
 
 #id 0049 ptr=05C70C box=name11
 JP: カードマン
-EN: 
+EN: Cardman
 
 #id 0050 ptr=05C734 box=name11
 JP: ペングー
-EN: 
+EN: Pengoo
 
 #id 0051 ptr=05C75C box=name11
 JP: イエティ
-EN: 
+EN: Yeti
 
 #id 0052 ptr=05C784 box=name11
 JP: TOYホース
-EN: 
+EN: Toy_Horse
 
 #id 0053 ptr=05C7AC box=name11
 JP: 
@@ -256,83 +256,83 @@ EN:
 
 #id 0064 ptr=05C964 box=name11
 JP: オレンジマウスマン
-EN: 
+EN: Orangemouse
 
 #id 0065 ptr=05C98C box=name11
 JP: ルビーゴーレム
-EN: 
+EN: Ruby_Golem
 
 #id 0066 ptr=05C9B4 box=name11
 JP: ペリカンブルー
-EN: 
+EN: BluePelican
 
 #id 0067 ptr=05C9DC box=name11
 JP: ブルーラビット
-EN: 
+EN: Blue_Rabbit
 
 #id 0068 ptr=05CA04 box=name11
 JP: カクタスエース
-EN: 
+EN: Cactus_Ace
 
 #id 0069 ptr=05CA2C box=name11
 JP: ダチョラーパープル
-EN: 
+EN: Violet_Ostr
 
 #id 0070 ptr=05CA54 box=name11
 JP: ダークポンポコ
-EN: 
+EN: DarkPonpoko
 
 #id 0071 ptr=05CA7C box=name11
 JP: クロコダイルホワイト
-EN: 
+EN: White_Croc
 
 #id 0072 ptr=05CAA4 box=name11
 JP: はいいろカンガルー
-EN: 
+EN: Gray_Roo
 
 #id 0073 ptr=05CACC box=name11
 JP: グリーンガーゴイル
-EN: 
+EN: Green_Garg.
 
 #id 0074 ptr=05CAF4 box=name11
 JP: サイコロプス
-EN: 
+EN: Dicyclops
 
 #id 0075 ptr=05CB1C box=name11
 JP: むらさきライオン
-EN: 
+EN: Purple_Lion
 
 #id 0076 ptr=05CB44 box=name11
 JP: ブルードラゴン
-EN: 
+EN: Blue_Dragon
 
 #id 0077 ptr=05CB6C box=name11
 JP: ネガ・チキンマン
-EN: 
+EN: NegaChicken
 
 #id 0078 ptr=05CB94 box=name11
 JP: ブロンズコアラ
-EN: 
+EN: BronzeKoala
 
 #id 0079 ptr=05CBBC box=name11
 JP: ブルーオーク
-EN: 
+EN: Blue_Orc
 
 #id 0080 ptr=05CBE4 box=name11
 JP: ファンキー・パイレーツ
-EN: 
+EN: FunkyPirate
 
 #id 0081 ptr=05CC0C box=name11
 JP: スカイパペット
-EN: 
+EN: Sky_Puppet
 
 #id 0082 ptr=05CC34 box=name11
 JP: ナイトハウンド
-EN: 
+EN: Night_Hound
 
 #id 0083 ptr=05CC5C box=name11
 JP: フローズンマン
-EN: 
+EN: Frozenman
 
 #id 0084 ptr=05CC84 box=name11
 JP: 
@@ -344,35 +344,35 @@ EN:
 
 #id 0086 ptr=05CCD4 box=name11
 JP: ブラウンナイト
-EN: 
+EN: BrownKnight
 
 #id 0087 ptr=05CCFC box=name11
 JP: ビッグ・オレンジ
-EN: 
+EN: Big_Orange
 
 #id 0088 ptr=05CD24 box=name11
 JP: ピンクダンサー
-EN: 
+EN: Pink_Dancer
 
 #id 0089 ptr=05CD4C box=name11
 JP: ナイトメア
-EN: 
+EN: Nightmare
 
 #id 0090 ptr=05CD74 box=name11
 JP: ナイトアサシン
-EN: 
+EN: Nightblade
 
 #id 0091 ptr=05CD9C box=name11
 JP: ダーク・アイ
-EN: 
+EN: Dark_Eye
 
 #id 0092 ptr=05CDC4 box=name11
 JP: スカル・ウォリアーG
-EN: 
+EN: SkullGuardG
 
 #id 0093 ptr=05CDEC box=name11
 JP: とうりょう
-EN: 
+EN: Chieftain
 
 #id 0094 ptr=05CE14 box=name11
 JP: 
@@ -388,7 +388,7 @@ EN:
 
 #id 0097 ptr=05CE8C box=name11
 JP: ぬいぐるみ
-EN: 
+EN: Plushie
 
 #id 0098 ptr=05CEB4 box=name11
 JP: 
@@ -400,19 +400,19 @@ EN:
 
 #id 0100 ptr=05CF04 box=name11
 JP: スカル・ダンカー
-EN: 
+EN: SkullDunker
 
 #id 0101 ptr=05CF2C box=name11
 JP: スカル・タンクS
-EN: 
+EN: Skull_TankS
 
 #id 0102 ptr=05CF54 box=name11
 JP: スカル・ポンプS
-EN: 
+EN: Skull_PumpS
 
 #id 0103 ptr=05CF7C box=name11
 JP: ふるびたミミック
-EN: 
+EN: Old_Mimic
 
 #id 0104 ptr=05CFA4 box=name11
 JP: 
@@ -420,11 +420,11 @@ EN:
 
 #id 0105 ptr=05CFCC box=name11
 JP: ベテランへいし
-EN: 
+EN: Veteran
 
 #id 0106 ptr=05CFF4 box=name11
 JP: パープルアーマーナイト
-EN: 
+EN: PurpleArmor
 
 #id 0107 ptr=05D01C box=name11
 JP: 
@@ -444,11 +444,11 @@ EN:
 
 #id 0111 ptr=05D0BC box=name11
 JP: オレンジキング
-EN: 
+EN: Orange_King
 
 #id 0112 ptr=05D0E4 box=name11
 JP: ブロンズキング
-EN: 
+EN: Bronze_King
 
 #id 0113 ptr=05D10C box=name11
 JP: 
@@ -456,11 +456,11 @@ EN:
 
 #id 0114 ptr=05D134 box=name11
 JP: こうていペングー
-EN: 
+EN: King_Pengoo
 
 #id 0115 ptr=05D15C box=name11
 JP: グラス・イエティ
-EN: 
+EN: Grass_Yeti
 
 #id 0116 ptr=05D184 box=name11
 JP: 
@@ -512,83 +512,83 @@ EN:
 
 #id 0128 ptr=05D364 box=name11
 JP: ファイヤーマウスマン
-EN: 
+EN: Firemouse
 
 #id 0129 ptr=05D38C box=name11
 JP: ゴーレムゴールド
-EN: 
+EN: Gold_Golem
 
 #id 0130 ptr=05D3B4 box=name11
 JP: ゴールドペリカン
-EN: 
+EN: GoldPelican
 
 #id 0131 ptr=05D3DC box=name11
 JP: ラビット・スナイパー
-EN: 
+EN: Hare_Sniper
 
 #id 0132 ptr=05D404 box=name11
 JP: カクタスX
-EN: 
+EN: Cactus_X
 
 #id 0133 ptr=05D42C box=name11
 JP: ダチョラーブラウン
-EN: 
+EN: Brown_Ostr.
 
 #id 0134 ptr=05D454 box=name11
 JP: ポンポコだいおう
-EN: 
+EN: PonpokoKing
 
 #id 0135 ptr=05D47C box=name11
 JP: アリゲーター
-EN: 
+EN: Alligator
 
 #id 0136 ptr=05D4A4 box=name11
 JP: カンガルーチャンプ
-EN: 
+EN: Kanga_Champ
 
 #id 0137 ptr=05D4CC box=name11
 JP: レッドガーゴイル
-EN: 
+EN: Red_Garg.
 
 #id 0138 ptr=05D4F4 box=name11
 JP: サイクロ・スカーレット
-EN: 
+EN: Scarlet_Cyc
 
 #id 0139 ptr=05D51C box=name11
 JP: マイティ・ライオンマン
-EN: 
+EN: Mighty_Lion
 
 #id 0140 ptr=05D544 box=name11
 JP: ファイヤー・ドラゴン
-EN: 
+EN: Fire_Dragon
 
 #id 0141 ptr=05D56C box=name11
 JP: ゴージャス・チキンマン
-EN: 
+EN: PoshChicken
 
 #id 0142 ptr=05D594 box=name11
 JP: レッドコアラマン
-EN: 
+EN: RedKoalaman
 
 #id 0143 ptr=05D5BC box=name11
 JP: レッドオーク
-EN: 
+EN: Red_Orc
 
 #id 0144 ptr=05D5E4 box=name11
 JP: ゴールド・パイレーツ
-EN: 
+EN: Gold_Pirate
 
 #id 0145 ptr=05D60C box=name11
 JP: あやつりにんぎょう
-EN: 
+EN: Puppet
 
 #id 0146 ptr=05D634 box=name11
 JP: ハウンドドッグ
-EN: 
+EN: Hound_Dog
 
 #id 0147 ptr=05D65C box=name11
 JP: グレート・スノーマン
-EN: 
+EN: Big_Snowman
 
 #id 0148 ptr=05D684 box=name11
 JP: 
@@ -600,31 +600,31 @@ EN:
 
 #id 0150 ptr=05D6D4 box=name11
 JP: ナイトゴールド
-EN: 
+EN: Gold_Knight
 
 #id 0151 ptr=05D6FC box=name11
 JP: ビッグ・ファイヤー
-EN: 
+EN: Big_Fire
 
 #id 0152 ptr=05D724 box=name11
 JP: ダンス・スター
-EN: 
+EN: Dance_Star
 
 #id 0153 ptr=05D74C box=name11
 JP: ファントム
-EN: 
+EN: Phantom
 
 #id 0154 ptr=05D774 box=name11
 JP: マーダー
-EN: 
+EN: Murderer
 
 #id 0155 ptr=05D79C box=name11
 JP: マジックマスター
-EN: 
+EN: Archmage
 
 #id 0156 ptr=05D7C4 box=name11
 JP: ゴールド・ウォリアー
-EN: 
+EN: Gold_Guard
 
 #id 0157 ptr=05D7EC box=name11
 JP: 
@@ -656,19 +656,19 @@ EN:
 
 #id 0164 ptr=05D904 box=name11
 JP: ダンク・マスター
-EN: 
+EN: Dunk_Master
 
 #id 0165 ptr=05D92C box=name11
 JP: スカル・タンクSS
-EN: 
+EN: SkullTankSS
 
 #id 0166 ptr=05D954 box=name11
 JP: スカル・ポンプSS
-EN: 
+EN: SkullPumpSS
 
 #id 0167 ptr=05D97C box=name11
 JP: すごいミミック
-EN: 
+EN: Super_Mimic
 
 #id 0168 ptr=05D9A4 box=name11
 JP: 
@@ -676,11 +676,11 @@ EN:
 
 #id 0169 ptr=05D9CC box=name11
 JP: マテドラル・ソルジャー
-EN: 
+EN: Holy_Sentry
 
 #id 0170 ptr=05D9F4 box=name11
 JP: レッドアーマーナイト
-EN: 
+EN: Red_Armor
 
 #id 0171 ptr=05DA1C box=name11
 JP: 
@@ -700,11 +700,11 @@ EN:
 
 #id 0175 ptr=05DABC box=name11
 JP: ファイヤーキング
-EN: 
+EN: Fire_King
 
 #id 0176 ptr=05DAE4 box=name11
 JP: レッドコアラキング
-EN: 
+EN: Ruby_King
 
 #id 0177 ptr=05DB0C box=name11
 JP: 
@@ -712,8 +712,8 @@ EN:
 
 #id 0178 ptr=05DB34 box=name11
 JP: ホット・ペングー
-EN: 
+EN: Hot_Pengoo
 
 #id 0179 ptr=05DB5C box=name11
 JP: リバー・イエティ
-EN: 
+EN: River_Yeti

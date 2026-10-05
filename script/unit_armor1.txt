@@ -1,211 +1,211 @@
 #id 0000 ptr=01085C box=name10
 JP: マウスけがわ
-EN: 
+EN: Mouse Fur
 
 #id 0001 ptr=01087C box=name10
 JP: かたいからだ
-EN: 
+EN: Hard Body
 
 #id 0002 ptr=01089C box=name10
 JP: ペリカンのはね
-EN: 
+EN: Pel. Plume
 
 #id 0003 ptr=0108BC box=name10
 JP: けがわ
-EN: 
+EN: Fur
 
 #id 0004 ptr=0108DC box=name10
 JP: かたいトゲ
-EN: 
+EN: Hard Spike
 
 #id 0005 ptr=0108FC box=name10
 JP: ダチョウのはね
-EN: 
+EN: Ostr.Plume
 
 #id 0006 ptr=01091C box=name10
 JP: けがわ
-EN: 
+EN: Fur
 
 #id 0007 ptr=01093C box=name10
 JP: かたいうろこ
-EN: 
+EN: Hard Scale
 
 #id 0008 ptr=01095C box=name10
 JP: けがわ
-EN: 
+EN: Fur
 
 #id 0009 ptr=01097C box=name10
 JP: かたいからだ
-EN: 
+EN: Hard Body
 
 #id 0010 ptr=01099C box=name10
 JP: きたえたからだ
-EN: 
+EN: Fit Body
 
 #id 0011 ptr=0109BC box=name10
 JP: りっぱなけがわ
-EN: 
+EN: Fine Fur
 
 #id 0012 ptr=0109DC box=name10
 JP: ドラゴンのうろこ
-EN: 
+EN: Drgn Scale
 
 #id 0013 ptr=0109FC box=name10
 JP: にわとりのはね
-EN: 
+EN: Hen Plume
 
 #id 0014 ptr=010A1C box=name10
 JP: コアラのけがわ
-EN: 
+EN: Koala Fur
 
 #id 0015 ptr=010A3C box=name10
 JP: ちいさなたて
-EN: 
+EN: Buckler
 
 #id 0016 ptr=010A5C box=name10
 JP: スカルボディ
-EN: 
+EN: Skull Body
 
 #id 0017 ptr=010A7C box=name10
 JP: きのからだ
-EN: 
+EN: Wood Body
 
 #id 0018 ptr=010A9C box=name10
 JP: じごくのけがわ
-EN: 
+EN: Hell Fur
 
 #id 0019 ptr=010ABC box=name10
 JP: つめたいからだ
-EN: 
+EN: Cold Body
 
 #id 0020 ptr=010ADC box=name10
 JP: きたえたからだ
-EN: 
+EN: Fit Body
 
 #id 0021 ptr=010AFC box=name10
 JP: スカルアンカー
-EN: 
+EN: Skl Anchor
 
 #id 0022 ptr=010B1C box=name10
 JP: ラージシールド
-EN: 
+EN: Big Shield
 
 #id 0023 ptr=010B3C box=name10
 JP: マウスけがわ
-EN: 
+EN: Mouse Fur
 
 #id 0024 ptr=010B5C box=name10
 JP: スワンウイング
-EN: 
+EN: Swan Wing
 
 #id 0025 ptr=010B7C box=name10
 JP: おばけシーツ
-EN: 
+EN: GhostSheet
 
 #id 0026 ptr=010B9C box=name10
 JP: ニンジャかたびら
-EN: 
+EN: Ninja Mail
 
 #id 0027 ptr=010BBC box=name10
 JP: しんかんのふく
-EN: 
+EN: PriestRobe
 
 #id 0028 ptr=010BDC box=name10
 JP: グリーンソード
-EN: 
+EN: GreenSword
 
 #id 0029 ptr=010BFC box=name10
 JP: とうぞくのこて
-EN: 
+EN: ThiefGlove
 
 #id 0030 ptr=010C1C box=name10
 JP: ガードメイル
-EN: 
+EN: Guard Mail
 
 #id 0031 ptr=010C3C box=name10
 JP: きたえたからだ
-EN: 
+EN: Fit Body
 
 #id 0032 ptr=010C5C box=name10
 JP: そうりょのころも
-EN: 
+EN: Monk Robe
 
 #id 0033 ptr=010C7C box=name10
 JP: うしのヌイグルミ
-EN: 
+EN: Cow Plush
 
 #id 0034 ptr=010C9C box=name10
 JP: まどうのころも
-EN: 
+EN: Magic Robe
 
 #id 0035 ptr=010CBC box=name10
 JP: まどうのころも
-EN: 
+EN: Magic Robe
 
 #id 0036 ptr=010CDC box=name10
 JP: タンクトップ
-EN: 
+EN: Tank Top
 
 #id 0037 ptr=010CFC box=name10
 JP: スカルホイール
-EN: 
+EN: Skl Wheel
 
 #id 0038 ptr=010D1C box=name10
 JP: フロントガーダー
-EN: 
+EN: FrontGuard
 
 #id 0039 ptr=010D3C box=name10
 JP: かたいふた
-EN: 
+EN: Hard Lid
 
 #id 0040 ptr=010D5C box=name10
 JP: じょうぶなくき
-EN: 
+EN: Tough Stem
 
 #id 0041 ptr=010D7C box=name10
 JP: そまつなよろい
-EN: 
+EN: Poor Armor
 
 #id 0042 ptr=010D9C box=name10
 JP: パープルアーマー
-EN: 
+EN: Prpl Armor
 
 #id 0043 ptr=010DBC box=name10
 JP: ネコのけがわ
-EN: 
+EN: Cat Fur
 
 #id 0044 ptr=010DDC box=name10
 JP: あたたかなだいち
-EN: 
+EN: Warm Earth
 
 #id 0045 ptr=010DFC box=name10
 JP: つめたいだいち
-EN: 
+EN: Cold Earth
 
 #id 0046 ptr=010E1C box=name10
 JP: かがやくだいち
-EN: 
+EN: Glow Earth
 
 #id 0047 ptr=010E3C box=name10
 JP: マウスけがわ
-EN: 
+EN: Mouse Fur
 
 #id 0048 ptr=010E5C box=name10
 JP: コアラのけがわ
-EN: 
+EN: Koala Fur
 
 #id 0049 ptr=010E7C box=name10
 JP: ハートマーク
-EN: 
+EN: Heart Mark
 
 #id 0050 ptr=010E9C box=name10
 JP: タキシードけがわ
-EN: 
+EN: Tux Fur
 
 #id 0051 ptr=010EBC box=name10
 JP: モコモコのけがわ
-EN: 
+EN: Fluffy Fur
 
 #id 0052 ptr=010EDC box=name10
 JP: ブリキのからだ
-EN: 
+EN: Tin Body

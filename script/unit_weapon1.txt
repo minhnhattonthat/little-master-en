@@ -1,211 +1,211 @@
 #id 0000 ptr=010852 box=name10
 JP: こんぼう
-EN: 
+EN: Club
 
 #id 0001 ptr=010872 box=name10
 JP: いしのこぶし
-EN: 
+EN: Stone Fist
 
 #id 0002 ptr=010892 box=name10
 JP: おおきなくち
-EN: 
+EN: Big Mouth
 
 #id 0003 ptr=0108B2 box=name10
 JP: うさぎのゆみや
-EN: 
+EN: Rabbit Bow
 
 #id 0004 ptr=0108D2 box=name10
 JP: マラカス
-EN: 
+EN: Maracas
 
 #id 0005 ptr=0108F2 box=name10
 JP: ダチョウのくちばし
-EN: 
+EN: Ostr. Beak
 
 #id 0006 ptr=010912 box=name10
 JP: はらづつみ
-EN: 
+EN: Belly Drum
 
 #id 0007 ptr=010932 box=name10
 JP: するどいキバ
-EN: 
+EN: Sharp Fang
 
 #id 0008 ptr=010952 box=name10
 JP: ボクサーグローブ
-EN: 
+EN: BoxerGlove
 
 #id 0009 ptr=010972 box=name10
 JP: するどいツメ
-EN: 
+EN: Sharp Claw
 
 #id 0010 ptr=010992 box=name10
 JP: てっきゅう
-EN: 
+EN: Iron Ball
 
 #id 0011 ptr=0109B2 box=name10
 JP: ライオンクロー
-EN: 
+EN: Lion Claw
 
 #id 0012 ptr=0109D2 box=name10
 JP: ドラゴンのキバ
-EN: 
+EN: DragonFang
 
 #id 0013 ptr=0109F2 box=name10
 JP: くちばし
-EN: 
+EN: Beak
 
 #id 0014 ptr=010A12 box=name10
 JP: コアラのつめ
-EN: 
+EN: Koala Claw
 
 #id 0015 ptr=010A32 box=name10
 JP: ちいさなつるぎ
-EN: 
+EN: Shortsword
 
 #id 0016 ptr=010A52 box=name10
 JP: スカルヘッド
-EN: 
+EN: Skull Head
 
 #id 0017 ptr=010A72 box=name10
 JP: はずれるあたま
-EN: 
+EN: Loose Head
 
 #id 0018 ptr=010A92 box=name10
 JP: トゲトゲのくびわ
-EN: 
+EN: Spike Torc
 
 #id 0019 ptr=010AB2 box=name10
 JP: ゆきのけっしょう
-EN: 
+EN: Snowflake
 
 #id 0020 ptr=010AD2 box=name10
 JP: するどいツメ
-EN: 
+EN: Sharp Claw
 
 #id 0021 ptr=010AF2 box=name10
 JP: スカルアンカー
-EN: 
+EN: Skl Anchor
 
 #id 0022 ptr=010B12 box=name10
 JP: ドラゴンランス
-EN: 
+EN: Drgn Lance
 
 #id 0023 ptr=010B32 box=name10
 JP: こんぼう
-EN: 
+EN: Club
 
 #id 0024 ptr=010B52 box=name10
 JP: スワンウイング
-EN: 
+EN: Swan Wing
 
 #id 0025 ptr=010B72 box=name10
 JP: ふしぎなちから
-EN: 
+EN: Odd Power
 
 #id 0026 ptr=010B92 box=name10
 JP: くない
-EN: 
+EN: Kunai
 
 #id 0027 ptr=010BB2 box=name10
 JP: ダークパワー
-EN: 
+EN: Dark Power
 
 #id 0028 ptr=010BD2 box=name10
 JP: グリーンソード
-EN: 
+EN: GreenSword
 
 #id 0029 ptr=010BF2 box=name10
 JP: あくとくのつるぎ
-EN: 
+EN: Vile Sword
 
 #id 0030 ptr=010C12 box=name10
 JP: ガラバーニュ
-EN: 
+EN: Garabagne
 
 #id 0031 ptr=010C32 box=name10
 JP: ハガネのこぶし
-EN: 
+EN: Steel Fist
 
 #id 0032 ptr=010C52 box=name10
 JP: いやしのつえ
-EN: 
+EN: Heal Staff
 
 #id 0033 ptr=010C72 box=name10
 JP: うしパンチ
-EN: 
+EN: Bull Punch
 
 #id 0034 ptr=010C92 box=name10
 JP: こはくのつえ
-EN: 
+EN: Amber Rod
 
 #id 0035 ptr=010CB2 box=name10
 JP: こはくのつえ
-EN: 
+EN: Amber Rod
 
 #id 0036 ptr=010CD2 box=name10
 JP: スカルヘッド
-EN: 
+EN: Skull Head
 
 #id 0037 ptr=010CF2 box=name10
 JP: スカルキャノン
-EN: 
+EN: Skl Cannon
 
 #id 0038 ptr=010D12 box=name10
 JP: スカルポンプ
-EN: 
+EN: Skull Pump
 
 #id 0039 ptr=010D32 box=name10
 JP: みわくのこぶし
-EN: 
+EN: Charm Fist
 
 #id 0040 ptr=010D52 box=name10
 JP: するどいはなびら
-EN: 
+EN: SharpPetal
 
 #id 0041 ptr=010D72 box=name10
 JP: プア・ランス
-EN: 
+EN: Poor Lance
 
 #id 0042 ptr=010D92 box=name10
 JP: パープルアックス
-EN: 
+EN: Purple Axe
 
 #id 0043 ptr=010DB2 box=name10
 JP: ネコのツメ
-EN: 
+EN: Cat Claw
 
 #id 0044 ptr=010DD2 box=name10
 JP: たいようのキバ
-EN: 
+EN: Sun Fang
 
 #id 0045 ptr=010DF2 box=name10
 JP: つきのキバ
-EN: 
+EN: Moon Fang
 
 #id 0046 ptr=010E12 box=name10
 JP: ほしのキバ
-EN: 
+EN: Star Fang
 
 #id 0047 ptr=010E32 box=name10
 JP: こんぼう
-EN: 
+EN: Club
 
 #id 0048 ptr=010E52 box=name10
 JP: コアラのツメ
-EN: 
+EN: Koala Claw
 
 #id 0049 ptr=010E72 box=name10
 JP: ほそいヤリ
-EN: 
+EN: Thin Spear
 
 #id 0050 ptr=010E92 box=name10
 JP: つめたいクチバシ
-EN: 
+EN: Cold Beak
 
 #id 0051 ptr=010EB2 box=name10
 JP: かいりきハンド
-EN: 
+EN: Power Hand
 
 #id 0052 ptr=010ED2 box=name10
 JP: おもちゃのニンジン
-EN: 
+EN: Toy Carrot
