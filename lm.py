@@ -3,7 +3,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from lmtools import blocks, dis65, gfx, ips, locate, mesen, rom, script
+from lmtools import blocks, build, dis65, gfx, ips, locate, mesen, rom, script
 from lmtools.tbl import Table
 
 BETA2 = Path("patch/LM3-Beta2.IPS")
@@ -96,6 +96,11 @@ def cmd_roundtrip(a):
     print("IDENTICAL" if not diff else f"{len(diff)} bytes differ: " + " ".join(f"{i:06X}" for i in diff[:20]))
 
 
+def cmd_build(a):
+    out = build.build(a.out, a.source)
+    print(f"wrote {out} and {out.with_suffix('.bps')}")
+
+
 def build_parser():
     ap = argparse.ArgumentParser(prog="lm")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -124,6 +129,9 @@ def build_parser():
     p = sub.add_parser("dump"); p.add_argument("--only"); p.add_argument("--force", action="store_true"); p.set_defaults(fn=cmd_dump)
     p = sub.add_parser("coverage", help="list decodable strings not in any block"); p.add_argument("--min", type=int, default=4); p.set_defaults(fn=cmd_coverage)
     sub.add_parser("roundtrip", help="reinsert JP script, compare with base ROM").set_defaults(fn=cmd_roundtrip)
+    p = sub.add_parser("build", help="build patched ROM + BPS")
+    p.add_argument("--out", default="build"); p.add_argument("--source", default="en", choices=["en", "jp"])
+    p.set_defaults(fn=cmd_build)
     p = sub.add_parser("boot"); p.add_argument("rom", nargs="?"); p.set_defaults(fn=cmd_boot)
     return ap
 

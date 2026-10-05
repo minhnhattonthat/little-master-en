@@ -157,11 +157,11 @@ def string_spans(rom, b, tbl) -> list[tuple[int, int]]:
     return [(pc, pc + n) for pc, _, n, _ in pool_strings(rom, b, tbl)]
 
 
-def _encode(tbl, e, source, allow_empty=False):
-    text = e.jp if source == "jp" else e.en
-    if not text and not allow_empty:
-        raise ValueError(f"#{e.id}: empty {source.upper()} text")
-    return tbl.encode(text)
+def _pick(e, source, tbl, en_tbl):
+    """(text, table) to insert for an entry: `source` text, or JP (with the JP table) when EN is empty."""
+    if source == "en" and e.en:
+        return e.en, en_tbl or tbl
+    return e.jp, tbl
 
 
 def _check_entries(b, entries, expected):
@@ -175,21 +175,28 @@ def _check_entries(b, entries, expected):
 TERMINATED = re.compile(r"(\{end\}|\{goto:[0-9A-Fa-f]{6}\})$")
 
 
-def insert_block(rom, b, entries, tbl, source="en") -> None:
-    """Write entries' `source` text back in place of the block's original strings."""
+def insert_block(rom, b, entries, tbl, source="en", en_tbl=None, base=None) -> None:
+    """Write entries' `source` text in place of the block's original strings.
+    tbl decodes the original layout (read from `base`, default `rom`) and encodes JP; en_tbl encodes EN.
+    Entries with empty EN fall back to their JP text."""
+    layout = rom if base is None else base
     if b.type == "fixed":
         for e in entries:
-            data = _encode(tbl, e, source, allow_empty=True)
+            text, t = _pick(e, source, tbl, en_tbl)
+            data = t.encode(text)
             if len(data) > b.length:
                 raise ValueError(f"{b.name} #{e.id}: {len(data)} bytes > {b.length}")
             rom[e.ptr:e.ptr + b.length] = data + bytes([b.pad]) * (b.length - len(data))
         return
     if b.type == "inline":
         endcode, nop = tbl.ctrl_enc["end"][0], tbl.ctrl_enc["nop"][0]
-        old = {pc: n for pc, _, n in inline_starts(rom, b, tbl)}
+        old = {pc: n for pc, _, n in inline_starts(layout, b, tbl)}
         _check_entries(b, entries, old)
         for e in entries:
-            data = _encode(tbl, e, source)
+            text, t = _pick(e, source, tbl, en_tbl)
+            if not text:
+                raise ValueError(f"#{e.id}: empty {source.upper()} text")
+            data = t.encode(text)
             if not data.endswith(endcode):
                 raise ValueError(f"{b.name} #{e.id}: inline text must end with {{end}}")
             if len(data) > old[e.ptr]:
@@ -197,20 +204,21 @@ def insert_block(rom, b, entries, tbl, source="en") -> None:
             pad = (old[e.ptr] - len(data)) // len(nop)
             rom[e.ptr:e.ptr + old[e.ptr]] = data[:-len(endcode)] + nop * pad + endcode
         return
-    _insert_pool(rom, b, entries, tbl, source)
+    _insert_pool(rom, layout, b, entries, tbl, source, en_tbl)
 
 
-def _insert_pool(rom, b, entries, tbl, source):
+def _insert_pool(rom, layout, b, entries, tbl, source, en_tbl):
     # free space = the original string spans, merged, split at 32 KB bank boundaries for 16-bit pointers
     free = []
-    for s, z in string_spans(rom, b, tbl):
+    for s, z in string_spans(layout, b, tbl):
         if free and free[-1][1] == s and not (b.type == "ptr16" and s % 0x8000 == 0):
             free[-1][1] = z
         else:
             free.append([s, z])
-    _check_entries(b, entries, [pc for pc, _, _, _ in pool_strings(rom, b, tbl)])
+    _check_entries(b, entries, [pc for pc, _, _, _ in pool_strings(layout, b, tbl)])
+    chosen = {}
     for e in entries:
-        text = e.jp if source == "jp" else e.en
+        text, t = _pick(e, source, tbl, en_tbl)
         if not text and "cont" not in e.meta:
             raise ValueError(f"#{e.id}: empty {source.upper()} text")
         ends = bool(TERMINATED.search(text))
@@ -218,7 +226,8 @@ def _insert_pool(rom, b, entries, tbl, source):
             raise ValueError(f"{b.name} #{e.id}: cont entry falls through into the next one; it must not end with {{end}}/{{goto}}")
         if "cont" not in e.meta and not ends:
             raise ValueError(f"{b.name} #{e.id}: must end with {{end}} or {{goto}}")
-    data = {e.ptr: _encode(tbl, e, source, allow_empty="cont" in e.meta) for e in entries}
+        chosen[e.ptr] = (text, t)
+    data = {p: t.encode(text) for p, (text, t) in chosen.items()}
     units, cur = [], []
     for e in sorted(entries, key=lambda e: e.ptr):  # cont chains are allocated as one unit
         cur.append(e)
@@ -247,13 +256,12 @@ def _insert_pool(rom, b, entries, tbl, source):
         v = pc_to_lorom(new[pc]) | old & 0x800000
         return f"{{{m[1]}:{v.to_bytes(3, 'little').hex().upper()}}}"
 
-    for e in entries:
-        text = e.jp if source == "jp" else e.en
-        blob = tbl.encode(REMAP.sub(remap, text)) if JUMP.search(text) else data[e.ptr]
-        rom[new[e.ptr]:new[e.ptr] + len(blob)] = blob
+    for p, (text, t) in chosen.items():
+        blob = t.encode(REMAP.sub(remap, text)) if JUMP.search(text) else data[p]
+        rom[new[p]:new[p] + len(blob)] = blob
     w = _width(b)
     for s in slots(b):
-        v = int.from_bytes(rom[s:s + w], "little")
+        v = int.from_bytes(layout[s:s + w], "little")
         old = lorom_to_pc(b.bank << 16 | v if w == 2 else v)
         nv = pc_to_lorom(new[old])
         nv = nv & 0xFFFF if w == 2 else nv | v & 0x800000

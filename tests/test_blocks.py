@@ -139,10 +139,12 @@ def test_insert_fixed_pads_and_rejects_long():
         insert_block(rom, fb, es, T, "en")
 
 
-def test_empty_text_raises():
+def test_empty_text_raises_when_no_jp_fallback():
     rom = synth()
+    es = dump_block(rom, B, T)
+    es[0].jp = ""
     with pytest.raises(ValueError, match="empty EN"):
-        insert_block(rom, B, dump_block(rom, B, T), T, "en")
+        insert_block(rom, B, es, T, "en")
 
 
 def test_inline_pads_with_nop_and_rejects_long():
