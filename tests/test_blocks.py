@@ -143,7 +143,7 @@ def test_empty_text_raises_when_no_jp_fallback():
     rom = synth()
     es = dump_block(rom, B, T)
     es[0].jp = ""
-    with pytest.raises(ValueError, match="empty EN"):
+    with pytest.raises(ValueError, match="t #0: empty EN"):
         insert_block(rom, B, es, T, "en")
 
 

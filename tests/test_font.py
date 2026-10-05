@@ -36,3 +36,12 @@ def test_bad_glyph_errors():
         parse_font("char B\n#\n")
     with pytest.raises(ValueError, match="char C.*width"):
         parse_font(art("C", ["#########"] * 16))
+
+
+def test_errors_name_the_line():
+    with pytest.raises(ValueError, match=r"line 2"):
+        parse_font("; c\nchar B\n#\n")
+    with pytest.raises(ValueError, match=r"line 2.*'x'"):
+        parse_font("char D\n#x\n" + "\n".join(["##"] * 15))
+    with pytest.raises(ValueError, match="outside"):
+        parse_font(art("あ", ["#"] * 16))

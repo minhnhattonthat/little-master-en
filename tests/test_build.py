@@ -73,3 +73,13 @@ def test_build_relocates_message_tables(tmp_path):
     for i in range(20):
         v = int.from_bytes(data[0x10000 + 4 * i:0x10003 + 4 * i], "little")
         assert rom.lorom_to_pc(v) >= 0x208000, f"list entry {i} still at {v:06X}"
+
+
+def test_failed_build_leaves_no_stale_outputs(tmp_path, monkeypatch):
+    build.build(tmp_path, "jp")
+    bad = tmp_path / "bad.asm"
+    bad.write_text("lorom\nthis is not an instruction\n")
+    monkeypatch.setattr(build, "MAIN_ASM", bad)
+    with pytest.raises(RuntimeError, match="asar failed"):
+        build.build(tmp_path, "jp")
+    assert not any((tmp_path / n).exists() for n in ("lm_en.sfc", "lm_en.bps", "_work.sfc"))

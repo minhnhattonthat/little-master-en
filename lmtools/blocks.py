@@ -202,7 +202,7 @@ def insert_block(rom, b, entries, tbl, source="en", en_tbl=None, base=None, allo
         for e in entries:
             text, t = _pick(e, source, tbl, en_tbl)
             if not text:
-                raise ValueError(f"#{e.id}: empty {source.upper()} text")
+                raise ValueError(f"{b.name} #{e.id}: empty {source.upper()} text")
             data = _enc(b, e, t, text)
             if not data.endswith(endcode):
                 raise ValueError(f"{b.name} #{e.id}: inline text must end with {{end}}")
@@ -252,7 +252,7 @@ def _insert_pool(rom, layout, b, entries, tbl, source, en_tbl):
     for e in entries:
         text, t = _pick(e, source, tbl, en_tbl)
         if not text and "cont" not in e.meta:
-            raise ValueError(f"#{e.id}: empty {source.upper()} text")
+            raise ValueError(f"{b.name} #{e.id}: empty {source.upper()} text")
         ends = bool(TERMINATED.search(text))
         if "cont" in e.meta and ends:
             raise ValueError(f"{b.name} #{e.id}: cont entry falls through into the next one; it must not end with {{end}}/{{goto}}")

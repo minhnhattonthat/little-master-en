@@ -42,15 +42,20 @@ def build(out_dir="build", source="en") -> Path:
     asar = _tool(ASAR, "asar")
     base = rom.load_base()
     padded_base = rom.expand(bytearray(base))
+    sfc, patch = out_dir / "lm_en.sfc", out_dir / "lm_en.bps"
+    for stale in (sfc, patch):
+        stale.unlink(missing_ok=True)
     work_file = out_dir / "_work.sfc"
     work_file.write_bytes(padded_base)
-    r = subprocess.run([asar, "--no-title-check", "--fix-checksum=off", "--symbols=wla",
-                        f"--symbols-path={out_dir / 'lm_en.sym'}", str(MAIN_ASM), str(work_file)],
-                       capture_output=True, text=True)
-    if r.returncode:
-        raise RuntimeError(f"asar failed:\n{r.stdout}{r.stderr}")
-    work = bytearray(work_file.read_bytes())
-    work_file.unlink()
+    try:
+        r = subprocess.run([asar, "--no-title-check", "--fix-checksum=off", "--symbols=wla",
+                            f"--symbols-path={out_dir / 'lm_en.sym'}", str(MAIN_ASM), str(work_file)],
+                           capture_output=True, text=True)
+        if r.returncode:
+            raise RuntimeError(f"asar failed:\n{r.stdout}{r.stderr}")
+        work = bytearray(work_file.read_bytes())
+    finally:
+        work_file.unlink(missing_ok=True)
     write_fonts(work)
     jp, en = Table.load(ROOT / "tbl/jp.tbl"), Table.load(ROOT / "tbl/en.tbl")
     alloc = Alloc()
@@ -61,7 +66,6 @@ def build(out_dir="build", source="en") -> Path:
         else:
             insert_block(work, b, entries, jp, source, en_tbl=en, base=padded_base, alloc=alloc)
     rom.fix_checksum(work)
-    sfc = out_dir / "lm_en.sfc"
     sfc.write_bytes(work)
-    (out_dir / "lm_en.bps").write_bytes(bps.create(bytes(base), bytes(work)))
+    patch.write_bytes(bps.create(bytes(base), bytes(work)))
     return sfc
