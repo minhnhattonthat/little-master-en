@@ -3,7 +3,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from lmtools import gfx, ips, locate, mesen, rom
+from lmtools import dis65, gfx, ips, locate, mesen, rom
 from lmtools.tbl import Table
 
 BETA2 = Path("patch/LM3-Beta2.IPS")
@@ -61,6 +61,12 @@ def cmd_boot(a):
     sys.exit(code)
 
 
+def cmd_dis(a):
+    addr = int(a.addr, 16)
+    for line in dis65.disasm(rom.load_base(), rom.lorom_to_pc(addr), addr, a.n, a.m16, a.x16):
+        print(line)
+
+
 def build_parser():
     ap = argparse.ArgumentParser(prog="lm")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -68,7 +74,7 @@ def build_parser():
     p = sub.add_parser("gfx", help="render ROM graphics to PNG")
     p.add_argument("--offset", required=True)
     p.add_argument("--count", type=int, default=256)
-    p.add_argument("--mode", choices=["tile", "linear"], default="tile")
+    p.add_argument("--mode", choices=["tile", "linear", "kanji16"], default="tile")
     p.add_argument("--bpp", type=int, choices=[1, 2, 4], default=1)
     p.add_argument("--w", type=int, default=8)
     p.add_argument("--h", type=int, default=8)
@@ -82,6 +88,10 @@ def build_parser():
     p = sub.add_parser("findptr", help="find pointers to a PC offset (hex)"); p.add_argument("pc"); p.set_defaults(fn=cmd_findptr)
     p = sub.add_parser("freespace"); p.add_argument("--min", default="0x100"); p.set_defaults(fn=cmd_freespace)
     p = sub.add_parser("scan", help="heuristic text scan using tbl/jp.tbl"); p.add_argument("--min", type=int, default=4); p.set_defaults(fn=cmd_scan)
+    p = sub.add_parser("dis", help="disassemble 65816 at SNES address (hex)")
+    p.add_argument("addr"); p.add_argument("-n", type=int, default=40)
+    p.add_argument("--m16", action="store_true"); p.add_argument("--x16", action="store_true")
+    p.set_defaults(fn=cmd_dis)
     p = sub.add_parser("boot"); p.add_argument("rom", nargs="?"); p.set_defaults(fn=cmd_boot)
     return ap
 

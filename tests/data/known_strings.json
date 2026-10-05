@@ -1,0 +1,8 @@
+[
+  {"pc": "010052", "length": 10, "text": "こんぼう", "source": "item 0 name (Beta2 calls it Club)"},
+  {"pc": "01005C", "length": 10, "text": "マウスけがわ", "source": "item 0 second field"},
+  {"pc": "1B1759", "length": null, "text": "    「王国歴137年 ジャスバン」{n}{cF2:78}{cFF:00}「かんねんしろ、おまえの悪行もここまでだ」{end}", "source": "intro, on screen at boot frame 900 (王国歴137年)"},
+  {"pc": "1B178F", "length": null, "text": "「はなせ!! ボクをここから出せだニャー」{end}", "source": "intro line 2, seen on screen in probe run"},
+  {"pc": "1B17DE", "length": null, "text": "ヴァイス{n}「めぼしをつけた遺跡も あとわずか。{n}{cF2:20} 今度こそ 頂いてみせるぜ‥‥」{end}", "source": "intro, kanji + controls"},
+  {"pc": "1B185D", "length": null, "text": "トランプ{n}「おい、ヤローども!{n} 明日も暴れまくるぞ、しっかりついてこい!!」{end}", "source": "intro, speaker name + newline"}
+]

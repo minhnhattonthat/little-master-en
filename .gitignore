@@ -10,3 +10,4 @@ build/
 test/states/
 __pycache__/
 .superpowers/
+test/lua/_*.lua

@@ -17,10 +17,23 @@ def glyph_linear(data: bytes, w: int, h: int) -> list[list[int]]:
     return [[(data[y * bpr + x // 8] >> (7 - x % 8)) & 1 for x in range(w)] for y in range(h)]
 
 
+def glyph_kanji16(data: bytes) -> list[list[int]]:
+    """Little Master kanji: 16x16 1bpp, left 8px column (16 bytes) then right; rows interlaced (even rows first)."""
+    px = [[0] * 16 for _ in range(16)]
+    for r in range(16):
+        y = r // 2 + 8 * (r % 2)
+        for x in range(16):
+            px[y][x] = (data[(x // 8) * 16 + r] >> (7 - x % 8)) & 1
+    return px
+
+
 def render(rom, offset, count, mode="tile", bpp=1, w=8, h=8, cols=16, scale=3, label=None):
     if mode == "tile":
         w = h = 8
         size, maxv = 8 * bpp, (1 << bpp) - 1
+    elif mode == "kanji16":
+        w = h = 16
+        size, maxv = 32, 1
     else:
         size, maxv = (w + 7) // 8 * h, 1
     lab = 10 if label is not None else 0
@@ -31,7 +44,8 @@ def render(rom, offset, count, mode="tile", bpp=1, w=8, h=8, cols=16, scale=3, l
         data = bytes(rom[offset + i * size:offset + (i + 1) * size])
         if len(data) < size:
             break
-        px = tile_planar(data, bpp) if mode == "tile" else glyph_linear(data, w, h)
+        px = (tile_planar(data, bpp) if mode == "tile" else
+              glyph_kanji16(data) if mode == "kanji16" else glyph_linear(data, w, h))
         ox, oy = i % cols * cw + 1, i // cols * ch + 1 + lab
         for y, row in enumerate(px):
             for x, v in enumerate(row):
