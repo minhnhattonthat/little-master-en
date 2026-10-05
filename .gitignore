@@ -1,0 +1,11 @@
+*.sfc
+*.smc
+*.ips
+*.IPS
+*.bps
+rom/
+patch/
+tools/
+build/
+test/states/
+__pycache__/
