@@ -44,7 +44,8 @@ def build(out_dir="build", source="en") -> Path:
     padded_base = rom.expand(bytearray(base))
     work_file = out_dir / "_work.sfc"
     work_file.write_bytes(padded_base)
-    r = subprocess.run([asar, "--no-title-check", "--fix-checksum=off", str(MAIN_ASM), str(work_file)],
+    r = subprocess.run([asar, "--no-title-check", "--fix-checksum=off", "--symbols=wla",
+                        f"--symbols-path={out_dir / 'lm_en.sym'}", str(MAIN_ASM), str(work_file)],
                        capture_output=True, text=True)
     if r.returncode:
         raise RuntimeError(f"asar failed:\n{r.stdout}{r.stderr}")

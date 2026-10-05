@@ -5,7 +5,7 @@ from lmtools.tbl import Table
 
 T = Table.load("tbl/jp.tbl")
 FONT = slice(0x170610, 0x1707B0)                            # fixed tiles $61-$7A (a-z)
-HOOKS = [(0x00BE43, 6), (0x00BE70, 5), (0x00BF01, 4), (0x00BF94, 5), (0x01ECE5, 5)]  # src/asm/vwf.asm org sites
+HOOKS = [(0x00BE43, 6), (0x00BE70, 5), (0x00BF01, 4), (0x00BF94, 5), (0x01ECE5, 5), (0x00C20E, 5)]  # src/asm/vwf.asm org sites
 
 
 def test_empty_en_falls_back_to_jp(base):

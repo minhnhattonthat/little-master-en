@@ -104,3 +104,82 @@ emu.addEventCallback(function()
 end, emu.eventType.endFrame)
 ''', tmp_path / "o3")
     assert int(res) >= 2, "event did not continue to the next inline text"
+
+
+def symbols(sfc):
+    """asar WLA symbols: 'bb:aaaa name' -> {name: snes address}."""
+    out = {}
+    for line in Path(sfc).with_suffix(".sym").read_text().splitlines():
+        parts = line.split()
+        if len(parts) == 2 and ":" in parts[0]:
+            bank, addr = parts[0].split(":")
+            out[parts[1]] = int(bank, 16) << 16 | int(addr, 16)
+    return out
+
+
+def inject_en(monkeypatch, old, new):
+    real = build.parse
+
+    def f(text):
+        es = real(text)
+        for e in es:
+            if e.en == old:
+                e.en = new
+        return es
+    monkeypatch.setattr(build, "parse", f)
+
+
+ITEM = "{p7F:09}Item use{n}canceled.{scroll:00}{end}"
+
+
+def test_speed0_text_requests_few_uploads(tmp_path):
+    sfc = build.build(tmp_path / "b", "en")
+    res = run(sfc, "item_menu", '''
+local fe = 0
+emu.addMemoryCallback(function(addr, val)
+  if loaded and frame > 10 and val == 0xFE and (emu.getState()["cpu.k"] or 0) == 0xC0 then fe = fe + 1 end
+end,
+  emu.callbackType.write, 0x57, 0x57, emu.cpuType.snes, emu.memType.snesWorkRam)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 120 then local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(tostring(fe)); f:close(); emu.stop(0) end
+end, emu.eventType.endFrame)
+''', tmp_path / "o4")
+    assert 1 <= int(res) <= 3, f"{res} tile-upload requests for one instant message"
+
+
+def test_empty_line_does_not_consume_a_slot(tmp_path, monkeypatch):
+    inject_en(monkeypatch, ITEM, "{p7F:09}{n}Item use{n}canceled.{scroll:00}{end}")
+    sfc = build.build(tmp_path / "b", "en")
+    clear = symbols(sfc)["vwf_clearslot"]
+    res = run(sfc, "item_menu", f'''
+local n = 0
+emu.addMemoryCallback(function() if loaded and frame > 10 then n = n + 1 end end,
+  emu.callbackType.exec, {clear}, {clear}, emu.cpuType.snes, emu.memType.snesMemory)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 120 then local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(tostring(n)); f:close(); emu.stop(0) end
+end, emu.eventType.endFrame)
+''', tmp_path / "o5")
+    assert int(res) == 2, f"{res} slots cleared for 2 drawn lines"
+
+
+def test_line_ending_on_the_edge_leaves_the_border(tmp_path, monkeypatch):
+    peacock = '{p7F:02}{speed:02}"Peacock, run home!{n}{delay:30} We\'ll stop them."{end}'
+    inject_en(monkeypatch, peacock, "{p7F:02}{speed:02}" + "M" * 28 + "{end}")
+    sfc = build.build(tmp_path / "b", "en")
+    res = run(sfc, "ordinary_field_message", '''
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 400 then
+    local W = emu.memType.snesWorkRam
+    local row = emu.read16(0x09F2, W)
+    local e = emu.read16(0x9000 + 2 * (row * 32 + 30), W) & 0x3FF
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(tostring(e)); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''', tmp_path / "o6")
+    assert not 0x180 <= int(res) <= 0x1FF, f"border cell holds VWF tile {int(res):03X}"

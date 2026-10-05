@@ -3,7 +3,8 @@
 ; Each text line gets a "line slot" of 32 cells; cell (slot L, column c) is dynamic tile
 ;   $180 + base + L*32 + c      (base = 2*$0A1A: tiles below are window labels, never touched)
 ; Glyphs are ORed into those 2bpp tiles (plane 0 = top 8 rows, plane 1 = bottom 8 rows) and the
-; whole slot buffer is uploaded by the NMI ($57 = $FE, then wait one frame). Tiles are stored EOR $6F
+; whole slot buffer is uploaded by the NMI ($57 = $FE) once per screen update: drawing only marks the buffer
+; dirty, and the hook on the game's tilemap upload ($00:C20E) sends the tiles first. Tiles are stored EOR $6F
 ; (the game's font is inverted: $6F = $FFFF in every window seen).
 ; Fixed font (original renderer) is used when: menu mode ($0A1C), kanji in the message ($0A18),
 ; too few line slots for the window, a cursor-set code appeared in the message, or char not $20-$7E.
@@ -21,6 +22,9 @@
 !nlines = $7FFF12         ; number of line slots
 !novwf  = $7FFF14         ; nonzero: fixed font for the rest of this message
 !partial = $7FFF16        ; nonzero: the game cursor sits one cell past a partly filled cell
+!dirty  = $7FFF18         ; nonzero: !slots changed since the last upload
+!needslot = $7FFF1A       ; nonzero: the next VWF glyph starts a fresh line slot (lazy: empty lines cost nothing)
+!col    = $7FFF1C         ; cursor column of the glyph being drawn
 !slots  = $7FB000         ; 128 x 16-byte tiles -> VRAM $6C00 (BG tiles $180-$1FF)
 
 org $00BE43               ; renderer message start; was: STZ $0A10 / STZ $0A06
@@ -42,6 +46,10 @@ org $01ECE5               ; window clear; was: REP #$20 / LDA #$2000
     JML vwf_clear
     NOP
 
+org $00C20E               ; tilemap upload request; was: PHP / SEP #$20 / INC $57
+    JML vwf_c20e
+    NOP
+
 org $C08000
 vwf_glyphs:   skip $600   ; filled by lm.py build: 95 x 16 bytes, chars $20-$7E
 vwf_widths:   skip $60    ; filled by lm.py build: 95 bytes
@@ -60,7 +68,8 @@ vwf_start:
     LDA #$0001 : STA.l !novwf
     BRA .done
 .ok:
-    JSR vwf_advance_line
+    LDA #$0001 : STA.l !needslot
+    LDA #$0000 : STA.l !px : STA.l !partial
 .done:
     PLY : PLX : PLP
     JML $00BE49
@@ -108,7 +117,10 @@ vwf_dispatch:             ; renderer: A = char (16-bit), X = tilemap offset (16-
 
 vwf_draw:                 ; A = char; draws glyph at (!line, $09FC, !px); advances X/$09FC/!px
     PHA
-    LDA.l !partial : BEQ +                       ; step back into the partly filled cell
+    LDA.l !needslot : BEQ +
+    LDA #$0000 : STA.l !needslot
+    PHX : PHY : JSR vwf_advance_line : PLY : PLX
++   LDA.l !partial : BEQ +                       ; step back into the partly filled cell
     DEX : DEX : DEC $09FC
     LDA #$0000 : STA.l !partial
 +   PLA
@@ -118,7 +130,8 @@ vwf_draw:                 ; A = char; draws glyph at (!line, $09FC, !px); advanc
     SEP #$20 : LDA.l vwf_widths,x : REP #$20 : AND #$00FF : STA.l !wid
     LDA.l !gptr : ASL : ASL : ASL : ASL : CLC : ADC #vwf_glyphs&$FFFF : STA.l !gptr
     LDA.l !line : ASL : ASL : ASL : ASL : ASL : CLC : ADC.l !base : STA.l !toff
-    LDA $09FC : AND #$001F : CLC : ADC.l !toff : STA.l !toff    ; tile index of this cell
+    LDA $09FC : AND #$001F : STA.l !col
+    CLC : ADC.l !toff : STA.l !toff                                ; tile index of this cell
     CLC : ADC #$0180 : STA.l !tile
     LDA.l !toff : ASL : ASL : ASL : ASL : STA.l !toff           ; byte offset
     LDA #$0000 : STA.l !row
@@ -135,9 +148,11 @@ vwf_draw:                 ; A = char; draws glyph at (!line, $09FC, !px); advanc
 ++  CLC : ADC.l !toff : TAX
     SEP #$20                                     ; tiles are stored EOR $6F (game font is inverted)
     LDA.l !slots,x : EOR $6F : ORA.l !v+1 : EOR $6F : STA.l !slots,x       ; this cell
+    LDA.l !col : CMP #$1F : BEQ +                                           ; no next cell after column 31
     LDA.l !slots+16,x : EOR $6F : ORA.l !v : EOR $6F : STA.l !slots+16,x   ; spill into the next cell
-    REP #$20
-    LDA.l !row : INC : STA.l !row : CMP #$0010 : BCC .row
++   REP #$20
+    LDA.l !row : INC : STA.l !row : CMP #$0010 : BCS + : JMP .row
++
     PLX
     LDA.l !tile : CLC : ADC $0A02 : STA.l $7E9000,x : CLC : ADC #$0400 : STA.l $7E9040,x
     LDA.l !px : CLC : ADC.l !wid : STA.l !px
@@ -146,22 +161,39 @@ vwf_draw:                 ; A = char; draws glyph at (!line, $09FC, !px); advanc
     SEC : SBC #$0008 : STA.l !px
     INX : INX : INC $09FC
     LDA.l !tile : INC : STA.l !tile
-    CLC : ADC $0A02 : STA.l $7E9000,x : CLC : ADC #$0400 : STA.l $7E9040,x
+    LDA.l !px : BEQ .adv                         ; nothing spilled: leave the next cell (window border) alone
+    LDA.l !col : CMP #$001F : BEQ .adv           ; column 31 has no next cell in this slot
+    LDA.l !tile : CLC : ADC $0A02 : STA.l $7E9000,x : CLC : ADC #$0400 : STA.l $7E9040,x
     BRA .adv
 .upload:
     LDA.l !px : BEQ +                            ; partly filled cell: park the cursor on the next one so
     INX : INX : INC $09FC                        ; fixed-font output (prompt arrow, numbers) gets a fresh cell
     LDA #$0001 : STA.l !partial
-+   LDA #$6C00 : STA $78                         ; NMI: !slots -> VRAM $6C00
-    SEP #$20 : LDA #$FE : STA $57 : REP #$20
-    JSL $00E3BE                                  ; wait for it ($57 is one command per frame)
++   LDA #$0001 : STA.l !dirty                   ; uploaded by vwf_c20e before the next tilemap upload
     RTS
+
+vwf_c20e:                 ; game asks for a tilemap upload: send dirty VWF tiles first ($57 = one command per frame)
+    PHP
+    REP #$20
+    PHA
+    LDA.l !dirty : BEQ +
+    LDA #$0000 : STA.l !dirty
+    LDA #$6C00 : STA $78                         ; NMI: !slots -> VRAM $6C00
+    SEP #$20 : LDA #$FE : STA $57 : REP #$20
+    JSL $00E3BE                                  ; wait one frame for it
++   PLA
+    PLP
+    PHP                                          ; replayed: PHP / SEP #$20 / INC $57
+    SEP #$20
+    INC $57
+    JML $00C213
 
 ; ---------------------------------------------------------------- newline / cursor / clear
 vwf_newline:
     PHP : REP #$30 : PHX : PHY
     LDA.l !novwf : BNE +                         ; fixed-font message: leave the slot buffer alone
-    JSR vwf_advance_line
+    LDA #$0001 : STA.l !needslot                 ; the next glyph takes a fresh slot
+    LDA #$0000 : STA.l !px : STA.l !partial
 +   PLY : PLX : PLP
     LDA $09FE : CMP #$003E                       ; replayed (the JML covers $BF01-$BF04)
     JML $00BF07
@@ -176,7 +208,7 @@ vwf_setcol:
 vwf_clear:
     PHP : REP #$30 : PHX
     JSR vwf_layout
-    LDA #$0000 : STA.l !px : STA.l !line : STA.l !partial
+    LDA #$0000 : STA.l !px : STA.l !line : STA.l !partial : STA.l !needslot
     LDA $0A18 : ORA $0A1C : BNE +                ; kanji tiles / menu mode: !slots is not ours
     LDA.l !base : ASL : ASL : ASL : ASL : TAX    ; clear from the first VWF tile to the end
     LDA $6F                                      ; blank tile = paper (inversion mask)

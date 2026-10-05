@@ -2,8 +2,8 @@
 import pytest
 from lmtools import build, dis65, rom
 
-HOOK_SITES = {0x00BE43: 6, 0x00BE70: 5, 0x00BF01: 4, 0x00BF94: 5, 0x01ECE5: 5}   # site -> overwritten bytes
-SCAN = [(0x00B600, 0x00C300), (0x01EC00, 0x01EE00)]
+HOOK_SITES = {0x00BE43: 6, 0x00BE70: 5, 0x00BF01: 4, 0x00BF94: 5, 0x01ECE5: 5, 0x00C20E: 5}   # site -> overwritten bytes
+SCAN = [(0x00B600, 0x00C300), (0x00C200, 0x00C300), (0x01EC00, 0x01EE00)]
 
 
 @pytest.fixture(scope="module")
