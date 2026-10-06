@@ -5,6 +5,7 @@
 | [encoding.md](encoding.md) | Fonts (16x16 interlaced kanji at `020000`, 8x16 single-byte at `170000`), code ranges, how `tbl/jp.tbl` was built |
 | [text-engine.md](text-engine.md) | Preprocessor `$00:B680` → `$0400` buffer → renderer `$00:BE4F`; control codes and argument counts; window RAM |
 | [pointers.md](pointers.md) | Message table list at `010000` (20 tables, shared pools), inline event text (opcode `10`), fixed name records, coverage |
+| [graphics.md](graphics.md) | M5: title codec, subtitle insert, graphics checked |
 | [memory-map.md](memory-map.md) | Free space (≈4 KB), 4 MB expansion, RAM, `EBM1` compressed graphics |
 | [beta2-regions.md](beta2-regions.md) | Generated map of what Beta2 changed (reference only) |
 

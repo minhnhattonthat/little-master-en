@@ -36,3 +36,21 @@ def test_encode_round_trips_title():
 def test_stream_len_counts_operands():
     stream = bytes([0x03, 0x41, 0x22, 0x80, 0x05, 0x85, 0x00, 0xAA])
     assert chunkgfx.stream_len(stream, 0) == 7
+
+
+def test_off_palette_pixel_in_graphics_png_is_named(tmp_path, monkeypatch):
+    from PIL import Image
+    from lmtools import build
+    im = Image.new("RGB", (8, 8), (248, 248, 248)); im.putpixel((3, 5), (250, 0, 0)); im.save(tmp_path / "bad.png")
+    e = {"png": str(tmp_path / "bad.png"), "greys": {"248": 1}, "x": 0, "y": 96, "piece_y": 96, "id": 11}
+    with pytest.raises(ValueError, match=r"bad.png: pixel \(3,5\)"):
+        build._patch_bitmap8(bytes(0x2000), e)
+
+
+def test_graphics_png_outside_piece_is_rejected(tmp_path):
+    from PIL import Image
+    from lmtools import build
+    Image.new("RGB", (8, 8), (248, 248, 248)).save(tmp_path / "ok.png")
+    e = {"png": str(tmp_path / "ok.png"), "greys": {"248": 1}, "x": 0, "y": 125, "piece_y": 96, "id": 11}
+    with pytest.raises(ValueError, match="outside piece 11"):
+        build._patch_bitmap8(bytes(0x2000), e)

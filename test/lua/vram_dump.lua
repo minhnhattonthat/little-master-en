@@ -31,7 +31,9 @@ emu.addEventCallback(function()
     local st, t = emu.getState(), {}
     t[#t + 1] = "mode=" .. st["ppu.bgMode"]
     for i = 0, 3 do
-      t[#t + 1] = string.format("bg%d chr=%d map=%d", i + 1, st["ppu.layers[" .. i .. "].chrAddress"], st["ppu.layers[" .. i .. "].tilemapAddress"])
+      local L = "ppu.layers[" .. i .. "]."
+      t[#t + 1] = string.format("bg%d chr=%d map=%d w64=%s h64=%s hs=%d vs=%d", i + 1, st[L .. "chrAddress"], st[L .. "tilemapAddress"],
+        tostring(st[L .. "doubleWidth"]), tostring(st[L .. "doubleHeight"]), st[L .. "hscroll"], st[L .. "vscroll"])
     end
     local p = io.open(base .. ".ppu", "w"); p:write(table.concat(t, string.char(10))); p:close()
     local s = io.open(base .. ".png", "wb"); s:write(emu.takeScreenshot()); s:close()
