@@ -191,3 +191,15 @@ def test_positioned_text_must_end_inside_the_32_cell_screen():
     assert lint_entry(e, "wide", WID, W, {}) == []
     e.en = "{p02:0E}" + "x" * 31 + "{end}"
     assert lint_entry(e, "wide", WID, W, {}) == ["#33: segment 1 runs past the screen edge (col 2 + 31 cells > 32)"]
+
+
+def test_positioned_text_must_end_before_the_window_wrap_column():
+    # bug_menu (M6): the system-menu description window wraps at $09F8 = col 29; "you're holding" from col 16 hit it,
+    # the forced newline fell below the 3-line box and the engine waited for a key, freezing the menu cursor.
+    w = dict(W, panel={"px": 999, "lines": 9, "wrap": 29})
+    e = Entry(34, 0, {"slack": "7"}, "{p10:1A}使用します{end}", "{p10:1A}you're holding{end}")
+    assert lint_entry(e, "panel", WID, w, {}) == ["#34: segment 1 runs past the window's wrap column (col 16 + 14 cells > 29)"]
+    e.en = "{p10:1A}your items{end}"
+    assert lint_entry(e, "panel", WID, w, {}) == []
+    e2 = Entry(35, 0, {"slack": "2", "repos": "1", "wrap": "30"}, "{p19:18}ステレオ{end}", "{p18:18}Stereo{end}")
+    assert lint_entry(e2, "panel", WID, w, {}) == []       # measured: the report window wraps at col 30

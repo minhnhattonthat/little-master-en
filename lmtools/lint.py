@@ -105,10 +105,13 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
                     for m, seg in zip(POS.finditer(text), segs[1:])]
         jp_ends = ends(e.jp, jp_seg)
         for i, (m, end) in enumerate(zip(POS.finditer(e.en), ends(e.en, en_seg)), 1):
-            limit = max(32, jp_ends[i - 1] if i - 1 < len(jp_ends) else 0)      # the JP layout may already use more
+            edge = int(e.meta.get("wrap", win.get("wrap", 32)))   # the window's auto-wrap column ($09F8, measured);
+                                                                   # hitting it forces a newline
+            limit = max(edge, jp_ends[i - 1] if i - 1 < len(jp_ends) else 0)    # the JP layout may already use more
             if end > limit:
-                out.append(f"#{e.id}: segment {i} runs past the screen edge (col {int(m[0][2:4], 16)} + "
-                           f"{end - int(m[0][2:4], 16)} cells > 32)")
+                where = "the window's wrap column" if "wrap" in win or "wrap" in e.meta else "the screen edge"
+                out.append(f"#{e.id}: segment {i} runs past {where} (col {int(m[0][2:4], 16)} + "
+                           f"{end - int(m[0][2:4], 16)} cells > {edge})")
     else:
         k = 0
         for page in _pages(e.en):

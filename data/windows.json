@@ -43,7 +43,8 @@
   "px": 208,
   "cells": 28,
   "lines": 3,
-  "note": "msg02 non-positioned system/battle messages"
+  "wrap": 29,
+  "note": "msg02 non-positioned system/battle messages; positioned text (menu descriptions {p10:16/18/1A}) must end by col 29 = $09F8 (bug_menu: hitting it forces a newline below the box and the menu waits for a key)"
  },
  "screen": {
   "px": null,
