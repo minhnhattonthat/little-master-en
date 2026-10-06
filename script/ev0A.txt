@@ -364,11 +364,11 @@ EN: {p7F:02}{speed:02}"Okay, let's hurry to the professor."{end}
 
 #id 0091 ptr=051B87 box=dialog repos=1 slack=16
 JP: {p06:0E}勇者軍は ライナーク城へむかいます{end}
-EN: {p02:0E}The Heroes head for Castle Rainark{end}
+EN: {p01:0E}The Heroes go to Castle Rainark{end}
 
 #id 0092 ptr=051BB9 box=dialog repos=1 slack=16
 JP: {p05:0E}勇者軍は 再びマテドラルへむかうことに{end}
-EN: {p01:0E}The Heroes head back to Matedral{end}
+EN: {p01:0E}The Heroes return to Matedral{end}
 
 #id 0093 ptr=051C70 box=dialog
 JP: {p7F:02}{speed:02}「ずいぶん 荒らされてるなあ」{end}
@@ -848,7 +848,7 @@ EN: {p7F:02}{speed:02}"Okay, we'll take you home."{end}
 
 #id 0212 ptr=053BA0 box=dialog repos=1 slack=20
 JP: {p06:0E}勇者軍は 雪ふるオーサムへむかった{end}
-EN: {p01:0E}The Heroes headed for snowy Ausam{end}
+EN: {p01:0E}The Heroes head for snowy Ausam{end}
 
 #id 0213 ptr=053C36 box=dialog
 JP: {p7F:02}{speed:02}「いや～、お見事ですな。{delay:30}で、{delay:20}も、{delay:20}頭を使わないと{n} このフロアーから上へ進むことは できませんよ」{end}
@@ -1016,15 +1016,15 @@ EN: {p01:0C}The Heroes head for Kurukuru{p01:0F}Forest in search of Jewels{end}
 
 #id 0254 ptr=0547DC box=dialog repos=1 slack=20
 JP: {p04:0C}オレンジの魔石を 譲り受けた勇者軍は{p05:0F}ハイエスト山脈を目指して出発します{end}
-EN: {p01:0C}With the Orange Jewel, the Heroes{p01:0F}set out for the Highest Mountains{end}
+EN: {p01:0C}Orange Jewel won, the Heroes{p01:0F}set out for Highest Mountains{end}
 
 #id 0255 ptr=05483A box=dialog repos=1 slack=20
 JP: {p07:0C}バルバル鳥を捕まえた勇者軍は{p0A:0F}クルクルの森へ戻ります{end}
-EN: {p01:0C}With a Barbar Bird caught, the{p01:0F}Heroes return to Kurukuru Forest{end}
+EN: {p01:0C}Barbar Bird caught, the Heroes{p01:0F}return to Kurukuru Forest{end}
 
 #id 0256 ptr=05487F box=dialog repos=1 slack=20
 JP: {p06:0E}勇者軍は おもちゃの塔へむかいます{end}
-EN: {p02:0E}The Heroes head for the Toy Tower{end}
+EN: {p01:0E}The Heroes go to the Toy Tower{end}
 
 #id 0257 ptr=0548C5 box=dialog repos=1 slack=20
 JP: {p08:0B}クイズ村を訪ねた勇者軍は{p0B:0E}出迎えた村長に{p07:11}魔石を捜しにきたことを告げます{end}
@@ -1032,7 +1032,7 @@ EN: {p02:0B}The Heroes visit Quiz Village{p02:0E}and tell the welcoming chief{p0
 
 #id 0258 ptr=05492C box=dialog repos=1 slack=20
 JP: {p07:0B}難解なクイズをみごと解きあかし{p06:0E}アイイロの魔石を得た勇者軍は{p08:11}ラドック教授を訪ねることに{end}
-EN: {p01:0B}Having solved the hard quiz and{p01:0E}won the Indigo Jewel, the Heroes{p01:11}go to see Professor Radock{end}
+EN: {p01:0B}Having solved the hard quiz{p01:0E}and won the Indigo Jewel, the{p01:11}Heroes go see Professor Radock{end}
 
 #id 0259 ptr=054980 box=dialog repos=1 slack=20
 JP: {p08:0E}同刻 : ジャスバン遺跡{end}
@@ -1132,7 +1132,7 @@ EN: {p7F:02}{speed:02}"Keep your filthy hands off her!"{end}
 
 #id 0283 ptr=055088 box=dialog repos=1 slack=20
 JP: {p07:0C}勇者軍は 急ぎマテドラルへむかう{p05:0F}クレパスの氷河をぬけて 近道をすることに{end}
-EN: {p01:0C}The Heroes rush toward Matedral,{p01:0F}cutting across Crevasse Glacier{end}
+EN: {p01:0C}The Heroes rush to Matedral,{p01:0F}cutting across Crevasse Glacier{end}
 
 #id 0284 ptr=0550EB box=dialog
 JP: {p7F:02}{speed:02}「大変だ～～!{delay:20} ハウサー教王が 暴漢に!{n}{delay:30} 誰か、{delay:20}誰か 助けを!」{end}
@@ -1140,7 +1140,7 @@ EN: {p7F:02}{speed:02}"Help!{delay:20} Pontiff Hauser is under attack!{n}{delay:
 
 #id 0285 ptr=05513E box=dialog repos=1 slack=20
 JP: {p03:0E}勇者軍は、ヴァイスを追って ライモス神殿へ{end}
-EN: {p01:0E}The Heroes chase Weiss to Laimos{end}
+EN: {p01:0E}Heroes chase Weiss to Laimos{end}
 
 #id 0286 ptr=05519A box=dialog
 JP: {p7F:02}{speed:02}「助かった、{delay:20}これで 火が消えるね」{end}
@@ -1152,7 +1152,7 @@ EN: {p01:0E}Heroes: Kurukuru Forest, Laimos{end}
 
 #id 0288 ptr=055217 box=dialog repos=1 slack=20
 JP: {p08:0C}蒼月と別れた勇者軍は{p08:0F}ヴァイスの待つガウディへむかう{end}
-EN: {p01:0C}Leaving Sougetsu, the Heroes{p01:0F}head to Gaudi, where Weiss waits{end}
+EN: {p01:0C}Leaving Sougetsu, the Heroes{p01:0F}go to Gaudi, where Weiss waits{end}
 
 #id 0289 ptr=055252 box=dialog repos=1 slack=20
 JP: {p09:0C}神聖なる教会を舞台に{p07:0F}最後の戦いが始まろうとしている{end}
@@ -1160,7 +1160,7 @@ EN: {p01:0C}In the holy church, the final{p01:0F}battle is about to begin{end}
 
 #id 0290 ptr=055296 box=dialog repos=1 slack=20
 JP: {p07:0B}ついにあかされた ジャスバンの真実{p08:0E}ヴァイスの野望を阻止すべく{p08:11}勇者軍はライナークへ急いだ{end}
-EN: {p01:0B}Jasvan's truth revealed at last.{p01:0E}To stop Weiss's ambition,{p01:11}the Heroes hurried to Rainark{end}
+EN: {p01:0B}Jasvan's truth revealed at last{p01:0E}To stop Weiss's ambition,{p01:11}the Heroes hurried to Rainark{end}
 
 #id 0291 ptr=055333 box=dialog
 JP: {p7F:01}なんと、宝箱は ミミックだった!{scroll:00}{end}
@@ -1612,7 +1612,7 @@ EN: {p02:0E}"Help, heeelp!"{end}
 
 #id 0403 ptr=0573DA box=dialog repos=1 slack=20
 JP: {p06:0B}「閣下に申し上げます。{p06:0E} 過日マテドラル城下にて{p06:11} 巨大な洞穴が発見されました」{end}
-EN: {p02:0B}"Report, Your Excellency.{p02:0E} Below Matedral Castle the other{p02:11} day, a huge cavern was found."{end}
+EN: {p01:0B}"Report, Your Excellency.{p01:0E} A huge cavern was recently{p01:11} found near Matedral Castle."{end}
 
 #id 0404 ptr=05742C box=dialog repos=1 slack=20
 JP: {p02:0C}「早速 調査隊を派遣しましたところ、{p02:0F} 魔物が暴れていて とても奥に進めないとのこと」{end}
@@ -1620,7 +1620,7 @@ EN: {p02:0C}"We sent a survey team, but{p02:0F} monsters block the way in."{end}
 
 #id 0405 ptr=05747D box=dialog repos=1 slack=20
 JP: {p07:0E}「どうか お力をお貸しください」{end}
-EN: {p02:0E}"Please lend us your strength."{end}
+EN: {p01:0E}"Please lend us your strength."{end}
 
 #id 0406 ptr=0574D3 box=dialog
 JP: {p7F:02}われらが 勇者軍のおでましだ!{end}

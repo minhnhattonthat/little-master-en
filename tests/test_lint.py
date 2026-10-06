@@ -184,3 +184,10 @@ def test_missing_lists_untranslated_text_entries(tmp_path):
 def test_glossary_term_split_by_a_position_code_still_counts():
     e = Entry(32, 0, {"slack": "12", "repos": "1"}, "{p03:0C}ラドック教授の助手{p06:0F}あ{end}", "{p01:0C}They take Professor{p01:0F}Radock{end}")
     assert lint_entry(e, "wide", WID, W, {"ラドック教授": "Professor Radock"}) == []
+
+
+def test_positioned_text_must_end_inside_the_32_cell_screen():
+    e = Entry(33, 0, {"slack": "28", "repos": "1"}, "{p0A:0E}あいう{end}", "{p01:0E}" + "x" * 31 + "{end}")
+    assert lint_entry(e, "wide", WID, W, {}) == []
+    e.en = "{p02:0E}" + "x" * 31 + "{end}"
+    assert lint_entry(e, "wide", WID, W, {}) == ["#33: segment 1 runs past the screen edge (col 2 + 31 cells > 32)"]
