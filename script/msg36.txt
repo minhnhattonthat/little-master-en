@@ -908,351 +908,351 @@ EN: "For Matedral, it is a disaster{n} out of a clear sky."{delay:78}{clear:00}"
 
 #id 0227 ptr=1B27EB box=dialog
 JP: 「このままでは 国は荒れ、たみは{n} こんきゅうするであろう」{end}
-EN: 
+EN: "At this rate the land will be ruined,{n} and its people will suffer."{end}
 
 #id 0228 ptr=1B280C box=dialog
 JP: 「‥‥リイムよ、仲間を集いて マテドラルに{n} おもむき、教王ハウサーの下で、盗掘団の{n} 討伐に あたってほしい」{end}
-EN: 
+EN: "...Reem, gather your companions, go to{n} Matedral, and under Pontiff Hauser,{n} put down the tomb raiders."{end}
 
 #id 0229 ptr=1B2850 box=dialog
 JP: モーモー{n}「ようはボンバーズってのを やっつけちまえばいいんだろ? ま、俺たちにまかせりゃ安心だモー」{end}
-EN: 
+EN: Moomoo{n}"So we just gotta whip these Bombers?{n} Leave it to us, you'll be fine. Moo."{end}
 
 #id 0230 ptr=1B2887 box=dialog
 JP: リチャード{n}「うむ。たよりにしておるぞ」{end}
-EN: 
+EN: Richard{n}"Indeed. I am counting on you."{end}
 
 #id 0231 ptr=1B289C box=dialog
 JP: ライム{n}「リイム‥‥ さま」{end}
-EN: 
+EN: Lime{n}"Sir... Reem."{end}
 
 #id 0232 ptr=1B28AB box=dialog
 JP: リイム{n}「ん?」{end}
-EN: 
+EN: Reem{n}"Hm?"{end}
 
 #id 0233 ptr=1B28B4 box=dialog
 JP: ライム{n}「あ、あの‥ おきをつけて‥‥」{end}
-EN: 
+EN: Lime{n}"Oh, um... Please be careful..."{end}
 
 #id 0234 ptr=1B28C9 box=dialog
 JP: モーモー{n}「姫、オレさまのことは{n} しんぱい してくれないのかい?」{end}
-EN: 
+EN: Moomoo{n}"Princess, aren't ya worried{n} about me too?"{end}
 
 #id 0235 ptr=1B28ED box=dialog
 JP: ライム{n}「あ‥ いえ、けしてそのような‥」{end}
-EN: 
+EN: Lime{n}"Oh... No, it's not like that..."{end}
 
 #id 0236 ptr=1B2903 box=dialog
 JP: モーモー{n}「しんぱいすんなって。{n} リイムには、このオレさまがついてるんだ」{n}{delay:78}{clear:00}「どんな相手だろうが、指一本ふれさせねえよ」{end}
-EN: 
+EN: Moomoo{n}"Don't you worry.{n} Reem's got the great me on his side."{n}{delay:78}{clear:00}"Whoever comes, they won't{n} lay a finger on him."{end}
 
 #id 0237 ptr=1B294C box=dialog
 JP: リイム{n}「姫、おこころづかい ありがとうございます。{n} では、いってきます!」{end}
-EN: 
+EN: Reem{n}"Thank you for your kindness, Princess.{n} We'll be off, then!"{end}
 
 #id 0238 ptr=1B2975 box=dialog
 JP: ライム{n}「ええ」{end}
-EN: 
+EN: Lime{n}"Yes."{end}
 
 #id 0239 ptr=1B297E box=dialog
 JP: ピーコック{n}「リイムさん!」{end}
-EN: 
+EN: Peacock{n}"Mister Reem!"{end}
 
 #id 0240 ptr=1B298D box=dialog
 JP: リイム{n}「やあ、ピーコック 君だったのか」{end}
-EN: 
+EN: Reem{n}"Oh, Peacock, it's you."{end}
 
 #id 0241 ptr=1B29A4 box=dialog
 JP: ピーコック{n}「ハアハア、ライナークのお城で きいたら{n} こっちだって いうもんですからね」{n}{delay:78}{clear:00}「ハアハア、あわてて 追いかけてきたんスよ」{n}    {n}{end}
-EN: 
+EN: Peacock{n}"Huff, huff... At Castle Rainark they{n} told me you'd gone this way."{n}{delay:78}{clear:00}"Huff, huff... So I ran after you."{n}    {n}{end}
 
 #id 0242 ptr=1B29F7 box=dialog
 JP: ピーコック{n}「あにき、村を救ってくれた リイムさんです」{n}{end}
-EN: 
+EN: Peacock{n}"Boss, it's Mister Reem. He saved us!"{n}{end}
 
 #id 0243 ptr=1B2A17 box=dialog
 JP: ヴァイス{n}「おう、パズタ村では うちのピーコックが{n} 世話になったな」{n}{delay:78}{clear:00}「俺は ヴァイス」{n}{delay:78}{clear:00}「ヴァイス・キャンベル ってんだ。{n} おまえたちに ひとこと 礼がいいたくてな」{end}
-EN: 
+EN: Weiss{n}"Hey. Thanks for looking after{n} our Peacock in Pazuta."{n}{delay:78}{clear:00}"I'm Weiss."{n}{delay:78}{clear:00}"Weiss Campel.{n} I wanted to thank you myself."{end}
 
 #id 0244 ptr=1B2A7F box=dialog
 JP: モーモー{n}「ああ、どうってことないぜ」     {n}{end}
-EN: 
+EN: Moomoo{n}"Eh, it was nothing."     {n}{end}
 
 #id 0245 ptr=1B2A99 box=dialog
 JP: ヴァイス{n}「まったくマヌケな話だぜ。{n} ちょっとサフランの遺跡に 足を伸ばしてた隙に ボンバーズに 狙われちまうとはな」{end}
-EN: 
+EN: Weiss{n}"What a dumb story.{n} The Bombers hit us while I was off{n} at the Saffron Ruins."{end}
 
 #id 0246 ptr=1B2ADD box=dialog
 JP: タムタム{n}「あなたたち 盗掘団なの!?」  {n}{end}
-EN: 
+EN: Tamtam{n}"You're tomb raiders!?"  {n}{end}
 
 #id 0247 ptr=1B2AF8 box=dialog
 JP: ヴァイス{n}「おっと、そんな目で 見ないでくれよ」{end}
-EN: 
+EN: Weiss{n}"Whoa, don't look at me like that."{end}
 
 #id 0248 ptr=1B2B13 box=dialog
 JP: 「なにも悪いことを してるわけじゃねえ。{n} ちょっとばかし 遺跡を探索して、{n} ちょっとばかし 古いガラクタを 拾ってくる」{n}{delay:78}{clear:00}「世の中には、そのガラクタを 高く買ってくれる{n} 物好きなヤツらも いるのよ」{n}{delay:78}{clear:00}「それだけのことだ。誰も困りゃしないさ」{end}
-EN: 
+EN: "We're not doing anything wrong.{n} We poke around some ruins,{n} and pick up a little old junk."{n}{delay:78}{clear:00}"There are oddballs out there who'll{n} pay a lot for that junk."{n}{delay:78}{clear:00}"That's all. Nobody gets hurt."{end}
 
 #id 0249 ptr=1B2BAA box=dialog
 JP: タムタム{n}「でも‥‥」{end}
-EN: 
+EN: Tamtam{n}"But..."{end}
 
 #id 0250 ptr=1B2BB6 box=dialog
 JP: ヴァイス{n}「しかし、おまえら なかなかのウデ前だな。どうだ?{n} オレたちと いっしょに こないか?」{end}
-EN: 
+EN: Weiss{n}"You're pretty good, though. Say,{n} want to come with us?"{end}
 
 #id 0251 ptr=1B2BEA box=dialog
 JP: リイム{n}「?」{end}
-EN: 
+EN: Reem{n}"?"{end}
 
 #id 0252 ptr=1B2BF2 box=dialog
 JP: ヴァイス{n}「オレは 力が欲しいんだ。{n} オレの願いを かなえられるだけの力が」{n}{delay:78}{clear:00}「そのために 仲間を集めている」{end}
-EN: 
+EN: Weiss{n}"I want power.{n} Enough power to make my wish real."{n}{delay:78}{clear:00}"That's why I'm gathering allies."{end}
 
 #id 0253 ptr=1B2C38 box=dialog
 JP: モーモー{n}「どうするつもりだい?」{end}
-EN: 
+EN: Moomoo{n}"What're you planning?"{end}
 
 #id 0254 ptr=1B2C4A box=dialog
 JP: ヴァイス{n}「国をつくるのさ。オレたちみたいな{n} 生まれの悪いものでも 平等に暮らせる国。{n} いわれのない憤りを感じずにすむ国をつくるんだ」{delay:78}{clear:00}「いまは、こんなさえねえ なりわいだが、おれはやるぜ。{n} そのためなら、どんなことだって するつもりさ」{end}
-EN: 
+EN: Weiss{n}"To build a nation. One where folks born{n} low like us can live as equals.{n} Where nobody's scorned for nothing."{delay:78}{clear:00}"I scrape by in a lousy trade now,{n} but I'll do it. Whatever it takes."{end}
 
 #id 0255 ptr=1B2CD4 box=dialog
 JP: リイム{n}「ヴァイス、きみの気持ちはわかるけど‥‥」{end}
-EN: 
+EN: Reem{n}"Weiss, I understand how you feel, but..."{end}
 
 #id 0256 ptr=1B2CF0 box=dialog
 JP: 「でも、いまは いっしょに いけないよ{n} 僕たちには、やらなければならないことが あるから」{n}       {n}{end}
-EN: 
+EN: "We can't go with you right now.{n} We have something we have to do."{n}       {n}{end}
 
 #id 0257 ptr=1B2D29 box=dialog
 JP: ヴァイス{n}「‥‥そうか、残念だな。{n} お前とは 気があいそうだったんだがな」{end}
-EN: 
+EN: Weiss{n}"...I see. Too bad.{n} I thought we'd get along."{end}
 
 #id 0258 ptr=1B2D54 box=dialog
 JP: ヴァイス{n}「あばよ! またどこかで会うこともあるだろう。{n} そのときは、いい返事を 期待してるぜ」{end}
-EN: 
+EN: Weiss{n}"So long! I bet we'll meet again.{n} When we do, I'm hoping for a yes."{end}
 
 #id 0259 ptr=1B2D8B box=dialog
 JP: リイム{n}「うん」{end}
-EN: 
+EN: Reem{n}"Sure."{end}
 
 #id 0260 ptr=1B2D94 box=dialog
 JP: ピーコック{n}「それじゃ、リイムさん。{n} 教授に よろしく言っといてください」{delay:78}{clear:00}「兄貴が ジャスバンに 行くってんで、{n} おいらも ついて行くんスよ」{end}
-EN: 
+EN: Peacock{n}"Well then, Mister Reem.{n} Say hi to the professor for me."{delay:78}{clear:00}"The boss is heading to Jasvan,{n} so I'm tagging along."{end}
 
 #id 0261 ptr=1B2DEB box=dialog
 JP: リイム{n}「ジャスバンに?」{end}
-EN: 
+EN: Reem{n}"To Jasvan?"{end}
 
 #id 0262 ptr=1B2DF9 box=dialog
 JP: ピーコック{n}「ええ、例のカラードのお宝は ジャスバンに{n} あるんじゃないかって、にらんでるんス」{end}
-EN: 
+EN: Peacock{n}"Yeah. We figure that Colored treasure{n} might just be in Jasvan."{end}
 
 #id 0263 ptr=1B2E2C box=dialog
 JP: ヴァイス{n}「ピーコック! 行くぞ」{end}
-EN: 
+EN: Weiss{n}"Peacock! Let's go."{end}
 
 #id 0264 ptr=1B2E3F box=dialog
 JP: ピーコック{n}「へい!{n} じゃ、リイムさん。あっしはこれで」{end}
-EN: 
+EN: Peacock{n}"Coming!{n} Well, Mister Reem, I'm off."{end}
 
 #id 0265 ptr=1B2E5D box=dialog
 JP: モーモー{n}「例の宝‥‥{n} あいつらも 秘宝を狙っているのか?」{end}
-EN: 
+EN: Moomoo{n}"That treasure...{n} Are they after it too?"{end}
 
 #id 0266 ptr=1B2E82 box=dialog
 JP: タムタム{n}「そりゃそうよ。彼らだけじゃない。{n} もっともっと、大勢の人が 秘宝を狙って{n} マテドラルに 押し寄せているわ」{delay:78}{clear:00}「だから、私たちが 呼ばれているんじゃない」{end}
-EN: 
+EN: Tamtam{n}"Of course. And not just them.{n} Lots and lots of people are flocking{n} to Matedral after the treasure."{delay:78}{clear:00}"That's why we were called, isn't it?"{end}
 
 #id 0267 ptr=1B2EE7 box=dialog
 JP: リイム{n}「僕たちも 先を急ごう」{end}
-EN: 
+EN: Reem{n}"We'd better hurry, too."{end}
 
 #id 0268 ptr=1B2EFB box=dialog
 JP: ハウサー{n}「誉れ高い 雷光の勇者殿に{n} おこしいただけるとは、{n} これも カラードの神の おぼしめしでしょう」{end}
-EN: 
+EN: Hauser{n}"That the famed Hero of Lightning{n} has come to us must be{n} the will of the Colored god."{end}
 
 #id 0269 ptr=1B2F3B box=dialog
 JP: 「ようこそマテドラルへ。歓迎いたしますぞ」{end}
-EN: 
+EN: "Welcome to Matedral, Hero."{end}
 
 #id 0270 ptr=1B2F53 box=dialog
 JP: リイム{n}「ありがとうございます。{n} ライナーク国王 リチャード3世の命により{n} 参りました リイム・ライクバーン と申します」{end}
-EN: 
+EN: Reem{n}"Thank you.{n} By order of Richard III, King of Rainark,{n} I, Reem Likeburn, have come."{end}
 
 #id 0271 ptr=1B2F99 box=dialog
 JP: 「教王、なんなりと 御申しつけ下さい」{end}
-EN: 
+EN: "Pontiff, command me as you will."{end}
 
 #id 0272 ptr=1B2FB2 box=dialog
 JP: ハウサー{n}「御承知かと思うが、{n} 我がマテドラルが兵力を持たぬのは、{n} 争いを放棄する カラードの教えによるもの」{end}
-EN: 
+EN: Hauser{n}"As you may know, our Matedral{n} keeps no army because of the{n} Colored teaching that forsakes strife."{end}
 
 #id 0273 ptr=1B2FF8 box=dialog
 JP: 「人は 望外な力を持つと{n} 自らの方向を 見誤りがちになる。{n} 自分の欲するがままに 行動するようになる」{end}
-EN: 
+EN: "When people gain unexpected power,{n} they tend to lose their way,{n} and act only as they please."{end}
 
 #id 0274 ptr=1B303D box=dialog
 JP: 「リイムどの、そなたの武勇伝は{n} 広くラクナマイト大陸に響いておる」{n}{delay:78}{clear:00}「それほどの力を お持ちならば、{n} 何を欲することも できよう」{end}
-EN: 
+EN: "Sir Reem, your heroic deeds are known{n} all across the Lucknamight continent."{n}{delay:78}{clear:00}"With such power,{n} you could have anything you wished."{end}
 
 #id 0275 ptr=1B3092 box=dialog
 JP: 「されど、自らの戒律を固く守り、{n} 王への忠誠を尽くす」{end}
-EN: 
+EN: "Yet you hold fast to your vows{n} and serve your king loyally."{end}
 
 #id 0276 ptr=1B30B8 box=dialog
 JP: 「そなたこそ まことの騎士よ。{n} 私はリチャードを うらやましく思うよ」{end}
-EN: 
+EN: "You are a true knight.{n} I envy Richard, you know."{end}
 
 #id 0277 ptr=1B30E1 box=dialog
 JP: リイム{n}「教王‥‥」{end}
-EN: 
+EN: Reem{n}"Pontiff..."{end}
 
 #id 0278 ptr=1B30EE box=dialog
 JP: ハウサー{n}「おっと、いけませんな。{n} つい愚痴を こぼしてしまいました。{n} どうか お気になさらんでくだされ」{end}
-EN: 
+EN: Hauser{n}"Oh, forgive me.{n} I let my complaints slip out.{n} Please pay them no mind."{end}
 
 #id 0279 ptr=1B3129 box=dialog
 JP: ハウサー{n}「さて、勇者殿には{n} 遺跡の警護を お願い いたしたい」{end}
-EN: 
+EN: Hauser{n}"Now, Hero, I would ask you{n} to guard the ruins."{end}
 
 #id 0280 ptr=1B3153 box=dialog
 JP: 「とくにジャスバン遺跡には 気をつけてくだされ。{n} 近いうちに ボンバーズの手が伸びてくることが{n} じゅうぶん考えられますのでな」{end}
-EN: 
+EN: "Be especially wary of the Jasvan Ruins.{n} The Bombers may well reach for them{n} before long."{end}
 
 #id 0281 ptr=1B319C box=dialog
 JP: リイム{n}「わかりました」{end}
-EN: 
+EN: Reem{n}"Understood."{end}
 
 #id 0282 ptr=1B31A9 box=dialog
 JP: ハウサー{n}「では、よろしく頼みましたぞ」{end}
-EN: 
+EN: Hauser{n}"Then I leave it to you."{end}
 
 #id 0283 ptr=1B31BF box=dialog
 JP: 「そうそう。なれぬ土地では、{n} なにかと不便もおありでしょう」{end}
-EN: 
+EN: "Oh, yes. In an unfamiliar land,{n} you will surely find things hard."{end}
 
 #id 0284 ptr=1B31E3 box=dialog
 JP: 「勇者殿、コハク使いの司祭を ひとりおともに つけましょう。なんでも命じてやって くだされ」{end}
-EN: 
+EN: "I'll send an amber priest with you,{n} Hero. Command them as you please."{end}
 
 #id 0285 ptr=1B3219 box=dialog
 JP: リイム{n}「はい」{end}
-EN: 
+EN: Reem{n}"Yes, sir."{end}
 
 #id 0286 ptr=1B3222 box=dialog
 JP: 「あんたが 噂に聞こえる勇者殿かい?」{end}
-EN: 
+EN: "You're the hero I've heard about?"{end}
 
 #id 0287 ptr=1B323B box=dialog
 JP: 「あたしはシャルル。{n} シャルル・ブレッド。 よろしくね」{end}
-EN: 
+EN: "I'm Charles.{n} Charles Bread. Nice to meet you."{end}
 
 #id 0288 ptr=1B3259 box=dialog
 JP: ハウサー{n}「シャルル、リイム殿を案内して さしあげなさい」{end}
-EN: 
+EN: Hauser{n}"Charles, please guide Sir Reem."{end}
 
 #id 0289 ptr=1B327A box=dialog
 JP: 「熱帯ジャングル、ライチ村をまわって、{n} ジャスバンに むかうとよいでしょう」{end}
-EN: 
+EN: "Pass through the tropical jungle and{n} Lychee Village on your way to Jasvan."{end}
 
 #id 0290 ptr=1B32A5 box=dialog
 JP: シャルル{n}「はい」{end}
-EN: 
+EN: Charles{n}"Yes, sir."{end}
 
 #id 0291 ptr=1B32AF box=dialog
 JP: 「では勇者殿、参りましょう」{end}
-EN: 
+EN: "Well then, Hero, let's go."{end}
 
 #id 0292 ptr=1B32C2 box=dialog
 JP: ハウサー{n}「ふう、だれか‥‥{n} この争いを止める力をもつ者はおらぬのか‥‥」{end}
-EN: 
+EN: Hauser{n}"Sigh... Is there no one...{n} with the power to stop this strife..."{end}
 
 #id 0293 ptr=1B32ED box=dialog
 JP: 「‥‥すまない、リイムどの。この争いの{n} なくならぬ世界で、己の力に溺れることなく{n} カラードの教えを守っていける おとこさえいれば、{n} このような難題を 持ちかけずにすむものを‥‥」{end}
-EN: 
+EN: "...Forgive me, Sir Reem. If only{n} there were a man who kept to the{n} Colored ways amid this strife, unspoiled{n} by power, I'd not need to burden you..."{end}
 
 #id 0294 ptr=1B3355 box=dialog
 JP: シャルル{n}「タムタム!」{end}
-EN: 
+EN: Charles{n}"Tamtam!"{end}
 
 #id 0295 ptr=1B3362 box=dialog
 JP: 「なつかしいな、こうして会うのは3年ぶりじゃない?」{end}
-EN: 
+EN: "It's been ages! Three years, hasn't it?"{end}
 
 #id 0296 ptr=1B337F box=dialog
 JP: タムタム{n}「シャルル!{n} あなたが来てくれるなんて‥‥」{end}
-EN: 
+EN: Tamtam{n}"Charles!{n} I can't believe they sent you..."{end}
 
 #id 0297 ptr=1B339D box=dialog
 JP: タムタム{n}「シャルル、あらためて紹介するわ」{end}
-EN: 
+EN: Tamtam{n}"Charles, let me introduce everyone."{end}
 
 #id 0298 ptr=1B33B6 box=dialog
 JP: 「かれがリイム、私たちのマスター。{n} かれの活躍は 知っているわよね」{end}
-EN: 
+EN: "This is Reem, our master.{n} You know all about his exploits."{end}
 
 #id 0299 ptr=1B33DE box=dialog
 JP: 「そして、かれがモーモー。{n} どんな困難にも立ち向かう勇敢な仲間よ」{end}
-EN: 
+EN: "And this is Moomoo.{n} A brave friend who faces any danger."{end}
 
 #id 0300 ptr=1B3409 box=dialog
 JP: タムタム{n}「彼女は シャルル・ブレッド」{end}
-EN: 
+EN: Tamtam{n}"And this is Charles Bread."{end}
 
 #id 0301 ptr=1B3420 box=dialog
 JP: 「ラドック教授の下で{n} いっしょに学んでいたときに 知り合ったの」{n}{delay:78}{clear:00}「有能なるコハクの魔女にして、私の親友。{n} 攻撃魔法が得意なのよ」{end}
-EN: 
+EN: "We met when we were studying{n} together under Professor Radock."{n}{delay:78}{clear:00}"A gifted amber witch, my best friend.{n} She's great at attack magic."{end}
 
 #id 0302 ptr=1B347D box=dialog
 JP: 「ちょっと気が強いのが たまにきずだけどね」{end}
-EN: 
+EN: "She's a bit strong-willed, though."{end}
 
 #id 0303 ptr=1B3496 box=dialog
 JP: シャルル{n}「そんなことないわよ!」{end}
-EN: 
+EN: Charles{n}"I am not!"{end}
 
 #id 0304 ptr=1B34A8 box=dialog
 JP: タムタム{n}「そして‥‥」{end}
-EN: 
+EN: Tamtam{n}"And..."{end}
 
 #id 0305 ptr=1B34B5 box=dialog
 JP: モーモー{n}「どーなってんだ?」{end}
-EN: 
+EN: Moomoo{n}"What the heck?"{end}
 
 #id 0306 ptr=1B34C5 box=dialog
 JP: タムタム{n}「うふふ、驚いた?{n} 彼女は リルル。{n} シャルルのなかにいる もう一人のおんなのこ」{end}
-EN: 
+EN: Tamtam{n}"Hee hee, surprised?{n} This is Lilulu.{n} The other girl inside Charles."{end}
 
 #id 0307 ptr=1B34FB box=dialog
 JP: 「彼女、{n} ショックをうけると 性格が変わっちゃうの。{n} おとなしくて かわいい娘よ」{end}
-EN: 
+EN: "When she gets a shock,{n} her personality changes.{n} She's a sweet, gentle girl."{end}
 
 #id 0308 ptr=1B352D box=dialog
 JP: リルル{n}「あの、はじめまして。リルルです」{end}
-EN: 
+EN: Lilulu{n}"Um, nice to meet you. I'm Lilulu."{end}
 
 #id 0309 ptr=1B3543 box=dialog
 JP: 「みなさんのお役にたてるよう、がんばります。{n} よろしくお願いします」{end}
-EN: 
+EN: "I'll do my best to be of help to you all.{n} Please take care of me."{end}
 
 #id 0310 ptr=1B3569 box=dialog
 JP: モーモー{n}「お、おう」{end}
-EN: 
+EN: Moomoo{n}"Uh, s-sure."{end}
 
 #id 0311 ptr=1B3575 box=dialog
 JP: リイム{n}「こ、こちらこそよろしく」{end}
-EN: 
+EN: Reem{n}"N-nice to meet you too."{end}
 
 #id 0312 ptr=1B3587 box=dialog
 JP: タムタム{n}「変わるのは、性格だけじゃないのよ。{n} 扱える魔法も 補助魔法になっちゃうの。{n} おもしろいでしょ」{end}
-EN: 
+EN: Tamtam{n}"It's not just her personality.{n} Her magic turns to support magic too.{n} Neat, huh?"{end}
 
 #id 0313 ptr=1B35C9 box=dialog
 JP: リルル{n}「それでは参りましょうか」{end}
-EN: 
+EN: Lilulu{n}"Shall we go, then?"{end}
 
 #id 0314 ptr=1B35DC box=dialog
 JP: {end}
@@ -1268,87 +1268,87 @@ EN:
 
 #id 0317 ptr=1B35DF box=dialog
 JP: 「はじめまして、勇者のみなさん」{end}
-EN: 
+EN: "How do you do, Heroes."{end}
 
 #id 0318 ptr=1B35F2 box=dialog
 JP: 「あなたたちですね。{n} わが ボンバーズの邪魔を してくれているのは」{end}
-EN: 
+EN: "So you're the ones{n} who keep meddling with the Bombers."{end}
 
 #id 0319 ptr=1B3618 box=dialog
 JP: タムタム{n}「ボンバーズ!」{end}
-EN: 
+EN: Tamtam{n}"The Bombers!"{end}
 
 #id 0320 ptr=1B3626 box=dialog
 JP: 「わたしは 蒼月。こちらは トランプ」{end}
-EN: 
+EN: "I am Sougetsu. This is Trump."{end}
 
 #id 0321 ptr=1B363C box=dialog
 JP: トランプ{n}「ヒャッハッハ! おれたちゃ、泣く子もだまる{n} 魔獣盗賊団スカルボンバーズのリーダーさまよ」{end}
-EN: 
+EN: Trump{n}"Hya ha ha! We're the bosses of the Skull{n} Bombers, the Beast Bandits kids fear!"{end}
 
 #id 0322 ptr=1B3677 box=dialog
 JP: 「どうだ 怖いだろう?{n} ビビったんなら さっさとけえんな。{n} いまなら見逃してやるぜぇ。 ヒャッハッハ!」{end}
-EN: 
+EN: "Well? Scared yet?{n} If you're spooked, beat it.{n} I'll let you go for now. Hya ha ha!"{end}
 
 #id 0323 ptr=1B36B1 box=dialog
 JP: モーモー{n}「なんだと!」{end}
-EN: 
+EN: Moomoo{n}"What did you say?!"{end}
 
 #id 0324 ptr=1B36BE box=dialog
 JP: リイム{n}「キミたちは どうして村を襲うんだい!?{n} どうして、こんな略奪を繰り返すのさ?」{end}
-EN: 
+EN: Reem{n}"Why do you attack villages!?{n} Why do you keep on looting?"{end}
 
 #id 0325 ptr=1B36F2 box=dialog
 JP: 蒼月{n}「ちょっと、捜し物をしていましてね‥‥」{end}
-EN: 
+EN: Sougetsu{n}"We're looking for something..."{end}
 
 #id 0326 ptr=1B370E box=dialog
 JP: 「ご迷惑を おかけするかもしれませんが、{n} ま、御協力の程を よろしくお願いしますよ」{end}
-EN: 
+EN: "We may cause you some trouble,{n} but we do appreciate your cooperation."{end}
 
 #id 0327 ptr=1B3741 box=dialog
 JP: タムタム{n}「勝手なこと いわないでよ」{end}
-EN: 
+EN: Tamtam{n}"Don't be ridiculous!"{end}
 
 #id 0328 ptr=1B3757 box=dialog
 JP: モーモー{n}「俺たちが いるかぎり、{n} 好きかってには させないぜ!」{end}
-EN: 
+EN: Moomoo{n}"As long as we're around,{n} you won't get your way!"{end}
 
 #id 0329 ptr=1B377C box=dialog
 JP: 蒼月{n}「おお、勇ましいですね。{n} まあ、せいぜい頑張ってください」{end}
-EN: 
+EN: Sougetsu{n}"My, how brave.{n} Well, do your best."{end}
 
 #id 0330 ptr=1B37A3 box=dialog
 JP: 「そうだ、ひとついいことを教えておいてあげましょう。{n} 高名な勇者軍の名を傷つけたくなかったら、 ワレワレの邪魔をしようなんて考えない事ですよ」{end}
-EN: 
+EN: "Oh, yes, a word of advice.{n} If you value the Heroes' good name,{n} don't even think of getting in our way."{end}
 
 #id 0331 ptr=1B37F8 box=dialog
 JP: 「私は暴力は 嫌いなんですが、{n} 相棒は、そうでもないみたいですからねぇ」{end}
-EN: 
+EN: "I dislike violence myself,{n} but my partner doesn't seem to."{end}
 
 #id 0332 ptr=1B3824 box=dialog
 JP: トランプ{n}「ヒャッヒャッヒャ、そう。俺様 乱暴者!」{end}
-EN: 
+EN: Trump{n}"Hya hya hya, that's right. I'm a brute!"{end}
 
 #id 0333 ptr=1B3844 box=dialog
 JP: 蒼月{n}「あなたたちとは これからも縁がありそうですね。{n} 先を急いでいるので、これで失礼しますよ」{end}
-EN: 
+EN: Sougetsu{n}"I sense we'll be meeting again.{n} We're in a hurry, so excuse us."{end}
 
 #id 0334 ptr=1B387D box=dialog
 JP: タムタム{n}「あれが ボンバーズのリーダーなの‥‥」{end}
-EN: 
+EN: Tamtam{n}"So those are the Bombers' leaders..."{end}
 
 #id 0335 ptr=1B3897 box=dialog
 JP: モーモー{n}「あのウルフコマンド、かなりキレるな」{end}
-EN: 
+EN: Moomoo{n}"That WolfCommand is pretty sharp."{end}
 
 #id 0336 ptr=1B38B0 box=dialog
 JP: リイム{n}「うん、やっかいなことに なりそうだね」{end}
-EN: 
+EN: Reem{n}"Yeah. This could get messy."{end}
 
 #id 0337 ptr=1B38C9 box=dialog
 JP: モーモー{n}「お!{n} こうしちゃいられねえ、敵さんのおでましだぜ」{end}
-EN: 
+EN: Moomoo{n}"Whoa!{n} No time to waste, here they come."{end}
 
 #id 0338 ptr=1B38EB box=dialog
 JP: {end}
@@ -1360,51 +1360,51 @@ EN:
 
 #id 0340 ptr=1B38ED box=dialog
 JP: リイム{n}「ボンバーズの狙いも ジャスバンなのか?」{end}
-EN: 
+EN: Reem{n}"Are the Bombers after Jasvan too?"{end}
 
 #id 0341 ptr=1B3908 box=dialog
 JP: リルル{n}「ジャスバンは カラード教の聖地として{n} 崇められている遺跡です」{end}
-EN: 
+EN: Lilulu{n}"Jasvan is revered as a holy site{n} of the Colored faith."{end}
 
 #id 0342 ptr=1B3934 box=dialog
 JP: モーモー{n}「そんな有名な遺跡だ、{n} 今回の騒動では 真っ先に調べたんだろ?」{end}
-EN: 
+EN: Moomoo{n}"A ruin that famous, you'd have{n} checked it first in all this fuss, right?"{end}
 
 #id 0343 ptr=1B3966 box=dialog
 JP: リルル{n}「いえ」{end}
-EN: 
+EN: Lilulu{n}"No."{end}
 
 #id 0344 ptr=1B396F box=dialog
 JP: モーモー{n}「あらら」{end}
-EN: 
+EN: Moomoo{n}"Huh."{end}
 
 #id 0345 ptr=1B397A box=dialog
 JP: リルル{n}「あそこは 私たちマテドラルにとっては、{n} 非常に神聖な場所なんですよぉ」{end}
-EN: 
+EN: Lilulu{n}"That place is truly sacred{n} to us in Matedral."{end}
 
 #id 0346 ptr=1B39AB box=dialog
 JP: 「たとえハウサー教王だって、{n} 遺跡には 特別な儀式の時にしか{n} 立ち入ることは 許されてないんです」{end}
-EN: 
+EN: "Even Pontiff Hauser may only enter{n} the ruins for special rites."{end}
 
 #id 0347 ptr=1B39EB box=dialog
 JP: 「そんなところを 散策するなんて、{n} とても出来ないですぅ」{end}
-EN: 
+EN: "Poking around in a place like that{n} is just unthinkable."{end}
 
 #id 0348 ptr=1B3A0E box=dialog
 JP: モーモー{n}「そんなん、あいつらには関係ない事だよな」{end}
-EN: 
+EN: Moomoo{n}"Those guys sure won't care about that."{end}
 
 #id 0349 ptr=1B3A2C box=dialog
 JP: リルル{n}「それは‥‥そうですけどぉ‥‥」{end}
-EN: 
+EN: Lilulu{n}"Well... that's true, but..."{end}
 
 #id 0350 ptr=1B3A41 box=dialog
 JP: リイム{n}「とにかく、ジャスバンに急ごう!」{end}
-EN: 
+EN: Reem{n}"Anyway, let's hurry to Jasvan!"{end}
 
 #id 0351 ptr=1B3A58 box=dialog
 JP:     「王国歴395年 マテドラル」{n}{end}
-EN: 
+EN:     "Kingdom Year 395, Matedral"{n}{end}
 
 #id 0352 ptr=1B3A71 box=dialog
 JP: {end}
@@ -1528,75 +1528,75 @@ EN:
 
 #id 0382 ptr=1B3A8F box=dialog
 JP: トランプ{n}「ほんとうに、ここにお宝が ねむってるのかよ?」{end}
-EN: 
+EN: Trump{n}"Is there really treasure sleeping here?"{end}
 
 #id 0383 ptr=1B3AAE box=dialog
 JP: 蒼月{n}「ええ。‥‥どんな願いもかなう伝説の秘宝です」{delay:78}{clear:00}「ついにみつけました。{n} われらの悲願が成就するときが きたんですよ」{end}
-EN: 
+EN: Sougetsu{n}"Yes. ...The legendary treasure{n} that grants any wish."{delay:78}{clear:00}"We've found it at last.{n} The time to fulfill our cause has come."{end}
 
 #id 0384 ptr=1B3AFD box=dialog
 JP: 蒼月{n}「ん? また、あなた達ですか」{end}
-EN: 
+EN: Sougetsu{n}"Hm? You again?"{end}
 
 #id 0385 ptr=1B3B13 box=dialog
 JP: シャルル{n}「あなたたち、何をしてるの!」{delay:78}{clear:00}「マテドラルの領土で 勝手なことはさせないわ。{n} はやく、ここから立ち去りなさい!」{end}
-EN: 
+EN: Charles{n}"What are you doing here!"{delay:78}{clear:00}"You won't run wild on Matedral's land.{n} Leave this place at once!"{end}
 
 #id 0386 ptr=1B3B5F box=dialog
 JP: トランプ{n}「なんだ、このアマあ!」{delay:78}{clear:00}「俺様はいま、スゲーむしゃくしゃしてるんだ。{n} ちょろちょろしてんじゃねぇ! ブッとばされてえか!」{end}
-EN: 
+EN: Trump{n}"What'd you say, woman?!"{delay:78}{clear:00}"I'm in a real foul mood right now.{n} Quit pestering me! Want a beating?!"{end}
 
 #id 0387 ptr=1B3BAB box=dialog
 JP: モーモー{n}「やれるもんなら やってもらおうか!」{end}
-EN: 
+EN: Moomoo{n}"Try it if you can!"{end}
 
 #id 0388 ptr=1B3BC4 box=dialog
 JP: シャルル{n}「かかってらっしゃい!」{end}
-EN: 
+EN: Charles{n}"Bring it on!"{end}
 
 #id 0389 ptr=1B3BD6 box=dialog
 JP: トランプ{n}「じょうとうだ、てめえら!{n} ギタギタにしちまうぞ、覚悟しやがれ!」{end}
-EN: 
+EN: Trump{n}"You asked for it, punks!{n} I'll beat you to a pulp. Get ready!"{end}
 
 #id 0390 ptr=1B3C00 box=dialog
 JP: 蒼月{n}「まあ、まってください。{n} ここで争ったって、何の得にもなりませんよ」{delay:78}{clear:00}「いまは秘宝の行方を捜すのが先決です。{n} この場は一旦ひくとしましょう」{end}
-EN: 
+EN: Sougetsu{n}"Now, now, wait.{n} Fighting here gains us nothing."{delay:78}{clear:00}"Finding the treasure comes first.{n} Let us withdraw for now."{end}
 
 #id 0391 ptr=1B3C60 box=dialog
 JP: トランプ{n}「なにいってんでぇ」{end}
-EN: 
+EN: Trump{n}"What're you saying?"{end}
 
 #id 0392 ptr=1B3C70 box=dialog
 JP: トランプ{n}「チッ‥‥ てめえら、命拾いしたな」{delay:78}{clear:00}「だがな、俺様は決めたぜ。{n} 必ずてめえらをブッとばしてやるってな。ヒャッハッハ」{end}
-EN: 
+EN: Trump{n}"Tch... You punks got lucky."{delay:78}{clear:00}"But I've made up my mind.{n} I'll flatten you for sure. Hya ha ha."{end}
 
 #id 0393 ptr=1B3CBD box=dialog
 JP: モーモー{n}「ふん‥‥ なんでえ、あいつら」{end}
-EN: 
+EN: Moomoo{n}"Hmph... What's with those guys?"{end}
 
 #id 0394 ptr=1B3CD3 box=dialog
 JP: リイム{n}「よし、僕たちも中に入ろう」{end}
-EN: 
+EN: Reem{n}"Okay, let's go in too."{end}
 
 #id 0395 ptr=1B3CE9 box=dialog
 JP: シャルル{n}「ちょ、ちょっと! ここは神聖な‥‥」{end}
-EN: 
+EN: Charles{n}"H-hey, wait! This is a sacred..."{end}
 
 #id 0396 ptr=1B3D04 box=dialog
 JP: モーモー{n}「そんなこと言ってる場合じゃないだろ?{n} ほら、行くぞ」{end}
-EN: 
+EN: Moomoo{n}"This ain't the time for that, is it?{n} Come on, let's go."{end}
 
 #id 0397 ptr=1B3D2A box=dialog
 JP: シャルル{n}「ちょ、ちょっとちょっと! なんてことするのよ!!」{delay:78}{clear:00}「あなた、この遺跡が{n} どれだけ貴重なものか 知ってるでしょう?」{end}
-EN: 
+EN: Charles{n}"H-hey, hey, wait! What are you doing!!"{delay:78}{clear:00}"You know how precious{n} these ruins are, don't you?"{end}
 
 #id 0398 ptr=1B3D76 box=dialog
 JP: モーモー{n}「‥‥さあ?」{end}
-EN: 
+EN: Moomoo{n}"...Dunno."{end}
 
 #id 0399 ptr=1B3D83 box=dialog
 JP: シャルル{n}「さあ? って、もう、信じらんない!」{delay:78}{clear:00}「ここはカラード教の聖地なのよ!{n} 勇者殿、何とか言ってやってよ!!」{end}
-EN: 
+EN: Charles{n}"'Dunno'? Oh, I can't believe you!"{delay:78}{clear:00}"This is a holy site of the Colored faith!{n} Hero, say something to him!!"{end}
 
 #id 0400 ptr=1B3DCE box=dialog
 JP: リイム{n}「あ、ああ。‥‥まあ、知らずにやったことだし‥‥{n} その‥‥この場合は仕方ないんじゃないか‥な?」{end}

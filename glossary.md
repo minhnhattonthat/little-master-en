@@ -53,6 +53,7 @@ inside unrelated words would cause false lint hits. Columns: JP | EN | max | not
 | クルクルの森 | Kurukuru Forest | | |
 | ジリジリ砂漠 | Jirijiri Desert | | |
 | ハップル | Happle | | ハップル遺跡 Happle Ruins |
+| ラクナマイト | Lucknamight | | the continent (world map banner graphic says "Lucknamight"; from Luck & Might) |
 | ハイエスト山脈 | Highest Mountains | | |
 | オーサム | Ausam | | snowy town |
 | ライモス | Laimos | | ライモス神殿 Laimos Temple |
