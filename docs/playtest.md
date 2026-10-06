@@ -31,7 +31,7 @@ Status starts as `open`. When it's fixed, the row gets the test name and the com
 | # | where | problem | state | status | test | commit |
 |---|---|---|---|---|---|---|
 | B1 | map, System menu | cursor can't move; froze when hovering Item (description hit the wrap column, engine waited for a key) | bug_menu | fixed | test_system_menu_cursor_leaves_item | 2ddfc32 |
-| B2 | map, unit info panel (enemy, move range shown) | header label shown as a black bar (window clear blanked the label tiles when no slots were reserved) | bug_black_info_header | fixed | test_window_clear_keeps_label_tiles_when_no_slots_are_reserved | ed0f0a3 |
+| B2 | map, unit info panel while moving the cursor | header label shown as a black bar. Causes: (1) window clear blanked label tiles; (2) map scroll uses the tile buffer as scratch and the VWF flush uploaded all of it | bug_black_info_header | fixed | test_info_header_survives_map_scroll | 14baeb4 |
 | C1 | menus (engine) | `$57=$FE` VWF tile upload lost when `$10 == 2` (M3 review; `$10 = 3` path handles `$FE`, `$10 = 2` never seen in states) | | fixed | test_flush_keeps_tiles_pending_while_nmi_skips_commands | fe1a1f1 |
 | C2 | text (engine) | `!partial` survives the D0 glyph path (M3 review) | | fixed | test_vwf_glyph_after_ui_glyph_keeps_the_ui_cell | 4891cf8 |
 | C3 | text (engine) | each message start takes a new VWF slot (M3 review) | | wontfix | measured: ~500 slot clears over all states, none hit a slot still in the $7E:9000 tilemap | |
