@@ -6,7 +6,7 @@ from pathlib import Path
 from . import bps, chunkgfx, rom
 from .blocks import insert_block, load_blocks
 from .font import parse_font, vwf_blobs
-from .relocate import Alloc, relocate_block
+from .relocate import TEXT_START, Alloc, relocate_block
 from .script import parse
 from .tbl import Table
 
@@ -57,8 +57,9 @@ def _patch_bitmap8(piece, e):
     return b"".join(_tile8(t) for t in tiles)
 
 
-def insert_graphics(work):
-    for e in json.loads((ROOT / "data/graphics.json").read_text(encoding="utf-8")):
+def insert_graphics(work, entries=None):
+    used = []
+    for e in entries or json.loads((ROOT / "data/graphics.json").read_text(encoding="utf-8")):
         cset = {"title": chunkgfx.TITLE}[e["set"]]
         piece = _patch_bitmap8(chunkgfx.decode(work, cset, e["id"]), e)
         at, room = int(e["new_at"], 16), e["new_room"]
@@ -67,6 +68,14 @@ def insert_graphics(work):
         new, stream, _ = chunkgfx.encode(piece, start)       # all chunks new: stream stays tiny
         if len(new) > room:
             raise ValueError(f"{e['name']}: {len(new)} bytes of new chunks > {room} reserved")
+        try:
+            reachable = chunkgfx.chunk_pc(cset["dict"], start + len(new) // 16 - 1) == at + len(new) - 16
+        except ValueError:
+            reachable = False
+        end = at + len(new)
+        if not reachable or end > TEXT_START or any(a < end and at < b for a, b in used):
+            raise ValueError(f"{e['name']}: new chunks {at:06X}-{end:06X} not contiguous/reachable, overlap text or another entry")
+        used.append((at, end))
         work[at:at + len(new)] = new
         pos, _ = chunkgfx._entry(work, cset["table"], e["id"])
         if len(stream) > chunkgfx.stream_len(work, pos):

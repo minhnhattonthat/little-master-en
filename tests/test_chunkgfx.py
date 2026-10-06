@@ -54,3 +54,12 @@ def test_graphics_png_outside_piece_is_rejected(tmp_path):
     e = {"png": str(tmp_path / "ok.png"), "greys": {"248": 1}, "x": 0, "y": 125, "piece_y": 96, "id": 11}
     with pytest.raises(ValueError, match="outside piece 11"):
         build._patch_bitmap8(bytes(0x2000), e)
+
+
+def test_new_chunks_must_stay_reachable_and_below_text():
+    import json
+    from lmtools import build
+    e = dict(json.loads(Path("data/graphics.json").read_text(encoding="utf-8"))[0], new_at="0x207000")
+    work = rom.expand(rom.load_base())
+    with pytest.raises(ValueError, match="title_subtitle"):
+        build.insert_graphics(work, [e])
