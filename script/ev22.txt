@@ -248,7 +248,7 @@ EN: {p7F:02}{speed:02}"It has two pictures on it."{end}
 
 #id 0062 ptr=115148 box=dialog
 JP: {p7F:02}{speed:02}「これを、{delay:20}どーにかしなきゃ ならないようだな{delay:20} モーモー」{end}
-EN: {p7F:02}{speed:02}"Looks like we gotta{delay:20} do something,{n}{delay:20} Moomoo."{end}
+EN: {p7F:02}{speed:02}"Looks like we gotta{delay:20} do something{n} about this,{delay:20} Moomoo."{end}
 
 #id 0063 ptr=115186 box=dialog
 JP: {p7F:02}{speed:02}「パネルを 守るでチュー!」{end}

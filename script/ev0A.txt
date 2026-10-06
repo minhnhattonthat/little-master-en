@@ -772,7 +772,7 @@ EN: {p7F:02}{speed:02}"Something's written here..."{end}
 
 #id 0193 ptr=053705 box=dialog
 JP: {p7F:02}{speed:02}「"パネルを踏みて、勇気を示せ。{n}{delay:30}  詳しくは 中へどうぞ"{delay:20} だってさ」{end}
-EN: {p7F:02}{speed:02}""Step on the panel, show your courage.{n}{delay:30}  Details inside,"{delay:20} it says."{end}
+EN: {p7F:02}{speed:02}"'Step on the panel, show your courage.{n}{delay:30}  Details inside,'{delay:20} it says."{end}
 
 #id 0194 ptr=05376E box=dialog
 JP: {p7F:02}{speed:02}「ふざけやがって!{n}{delay:30} 待ってろよ、{delay:20}すぐに登っていってやるからな!」{end}
@@ -1204,7 +1204,7 @@ EN: {p7F:02}{speed:02}"I come from Rainark by the king's order.{n}{delay:30} I b
 
 #id 0301 ptr=0557AF box=dialog
 JP: {p7F:02}{speed:02}"虹の魔石に 秘密あり。{n}{delay:30} 魔石の並びに 秘密あり"{end}
-EN: {p7F:02}{speed:02}"The rainbow Jewels hold a secret.{n}{delay:30} Their order holds a secret."{end}
+EN: {p7F:02}{speed:02}"A secret lies in the rainbow Jewels.{n}{delay:30} A secret lies in their order."{end}
 
 #id 0302 ptr=0557E1 box=dialog
 JP: {p7F:02}{speed:02}"時がくれば 空が示してくれる。{n}{delay:30} すべては 光りの印すままに"{end}

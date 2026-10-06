@@ -924,7 +924,7 @@ EN: Richard{n}"Indeed. I am counting on you."{end}
 
 #id 0231 ptr=1B289C box=dialog
 JP: ライム{n}「リイム‥‥ さま」{end}
-EN: Lime{n}"Sir... Reem."{end}
+EN: Lime{n}"Reem... sir."{end}
 
 #id 0232 ptr=1B28AB box=dialog
 JP: リイム{n}「ん?」{end}
@@ -1080,7 +1080,7 @@ EN: "Welcome to Matedral, Hero."{end}
 
 #id 0270 ptr=1B2F53 box=dialog
 JP: リイム{n}「ありがとうございます。{n} ライナーク国王 リチャード3世の命により{n} 参りました リイム・ライクバーン と申します」{end}
-EN: Reem{n}"Thank you.{n} By order of Richard III, King of Rainark,{n} I, Reem Likeburn, have come."{end}
+EN: Reem{n}"Thank you.{n} I am Reem Likeburn, here by order{n} of Richard III, King of Rainark."{end}
 
 #id 0271 ptr=1B2F99 box=dialog
 JP: 「教王、なんなりと 御申しつけ下さい」{end}
@@ -1564,7 +1564,7 @@ EN: Sougetsu{n}"Now, now, wait.{n} Fighting here gains us nothing."{delay:78}{cl
 
 #id 0391 ptr=1B3C60 box=dialog
 JP: トランプ{n}「なにいってんでぇ」{end}
-EN: Trump{n}"What're you saying?"{end}
+EN: Trump{n}"What're you talkin' about?"{end}
 
 #id 0392 ptr=1B3C70 box=dialog
 JP: トランプ{n}「チッ‥‥ てめえら、命拾いしたな」{delay:78}{clear:00}「だがな、俺様は決めたぜ。{n} 必ずてめえらをブッとばしてやるってな。ヒャッハッハ」{end}
@@ -1780,7 +1780,7 @@ EN: Weiss{n}"Right to business. I want you{n} to help me collect these."{end}
 
 #id 0445 ptr=1B46E0 box=dialog
 JP: リイム{n}「これは!?」{end}
-EN: Reem{n}"This is!?"{end}
+EN: Reem{n}"What's this!?"{end}
 
 #id 0446 ptr=1B46EC box=dialog
 JP: ヴァイス{n}「知らないか? 虹色の魔石の言い伝えを」{n}{delay:78}{clear:00}「この石を7つ集めれば 何かがおこる」{delay:78}{clear:00}「さっきのボンバーズは、{n} マテドラルに伝わる この魔石を狙っているのさ」{end}
@@ -1928,7 +1928,7 @@ EN: Tamtam{n}"Reem, what do we do now?"{end}
 
 #id 0482 ptr=1B4F6D box=dialog
 JP: リイム{n}「一度ライナークへ戻ろうよ。{n} リチャード王に報告しなきゃならないからね」{delay:78}{clear:00}「‥‥それからは、魔石を捜そうとおもう」{end}
-EN: Reem{n}"Let's go back to Rainark once.{n} We have to report to King Richard."{delay:78}{clear:00}"...After that, let's look for the Jewels."{end}
+EN: Reem{n}"Let's head back to Rainark first.{n} We have to report to King Richard."{delay:78}{clear:00}"...After that, we'll search{n} for the Jewels."{end}
 
 #id 0483 ptr=1B4FBA box=dialog
 JP: シャルル{n}「彼らに 協力するつもり?」{end}
@@ -2192,7 +2192,7 @@ EN: Reem{n}"Let's try Kurukuru Forest.{n} Let's beat the Bombers to the Jewels."
 
 #id 0548 ptr=1B5BBC box=dialog
 JP: リイム{n}「ライナーク国王の命をうけて参りました、{n} リイム・ライクバーンと 申します」{delay:78}{clear:00}「こちらに伝わる魔石を{n} お譲りいただけますでしょうか?」{end}
-EN: Reem{n}"By order of the King of Rainark,{n} I, Reem Likeburn, have come."{delay:78}{clear:00}"Would you be so kind as to give us{n} the Jewel handed down here?"{end}
+EN: Reem{n}"I am Reem Likeburn, here by order{n} of the King of Rainark."{delay:78}{clear:00}"Might we have the Jewel{n} handed down here?"{end}
 
 #id 0549 ptr=1B5C14 box=dialog
 JP: ボルシチ{n}「ああ、話はきいてるよ。{n} じさまの残した石コロのことだな」{delay:78}{clear:00}「たしか、そこいらに転がってるハズだよ。{n} 勝手に もっていっておくれ」{delay:78}{clear:00}「こちとら、それどころじゃねえんだ」{end}
@@ -2296,7 +2296,7 @@ EN: Charles{n}"...Don't lump me in with you."{end}
 
 #id 0574 ptr=1B6009 box=dialog
 JP: 「コホン、お姉ちゃんはね、{n} この国いちばんの コハク使いなのよ」{delay:78}{clear:00}「なにか心配な事でも あるの?{n} お姉ちゃんに 話してごらんなさい」{end}
-EN: "Ahem. Big sis here is the best{n} amber user in the whole country."{delay:78}{clear:00}"Is something worrying you?{n} Tell big sis all about it."{end}
+EN: "Ahem. Your big sis is the best{n} amber user in the whole country."{delay:78}{clear:00}"Is something worrying you?{n} Tell your big sis all about it."{end}
 
 #id 0575 ptr=1B605B box=dialog
 JP: ポトフ{n}「‥‥」{end}
@@ -2424,7 +2424,7 @@ EN:
 
 #id 0606 ptr=1B6599 box=dialog
 JP: リイム{n}「ライナーク国王の命をうけて参りました。{n} リイム・ライクバーンと申します」{delay:78}{clear:00}「このクイズ村に伝わる 知性の王冠を{n} お譲りいただけないでしょうか?」{end}
-EN: Reem{n}"By order of the King of Rainark,{n} I, Reem Likeburn, have come."{delay:78}{clear:00}"Would you give us the Crown of Wisdom{n} handed down in Quiz Village?"{end}
+EN: Reem{n}"I am Reem Likeburn, here by order{n} of the King of Rainark."{delay:78}{clear:00}"Might we have the Crown of Wisdom{n} handed down in Quiz Village?"{end}
 
 #id 0607 ptr=1B65FA box=dialog
 JP: 司会者{n}「ふむふむ、事情はわかりました。{n} そういうことならば、協力は惜しみません」{end}
@@ -2448,7 +2448,7 @@ EN: Moomoo{n}"Aw, a quiz? Moo?{n} Do we really have to do that?"{end}
 
 #id 0612 ptr=1B66D2 box=dialog
 JP: 司会者{n}「ななな、なんですと!{n} 予選をパスして、{n} いきなり決勝クイズなんですぞ!」{delay:78}{clear:00}「だいだい伝え守られた、この村の格式を{n} 無視してまで 協力しようという、{n} この私の気持ちが{n} 理解して いただけないのですか!」{end}
-EN: Host{n}"Wh-wh-what did you say?!{n} You skip the qualifiers and go{n} straight to the final round!"{delay:78}{clear:00}"I'm ignoring this village's age-old{n} customs to help you, and you can't{n} appreciate how{n} I feel?!"{end}
+EN: Host{n}"Wh-wh-what did you say?!{n} You skip the qualifiers and go{n} straight to the final round!"{delay:78}{clear:00}"I'm going against this village's{n} age-old customs to help you!{n} Can't you appreciate{n} how I feel?!"{end}
 
 #id 0613 ptr=1B675B box=dialog
 JP: 「ほほほ、ほんらいなら、バラマキクイズの予選を{n} 勝ち抜かなければ、ゲートクイズには{n} 挑戦できないんですぞ。それを‥‥ それを‥‥」{delay:78}{clear:00}「いきなりゲートクイズへの 挑戦を認めた{n} この私の気持ちを～～～!!」{end}
