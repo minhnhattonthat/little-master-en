@@ -49,3 +49,12 @@ def test_save_writes_lf_line_endings(tmp_path):
     p = tmp_path / "s.txt"
     save(p, [Entry(0, 0x10, {}, "あ{end}", "")])
     assert b"\r\n" not in p.read_bytes()
+
+
+def test_merge_en_keeps_translator_metas(tmp_path):
+    from lmtools.script import merge_en
+    p = tmp_path / "s.txt"
+    save(p, [Entry(0, 0x10, {"box": "a", "win": "item", "slack": "2", "gloss": "off"}, "あ{end}", "A{end}")])
+    fresh = [Entry(0, 0x10, {"box": "b"}, "あ{end}")]
+    merge_en(p, fresh)
+    assert fresh[0].meta == {"box": "b", "win": "item", "slack": "2", "gloss": "off"}

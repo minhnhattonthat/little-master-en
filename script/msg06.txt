@@ -2120,7 +2120,7 @@ EN: Well done. The answer is red.{end}
 
 #id 0530 ptr=035E09 box=desc win=msg
 JP: トンチ問題。次の中でほらふきは誰?{n}赤のパネル:ビッグマウスマン{n}黄のパネル:ペリカンマン{n}青のパネル:ダチョラー{end}
-EN: Trick question! Who's the big talker?{n}{scroll:00}Red panel: Big Mouseman{n}Yellow panel: Pelicanman{n}Blue panel: Ostrich{end}
+EN: Trick question! Who's the big talker?{n}Red panel: Big Mouseman{n}Yellow panel: Pelicanman{n}Blue panel: Ostrich{end}
 
 #id 0531 ptr=035E4B box=desc win=msg
 JP: おみごと。大口をたたくんですね。{end}

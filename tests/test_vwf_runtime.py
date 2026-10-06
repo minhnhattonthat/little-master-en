@@ -298,3 +298,52 @@ end, emu.eventType.endFrame)
     assert mesen.run(sfc, "_rt.lua", tmp_path / "o") == 0
     assert (tmp_path / "o" / "rt.txt").read_text() == "0"     # no 'B' (TAMBORIN BREAD) in the MOOMOO DYNAMITE title rows
 
+
+
+
+def test_overwide_vwf_line_stays_inside_its_slot(tmp_path, monkeypatch):
+    """Personal info wraps at 28 cells: a line past 27 cells (216 px) must not draw past its 27-cell slot."""
+    real = build.parse
+
+    def inject(text):
+        es = real(text)
+        for e in es:
+            if e.jp.startswith("怪力無双のミノタウロス"):
+                e.en = "W" * 34 + "{end}"
+        return es
+
+    monkeypatch.setattr(build, "parse", inject)
+    sfc = build.build(tmp_path / "b", "en")
+    Path("test/lua/_rt.lua").write_text(f'STATE=[[{Path("test/states/personal_infomation.mss").resolve()}]]\n' + '''
+local frame, loaded, ref, outside, maxcol = 0, false, nil, 0, 0
+ref = emu.addMemoryCallback(function()
+  if loaded then return end
+  local f = io.open(STATE, "rb"); local d = f:read("a"); f:close()
+  emu.loadSavestate(d); loaded = true
+  emu.removeMemoryCallback(ref, emu.callbackType.exec, 0, 0xFFFFFF)
+end, emu.callbackType.exec, 0, 0xFFFFFF)
+emu.addMemoryCallback(function()
+  if loaded and (emu.getState()["cpu.k"] or 0) == 0xC0 then outside = outside + 1 end
+end, emu.callbackType.write, 0x1B800, 0x1B8FF, emu.cpuType.snes, emu.memType.snesWorkRam)
+emu.addMemoryCallback(function()
+  if loaded then local c = emu.read16(0x1FF1C, emu.memType.snesWorkRam); if c < 64 then maxcol = math.max(maxcol, c) end end
+end, emu.callbackType.exec, 0xC00000, 0xC0FFFF, emu.cpuType.snes)
+emu.addEventCallback(function()
+  if not loaded then return end
+  if frame >= 10 and frame < 14 then emu.setInput({right = true}, 0) end
+  if frame >= 30 and frame < 34 then emu.setInput({a = true}, 0) end
+end, emu.eventType.inputPolled)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 200 then
+    local high = 0
+    for a = 0x9000, 0x97FE, 2 do if (emu.read16(a, emu.memType.snesWorkRam) & 0x3FF) >= 0x200 then high = high + 1 end end
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(outside .. " " .. high .. " " .. maxcol); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''')
+    assert mesen.run(sfc, "_rt.lua", tmp_path / "o") == 0
+    outside, high, maxcol = map(int, (tmp_path / "o" / "rt.txt").read_text().split())
+    assert maxcol >= 26, f"injection did not reach the slot edge (max cell {maxcol})"
+    assert (outside, high) == (0, 0), (outside, high, maxcol)

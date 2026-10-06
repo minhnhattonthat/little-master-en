@@ -104,3 +104,9 @@ def test_inline_slot_too_small_for_stub():
     es[0].en = "{p7F:02}AAAAAAA{end}"
     with pytest.raises(ValueError, match="ev #0: slot too small"):
         insert_block(rom, blk, es, TI, "en", alloc=Alloc(0x8000, 0x10000))
+
+
+def test_allocator_never_reaches_wram_banks():
+    from lmtools.relocate import Alloc
+    from lmtools.rom import pc_to_lorom
+    assert pc_to_lorom(Alloc().end - 1) >> 16 < 0x7E      # $7E/$7F are WRAM, not ROM

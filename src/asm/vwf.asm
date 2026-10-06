@@ -121,7 +121,10 @@ vwf_dispatch:             ; renderer: A = char (16-bit), X = tilemap offset (16-
     LDA.l !novwf : BNE .fixed
     LDA $09FE : CMP $09F2 : BCC .fixed           ; cursor above the window (panel values): no slot
     LDA 1,s : CMP #$0020 : BCC .fixed : CMP #$007F : BCS .fixed
-    PLA
+    LDA.l !needslot : BNE +                      ; (a fresh line starts at cell 0)
+    LDA $09FC : SEC : SBC.l !col0 : SEC : SBC.l !partial
+    CMP.l !width : BCS .fixed                    ; past the slot's last cell (line over 216 px): fixed font
++   PLA
     JSR vwf_draw
     DEX : DEX : DEC $09FC                       ; native $BE88 adds one cell back
     JML $00BE78

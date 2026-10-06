@@ -12,7 +12,8 @@ TEXT_START = 0x208000          # $C1:8000; bank $C0 holds the VWF code and font
 
 
 class Alloc:
-    def __init__(self, start=TEXT_START, end=0x400000):
+    def __init__(self, start=TEXT_START, end=0x3F0000):
+        # (end: PC 0x3F0000+ would map to banks $7E/$7F, which are WRAM)
         self.pos, self.end = start, end
 
     def take(self, size):

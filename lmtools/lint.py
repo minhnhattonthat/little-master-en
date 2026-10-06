@@ -11,9 +11,9 @@ from .tbl import Table
 
 TOKEN = re.compile(r"\{(\w+)(?::([0-9A-Fa-f]*))?\}|\[[0-9A-Fa-f]{2}\]|.", re.S)
 POS = re.compile(r"\{p(?!7F)[0-7][0-9A-Fa-f]:[0-9A-Fa-f]{2}\}")      # cursor positioning (p7F = speaker header)
-LAYOUT = {"n", "delay", "speed", "nop", "clear", "scroll", "end", "c9B"}  # may change freely between JP and EN
-                                                                          # (c9B: number pad char, CE = none)
-NAME_INS = {"c87", "c88", "c98", "c99", "c9C"}                     # name copies: counted as 8 chars
+LAYOUT = {"n", "delay", "speed", "nop", "end", "c9B"}   # may change freely between JP and EN (c9B: number pad char)
+NAME_INS = {"c87", "c88", "c98", "c99", "c9C"}          # name copies, sized by _name()
+NAME_PX, LONG_NAME_PX, FIRST_NAME_PX = 68, 80, 56       # widest EN names (tests check them against the name tables)
 NUM_INS = {"c83", "c84", "c85", "c86", "c8C", "c8D", "c8E", "c91", "c95", "c96", "c97", "c9A"}  # 4 digits
 
 
@@ -22,13 +22,22 @@ def _tokens(text):
         yield (m[1], m[0]) if m[1] else (None, m[0])
 
 
+def _name(name, tok):
+    """(cells, px) of a name insert: c88 carries its byte length; c9C prints an 8-byte first name; c87/c98/c99 copy
+    names of up to 11 bytes (monsters)."""
+    if name == "c88":
+        n = int(tok[5:7], 16)
+        return n, NAME_PX if n <= 11 else LONG_NAME_PX
+    return (8, FIRST_NAME_PX) if name == "c9C" else (11, NAME_PX)
+
+
 def _px(text, widths):
     w = 0
     for name, tok in _tokens(text):
         if name is None:
             w += widths.get(tok, 8)
         elif name in NAME_INS:
-            w += 8 * widths.get("n", 6)
+            w += _name(name, tok)[1]
         elif name in NUM_INS:
             w += 4 * widths.get("0", 6)
     return w
@@ -40,7 +49,7 @@ def _cells(text):
         if name is None:
             c += 2 if "㐀" <= tok <= "鿿" or tok == "々" else 1
         elif name in NAME_INS:
-            c += 8
+            c += _name(name, tok)[0]
         elif name in NUM_INS:
             c += 4
     return c

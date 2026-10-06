@@ -24,7 +24,7 @@ def test_control_parity():
 
 
 def test_layout_codes_dont_count_for_parity():
-    e = Entry(4, 0, {}, "あ{n}い{delay:30}{clear:00}う{end}", "A B C{end}")
+    e = Entry(4, 0, {}, "あ{n}い{delay:30}う{end}", "A B C{end}")       # ({clear}/{scroll} do count)
     assert lint_entry(e, "wide", WID, W, {}) == []
 
 
@@ -47,7 +47,7 @@ def test_name_byte_limit():
 
 def test_name_inserts_count_in_width():
     e = Entry(9, 0, {}, "{c87:2A0E00}が来た{end}", "{c87:2A0E00} came{end}")
-    assert lint_entry(e, "dialog", WID, W, {}) == ["#9: line 1 is 78 px > 40"]   # name = 8 x 6 px
+    assert lint_entry(e, "dialog", WID, W, {}) == ["#9: line 1 is 98 px > 40"]   # name = NAME_PX (68)
 
 
 def test_repository_is_lint_clean():
@@ -119,3 +119,27 @@ def test_window_without_scroll_gets_no_jp_line_allowance():
     e = Entry(20, 0, {}, jp, "a{n}b{n}c{n}d{end}")
     assert lint_entry(e, "w", WID, {"w": {"px": 216, "lines": 3}}, {}) == []
     assert lint_entry(e, "w", WID, {"w": {"px": 216, "lines": 3, "scroll": False}}, {}) == ["#20: page 1 has 4 lines > 3"]
+
+
+def test_name_inserts_sized_by_table():
+    wide = {"px": 999, "lines": 9}
+    e = Entry(21, 0, {}, "{c88:12E0A402}あ{end}", "{c88:12E0A402}x{end}")
+    assert lint_entry(e, "w", WID, {"w": {**wide, "cells": 18}}, {}) == ["#21: line 1 is 19 cells > 18"]
+    e = Entry(22, 0, {}, "{c87:2A0E00}{end}", "{c87:2A0E00}{end}")
+    assert lint_entry(e, "w", WID, {"w": {"px": 67, "lines": 9}}, {}) == ["#22: line 1 is 68 px > 67"]
+
+
+def test_name_constants_cover_the_name_tables():
+    from pathlib import Path
+    from lmtools.font import parse_font
+    from lmtools.script import parse
+    w = {ch: x for ch, (x, _) in parse_font(Path("src/font/vwf.txt").read_text(encoding="utf-8")).items()}
+    widest = lambda b: max(lint._px(e.en.replace("{end}", "").replace("_", " "), w)
+                           for e in parse(Path(f"script/{b}.txt").read_text(encoding="utf-8")) if e.en)
+    assert max(widest(b) for b in ("monsters", "accessories", "spells", "unit_weapon0", "unit_armor0")) <= lint.NAME_PX
+    assert widest("spell_powerup") <= lint.LONG_NAME_PX and widest("unit_names") <= lint.FIRST_NAME_PX
+
+
+def test_scroll_and_clear_count_in_control_parity():
+    e = Entry(23, 0, {}, "あ{scroll:00}{end}", "A{end}")
+    assert lint_entry(e, "wide", WID, W, {}) == ["#23: control codes differ: missing ['{scroll:00}'] extra []"]

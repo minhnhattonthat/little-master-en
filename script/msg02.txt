@@ -976,7 +976,7 @@ EN: {p7F:09}The unit is cursed.{n}Nothing happened.{end}
 
 #id 0244 ptr=015C70 box=sysmsg
 JP: {p7F:09}{c80:00}伝染病が流行しています。{n}{c87:2A0E00}に伝染しました。{scroll:00}{end}
-EN: {p7F:09}{c80:00}A plague spreads.{n}{c87:2A0E00} caught it.{scroll:00}{end}
+EN: {p7F:09}{c80:00}A plague spreads.{n}{c87:2A0E00}{n}caught it.{scroll:00}{end}
 
 #id 0245 ptr=015C9B box=sysmsg
 JP: {p7F:08}{c80:00}{c87:2A0E00}が、{n}回復して元気になりました。{end}
