@@ -796,139 +796,139 @@ EN: "The treasure we sought was in Jasvan.{n} And Weiss found it before we did."
 
 #id 0199 ptr=1BA361 box=dialog
 JP: 「それからは、あなたたちの知ってのとおりですよ」{end}
-EN: 
+EN: "After that, it's as you know."{end}
 
 #id 0200 ptr=1BA37B box=dialog
 JP: 蒼月{n}「ごらんなさい。あれは魔石の光です。{n} もう遅いんですよ。不完全なれど、{n} 彼らは虹を完成させている」{delay:78}{clear:00}「魔界への道が 通じてしまっているんですよ。{n} もはや、引き返すことの できないところまで{n} 来てしまって いるんです」{end}
-EN: 
+EN: Sougetsu{n}"Look. That is the light of the Jewels.{n} It's too late. Incomplete as it is,{n} they've finished the rainbow."{delay:78}{clear:00}"The way to the demon world is open.{n} They've gone past the point{n} of no return."{end}
 
 #id 0201 ptr=1BA408 box=dialog
 JP: 蒼月{n}「しかし、まだ全てが 終わったわけではない」{delay:78}{clear:00}「アオイロの魔石と アカイロの魔石。{n} 彼らが まだ手に入れていない{n} この2つの魔石があれば、{n} ヤゴを魔界へと 追放することができる」{end}
-EN: 
+EN: Sougetsu{n}"But it's not all over yet."{delay:78}{clear:00}"The Blue Jewel and the Red Jewel.{n} With these 2 Jewels they don't yet have,{n} we can banish Yago{n} to the demon world."{end}
 
 #id 0202 ptr=1BA47E box=dialog
 JP: 「そして切り札は まだ我が手にある。{n} あなたのもつアオイロの魔石。そしてライナークの{n} 王女がもつ この、アカイロの魔石さえあれば」{end}
-EN: 
+EN: "And the trump card is still in my hand.{n} Your Blue Jewel. And the Red Jewel{n} the Princess of Rainark wore."{end}
 
 #id 0203 ptr=1BA4CC box=dialog
 JP: 蒼月{n}「そろそろ決着をつけましょう。{n} 虹をかける者は 一人でいい」{end}
-EN: 
+EN: Sougetsu{n}"Let us settle this.{n} Only one may raise the rainbow."{end}
 
 #id 0204 ptr=1BA4F7 box=dialog
 JP: タムタム{n}「まって! 私たち協力しあうことはできないの!?{n} なぜ争わなくっちゃ ならないのよ!」{end}
-EN: 
+EN: Tamtam{n}"Wait! Can't we work together!?{n} Why do we have to fight?!"{end}
 
 #id 0205 ptr=1BA52D box=dialog
 JP: 蒼月{n}「最後にもう一度だけ うかがいます。{n} 魔石を渡して貰えませんか?」{end}
-EN: 
+EN: Sougetsu{n}"I'll ask one last time.{n} Will you hand over the Jewel?"{end}
 
 #id 0206 ptr=1BA55D box=dialog
 JP: リイム{n}「ゴメン、貴方に任せることは出来ないよ。{n} 僕たちのことは、僕たちで けりをつけたいんだ」{end}
-EN: 
+EN: Reem{n}"Sorry, I can't leave this to you.{n} We want to settle our own fight."{end}
 
 #id 0207 ptr=1BA596 box=dialog
 JP: 「貴方は、この大地は僕たちの ものだと{n} 言ったね。でも、ほんとうに そうなのかい?」{delay:78}{clear:00}「ボクにはわからない。{n} 何が正しいことなのかは わからない」{n}{delay:78}{clear:00}「‥‥それは誰にも決められない事なんだと思う」{end}
-EN: 
+EN: "You said this land belongs{n} to us. But is that really so?"{delay:78}{clear:00}"I don't know.{n} I don't know what's right."{n}{delay:78}{clear:00}"...I don't think anyone can decide that."{end}
 
 #id 0208 ptr=1BA611 box=dialog
 JP: 「でも、ヴァイスたちの やろうとしていることを{n} 見過ごすわけには いかない。{n} だから、ボクたちは闘うんだ」{delay:78}{clear:00}「ほかならぬ、ボクたちの ためにね」{end}
-EN: 
+EN: "But we can't ignore what{n} Weiss and the others are doing.{n} So we'll fight."{delay:78}{clear:00}"For our own sake, no less."{end}
 
 #id 0209 ptr=1BA664 box=dialog
 JP: 蒼月{n}「‥‥勇者よ、もっと早く出逢っていたならば、{n} キミたちと共に歩むことも出来たかもしれない」{delay:78}{clear:00}「しかし、それもいまとなっては かなわぬこと。{n} 互いの理想の為、互いの信ずるものの為、{n} 結果を出すためには{n} どちらかが 先に進まねばならぬ」{end}
-EN: 
+EN: Sougetsu{n}"...Hero, had we met sooner,{n} we might have walked together."{delay:78}{clear:00}"But that can no longer be.{n} For our ideals, for what we believe,{n} to reach an end,{n} one of us must go on ahead."{end}
 
 #id 0210 ptr=1BA6FC box=dialog
 JP: 「‥‥勝負だ、リイム・ライクバーン。{n} 雷光の騎士率いる 勇者軍の力、{n} とくと あじあわせてもらいましょう!」{end}
-EN: 
+EN: "...Have at you, Reem Likeburn.{n} Show me the strength of the Heroes,{n} led by the Knight of Lightning!"{end}
 
 #id 0211 ptr=1BA740 box=dialog
 JP: シャルル{n}「どうして、どうして こんなことになっちゃうのよ!」{end}
-EN: 
+EN: Charles{n}"Why, why does it have to be like this!"{end}
 
 #id 0212 ptr=1BA760 box=dialog
 JP: 蒼月{n}「‥‥いったでしょう、互いの理想の為だと」{end}
-EN: 
+EN: Sougetsu{n}"...I told you. For our ideals."{end}
 
 #id 0213 ptr=1BA77F box=dialog
 JP: トランプ{n}「ヒャッハッハ! そんなあまっちょろいこと{n} 言ってっから、負けちまうんだよ」{end}
-EN: 
+EN: Trump{n}"Hya ha ha! That's why you lose,{n} spouting such softhearted stuff."{end}
 
 #id 0214 ptr=1BA7AE box=dialog
 JP: ヴァイス{n}「そして、力の強いものが すべてを手にする!」{end}
-EN: 
+EN: Weiss{n}"And the strong take everything!"{end}
 
 #id 0215 ptr=1BA7CE box=dialog
 JP: 「トランプ! ヴァイス!」{end}
-EN: 
+EN: "Trump! Weiss!"{end}
 
 #id 0216 ptr=1BA7DC box=dialog
 JP: トランプ{n}「ヒャッハッハ ざまぁねえな、蒼月よ」{delay:78}{clear:00}「まあ、安心しな。{n} おめえがいなくても俺様のボンバーズは安泰よ」{delay:78}{clear:00}「すっげえ力がわいてくるのよ。{n} 俺はヴァイス達と組むぜ。{n} おめえの偉そうなツラは 見飽きちまったからな」{end}
-EN: 
+EN: Trump{n}"Hya ha ha! Serves you right, Sougetsu."{delay:78}{clear:00}"Don't worry.{n} My Bombers are fine without you."{delay:78}{clear:00}"I'm brimming with power.{n} I'm teaming up with Weiss.{n} I'm sick of your smug face."{end}
 
 #id 0217 ptr=1BA867 box=dialog
 JP: ヤゴ{n}「おしゃべりはそれぐらいにするニャ」{delay:78}{clear:00}「蒼月、キミの役目は おわりだニャン。{n} コソコソやってた みたいだけど、{n} みんな御見通しだニャ。ごくろうさまだニャン」{end}
-EN: 
+EN: Yago{n}"That's enough chatter, meow."{delay:78}{clear:00}"Sougetsu, your job is done, meow.{n} You were sneaking around, but{n} I saw it all. Good work, meow."{end}
 
 #id 0218 ptr=1BA8C7 box=dialog
 JP: ヤゴ{n}「‥‥キミたち、よくきくんだニャン」{delay:78}{clear:00}「ボクたちは魔界への道を 手に入れたニャ。{n} この大地は、ボクのものだニャン」{end}
-EN: 
+EN: Yago{n}"...Listen well, all of you, meow."{delay:78}{clear:00}"We have the way to the demon world.{n} This land is mine, meow."{end}
 
 #id 0219 ptr=1BA911 box=dialog
 JP: トランプ{n}「ギャッハッハ!{n} ボンバーズは最強だぜ。 誰でもかかってきな!」{end}
-EN: 
+EN: Trump{n}"Gya ha ha!{n} The Bombers are the best. Bring it!"{end}
 
 #id 0220 ptr=1BA93B box=dialog
 JP: ヴァイス{n}「いまこそ、理想の国をつくるときだ。{n} 全ての力を 我が元へ!」{end}
-EN: 
+EN: Weiss{n}"Now is the time to build my ideal nation.{n} All power, come to me!"{end}
 
 #id 0221 ptr=1BA968 box=dialog
 JP: 蒼月{n}「ヤゴには 気をゆるしてはなりません。{n} 彼は言葉たくみに 私たちをコントロールします」{delay:78}{clear:00}「ちょっとでも迷いを見せたら、つけこまれますよ」{end}
-EN: 
+EN: Sougetsu{n}"Don't let your guard down with Yago.{n} His clever words will control you."{delay:78}{clear:00}"Show any doubt and he'll use it."{end}
 
 #id 0222 ptr=1BA9BF box=dialog
 JP: リイム{n}「うん、わかったよ」{end}
-EN: 
+EN: Reem{n}"Okay, I understand."{end}
 
 #id 0223 ptr=1BA9CE box=dialog
 JP: 蒼月{n}「これを」{end}
-EN: 
+EN: Sougetsu{n}"Take this."{end}
 
 #id 0224 ptr=1BA9D9 box=dialog
 JP: 「勇者よ、私の望みを あなたに託そう。{n} やはり、この大地は あなたたちの‥‥」{end}
-EN: 
+EN: "Hero, I entrust my hopes to you.{n} After all, this land is yours..."{end}
 
 #id 0225 ptr=1BAA09 box=dialog
 JP: リイム{n}「えっ、何? なんていったんだい?」{end}
-EN: 
+EN: Reem{n}"Huh? What? What did you say?"{end}
 
 #id 0226 ptr=1BAA21 box=dialog
 JP: 「教えてやろうか?{n} 闘いこそすべて。力こそすべてなのさ」{end}
-EN: 
+EN: "Want me to tell you?{n} Fighting is all. Power is all."{end}
 
 #id 0227 ptr=1BAA42 box=dialog
 JP: モーモー{n}「お～い、リイム～!」{end}
-EN: 
+EN: Moomoo{n}"Hey, Reem～!"{end}
 
 #id 0228 ptr=1BAA53 box=dialog
 JP: 蒼月{n}「‥‥お仲間が きたようですね」{end}
-EN: 
+EN: Sougetsu{n}"...Your friends have come, it seems."{end}
 
 #id 0229 ptr=1BAA6B box=dialog
 JP: ヤゴ{n}「ねぇ、ヴァイス。彼をどうする?{n} やっつけちゃおうか? ニャンニャン」{end}
-EN: 
+EN: Yago{n}"Hey, Weiss. What do we do with him?{n} Shall we finish him? Nyan-nyan."{end}
 
 #id 0230 ptr=1BAA94 box=dialog
 JP: シャルル{n}「まちなさい! 仲間なんでしょう?{n} どうして そんな酷いことが出来るのよ!」{end}
-EN: 
+EN: Charles{n}"Stop! He's your ally, isn't he?{n} How can you be so cruel!"{end}
 
 #id 0231 ptr=1BAAC6 box=dialog
 JP: ヤゴ{n}「フフン、仲間なんて かんけーニャイね」{delay:78}{clear:00}「‥‥まあいいや。ボクはいま、{n} 機嫌がいいんだニャ。みのがしてあげるよ」{end}
-EN: 
+EN: Yago{n}"Hmph, allies don't matter to me, meow."{delay:78}{clear:00}"...Oh, well. I'm in a good{n} mood right now, meow. I'll let him go."{end}
 
 #id 0232 ptr=1BAB0D box=dialog
 JP: リイム{n}「蒼月‥‥‥‥」{end}
-EN: 
+EN: Reem{n}"Sougetsu........"{end}
 
 #id 0233 ptr=1BAB1C box=dialog
 JP: {end}
@@ -956,15 +956,15 @@ EN:
 
 #id 0239 ptr=1BAB22 box=dialog
 JP: トランプ{n}「きたなチビスケ。てめえら きにくわねえんだよ、{n} いつもいつも俺様の邪魔しやがって!」{delay:78}{clear:00}「ボンバーズ最強軍団が 相手をしてやるよ。{n} こんどこそ ギタギタにしてやるぜ」{delay:78}{clear:00}「どーだ、ビビったか? ヒャッヒャッヒャ!」{end}
-EN: 
+EN: Trump{n}"Here you are, shorty. I can't stand you,{n} always getting in my way!"{delay:78}{clear:00}"The Bombers' best squad will face you.{n} This time I'll beat you to a pulp."{delay:78}{clear:00}"Well, scared? Hya hya hya!"{end}
 
 #id 0240 ptr=1BABA8 box=dialog
 JP: モーモー{n}「おい! ガイコツ野郎!」{end}
-EN: 
+EN: Moomoo{n}"Hey! Skeleton face!"{end}
 
 #id 0241 ptr=1BABBD box=dialog
 JP: 「逃げるなら いまのうちだぜ」{end}
-EN: 
+EN: "Better run while you can."{end}
 
 #id 0242 ptr=1BABCE box=dialog
 JP: {end}
@@ -976,23 +976,23 @@ EN:
 
 #id 0244 ptr=1BABD0 box=dialog
 JP: ヴァイス{n}「さぁ、リイム。けりをつけようぜ」{end}
-EN: 
+EN: Weiss{n}"Come on, Reem. Let's settle this."{end}
 
 #id 0245 ptr=1BABE7 box=dialog
 JP: リイム{n}「キミはだまされているんだ! まだわからないのかい?{n} おねがいだ、剣を収めてくれ」{end}
-EN: 
+EN: Reem{n}"You're being tricked! Don't you see?{n} Please, put away your sword."{end}
 
 #id 0246 ptr=1BAC18 box=dialog
 JP: ヴァイス{n}「なにをいってやがる! もう少しだ。{n} もう少しで 俺の国が手に入るんだ」{end}
-EN: 
+EN: Weiss{n}"What're you saying! Just a little more.{n} A little more and my nation is mine."{end}
 
 #id 0247 ptr=1BAC49 box=dialog
 JP: ヤゴ{n}「そうだヴァイス。もうすこしだニャ」{delay:78}{clear:00}「すでに魔界から、君を応援してくれる{n} 魔物が続々と到着しているよ。{n} 君の国をつくろう。それは遠いことではないんだ」{end}
-EN: 
+EN: Yago{n}"That's right, Weiss. Almost there, meow."{delay:78}{clear:00}"Demon-world monsters on your side{n} are arriving one after another.{n} Let's build your nation. It isn't far off."{end}
 
 #id 0248 ptr=1BACAE box=dialog
 JP: ヴァイス{n}「誰にも邪魔はさせねえ。いくぞ、リイム!」{end}
-EN: 
+EN: Weiss{n}"No one stops me. Here I come, Reem!"{end}
 
 #id 0249 ptr=1BACCC box=dialog
 JP: {end}
@@ -1008,63 +1008,63 @@ EN:
 
 #id 0252 ptr=1BACCF box=dialog
 JP: ヤゴ{n}「ゆるさない? それはボクの言いたかったことだニャ」{end}
-EN: 
+EN: Yago{n}"Won't forgive? That's my line, meow."{end}
 
 #id 0253 ptr=1BACEE box=dialog
 JP: 一同{n}「?」{end}
-EN: 
+EN: All{n}"?"{end}
 
 #id 0254 ptr=1BACF7 box=dialog
 JP: ヤゴ{n}「お前達は ボクをだました」{n}{delay:78}{clear:00}「あんなちっちゃな壺に 何百年も{n} このボクを閉じ込めた」{delay:78}{clear:00}「だからボクは お前たちをゆるさニャい」{end}
-EN: 
+EN: Yago{n}"You people tricked me."{n}{delay:78}{clear:00}"You locked me in that tiny pot{n} for hundreds of years."{delay:78}{clear:00}"So I won't forgive you, meow."{end}
 
 #id 0255 ptr=1BAD50 box=dialog
 JP: モーモー{n}「むかしの話だろ!」{end}
-EN: 
+EN: Moomoo{n}"That's ancient history!"{end}
 
 #id 0256 ptr=1BAD61 box=dialog
 JP: ヤゴ{n}「ボクにとっては、ついこの間のことなんだニャン」{end}
-EN: 
+EN: Yago{n}"To me, it was just the other day, meow."{end}
 
 #id 0257 ptr=1BAD7E box=dialog
 JP: 一同「‥‥」{end}
-EN: 
+EN: All"..."{end}
 
 #id 0258 ptr=1BAD87 box=dialog
 JP: ヤゴ{n}「ボクが なにをしたニャ?」{end}
-EN: 
+EN: Yago{n}"What did I ever do, meow?"{end}
 
 #id 0259 ptr=1BAD99 box=dialog
 JP: タムタム{n}「人をだまして いたんじゃないの!」{end}
-EN: 
+EN: Tamtam{n}"You were tricking people, weren't you!"{end}
 
 #id 0260 ptr=1BADB2 box=dialog
 JP: ヤゴ{n}「だます? とんでもニャい。{n} ボクは願いをかなえて あげるつもりだったニャ、{n} いつだってね」{end}
-EN: 
+EN: Yago{n}"Tricking? No way, meow.{n} I always meant to grant their wishes,{n} every time, meow."{end}
 
 #id 0261 ptr=1BADE7 box=dialog
 JP: モーモー{n}「なんだと、このやろう」{end}
-EN: 
+EN: Moomoo{n}"Why, you little..."{end}
 
 #id 0262 ptr=1BADF9 box=dialog
 JP: リイム{n}「たしかにキミにも 言い分はあると思う」{delay:78}{clear:00}「むかしなにがあったのか、僕たちには解らないけど、{n} 今のキミに危害を加えるつもりは ないんだ」{end}
-EN: 
+EN: Reem{n}"I'm sure you have your side too."{delay:78}{clear:00}"We don't know what happened long ago,{n} but we don't mean to harm you now."{end}
 
 #id 0263 ptr=1BAE51 box=dialog
 JP: 「お願いだ、僕たちの暮らしを乱さないでほしい」{delay:78}{clear:00}「キミに踊らされた人達がいる。{n} 無意味な争いと 衝突がおきてしまったんだ」{delay:78}{clear:00}「これ以上争うのは やめようよ。{n} キミには ちょっかいを出さない。約束する」{end}
-EN: 
+EN: "Please, don't upset our lives."{delay:78}{clear:00}"People were led on by you.{n} Pointless fights and clashes broke out."{delay:78}{clear:00}"Let's stop fighting now.{n} We won't bother you. I promise."{end}
 
 #id 0264 ptr=1BAED5 box=dialog
 JP: ヤゴ{n}「フフン、だまされる方が わるいと思わニャいかい?{n} ボクは キミたちを信じニャいよ」{end}
-EN: 
+EN: Yago{n}"Hmph, isn't it the fool's own fault?{n} I don't trust you, meow."{end}
 
 #id 0265 ptr=1BAF07 box=dialog
 JP: タムタム{n}「どうして!? どうして わかってくれないのよ!」{end}
-EN: 
+EN: Tamtam{n}"Why!? Why won't you understand!"{end}
 
 #id 0266 ptr=1BAF26 box=dialog
 JP: ヤゴ{n}「うるさ～い。{n} ボクにさしずするニャ! 覚悟しろだニャン」{end}
-EN: 
+EN: Yago{n}"Be quiet!{n} Don't boss me around! Get ready, meow!"{end}
 
 #id 0267 ptr=1BAF4A box=dialog
 JP: {end}
@@ -1096,87 +1096,87 @@ EN:
 
 #id 0274 ptr=1BAF51 box=dialog
 JP: 蒼月{n}「よーく見ておけ。あれが虹の光、{n} 捜し求めた レインボーロードの光だ」{end}
-EN: 
+EN: Sougetsu{n}"Watch closely. That is the rainbow's light,{n} the Rainbow Road we searched for."{end}
 
 #id 0275 ptr=1BAF81 box=dialog
 JP: 「さぁ、行くぞ。我らの理想はまだ遠い」{end}
-EN: 
+EN: "Come, let's go. Our ideal is still far off."{end}
 
 #id 0276 ptr=1BAF9A box=dialog
 JP: モーモー{n}「おっ、主役のおでましだぜ」{delay:78}{clear:00}「よかったな、ヴァイス。また、マテドラルに{n} もどれんだろ?」{end}
-EN: 
+EN: Moomoo{n}"Oh, the star of the show is here."{delay:78}{clear:00}"Good for you, Weiss. You can go back{n} to Matedral now, right?"{end}
 
 #id 0277 ptr=1BAFD5 box=dialog
 JP: シャルル{n}「こんどは仲間同士ってワケか‥‥」{delay:78}{clear:00}「でもね、あたしは あんたのこと完全に{n} 信用したわけじゃないわよ」{delay:78}{clear:00}「教王の御命令だから、しかたなく{n} いっしょに組むんですからね」{n}{delay:78}{clear:00}「‥‥まぁ、ちょっとは{n} 期待してあげても いいけどね♪」{end}
-EN: 
+EN: Charles{n}"So now we're on the same side..."{delay:78}{clear:00}"But I don't trust you{n} completely, you know."{delay:78}{clear:00}"I'm only teaming up with you because{n} the Pontiff ordered it."{n}{delay:78}{clear:00}"...Well, I might expect{n} a little from you, I guess♪"{end}
 
 #id 0278 ptr=1BB06E box=dialog
 JP: タムタム{n}「願いをかなえる魔物‥‥{n} ヤゴはあなたの気持ちにつけこんだのね」{delay:78}{clear:00}「でも、もうあなたは大丈夫よ。{n} 初めて出逢ったときの事を思い出して!」{delay:78}{clear:00}「これからは、いっしょに頑張っていきましょう」{end}
-EN: 
+EN: Tamtam{n}"A monster that grants wishes...{n} Yago preyed on your feelings."{delay:78}{clear:00}"But you're all right now.{n} Remember the day we first met!"{delay:78}{clear:00}"From now on, let's work hard together."{end}
 
 #id 0279 ptr=1BB0EC box=dialog
 JP: ヴァイス{n}「おれは、自分の理想におぼれちまってたようだ。{n} なかなか かなわない夢を、ささえきれなかった‥‥」{delay:78}{clear:00}「おまえたち‥‥ もし、秘宝を手に入れたら、{n} もし、望みが かなうとしたら‥‥ 何を望む?」{end}
-EN: 
+EN: Weiss{n}"Looks like I drowned in my own ideals.{n} That dream was too much to carry..."{delay:78}{clear:00}"You guys... if you got the treasure,{n} if a wish could come true...{n} what would you wish for?"{end}
 
 #id 0280 ptr=1BB165 box=dialog
 JP: モーモー{n}「そうだな、とりあえずは‥‥{n} 腹いっぱい うめえモンが喰いてえな」{end}
-EN: 
+EN: Moomoo{n}"Hmm, for starters...{n} I'd eat my fill of good grub."{end}
 
 #id 0281 ptr=1BB18F box=dialog
 JP: シャルル{n}「プッ、なによそれ。まったく いじきたないわね」{end}
-EN: 
+EN: Charles{n}"Pfft, what's that? How greedy."{end}
 
 #id 0282 ptr=1BB1AD box=dialog
 JP: リイム{n}「ボクも同じだな。{n} みんなで、おなかいっぱい パイナップルを食べたいな」{end}
-EN: 
+EN: Reem{n}"Same here.{n} I'd want us all to eat lots of pineapple."{end}
 
 #id 0283 ptr=1BB1D9 box=dialog
 JP: タムタム{n}「んーと、あたしはオレンジがいい」{end}
-EN: 
+EN: Tamtam{n}"Um, I'd like oranges."{end}
 
 #id 0284 ptr=1BB1F0 box=dialog
 JP: シャルル{n}「‥‥それじゃ、あたしはクッキー。{n} 誰にもあげないよ。ひとりで食べるんだモン♡」{end}
-EN: 
+EN: Charles{n}"...Then I'll take cookies.{n} I won't share. They're all mine♡"{end}
 
 #id 0285 ptr=1BB221 box=dialog
 JP: ライム{n}「わたしも‥‥ パイナップルをたべてみたいです♡」{end}
-EN: 
+EN: Lime{n}"I'd... like to try pineapple too♡"{end}
 
 #id 0286 ptr=1BB23F box=dialog
 JP: リチャード{n}「ほっほっほ。みんなおなかが すいているようじゃな。{n} さ、こちらへまいれ。好きなだけ食べるがよい」{delay:78}{clear:00}「ほんとうに ごくろうであった」{end}
-EN: 
+EN: Richard{n}"Ho ho ho. You all seem hungry.{n} Come this way. Eat as much as you like."{delay:78}{clear:00}"You have truly done well."{end}
 
 #id 0287 ptr=1BB290 box=dialog
 JP: モーモー{n}「こりゃ ありがてぇや」{end}
-EN: 
+EN: Moomoo{n}"Now that's what I like to hear."{end}
 
 #id 0288 ptr=1BB2A2 box=dialog
 JP: リイム{n}「どうしたんだい? さあ、いこう」{end}
-EN: 
+EN: Reem{n}"What's wrong? Come on, let's go."{end}
 
 #id 0289 ptr=1BB2B8 box=dialog
 JP: ヴァイス{n}「‥‥ああ」{delay:78}{clear:00}「リイム、こんどは‥‥」{end}
-EN: 
+EN: Weiss{n}"...Yeah."{delay:78}{clear:00}"Reem, next time..."{end}
 
 #id 0290 ptr=1BB2D6 box=dialog
 JP: リイム{n}「ん?」{end}
-EN: 
+EN: Reem{n}"Hm?"{end}
 
 #id 0291 ptr=1BB2DF box=dialog
 JP: ヴァイス{n}「こんどチャンスがあったら、{n} 俺もなにか食い物でも願うとするよ」{end}
-EN: 
+EN: Weiss{n}"Next time I get the chance,{n} maybe I'll wish for some food too."{end}
 
 #id 0292 ptr=1BB30A box=dialog
 JP: リイム{n}「‥‥そうだね」{delay:78}{clear:00}「さぁ、ぼくたちもいこうよ。はやく いかなきゃ、{n} モーモーに みんな食べられちゃうからさ」{end}
-EN: 
+EN: Reem{n}"...Yeah."{delay:78}{clear:00}"Come on, let's go too. If we don't hurry,{n} Moomoo will eat everything."{end}
 
 #id 0293 ptr=1BB34C box=dialog
 JP: ヴァイス{n}「へへッ」{end}
-EN: 
+EN: Weiss{n}"Heh."{end}
 
 #id 0294 ptr=1BB357 box=dialog
 JP: リチャード{n}「ヴァイス、おぬし達の しでかしたことは、{n} 本来なら決して許されるものではない」{delay:78}{clear:00}「しかしながら、{n} 魔物ヤゴの甘言に のってしまったがゆえの{n} 愚行であることは 想像にかたくない」{end}
-EN: 
+EN: Richard{n}"Weiss, what you and your men did{n} can never truly be forgiven."{delay:78}{clear:00}"However,{n} it is easy to see it was folly born{n} of the monster Yago's sweet words."{end}
 
 #id 0295 ptr=1BB3CC box=dialog
 JP: {end}
@@ -1184,43 +1184,43 @@ EN:
 
 #id 0296 ptr=1BB3CD box=dialog
 JP: ハウサー{n}「人は誰しも過ちをおかすものだ。{n} 余も、償いきれない過ちをおかしてしまった‥‥」{end}
-EN: 
+EN: Hauser{n}"Everyone makes mistakes.{n} I too made a mistake beyond atoning..."{end}
 
 #id 0297 ptr=1BB402 box=dialog
 JP: 「二度とこのような悲劇を繰り返すまい。{n} マテドラルには強き意思をもった{n} 若者が必要なのだ」{end}
-EN: 
+EN: "Such a tragedy must never recur.{n} Matedral needs young people{n} with strong will."{end}
 
 #id 0298 ptr=1BB43F box=dialog
 JP: 「私はつねに考えている。{n} 争いのない みな平等な世界をつくりたい」{delay:78}{clear:00}「それがカラードの教えでもあった。{n} そのためには、力は不要なものだとおもっていた」{delay:78}{clear:00}「‥‥だが、それは間違いだったのだろう。{n} 理想を守る為にこそ力は必要なのだ」{delay:78}{clear:00}「物事を見誤ることのなく使われる{n} 正しい力が」{end}
-EN: 
+EN: "I always think{n} I want a world without strife, all equal."{delay:78}{clear:00}"That was the Colored teaching too.{n} I believed power was unneeded for it."{delay:78}{clear:00}"...But that must have been wrong.{n} Power is needed to protect ideals."{delay:78}{clear:00}"The right power, used{n} without losing sight of things."{end}
 
 #id 0299 ptr=1BB4F8 box=dialog
 JP: 「‥‥ヴァイス、いまいちど余のもとにまいれ。{n} そなたの力を借りたい」{delay:78}{clear:00}「ともに国を創っていこうではないか」{end}
-EN: 
+EN: "...Weiss, come to me once more.{n} I would borrow your strength."{delay:78}{clear:00}"Let us build a nation together."{end}
 
 #id 0300 ptr=1BB539 box=dialog
 JP: ヴァイス{n}「しかし‥‥」{end}
-EN: 
+EN: Weiss{n}"But..."{end}
 
 #id 0301 ptr=1BB546 box=dialog
 JP: リチャード{n}「ヴァイスと その一味に命ずる」{delay:78}{clear:00}「ハウサー教王の元、{n} 今回の一件で疲弊してしまった{n} マテドラルの復興に尽力をつくしてあたるように」{delay:78}{clear:00}「それが お主たちの罪滅ぼしとなろう」{end}
-EN: 
+EN: Richard{n}"Weiss and your band, I order you:"{delay:78}{clear:00}"Under Pontiff Hauser,{n} devote yourselves to rebuilding{n} Matedral, worn down by this affair."{delay:78}{clear:00}"Let that be your atonement."{end}
 
 #id 0302 ptr=1BB5C2 box=dialog
 JP: ヴァイス{n}「だが、おれは‥‥」{end}
-EN: 
+EN: Weiss{n}"But I..."{end}
 
 #id 0303 ptr=1BB5D2 box=dialog
 JP: ハウサー{n}「もうよい、ヴァイス。わだかまりはあろうが、{n} 時間が解決してくれるものと信じておるよ」{delay:78}{clear:00}「余と共に過ちを償おうではないか」{end}
-EN: 
+EN: Hauser{n}"Enough, Weiss. There may be ill feeling,{n} but I trust time will heal it."{delay:78}{clear:00}"Let us atone for our sins together."{end}
 
 #id 0304 ptr=1BB624 box=dialog
 JP: ヴァイス{n}「‥‥」{end}
-EN: 
+EN: Weiss{n}"..."{end}
 
 #id 0305 ptr=1BB62E box=dialog
 JP: ピーコック{n}「よかったっスね、あにき!{n} これからも いっしょに頑張りましょう」{end}
-EN: 
+EN: Peacock{n}"That's great, boss!{n} Let's keep at it together."{end}
 
 #id 0306 ptr=1BB659 box=dialog
 JP: {end}
@@ -1248,7 +1248,7 @@ EN:
 
 #id 0312 ptr=1BB65F box=dialog
 JP: 兵士{n}「閣下に申し上げます、{n} 過日マテドラル城下にて{n} 巨大な洞穴が発見されました」{delay:78}{clear:00}「早速調査隊を派遣しましたところ、{n} 魔物が暴れていてとても奥に進めないとのこと」{delay:78}{clear:00}「どうか、お力をお貸しください」{end}
-EN: 
+EN: Soldier{n}"Report, Your Excellency.{n} The other day, below Matedral Castle,{n} a huge cavern was found."{delay:78}{clear:00}"We sent a survey team, but monsters{n} are running wild and they can't get far."{delay:78}{clear:00}"Please lend us your strength."{end}
 
 #id 0313 ptr=1BB6EE box=dialog
 JP: {end}
@@ -1256,87 +1256,87 @@ EN:
 
 #id 0314 ptr=1BB6EF box=dialog
 JP: ヴァイス{n}「リイム、おまえの勝ちだ」{end}
-EN: 
+EN: Weiss{n}"Reem, you win."{end}
 
 #id 0315 ptr=1BB703 box=dialog
 JP: リイム{n}「ヴァイス‥‥」{end}
-EN: 
+EN: Reem{n}"Weiss..."{end}
 
 #id 0316 ptr=1BB710 box=dialog
 JP: ヴァイス{n}「よるな!」{end}
-EN: 
+EN: Weiss{n}"Stay back!"{end}
 
 #id 0317 ptr=1BB71C box=dialog
 JP: リイム{n}「ヴァイス、キミにはまだやるべきことがある。{n} なにをすべきか、キミ自身が解っているはずだよ」{end}
-EN: 
+EN: Reem{n}"Weiss, you still have things to do.{n} You know what they are yourself."{end}
 
 #id 0318 ptr=1BB753 box=dialog
 JP: ヴァイス{n}「しかし‥‥ おれは‥‥」{end}
-EN: 
+EN: Weiss{n}"But... I..."{end}
 
 #id 0319 ptr=1BB766 box=dialog
 JP: タムタム{n}「あなたの行動で傷ついた人達がいるわ」{delay:78}{clear:00}「なにをすればいいのか?{n} それは、これから考えればいいことよ」{end}
-EN: 
+EN: Tamtam{n}"People were hurt by what you did."{delay:78}{clear:00}"What should you do?{n} You can think about that from now on."{end}
 
 #id 0320 ptr=1BB7AB box=dialog
 JP: ヴァイス{n}「‥‥‥‥」{end}
-EN: 
+EN: Weiss{n}"........"{end}
 
 #id 0321 ptr=1BB7B7 box=dialog
 JP: ヤゴ{n}「ニャーン。お話は終わったかニャン」{end}
-EN: 
+EN: Yago{n}"Nyaan. Are you done talking, meow?"{end}
 
 #id 0322 ptr=1BB7CF box=dialog
 JP: モーモー{n}「あぶねえ!」{end}
-EN: 
+EN: Moomoo{n}"Look out!"{end}
 
 #id 0323 ptr=1BB7DC box=dialog
 JP: モーモー{n}「おっとっと」{end}
-EN: 
+EN: Moomoo{n}"Whoa, whoa."{end}
 
 #id 0324 ptr=1BB7E9 box=dialog
 JP: ヤゴ{n}「どいつもこいつも 役たたずだニャン」{delay:78}{clear:00}「‥‥そうだ、お前たち、すごい力を持っているね。{n} どう? ボクといっしょに国をつくらないかニャ?」{end}
-EN: 
+EN: Yago{n}"Every one of them is useless, meow."{delay:78}{clear:00}"...Oh, I know. You all have great power.{n} Want to build a nation with me, meow?"{end}
 
 #id 0325 ptr=1BB83D box=dialog
 JP: モーモー{n}「おおきなお世話だよ」{end}
-EN: 
+EN: Moomoo{n}"Mind your own business."{end}
 
 #id 0326 ptr=1BB850 box=dialog
 JP: ヤゴ{n}「お前、魔物だね。{n} どうして人間と いっしょにいるんだい?」{delay:78}{clear:00}「こっちにおいでよ。{n} いっしょに世界を手にしようニャ」{end}
-EN: 
+EN: Yago{n}"You're a monster, aren't you?{n} Why are you with humans?"{delay:78}{clear:00}"Come over here.{n} Let's take the world together, meow."{end}
 
 #id 0327 ptr=1BB89D box=dialog
 JP: モーモー{n}「フン! ごめんだね」{end}
-EN: 
+EN: Moomoo{n}"Hmph! No thanks."{end}
 
 #id 0328 ptr=1BB8AE box=dialog
 JP: ヤゴ{n}「君達の望みは なんだい?{n} ボクが かなえてあげるニャ」{end}
-EN: 
+EN: Yago{n}"What do you wish for?{n} I'll grant it, meow."{end}
 
 #id 0329 ptr=1BB8D2 box=dialog
 JP: シャルル{n}「あんた、かってなことばかり言ってるんじゃないわよ!」{delay:78}{clear:00}「自分じゃ なにもできないんでしょう、{n} だから私たちの心に つけこむのよ」{end}
-EN: 
+EN: Charles{n}"Quit saying whatever suits you!"{delay:78}{clear:00}"You can't do anything yourself, can you?{n} That's why you prey on our hearts."{end}
 
 #id 0330 ptr=1BB924 box=dialog
 JP: 「でもね、おあいにくさま。世界の全てが{n} 思い通りになるなんて考えないでよね」{delay:78}{clear:00}「望みは かなえてもらうものじゃなくて、{n} 自分の力で かなえるものなのよ!」{end}
-EN: 
+EN: "But sorry to disappoint you. Don't think{n} the whole world will go your way."{delay:78}{clear:00}"A wish isn't something you get granted.{n} You make it come true yourself!"{end}
 
 #id 0331 ptr=1BB983 box=dialog
 JP: タムタム{n}「さぁ、かんねんなさい!{n} あなたの味方は誰もいなくなったわ!」{end}
-EN: 
+EN: Tamtam{n}"Now, give up!{n} You have no allies left!"{end}
 
 #id 0332 ptr=1BB9AC box=dialog
 JP: ヤゴ{n}「いいきになるニャ～～! ボクが本気をだせば、{n} おまえたちなんか ひとひねりだニャー」{end}
-EN: 
+EN: Yago{n}"Don't get cocky～! If I get serious,{n} I'll twist you up in no time, meow!"{end}
 
 #id 0333 ptr=1BB9DE box=dialog
 JP: ヴァイス{n}「リイム! 魔石をおまえに」{end}
-EN: 
+EN: Weiss{n}"Reem! The Jewel, take it!"{end}
 
 #id 0334 ptr=1BB9F4 box=dialog
 JP: 「くそっ、届いてくれっ!!」{end}
-EN: 
+EN: "Dammit, reach!!"{end}
 
 #id 0335 ptr=1BBA04 box=dialog
 JP: {end}
@@ -1368,43 +1368,43 @@ EN:
 
 #id 0342 ptr=1BBA0B box=dialog
 JP: 「しんきろうの平原へ ようこそ。{n} ここにはミラージュと呼ばれる4本の塔がある」{delay:78}{clear:00}「この塔は、心を映す不思議の塔。{n} 魔物を恐れれば、魔物が現れ、{n} 水を恐れれば、水が現れる」{delay:78}{clear:00}「それはマボロシのような ものなのかもしれない」{delay:78}{clear:00}「しかし、そのマボロシを克服すれば、{n} いくばくかの経験を得ることができる」{delay:78}{clear:00}「もし、この先、お主たちが入れない階が{n} あったとしたら、それは塔が拒んでおるのじゃ。{n} また別な機会に 挑戦すればよいじゃろう」{delay:78}{clear:00}「さあ、昇るがよい!!」{end}
-EN: 
+EN: "Welcome to the Plain of Mirages.{n} Here stand four towers called Mirages."{delay:78}{clear:00}"These towers reflect the heart.{n} Fear monsters, and monsters appear.{n} Fear water, and water appears."{delay:78}{clear:00}"Perhaps it is all an illusion."{delay:78}{clear:00}"But overcome the illusion,{n} and you will gain some experience."{delay:78}{clear:00}"If there is a floor you can't enter,{n} the tower is refusing you.{n} Try again another time."{delay:78}{clear:00}"Now, climb!!"{end}
 
 #id 0343 ptr=1BBB33 box=dialog
 JP: タムタム{n}「ここは‥‥」{end}
-EN: 
+EN: Tamtam{n}"This is..."{end}
 
 #id 0344 ptr=1BBB40 box=dialog
 JP: リイム{n}「もとの教会だよ。もどってきたんだね」{end}
-EN: 
+EN: Reem{n}"It's the church. We came back."{end}
 
 #id 0345 ptr=1BBB5A box=dialog
 JP: タムタム{n}「これで おわったの?」{end}
-EN: 
+EN: Tamtam{n}"Is it over?"{end}
 
 #id 0346 ptr=1BBB6C box=dialog
 JP: モーモー{n}「どうかな‥‥」{end}
-EN: 
+EN: Moomoo{n}"Who knows..."{end}
 
 #id 0347 ptr=1BBB7A box=dialog
 JP: シャルル{n}「ヤゴは どうなったのかしら?」{end}
-EN: 
+EN: Charles{n}"What happened to Yago?"{end}
 
 #id 0348 ptr=1BBB90 box=dialog
 JP: リイム{n}「魔界へ はじき飛ばされただけだよ。{n} ‥‥たぶん元気なんじゃないかな」{end}
-EN: 
+EN: Reem{n}"He was just knocked back home.{n} ...He's probably fine."{end}
 
 #id 0349 ptr=1BBBBE box=dialog
 JP: シャルル{n}「また、もどってくるかしら?」{end}
-EN: 
+EN: Charles{n}"Will he come back?"{end}
 
 #id 0350 ptr=1BBBD3 box=dialog
 JP: モーモー{n}「さあね?」{end}
-EN: 
+EN: Moomoo{n}"Who knows?"{end}
 
 #id 0351 ptr=1BBBDF box=dialog
 JP: 「リイム! ヴァイスが」{end}
-EN: 
+EN: "Reem! It's Weiss!"{end}
 
 #id 0352 ptr=1BBBEC box=dialog
 JP: {end}
@@ -1412,43 +1412,43 @@ EN:
 
 #id 0353 ptr=1BBBED box=dialog
 JP: リイム{n}「ヴァイス! 大丈夫かい?」{end}
-EN: 
+EN: Reem{n}"Weiss! Are you all right?"{end}
 
 #id 0354 ptr=1BBC03 box=dialog
 JP: ヴァイス{n}「‥‥リ、イム‥‥{n} おまえ、無事だったのか‥‥」{end}
-EN: 
+EN: Weiss{n}"...Re... em...{n} You're safe..."{end}
 
 #id 0355 ptr=1BBC24 box=dialog
 JP: 「あいつは‥‥ヤゴは‥‥」{end}
-EN: 
+EN: "That guy... Yago..."{end}
 
 #id 0356 ptr=1BBC32 box=dialog
 JP: リイム{n}「ヤゴは魔界へ還ったよ。{n} 終わったんだよ、ヴァイス」{end}
-EN: 
+EN: Reem{n}"Yago went back to the demon world.{n} It's over, Weiss."{end}
 
 #id 0357 ptr=1BBC56 box=dialog
 JP: ヴァイス{n}「へへっ、そうか、{n} 俺の悪だくみもこれまでってワケだな」{end}
-EN: 
+EN: Weiss{n}"Heh, I see.{n} So that's the end of my scheming."{end}
 
 #id 0358 ptr=1BBC7B box=dialog
 JP: リイム{n}「‥‥‥‥」{end}
-EN: 
+EN: Reem{n}"........"{end}
 
 #id 0359 ptr=1BBC86 box=dialog
 JP: ヴァイス{n}「おめえら、やっぱり凄いよな。{n} ヤゴを やっつけちまうなんてな」{delay:78}{clear:00}「はは、俺は‥‥おれは、{n} なんてことを しちまったんだろうな」{end}
-EN: 
+EN: Weiss{n}"You guys really are something.{n} Beating Yago like that."{delay:78}{clear:00}"Ha, what... what have I{n} gone and done?"{end}
 
 #id 0360 ptr=1BBCD5 box=dialog
 JP: 「ヤゴに いいように利用されていたなんて‥‥{n} まったく、マヌケな話だぜ」{end}
-EN: 
+EN: "Getting used by Yago like that...{n} What a dumb story."{end}
 
 #id 0361 ptr=1BBCFE box=dialog
 JP: リイム{n}「‥‥いいんだよ、ヴァイス。もういいんだ」{end}
-EN: 
+EN: Reem{n}"...It's okay, Weiss. It's all right now."{end}
 
 #id 0362 ptr=1BBD18 box=dialog
 JP: 「さぁ、帰ろう。みんなが待っているよ」{end}
-EN: 
+EN: "Let's go home. Everyone's waiting."{end}
 
 #id 0363 ptr=1BBD2E box=dialog
 JP: {end}
@@ -1472,11 +1472,11 @@ EN:
 
 #id 0368 ptr=1BBD33 box=dialog
 JP: シャルル{n}「ンもう!」{end}
-EN: 
+EN: Charles{n}"Oh, honestly!"{end}
 
 #id 0369 ptr=1BBD3F box=dialog
 JP: 「‥‥‥‥‥‥‥‥怖かったぞい」{delay:78}{clear:00}「ああ、そんなことは どうでもいいんじゃ!」{end}
-EN: 
+EN: "................That was scary."{delay:78}{clear:00}"Oh, never mind that!"{end}
 
 #id 0370 ptr=1BBD6D box=dialog
 JP: {end}
@@ -1552,7 +1552,7 @@ EN:
 
 #id 0388 ptr=1BBD7F box=dialog cont=1
 JP: モーモー{n}「おっ、主役のおでましだぜ」{delay:78}{clear:00}「よかったな、ヴァイス。また、マテドラルに{n} もどれんだろ?」
-EN: 
+EN: Moomoo{n}"Oh, the star of the show is here."{delay:78}{clear:00}"Good for you, Weiss. You can go back{n} to Matedral now, right?"
 
 #id 0389 ptr=1BBDB9 box=dialog
 JP: {end}
@@ -1560,107 +1560,107 @@ EN:
 
 #id 0390 ptr=1BBDBA box=dialog
 JP: シャルル{n}「これからは仲間同士ってワケね‥‥」{end}
-EN: 
+EN: Charles{n}"So now we're on the same side..."{end}
 
 #id 0391 ptr=1BBDD6 box=dialog
 JP: 「でも、あたしは あんたのこと完全に{n} 信用したわけじゃないわよ」{delay:78}{clear:00}「教王の御命令だから、しかたなく{n} いっしょに組むんですからね‥‥」{n}{end}
-EN: 
+EN: "But I don't trust you{n} completely, you know."{delay:78}{clear:00}"I'm only teaming up with you because{n} the Pontiff ordered it..."{n}{end}
 
 #id 0392 ptr=1BBE2B box=dialog
 JP: 「‥‥まぁ、仲良くやりましょ。{n} ちょっとは期待してあげてもいいわ♡」{end}
-EN: 
+EN: "...Well, let's get along.{n} I might expect a little from you♡"{end}
 
 #id 0393 ptr=1BBE53 box=dialog
 JP: タムタム{n}「願いをかなえる魔物‥‥{n} ヤゴはあなたの気持ちにつけこんだのね」{end}
-EN: 
+EN: Tamtam{n}"A monster that grants wishes...{n} Yago preyed on your feelings."{end}
 
 #id 0394 ptr=1BBE7F box=dialog
 JP: 「でも、あなたは自分をとりもどしたわ。{n} 初めて出逢ったときのようにね」{end}
-EN: 
+EN: "But you found yourself again.{n} Just like when we first met."{end}
 
 #id 0395 ptr=1BBEA9 box=dialog
 JP: 「ヴァイス、これからは、{n} いっしょに頑張っていきましょう」{end}
-EN: 
+EN: "Weiss, from now on,{n} let's work hard together."{end}
 
 #id 0396 ptr=1BBECA box=dialog
 JP: ヴァイス{n}「おまえたち‥‥」{delay:78}{clear:00}「おれは、自分の理想におぼれちまってたようだ。{n} おおきすぎた夢を、ささえきれなかった‥‥」{end}
-EN: 
+EN: Weiss{n}"You guys..."{delay:78}{clear:00}"Looks like I drowned in my own ideals.{n} That dream was too big to carry..."{end}
 
 #id 0397 ptr=1BBF12 box=dialog
 JP: 「おまえたち‥‥ もし、秘宝を手に入れたら、{n} もし、望みが かなうとしたら‥‥」{end}
-EN: 
+EN: "You guys... if you got the treasure,{n} if a wish could come true..."{end}
 
 #id 0398 ptr=1BBF41 box=dialog
 JP: 「何を望む?」{end}
-EN: 
+EN: "What would you wish for?"{end}
 
 #id 0399 ptr=1BBF4B box=dialog
 JP: モーモー{n}「そうだな、とりあえずは‥‥{n} 腹いっぱい うめえモンが喰いてえな」{end}
-EN: 
+EN: Moomoo{n}"Hmm, for starters...{n} I'd eat my fill of good grub."{end}
 
 #id 0400 ptr=1BBF75 box=dialog
 JP: シャルル{n}「ぷっ、なによそれ。まったく モーモーらしいわね」{end}
-EN: 
+EN: Charles{n}"Pfft, what's that? So Moomoo."{end}
 
 #id 0401 ptr=1BBF94 box=dialog
 JP: リイム{n}「ボクも同じだよ。{n} みんなでおなかいっぱい、パイナップルを食べたいな♪」{end}
-EN: 
+EN: Reem{n}"Same here.{n} I'd want us all to eat lots of pineapple♪"{end}
 
 #id 0402 ptr=1BBFC0 box=dialog
 JP: タムタム{n}「んーと、あたしはオレンジがいい」{end}
-EN: 
+EN: Tamtam{n}"Um, I'd like oranges."{end}
 
 #id 0403 ptr=1BBFD7 box=dialog
 JP: シャルル{n}「‥‥それじゃ、あたしはクッキー。{n} 誰にもあげないよ。ひとりで食べるんだモン♡」{end}
-EN: 
+EN: Charles{n}"...Then I'll take cookies.{n} I won't share. They're all mine♡"{end}
 
 #id 0404 ptr=1BC008 box=dialog
 JP: ライム{n}「わたしも‥‥ パイナップルをたべてみたいです♡」{end}
-EN: 
+EN: Lime{n}"I'd... like to try pineapple too♡"{end}
 
 #id 0405 ptr=1BC026 box=dialog
 JP: リチャード{n}「ほっほっほ。みんな、おなかが すいているようじゃな。{n} さ、あちらへまいれ。食事の用意をしておいた。{n} 好きなだけ食べるがよい」{end}
-EN: 
+EN: Richard{n}"Ho ho ho. You all seem hungry.{n} Go on over there. A meal is ready.{n} Eat as much as you like."{end}
 
 #id 0406 ptr=1BC074 box=dialog
 JP: 「ほんとうに ごくろうであった」{end}
-EN: 
+EN: "You have truly done well."{end}
 
 #id 0407 ptr=1BC085 box=dialog
 JP: モーモー{n}「おおっ! こりゃ うまそうだぜ。モー♪」{end}
-EN: 
+EN: Moomoo{n}"Whoa! That looks great. Moo♪"{end}
 
 #id 0408 ptr=1BC0A0 box=dialog
 JP: リイム{n}「どうしたんだい? さあ、いこう」{end}
-EN: 
+EN: Reem{n}"What's wrong? Come on, let's go."{end}
 
 #id 0409 ptr=1BC0B6 box=dialog
 JP: ヴァイス{n}「‥‥ああ」{end}
-EN: 
+EN: Weiss{n}"...Yeah."{end}
 
 #id 0410 ptr=1BC0C2 box=dialog
 JP: 「リイム、こんどは‥‥」{end}
-EN: 
+EN: "Reem, next time..."{end}
 
 #id 0411 ptr=1BC0CF box=dialog
 JP: リイム{n}「ん?」{end}
-EN: 
+EN: Reem{n}"Hm?"{end}
 
 #id 0412 ptr=1BC0D8 box=dialog
 JP: ヴァイス{n}「こんどチャンスがあったら、{n}{delay:30} 俺もなにか食い物でも願うとするよ」{end}
-EN: 
+EN: Weiss{n}"Next time I get the chance,{n}{delay:30} maybe I'll wish for some food too."{end}
 
 #id 0413 ptr=1BC106 box=dialog
 JP: リイム{n}「‥‥そうだね」{end}
-EN: 
+EN: Reem{n}"...Yeah."{end}
 
 #id 0414 ptr=1BC113 box=dialog
 JP: {delay:78}{clear:00}「さぁ、ぼくたちもいこうよ。はやく いかなきゃ、{n} モーモーに みんな食べられちゃうからさ」{end}
-EN: 
+EN: {delay:78}{clear:00}"Come on, let's go too. If we don't hurry,{n} Moomoo will eat everything."{end}
 
 #id 0415 ptr=1BC149 box=dialog
 JP: ヴァイス{n}「へへッ」{end}
-EN: 
+EN: Weiss{n}"Heh."{end}
 
 #id 0416 ptr=1BC154 box=dialog
 JP: {end}
