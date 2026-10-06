@@ -218,6 +218,7 @@ vwf_flush:                ; if !slots changed: NMI upload !slots -> VRAM $6C00 (
     REP #$20
     PHA
     LDA.l !dirty : BEQ +
+    SEP #$20 : LDA $10 : CMP #$02 : REP #$20 : BEQ +   ; $10 == 2: no NMI wait/$57 dispatch; keep !dirty
     LDA #$0000 : STA.l !dirty
     LDA #$6C00 : STA $78
     SEP #$20 : LDA #$FE : STA $57 : REP #$20

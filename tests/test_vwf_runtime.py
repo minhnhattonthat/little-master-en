@@ -431,3 +431,34 @@ end, emu.eventType.endFrame)
     rows = sorted({int(r) for r in res.split()})
     assert sum(w[c] for c in line) > LINE_PX - 4, sum(w[c] for c in line)
     assert {24, 26} <= set(rows), rows       # window rows 24-27: the long line on 24, 'B' on 26 (no blank line, no scroll)
+
+
+def test_flush_keeps_tiles_pending_while_nmi_skips_commands(tmp_path):
+    # M6 carry-over C1: with $10 == 2 the wait at $00:E3BE returns at once and the NMI skips the $57 dispatch, so a
+    # $FE request would stay pending and the game's own INC $57 would turn it into $FF (a different upload).
+    sfc = build.build(tmp_path / "b", "en")
+    sym = {l.split()[1]: int(l.split()[0].replace(":", ""), 16)
+           for l in (tmp_path / "b" / "lm_en.sym").read_text().splitlines() if l[:2] == "C0" and len(l.split()) == 2}
+    flush, rets = sym["vwf_flush"], [sym["vwf_c20e"] + 3, sym["vwf_eccc"] + 3]
+    res = run(sfc, "ordinary_field_message", f'''
+local forced, saved, result = false, 0, "no dirty flush"
+emu.addMemoryCallback(function()
+  if forced or not loaded or emu.read(0x7FFF18, emu.memType.snesMemory) == 0 then return end
+  forced = true; saved = emu.read(0x10, emu.memType.snesWorkRam); emu.write(0x10, 2, emu.memType.snesWorkRam)
+end, emu.callbackType.exec, {flush}, {flush}, emu.cpuType.snes, emu.memType.snesMemory)
+for _, r in ipairs({{{rets[0]}, {rets[1]}}}) do
+  emu.addMemoryCallback(function()
+    if forced and result == "no dirty flush" then
+      result = string.format("57=%02X dirty=%d", emu.read(0x57, emu.memType.snesWorkRam), emu.read(0x7FFF18, emu.memType.snesMemory))
+      emu.write(0x10, saved, emu.memType.snesWorkRam)
+    end
+  end, emu.callbackType.exec, r, r, emu.cpuType.snes, emu.memType.snesMemory)
+end
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 200 then local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(result); f:close(); emu.stop(0) end
+end, emu.eventType.endFrame)
+''', tmp_path / "o")
+    assert res.startswith("57="), res
+    assert not res.startswith("57=FE") and "dirty=0" not in res, res
