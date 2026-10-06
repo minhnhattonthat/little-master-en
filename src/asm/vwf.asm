@@ -37,6 +37,10 @@ org $00BE43               ; renderer message start; was: STZ $0A10 / STZ $0A06
     JML vwf_start
     NOP : NOP
 
+org $00BE6B               ; renderer D0 (kanji/UI glyph) check; was: CMP #$00D0 / BEQ $BEBB
+    JML vwf_d0
+    NOP
+
 org $00BE70               ; renderer char path; was: CMP #$00CE / BEQ $BE4F
     JML vwf_dispatch
     NOP
@@ -118,6 +122,12 @@ vwf_clearslot:            ; blank the !width tiles of the current slot
     RTS
 
 ; ---------------------------------------------------------------- char path
+vwf_d0:                   ; a D0 glyph takes the (fresh) cursor cell: drop !partial so the next VWF glyph
+    CMP #$00D0 : BNE +        ; doesn't step back onto its right half (M6 C2)
+    PHA : LDA #$0000 : STA.l !partial : STA.l !px : PLA
+    JML $00BEBB
++   JML $00BE70
+
 vwf_dispatch:             ; renderer: A = char (16-bit), X = tilemap offset (16-bit)
     CMP #$00CE : BNE + : JML $00BE4F            ; replayed: no-op char
 +   PHA

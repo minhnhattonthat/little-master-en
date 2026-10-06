@@ -462,3 +462,31 @@ end, emu.eventType.endFrame)
 ''', tmp_path / "o")
     assert res.startswith("57="), res
     assert not res.startswith("57=FE") and "dirty=0" not in res, res
+
+
+def test_vwf_glyph_after_ui_glyph_keeps_the_ui_cell(tmp_path, monkeypatch):
+    # M6 carry-over C2: a D0 (kanji/UI) glyph bypasses vwf_dispatch, so !partial from the preceding VWF cell survived
+    # and the next VWF glyph stepped back onto the D0 glyph's right half.
+    inject_peacock(monkeypatch, lambda en: en.replace("Peacock", "Pea{uiE8}cock"))
+    sfc = build.build(tmp_path / "b", "en")
+    res = run(sfc, "ordinary_field_message", '''
+local cell, before = nil, nil
+emu.addMemoryCallback(function()
+  if not loaded or cell then return end
+  local ptr = emu.read16(0x14, emu.memType.snesWorkRam) | (emu.read(0x16, emu.memType.snesWorkRam) << 16)
+  -- render buffer: D0 <kanji slot> <next char>; ours is the one followed by the 'c' of "cock"
+  if emu.read(ptr + 1, emu.memType.snesMemory) == 0x63 then cell = 0x9000 + emu.getState()["cpu.x"] + 2 end
+end, emu.callbackType.exec, 0x00BEBB, 0x00BEBB, emu.cpuType.snes, emu.memType.snesMemory)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if cell and before == nil then before = emu.read16(cell, emu.memType.snesWorkRam) end
+  if frame == 300 then
+    local now = cell and emu.read16(cell, emu.memType.snesWorkRam) or -1
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(string.format("%d %d", before or -1, now)); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''', tmp_path / "o")
+    before, now = map(int, res.split())
+    assert before >= 0, "no D0 glyph drawn"
+    assert now == before, f"D0 glyph right half {before:04X} overwritten by {now:04X}"
