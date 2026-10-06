@@ -228,7 +228,7 @@ EN: Radock{n}"Fools! You should've come sooner!"{end}
 
 #id 0057 ptr=1B8C18 box=dialog
 JP: ラドック{n}「おお、いかん。いかん。{n} そんなことは どうでもいいのじゃ!」{delay:78}{clear:00}「わかった。ワシには全て わかったぞ」{delay:78}{clear:00}「カラードの教典に記された、願いをかなえる{n} 秘宝とは、まさに魔石の事!{n} そして、ジャスバンに封じられしは、魔物じゃ!」{end}
-EN: Radock{n}"Oh, no, no.{n} That doesn't matter!"{delay:78}{clear:00}"I see. I see it all now."{delay:78}{clear:00}"The wish-granting treasure in the{n} Colored scripture is the Jewels!{n} And what Jasvan sealed is a monster!"{end}
+EN: Radock{n}"Oh, no, no.{n} That doesn't matter!"{delay:78}{clear:00}"I see. I see it all now."{delay:78}{clear:00}"The wish-granting treasure in the{n} Calard scripture is the Jewels!{n} And what Jasvan sealed is a monster!"{end}
 
 #id 0058 ptr=1B8CA7 box=dialog
 JP: リイム{n}「?」{end}
@@ -240,7 +240,7 @@ EN: Radock{n}"The scripture's appendix says this."{delay:78}{clear:00}～ Here w
 
 #id 0060 ptr=1B8D14 box=dialog
 JP: ラドック{n}「その昔、カラード教に ゆかりの深い者が{n} ジャスバンの祭壇に、魔物を封じた」{delay:78}{clear:00}「魔物とは、人をだます小悪魔のこと」{delay:78}{clear:00}「そして、魔物が蘇らぬよう、退魔の石として{n} 伝わっていた虹色の魔石を奉った。{n} まぁ、まじないの意味を込めたんじゃろうな」{end}
-EN: Radock{n}"Long ago, someone close to the Colored{n} sealed a monster at Jasvan's altar."{delay:78}{clear:00}"A little demon that tricks people."{delay:78}{clear:00}"To keep it from waking, they offered{n} the Rainbow Jewels, said to ward off{n} demons. As a charm, I suppose."{end}
+EN: Radock{n}"Long ago, someone close to the Calard{n} sealed a monster at Jasvan's altar."{delay:78}{clear:00}"A little demon that tricks people."{delay:78}{clear:00}"To keep it from waking, they offered{n} the Rainbow Jewels, said to ward off{n} demons. As a charm, I suppose."{end}
 
 #id 0061 ptr=1B8DBB box=dialog
 JP: リイム{n}「退魔の石?」{end}
@@ -248,7 +248,7 @@ EN: Reem{n}"Demon-warding stones?"{end}
 
 #id 0062 ptr=1B8DCA box=dialog
 JP: ラドック{n}「魔物に苦しめられていた カラードの民に{n} とって、願いとは まさに、魔物の封印」{delay:78}{clear:00}「すなわち、願いをかなえる秘宝とは、{n} 虹色の魔石に ほかならない!」{end}
-EN: Radock{n}"For the Colored, tormented by monsters,{n} their wish was the monster's sealing."{delay:78}{clear:00}"So the wish-granting treasure is{n} none other than the Rainbow Jewels!"{end}
+EN: Radock{n}"For the Calard, tormented by monsters,{n} their wish was the monster's sealing."{delay:78}{clear:00}"So the wish-granting treasure is{n} none other than the Rainbow Jewels!"{end}
 
 #id 0063 ptr=1B8E32 box=dialog
 JP: リイム{n}「じゃあ‥‥」{end}
@@ -448,11 +448,11 @@ EN: Weiss{n}"Right. What we wanted was{n} the Green Jewel kept in this nation."{
 
 #id 0112 ptr=1B95E1 box=dialog
 JP: ヤゴ{n}「ニャハハ。{n} おまえたちは カラードを信じる民だろう?」{delay:78}{clear:00}「これは復讐だニャン。ボクがうけた{n} 苦しみは、倍にしてかえしてあげるニャ」{end}
-EN: Yago{n}"Nyaha ha.{n} You believe in the Colored, right?"{delay:78}{clear:00}"This is revenge, meow. I'll pay back{n} what I suffered twice over, meow."{end}
+EN: Yago{n}"Nyaha ha.{n} You believe in the Calard, right?"{delay:78}{clear:00}"This is revenge, meow. I'll pay back{n} what I suffered twice over, meow."{end}
 
 #id 0113 ptr=1B9634 box=dialog
 JP: ハウサー{n}「何故、何故お主はカラードを信仰する{n} 我ら マテドラルに災いをなすのか‥‥」{end}
-EN: Hauser{n}"Why, why do you bring ruin upon{n} Matedral, keepers of the Colored faith..."{end}
+EN: Hauser{n}"Why, why do you bring ruin upon{n} Matedral, keepers of the Calard faith..."{end}
 
 #id 0114 ptr=1B966A box=dialog
 JP: ヤゴ{n}「おまえの仲間が、ボクにしたことを{n} 忘れたとは いわせないニャ」{end}
@@ -1192,7 +1192,7 @@ EN: "Such a tragedy must never recur.{n} Matedral needs young people{n} with str
 
 #id 0298 ptr=1BB43F box=dialog
 JP: 「私はつねに考えている。{n} 争いのない みな平等な世界をつくりたい」{delay:78}{clear:00}「それがカラードの教えでもあった。{n} そのためには、力は不要なものだとおもっていた」{delay:78}{clear:00}「‥‥だが、それは間違いだったのだろう。{n} 理想を守る為にこそ力は必要なのだ」{delay:78}{clear:00}「物事を見誤ることのなく使われる{n} 正しい力が」{end}
-EN: "I always think{n} I want a world without strife, all equal."{delay:78}{clear:00}"That was the Colored teaching too.{n} I believed power was unneeded for it."{delay:78}{clear:00}"...But that must have been wrong.{n} Power is needed to protect ideals."{delay:78}{clear:00}"The right power, used{n} without losing sight of things."{end}
+EN: "I always think{n} I want a world without strife, all equal."{delay:78}{clear:00}"That was the Calard teaching too.{n} I believed power was unneeded for it."{delay:78}{clear:00}"...But that must have been wrong.{n} Power is needed to protect ideals."{delay:78}{clear:00}"The right power, used{n} without losing sight of things."{end}
 
 #id 0299 ptr=1BB4F8 box=dialog
 JP: 「‥‥ヴァイス、いまいちど余のもとにまいれ。{n} そなたの力を借りたい」{delay:78}{clear:00}「ともに国を創っていこうではないか」{end}

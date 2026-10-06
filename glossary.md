@@ -69,7 +69,7 @@ inside unrelated words would cause false lint hits. Columns: JP | EN | max | not
 | 勇者軍 | Heroes | | the player's side ("the Heroes"). Short form chosen because status layouts give it ~6 cells. Alternative: Hero Army |
 | 魔物軍 | Monsters | | the enemy side ("the Monsters"). Alternative: Monster Army |
 | 魔獣盗賊団 | Beast Bandits | | |
-| カラード | Colored | | the faith/people behind the treasure legend (カラード教 the Colored faith; the jewels are colored) |
+| カラード | Calard | | the faith/people behind the treasure legend (カラード教 the Calard faith). Not "Colored": reads as a slur in English |
 | スカル・ボンバーズ | Skull Bombers | | also スカルボンバーズ |
 | 虹色の魔石 | Rainbow Jewel | | the title is "Jewels of Rainbow" in the game's own credits |
 | 魔石 | Jewel | | アカイロの魔石 Red Jewel, オレンジの魔石 Orange Jewel… |

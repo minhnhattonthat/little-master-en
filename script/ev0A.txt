@@ -1044,7 +1044,7 @@ EN:
 
 #id 0261 ptr=054A75 box=dialog
 JP: {p7F:02}{speed:02}「むう。{delay:20}これが カラードの秘宝だというのか‥‥」{end}
-EN: {p7F:02}{speed:02}"Hmm.{delay:20} So this is the Colored treasure..."{end}
+EN: {p7F:02}{speed:02}"Hmm.{delay:20} So this is the Calard treasure..."{end}
 
 #id 0262 ptr=054A9D box=dialog
 JP: {p7F:02}{speed:02}「こうしちゃおれん、{n}{delay:20} 一刻もはやく この事を知らせねば!」{end}

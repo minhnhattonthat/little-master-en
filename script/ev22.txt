@@ -340,7 +340,7 @@ EN: {p7F:02}{speed:02}"Indeed, this time I've found it.{n} If this old document 
 
 #id 0085 ptr=115E05 box=dialog
 JP: {p7F:02}{speed:02} カラードの 秘宝伝承を裏付ける、{n} なによりの証拠になるじゃろう。やったぞい!」{end}
-EN: {p7F:02}{speed:02} it's the best proof yet of the{n} Colored treasure legend. Yes!"{end}
+EN: {p7F:02}{speed:02} it's the best proof yet of the{n} Calard treasure legend. Yes!"{end}
 
 #id 0086 ptr=115E53 box=dialog
 JP: {p7F:02}{speed:02}「うおっ、地震か!!」{end}
