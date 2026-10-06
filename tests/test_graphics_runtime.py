@@ -24,9 +24,7 @@ def bitmap(vram):
 
 
 def title_dump(sfc, out):
-    hdr = 'INPUTS = {[70] = "start", [80] = "start", [90] = "start"}\nAT = 200\nNAME = "title"\n'
-    Path("test/lua/_gr.lua").write_text(hdr + Path("test/lua/vram_dump.lua").read_text())
-    assert mesen.run(sfc, "_gr.lua", out) == 0
+    assert mesen.run(sfc, "title_dump.lua", out) == 0
     return (out / "title.vram").read_bytes()
 
 
