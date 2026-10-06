@@ -34,7 +34,7 @@ Status starts as `open`. When it's fixed, the row gets the test name and the com
 | C1 | menus (engine) | `$57=$FE` VWF tile upload lost when `$10 == 2` (M3 review; `$10 = 3` path handles `$FE`, `$10 = 2` never seen in states) | | fixed | test_flush_keeps_tiles_pending_while_nmi_skips_commands | fe1a1f1 |
 | C2 | text (engine) | `!partial` survives the D0 glyph path (M3 review) | | fixed | test_vwf_glyph_after_ui_glyph_keeps_the_ui_cell | 4891cf8 |
 | C3 | text (engine) | each message start takes a new VWF slot (M3 review) | | open | | |
-| C4 | script | wording polish: msg36 #445 #482 #231 #574 #270/#548/#606 #391 #612; ev0A #193 #301 #287; ev22 #62 (M4 review) | | open | | |
+| C4 | script | wording polish: msg36 #445 #482 #231 #574 #270/#548/#606 #391 #612; ev0A #193 #301 #287; ev22 #62 (M4 review; ev0A #287 kept, no room) | | fixed | test_repository_is_lint_clean | 956a553 |
 | C5 | unknown screen | `09DB16` speech-bubble graphic not yet seen (M5) | | open | | |
 
 ## Notes
