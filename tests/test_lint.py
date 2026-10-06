@@ -179,3 +179,8 @@ def test_missing_lists_untranslated_text_entries(tmp_path):
     save(tmp_path / "script" / "b.txt", [Entry(0, 1, {}, "あ{end}", ""), Entry(1, 2, {}, "{end}", ""),
                                          Entry(2, 3, {}, "い{end}", "I{end}")])
     assert lint.missing(tmp_path, ["b"]) == ["b #0"]
+
+
+def test_glossary_term_split_by_a_position_code_still_counts():
+    e = Entry(32, 0, {"slack": "12", "repos": "1"}, "{p03:0C}ラドック教授の助手{p06:0F}あ{end}", "{p01:0C}They take Professor{p01:0F}Radock{end}")
+    assert lint_entry(e, "wide", WID, W, {"ラドック教授": "Professor Radock"}) == []

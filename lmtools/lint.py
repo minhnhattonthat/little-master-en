@@ -135,7 +135,7 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
     jc, ec = _controls(e.jp, repos), _controls(e.en, repos)
     if jc != ec:
         out.append(f"#{e.id}: control codes differ: missing {sorted((jc - ec).elements())} extra {sorted((ec - jc).elements())}")
-    flat = re.sub(r"\{(n|delay:[0-9A-Fa-f]{2})\}", " ", e.en).replace("_", " ")
+    flat = POS.sub(" ", re.sub(r"\{(n|delay:[0-9A-Fa-f]{2})\}", " ", e.en)).replace("_", " ")
     flat = re.sub(r" +", " ", flat)
     for term, en_term in (glossary.items() if e.meta.get("gloss") != "off" else []):   # gloss=off: tight UI labels
         if term in e.jp and en_term.lower() not in flat.lower():

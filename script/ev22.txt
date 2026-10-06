@@ -30,13 +30,13 @@ EN:
 JP: {color:01}{p08:0C}PRODUCER:{color:00}{p0A:0F}FUMIO NAKAMURA{end}
 EN: 
 
-#id 0008 ptr=113E3E box=dialog
+#id 0008 ptr=113E3E box=dialog repos=1 slack=12
 JP: {p06:0E}リイム達は ライナーク城を目指す{end}
-EN: 
+EN: {p01:0E}Reem's party heads for Rainark{end}
 
-#id 0009 ptr=113E6A box=dialog
+#id 0009 ptr=113E6A box=dialog repos=1 slack=12
 JP: {p03:0C}途中、ラドック教授の助手"ピーコック"を{p06:0F}パズタ村まで 送りとどけることになった{end}
-EN: 
+EN: {p01:0C}On the way, they take Professor{p01:0F}Radock's aide Peacock to Pazuta{end}
 
 #id 0010 ptr=113F12 box=dialog
 JP: {p7F:02}{end}
@@ -44,23 +44,23 @@ EN:
 
 #id 0011 ptr=113F6D box=dialog
 JP: {p7F:02}{speed:02}「リイム!{delay:20} だいじょうぶ?」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Reem!{delay:20} Are you all right?"{end}
 
 #id 0012 ptr=113F93 box=dialog
 JP: {p7F:02}{speed:02}「うん、{delay:20}それよりも教授たちを」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Yeah.{delay:20} Never mind me, see to the others."{end}
 
 #id 0013 ptr=113FB8 box=dialog
 JP: {p7F:02}{speed:02}「ええ」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Right."{end}
 
 #id 0014 ptr=113FDC box=dialog
 JP: {p7F:02}{speed:02}「おお、{delay:20}タムタムか。{delay:30}これを 見てくれ。{n}{delay:30} ついに みつけたぞ」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Oh,{delay:20} Tamtam.{delay:30} Look at this.{n}{delay:30} I finally found it."{end}
 
 #id 0015 ptr=114016 box=dialog
 JP: {p7F:02}{speed:02}「もう、{delay:20}話は あとで聴きますから{n}{delay:20} じっとしててください」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Honestly,{delay:20} I'll hear about it later,{n}{delay:20} so please hold still."{end}
 
 #id 0016 ptr=11409F box=dialog
 JP: {p7F:02}{end}
@@ -68,23 +68,23 @@ EN:
 
 #id 0017 ptr=1140B2 box=dialog
 JP: {p7F:02}{speed:02}「おお、ありがとよ。{n}{delay:30} それよりも大変じゃ。{delay:30}やはり本当だったんじゃ」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Ah, thank you.{n}{delay:30} But listen.{delay:30} It was true after all."{end}
 
 #id 0018 ptr=1140E9 box=dialog
 JP: {p7F:02}{speed:02}「この古文書を見るのじゃ。{n}{delay:30} ほれ、{delay:20}ここの部分じゃ」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Look at this old document.{n}{delay:30} Here,{delay:20} this part."{end}
 
 #id 0019 ptr=11415B box=dialog
 JP: {p7F:0E}主人「まいどあり。次もひいきにしておくれ」{end}
-EN: 
+EN: {p7F:0E}Owner: "Thanks! Come again soon."{end}
 
 #id 0020 ptr=1141B9 box=dialog
 JP: {p7F:0E}医者「おだいじに」{end}
-EN: 
+EN: {p7F:0E}Doctor: "Take care."{end}
 
 #id 0021 ptr=11420E box=dialog
 JP: {p7F:0E}「どうもありがとう。またきてくださいね」{end}
-EN: 
+EN: {p7F:0E}"Thanks a lot. Please come again."{end}
 
 #id 0022 ptr=11424B box=dialog
 JP: {p0A:0E}PRESENTED BY{end}
@@ -98,233 +98,233 @@ EN:
 JP: {color:01}{p02:0C}GOOD BYE...{color:00}{p02:0E}NOW WE BRING YOU A SECRET{p02:10}WORDS OF GAME.PLEASE NOTICE{p02:12}S39 OF 13,AND S43 SOMEWHERE.{end}
 EN: 
 
-#id 0025 ptr=114368 box=dialog
+#id 0025 ptr=114368 box=dialog repos=1 slack=12
 JP: {p05:07}戦いは終わった。最後の敵を倒した{p05:09}勇者は、心に過去の戦闘の{p05:0B}記憶が、よみがえってくるのを感じていた。{p05:0D}そして、こう思わずにはいられなかった。{p05:0F}これまでの戦いで最強の魔物、それは、{p05:11}サイコロだったのではないだろうか‥‥。{p0E:13}おしまい{p08:15}テストプレイごくろうさまでした。{end}
-EN: 
+EN: {p01:07}The war was over. Having beaten{p01:09}the last foe, the hero felt old{p01:0B}battles come back to his mind.{p01:0D}And he couldn't help thinking:{p01:0F}the strongest monster of all...{p01:11}was it the dice......{p0D:13}THE END{p02:15}Thanks for test playing.{end}
 
 #id 0026 ptr=11442B box=dialog
 JP: {p0D:1A}マップをみわたしています{end}
-EN: 
+EN: {p0D:1A}Viewing map{end}
 
 #id 0027 ptr=114489 box=dialog
 JP: {p7F:02}{speed:02}「こーなったら最後の手段だニャーン。{n}{delay:0A} お前たちの力を借りるニャー!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Time for my last resort, nyaan.{n}{delay:0A} Lend me your power, meow!"{end}
 
 #id 0028 ptr=114518 box=dialog
 JP: {p7F:02}{speed:02}「あいつらを、やっつけるニャーー!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Get them, meeeow!"{end}
 
 #id 0029 ptr=114562 box=dialog
 JP: {p7F:00}体力を自分で回復しました。{end}
-EN: 
+EN: {p7F:00}It healed itself.{end}
 
 #id 0030 ptr=11459A box=dialog
 JP: {p7F:02}「ほし が 召還された!」{end}
-EN: 
+EN: {p7F:02}"The Star was summoned!"{end}
 
 #id 0031 ptr=114615 box=dialog
 JP: {p7F:02}{speed:02}「やっつけてやるニャー!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"I'll get you, meow!"{end}
 
 #id 0032 ptr=114662 box=dialog
 JP: {p7F:02}{speed:02}「みて!{delay:20} 古文書と同じ形だわ」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Look!{delay:20}{n} The same shape as the old document."{end}
 
 #id 0033 ptr=114684 box=dialog
 JP: {p7F:02}{speed:02}「リイム、{delay:20}虹色の魔石を!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Reem,{delay:20} the Rainbow Jewels!"{end}
 
 #id 0034 ptr=1146A9 box=dialog
 JP: {p7F:02}{speed:02}「うん、{delay:20}やってみるよ」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Okay,{delay:20} I'll try."{end}
 
 #id 0035 ptr=1146FA box=dialog
 JP: {p7F:02}「よいしょよいしょ」{end}
-EN: 
+EN: {p7F:02}"Heave-ho, heave-ho."{end}
 
 #id 0036 ptr=114739 box=dialog
 JP: {p7F:01}つき が 姿を現わした。{end}
-EN: 
+EN: {p7F:01}The Moon appeared.{end}
 
 #id 0037 ptr=114797 box=dialog
 JP: {p7F:02}{speed:02}「こりゃまいったニャー」{end}
-EN: 
+EN: {p7F:02}{speed:02}"This is bad, meow."{end}
 
 #id 0038 ptr=1147D0 box=dialog
 JP: {p7F:01}間違えてしまいました。退場してもらいます。{n}「うわっ、おとしあなだ～」{end}
-EN: 
+EN: {p7F:01}Wrong answer. You must leave.{n}"Whoa, a trapdooooor!"{end}
 
 #id 0039 ptr=11485C box=dialog
 JP: {p7F:00}どこからか‥不思議な玉が‥。{scroll:00}{end}
-EN: 
+EN: {p7F:00}From somewhere... a strange orb...{scroll:00}{end}
 
 #id 0040 ptr=114944 box=dialog
 JP: {p7F:08}ガシャーーーーン。{end}
-EN: 
+EN: {p7F:08}CRAAASH!{end}
 
 #id 0041 ptr=114A5D box=dialog
 JP: {p7F:02}{speed:02}「いくぞ、スノースパーク・ブリザード!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Here goes, Snow Spark Blizzard!"{end}
 
 #id 0042 ptr=114BE2 box=dialog
 JP: {p7F:09}サイコロプスがサイコロを投げます。{n}なにがでるかな。{n}サイコロ、コロコロ‥。{end}
-EN: 
+EN: {p7F:09}Dicyclops rolls a{n}die. What'll it be?{n}Roll, roll...{end}
 
 #id 0043 ptr=114C85 box=dialog
 JP: {p7F:00}サイコロの目は、1です。{scroll:00}{n}全員の体力を回復します。ラ、ラッキー?{end}
-EN: 
+EN: {p7F:00}The die shows 1.{scroll:00}{n}Everyone's HP is restored. L-lucky?{end}
 
 #id 0044 ptr=114CC2 box=dialog
 JP: {p7F:00}サイコロの目は、2です。{scroll:00}{n}なにもおこりません。{scroll:00}{end}
-EN: 
+EN: {p7F:00}The die shows 2.{scroll:00}{n}Nothing happens.{scroll:00}{end}
 
 #id 0045 ptr=114CEF box=dialog
 JP: {p7F:00}サイコロの目は、3です。{scroll:00}{n}全員がパラライズされます。どひー。{end}
-EN: 
+EN: {p7F:00}The die shows 3.{scroll:00}{n}Everyone is paralyzed. Yikes.{end}
 
 #id 0046 ptr=114D26 box=dialog
 JP: {p7F:00}サイコロの目は、4です。{scroll:00}{n}なにもおこりません。{scroll:00}{end}
-EN: 
+EN: {p7F:00}The die shows 4.{scroll:00}{n}Nothing happens.{scroll:00}{end}
 
 #id 0047 ptr=114D69 box=dialog
 JP: {p7F:00}サイコロの目は、5です。{scroll:00}{end}
-EN: 
+EN: {p7F:00}The die shows 5.{scroll:00}{end}
 
 #id 0048 ptr=114D8C box=dialog
 JP: {p7F:02}{speed:02}「みんな、おどるのだーー。{delay:30}イェーーーイ」{n}{speed:00}全員の位置が入れ替わります。{end}
-EN: 
+EN: {p7F:02}{speed:02}"Everybody dance!{delay:30} Yeaaah!"{n}{speed:00}Everyone swaps places.{end}
 
 #id 0049 ptr=114DEE box=dialog
 JP: {p7F:00}サイコロの目は、6です。{scroll:00}{n}なにもおこりません。{scroll:00}{end}
-EN: 
+EN: {p7F:00}The die shows 6.{scroll:00}{n}Nothing happens.{scroll:00}{end}
 
 #id 0050 ptr=114E3A box=dialog
 JP: {p7F:02}{speed:02}「ふふふ‥覚悟するがいい」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Heh heh... Prepare yourselves."{end}
 
 #id 0051 ptr=114E88 box=dialog
 JP: {p7F:02}{speed:02}「ラララ～～～～。{delay:20}ルルル～～～～～♡」{end}
-EN: 
+EN: {p7F:02}{speed:02}"La la la～～～～.{delay:20} Lu lu lu～～～～♡"{end}
 
 #id 0052 ptr=114EE6 box=dialog
 JP: {p7F:02}{speed:02}「ふふふ。{delay:20}わしの歌はどうじゃった」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Heh heh.{delay:20} How did you like my song?"{end}
 
 #id 0053 ptr=114F6E box=dialog
 JP: {p7F:08}ベルトがまわる。{n}ぼくらもうごく。{end}
-EN: 
+EN: {p7F:08}The belts turn.{n}And so do we.{end}
 
 #id 0054 ptr=114FB5 box=dialog
 JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{end}
-EN: 
+EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{end}
 
 #id 0055 ptr=114FD8 box=dialog
 JP: {p7F:02}{speed:02}「コンベアの乗りごこちは どうかね?{delay:20} ん?」{end}
-EN: 
+EN: {p7F:02}{speed:02}"How's the conveyor ride?{delay:20} Hm?"{end}
 
 #id 0056 ptr=114FFD box=dialog
 JP: {p7F:02}{speed:02}「ただ のっかってるだけじゃ、{n}{delay:20} 我輩のところには たどりつけないよ」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Just riding along{n}{delay:20} won't get you to me."{end}
 
 #id 0057 ptr=115030 box=dialog
 JP: {p7F:02}{speed:02}「よーく頭を使うことだね。{delay:30}ヒャハ」{scroll:00}{end}
-EN: 
+EN: {p7F:02}{speed:02}"Use your heads.{delay:30} Hyaha."{scroll:00}{end}
 
 #id 0058 ptr=11505F box=dialog
 JP: {p7F:02}「すべれーーーー」{end}
-EN: 
+EN: {p7F:02}"Sliiiide!"{end}
 
 #id 0059 ptr=115092 box=dialog
 JP: {p7F:02}「うわっ。すべるーーーー」{end}
-EN: 
+EN: {p7F:02}"Whoa. I'm sliiiding!"{end}
 
 #id 0060 ptr=115107 box=dialog
 JP: {p7F:02}{speed:02}「このパネルは 何だろう?」{end}
-EN: 
+EN: {p7F:02}{speed:02}"What's this panel?"{end}
 
 #id 0061 ptr=115127 box=dialog
 JP: {p7F:02}{speed:02}「2つの絵が 描いてあるわ」{end}
-EN: 
+EN: {p7F:02}{speed:02}"It has two pictures on it."{end}
 
 #id 0062 ptr=115148 box=dialog
 JP: {p7F:02}{speed:02}「これを、{delay:20}どーにかしなきゃ ならないようだな{delay:20} モーモー」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Looks like we gotta{delay:20} do something,{n}{delay:20} Moomoo."{end}
 
 #id 0063 ptr=115186 box=dialog
 JP: {p7F:02}{speed:02}「パネルを 守るでチュー!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Protect the panels, squeak!"{end}
 
 #id 0064 ptr=1153B7 box=dialog
 JP: {p7F:00}神殿の番人が姿をあらわした!{end}
-EN: 
+EN: {p7F:00}The temple guardian appeared!{end}
 
 #id 0065 ptr=1153E4 box=dialog
 JP: {p7F:00}よし。絵が揃ったぞ。{end}
-EN: 
+EN: {p7F:00}All right. The pictures match.{end}
 
 #id 0066 ptr=11543B box=dialog
 JP: {p7F:08}鳥がとんできます。{end}
-EN: 
+EN: {p7F:08}A bird flies in.{end}
 
 #id 0067 ptr=1154A5 box=dialog
 JP: {p7F:09}たつまきが発生しました。{n}さわるとはじきとばされますよ。{n}しかもダブル。{end}
-EN: 
+EN: {p7F:09}A tornado formed.{n}Touch it, you fly.{n}And there are two.{end}
 
 #id 0068 ptr=1154D7 box=dialog
 JP: {p7F:09}シーソーをふみました。{n}「ぴょ～～～～～～ん」{end}
-EN: 
+EN: {p7F:09}Hopped on a seesaw.{n}"Boiiiing!"{end}
 
 #id 0069 ptr=11552E box=dialog
 JP: {p7F:09}も～えろよ、もえろ～。{end}
-EN: 
+EN: {p7F:09}Burn, baby, burn～.{end}
 
 #id 0070 ptr=115564 box=dialog
 JP: {p7F:02}{speed:02}「うおーーーー、動くなと言ってるだろ～～!{n}{delay:30} おまえら!{delay:20} このワシを怒らせたようじゃな!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Grraaah, I said don't move～!!{n}{delay:30} You lot!{delay:20} Now you've made me mad!"{end}
 
 #id 0071 ptr=1155A5 box=dialog
 JP: {p7F:02}{speed:02}「竜巻を呼んで けちらしてやる!{n}{delay:30} カモン、ハリケーーーン、コーーール!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"I'll call a tornado and scatter you!{n}{delay:30} Come on, hurricaaane, caaall!"{end}
 
-#id 0072 ptr=115633 box=dialog
+#id 0072 ptr=115633 box=dialog repos=1 slack=17
 JP: {p07:0C}ボンバーズを撃退した勇者軍は{p0A:0F}マテドラル城にむかいます{end}
-EN: 
+EN: {p02:0C}Having driven off the Bombers,{p02:0F}the Heroes head for Matedral.{end}
 
-#id 0073 ptr=115687 box=dialog
+#id 0073 ptr=115687 box=dialog repos=1 slack=12
 JP: {p07:0C}勇者軍は シャルルの案内で{p09:0F}ジャングルの遺跡にむかう{end}
-EN: 
+EN: {p02:0C}Guided by Charles, the Heroes{p02:0F}head for the jungle ruins.{end}
 
-#id 0074 ptr=1156C2 box=dialog
+#id 0074 ptr=1156C2 box=dialog repos=1 slack=12
 JP: {p09:0C}まだみぬマテドラルの地で{p09:0F}勇者軍を待つものは?{end}
-EN: 
+EN: {p02:0C}In unknown Matedral, what{p02:0F}awaits the Heroes?{end}
 
 #id 0075 ptr=115752 box=dialog
 JP: {p7F:02}{speed:02}「ぼくたちも おともします。{n}{delay:30} つれていってください。{delay:30}ラビラビ」{end}
-EN: 
+EN: {p7F:02}{speed:02}"We'll come with you too.{n}{delay:30} Please take us.{delay:30} Hop-hop."{end}
 
 #id 0076 ptr=115783 box=dialog
 JP: {p7F:00}新しい仲間が 加わりました。{end}
-EN: 
+EN: {p7F:00}A new ally joined!{end}
 
-#id 0077 ptr=1157C1 box=dialog
+#id 0077 ptr=1157C1 box=dialog repos=1 slack=12
 JP: {p08:0C}ピーコックと別れた勇者軍は{p0A:0F}ライナーク城にむかいます{end}
-EN: 
+EN: {p02:0C}Leaving Peacock, the Heroes{p02:0F}head for Castle Rainark.{end}
 
 #id 0078 ptr=1158D3 box=dialog
 JP: {p7F:02}{speed:02}「ん‥なんか、いやな予感が‥」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Hm... I've got a bad feeling..."{end}
 
 #id 0079 ptr=1159C6 box=dialog
 JP: {p7F:01}教会の床に不思議な空間が{n}現われました。{end}
-EN: 
+EN: {p7F:01}A strange space opened{n}in the church floor.{end}
 
 #id 0080 ptr=115A2D box=dialog
 JP: {p7F:01}勇者軍のユニットが吸いこまれた!{end}
-EN: 
+EN: {p7F:01}A Heroes unit was sucked in!{end}
 
 #id 0081 ptr=115A59 box=dialog
 JP: {p7F:01}ステンドグラスに、強烈な光が{n}あふれています。{end}
-EN: 
+EN: {p7F:01}An intense light pours{n}from the stained glass.{end}
 
 #id 0082 ptr=115DA6 box=dialog
 JP: {p7F:02}{end}
@@ -332,23 +332,23 @@ EN:
 
 #id 0083 ptr=115DB6 box=dialog
 JP: {p7F:02}{speed:02}「やったっスね、教授!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"You did it, Professor!"{end}
 
 #id 0084 ptr=115DD2 box=dialog
 JP: {p7F:02}{speed:02}「うむ、今度こそみつけたぞ。{n} この古文書が、本物であるならば、{end}
-EN: 
+EN: {p7F:02}{speed:02}"Indeed, this time I've found it.{n} If this old document is genuine,{end}
 
 #id 0085 ptr=115E05 box=dialog
 JP: {p7F:02}{speed:02} カラードの 秘宝伝承を裏付ける、{n} なによりの証拠になるじゃろう。やったぞい!」{end}
-EN: 
+EN: {p7F:02}{speed:02} it's the best proof yet of the{n} Colored treasure legend. Yes!"{end}
 
 #id 0086 ptr=115E53 box=dialog
 JP: {p7F:02}{speed:02}「うおっ、地震か!!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Whoa, an earthquake!!"{end}
 
 #id 0087 ptr=115E92 box=dialog
 JP: {clear:00}「うわーーーーーーーーっ!!」{end}
-EN: 
+EN: {clear:00}"Waaaaaaaaaaah!!"{end}
 
 #id 0088 ptr=116086 box=dialog
 JP: {p7F:02}{end}
@@ -356,88 +356,88 @@ EN:
 
 #id 0089 ptr=1160B9 box=dialog
 JP: {p7F:02}{speed:02}「やべえっス、入り口が、{n} ふさがっちまったっス～～～～～!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Uh-oh, the entrance is{n} blocked～～～～～!"{end}
 
 #id 0090 ptr=1160F9 box=dialog
 JP: {clear:00}{speed:02}ゴンゴン‥‥。{delay:0A}ゴンゴン‥‥。{end}
-EN: 
+EN: {clear:00}{speed:02}Thud thud...{delay:0A}Thud thud...{end}
 
 #id 0091 ptr=116138 box=dialog
 JP: {p7F:02}{speed:02}「あっ! 助かった!{n} 教授、助けが来たみたいっスよ!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Ah! We're saved!{n} Professor, help is here!"{end}
 
 #id 0092 ptr=116167 box=dialog
 JP: {p7F:02}{speed:02}「しかし、そっちは‥‥‥」{end}
-EN: 
+EN: {p7F:02}{speed:02}"But, over there......"{end}
 
 #id 0093 ptr=11617F box=dialog
 JP: {p7F:02}{speed:02}「おーい、こっちだ、こっちだ。{n} 助けてほしいっス～!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Hey, over here, over here!{n} Help uuus～!"{end}
 
 #id 0094 ptr=1161D5 box=dialog
 JP: {p7F:02}{speed:02}「ひーーーーーーーーーーー」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Eeeeeeeeeeeek!"{end}
 
 #id 0095 ptr=116217 box=dialog
 JP: {p7F:02}{speed:02}「だれか! だれかー! 助けてーーーー!!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Someone! Someone! Heeelp!!"{end}
 
 #id 0096 ptr=116254 box=dialog
 JP: {clear:00}「うおーーーーー!!」{end}
-EN: 
+EN: {clear:00}"Whoaaaaa!!"{end}
 
 #id 0097 ptr=1162DB box=dialog
 JP: {p7F:02}{speed:02}「もう大丈夫だぜ!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"It's all right now!"{end}
 
 #id 0098 ptr=116328 box=dialog
 JP: {p7F:02}{speed:02}「そうげつ様とトランプ様の御命令だ!{n}{delay:30} 邪魔者を ここに近づけるんじゃねえぞ～!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Orders from Sougetsu and Trump!{n}{delay:30} Don't let any meddlers near here～!"{end}
 
 #id 0099 ptr=116368 box=dialog
 JP: {p7F:02}{speed:02}「ヒッヒーーー!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"Hee-heee!"{end}
 
 #id 0100 ptr=1163E9 box=dialog
 JP: {p7F:02}{speed:02}「ふはは、ネズミが ワナにかかったようだな。{n}{delay:30} はさみうちに してくれるわ!」{scroll:00}{end}
-EN: 
+EN: {p7F:02}{speed:02}"Fwahaha, the rats fell into the trap.{n}{delay:30} We'll catch you in a pincer!"{scroll:00}{end}
 
 #id 0101 ptr=116438 box=dialog
 JP: {p7F:00}激しい雨で、水たまりが できました。{end}
-EN: 
+EN: {p7F:00}The heavy rain made puddles.{end}
 
 #id 0102 ptr=11690A box=dialog
 JP: {p7F:02}{speed:02}「みんな 壊してやる‥‥」{end}
-EN: 
+EN: {p7F:02}{speed:02}"I'll smash them all..."{end}
 
 #id 0103 ptr=116A1B box=dialog
 JP: {p7F:01}家が破壊されました。{scroll:00}{end}
-EN: 
+EN: {p7F:01}A house was destroyed.{scroll:00}{end}
 
 #id 0104 ptr=116ADC box=dialog
 JP: {p7F:00}扉が 開きました。{end}
-EN: 
+EN: {p7F:00}The door opened.{end}
 
 #id 0105 ptr=116B19 box=dialog
 JP: {p7F:00}扉が 開きました。{end}
-EN: 
+EN: {p7F:00}The door opened.{end}
 
 #id 0106 ptr=116B56 box=dialog
 JP: {p7F:02}{speed:02}「ものども、であえーい!」{n}{delay:30}{speed:00}敵の増援が あらわれました。{end}
-EN: 
+EN: {p7F:02}{speed:02}"Men, to arms!"{n}{delay:30}{speed:00}Enemy reinforcements appeared.{end}
 
 #id 0107 ptr=116C16 box=dialog
 JP: {p7F:02}{speed:02}「わが半身よ、よみがえれーーー!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"My other half, rise agaaain!"{end}
 
 #id 0108 ptr=116C55 box=dialog
 JP: {p7F:02}{speed:02}「ふっかぁ～～つ!{delay:20} ヒャハ!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"I'm baaack!{delay:20} Hyaha!"{end}
 
 #id 0109 ptr=116C72 box=dialog
 JP: {p7F:00}魔物が 復活しました。{scroll:00}{end}
-EN: 
+EN: {p7F:00}The monster revived.{scroll:00}{end}
 
 #id 0110 ptr=116C9F box=dialog
 JP: {p7F:02}{speed:02}「わが半身よ、よみがえれーーー!」{end}
-EN: 
+EN: {p7F:02}{speed:02}"My other half, rise agaaain!"{end}
