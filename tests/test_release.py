@@ -34,3 +34,14 @@ def test_release_refuses_wrong_base(tmp_path, monkeypatch):
     with pytest.raises(ValueError, match="SHA1"):
         release.release("0.9", out=tmp_path / "dist", build_dir=tmp_path / "b")
     assert not (tmp_path / "dist").exists()
+
+
+def test_lm_test_stops_at_first_failure(monkeypatch, capsys):
+    import lm
+    from lmtools import lint
+    monkeypatch.setattr(lint, "lint_all", lambda *a, **k: ["x: bad"])
+    with pytest.raises(SystemExit) as e:
+        lm.main(["test"])
+    assert e.value.code != 0
+    out = capsys.readouterr().out
+    assert "FAIL lint" in out and "roundtrip" not in out
