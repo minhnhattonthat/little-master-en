@@ -46,7 +46,7 @@ inside unrelated words would cause false lint hits. Columns: JP | EN | max | not
 
 | JP | EN | max | notes |
 |---|---|---|---|
-| ジャスバン | Jasvan | | ruins (scenario 1) |
+| ジャスバン | Jasvan | | ruins (scenario 1). Map art spells it JUSVAN (decorative Latin, left as drawn); script keeps Jasvan (user ruling 2026-10-07) |
 | ライナーク | Rainark | | ライナーク城 Castle Rainark |
 | マテドラル | Matedral | | theocracy (宗教国家) |
 | パズタ | Pazuta | | パズタ村 Pazuta Village; なげきのパズタ村 Pazuta, Village of Sorrow |
