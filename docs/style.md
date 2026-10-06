@@ -17,7 +17,8 @@ control codes, glossary terms and speaker labels.
 
 - Keep every `{delay:..}`, `{clear:..}`, `{scroll:..}` and every non-layout code where JP has it. A JP page (text
   between `{clear}`s) may be re-broken with `{n}`, but never gets more lines than JP shows.
-- A VWF line is at most 216 px (lint). Don't fill a line to the exact edge and then add `{n}` (see M4 Task 3).
+- A VWF line is at most 208 px (lint): at 213+ px the cursor reaches the window edge, the game auto-wraps, and the
+  following `{n}` adds a blank line (M4 Task 3 test).
 - `、` → comma, `。` → period, `・` between names → space. `!?` and `‼` stay.
 
 ## Generic speaker labels (not glossary rows)

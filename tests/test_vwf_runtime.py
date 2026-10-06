@@ -400,3 +400,46 @@ end, emu.eventType.endFrame)
 ''')
     assert mesen.run(sfc, "_rt.lua", tmp_path / "o") == 0
     assert (tmp_path / "o" / "rt.txt").read_text() == "0"     # display on: Scenario Information is shown
+
+
+LINE_PX = 208                                        # lint px limit of dialog/msg windows (data/windows.json)
+
+
+def test_full_width_line_then_newline_has_no_blank_line(tmp_path, monkeypatch):
+    """A line filling the 216 px limit followed by {n}: the next text must be on the very next line (M3 briefing bug)."""
+    from lmtools.font import parse_font
+    w = {c: x for c, (x, _) in parse_font(Path("src/font/vwf.txt").read_text(encoding="utf-8")).items()}
+    line = ""
+    while sum(w[c] for c in line) + w["n"] <= LINE_PX:
+        line += "n"
+    while sum(w[c] for c in line) + w["i"] <= LINE_PX:
+        line += "i"
+    real = build.parse
+
+    def inject(text):
+        es = real(text)
+        for e in es:
+            if "Peacock, run home!" in e.en:
+                e.en = e.en.replace("Peacock, run home!", line + "{n}B")
+        return es
+
+    monkeypatch.setattr(build, "parse", inject)
+    sfc = build.build(tmp_path / "b", "en")
+    res = run(sfc, "ordinary_field_message", '''
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 300 then
+    local rows = {}
+    for r = 0, 31 do
+      for c = 0, 31 do
+        if (emu.read16(0x9000 + r * 64 + c * 2, emu.memType.snesWorkRam) & 0x3FF) >= 0x180 then rows[#rows+1] = r break end
+      end
+    end
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(table.concat(rows, " ")); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''', tmp_path / "o")
+    rows = sorted({int(r) for r in res.split()})
+    assert sum(w[c] for c in line) > LINE_PX - 4, sum(w[c] for c in line)
+    assert {24, 26} <= set(rows), rows       # window rows 24-27: the long line on 24, 'B' on 26 (no blank line, no scroll)

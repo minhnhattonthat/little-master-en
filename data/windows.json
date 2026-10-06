@@ -11,12 +11,12 @@
   "0F": "msg"
  },
  "dialog": {
-  "px": 216,
+  "px": 208,
   "lines": 2,
   "note": "field Message window: 28 cells minus 1 (VWF parks the cursor past a partial cell)"
  },
  "msg": {
-  "px": 216,
+  "px": 208,
   "lines": 3,
   "note": "Report / Information windows 28 x 3"
  },
@@ -27,20 +27,20 @@
   "note": "Caution window beside the item list: 19 cells ({p7F:09})"
  },
  "desc": {
-  "px": 216,
+  "px": 208,
   "lines": 3,
   "note": "unit/terrain/item descriptions (msg06): VWF with 27-cell slots (216 px) since the M3 slot change; JP relies on auto-wrap, EN breaks lines explicitly",
   "scroll": false
  },
  "summary": {
-  "px": 216,
+  "px": 208,
   "cells": 25,
   "lines": 5,
   "scroll": false,
   "note": "scenario briefing (msg22 0-56): fixed font, window 26 cells (a 26-cell line auto-wraps AND takes the {n}: blank line), 5 lines above the clear condition; overflow scrolls on a blanked screen"
  },
  "sysmsg": {
-  "px": 216,
+  "px": 208,
   "cells": 28,
   "lines": 3,
   "note": "msg02 non-positioned system/battle messages"

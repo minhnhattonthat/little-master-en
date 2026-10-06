@@ -92,7 +92,7 @@ EN: A magical being: a statue given life.{n}Clad in hard armor, it charges with{
 
 #id 0023 ptr=030FFA box=desc
 JP: 突然変異によって巨大化したマウスマンが、{n}独自の進化を遂げた モンスター。{n}巨体の割には、抜群のSPDを誇る。{end}
-EN: A Mouseman grown huge by mutation that{n}evolved its own way. It's surprisingly{n}fast for its size.{end}
+EN: A Mouseman grown huge by mutation,{n}evolved its own way. It's surprisingly{n}fast for its size.{end}
 
 #id 0024 ptr=031044 box=desc
 JP: バレエを闘いに取り入れた、{n}恐るべき格闘センスを持つ白鳥。{n}秘技・白鳥の舞が敵を撃つ!{end}
@@ -512,7 +512,7 @@ EN:
 
 #id 0128 ptr=0321F6 box=desc
 JP: 燃えるような赤いボディに鋼のような意志を秘めた最強のマウスマンだ。{n}HPが少なくなると、ポイズン攻撃を出すぞ。{end}
-EN: The mightiest Mouseman: a fiery red body{n}hiding a will of steel. Uses a Poison{n}attack when its HP is low.{end}
+EN: The mightiest Mouseman: a fiery body{n}hiding a will of steel. Uses a Poison{n}attack when its HP is low.{end}
 
 #id 0129 ptr=03223A box=desc
 JP: 黄金にかがやくボディはほとんどの衝撃を吸収してしまう。最強のゴーレムだ。{n}ピンチになると、スロウ攻撃を出すぞ。{end}
@@ -532,7 +532,7 @@ EN: A cactus mutant with a cool name.{n}Uses an Epidemic attack when its HP{n}is
 
 #id 0133 ptr=032330 box=desc
 JP: 猛烈な脚力で突進するダチョウの親分だ。{n}HPが少なくなると、トランス攻撃をだすぞ。{n}ダッシュ一発! がんばろう。{end}
-EN: The ostrich boss, charging on mighty legs.{n}Trance attack when its HP is low.{n}One big dash! Go for it.{end}
+EN: The ostrich boss, charging on big legs.{n}Trance attack when its HP is low.{n}One big dash! Go for it.{end}
 
 #id 0134 ptr=032376 box=desc
 JP: ちょっとズルがしこい赤毛の古だぬきだ。{n}HPが少なくなると、ウイーク攻撃をだすぞ。{end}
@@ -544,7 +544,7 @@ EN: A red croc that chomps with a big mouth.{n}The mom-and-baby croc attack live
 
 #id 0136 ptr=0323F3 box=desc
 JP: 苦闘のすえ、ついに格闘ロードの頂点に{n}のぼりつめたカンガルーだ。HPが少なくなると、トランス攻撃をだすぞ。{end}
-EN: A kangaroo who fought hard to reach the{n}top of the fighting road. Uses a Trance{n}attack when its HP is low.{end}
+EN: A kangaroo who fought its way to the{n}top of the fighting road. Uses a Trance{n}attack when its HP is low.{end}
 
 #id 0137 ptr=032432 box=desc
 JP: 全身まっ赤な魔界よりの使者。ピンチになるとカース攻撃を出すぞ。{end}
@@ -568,11 +568,11 @@ EN: So gorgeous! A golden Chickenman.{n}Epidemic attack when its HP is low.{n}Pe
 
 #id 0142 ptr=03259A box=desc
 JP: 彼らはコアラ族のなかでも気性の荒い種族だ。{n}まっ赤な体色は相手を圧倒するすごい迫力だぞ。{n}ピンチになると、スロウ攻撃を出すよ。{end}
-EN: The most hot-tempered of the koala tribe.{n}Its red body is overwhelming! Uses a{n}Slow attack when in a pinch.{end}
+EN: The most hot-headed of the koala tribe.{n}Its red body is overwhelming! Uses a{n}Slow attack when in a pinch.{end}
 
 #id 0143 ptr=0325ED box=desc
 JP: 警戒色をしたレッドオーク。ブルーオークとは{n}兄弟みたいな間柄だ。力はそれほど強くないが、{n}HPが少なくなると、ウイーク攻撃をだすぞ。{end}
-EN: A Red Orc in warning colors, like a brother{n}to the Blue Orc. Not that strong, but{n}uses a Weak attack when its HP is low.{end}
+EN: A Red Orc in warning colors, a brother{n}to the Blue Orc. Not that strong, but{n}uses a Weak attack when its HP is low.{end}
 
 #id 0144 ptr=03263C box=desc
 JP: 黄金に輝くボンバーズの上級構成員だ。{n}あいかわらず数で勝負のユニットだが、{n}ピンチになると、トランス攻撃をだすのでやっかいだ。{end}
@@ -620,7 +620,7 @@ EN: A master ninja in Sougetsu's squad. The{n}red garb marks a top ninja. Uses a
 
 #id 0155 ptr=0328ED box=desc
 JP: 驚くべき攻撃力を持つ上級魔導士だ。{n}なんとか接近戦に持ち込んで倒そう。{n}HPが少なくなると、トランス攻撃をだすぞ。{end}
-EN: A senior mage with amazing attack power.{n}Get in close somehow and take it down.{n}Trance attack when its HP is low.{end}
+EN: A senior mage with huge attack power.{n}Get in close and take it down somehow.{n}Trance attack when its HP is low.{end}
 
 #id 0156 ptr=03293A box=desc
 JP: ゴールドソードを持つ、スカルボンバーズ最強の{n}闘士だ。普段はトランプの護衛をつとめている。HPが少なくなると、ウイーク攻撃をだすぞ。{end}
@@ -716,7 +716,7 @@ EN: A penguin raised in the tropics. It lives{n}in jungles, so it's very colorfu
 
 #id 0179 ptr=032BA1 box=desc
 JP: もとは雪山にしか生息していなかった魔獣だが、{n}最近は暖かいところにも適応したようだ。{n}ピンチになると、スロウ攻撃を出すぞ。{end}
-EN: A beast once found only on snowy peaks,{n}it seems to have adapted to warm places.{n}Uses a Slow attack when in a pinch.{end}
+EN: A beast once seen only on snowy peaks,{n}now adapted to warmer places, it seems.{n}Uses a Slow attack when in a pinch.{end}
 
 #id 0180 ptr=032BED box=desc
 JP: {end}
@@ -2072,7 +2072,7 @@ EN: Well done. The answer is red.{end}
 
 #id 0518 ptr=035BDC box=desc win=msg
 JP: カンガルーのおなかの袋は何に使う?{n}{scroll:00}赤のパネル:子供を入れる{n}黄のパネル:お金を入れる{n}青のパネル:荷物を入れる{end}
-EN: What does a kangaroo use its pouch for?{n}{scroll:00}Red panel: Carrying babies{n}Yellow panel: Holding money{n}Blue panel: Holding luggage{end}
+EN: What's a kangaroo's pouch for?{n}{scroll:00}Red panel: Carrying babies{n}Yellow panel: Holding money{n}Blue panel: Holding luggage{end}
 
 #id 0519 ptr=035C26 box=desc win=msg
 JP: おみごと。正解は赤です。あたりまえですね。{end}
@@ -2332,7 +2332,7 @@ EN: Camels travel the desert. What's inside{n}the big hump on their back?{n}{scr
 
 #id 0583 ptr=0368CC box=desc win=msg
 JP: おみごと。正解です。{n}脂肪をエネルギーにかえて旅をするよ。{end}
-EN: Well done. Correct.{n}They turn the fat into energy as they go.{end}
+EN: Well done. Correct.{n}They turn fat into energy as they go.{end}
 
 #id 0584 ptr=0368EF box=desc win=msg
 JP: 怖い怖～いガイコツ軍団「スカル・ボンバーズ」。{n}2人のリーダーは誰と誰?{n}{scroll:00}赤のパネル:リイムとモーモー{n}黄のパネル:ヴァイスとピーコック{n}青のパネル:蒼月とトランプ{end}
@@ -2372,7 +2372,7 @@ EN: Camels travel the desert. What's inside{n}the big hump on their back?{n}{scr
 
 #id 0593 ptr=036B41 box=desc win=msg
 JP: おみごと。正解です。{n}脂肪をエネルギーにかえて旅をするよ。{end}
-EN: Well done. Correct.{n}They turn the fat into energy as they go.{end}
+EN: Well done. Correct.{n}They turn fat into energy as they go.{end}
 
 #id 0594 ptr=036B64 box=desc win=msg
 JP: 怖い怖～いガイコツ軍団「スカル・ボンバーズ」。{n}2人のリーダーは誰と誰?{n}{scroll:00}赤のパネル:リイムとモーモー{n}黄のパネル:ヴァイスとピーコック{n}青のパネル:蒼月とトランプ{end}
@@ -2412,7 +2412,7 @@ EN: Camels travel the desert. What's inside{n}the big hump on their back?{n}{scr
 
 #id 0603 ptr=036DB6 box=desc win=msg
 JP: おみごと。正解です。{n}脂肪をエネルギーにかえて旅をするよ。{end}
-EN: Well done. Correct.{n}They turn the fat into energy as they go.{end}
+EN: Well done. Correct.{n}They turn fat into energy as they go.{end}
 
 #id 0604 ptr=036DD9 box=desc win=msg
 JP: 怖い怖～いガイコツ軍団「スカル・ボンバーズ」。{n}2人のリーダーは誰と誰?{n}{scroll:00}赤のパネル:リイムとモーモー{n}黄のパネル:ヴァイスとピーコック{n}青のパネル:蒼月とトランプ{end}
