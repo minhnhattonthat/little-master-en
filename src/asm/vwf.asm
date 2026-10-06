@@ -260,12 +260,8 @@ vwf_clear:
     LDA #$0000 : STA.l !px : STA.l !partial
     LDA #$FFFF : STA.l !line                     ; the first glyph after a clear takes slot 0 (the top one)
     LDA #$0001 : STA.l !needslot
-    LDA $0A1C : BNE +                            ; menu mode: !slots is not ours
-    LDA.l !base : ASL : ASL : ASL : ASL : TAX    ; clear from the first VWF tile to the end
-    LDA $6F                                      ; blank tile = paper (inversion mask)
--   CPX #$0800 : BCS +
-    STA.l !slots,x : INX : INX : BRA -
-+   PLX : PLP
+    PLX : PLP                                    ; no bulk blanking: each slot is cleared when a line takes it
+                                                 ; (vwf_clearslot), and label glyphs below a stale !base stay (B2)
     REP #$20                                     ; replayed
     LDA #$2000
     JML $01ECEA

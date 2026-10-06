@@ -490,3 +490,34 @@ end, emu.eventType.endFrame)
     before, now = map(int, res.split())
     assert before >= 0, "no D0 glyph drawn"
     assert now == before, f"D0 glyph right half {before:04X} overwritten by {now:04X}"
+
+
+def test_window_clear_keeps_label_tiles_when_no_slots_are_reserved(tmp_path):
+    # Playtest bug_black_info_header (B2): a window clear with $0A1A == $0A18 == 0 blanked the whole VWF buffer from tile 0,
+    # wiping the "Information" label glyphs still shown in the panel header (black bar).
+    sfc = build.build(tmp_path / "b", "en")
+    sym = {l.split()[1]: int(l.split()[0].replace(":", ""), 16)
+           for l in (tmp_path / "b" / "lm_en.sym").read_text().splitlines() if l[:2] == "C0" and len(l.split()) == 2}
+    clear = sym["vwf_clear"]
+    res = run(sfc, "terrain_info", f'''
+local snap, saved, saved18, result = nil, 0, 0, "no clear"
+local function tiles() local t = {{}}; for a = 0x7FB000, 0x7FB05F do t[#t + 1] = emu.read(a, emu.memType.snesMemory) end; return table.concat(t, ",") end
+emu.addMemoryCallback(function()
+  if not loaded or snap then return end
+  saved, saved18 = emu.read16(0x0A1A, emu.memType.snesWorkRam), emu.read16(0x0A18, emu.memType.snesWorkRam)
+  emu.write16(0x0A1A, 0, emu.memType.snesWorkRam); emu.write16(0x0A18, 0, emu.memType.snesWorkRam); snap = tiles()
+end, emu.callbackType.exec, {clear}, {clear}, emu.cpuType.snes, emu.memType.snesMemory)
+emu.addMemoryCallback(function()
+  if snap and result == "no clear" then
+    result = (tiles() == snap) and "kept" or "changed"
+    if string.find(snap, "^[0,]*$") then result = "blank before" end
+    emu.write16(0x0A1A, saved, emu.memType.snesWorkRam); emu.write16(0x0A18, saved18, emu.memType.snesWorkRam)
+  end
+end, emu.callbackType.exec, 0x01ECEA, 0x01ECEA, emu.cpuType.snes, emu.memType.snesMemory)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 300 then local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(result); f:close(); emu.stop(0) end
+end, emu.eventType.endFrame)
+''', tmp_path / "o")
+    assert res == "kept", res
