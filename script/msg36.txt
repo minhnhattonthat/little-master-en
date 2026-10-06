@@ -1,102 +1,102 @@
 #id 0000 ptr=1B1200 box=dialog
 JP: 「チュー!!」{end}
-EN: 
+EN: "Squeak!!"{end}
 
 #id 0001 ptr=1B1208 box=dialog
 JP: 「・・・・・・・・・・・・・・・・・・・・・・・・・」{end}
-EN: 
+EN: "........................."{end}
 
 #id 0002 ptr=1B1224 box=dialog
 JP: 「!!!!!!!!!!!!!!!!!!!!!!!!!」{end}
-EN: 
+EN: "!!!!!!!!!!!!!!!!!!!!!!!!!"{end}
 
 #id 0003 ptr=1B1240 box=dialog
 JP: 「ペリペリ」{end}
-EN: 
+EN: "Peri-peri!"{end}
 
 #id 0004 ptr=1B1247 box=dialog
 JP: 「まんぼー」{end}
-EN: 
+EN: "Sunfish!"{end}
 
 #id 0005 ptr=1B124E box=dialog
 JP: 「シェルシェル」{end}
-EN: 
+EN: "Shell-shell!"{end}
 
 #id 0006 ptr=1B1257 box=dialog
 JP: 「ラビラビ」{end}
-EN: 
+EN: "Hop-hop!"{end}
 
 #id 0007 ptr=1B125E box=dialog
 JP: 「えーい!」{end}
-EN: 
+EN: "Hyaaah!"{end}
 
 #id 0008 ptr=1B1265 box=dialog
 JP: 「アミーゴ!」{end}
-EN: 
+EN: "Amigo!"{end}
 
 #id 0009 ptr=1B126D box=dialog
 JP: 「いっくぞ～♪」{end}
-EN: 
+EN: "Here I go～♪"{end}
 
 #id 0010 ptr=1B1276 box=dialog
 JP: 「グルグルグルグル」{end}
-EN: 
+EN: "Grr-grr-grr-grr"{end}
 
 #id 0011 ptr=1B1281 box=dialog
 JP: 「ポンポコポン♪」{end}
-EN: 
+EN: "Ponpoko-pon♪"{end}
 
 #id 0012 ptr=1B128B box=dialog
 JP: 「ポンポコポコポコ」{end}
-EN: 
+EN: "Ponpoko-poko-poko"{end}
 
 #id 0013 ptr=1B1296 box=dialog
 JP: 「ガプッ♡」{end}
-EN: 
+EN: "Chomp♡"{end}
 
 #id 0014 ptr=1B129D box=dialog
 JP: 「ンがー」{end}
-EN: 
+EN: "Nnngah!"{end}
 
 #id 0015 ptr=1B12A3 box=dialog
 JP: 「シュッシュッ」{end}
-EN: 
+EN: "Shoop! Shoop!"{end}
 
 #id 0016 ptr=1B12AC box=dialog
 JP: 「だーーーっ!」{end}
-EN: 
+EN: "Daaaah!"{end}
 
 #id 0017 ptr=1B12B5 box=dialog
 JP: 「ジャーンプ!」{end}
-EN: 
+EN: "Juuump!"{end}
 
 #id 0018 ptr=1B12BE box=dialog
 JP: 「シャーッ グルルル」{end}
-EN: 
+EN: "Hiss! Grrrr..."{end}
 
 #id 0019 ptr=1B12CA box=dialog
 JP: 「シャーッ」{end}
-EN: 
+EN: "Hisss!"{end}
 
 #id 0020 ptr=1B12D1 box=dialog
 JP: 「シャッ!」{end}
-EN: 
+EN: "Shah!"{end}
 
 #id 0021 ptr=1B12D8 box=dialog
 JP: 「そりゃッ!」{end}
-EN: 
+EN: "Take that!"{end}
 
 #id 0022 ptr=1B12E0 box=dialog
 JP: 「イエ～イ♡」{end}
-EN: 
+EN: "Yeah～♡"{end}
 
 #id 0023 ptr=1B12E8 box=dialog
 JP: 「とりゃー」{end}
-EN: 
+EN: "Hiyaaa!"{end}
 
 #id 0024 ptr=1B12EF box=dialog
 JP: 「むんッ」{end}
-EN: 
+EN: "Hmph!"{end}
 
 #id 0025 ptr=1B12F5 box=dialog
 JP: {end}
@@ -104,95 +104,95 @@ EN:
 
 #id 0026 ptr=1B12F6 box=dialog
 JP: 「コケッ」{end}
-EN: 
+EN: "Cluck!"{end}
 
 #id 0027 ptr=1B12FC box=dialog
 JP: 「コケケッ」{end}
-EN: 
+EN: "Cluck-cluck!"{end}
 
 #id 0028 ptr=1B1303 box=dialog
 JP: 「むーん」{end}
-EN: 
+EN: "Mmmh!"{end}
 
 #id 0029 ptr=1B1309 box=dialog
 JP: 「むむーん」{end}
-EN: 
+EN: "Mmm-mmmh!"{end}
 
 #id 0030 ptr=1B1310 box=dialog
 JP: 「ぶひっ」{end}
-EN: 
+EN: "Oink!"{end}
 
 #id 0031 ptr=1B1316 box=dialog
 JP: 「ぶひひっ」{end}
-EN: 
+EN: "Oink-oink!"{end}
 
 #id 0032 ptr=1B131D box=dialog
 JP: 「ジェイソーン!」{end}
-EN: 
+EN: "Jaaasooon!"{end}
 
 #id 0033 ptr=1B1327 box=dialog
 JP: 「ギッギー」{end}
-EN: 
+EN: "Ghee-ghee!"{end}
 
 #id 0034 ptr=1B132E box=dialog
 JP: 「スカル・ダイナマイッ!」{end}
-EN: 
+EN: "Skull Dynamite!"{end}
 
 #id 0035 ptr=1B133C box=dialog
 JP: 「ATTACK」{end}
-EN: 
+EN: "ATTACK"{end}
 
 #id 0036 ptr=1B1345 box=dialog
 JP: 「FRY」{end}
-EN: 
+EN: "FRY"{end}
 
 #id 0037 ptr=1B134B box=dialog
 JP: 「SHOOT」{end}
-EN: 
+EN: "SHOOT"{end}
 
 #id 0038 ptr=1B1353 box=dialog
 JP: 「ワンワン ファイヤーリングだ ワン!」{end}
-EN: 
+EN: "Woof woof! Fire Ring, woof!"{end}
 
 #id 0039 ptr=1B1368 box=dialog
 JP: 「ワンワン デッドボールだ ワン!」{end}
-EN: 
+EN: "Woof woof! Dead Ball, woof!"{end}
 
 #id 0040 ptr=1B137B box=dialog
 JP: 「ワンワン ヘル・ファイヤーだ ワン!」{end}
-EN: 
+EN: "Woof woof! Hellfire, woof!"{end}
 
 #id 0041 ptr=1B1390 box=dialog
 JP: 「スノー ブラザーズ!!」{end}
-EN: 
+EN: "Snow Brothers!!"{end}
 
 #id 0042 ptr=1B139E box=dialog
 JP: 「おいしいアイスクリームは いかがかな?」{end}
-EN: 
+EN: "How about some yummy ice cream?"{end}
 
 #id 0043 ptr=1B13B4 box=dialog
 JP: 「シャクシャクつめたい かきごおり キーンとくるゾ」{end}
-EN: 
+EN: "Crunchy, icy shaved ice! Brain freeze!"{end}
 
 #id 0044 ptr=1B13CF box=dialog
 JP: 「ふんッ」{end}
-EN: 
+EN: "Hmph!"{end}
 
 #id 0045 ptr=1B13D5 box=dialog
 JP: 「いきますよ」{end}
-EN: 
+EN: "Here I come."{end}
 
 #id 0046 ptr=1B13DD box=dialog
 JP: 「‥‥ブチのめしてやる」{end}
-EN: 
+EN: "...I'll crush you."{end}
 
 #id 0047 ptr=1B13EA box=dialog
 JP: 「スカル・アンカー!」{end}
-EN: 
+EN: "Skull Anchor!"{end}
 
 #id 0048 ptr=1B13F6 box=dialog
 JP: 「どりゃッ」{end}
-EN: 
+EN: "Hyah!"{end}
 
 #id 0049 ptr=1B13FD box=dialog
 JP: {end}
@@ -200,687 +200,687 @@ EN:
 
 #id 0050 ptr=1B13FE box=dialog
 JP: 「チュー!!」{end}
-EN: 
+EN: "Squeak!!"{end}
 
 #id 0051 ptr=1B1406 box=dialog
 JP: 「スピンダーンス!」{end}
-EN: 
+EN: "Spin Daaance!"{end}
 
 #id 0052 ptr=1B1411 box=dialog
 JP: 「ラララー♪」{end}
-EN: 
+EN: "La la laaa♪"{end}
 
 #id 0053 ptr=1B1419 box=dialog
 JP: 「秘技 白鳥の舞!」{end}
-EN: 
+EN: "Secret art: Swan Dance!"{end}
 
 #id 0054 ptr=1B1429 box=dialog
 JP: 「ポ～ル～タ～ 騒霊現象 ガ ガ ガ ガ ♡」{end}
-EN: 
+EN: "Pol～ter～geist! Ga ga ga ga♡"{end}
 
 #id 0055 ptr=1B1445 box=dialog
 JP: 「幽霊君 おいでませ～～～♡」{end}
-EN: 
+EN: "Come out, little ghosties～～♡"{end}
 
 #id 0056 ptr=1B1458 box=dialog
 JP: 「お命ちょうだいつかまつる」{end}
-EN: 
+EN: "Your life is mine."{end}
 
 #id 0057 ptr=1B1468 box=dialog
 JP: 「いくで ござる」{end}
-EN: 
+EN: "I shall strike."{end}
 
 #id 0058 ptr=1B1472 box=dialog
 JP: 「デッドリー ロック!」{end}
-EN: 
+EN: "Deadly Lock!"{end}
 
 #id 0059 ptr=1B147F box=dialog
 JP: 「デモン ブラスト!」{end}
-EN: 
+EN: "Demon Blast!"{end}
 
 #id 0060 ptr=1B148B box=dialog
 JP: 「デモン スパーク!」{end}
-EN: 
+EN: "Demon Spark!"{end}
 
 #id 0061 ptr=1B1497 box=dialog
 JP: 「ギッギッギ」{end}
-EN: 
+EN: "Ghee-ghee-ghee"{end}
 
 #id 0062 ptr=1B149F box=dialog
 JP: 「デュワッ!」{end}
-EN: 
+EN: "Dewah!"{end}
 
 #id 0063 ptr=1B14A7 box=dialog
 JP: 「かくごしな!」{end}
-EN: 
+EN: "Get ready!"{end}
 
 #id 0064 ptr=1B14B0 box=dialog
 JP: 「くらえッ!」{end}
-EN: 
+EN: "Eat this!"{end}
 
 #id 0065 ptr=1B14B8 box=dialog
 JP: 「これでもくらいな!」{end}
-EN: 
+EN: "Take this, then!"{end}
 
 #id 0066 ptr=1B14C4 box=dialog
 JP: 「ぬおーー!」{end}
-EN: 
+EN: "Nuooooh!"{end}
 
 #id 0067 ptr=1B14CC box=dialog
 JP: 「いくよ!」{end}
-EN: 
+EN: "Here goes!"{end}
 
 #id 0068 ptr=1B14D3 box=dialog
 JP: 「やっ!」{end}
-EN: 
+EN: "Hah!"{end}
 
 #id 0069 ptr=1B14D9 box=dialog
 JP: 「いくよ! ライトニングボール!!」{end}
-EN: 
+EN: "Here goes! Lightning Ball!!"{end}
 
 #id 0070 ptr=1B14EC box=dialog
 JP: 「いくぜ!」{end}
-EN: 
+EN: "Let's go!"{end}
 
 #id 0071 ptr=1B14F3 box=dialog
 JP: 「これでも くらえ! モー!!」{end}
-EN: 
+EN: "Take this! Mooo!!"{end}
 
 #id 0072 ptr=1B1504 box=dialog
 JP: 「うおおおおおお!!」{end}
-EN: 
+EN: "Raaaaaaah!!"{end}
 
 #id 0073 ptr=1B1510 box=dialog
 JP: 「それっ」{end}
-EN: 
+EN: "There!"{end}
 
 #id 0074 ptr=1B1516 box=dialog
 JP: 「もー もー」{end}
-EN: 
+EN: "Moo, moo!"{end}
 
 #id 0075 ptr=1B151E box=dialog
 JP: 「えいッ モーモー キーック!」{end}
-EN: 
+EN: "Hyah! Moomoo Kiiick!"{end}
 
 #id 0076 ptr=1B152F box=dialog
 JP: 「えいっ えいっ!!」{end}
-EN: 
+EN: "Hyah! Hyah!!"{end}
 
 #id 0077 ptr=1B153B box=dialog
 JP: 「いくわよっ シャインフォール!」{end}
-EN: 
+EN: "Here goes! Shine Fall!"{end}
 
 #id 0078 ptr=1B154D box=dialog
 JP: 「とんでっちゃえ ウインドストリーム!」{end}
-EN: 
+EN: "Fly away! Windstream!"{end}
 
 #id 0079 ptr=1B1562 box=dialog
 JP: 「わるいこには これよっ! ロックスプレッド!」{end}
-EN: 
+EN: "This is for bad kids! Rock Spray!"{end}
 
 #id 0080 ptr=1B157B box=dialog
 JP: 「ハムス やっちゃいなさい!」{end}
-EN: 
+EN: "Hamus, get 'em!"{end}
 
 #id 0081 ptr=1B158B box=dialog
 JP: 「えーい♡」{end}
-EN: 
+EN: "Hyaaah♡"{end}
 
 #id 0082 ptr=1B1592 box=dialog
 JP: 「ハムスさん おねがいですぅ」{end}
-EN: 
+EN: "Hamus, pretty pleeease..."{end}
 
 #id 0083 ptr=1B15A2 box=dialog
 JP: 「GO DUNK!」{end}
-EN: 
+EN: "GO DUNK!"{end}
 
 #id 0084 ptr=1B15AD box=dialog
 JP: 「キメルゼ 3ポイント シューッ!!」{end}
-EN: 
+EN: "Gonna nail it! 3-point shooot!!"{end}
 
 #id 0085 ptr=1B15C1 box=dialog
 JP: 「ギッギー イクゾー!」{end}
-EN: 
+EN: "Ghee-ghee! Here goes!"{end}
 
 #id 0086 ptr=1B15CE box=dialog
 JP: 「ギッギー ハッシャシマース」{end}
-EN: 
+EN: "Ghee-ghee! Firing!"{end}
 
 #id 0087 ptr=1B15DE box=dialog
 JP: 「ビックリ箱 パーンチ!」{end}
-EN: 
+EN: "Jack-in-the-box Punch!"{end}
 
 #id 0088 ptr=1B15ED box=dialog
 JP: 「出るよ 出るよ～～～」{end}
-EN: 
+EN: "Here it comes, here it comes～～～"{end}
 
 #id 0089 ptr=1B15FC box=dialog
 JP: 「さわらぬ箱に たたり なし」{end}
-EN: 
+EN: "Let sleeping boxes lie."{end}
 
 #id 0090 ptr=1B160D box=dialog
 JP: 「しょえ～～!!」{end}
-EN: 
+EN: "Yikeees～～!!"{end}
 
 #id 0091 ptr=1B1617 box=dialog
 JP: 「クエッ!」{end}
-EN: 
+EN: "Quack!"{end}
 
 #id 0092 ptr=1B161E box=dialog
 JP: 「キーーン」{end}
-EN: 
+EN: "Kiiiin!"{end}
 
 #id 0093 ptr=1B1625 box=dialog
 JP: 「お花がいっぱいだよー♡」{end}
-EN: 
+EN: "Flowers everywhere♡"{end}
 
 #id 0094 ptr=1B1634 box=dialog
 JP: 「キミに花をおくろう♡」{end}
-EN: 
+EN: "A flower for you♡"{end}
 
 #id 0095 ptr=1B1642 box=dialog
 JP: 「きれいに咲いたかな～」{end}
-EN: 
+EN: "Did they bloom nicely～?"{end}
 
 #id 0096 ptr=1B1650 box=dialog
 JP: 「うりゃ うりゃ うりゃ」{end}
-EN: 
+EN: "Ora, ora, ora!"{end}
 
 #id 0097 ptr=1B165E box=dialog
 JP: 「ホッピング アターック!」{end}
-EN: 
+EN: "Hopping Attaaack!"{end}
 
 #id 0098 ptr=1B166D box=dialog
 JP: 「うわ～～～!」{end}
-EN: 
+EN: "Waaah～～～!"{end}
 
 #id 0099 ptr=1B1676 box=dialog
 JP: 「・・・イクゾ」{end}
-EN: 
+EN: "...Here I go."{end}
 
 #id 0100 ptr=1B167F box=dialog
 JP: 「フンッ」{end}
-EN: 
+EN: "Hmph!"{end}
 
 #id 0101 ptr=1B1685 box=dialog
 JP: 「ドリャッ」{end}
-EN: 
+EN: "Hyah!"{end}
 
 #id 0102 ptr=1B168C box=dialog
 JP: 「ニャンニャン♡」{end}
-EN: 
+EN: "Meow-meow♡"{end}
 
 #id 0103 ptr=1B1696 box=dialog
 JP: 「{g10}{g11}{g12}{g13}{g14}!」{end}
-EN: 
+EN: "{g10}{g11}{g12}{g13}{g14}!"{end}
 
 #id 0104 ptr=1B169F box=dialog
 JP: 「{g15}{g16}{g17}」{end}
-EN: 
+EN: "{g15}{g16}{g17}"{end}
 
 #id 0105 ptr=1B16A5 box=dialog
 JP: 「{g13}{g14}{g17}{g10}{g11}{g11}{g12}‼」{end}
-EN: 
+EN: "{g13}{g14}{g17}{g10}{g11}{g11}{g12}‼"{end}
 
 #id 0106 ptr=1B16B0 box=dialog
 JP: 「{g16}{g13}{g10}{g10}!」{end}
-EN: 
+EN: "{g16}{g13}{g10}{g10}!"{end}
 
 #id 0107 ptr=1B16B8 box=dialog
 JP: 「{g11}{g11}{g12}」{end}
-EN: 
+EN: "{g11}{g11}{g12}"{end}
 
 #id 0108 ptr=1B16BE box=dialog
 JP: 「{g17}{g17}{g14}{g17}{g16}‼」{end}
-EN: 
+EN: "{g17}{g17}{g14}{g17}{g16}‼"{end}
 
 #id 0109 ptr=1B16C7 box=dialog
 JP: 「{g12}{g11}{g10}」{end}
-EN: 
+EN: "{g12}{g11}{g10}"{end}
 
 #id 0110 ptr=1B16CD box=dialog
 JP: 「{g17}{g13}{g17}」{end}
-EN: 
+EN: "{g17}{g13}{g17}"{end}
 
 #id 0111 ptr=1B16D3 box=dialog
 JP: 「{g15}{g10}{g13}{g14}{g17}{g12}‼」{end}
-EN: 
+EN: "{g15}{g10}{g13}{g14}{g17}{g12}‼"{end}
 
 #id 0112 ptr=1B16DD box=dialog
 JP: 「チュー!!」{end}
-EN: 
+EN: "Squeak!!"{end}
 
 #id 0113 ptr=1B16E5 box=dialog
 JP: 「むーん」{end}
-EN: 
+EN: "Mmmh!"{end}
 
 #id 0114 ptr=1B16EB box=dialog
 JP: 「むむーん」{end}
-EN: 
+EN: "Mmm-mmmh!"{end}
 
 #id 0115 ptr=1B16F2 box=dialog
 JP: 「アソボ♡ アソボ♡」{end}
-EN: 
+EN: "Play♡ Play♡"{end}
 
 #id 0116 ptr=1B16FE box=dialog
 JP: 「ハートブレイクショット!」{end}
-EN: 
+EN: "Heartbreak Shot!"{end}
 
 #id 0117 ptr=1B170D box=dialog
 JP: 「ピーッ」{end}
-EN: 
+EN: "Beeep!"{end}
 
 #id 0118 ptr=1B1713 box=dialog
 JP: 「アイスキューブ!」{end}
-EN: 
+EN: "Ice Cube!"{end}
 
 #id 0119 ptr=1B171E box=dialog
 JP: 「ゴー!」{end}
-EN: 
+EN: "Go!"{end}
 
 #id 0120 ptr=1B1724 box=dialog
 JP: 「ばひゅーん」{end}
-EN: 
+EN: "Fwoosh!"{end}
 
 #id 0121 ptr=1B172C box=dialog
 JP: 「どひゃー」{end}
-EN: 
+EN: "Whoa!"{end}
 
 #id 0122 ptr=1B1733 box=dialog
 JP: 「グルグル ぱーんち!」{end}
-EN: 
+EN: "Spinning Puuunch!"{end}
 
 #id 0123 ptr=1B1740 box=dialog
 JP: 「カチンコチーン!」{end}
-EN: 
+EN: "Frozen solid!"{end}
 
 #id 0124 ptr=1B174B box=dialog
 JP: 「ヒヒーン」{end}
-EN: 
+EN: "Neigh!"{end}
 
 #id 0125 ptr=1B1752 box=dialog
 JP: 「ヒンヒン」{end}
-EN: 
+EN: "Whinny!"{end}
 
 #id 0126 ptr=1B1759 box=dialog
 JP:     「王国歴137年 ジャスバン」{n}{delay:78}{clear:00}「かんねんしろ、おまえの悪行もここまでだ」{end}
-EN: 
+EN:     "Kingdom Year 137, Jasvan"{n}{delay:78}{clear:00}"Give up! Your evil deeds end here."{end}
 
 #id 0127 ptr=1B178F box=dialog
 JP: 「はなせ!! ボクをここから出せだニャー」{end}
-EN: 
+EN: "Let go!! Let me out of here, meow!"{end}
 
 #id 0128 ptr=1B17A6 box=dialog
 JP: 「よし、封印するぞ!!」{end}
-EN: 
+EN: "All right, seal it!!"{end}
 
 #id 0129 ptr=1B17B5 box=dialog
 JP: 「おぼえてろだニャー。{n} 何年かかろうとも、ここからぬけだしてやるニャー!」{end}
-EN: 
+EN: "You'll pay for this, meow!{n} I'll break out someday, meow!"{end}
 
 #id 0130 ptr=1B17DE box=dialog
 JP: ヴァイス{n}「めぼしをつけた遺跡も あとわずか。{n}{delay:20} 今度こそ 頂いてみせるぜ‥‥」{end}
-EN: 
+EN: Weiss{n}"Only a few ruins left on my list.{n}{delay:20} This time, the treasure is mine..."{end}
 
 #id 0131 ptr=1B180F box=dialog
 JP: 「ヴァイスの兄貴! 皆が呼んでますぜ。{n} 兄貴がいねえと、場が盛り上がらねえっす!!」{end}
-EN: 
+EN: "Boss Weiss! Everyone's calling for you.{n} It's no party without you, boss!!"{end}
 
 #id 0132 ptr=1B1844 box=dialog
 JP: ヴァイス{n}「おう! わかった、いま行くぜ!!」{end}
-EN: 
+EN: Weiss{n}"Right! Got it, I'm coming!!"{end}
 
 #id 0133 ptr=1B185D box=dialog
 JP: トランプ{n}「おい、ヤローども!{n} 明日も暴れまくるぞ、しっかりついてこい!!」{end}
-EN: 
+EN: Trump{n}"Hey, you lugs!{n} Tomorrow we raise more hell. Keep up!!"{end}
 
 #id 0134 ptr=1B1888 box=dialog
 JP: 「よ～し、気合は いいか～～～～～!!」{end}
-EN: 
+EN: "All riiight, you fired uuup!!"{end}
 
 #id 0135 ptr=1B189F box=dialog
 JP: 「ヒッヒーヒッヒーーーーーーーーー!!」{end}
-EN: 
+EN: "Hee-hee-hee-heeeeeeeeee!!"{end}
 
 #id 0136 ptr=1B18B4 box=dialog
 JP: モーモー{n}「さ～て、次はどこの遺跡だったっけ?」{end}
-EN: 
+EN: Moomoo{n}"Sooo, which ruins are we off to next?"{end}
 
 #id 0137 ptr=1B18D0 box=dialog
 JP: リイム{n}「明日はハップル遺跡だね」{delay:78}{clear:00}「たしか、ラドック教授が中心になって{n} 発掘を行っているんじゃなかったかな」{end}
-EN: 
+EN: Reem{n}"Tomorrow it's the Happle Ruins."{delay:78}{clear:00}"I think Professor Radock is leading{n} the dig there."{end}
 
 #id 0138 ptr=1B1919 box=dialog
 JP: タムタム{n}「そうそう。なんでも、秘宝にかんする{n} 有力な手がかりが みつかりそうなんですって」{n}{delay:78}{clear:00}「教授、はりきってたわよ」{end}
-EN: 
+EN: Tamtam{n}"That's right. They say he's close to{n} a real clue about the treasure."{n}{delay:78}{clear:00}"The professor's all fired up."{end}
 
 #id 0139 ptr=1B1964 box=dialog
 JP: モーモー{n}「おいおい!{n} あのじいさん、このあいだも同じこといってたぜ。{n}"こんどこそだいじょぶじゃ" ってな」{end}
-EN: 
+EN: Moomoo{n}"Oh, come on!{n} The old man said that last time too.{n}"This one's it!" he said."{end}
 
 #id 0140 ptr=1B199E box=dialog
 JP: タムタム{n}「しょうがないじゃない。{n} 遺跡が いっぱいあるんだもの‥‥」{end}
-EN: 
+EN: Tamtam{n}"Well, it can't be helped.{n} There are just so many ruins..."{end}
 
 #id 0141 ptr=1B19C5 box=dialog
 JP: 「‥‥とは言っても、こう、いつもいつも{n} ガラクタばっかり掘りだしてると、{n} 疑いのひとつも持ちたくなるけどさ」{delay:78}{clear:00}「ね、リイム?」{end}
-EN: 
+EN: "...Though when all he ever digs up{n} is junk, time after time,{n} you can't help having doubts."{delay:78}{clear:00}"Right, Reem?"{end}
 
 #id 0142 ptr=1B1A10 box=dialog
 JP: リイム{n}「あはは、そうだね」{end}
-EN: 
+EN: Reem{n}"Ha ha, yeah."{end}
 
 #id 0143 ptr=1B1A1F box=dialog
 JP: モーモー{n}「ったく、あちこち ほじくりかえすから、{n} 魔物が暴れだしちまうんだよ」{n}{delay:78}{clear:00}「おかげでこちとら、大忙しだぜ。モー」 {end}
-EN: 
+EN: Moomoo{n}"Geez. He digs up every place there is,{n} so the monsters go on a rampage."{n}{delay:78}{clear:00}"And that keeps us busy. Moo." {end}
 
 #id 0144 ptr=1B1A69 box=dialog
 JP: リイム{n}「まぁ、しょうがないよ。{n} それをなんとかするのが、ぼくたちの役目なんだから」{end}
-EN: 
+EN: Reem{n}"Well, it can't be helped.{n} Handling that is our job, after all."{end}
 
 #id 0145 ptr=1B1A97 box=dialog
 JP: 「‥‥もっとも、教授さえ無茶しなければ、{n} もうちょっと 楽ができるかもね」{end}
-EN: 
+EN: "...Still, if the professor didn't go{n} overboard, we might get some rest."{end}
 
 #id 0146 ptr=1B1AC3 box=dialog
 JP: タムタム{n}「そうよね、いっつも大変なんだから‥‥」{delay:78}{clear:00}「さぁ、そろそろ休みましょうよ」{n}         {n}{end}
-EN: 
+EN: Tamtam{n}"Yes, it's always such a handful..."{delay:78}{clear:00}"Come on, let's get some sleep."{n}         {n}{end}
 
 #id 0147 ptr=1B1B01 box=dialog
 JP: 「ここからハップルまでは、まだ距離があるし。{n} 早起きしないと、お昼までに着けないわよ」{delay:78}{clear:00}「きちんと行かないと、{n} また教授に 怒られちゃうわ」{n}{end}
-EN: 
+EN: "It's still a long way to Happle.{n} Up early, or we won't make it by noon."{delay:78}{clear:00}"If we don't show up on time,{n} the professor will scold us again."{n}{end}
 
 #id 0148 ptr=1B1B5A box=dialog
 JP: モーモー{n}「ヘイヘイ」{end}
-EN: 
+EN: Moomoo{n}"Yeah, yeah."{end}
 
 #id 0149 ptr=1B1B66 box=dialog
 JP: タムタム{n}「‥‥モーモー、寝坊しちゃダメよ」{end}
-EN: 
+EN: Tamtam{n}"...Moomoo, no oversleeping."{end}
 
 #id 0150 ptr=1B1B7F box=dialog
 JP: 「やりましたね、教授!」{end}
-EN: 
+EN: "You did it, Professor!"{end}
 
 #id 0151 ptr=1B1B8E box=dialog
 JP: 「うむ、今度こそみつけたぞ」{n}{delay:78}{clear:00}「この古文書が 本物であるならば、{n} カラードの秘宝伝承を裏付ける{n} なによりの証拠になるじゃろう。やったぞい!」{end}
-EN: 
+EN: "Indeed. This time I've found it."{n}{delay:78}{clear:00}"If this old document is genuine,{n} it's the best proof yet of the{n} Colored legend of the treasure. Yes!"{end}
 
 #id 0152 ptr=1B1BEC box=dialog
 JP: 「助かった! 教授、助けが来たみたいですよ!」{end}
-EN: 
+EN: "We're saved! Professor, help is here!"{end}
 
 #id 0153 ptr=1B1C09 box=dialog
 JP: 「しかし、そっちは‥‥」{end}
-EN: 
+EN: "But, over there..."{end}
 
 #id 0154 ptr=1B1C16 box=dialog
 JP: 「おーい、こっちだ。助けてくれ!」{end}
-EN: 
+EN: "Hey, over here! Help us!"{end}
 
 #id 0155 ptr=1B1C29 box=dialog
 JP: 「ひーーーーーー」{end}
-EN: 
+EN: "Eeeeeeeeek!"{end}
 
 #id 0156 ptr=1B1C33 box=dialog
 JP: 「ヒヒーン、だれか!! だれか～!!」{end}
-EN: 
+EN: "Neeeigh, someone!! Someone～!!"{end}
 
 #id 0157 ptr=1B1C47 box=dialog
 JP: 「うおー!」{end}
-EN: 
+EN: "Whoaaa!"{end}
 
 #id 0158 ptr=1B1C4E box=dialog
 JP: リイム{n}「ふう、あぶないところでしたね」{end}
-EN: 
+EN: Reem{n}"Phew, that was close."{end}
 
 #id 0159 ptr=1B1C63 box=dialog
 JP: モーモー{n}「じいさん、命拾いしたな」{end}
-EN: 
+EN: Moomoo{n}"You got lucky, old man."{end}
 
 #id 0160 ptr=1B1C78 box=dialog
 JP: ラドック{n}「もっとはやく助けにこんかい! このバカもんが!!」{end}
-EN: 
+EN: Radock{n}"You should have come sooner, you dolt!!"{end}
 
 #id 0161 ptr=1B1C99 box=dialog
 JP: 「あ～あ」{end}
-EN: 
+EN: "Oh, brother."{end}
 
 #id 0162 ptr=1B1C9F box=dialog
 JP: タムタム{n}「リイム! だいじょうぶ?」{end}
-EN: 
+EN: Tamtam{n}"Reem! Are you all right?"{end}
 
 #id 0163 ptr=1B1CB3 box=dialog
 JP: リイム{n}「ああ、それよりも 教授たちを」{end}
-EN: 
+EN: Reem{n}"Yeah. Never mind me, see to the others."{end}
 
 #id 0164 ptr=1B1CCA box=dialog
 JP: タムタム{n}「ええ」{end}
-EN: 
+EN: Tamtam{n}"Right."{end}
 
 #id 0165 ptr=1B1CD4 box=dialog
 JP: ラドック{n}「おお、タムタムか。これを見てくれ。ついにみつけたぞ」{end}
-EN: 
+EN: Radock{n}"Oh, Tamtam. Look! I finally found it."{end}
 
 #id 0166 ptr=1B1CF6 box=dialog
 JP: タムタム{n}「もう! 話はあとで ききますから、{n} じっとしてて ください」{end}
-EN: 
+EN: Tamtam{n}"Honestly! I'll hear about it later,{n} so please hold still."{end}
 
 #id 0167 ptr=1B1D1D box=dialog
 JP: ラドック教授が げんきになった!{end}
-EN: 
+EN: Professor Radock is feeling better!{end}
 
 #id 0168 ptr=1B1D30 box=dialog
 JP: ラドック{n}「おお、ありがとよ。それよりも大変じゃ。{n} やはり本当だったんじゃ。{n} この古文書を見るのじゃ。ほれ、ここじゃ」{end}
-EN: 
+EN: Radock{n}"Ah, thank you. But listen, this is big.{n} It was true after all.{n} Look at this old document. Here, see?"{end}
 
 #id 0169 ptr=1B1D76 box=dialog
 JP: "{g10}{g11}{g12}{g14}{g12}{g10}{g13}{g14}{g13}{g11}{g10}{g15}‥‥"{end}
-EN: 
+EN: "{g10}{g11}{g12}{g14}{g12}{g10}{g13}{g14}{g13}{g11}{g10}{g15}..."{end}
 
 #id 0170 ptr=1B1D87 box=dialog
 JP: モーモー{n}「‥‥こんな文字よめねえよ」{end}
-EN: 
+EN: Moomoo{n}"...I can't read this stuff."{end}
 
 #id 0171 ptr=1B1D9D box=dialog
 JP: タムタム{n}「むかしの文字よ。{n} んと‥‥ねがいは ジャスバンにてかなう‥‥」{end}
-EN: 
+EN: Tamtam{n}"It's ancient writing.{n} Um... 'In Jasvan, wishes come true'..."{end}
 
 #id 0172 ptr=1B1DC6 box=dialog
 JP: ラドック{n}「そう。これは古代カラードの文字じゃ。{n} タムタム、よく覚えておったな」{end}
-EN: 
+EN: Radock{n}"Yes. This is ancient Colored script.{n} You remembered it well, Tamtam."{end}
 
 #id 0173 ptr=1B1DF5 box=dialog
 JP: 「お前さんに カラードの事を教えたのは{n} もう何年まえになるかのお‥‥」{delay:78}{clear:00}「ほんに懐かしいのお。{n} くどくど くどくど‥‥‥‥」{end}
-EN: 
+EN: "How many years ago was it now that{n} I taught you about the Colored..."{delay:78}{clear:00}"How I miss those days.{n} Blah blah, blah blah......"{end}
 
 #id 0174 ptr=1B1E41 box=dialog
 JP: 「くどくど くどくど‥‥‥‥{n} くどくど くどくど‥‥‥‥{n} くどくど くどくど‥‥‥‥{n} くどくど くどくど‥‥‥‥」{end}
-EN: 
+EN: "Blah blah, blah blah......{n} Blah blah, blah blah......{n} Blah blah, blah blah......{n} Blah blah, blah blah......"{end}
 
 #id 0175 ptr=1B1E7E box=dialog
 JP: モーモー{n}「で? なにが 本当だったんだい?」{end}
-EN: 
+EN: Moomoo{n}"So? What was true?"{end}
 
 #id 0176 ptr=1B1E98 box=dialog
 JP: ラドック{n}「うおっほん。{n} カラード教の言い伝えは おぬしらも知っとるな」{end}
-EN: 
+EN: Radock{n}"Ahem.{n} You all know the Colored faith's legend."{end}
 
 #id 0177 ptr=1B1EC2 box=dialog
 JP: リイム{n}「うしなわれた秘宝の ことですね?」{end}
-EN: 
+EN: Reem{n}"About the lost treasure, right?"{end}
 
 #id 0178 ptr=1B1EDB box=dialog
 JP: ラドック{n}「そう。それは、手にした者の願いを{n} かなえてくれると いわれる伝説の秘宝」{delay:78}{clear:00}「どこにあるのか?{n} どんなものなのか? それは誰にもわからん」{end}
-EN: 
+EN: Radock{n}"Yes. A legendary treasure said to grant{n} the wish of whoever holds it."{delay:78}{clear:00}"Where is it? What is it like?{n} No one knows."{end}
 
 #id 0179 ptr=1B1F35 box=dialog
 JP: 「だがな、秘宝は実在する。{n} そしてこれは、その存在を裏付ける{n} 古文書なのじゃ!」{end}
-EN: 
+EN: "But the treasure is real.{n} And this old document is proof{n} that it exists!"{end}
 
 #id 0180 ptr=1B1F6B box=dialog
 JP: 「こうしちゃおれん。{n} ワシは さっそく解読にかかるとしよう」{end}
-EN: 
+EN: "No time to waste.{n} I'll start deciphering it at once."{end}
 
 #id 0181 ptr=1B1F8D box=dialog
 JP: ラドック{n}「ああ、そうそう」{n}{delay:78}{clear:00}「ピーコック、お前は村に戻って例の石を{n} ワシの研究室に もって来ておくれ」{end}
-EN: 
+EN: Radock{n}"Oh, yes, one more thing."{n}{delay:78}{clear:00}"Peacock, go back to the village and bring{n} that stone to my lab."{end}
 
 #id 0182 ptr=1B1FD2 box=dialog
 JP: 「村までは リイム達に送ってもらうと{n} よいじゃろう。じゃあな。たのんだぞい」{end}
-EN: 
+EN: "Have Reem and the others see you{n} home. Off you go, I'm counting on you."{end}
 
 #id 0183 ptr=1B1FFD box=dialog
 JP: モーモー{n}「‥‥いそがしい じいさんだなあ」{end}
-EN: 
+EN: Moomoo{n}"...Busy old man, isn't he?"{end}
 
 #id 0184 ptr=1B2014 box=dialog
 JP: タムタム{n}「ほんと。あんなに落ち着きの無い{n} 賢者なんて、そういないわよね‥‥」{n}{delay:78}{clear:00}「あっ、そうそう」{end}
-EN: 
+EN: Tamtam{n}"Really. You don't see many sages{n} that restless..."{n}{delay:78}{clear:00}"Oh, right."{end}
 
 #id 0185 ptr=1B2052 box=dialog
 JP: 「さっきライナーク城から 伝令が来たの。{n} 王様が 呼んでるんですって。{n} 発掘が片付いたら お城に来るようにって」{end}
-EN: 
+EN: "A messenger came from Castle Rainark.{n} The king wants to see us.{n} We're to come once the dig is done."{end}
 
 #id 0186 ptr=1B209A box=dialog
 JP: リイム{n}「リチャード王が?」{end}
-EN: 
+EN: Reem{n}"King Richard does?"{end}
 
 #id 0187 ptr=1B20AA box=dialog
 JP: タムタム{n}「そう。モーモーも いっしょにね」{end}
-EN: 
+EN: Tamtam{n}"Yes. Moomoo too."{end}
 
 #id 0188 ptr=1B20C1 box=dialog
 JP: モーモー{n}「チェッ、まったく人使いのあらい王様だぜ。{n} なあ、リイム」{end}
-EN: 
+EN: Moomoo{n}"Tch. That king sure works us hard.{n} Right, Reem?"{end}
 
 #id 0189 ptr=1B20E9 box=dialog
 JP: タムタム{n}「‥‥ボヤかないの。さっ、いきましょう」{end}
-EN: 
+EN: Tamtam{n}"...No grumbling. Come on, let's go."{end}
 
 #id 0190 ptr=1B2103 box=dialog
 JP: リイム{n}「よし、それじゃあ{n} パズタ村をまわって ライナークに戻ろうか」{end}
-EN: 
+EN: Reem{n}"Okay. Let's stop by Pazuta Village{n} and then head back to Rainark."{end}
 
 #id 0191 ptr=1B212A box=dialog
 JP: {p7F:02}「きけ～～～～い!! オレたちゃ 泣く子も黙る{n} 魔獣盗賊団 スカルボンバーズ だ!!」{n}{delay:78}{clear:00}「この村の宝は、あらいざらい このトランプ様が{n} 頂くことにした。ありがたく思えよ。ヒャッハッハ」{end}
-EN: 
+EN: {p7F:02}"Liiisten up!! We're the Skull Bombers,{n} the Beast Bandits who silence kids!!"{n}{delay:78}{clear:00}"The great Trump is taking every{n} treasure in this village. Hya ha ha!"{end}
 
 #id 0192 ptr=1B219F box=dialog
 JP: {p7F:02}「おう、ヤローども、てってー的にやっちまえ!」{end}
-EN: 
+EN: {p7F:02}"Okay, you lugs, tear the place apart!"{end}
 
 #id 0193 ptr=1B21BB box=dialog
 JP: {p7F:02}「ギッギーーー!!」{end}
-EN: 
+EN: {p7F:02}"Ghee-gheee!!"{end}
 
 #id 0194 ptr=1B21C9 box=dialog
 JP: {p7F:02}「迎えが来たようだな。{n} よし、あとはおまえ等にまかせる。しっかりヤレよ!」{end}
-EN: 
+EN: {p7F:02}"Looks like my ride is here.{n} The rest is yours. Do it right!"{end}
 
 #id 0195 ptr=1B21F6 box=dialog
 JP: {p7F:02}「ヒッヒー!」{end}
-EN: 
+EN: {p7F:02}"Hee-hee!"{end}
 
 #id 0196 ptr=1B2201 box=dialog
 JP: {p7F:02}「あいつら、何者なんだ!」{end}
-EN: 
+EN: {p7F:02}"Who are those guys?!"{end}
 
 #id 0197 ptr=1B2214 box=dialog
 JP: {p7F:02}「ピーコック、君は急いで家にもどるんだ!{n} あいつらは 僕たちがひきうけた」{end}
-EN: {p7F:02}"Peacock, run home!{n} We'll stop them."{end}
+EN: {p7F:02}"Peacock, hurry back home!{n} We'll take care of them."{end}
 
 #id 0198 ptr=1B2242 box=dialog
 JP: {p7F:02}「は、はいッ」{end}
-EN: 
+EN: {p7F:02}"R-right!"{end}
 
 #id 0199 ptr=1B224D box=dialog
 JP: {p7F:02}「オレたち ボンバーズの見習部隊だ、ペリペリ」{scroll:00}{delay:78}{clear:00}「おまえら、なにもんだ?{n} じゃますると ただじゃおかねえぞ、ペリペリ」{end}
-EN: 
+EN: {p7F:02}"We're Bomber trainees, peri-peri."{scroll:00}{delay:78}{clear:00}"Who are you?{n} Butt in and you'll be sorry, peri-peri."{end}
 
 #id 0200 ptr=1B2299 box=dialog
 JP: {p7F:02}「それはこっちのセリフだよ。{n} いくよ、モーモー。村を守るんだ!」{end}
-EN: 
+EN: {p7F:02}"That's our line.{n} Moomoo, let's protect the village!"{end}
 
 #id 0201 ptr=1B22C0 box=dialog
 JP: {p7F:02}「いただき～～ ギッギー!」{end}
-EN: 
+EN: {p7F:02}"Mine now～～ Ghee-ghee!"{end}
 
 #id 0202 ptr=1B22D2 box=dialog
 JP: {p7F:02}「まってくれ、その石を 持って行かないで!」{end}
-EN: 
+EN: {p7F:02}"Wait, don't take that stone!"{end}
 
 #id 0203 ptr=1B22EF box=dialog
 JP: {p7F:02}「ヒーーーーー、ごめんなさい。ペリペリ」{end}
-EN: 
+EN: {p7F:02}"Eeeeek, I'm sorry. Peri-peri."{end}
 
 #id 0204 ptr=1B2307 box=dialog
 JP: ピーコック{n}「なんてこった! あいつらに発掘した調度品を{n} 根こそぎ 奪われちまったよ!」{end}
-EN: 
+EN: Peacock{n}"What a mess! Those guys took every{n} last relic we dug up!"{end}
 
 #id 0205 ptr=1B233C box=dialog
 JP: 「ちくしょう‥‥ ヴァイスの兄貴が いてくれたら、{n} こんなことには ならなかったのに‥‥」{end}
-EN: 
+EN: "Dammit... If only Boss Weiss were here,{n} none of this would've happened..."{end}
 
 #id 0206 ptr=1B236D box=dialog
 JP: モーモー{n}「ヴァイス?」{end}
-EN: 
+EN: Moomoo{n}"Weiss?"{end}
 
 #id 0207 ptr=1B237A box=dialog
 JP: ピーコック{n}「ええ、この村の面倒を みてくれてるんでさ」{n}{delay:78}{clear:00}「兄貴の留守中に こんなことになっちまって、{n} なさけねえ‥‥」{end}
-EN: 
+EN: Peacock{n}"Yeah, he looks after this village."{n}{delay:78}{clear:00}"And this happens while he's away.{n} Pathetic..."{end}
 
 #id 0208 ptr=1B23C6 box=dialog
 JP: 「おまけに教授に なんて言ったらいいやら‥‥{n} おれ、あのじいさん苦手なんスよ。」{n}{delay:78}{clear:00}「頼まれ物は 盗られちまいました。{n} なんていおうもんなら、怒られちまいやすよ。トホホ」{end}
-EN: 
+EN: "And what do I tell the professor...{n} That old man scares me, you know."{n}{delay:78}{clear:00}"'The thing you asked for got stolen'?{n} He'd chew me out for sure. Sigh..."{end}
 
 #id 0209 ptr=1B242C box=dialog
 JP: タムタム{n}「いいわ。教授には 私から話しておいてあげる。{n} だいじょうぶよ。事情を話せば わかってくれるわ」{delay:78}{clear:00}「それにどうせ、いつものガラクタなんでしょう?」{end}
-EN: 
+EN: Tamtam{n}"It's all right. I'll talk to him for you.{n} Don't worry. He'll understand."{delay:78}{clear:00}"Besides, it's just the usual junk, right?"{end}
 
 #id 0210 ptr=1B2488 box=dialog
 JP: リイム{n}「ふう、そうだといいんだけどね{g1E}」{end}
-EN: 
+EN: Reem{n}"Phew, I hope so{g1E}"{end}
 
 #id 0211 ptr=1B249E box=dialog
 JP: MES{n}「ピーコックと別れた勇者軍は ライナーク城に向かいます」{end}
-EN: 
+EN: MES{n}"Leaving Peacock, the Heroes head{n} for Castle Rainark."{end}
 
 #id 0212 ptr=1B24C5 box=dialog
 JP: リチャード{n}「おお、リイムよ。よくぞ参った。{n} 教授のお守り、ごくろうであったな」{delay:78}{clear:00}「‥‥首尾は どうであった?」{end}
-EN: 
+EN: Richard{n}"Ah, Reem. Good of you to come.{n} Thank you for minding the professor."{delay:78}{clear:00}"...How did it go?"{end}
 
 #id 0213 ptr=1B250A box=dialog
 JP: リイム{n}「はい。なんでも、秘宝にかんする重要な{n} 発見をしたとかで、ごまんえつです」{end}
-EN: 
+EN: Reem{n}"He says he made a big discovery{n} about the treasure. He's thrilled."{end}
 
 #id 0214 ptr=1B253B box=dialog
 JP: リチャード{n}「そうか。まあ、おいおい報告が はいるだろう」{delay:78}{clear:00}「それよりもな、急に呼びつけたのは ほかでもない。{n} おぬしたちに頼みがあるのだ」{end}
-EN: 
+EN: Richard{n}"I see. I'm sure he'll report in time."{delay:78}{clear:00}"More to the point, I called you here{n} because I have a favor to ask."{end}
 
 #id 0215 ptr=1B258D box=dialog
 JP: リチャード{n}「先だって、隣国マテドラルの{n} 教王ハウサーより 書簡があった」{end}
-EN: 
+EN: Richard{n}"I recently received a letter from Pontiff{n} Hauser of our neighbor, Matedral."{end}
 
 #id 0216 ptr=1B25BB box=dialog
 JP: 「国を荒らすスカルボンバーズの凶行と、{n} 遺跡を狙う盗掘団の横行に{n} 手をこまねいている」{delay:78}{clear:00}「事態収拾のために、{n} 力を貸してほしい。とのことだ」{end}
-EN: 
+EN: "The Skull Bombers ravage his land,{n} tomb raiders plunder the ruins,{n} and he is at a loss."{delay:78}{clear:00}"To set things right,{n} he asks us to lend him our strength."{end}
 
 #id 0217 ptr=1B261D box=dialog
 JP: タムタム{n}「そんなひどいことに‥‥」{end}
-EN: 
+EN: Tamtam{n}"How awful..."{end}
 
 #id 0218 ptr=1B2630 box=dialog
 JP: リチャード{n}"この世界の 何処かに、{n} 願いをかなえる秘宝が 眠っている"{end}
-EN: 
+EN: Richard{n}"Somewhere in this world{n} sleeps a treasure that grants wishes."{end}
 
 #id 0219 ptr=1B265E box=dialog
 JP: 「半年ほど前に 解読された、{n} カラード教に伝わる 古文書の一節じゃ」{end}
-EN: 
+EN: "A line from an old Colored document,{n} deciphered about half a year ago."{end}
 
 #id 0220 ptr=1B268E box=dialog
 JP: 「秘宝はどこにあるのか!?」{end}
-EN: 
+EN: "Where is the treasure!?"{end}
 
 #id 0221 ptr=1B269F box=dialog
 JP: {end}
@@ -892,19 +892,19 @@ EN:
 
 #id 0223 ptr=1B26A1 box=dialog
 JP: 「‥‥結果、大陸をあげての大騒ぎに{n} なっているわけだが、とりわけ、カラードに{n} ゆかりの深いマテドラルの混乱は ひどいものだ」{end}
-EN: 
+EN: "...So the whole continent is in an{n} uproar, and Matedral, tied so closely{n} to the Colored, has it worst of all."{end}
 
 #id 0224 ptr=1B26EB box=dialog
 JP: 「承知のように カラード信仰の母体である{n} マテドラルは 兵を持たぬ国‥‥」{end}
-EN: 
+EN: "As you know, Matedral, home of{n} the Colored faith, has no army..."{end}
 
 #id 0225 ptr=1B271B box=dialog
 JP: 「それをいいことに、遺跡を荒す盗掘団は、{n} 後を絶たぬ。スカルボンバーズも頻繁に{n} 襲ってくるようになった‥」{delay:78}{clear:00}「すべてはカラードの秘宝伝説が原因じゃ」{end}
-EN: 
+EN: "Taking advantage, tomb raiders plunder{n} the ruins without end, and the Skull{n} Bombers attack more and more often..."{delay:78}{clear:00}"All due to the Colored treasure legend."{end}
 
 #id 0226 ptr=1B277E box=dialog
 JP: 「マテドラルにとっては、{n} まさに降ってわいたような災厄」{delay:78}{clear:00}「教王は信心深く、争いは好まぬ男だが、{n} やむなく、旧知の仲である{n} このわしに 助けを求めてきたというわけじゃ」{end}
-EN: 
+EN: "For Matedral, it is a disaster{n} out of a clear sky."{delay:78}{clear:00}"The Pontiff is pious and hates strife,{n} but with no other choice, he has{n} turned to me, an old friend, for help."{end}
 
 #id 0227 ptr=1B27EB box=dialog
 JP: 「このままでは 国は荒れ、たみは{n} こんきゅうするであろう」{end}
