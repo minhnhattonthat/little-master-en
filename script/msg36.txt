@@ -652,7 +652,7 @@ EN: Tamtam{n}"Reem! Are you all right?"{end}
 
 #id 0163 ptr=1B1CB3 box=dialog
 JP: リイム{n}「ああ、それよりも 教授たちを」{end}
-EN: Reem{n}"Yeah. Never mind me, see to the others."{end}
+EN: Reem{n}"I'm fine. Help the professor!"{end}
 
 #id 0164 ptr=1B1CCA box=dialog
 JP: タムタム{n}「ええ」{end}
@@ -764,7 +764,7 @@ EN: Reem{n}"Okay. Let's stop by Pazuta Village{n} and then head back to Rainark.
 
 #id 0191 ptr=1B212A box=dialog
 JP: {p7F:02}「きけ～～～～い!! オレたちゃ 泣く子も黙る{n} 魔獣盗賊団 スカルボンバーズ だ!!」{n}{delay:78}{clear:00}「この村の宝は、あらいざらい このトランプ様が{n} 頂くことにした。ありがたく思えよ。ヒャッハッハ」{end}
-EN: {p7F:02}"Liiisten up!! We're the Skull Bombers,{n} the Beast Bandits who silence kids!!"{n}{delay:78}{clear:00}"The great Trump is taking every{n} treasure in this village. Hya ha ha!"{end}
+EN: {p7F:02}"Liiisten up!! We're the Skull Bombers,{n} the Beast Bandits feared far and wide!!"{n}{delay:78}{clear:00}"The great Trump is taking every{n} treasure in this village. Hya ha ha!"{end}
 
 #id 0192 ptr=1B219F box=dialog
 JP: {p7F:02}「おう、ヤローども、てってー的にやっちまえ!」{end}
@@ -1236,7 +1236,7 @@ EN: Lilulu{n}"Um, nice to meet you. I'm Lilulu."{end}
 
 #id 0309 ptr=1B3543 box=dialog
 JP: 「みなさんのお役にたてるよう、がんばります。{n} よろしくお願いします」{end}
-EN: "I'll do my best to be of help to you all.{n} Please take care of me."{end}
+EN: "I'll do my best to be of help to you all.{n} I look forward to working with you."{end}
 
 #id 0310 ptr=1B3569 box=dialog
 JP: モーモー{n}「お、おう」{end}
@@ -1284,7 +1284,7 @@ EN: "I am Sougetsu. This is Trump."{end}
 
 #id 0321 ptr=1B363C box=dialog
 JP: トランプ{n}「ヒャッハッハ! おれたちゃ、泣く子もだまる{n} 魔獣盗賊団スカルボンバーズのリーダーさまよ」{end}
-EN: Trump{n}"Hya ha ha! We're the bosses of the Skull{n} Bombers, the Beast Bandits kids fear!"{end}
+EN: Trump{n}"Hya ha ha! We're the bosses of the Skull{n} Bombers, Beast Bandits feared by all!"{end}
 
 #id 0322 ptr=1B3677 box=dialog
 JP: 「どうだ 怖いだろう?{n} ビビったんなら さっさとけえんな。{n} いまなら見逃してやるぜぇ。 ヒャッハッハ!」{end}

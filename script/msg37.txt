@@ -328,7 +328,7 @@ EN: Weiss{n}"Hmph, is that how it looks?"{end}
 
 #id 0082 ptr=1B9104 box=dialog
 JP: リイム{n}「ヴァイス! 君はいったい?」{end}
-EN: Reem{n}"Weiss! What are you?"{end}
+EN: Reem{n}"Weiss! What's gotten into you?"{end}
 
 #id 0083 ptr=1B9119 box=dialog
 JP: ヴァイス{n}「言っただろ、俺は力を手に入れると‥‥」{delay:78}{clear:00}「そして手に入れたのさ。{n} ジャスバンに眠る伝説の秘宝。{n} 願いをかなえる ヤゴの秘宝をな!」{end}
@@ -468,7 +468,7 @@ EN: Weiss{n}"Pontiff, you've served your purpose.{n} We'll make your dream come 
 
 #id 0117 ptr=1B96CC box=dialog
 JP: 「魔物も人間もねえ、{n} すべてが俺の前に ひれふすのさ」{delay:78}{clear:00}「どうだ? これこそ、みんなが平等な{n} 理想郷だと思わねえか?」{end}
-EN: "No monsters, no humans,{n} everyone bows before me."{delay:78}{clear:00}"Well? Don't you think that's a{n} paradise where all are equal?"{end}
+EN: "Monster or human, no matter,{n} everyone bows before me."{delay:78}{clear:00}"Well? Don't you think that's a{n} paradise where all are equal?"{end}
 
 #id 0118 ptr=1B971B box=dialog
 JP: ピーコック{n}「あにき～、もう止めてくだせ～」{delay:78}{clear:00}「どうしたんすか、むかしの優しかった{n} あにきは どこいっちまったんすか～!」{end}
@@ -780,7 +780,7 @@ EN: Sougetsu{n}"...Very well, I'll tell you.{n} The goal of us Bombers."{delay:7
 
 #id 0195 ptr=1BA0AE box=dialog
 JP: 「われわれは、何故この大地に生まれたのか。{n} そんなことを 考えたことがありますか?」{delay:78}{clear:00}「考えてみてください。この大地は{n} あなた方 人間の為にあるようです」{delay:78}{clear:00}「世界のすべての仕組みが あなた方に{n} あつらえたかのように まとまっているのです」{delay:78}{clear:00}「わかりますか? この大地では、{n} 我ら魔物は マイノリティなんですよ」{delay:78}{clear:00}「私は想う。{n} 我ら魔物は何処へ行けばよいのか?」{delay:78}{clear:00}「やがて、同胞トランプと出会い、{n} 私の想いは確信にかわりました」{end}
-EN: "Have you ever wondered why{n} we were born into this land?"{delay:78}{clear:00}"Think about it. This land seems{n} to exist for you humans."{delay:78}{clear:00}"Everything in this world is arranged{n} as if it were made to suit you."{delay:78}{clear:00}"Do you see? In this land,{n} we monsters are the minority."{delay:78}{clear:00}"I wondered:{n} where are we monsters to go?"{delay:78}{clear:00}"Then I met my brother Trump,{n} and my thought became conviction."{end}
+EN: "Have you ever wondered why{n} we were born into this land?"{delay:78}{clear:00}"Think about it. This land seems{n} to exist for you humans."{delay:78}{clear:00}"Everything in this world is arranged{n} as if it were made to suit you."{delay:78}{clear:00}"Do you see? In this land,{n} we monsters are the minority."{delay:78}{clear:00}"I wondered:{n} where are we monsters to go?"{delay:78}{clear:00}"Then I met my comrade Trump,{n} and my thought became conviction."{end}
 
 #id 0196 ptr=1BA1CA box=dialog
 JP: {end}
@@ -1192,7 +1192,7 @@ EN: "Such a tragedy must never recur.{n} Matedral needs young people{n} with str
 
 #id 0298 ptr=1BB43F box=dialog
 JP: 「私はつねに考えている。{n} 争いのない みな平等な世界をつくりたい」{delay:78}{clear:00}「それがカラードの教えでもあった。{n} そのためには、力は不要なものだとおもっていた」{delay:78}{clear:00}「‥‥だが、それは間違いだったのだろう。{n} 理想を守る為にこそ力は必要なのだ」{delay:78}{clear:00}「物事を見誤ることのなく使われる{n} 正しい力が」{end}
-EN: "I always think{n} I want a world without strife, all equal."{delay:78}{clear:00}"That was the Calard teaching too.{n} I believed power was unneeded for it."{delay:78}{clear:00}"...But that must have been wrong.{n} Power is needed to protect ideals."{delay:78}{clear:00}"The right power, used{n} without losing sight of things."{end}
+EN: "I have always wished for{n} a world without strife, all equal."{delay:78}{clear:00}"That was the Calard teaching too.{n} I believed power was unneeded for it."{delay:78}{clear:00}"...But that must have been wrong.{n} Power is needed to protect ideals."{delay:78}{clear:00}"The right power, used{n} without losing sight of things."{end}
 
 #id 0299 ptr=1BB4F8 box=dialog
 JP: 「‥‥ヴァイス、いまいちど余のもとにまいれ。{n} そなたの力を借りたい」{delay:78}{clear:00}「ともに国を創っていこうではないか」{end}

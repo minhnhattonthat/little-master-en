@@ -52,7 +52,7 @@ EN: {p7F:00}The monster boss appeared!{scroll:00}{end}
 
 #id 0013 ptr=050694 box=dialog
 JP: {p7F:02}{speed:02}「きけ～～～～い!!{delay:30} オレたちゃ 泣く子も黙る{n} 魔獣盗賊団 スカルボンバーズ だ!!」{end}
-EN: {p7F:02}{speed:02}"Liiiisten up!!{delay:30} We're the Skull Bombers,{n} the Beast Bandits who silence kids!!"{end}
+EN: {p7F:02}{speed:02}"Liiiisten up!!{delay:30} We're the Skull Bombers,{n} the Beast Bandits feared far and wide!!"{end}
 
 #id 0014 ptr=0506D6 box=dialog
 JP: {p7F:02}{speed:02}「この村の宝は、あらいざらい このトランプ様が{n} 頂くことにした。{delay:30}ありがたく思えよ。{delay:30}ヒャッハッハ」{end}

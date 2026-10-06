@@ -48,7 +48,7 @@ EN: {p7F:02}{speed:02}"Reem!{delay:20} Are you all right?"{end}
 
 #id 0012 ptr=113F93 box=dialog
 JP: {p7F:02}{speed:02}「うん、{delay:20}それよりも教授たちを」{end}
-EN: {p7F:02}{speed:02}"Yeah.{delay:20} Never mind me, see to the others."{end}
+EN: {p7F:02}{speed:02}"Yeah.{delay:20} Help the professor."{end}
 
 #id 0013 ptr=113FB8 box=dialog
 JP: {p7F:02}{speed:02}「ええ」{end}
