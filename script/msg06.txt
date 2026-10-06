@@ -810,727 +810,727 @@ EN:
 JP: {end}
 EN: 
 
-#id 0203 ptr=032C04 box=desc win=item
+#id 0203 ptr=032C04 box=desc win=terrain
 JP: ブロック{n}侵入不可の場所{end}
 EN: Block{n}An impassable spot{end}
 
-#id 0204 ptr=032C17 box=desc win=item
+#id 0204 ptr=032C17 box=desc win=terrain
 JP: 芝生{n}消費MV 2{n}あおあおとした芝{end}
 EN: Lawn{n}MV cost 2{n}Lush, green grass{end}
 
-#id 0205 ptr=032C2F box=desc win=item
+#id 0205 ptr=032C2F box=desc win=terrain
 JP: 広葉樹{n}消費MV 4{n}地形効果が たかいぞ{end}
-EN: Broadleaf tree{n}MV cost 4{n}High terrain bonus!{end}
+EN: Leafy tree{n}MV cost 4{n}High terrain bonus!{end}
 
-#id 0206 ptr=032C4E box=desc win=item
+#id 0206 ptr=032C4E box=desc win=terrain
 JP: 針葉樹{n}消費MV 4{n}地形効果が たかいぞ{end}
 EN: Conifer{n}MV cost 4{n}High terrain bonus!{end}
 
-#id 0207 ptr=032C6D box=desc win=item
+#id 0207 ptr=032C6D box=desc win=terrain
 JP: 枯れ木{n}消費MV 4{n}地形効果が たかいぞ{end}
 EN: Dead tree{n}MV cost 4{n}High terrain bonus!{end}
 
-#id 0208 ptr=032C8B box=desc win=item
+#id 0208 ptr=032C8B box=desc win=terrain
 JP: 広葉樹の森{n}消費MV 4{n}地形効果が すごくたかいぞ{end}
-EN: Broadleaf forest{n}MV cost 4{n}Huge terrain bonus!{end}
+EN: Leafy woods{n}MV cost 4{n}Huge terrain bonus!{end}
 
-#id 0209 ptr=032CB0 box=desc win=item
+#id 0209 ptr=032CB0 box=desc win=terrain
 JP: 針葉樹の森{n}消費MV 4{n}地形効果が すごくたかいぞ{end}
-EN: Conifer forest{n}MV cost 4{n}Huge terrain bonus!{end}
+EN: Pine woods{n}MV cost 4{n}Huge terrain bonus!{end}
 
-#id 0210 ptr=032CD5 box=desc win=item
+#id 0210 ptr=032CD5 box=desc win=terrain
 JP: 芝の荒れ地{n}消費MV 3{n}地形効果は 芝よりひくいぞ{end}
 EN: Rough lawn{n}MV cost 3{n}Less terrain bonus{end}
 
-#id 0211 ptr=032CFA box=desc win=item
+#id 0211 ptr=032CFA box=desc win=terrain
 JP: 芝生にあるガレキ{n}消費MV 5{n}歩きにくいが 有利な地形{end}
-EN: Rubble on lawn{n}MV cost 5{n}Slow but favorable{end}
+EN: Lawn rubble{n}MV cost 5{n}Slow but favorable{end}
 
-#id 0212 ptr=032D20 box=desc win=item
+#id 0212 ptr=032D20 box=desc win=terrain
 JP: 土{n}消費MV 2{n}生き物を育む おおいなる大地{end}
 EN: Dirt{n}MV cost 2{n}Great earth of life{end}
 
-#id 0213 ptr=032D40 box=desc win=item
+#id 0213 ptr=032D40 box=desc win=terrain
 JP: 土の荒れ地{n}消費MV 3{n}荒れ地は 進みにくい{end}
 EN: Rough dirt{n}MV cost 3{n}Rough land is slow{end}
 
-#id 0214 ptr=032D60 box=desc win=item
+#id 0214 ptr=032D60 box=desc win=terrain
 JP: 土にあるガレキ{n}消費MV 5{n}歩きにくいが 有利な土地{end}
-EN: Rubble on dirt{n}MV cost 5{n}Slow but favorable{end}
+EN: Dirt rubble{n}MV cost 5{n}Slow but favorable{end}
 
-#id 0215 ptr=032D84 box=desc win=item
+#id 0215 ptr=032D84 box=desc win=terrain
 JP: 砂地{n}消費MV 5{n}死を呼ぶ 静かなる場所{end}
 EN: Sand{n}MV cost 5{n}Silent and deadly{end}
 
-#id 0216 ptr=032DA3 box=desc win=item
+#id 0216 ptr=032DA3 box=desc win=terrain
 JP: 砂にあるガレキ{n}消費MV 5{n}歩きにくいが 有利な土地{end}
-EN: Rubble on sand{n}MV cost 5{n}Slow but favorable{end}
+EN: Sand rubble{n}MV cost 5{n}Slow but favorable{end}
 
-#id 0217 ptr=032DC7 box=desc win=item
+#id 0217 ptr=032DC7 box=desc win=terrain
 JP: ジャングルの土{n}消費MV 3{n}こけむした 湿った大地{end}
 EN: Jungle soil{n}MV cost 3{n}Damp, mossy earth{end}
 
-#id 0218 ptr=032DE8 box=desc win=item
+#id 0218 ptr=032DE8 box=desc win=terrain
 JP: 熱帯雨林{n}消費MV 4{n}うっそうとした 密林{end}
 EN: Rainforest{n}MV cost 4{n}A dense jungle{end}
 
-#id 0219 ptr=032E07 box=desc win=item
+#id 0219 ptr=032E07 box=desc win=terrain
 JP: 水{n}消費MV 3{n}ちゃぷちゃぷと いい気持ち{end}
 EN: Water{n}MV cost 3{n}Splish-splash, ahh{end}
 
-#id 0220 ptr=032E23 box=desc win=item
+#id 0220 ptr=032E23 box=desc win=terrain
 JP: 魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
 EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0221 ptr=032E48 box=desc win=item
+#id 0221 ptr=032E48 box=desc win=terrain
 JP: ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
 EN: Warp panel{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0222 ptr=032E69 box=desc win=item
+#id 0222 ptr=032E69 box=desc win=terrain
 JP: スイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
 EN: Switch panel{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0223 ptr=032E8C box=desc win=item
+#id 0223 ptr=032E8C box=desc win=terrain
 JP: クレーター{n}消費MV 4{n}地形効果が たかいぞ{end}
 EN: Crater{n}MV cost 4{n}High terrain bonus!{end}
 
-#id 0224 ptr=032EAA box=desc win=item
+#id 0224 ptr=032EAA box=desc win=terrain
 JP: 石床{n}消費MV 2{n}石の床は 歩きやすい{end}
 EN: Stone floor{n}MV cost 2{n}Easy to walk on{end}
 
-#id 0225 ptr=032EC6 box=desc win=item
+#id 0225 ptr=032EC6 box=desc win=terrain
 JP: 山{n}消費MV 6{n}歩きにくいが 地形効果がたかい{end}
 EN: Mountain{n}MV cost 6{n}High terrain bonus{end}
 
-#id 0226 ptr=032EE7 box=desc win=item
+#id 0226 ptr=032EE7 box=desc win=terrain
 JP: 険しい山{n}消費MV 2{n}空ユニットのみ 侵入可能{end}
-EN: Steep mountain{n}MV cost 2{n}Sky units only{end}
+EN: Steep peak{n}MV cost 2{n}Sky units only{end}
 
-#id 0227 ptr=032F09 box=desc win=item
+#id 0227 ptr=032F09 box=desc win=terrain
 JP: すごく険しい山{n}侵入不可の 山岳地帯{n}{end}
-EN: Sheer mountain{n}Impassable peaks{n}{end}
+EN: Sheer peak{n}Impassable peaks{n}{end}
 
-#id 0228 ptr=032F27 box=desc win=item
+#id 0228 ptr=032F27 box=desc win=terrain
 JP: 橋{n}消費MV 3{n}大地と大地を つなぐ橋{end}
 EN: Bridge{n}MV cost 3{n}Links land to land{end}
 
-#id 0229 ptr=032F44 box=desc win=item
+#id 0229 ptr=032F44 box=desc win=terrain
 JP: 傷んだ橋{n}消費MV 5{n}古くいたんだ 橋です{end}
 EN: Worn bridge{n}MV cost 5{n}An old, worn bridge{end}
 
-#id 0230 ptr=032F61 box=desc win=item
+#id 0230 ptr=032F61 box=desc win=terrain
 JP: 雪原{n}消費MV 4{n}雪がつもって 歩きにくい{end}
 EN: Snowfield{n}MV cost 4{n}Snowy and slow{end}
 
-#id 0231 ptr=032F7E box=desc win=item
+#id 0231 ptr=032F7E box=desc win=terrain
 JP: 凍った芝生{n}消費MV 2{n}地形効果は ひくめです{end}
 EN: Frozen lawn{n}MV cost 2{n}Low terrain bonus{end}
 
-#id 0232 ptr=032FA0 box=desc win=item
+#id 0232 ptr=032FA0 box=desc win=terrain
 JP: 凍った土{n}消費MV 2{n}凍てついた おおいなる大地{end}
 EN: Frozen dirt{n}MV cost 2{n}Great frozen earth{end}
 
-#id 0233 ptr=032FC1 box=desc win=item
+#id 0233 ptr=032FC1 box=desc win=terrain
 JP: 樹氷{n}消費MV 6{n}地形効果が すごくたかい{end}
 EN: Rime trees{n}MV cost 6{n}Huge terrain bonus{end}
 
-#id 0234 ptr=032FE0 box=desc win=item
+#id 0234 ptr=032FE0 box=desc win=terrain
 JP: 凍った針葉樹{n}消費MV 4{n}もうすこし凍ると 樹氷になる{end}
-EN: Frozen conifer{n}MV cost 4{n}Almost rime trees{end}
+EN: Frozen pine{n}MV cost 4{n}Almost rime trees{end}
 
-#id 0235 ptr=033006 box=desc win=item
+#id 0235 ptr=033006 box=desc win=terrain
 JP: 凍った枯れ木{n}消費MV 4{n}かちかちに凍った 枯れ木{end}
-EN: Frozen dead tree{n}MV cost 4{n}Frozen solid{end}
+EN: Frozen snag{n}MV cost 4{n}Frozen solid{end}
 
-#id 0236 ptr=033029 box=desc win=item
+#id 0236 ptr=033029 box=desc win=terrain
 JP: 雪山{n}消費MV 6{n}雪がふかくて 歩きにくい{end}
-EN: Snowy mountain{n}MV cost 6{n}Deep snow, slow{end}
+EN: Snowy peak{n}MV cost 6{n}Deep snow, slow{end}
 
-#id 0237 ptr=033046 box=desc win=item
+#id 0237 ptr=033046 box=desc win=terrain
 JP: 険しい雪山{n}消費MV 2{n}空ユニットのみ 侵入可能{end}
-EN: Steep snow peak{n}MV cost 2{n}Sky units only{end}
+EN: Snowy crag{n}MV cost 2{n}Sky units only{end}
 
-#id 0238 ptr=03306A box=desc win=item
+#id 0238 ptr=03306A box=desc win=terrain
 JP: 凍った山{n}消費MV 6{n}つるつるすべって 歩きにくい{end}
 EN: Icy mountain{n}MV cost 6{n}Slippery and slow{end}
 
-#id 0239 ptr=03308A box=desc win=item
+#id 0239 ptr=03308A box=desc win=terrain
 JP: 険しい山{n}消費MV 2{n}空ユニットのみ 侵入可能{end}
-EN: Steep mountain{n}MV cost 2{n}Sky units only{end}
+EN: Steep peak{n}MV cost 2{n}Sky units only{end}
 
-#id 0240 ptr=0330AC box=desc win=item
+#id 0240 ptr=0330AC box=desc win=terrain
 JP: 凍った魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: Frozen magic circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0241 ptr=0330D5 box=desc win=item
+#id 0241 ptr=0330D5 box=desc win=terrain
 JP: 氷原{n}消費MV 2{n}つるつるすべるので 注意しよう{end}
 EN: Ice field{n}MV cost 2{n}Slippery! Careful{end}
 
-#id 0242 ptr=0330F5 box=desc win=item
+#id 0242 ptr=0330F5 box=desc win=terrain
 JP: ライモスのタイル床{n}消費MV 2{n}タイル張りで 歩きやすい{end}
 EN: Laimos tiles{n}MV cost 2{n}Tiled, easy to walk{end}
 
-#id 0243 ptr=033118 box=desc win=item
+#id 0243 ptr=033118 box=desc win=terrain
 JP: 壊れた 橋{n}消費MV 3{n}水に沈んでいます{end}
-EN: Broken bridge{n}MV cost 3{n}Sunk in the water{end}
+EN: Sunk bridge{n}MV cost 3{n}Sunk in the water{end}
 
-#id 0244 ptr=033134 box=desc win=item
+#id 0244 ptr=033134 box=desc win=terrain
 JP: ライモスのレンガ床{n}消費MV 2{n}古代に焼かれた 古いレンガ{end}
-EN: Laimos bricks{n}MV cost 2{n}Ancient fired brick{end}
+EN: Laimos brick{n}MV cost 2{n}Ancient fired brick{end}
 
-#id 0245 ptr=03315A box=desc win=item
+#id 0245 ptr=03315A box=desc win=terrain
 JP: クルクルの芝生{n}消費MV 2{n}クルクル地方 特有の芝{end}
-EN: Kurukuru lawn{n}MV cost 2{n}Grass of Kurukuru{end}
+EN: Swirl grass{n}MV cost 2{n}Grass of Kurukuru{end}
 
-#id 0246 ptr=03317E box=desc win=item gloss=off
+#id 0246 ptr=03317E box=desc win=terrain
 JP: クルクル魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: Kurukuru circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0247 ptr=0331A7 box=desc win=item
+#id 0247 ptr=0331A7 box=desc win=terrain
 JP: クルクルの木{n}消費MV 3{n}クルクル回る 不思議な木{end}
-EN: Kurukuru tree{n}MV cost 3{n}It spins! How odd{end}
+EN: Spin tree{n}MV cost 3{n}It spins! How odd{end}
 
-#id 0248 ptr=0331CA box=desc win=item
+#id 0248 ptr=0331CA box=desc win=terrain
 JP: くるくるの針葉樹{n}消費MV 3{n}地形効果が たかいぞ{end}
-EN: Kurukuru conifer{n}MV cost 3{n}High terrain bonus!{end}
+EN: Spin pine{n}MV cost 3{n}High terrain bonus!{end}
 
-#id 0249 ptr=0331EE box=desc win=item
+#id 0249 ptr=0331EE box=desc win=terrain
 JP: 砦の石床{n}消費MV 2{n}砦に囲まれた 石の床{end}
-EN: Fort stone floor{n}MV cost 2{n}Stone inside a fort{end}
+EN: Fort floor{n}MV cost 2{n}Stone inside a fort{end}
 
-#id 0250 ptr=03320E box=desc win=item
+#id 0250 ptr=03320E box=desc win=terrain
 JP: 砂にある倒木{n}消費MV 6{n}地形効果が たかいぞ{end}
 EN: Log on sand{n}MV cost 6{n}High terrain bonus!{end}
 
-#id 0251 ptr=033230 box=desc win=item
+#id 0251 ptr=033230 box=desc win=terrain
 JP: クルクルの枯れ木{n}消費MV 4{n}地形効果が たかいぞ{end}
-EN: Kurukuru dead tree{n}MV cost 4{n}High terrain bonus!{end}
+EN: Spin snag{n}MV cost 4{n}High terrain bonus!{end}
 
-#id 0252 ptr=033253 box=desc win=item
+#id 0252 ptr=033253 box=desc win=terrain
 JP: 燃え上がる芝{n}消費MV 3{n}炎わきたつ 危険な場所{end}
 EN: Burning lawn{n}MV cost 3{n}Blazing and deadly{end}
 
-#id 0253 ptr=033277 box=desc win=item
+#id 0253 ptr=033277 box=desc win=terrain
 JP: 燃え上がる木{n}消費MV 3{n}燃える炎が デンジャラス{end}
 EN: Burning tree{n}MV cost 3{n}Flames! Dangerous!{end}
 
-#id 0254 ptr=033299 box=desc win=item
+#id 0254 ptr=033299 box=desc win=terrain
 JP: 植え込み{n}侵入不可{n}植え込みにはいっては いけません{end}
 EN: Hedge{n}Impassable{n}Keep off the hedge{end}
 
-#id 0255 ptr=0332BC box=desc win=item
+#id 0255 ptr=0332BC box=desc win=terrain
 JP: エンタシス柱{n}侵入不可{n}屋根をささえる 大事な柱{end}
-EN: Entasis pillar{n}Impassable{n}Holds up the roof{end}
+EN: Pillar{n}Impassable{n}Holds up the roof{end}
 
-#id 0256 ptr=0332DF box=desc win=item
+#id 0256 ptr=0332DF box=desc win=terrain
 JP: 公園の備品{n}侵入不可{n}くつろぐときには ベンチをどうぞ{end}
 EN: Park fixture{n}Impassable{n}Relax on a bench{end}
 
-#id 0257 ptr=033303 box=desc win=item
+#id 0257 ptr=033303 box=desc win=terrain
 JP: オブジェ{n}侵入不可{n}制作者 J・L・ピカード{end}
 EN: Sculpture{n}Impassable{n}By J. L. Picard{end}
 
-#id 0258 ptr=033321 box=desc win=item
+#id 0258 ptr=033321 box=desc win=terrain
 JP: ソロモンの塔{n}侵入不可{n}そびえたつ 巨大な塔{end}
-EN: Tower of Solomon{n}Impassable{n}A towering spire{end}
+EN: Great tower{n}Impassable{n}Tower of Solomon{end}
 
-#id 0259 ptr=033340 box=desc win=item
+#id 0259 ptr=033340 box=desc win=terrain
 JP: 遺跡{n}侵入不可{n}いにしえの建造物{end}
 EN: Ruins{n}Impassable{n}Ancient structures{end}
 
-#id 0260 ptr=03335A box=desc win=item
+#id 0260 ptr=03335A box=desc win=terrain
 JP: 崖{n}侵入不可{n}崖で遊んでは いけません{end}
 EN: Cliff{n}Impassable{n}Don't play here!{end}
 
-#id 0261 ptr=033375 box=desc win=item
+#id 0261 ptr=033375 box=desc win=terrain
 JP: トゲ{n}侵入不可{n}チクチク痛くて はいれません{end}
 EN: Spikes{n}Impassable{n}Ouch! Can't go in{end}
 
-#id 0262 ptr=033391 box=desc win=item
+#id 0262 ptr=033391 box=desc win=terrain
 JP: はね橋{n}侵入不可{n}橋がおりたら わたれます{end}
 EN: Drawbridge{n}Impassable{n}Cross when lowered{end}
 
-#id 0263 ptr=0333AD box=desc win=item
+#id 0263 ptr=0333AD box=desc win=terrain
 JP: 玄関{n}消費MV 2{n}ご用の方は こちらへどうぞ{end}
 EN: Entrance{n}MV cost 2{n}Visitors, this way{end}
 
-#id 0264 ptr=0333CB box=desc win=item
+#id 0264 ptr=0333CB box=desc win=terrain
 JP: 壊れた家{n}侵入不可{n}ご用のあるかたは 玄関へどうぞ{end}
 EN: Ruined house{n}Impassable{n}Use the entrance{end}
 
-#id 0265 ptr=0333EE box=desc win=item
+#id 0265 ptr=0333EE box=desc win=terrain
 JP: 合体の神殿{n}不思議な壺の力で ユニットを{n}合体させる神聖な場所{end}
-EN: Fusion Temple{n}Its magic pot fuses{n}units. A holy site.{end}
+EN: Fusion hall{n}Its magic pot fuses{n}units. A holy site.{end}
 
-#id 0266 ptr=03341D box=desc win=item
+#id 0266 ptr=03341D box=desc win=terrain
 JP: 民家{n}侵入不可{n}ご用のあるかたは 玄関へどうぞ{end}
 EN: House{n}Impassable{n}Use the entrance{end}
 
-#id 0267 ptr=03343E box=desc win=item
+#id 0267 ptr=03343E box=desc win=terrain
 JP: 宝箱{n}侵入不可{n}なにかいいもの 入っているかな?{end}
 EN: Chest{n}Impassable{n}Something good?{end}
 
-#id 0268 ptr=03345E box=desc win=item
+#id 0268 ptr=03345E box=desc win=terrain
 JP: 宝箱{n}侵入不可{n}箱の中身は からっぽです{end}
 EN: Chest{n}Impassable{n}It's empty{end}
 
-#id 0269 ptr=03347C box=desc win=item
+#id 0269 ptr=03347C box=desc win=terrain
 JP: 閉じた扉{n}侵入不可{n}扉を開けなきゃ 通れない{end}
 EN: Closed door{n}Impassable{n}Open it to pass{end}
 
-#id 0270 ptr=03349C box=desc win=item
+#id 0270 ptr=03349C box=desc win=terrain
 JP: 開いた扉{n}消費MV 2{n}どうぞ お通りください{end}
 EN: Open door{n}MV cost 2{n}Please, go through{end}
 
-#id 0271 ptr=0334B9 box=desc win=item
+#id 0271 ptr=0334B9 box=desc win=terrain
 JP: 砂漠魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: Desert magic circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0272 ptr=0334E2 box=desc win=item
+#id 0272 ptr=0334E2 box=desc win=terrain
 JP: 草{n}消費MV 2{n}草が生えてる場所{end}
 EN: Grass{n}MV cost 2{n}A grassy spot{end}
 
-#id 0273 ptr=0334FB box=desc win=item
+#id 0273 ptr=0334FB box=desc win=terrain
 JP: 草むら{n}消費MV 3{n}草に足をとられて 歩きにくい{end}
 EN: Thicket{n}MV cost 3{n}Grass trips you up{end}
 
-#id 0274 ptr=03351B box=desc win=item
+#id 0274 ptr=03351B box=desc win=terrain
 JP: 砦の扉(閉){n}侵入不可{n}扉を開けなきゃ 通れない{end}
-EN: Fort door (shut){n}Impassable{n}Open it to pass{end}
+EN: Fort door{n}Impassable{n}Open it to pass{end}
 
-#id 0275 ptr=03353E box=desc win=item
+#id 0275 ptr=03353E box=desc win=terrain
 JP: 砦の扉(開){n}消費MV 2{n}どうぞ お通りください{end}
-EN: Fort door (open){n}MV cost 2{n}Please, go through{end}
+EN: Fort door{n}MV cost 2{n}Please, go through{end}
 
-#id 0276 ptr=03355E box=desc win=item
+#id 0276 ptr=03355E box=desc win=terrain
 JP: 民家{n}侵入不可{n}ご用のかたは 玄関へどうぞ{end}
 EN: House{n}Impassable{n}Use the entrance{end}
 
-#id 0277 ptr=03357D box=desc win=item
+#id 0277 ptr=03357D box=desc win=terrain
 JP: ジェネレーター{n}侵入不可{n}敵が発生する 危険な場所{end}
 EN: Generator{n}Impassable{n}Spawns enemies!{end}
 
-#id 0278 ptr=0335A2 box=desc win=item
+#id 0278 ptr=0335A2 box=desc win=terrain
 JP: ジェネレーター{n}消費MV 3{n}敵が発生する 危険な場所{end}
 EN: Generator{n}MV cost 3{n}Spawns enemies!{end}
 
-#id 0279 ptr=0335C7 box=desc win=item
+#id 0279 ptr=0335C7 box=desc win=terrain
 JP: 雪だるま{n}消費MV 4{n}かわいい雪だるま{end}
 EN: Snowman{n}MV cost 4{n}A cute snowman{end}
 
-#id 0280 ptr=0335E0 box=desc win=item
+#id 0280 ptr=0335E0 box=desc win=terrain
 JP: 氷づけの魚{n}消費MV 2{n}お魚が凍っています{end}
 EN: Frozen fish{n}MV cost 2{n}Fish frozen in ice{end}
 
-#id 0281 ptr=0335FD box=desc win=item
+#id 0281 ptr=0335FD box=desc win=terrain
 JP: クイズパネル{n}消費MV 2{n}パネルに乗って 答えましょう{end}
 EN: Quiz panel{n}MV cost 2{n}Step on to answer{end}
 
-#id 0282 ptr=03361E box=desc win=item
+#id 0282 ptr=03361E box=desc win=terrain
 JP: クルクルのカンバン{n}侵入不可{n}前に立てば 道が示される{end}
-EN: Kurukuru sign{n}Impassable{n}Points the way{end}
+EN: Forest sign{n}Impassable{n}Points the way{end}
 
-#id 0283 ptr=033642 box=desc win=item
+#id 0283 ptr=033642 box=desc win=terrain
 JP: クイズ村の木{n}侵入不可{n}近道しないよう なわがはってます{end}
-EN: Quiz Village tree{n}Impassable{n}Roped: no shortcuts{end}
+EN: Quiz tree{n}Impassable{n}Roped: no shortcuts{end}
 
-#id 0284 ptr=033667 box=desc win=item
+#id 0284 ptr=033667 box=desc win=terrain
 JP: 地下へ続く穴{n}侵入不可{n}深く 落ちると 危険です{end}
-EN: Hole going down{n}Impassable{n}Deep! Don't fall in{end}
+EN: Deep hole{n}Impassable{n}Deep! Don't fall in{end}
 
-#id 0285 ptr=03368C box=desc win=item
+#id 0285 ptr=03368C box=desc win=terrain
 JP: 未設定{end}
 EN: Unset{end}
 
-#id 0286 ptr=033693 box=desc win=item
+#id 0286 ptr=033693 box=desc win=terrain
 JP: ブロック{n}侵入不可の場所{n}{end}
 EN: Block{n}An impassable spot{n}{end}
 
-#id 0287 ptr=0336A7 box=desc win=item
+#id 0287 ptr=0336A7 box=desc win=terrain
 JP: 土{n}消費MV 2{n}生き物を育む おおいなる大地{end}
 EN: Dirt{n}MV cost 2{n}Great earth of life{end}
 
-#id 0288 ptr=0336C7 box=desc win=item
+#id 0288 ptr=0336C7 box=desc win=terrain
 JP: 雑草の生えた土{n}消費MV 2{n}やがて草むらになります{end}
 EN: Weedy dirt{n}MV cost 2{n}Will become thicket{end}
 
-#id 0289 ptr=0336E9 box=desc win=item
+#id 0289 ptr=0336E9 box=desc win=terrain
 JP: ひび割れた土床{n}消費MV 3{n}ちょっと 歩きにくい{end}
-EN: Cracked earth{n}MV cost 3{n}A bit hard to walk{end}
+EN: Cracked dirt{n}MV cost 3{n}A bit hard to walk{end}
 
-#id 0290 ptr=033709 box=desc win=item
+#id 0290 ptr=033709 box=desc win=terrain
 JP: ジャスバンの床{n}消費MV 2{n}とても古い 床です{end}
 EN: Jasvan floor{n}MV cost 2{n}A very old floor{end}
 
-#id 0291 ptr=033727 box=desc win=item
+#id 0291 ptr=033727 box=desc win=terrain
 JP: ジャスバンの床{n}消費MV 3{n}ちょっと 歩きにくい{end}
 EN: Jasvan floor{n}MV cost 3{n}A bit hard to walk{end}
 
-#id 0292 ptr=033745 box=desc win=item
+#id 0292 ptr=033745 box=desc win=terrain
 JP: 石床{n}消費MV 2{n}まる石が しきつめられている{end}
 EN: Stone floor{n}MV cost 2{n}Paved with cobbles{end}
 
-#id 0293 ptr=033763 box=desc win=item
+#id 0293 ptr=033763 box=desc win=terrain
 JP: ゴツゴツした石床{n}消費MV 3{n}ちょっと 歩きにくい{end}
-EN: Rough stone floor{n}MV cost 3{n}A bit hard to walk{end}
+EN: Rough stone{n}MV cost 3{n}A bit hard to walk{end}
 
-#id 0294 ptr=033783 box=desc win=item
+#id 0294 ptr=033783 box=desc win=terrain
 JP: ゴツゴツしたレンガ床{n}消費MV 3{n}ちょっと 歩きにくい{end}
-EN: Rough brick floor{n}MV cost 3{n}A bit hard to walk{end}
+EN: Rough brick{n}MV cost 3{n}A bit hard to walk{end}
 
-#id 0295 ptr=0337A4 box=desc win=item
+#id 0295 ptr=0337A4 box=desc win=terrain
 JP: 洞窟の床{n}消費MV 2{n}{end}
 EN: Cave floor{n}MV cost 2{n}{end}
 
-#id 0296 ptr=0337B6 box=desc win=item
+#id 0296 ptr=0337B6 box=desc win=terrain
 JP: 砂利{n}消費MV 3{n}足をとられて 歩きにくい{end}
 EN: Gravel{n}MV cost 3{n}Hard on the feet{end}
 
-#id 0297 ptr=0337D3 box=desc win=item
+#id 0297 ptr=0337D3 box=desc win=terrain
 JP: ライナーク城の床{n}消費MV 2{n}みごとな 石の床です{end}
-EN: Rainark floor{n}MV cost 2{n}Fine stone flooring{end}
+EN: Castle floor{n}MV cost 2{n}Rainark's stone{end}
 
-#id 0298 ptr=0337F4 box=desc win=item
+#id 0298 ptr=0337F4 box=desc win=terrain
 JP: 城のじゅうたん{n}消費MV 2{n}地形効果が たかいよ{end}
-EN: Castle carpet{n}MV cost 2{n}High terrain bonus{end}
+EN: Carpet{n}MV cost 2{n}High terrain bonus{end}
 
-#id 0299 ptr=033815 box=desc win=item
+#id 0299 ptr=033815 box=desc win=terrain
 JP: マテドラル城の床{n}消費MV 2{n}みごとな 石の床です{end}
-EN: Matedral floor{n}MV cost 2{n}Fine stone flooring{end}
+EN: Castle floor{n}MV cost 2{n}Matedral's stone{end}
 
-#id 0300 ptr=033836 box=desc win=item
+#id 0300 ptr=033836 box=desc win=terrain
 JP: 屋内石床(普){n}消費MV 2{n}{end}
-EN: Indoor stone floor{n}MV cost 2{n}{end}
+EN: Stone floor{n}MV cost 2{n}{end}
 
-#id 0301 ptr=03384D box=desc win=item
+#id 0301 ptr=03384D box=desc win=terrain
 JP: 針床 出{n}消費MV 3{n}針をふむと ダメージを受けます{end}
-EN: Spike floor (up){n}MV cost 3{n}Spikes hurt you{end}
+EN: Spikes up{n}MV cost 3{n}Spikes hurt you{end}
 
-#id 0302 ptr=033870 box=desc win=item
+#id 0302 ptr=033870 box=desc win=terrain
 JP: 針床 引{n}消費MV 2{n}いまは ふんでも平気{end}
-EN: Spike floor (down){n}MV cost 2{n}Safe to step on now{end}
+EN: Spikes down{n}MV cost 2{n}Safe to step on now{end}
 
-#id 0303 ptr=03388E box=desc win=item
+#id 0303 ptr=03388E box=desc win=terrain
 JP: 魔方陣{n}消費MV 2{n}不思議な力で 体力が回復します{end}
 EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0304 ptr=0338B6 box=desc win=item
+#id 0304 ptr=0338B6 box=desc win=terrain
 JP: ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
 EN: Warp panel{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0305 ptr=0338D7 box=desc win=item
+#id 0305 ptr=0338D7 box=desc win=terrain
 JP: スイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
 EN: Switch panel{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0306 ptr=0338FA box=desc win=item
+#id 0306 ptr=0338FA box=desc win=terrain
 JP: 月のパネル{n}侵入不可{n}レリーフが彫られています{end}
 EN: Moon panel{n}Impassable{n}Has a carved relief{end}
 
-#id 0307 ptr=033918 box=desc win=item
+#id 0307 ptr=033918 box=desc win=terrain
 JP: 太陽のパネル{n}侵入不可{n}レリーフが彫られています{end}
 EN: Sun panel{n}Impassable{n}Has a carved relief{end}
 
-#id 0308 ptr=033938 box=desc win=item
+#id 0308 ptr=033938 box=desc win=terrain
 JP: ガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
 EN: Rubble{n}MV cost 5{n}High terrain bonus{end}
 
-#id 0309 ptr=03395A box=desc win=item
+#id 0309 ptr=03395A box=desc win=terrain
 JP: ガレキ{n}侵入不可{n}チクチク痛くて 入れません{end}
 EN: Rubble{n}Impassable{n}Ouch! Can't go in{end}
 
-#id 0310 ptr=033977 box=desc win=item
+#id 0310 ptr=033977 box=desc win=terrain
 JP: 土の荒れ地{n}消費MV 3{n}荒れた大地 歩きにくい{end}
 EN: Rough dirt{n}MV cost 3{n}Rough and slow{end}
 
-#id 0311 ptr=033999 box=desc win=item
+#id 0311 ptr=033999 box=desc win=terrain
 JP: クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
 EN: Crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0312 ptr=0339B7 box=desc win=item
+#id 0312 ptr=0339B7 box=desc win=terrain
 JP: ピラミッド クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: Pyramid crater{n}MV cost 4{n}High terrain bonus{end}
+EN: Crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0313 ptr=0339DB box=desc win=item
+#id 0313 ptr=0339DB box=desc win=terrain
 JP: すのこ床{n}消費MV 2{n}歩きやすいな{end}
-EN: Slatted floor{n}MV cost 2{n}Easy walking{end}
+EN: Slat floor{n}MV cost 2{n}Easy walking{end}
 
-#id 0314 ptr=0339F2 box=desc win=item
+#id 0314 ptr=0339F2 box=desc win=terrain
 JP: 屋内の湖{n}消費MV 3{n}静かに 波うつ水{end}
 EN: Indoor lake{n}MV cost 3{n}Gently rippling{end}
 
-#id 0315 ptr=033A0F box=desc win=item
+#id 0315 ptr=033A0F box=desc win=terrain
 JP: 屋内の砂地{n}消費MV 5{n}歩きにくく 静かな場所{end}
 EN: Indoor sand{n}MV cost 5{n}Slow and silent{end}
 
-#id 0316 ptr=033A32 box=desc win=item
+#id 0316 ptr=033A32 box=desc win=terrain
 JP: 大理石の床{n}消費MV 2{n}{end}
 EN: Marble floor{n}MV cost 2{n}{end}
 
-#id 0317 ptr=033A46 box=desc win=item
+#id 0317 ptr=033A46 box=desc win=terrain
 JP: 崩れた大理石{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
-EN: Broken marble{n}MV cost 5{n}High terrain bonus{end}
+EN: Marble bits{n}MV cost 5{n}High terrain bonus{end}
 
-#id 0318 ptr=033A6F box=desc win=item
+#id 0318 ptr=033A6F box=desc win=terrain
 JP: 大理石魔方陣{n}消費MV 2{n}不思議な力で 体力が回復します{end}
-EN: Marble magic circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0319 ptr=033A9D box=desc win=item
+#id 0319 ptr=033A9D box=desc win=terrain
 JP: おもちゃのブロック床{n}消費MV 2{n}おもちゃの塔の カラフルな床{end}
-EN: Toy block floor{n}MV cost 2{n}Colorful Toy Tower{end}
+EN: Toy blocks{n}MV cost 2{n}Colorful Toy Tower{end}
 
-#id 0320 ptr=033AC3 box=desc win=item
+#id 0320 ptr=033AC3 box=desc win=terrain
 JP: 乱雑なブロック床{n}消費MV 4{n}ブロックが置かれていて 歩きにくい{end}
-EN: Messy block floor{n}MV cost 4{n}Blocks in the way{end}
+EN: Messy blocks{n}MV cost 4{n}Blocks in the way{end}
 
-#id 0321 ptr=033AEC box=desc win=item
+#id 0321 ptr=033AEC box=desc win=terrain
 JP: ブロック魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: Block magic circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0322 ptr=033B15 box=desc win=item
+#id 0322 ptr=033B15 box=desc win=terrain
 JP: ブロックスイッチ{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
 EN: Block switch{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0323 ptr=033B39 box=desc win=item
+#id 0323 ptr=033B39 box=desc win=terrain
 JP: ブロックワープ{n}消費MV 2{n}遠き場所へ みちびかれます{end}
 EN: Block warp{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0324 ptr=033B5B box=desc win=item
+#id 0324 ptr=033B5B box=desc win=terrain
 JP: ブロッククレーター{n}消費MV 4{n}地形効果が たかいよ{end}
 EN: Block crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0325 ptr=033B7D box=desc win=item
+#id 0325 ptr=033B7D box=desc win=terrain
 JP: 石床魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: Stone magic circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0326 ptr=033BA6 box=desc win=item
+#id 0326 ptr=033BA6 box=desc win=terrain
 JP: 石床ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
-EN: Stone warp panel{n}MV cost 2{n}Leads somewhere far{end}
+EN: Warp panel{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0327 ptr=033BCB box=desc win=item
+#id 0327 ptr=033BCB box=desc win=terrain
 JP: 石床スイッチ{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
 EN: Stone switch{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0328 ptr=033BEF box=desc win=item
+#id 0328 ptr=033BEF box=desc win=terrain
 JP: 鉄の床{n}消費MV 2{n}魔導科学で 創られた金属{end}
 EN: Iron floor{n}MV cost 2{n}Magitech metal{end}
 
-#id 0329 ptr=033C12 box=desc win=item
+#id 0329 ptr=033C12 box=desc win=terrain
 JP: 鉄床魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: Iron magic circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0330 ptr=033C3B box=desc win=item
+#id 0330 ptr=033C3B box=desc win=terrain
 JP: 鉄床ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
-EN: Iron warp panel{n}MV cost 2{n}Leads somewhere far{end}
+EN: Warp panel{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0331 ptr=033C60 box=desc win=item
+#id 0331 ptr=033C60 box=desc win=terrain
 JP: 鉄床スイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
-EN: Iron switch panel{n}MV cost 2{n}Step on to trigger{end}
+EN: Switch panel{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0332 ptr=033C87 box=desc win=item
+#id 0332 ptr=033C87 box=desc win=terrain
 JP: さびた鉄床{n}消費MV 4{n}魔法科学でも さびはとめられない{end}
-EN: Rusty iron floor{n}MV cost 4{n}Even magic rusts{end}
+EN: Rusty iron{n}MV cost 4{n}Even magic rusts{end}
 
-#id 0333 ptr=033CAD box=desc win=item
+#id 0333 ptr=033CAD box=desc win=terrain
 JP: ベルトコンベア{n}消費MV 2{n}魔法科学の力で 動きます{end}
-EN: Conveyor belt{n}MV cost 2{n}Runs on magitech{end}
+EN: Conveyor{n}MV cost 2{n}Runs on magitech{end}
 
-#id 0334 ptr=033CD1 box=desc win=item
+#id 0334 ptr=033CD1 box=desc win=terrain
 JP: ベルトコンベア{n}消費MV 10{n}魔法科学の力で 動きます{end}
-EN: Conveyor belt{n}MV cost 10{n}Runs on magitech{end}
+EN: Conveyor{n}MV cost 10{n}Runs on magitech{end}
 
-#id 0335 ptr=033CF6 box=desc win=item
+#id 0335 ptr=033CF6 box=desc win=terrain
 JP: 鉄床クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
 EN: Iron crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0336 ptr=033D18 box=desc win=item
+#id 0336 ptr=033D18 box=desc win=terrain
 JP: 鉄床のガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
 EN: Iron rubble{n}MV cost 5{n}High terrain bonus{end}
 
-#id 0337 ptr=033D3F box=desc win=item
+#id 0337 ptr=033D3F box=desc win=terrain
 JP: 教会のガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
-EN: Church rubble{n}MV cost 5{n}High terrain bonus{end}
+EN: Rubble{n}MV cost 5{n}High terrain bonus{end}
 
-#id 0338 ptr=033D66 box=desc win=item
+#id 0338 ptr=033D66 box=desc win=terrain
 JP: 教会魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: Church magic circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0339 ptr=033D8F box=desc win=item
+#id 0339 ptr=033D8F box=desc win=terrain
 JP: 教会床クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: Church crater{n}MV cost 4{n}High terrain bonus{end}
+EN: Crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0340 ptr=033DB3 box=desc win=item
+#id 0340 ptr=033DB3 box=desc win=terrain
 JP: 城のワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
-EN: Castle warp panel{n}MV cost 2{n}Leads somewhere far{end}
+EN: Warp panel{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0341 ptr=033DD7 box=desc win=item
+#id 0341 ptr=033DD7 box=desc win=terrain
 JP: 城のスイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
-EN: Castle switch{n}MV cost 2{n}Step on to trigger{end}
+EN: Switch panel{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0342 ptr=033DFD box=desc win=item
+#id 0342 ptr=033DFD box=desc win=terrain
 JP: 城の石床{n}消費MV2{n}りっぱな 石の床{end}
-EN: Castle stone floor{n}MV cost 2{n}Grand stone floor{end}
+EN: Castle stone{n}MV cost 2{n}Grand stone floor{end}
 
-#id 0343 ptr=033E18 box=desc win=item
+#id 0343 ptr=033E18 box=desc win=terrain
 JP: ピラミッドの床{n}消費MV 2{n}ふしぎな模様が刻まれてます{end}
-EN: Pyramid floor{n}MV cost 2{n}Odd patterns carved{end}
+EN: Pyramid tile{n}MV cost 2{n}Odd patterns carved{end}
 
-#id 0344 ptr=033E3B box=desc win=item gloss=off
+#id 0344 ptr=033E3B box=desc win=terrain
 JP: ピラミッド魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: Pyramid circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0345 ptr=033E65 box=desc win=item
+#id 0345 ptr=033E65 box=desc win=terrain
 JP: ピラミッドスイッチ{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
-EN: Pyramid switch{n}MV cost 2{n}Step on to trigger{end}
+EN: Switch panel{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0346 ptr=033E8A box=desc win=item
+#id 0346 ptr=033E8A box=desc win=terrain
 JP: ピラミッドワープ{n}消費MV 2{n}遠き場所へ みちびかれます{end}
 EN: Pyramid warp{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0347 ptr=033EAD box=desc win=item
+#id 0347 ptr=033EAD box=desc win=terrain
 JP: 教会の床{n}消費MV 2{n}ワックスでピカピカ{end}
 EN: Church floor{n}MV cost 2{n}Waxed to a shine{end}
 
-#id 0348 ptr=033EC8 box=desc win=item
+#id 0348 ptr=033EC8 box=desc win=terrain
 JP: 教会クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: Church crater{n}MV cost 4{n}High terrain bonus{end}
+EN: Crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0349 ptr=033EEA box=desc win=item
+#id 0349 ptr=033EEA box=desc win=terrain
 JP: 教会魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: Church magic circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0350 ptr=033F13 box=desc win=item
+#id 0350 ptr=033F13 box=desc win=terrain
 JP: 城魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: Castle magic circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0351 ptr=033F3A box=desc win=item
+#id 0351 ptr=033F3A box=desc win=terrain
 JP: ピラミッドのガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
-EN: Pyramid rubble{n}MV cost 5{n}High terrain bonus{end}
+EN: Rubble{n}MV cost 5{n}High terrain bonus{end}
 
-#id 0352 ptr=033F62 box=desc win=item
+#id 0352 ptr=033F62 box=desc win=terrain
 JP: シーソー 出{n}消費MV 2{n}ユニットが 飛ばされます{end}
-EN: Seesaw (up){n}MV cost 2{n}Launches units{end}
+EN: Seesaw up{n}MV cost 2{n}Launches units{end}
 
-#id 0353 ptr=033F81 box=desc win=item
+#id 0353 ptr=033F81 box=desc win=terrain
 JP: シーソー 引{n}消費MV 2{n}ユニットが 飛ばされます{end}
-EN: Seesaw (down){n}MV cost 2{n}Launches units{end}
+EN: Seesaw down{n}MV cost 2{n}Launches units{end}
 
-#id 0354 ptr=033FA0 box=desc win=item
+#id 0354 ptr=033FA0 box=desc win=terrain
 JP: まぼろしの床{n}消費MV 2{n}ぶきみな床{end}
-EN: Phantom floor{n}MV cost 2{n}An eerie floor{end}
+EN: Ghost floor{n}MV cost 2{n}An eerie floor{end}
 
-#id 0355 ptr=033FB8 box=desc win=item gloss=off
+#id 0355 ptr=033FB8 box=desc win=terrain
 JP: まぼろしの魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: Phantom circle{n}MV cost 2{n}Its power heals HP{end}
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0356 ptr=033FE2 box=desc win=item
+#id 0356 ptr=033FE2 box=desc win=terrain
 JP: 輝く大理石{n}消費MV 2{n}こうごうしい 輝きを放ってます{end}
-EN: Shining marble{n}MV cost 2{n}A holy radiance{end}
+EN: Holy marble{n}MV cost 2{n}A holy radiance{end}
 
-#id 0357 ptr=034007 box=desc win=item
+#id 0357 ptr=034007 box=desc win=terrain
 JP: 室内の柱{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: Indoor pillar{n}MV cost 4{n}High terrain bonus{end}
+EN: Pillar{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0358 ptr=034027 box=desc win=item
+#id 0358 ptr=034027 box=desc win=terrain
 JP: 民家{n}侵入不可{n}ご用のかたは 玄関にどうぞ{end}
 EN: House{n}Impassable{n}Use the entrance{end}
 
-#id 0359 ptr=034046 box=desc win=item
+#id 0359 ptr=034046 box=desc win=terrain
 JP: ジェネレータ{n}消費MV 3{n}敵が発生する 危険な場所{end}
 EN: Generator{n}MV cost 3{n}Spawns enemies!{end}
 
-#id 0360 ptr=03406A box=desc win=item
+#id 0360 ptr=03406A box=desc win=terrain
 JP: ジェネレータ{n}侵入不可{n}敵が発生する 危険な場所{end}
 EN: Generator{n}Impassable{n}Spawns enemies!{end}
 
-#id 0361 ptr=03408E box=desc win=item
+#id 0361 ptr=03408E box=desc win=terrain
 JP: 教会のドア{n}侵入不可{n}勝手に開けては いけません{end}
 EN: Church door{n}Impassable{n}Not yours to open{end}
 
-#id 0362 ptr=0340B0 box=desc win=item
+#id 0362 ptr=0340B0 box=desc win=terrain
 JP: 教会の祭壇{n}侵入不可{n}神父さんいがいは 近寄っちゃダメ{end}
 EN: Church altar{n}Impassable{n}Priests only!{end}
 
-#id 0363 ptr=0340D8 box=desc win=item
+#id 0363 ptr=0340D8 box=desc win=terrain
 JP: 教会{n}侵入不可{n}聖ガウディ教会です{end}
 EN: Church{n}Impassable{n}St. Gaudi Church{end}
 
-#id 0364 ptr=0340F3 box=desc win=item
+#id 0364 ptr=0340F3 box=desc win=terrain
 JP: パズルパネル2{n}侵入不可{n}おなじ絵柄を そろえよう{end}
-EN: Puzzle panel 2{n}Impassable{n}Match the pictures{end}
+EN: Puzzle 2{n}Impassable{n}Match the pictures{end}
 
-#id 0365 ptr=034113 box=desc win=item
+#id 0365 ptr=034113 box=desc win=terrain
 JP: パズルパネル1{n}消費MV 2{n}敵を倒すと パネルが変わります{end}
-EN: Puzzle panel 1{n}MV cost 2{n}Defeat foes to flip{end}
+EN: Puzzle 1{n}MV cost 2{n}Defeat foes to flip{end}
 
-#id 0366 ptr=034137 box=desc win=item
+#id 0366 ptr=034137 box=desc win=terrain
 JP: 玉座{n}侵入不可{n}王様いがいは 近寄っちゃダメ{end}
 EN: Throne{n}Impassable{n}For the king only!{end}
 
-#id 0367 ptr=034158 box=desc win=item
+#id 0367 ptr=034158 box=desc win=terrain
 JP: ジャスバン像{n}侵入不可{n}天使の彫像です{end}
-EN: Jasvan statue{n}Impassable{n}An angel statue{end}
+EN: Statue{n}Impassable{n}Jasvan's angel{end}
 
-#id 0368 ptr=034175 box=desc win=item
+#id 0368 ptr=034175 box=desc win=terrain
 JP: 危険な穴{n}侵入不可{n}底はふかいぞ 近付かないように{end}
-EN: Dangerous pit{n}Impassable{n}Deep! Stay away{end}
+EN: Deep pit{n}Impassable{n}Deep! Stay away{end}
 
-#id 0369 ptr=034199 box=desc win=item
+#id 0369 ptr=034199 box=desc win=terrain
 JP: しょく台{n}侵入不可{n}ロウソクをたてる台です{end}
 EN: Candlestand{n}Impassable{n}Holds candles{end}
 
-#id 0370 ptr=0341B5 box=desc win=item
+#id 0370 ptr=0341B5 box=desc win=terrain
 JP: 合体の神殿{n}不思議な壺の力で ユニットを{n}合体させる 神聖なる場所{end}
-EN: Fusion Temple{n}Its magic pot fuses{n}units. A holy site.{end}
+EN: Fusion hall{n}Its magic pot fuses{n}units. A holy site.{end}
 
-#id 0371 ptr=0341E6 box=desc win=item
+#id 0371 ptr=0341E6 box=desc win=terrain
 JP: 宝箱{n}侵入不可{n}なにかいいもの はいっているかな?{end}
 EN: Chest{n}Impassable{n}Something good?{end}
 
-#id 0372 ptr=034206 box=desc win=item
+#id 0372 ptr=034206 box=desc win=terrain
 JP: 宝箱{n}侵入不可{n}箱の中身は 空っぽです{end}
 EN: Chest{n}Impassable{n}It's empty{end}
 
-#id 0373 ptr=034224 box=desc win=item
+#id 0373 ptr=034224 box=desc win=terrain
 JP: 開いた扉{n}消費MV 2{n}どうぞ お通りください{end}
 EN: Open door{n}MV cost 2{n}Please, go through{end}
 
-#id 0374 ptr=034241 box=desc win=item
+#id 0374 ptr=034241 box=desc win=terrain
 JP: 閉じた扉{n}侵入不可{n}扉を開けなきゃ 通れません{end}
 EN: Closed door{n}Impassable{n}Open it to pass{end}
 
-#id 0375 ptr=034262 box=desc win=item
+#id 0375 ptr=034262 box=desc win=terrain
 JP: 王室の紋章{n}侵入不可{n}王室のシンボル{end}
 EN: Royal crest{n}Impassable{n}Symbol of royalty{end}
 
-#id 0376 ptr=03427F box=desc win=item
+#id 0376 ptr=03427F box=desc win=terrain
 JP: 玄関{n}消費MV 2{n}ご用の方は こちらへどうぞ{end}
 EN: Entrance{n}MV cost 2{n}Visitors, this way{end}
 
-#id 0377 ptr=03429D box=desc win=item
+#id 0377 ptr=03429D box=desc win=terrain
 JP: 階段{n}侵入不可{n}上や下にみちびく 場所{end}
 EN: Stairs{n}Impassable{n}Lead up or down{end}
 
-#id 0378 ptr=0342BB box=desc win=item
+#id 0378 ptr=0342BB box=desc win=terrain
 JP: 虹色の魔石{n}侵入不可{n}妖しげな光をはなつ魔石{end}
-EN: Rainbow Jewel{n}Impassable{n}It glows eerily{end}
+EN: Jewel{n}Impassable{n}Eerie Rainbow Jewel{end}
 
-#id 0379 ptr=0342DE box=desc win=item
+#id 0379 ptr=0342DE box=desc win=terrain
 JP: 魔石の台座{n}侵入不可{n}魔石のならびは虹の色{end}
-EN: Jewel pedestal{n}Impassable{n}Order: rainbow{end}
+EN: Pedestal{n}Impassable{n}Rainbow Jewel order{end}
 
-#id 0380 ptr=034300 box=desc win=item
+#id 0380 ptr=034300 box=desc win=terrain
 JP: パネルスイッチ{n}消費MV 2{n}スイッチに乗ると パネルが変わる{end}
 EN: Panel switch{n}MV cost 2{n}Flips the panels{end}
 
-#id 0381 ptr=034324 box=desc win=item
+#id 0381 ptr=034324 box=desc win=terrain
 JP: 教会の椅子{n}消費MV 4{n}ここに座って お話しをききます{end}
 EN: Church pew{n}MV cost 4{n}Sit and listen{end}
 
-#id 0382 ptr=034349 box=desc win=item
+#id 0382 ptr=034349 box=desc win=terrain
 JP: 洞窟クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
 EN: Cave crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0383 ptr=03436B box=desc win=item
+#id 0383 ptr=03436B box=desc win=terrain
 JP: 未設定{end}
 EN: Unset{end}
 

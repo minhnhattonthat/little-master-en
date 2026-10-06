@@ -56,6 +56,10 @@ org $00C20E               ; tilemap upload request; was: PHP / SEP #$20 / INC $5
     JML vwf_c20e
     NOP
 
+org $01ECCC               ; bank-01 copy of it (menus: hospital, shop, items; every frame); same bytes
+    JML vwf_eccc
+    NOP
+
 org $C08000
 vwf_glyphs:   skip $600   ; filled by lm.py build: 95 x 16 bytes, chars $20-$7E
 vwf_widths:   skip $60    ; filled by lm.py build: 95 bytes
@@ -196,20 +200,31 @@ vwf_draw:                 ; A = char; draws glyph at (!line, $09FC, !px); advanc
     RTS
 
 vwf_c20e:                 ; game asks for a tilemap upload: send dirty VWF tiles first ($57 = one command per frame)
+    JSR vwf_flush
+    PHP                                          ; replayed: PHP / SEP #$20 / INC $57
+    SEP #$20
+    INC $57
+    JML $00C213
+
+vwf_eccc:
+    JSR vwf_flush
+    PHP                                          ; replayed: PHP / SEP #$20 / INC $57
+    SEP #$20
+    INC $57
+    JML $01ECD1
+
+vwf_flush:                ; if !slots changed: NMI upload !slots -> VRAM $6C00 ($57 = $FE), wait one frame
     PHP
     REP #$20
     PHA
     LDA.l !dirty : BEQ +
     LDA #$0000 : STA.l !dirty
-    LDA #$6C00 : STA $78                         ; NMI: !slots -> VRAM $6C00
+    LDA #$6C00 : STA $78
     SEP #$20 : LDA #$FE : STA $57 : REP #$20
-    JSL $00E3BE                                  ; wait one frame for it
+    JSL $00E3BE
 +   PLA
     PLP
-    PHP                                          ; replayed: PHP / SEP #$20 / INC $57
-    SEP #$20
-    INC $57
-    JML $00C213
+    RTS
 
 ; ---------------------------------------------------------------- newline / cursor / clear
 vwf_newline:

@@ -59,8 +59,9 @@ def _pages(text):
     return [p.split("{n}") for p in re.split(r"\{clear:[0-9A-Fa-f]{2}\}", text)]
 
 
-def _controls(text):
-    return Counter(tok for name, tok in _tokens(text) if name and name not in LAYOUT)
+def _controls(text, repos=False):
+    """Control codes that must match JP; repos: cursor positions may move (count {pXX} codes, not their arguments)."""
+    return Counter("{p}" if repos and POS.fullmatch(tok) else tok for name, tok in _tokens(text) if name and name not in LAYOUT)
 
 
 HEADER = re.compile(r"^\{p7F:([0-9A-Fa-f]{2})\}")
@@ -106,8 +107,9 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
                 k += 1
                 if win.get("px") and _px(line, widths) > win["px"]:
                     out.append(f"#{e.id}: line {k} is {_px(line, widths)} px > {win['px']}")
-                if win.get("cells") and _cells(line) > win["cells"]:
-                    out.append(f"#{e.id}: line {k} is {_cells(line)} cells > {win['cells']}")
+                cap = win.get("first_cells") if k == 1 and win.get("first_cells") else win.get("cells")   # first_cells:
+                if cap and _cells(line) > cap:                                                   # line 1 is indented
+                    out.append(f"#{e.id}: line {k} is {_cells(line)} cells > {cap}")
         if win.get("lines"):
             jp_pages = _pages(e.jp)
             cap = win.get("cells") or (win["px"] // 8 if win.get("px") else None)
@@ -129,7 +131,8 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
             ui += tok
     if ui:
         out.append(f"#{e.id}: lowercase under {{cF1}} palette draws UI graphics: '{ui}'")
-    jc, ec = _controls(e.jp), _controls(e.en)
+    repos = "repos" in e.meta                   # repos: a value moved on its screen row (budget still per segment)
+    jc, ec = _controls(e.jp, repos), _controls(e.en, repos)
     if jc != ec:
         out.append(f"#{e.id}: control codes differ: missing {sorted((jc - ec).elements())} extra {sorted((ec - jc).elements())}")
     flat = re.sub(r"\{(n|delay:[0-9A-Fa-f]{2})\}", " ", e.en).replace("_", " ")

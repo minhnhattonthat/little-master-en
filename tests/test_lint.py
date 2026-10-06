@@ -143,3 +143,17 @@ def test_name_constants_cover_the_name_tables():
 def test_scroll_and_clear_count_in_control_parity():
     e = Entry(23, 0, {}, "あ{scroll:00}{end}", "A{end}")
     assert lint_entry(e, "wide", WID, W, {}) == ["#23: control codes differ: missing ['{scroll:00}'] extra []"]
+
+
+def test_repos_meta_lets_positions_move():
+    e = Entry(24, 0, {}, "{p19:18}ステレオ{end}", "{p18:18}Stereo{end}")
+    assert lint_entry(e, "wide", WID, W, {}) != []
+    e.meta["repos"] = "1"
+    e.jp = "{p19:18}ステレオ  {end}"
+    assert lint_entry(e, "wide", WID, W, {}) == []
+
+
+def test_first_line_cell_limit():
+    win = {"t": {"px": 999, "cells": 19, "first_cells": 12, "lines": 3}}
+    e = Entry(25, 0, {}, "魔方陣{n}消費MV 2{n}あ{end}", "Frozen circle{n}MV cost 2{n}Heals{end}")
+    assert lint_entry(e, "t", WID, win, {}) == ["#25: line 1 is 13 cells > 12"]

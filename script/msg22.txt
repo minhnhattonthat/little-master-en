@@ -1,158 +1,158 @@
 #id 0000 ptr=11201F box=summary
 JP: ライナーク城へむかう途中、リイムはパズタ村にピーコックを おくりとどけることにした。{n}そこでリイムは魔獣盗賊団スカルボンバーズと遭遇することになる。 急げ勇者軍!{n}襲い来るボンバーズをけちらして、村を守れ!{goto:00B222}
-EN: Heading for Castle Rainark,{n}Reem escorts Peacock home{n}to Pazuta Village, where he{n}meets the Skull Bombers, a{n}gang of Beast Bandits.{n}Hurry, Heroes! Drive off the{n}Bombers, save the village!{goto:00B222}
+EN: En route to Rainark, Reem{n}takes Peacock to Pazuta{n}and meets the Beast{n}Bandits' Skull Bombers!{n}Heroes, save the village!{goto:00B222}
 
 #id 0001 ptr=11209E box=summary
 JP: マテドラル城へとむかう勇者軍。途中でたち寄った村にも 敵の魔の手がのびていた。{n}スカルボンバーズを撃ち払い、村を救え!{n}海や空のユニットは水路でも動けるぞ。{n}うまく活用しよう。{goto:00B222}
-EN: On the way to Matedral, the{n}Heroes stop at a village{n}already in the enemy's grip.{n}Beat the Skull Bombers and{n}save the village! Sea and{n}sky units can cross water.{n}Use them well.{goto:00B222}
+EN: Heading to Matedral, the{n}Heroes find a village in{n}enemy hands. Save it!{n}Sea and sky units can{n}cross water. Use them!{goto:00B222}
 
 #id 0002 ptr=112111 box=summary
 JP: ときおり発生するたつまきは ユニットを弾き飛ばし、弾かれたユニットは どこか別の場所に飛ばされちゃう。{n}残りの体力に気をつけながら たたかおう。{n}敵のスカルパイレーツは水路も移動できるよ。ごようじん。{goto:00B222}
-EN: Whirlwinds strike now and{n}then, flinging units off to{n}somewhere else entirely.{n}Watch your HP as you fight.{n}The enemy's Skull Pirates{n}can cross water. Careful!{goto:00B222}
+EN: Whirlwinds strike now and{n}then, flinging units far{n}away. Watch your HP! The{n}enemy's Skull Pirates can{n}cross water. Careful!{goto:00B222}
 
 #id 0003 ptr=11218C box=summary
 JP: 雨が降ると水たまりが出来ちゃう。{n}水たまりの出来る場所は 毎回変わるよ。水たまりにつかまると 陸のユニットは{n}うごけなくなっちゃうよ。{n}しばらくすると蒸発してなくなっちゃうから、{n}それまで辛抱してね。{goto:00B222}
-EN: When it rains, puddles form,{n}in a new spot each time.{n}Land units caught in one{n}can't move! The puddles dry{n}up after a while, so just{n}hang on until then.{goto:00B222}
+EN: Rain makes puddles, in a{n}new spot each time. Land{n}units in one can't move!{n}They dry up in time, so{n}just hang on until then.{goto:00B222}
 
 #id 0004 ptr=112208 box=summary
 JP: スカルボンバーズが村を襲ってる!{n}家が全部壊される前にオークをやっつけよう。オークをやっつけたタイミングでいいものが貰えるよ。{n}もちろん、はやくやっつけたほうがお得です。{goto:00B222}
-EN: Skull Bombers are raiding{n}the village! Beat the Orcs{n}before every house is gone.{n}You get a prize when you{n}beat them, and the sooner,{n}the better the prize.{goto:00B222}
+EN: Skull Bombers raid the{n}village! Beat the Orcs{n}before every house falls.{n}Win sooner for a better{n}prize!{goto:00B222}
 
 #id 0005 ptr=11226B box=summary
 JP: 勇者軍はジャスバン遺跡へむかう。{n}スカルボンバーズが、そしてヴァイス盗掘団がねらう秘宝とはなにか?{n}入り口をガードする魔物を倒して、{n}洞窟へ急げ!{goto:00B222}
-EN: The Heroes head for the{n}Jasvan Ruins. What treasure{n}are the Skull Bombers and{n}Weiss's tomb raiders after?{n}Beat the guards at the{n}entrance and hurry inside!{goto:00B222}
+EN: The Heroes head for the{n}Jasvan Ruins. What do the{n}Bombers and Weiss want?{n}Beat the entrance guards{n}and hurry inside!{goto:00B222}
 
 #id 0006 ptr=1122CB box=summary
 JP: 足あとマークのパネルは スイッチパネル。{n}このパネルをふむと 何かがおこるぞ。{n}MAPで 行けないところがあったら スイッチを{n}ふむんだ。じょうずにつかってルートをきり開こう!{goto:00B222}
-EN: Panels with footprints are{n}switch panels. Step on one{n}and something will happen!{n}If you can't reach a place{n}on the map, find a switch.{n}Use them to open a path!{goto:00B222}
+EN: Footprint panels are{n}switch panels: step on{n}one and see what happens!{n}Can't reach a spot? Find{n}a switch to open a path!{goto:00B222}
 
 #id 0007 ptr=11232C box=summary
 JP: 床から針が とびだすぞ!{n}針はふんづけると 2ポイントのダメージ。{n}残りHPに 注意しながらすすもう。{goto:00B222}
-EN: Spikes shoot up from the{n}floor! Stepping on them does{n}2 points of damage. Keep an{n}eye on your HP as you go.{goto:00B222}
+EN: Spikes shoot up from the{n}floor! Stepping on them{n}does 2 damage, so keep{n}an eye on your HP.{goto:00B222}
 
 #id 0008 ptr=11236A box=summary
 JP: 巨大なたつまきが勇者軍を襲う!{n}ときおり現れる たつまきは{n}敵味方すべてのユニットを 弾き飛ばすゾ。{n}弾かれたユニットは どこか別の場所に{n}飛ばされちゃう。{n}まとまって行動すると 危険だよ。{goto:00B222}
-EN: A giant whirlwind strikes{n}the Heroes! The whirlwinds{n}that appear now and then{n}fling every unit, friend or{n}foe, somewhere else. It's{n}risky to move in a group.{goto:00B222}
+EN: Giant whirlwinds hit the{n}Heroes! They fling every{n}unit, friend or foe, far{n}away. Moving in a group{n}is risky.{goto:00B222}
 
 #id 0009 ptr=1123E3 box=summary
 JP: タイフーン地方を後にしたリイム達に{n}マテドラル襲撃の知らせがはいる。{n}スカルボンバーズが待ち構える王城に{n}乗り込んでゆく勇者軍。{n}正面突破で魔物を掃討せよ。{goto:00B222}
-EN: As Reem's party leaves the{n}Typhoon region, word comes{n}that Matedral is under{n}attack. The Heroes storm the{n}castle where the Skull{n}Bombers wait. Break through{n}and wipe out the monsters!{goto:00B222}
+EN: Leaving Typhoon, Reem's{n}party hears Matedral is{n}attacked! Heroes, storm{n}the Bombers' castle and{n}wipe out the monsters!{goto:00B222}
 
 #id 0010 ptr=11244E box=summary
 JP: あちこちに仕掛けられた 地雷をふむと{n}ダメージをうけてしまうぞ。{n}ドコに地雷が仕掛けられているかは わからない。{n}移動するときは HPに気をつけろ。{goto:00B222}
-EN: Mines are hidden all over.{n}Step on one and you'll take{n}damage. Nobody knows where{n}they are, so mind your HP{n}whenever you move.{goto:00B222}
+EN: Mines are hidden around.{n}Step on one and you take{n}damage. Nobody knows{n}where, so mind your HP{n}whenever you move.{goto:00B222}
 
 #id 0011 ptr=1124A8 box=summary
 JP: 太古に仕掛けられたワナが{n}勇者軍を待ち受ける‥‥{n}ジェネレーターから出現する敵を振りきって、{n}ピラミッド深部へと進もう。{goto:00B222}
-EN: Ancient traps lie in wait{n}for the Heroes... Shake off{n}the enemies pouring out of{n}the generators and push deep{n}into the pyramid.{goto:00B222}
+EN: Ancient traps await the{n}Heroes... Shake off the{n}foes pouring from the{n}generators and push deep{n}into the pyramid.{goto:00B222}
 
 #id 0012 ptr=1124F9 box=summary
 JP: クルクルの森は 迷いの森。{n}うっかり足をふみ入れると 迷っちゃうぞ。{n}カンバンをたよりに進んでいこう。{goto:00B222}
-EN: Kurukuru Forest is a maze.{n}Wander in carelessly and{n}you'll get lost. Follow the{n}signposts as you go.{goto:00B222}
+EN: Kurukuru Forest is a{n}maze. Wander in and{n}you'll get lost. Follow{n}the signposts!{goto:00B222}
 
 #id 0013 ptr=112538 box=summary
 JP: バルバル鳥を捕まえろ!{n}飛んでくる鳥に ユニットをかさねればOKだ。{n}みごと鳥を捕まえると‥‥{n}{goto:AAB122}
-EN: Catch the Barbar Bird!{n}Move a unit onto the bird{n}as it flies over. If you{n}manage to catch it...{n}{goto:AAB122}
+EN: Catch the Barbar Bird!{n}Move a unit onto the bird{n}as it flies over. If you{n}manage to catch it...{goto:AAB122}
 
 #id 0014 ptr=112573 box=summary
 JP: おもちゃの塔を進んでいこう。{n}閉ざされた扉を開くスイッチがどこかにあるはず。箱を開けて、捜してみよう。{n}なにがでるかは おたのしみ。{goto:00B222}
-EN: Make your way up the Toy{n}Tower. Somewhere there's a{n}switch that opens the locked{n}doors. Open the boxes and{n}search. What's inside?{n}That's the fun part!{goto:00B222}
+EN: Climb the Toy Tower. A{n}switch somewhere opens{n}the locked doors. Search{n}the boxes. What's inside?{n}That's the fun part!{goto:00B222}
 
 #id 0015 ptr=1125C2 box=summary
 JP: シーソーを使って壁をとびこえよう。{n}とばしたいユニットをシーソーに乗せて、{n}対になっているシーソーにユニットを乗っければOK。シーソーのとび先は決まっているから、よく観察して進んでいこう。‥‥でも御用心。シーソーは敵がのっかってもトバされちゃうからね。{goto:00B222}
-EN: Use the seesaws to jump the{n}walls. Put a unit on one{n}seesaw, then put a unit on{n}its partner. Each seesaw{n}always sends you to the same{n}spot, so look before you{n}leap... Careful, though:{n}enemies get launched too!{goto:00B222}
+EN: Jump walls with seesaws:{n}put a unit on a seesaw,{n}then one on its partner.{n}Each always lands in the{n}same spot. Foes fly too!{goto:00B222}
 
 #id 0016 ptr=112653 box=summary
 JP: おもちゃの塔がおかしくなったのは{n}やはり、ボンバーズの仕業だった。{n}魔物のボスを やっつけて、{n}おもちゃの塔を とりもどせ!{goto:00B222}
-EN: The Bombers were behind the{n}trouble at the Toy Tower{n}after all. Beat the monster{n}boss and take back the Toy{n}Tower!{goto:00B222}
+EN: The Bombers were behind{n}the Toy Tower trouble{n}after all! Beat the boss{n}and take the tower back!{goto:00B222}
 
 #id 0017 ptr=11269C box=summary
 JP: オーサムを訪れた勇者軍は、{n}雪の魔物に遭遇する。{n}雪だるまに かくされた秘密をあばいて、{n}村を救え!{n}ボスが雪玉をなげてくるよ。雪玉にあたると{n}15のダメージ。恐怖の雪合戦のはじまりだあ。{goto:00B222}
-EN: In Ausam, the Heroes run{n}into snow monsters. Uncover{n}the snowmen's secret and{n}save the village! The boss{n}throws snowballs that do 15{n}damage. Let the snowball{n}fight of terror begin!{goto:00B222}
+EN: In Ausam, the Heroes meet{n}snow monsters. Solve the{n}snowmen's secret! Boss{n}snowballs do 15 damage.{n}Snowball fight time!{goto:00B222}
 
 #id 0018 ptr=112716 box=summary
 JP: パネルをふんで、クイズに答えよう。{n}正解すれば ゲートが開く。{n}でも、答えを間違うとパネルに落とし穴が‥‥{n}全問正解で 豪華な商品プレゼント!{n}さあ、チャレンジしてください。{goto:E2B122}
-EN: Step on the panels and{n}answer the quiz. Get it{n}right and a gate opens, but{n}answer wrong and a pit{n}opens under you... Answer{n}them all for a deluxe prize!{n}Go on, take the challenge!{goto:E2B122}
+EN: Step on panels to answer{n}the quiz. Right opens a{n}gate, wrong opens a pit!{n}Answer all for a deluxe{n}prize. Go for it!{goto:E2B122}
 
 #id 0019 ptr=112783 box=summary
 JP: 部屋の中には 2つのスイッチ。{n}一つは扉がひらくけど、{n}もう一つは 大爆発の自爆スイッチ!{n}さあ、どっちを選ぶ?{goto:00B222}
-EN: There are 2 switches in the{n}room. One opens the door,{n}the other is a self-destruct{n}switch! Which will it be?{goto:00B222}
+EN: There are 2 switches in{n}the room. One opens the{n}door, the other is a{n}self-destruct switch!{n}Which will it be?{goto:00B222}
 
 #id 0020 ptr=1127CC box=summary
 JP: 砂地に隠されたスイッチを捜し出そう。{n}サーチコマンドで砂地を捜せ!{n}スイッチが いっぱい隠されてるぞ。{n}でも、なかには ふんじゃいけないスイッチも‥‥{goto:00B222}
-EN: Find the switches hidden in{n}the sand. Use the Search{n}command on sandy ground!{n}There are lots of switches,{n}but some of them you should{n}never step on...{goto:00B222}
+EN: Find switches hidden in{n}the sand. Use Search on{n}sandy ground! But some of{n}the many switches should{n}never be stepped on...{goto:00B222}
 
 #id 0021 ptr=112825 box=summary
 JP: ひょんなことから、ソロモンの塔裏庭に出た{n}勇者軍。どこかに扉をひらくスイッチがあるぞ。{n}木の葉が邪魔だけど、くまなく捜してみよう{n}DR.スカルのしかけた謎を説き明かし、{n}秘密の入り口を閉ざす扉を あけ放て!{goto:00B222}
-EN: By a fluke, the Heroes end{n}up in the back garden of the{n}Tower of Solomon. A switch{n}somewhere opens the door.{n}The leaves are in the way,{n}but search everywhere. Solve{n}Dr. Skull's riddle and open{n}the secret entrance!{goto:00B222}
+EN: The Heroes land in the{n}Tower of Solomon garden.{n}Search past the leaves,{n}solve Dr. Skull's riddle,{n}and open the secret door!{goto:00B222}
 
 #id 0022 ptr=1128A8 box=summary
 JP: ワープパネルは、ユニットを別な場所に{n}おくりこむ仕掛け。{n}パネルをふんで ワープしよう。{n}敵もパネルで つぎつぎにワープしてくるぞ。{n}ワープパネルのつながりを はあくして{n}最短ルートで ボスを目指そう!{goto:00B222}
-EN: Warp panels send units to{n}another place. Step on one{n}to warp. Enemies will keep{n}warping in on them too!{n}Learn where each panel leads{n}and take the shortest route{n}to the boss!{goto:00B222}
+EN: Warp panels send units{n}elsewhere. Foes keep{n}warping in too! Learn{n}where each leads and take{n}the quickest route!{goto:00B222}
 
 #id 0023 ptr=11291C box=summary
 JP: ベルトコンベアが作動すると、{n}乗っかっている ユニットが運ばれちゃうよ。{n}スイッチを使って、ベルトコンベアの流れる{n}方向を コントロールしよう。{goto:00B222}
-EN: When the conveyor belts run,{n}any unit on them gets{n}carried along. Use the{n}switches to set which way{n}the belts move.{goto:00B222}
+EN: Running conveyor belts{n}carry any unit on them.{n}Use the switches to set{n}which way the belts move.{goto:00B222}
 
 #id 0024 ptr=112971 box=summary
 JP: 塔の最上階にたどりついた勇者軍。ボスは同じターンで倒さないと、復活しちゃうよ。主力を二分して、ボスに挑もう!{goto:00B222}
-EN: The Heroes reach the top of{n}the tower. Unless the bosses{n}fall on the same turn, they{n}come back! Split your forces{n}and take them on together!{goto:00B222}
+EN: The Heroes reach the top.{n}Unless the bosses fall on{n}the same turn, they come{n}back! Split up and take{n}them on together!{goto:00B222}
 
 #id 0025 ptr=1129BC box=summary
 JP: ソロモンを出た勇者軍を{n}待ち受けていたのは、{n}マテドラルの粛正部隊だった。{n}想像を絶する ボスの攻撃に恐怖せよ!{n}{goto:00B222}
-EN: Waiting for the Heroes as{n}they left Solomon was a{n}Matedral purge squad.{n}Tremble before the boss's{n}unthinkable attacks!{n}{goto:00B222}
+EN: Leaving Solomon, the{n}Heroes meet a Matedral{n}purge squad. Tremble at{n}the boss's unthinkable{n}attacks!{goto:00B222}
 
 #id 0026 ptr=112A0B box=summary
 JP: ライナーク城を襲ったのは、{n}マテドラルの軍勢だった。{n}粛正部隊をけちらして、王室へ急げ!{n}{goto:00B222}
-EN: Castle Rainark was attacked{n}by Matedral's army! Scatter{n}the purge squad and hurry to{n}the royal chamber!{n}{goto:00B222}
+EN: Matedral's army attacks{n}Castle Rainark! Scatter{n}the purge squad and hurry{n}to the royal chamber!{goto:00B222}
 
 #id 0027 ptr=112A48 box=summary
 JP: マテドラルへ急ぐ勇者軍。{n}クレパス氷河を通ることになったが、{n}そこにはすでに 魔物の軍勢が‥‥{n}ボスの引き起こす地震ですべっちゃうぞ。{goto:00B222}
-EN: Hurrying to Matedral, the{n}Heroes must cross the{n}Crevasse Glacier, but an{n}army of monsters is already{n}there... The boss's quakes{n}will send you sliding!{goto:00B222}
+EN: Rushing to Matedral, the{n}Heroes cross Crevasse{n}Glacier, but monsters are{n}already there! The boss's{n}quakes make you slide!{goto:00B222}
 
 #id 0028 ptr=112A9F box=summary
 JP: 裏切りの軍勢をけちらして、王室へ急げ!北西の小島には、たのもしい援軍がいるぞ。スイッチをふんで、はね橋をかけよう。{goto:00B222}
-EN: Scatter the traitors' army{n}and hurry to the royal{n}chamber! On the islet to the{n}northwest, allies await.{n}Step on the switch to lower{n}the drawbridge.{goto:00B222}
+EN: Scatter the traitors and{n}rush to the king's room!{n}Allies wait on the NW{n}islet. Step on the switch{n}to lower the drawbridge.{goto:00B222}
 
 #id 0029 ptr=112AEB box=summary
 JP: ボンバーズが森に火をはなつぞ。{n}炎をふむと、大ダメージ。{n}燃える森から脱出して、{n}ライモスの神殿を目指せ!{goto:00B222}
-EN: The Bombers set the forest{n}ablaze! Stepping into the{n}flames does heavy damage.{n}Escape the burning forest{n}and make for Laimos Temple!{goto:00B222}
+EN: The Bombers set the woods{n}ablaze! Flames do heavy{n}damage. Escape the fire{n}and make for Laimos{n}Temple!{goto:00B222}
 
 #id 0030 ptr=112B31 box=summary
 JP: ライモスの神殿にまちうける魔物の軍勢。{n}ボスがサイコロをふるよ。{n}サイコロの出目で なにかがおこる!?{n}{goto:00B222}
-EN: A monster army waits at{n}Laimos Temple. The boss{n}rolls a die. What happens{n}depends on the number!?{n}{goto:00B222}
+EN: Monsters wait at Laimos{n}Temple. The boss rolls a{n}die. What happens depends{n}on the number!?{goto:00B222}
 
 #id 0031 ptr=112B72 box=summary
 JP: パズルパネルの上で戦うんだ。{n}じょうずにパネルの上で敵を倒せば、{n}パズルパネルの絵がかわるぞ。{n}{n}パネルの絵を全部そろえると‥{n}{goto:00B222}
-EN: Fight on the puzzle panels.{n}Beat enemies on the right{n}panels and their pictures{n}change.{n}{n}Match all the pictures...{n}{goto:00B222}
+EN: Fight on puzzle panels.{n}Beat foes on the right{n}panels and their pictures{n}change. Match them all...{goto:00B222}
 
 #id 0032 ptr=112BC0 box=summary
 JP: スイッチをふんで、絵合わせをしよう。{n}パネルがそろえば 扉がひらくぞ。{goto:00B222}
-EN: Step on the switches to{n}match the pictures. Line{n}them up and the door opens.{goto:00B222}
+EN: Step on switches to match{n}the pictures. Line them{n}up and the door opens.{goto:00B222}
 
 #id 0033 ptr=112BEB box=summary
 JP: ライモス神殿を舞台に、{n}ソウゲツ率いる忍者部隊と勇者軍の{n}最後の戦いがくりひろげられる。{n}{goto:00B222}
-EN: At Laimos Temple, the{n}Heroes face Sougetsu's ninja{n}squad in a final showdown.{n}{goto:00B222}
+EN: At Laimos Temple, the{n}Heroes face Sougetsu's{n}ninja squad in a final{n}showdown.{goto:00B222}
 
 #id 0034 ptr=112C2C box=summary
 JP: ヴァイスを止めろ! {n}魔界への通り道となった ガウディ教会に{n}乗り込んだ勇者軍を待ち受けていた{n}のは、トランプ率いるスカルボンバーズの{n}最強部隊だった。{goto:00B222}
-EN: Stop Weiss! In St. Gaudi{n}Church, now a gateway to the{n}demon world, the Heroes find{n}Trump leading the strongest{n}squad of the Skull Bombers.{goto:00B222}
+EN: Stop Weiss! In St. Gaudi{n}Church, now a gate to the{n}demon world, the Heroes{n}find Trump with the{n}Bombers' best squad.{goto:00B222}
 
 #id 0035 ptr=112C90 box=summary
 JP: 敗走するトランプを追って、勇者軍はガウディの祭壇へ。待ち受けるヴァイス、そしてヤゴ。{n}ステンドグラスから発せられる光は、{n}勇者を照らす希望の光となるか?{n}{goto:00B222}
-EN: Chasing the fleeing Trump,{n}the Heroes reach the altar{n}of Gaudi, where Weiss and{n}Yago wait. Will the light{n}from the stained glass shine{n}as a light of hope?{n}{goto:00B222}
+EN: Chasing Trump, the Heroes{n}reach the Gaudi altar.{n}Weiss and Yago wait. Will{n}the stained glass shine{n}as a light of hope?{goto:00B222}
 
 #id 0036 ptr=112CF4 box=summary
 JP: 正しい順番に7色の魔石を並べて、{n}レインボーロードを完成させよう。{n}魔石は台座のとなりに立てば使うことが{n}できるけど、限られたユニットしか魔石を{n}扱うことはできないぞ。{n}3従精をけちらして、ヤゴを追い詰めるんだ!{goto:00B222}
-EN: Set the 7 colored Jewels in{n}the right order to complete{n}the Rainbow Road. Stand next{n}to a pedestal to use a{n}Jewel, but only some units{n}can handle them. Scatter the{n}3 servants and corner Yago!{goto:00B222}
+EN: Set 7 Jewels in rainbow{n}order to finish the{n}Rainbow Road. Only some{n}units can set them. Beat{n}3 servants, corner Yago!{goto:00B222}
 
 #id 0037 ptr=112D7A box=summary
 JP: 幻の神殿を舞台に、{n}ヤゴが最後の力で生み出したものは‥‥‥‥{goto:00B222}
-EN: In the Phantom Temple, what{n}did Yago create with the{n}last of his power......{goto:00B222}
+EN: In the Phantom Temple,{n}what did Yago create with{n}the last of his power...{goto:00B222}
 
 #id 0038 ptr=112DA7 box=summary
 JP: ここは合体の神殿。{n}部屋のなかには合体の壺が置いてあるぞ。{n}好きなユニット同士を合体させよう。{n}用事が済んだらリタイアしてね。{goto:C7B122}
-EN: This is the Temple of{n}Fusion. There's a Fusion Pot{n}in the room. Fuse any units{n}you like. When you're done,{n}choose Retire.{goto:C7B122}
+EN: This is the Fusion Temple{n}Fuse units as you like{n}with the Fusion Pot here.{n}When done, choose Retire.{goto:C7B122}
 
 #id 0039 ptr=112DFD box=summary
 JP: 複雑なコンベアの動きをみきれ!{goto:00B222}
@@ -160,71 +160,71 @@ EN: Read the tricky conveyor{n}belts!{goto:00B222}
 
 #id 0040 ptr=112E14 box=summary
 JP: せまい洞窟を抜けていこう。{n}ジェネレーターから強力な魔物が出現するぞ。{goto:00B222}
-EN: Get through the narrow cave.{n}Strong monsters pour out of{n}the generators!{goto:00B222}
+EN: Get through the narrow{n}cave. Strong foes pour{n}out of the generators!{goto:00B222}
 
 #id 0041 ptr=112E45 box=summary
 JP: お堀のような水路をどう攻略するか?{n}魔方陣の確保がポイントだ。{n}浮き島のサイクロスカーレットに注意すべし。{goto:00B222}
-EN: How will you get past the{n}moat-like waterway? Holding{n}the magic circles is key.{n}Watch out for the Cyclo{n}Scarlet on the islet.{goto:00B222}
+EN: How will you cross the{n}moat-like waterway? Hold{n}the magic circles! Watch{n}out for the Cyclo Scarlet{n}on the islet.{goto:00B222}
 
 #id 0042 ptr=112E8D box=summary
 JP: 大変だ! リイムとタムタムが魔物の砦に捕らわれてしまったぞ。救出に向かうべきか、はたまた素早くボスを倒すべきか?{n}それが問題だ。{goto:00B222}
-EN: Oh no! Reem and Tamtam are{n}held in the monsters' fort.{n}Rush to rescue them, or beat{n}the boss as fast as you can?{n}That is the question.{goto:00B222}
+EN: Oh no! Reem and Tamtam{n}are in a monster fort!{n}Rescue them, or beat the{n}boss as fast as you can?{n}That is the question.{goto:00B222}
 
 #id 0043 ptr=112EE0 box=summary
 JP: 草原を抜けて、仲間のいる家を目指そう。{goto:00B222}
-EN: Cross the grassland and make{n}for the house where your{n}friends are.{goto:00B222}
+EN: Cross the grassland and{n}make for the house where{n}your friends are.{goto:00B222}
 
 #id 0044 ptr=112F00 box=summary
 JP: 3つのルートをお好みで進軍して行こう。{n}最初が楽なルートを選ぶと、あとで苦労するかも。{goto:00B222}
-EN: March along whichever of the{n}3 routes you like. Take the{n}easy one first and you may{n}pay for it later.{goto:00B222}
+EN: March along whichever of{n}the 3 routes you like.{n}Take the easy one first{n}and you may pay later.{goto:00B222}
 
 #id 0045 ptr=112F3A box=summary
 JP: 点在するピラミッドをうまく利用して戦おう。{n}陣型を組んで魔物をおびき出すんだ。{goto:00B222}
-EN: Use the scattered pyramids{n}to your advantage. Form up{n}and lure the monsters out.{goto:00B222}
+EN: Make use of the pyramids.{n}Form up and lure the{n}monsters out.{goto:00B222}
 
 #id 0046 ptr=112F71 box=summary
 JP: 砦の占拠を目指して進もう。{n}そこを拠点にしてボスを目指すんだ。{n}沖の小島には仲間がいるぞ。{goto:00B222}
-EN: Move to take the fort. Then{n}use it as a base to go after{n}the boss. Friends wait on{n}the islet offshore.{goto:00B222}
+EN: Take the fort, then use{n}it as a base to go after{n}the boss. Friends wait on{n}the islet offshore.{goto:00B222}
 
 #id 0047 ptr=112FB2 box=summary
 JP: 水上の細い道は陸のユニットだけでは不利。{n}ボスの出現まで持ちこたえることが出来るか?{goto:00B222}
-EN: On the narrow paths over the{n}water, land units alone are{n}at a disadvantage. Can you{n}hold out until the boss{n}shows up?{goto:00B222}
+EN: On the narrow water paths{n}land units alone are at a{n}disadvantage. Hold out{n}until the boss appears?{goto:00B222}
 
 #id 0048 ptr=112FED box=summary
 JP: 崖に囲まれたロイホー地方の森だ。{n}森林は移動しにくく、地形効果が高いので長期戦になりがち。空のユニットの扱いに気をつけよう。{goto:00B222}
-EN: A forest in the Roiho region{n}ringed by cliffs. Forest is{n}hard to cross and gives a{n}big terrain bonus, so fights{n}drag on. Take care with your{n}sky units.{goto:00B222}
+EN: A Roiho forest ringed by{n}cliffs. Forests are slow{n}and give a big terrain{n}bonus, so fights drag on.{n}Mind your sky units.{goto:00B222}
 
 #id 0049 ptr=113044 box=summary
 JP: 点在する魔方陣をうまくおさえて、{n}ボスを逃がさないように攻めて行こう。{goto:00B222}
-EN: Hold the scattered magic{n}circles and press on so the{n}boss can't escape.{goto:00B222}
+EN: Hold the scattered magic{n}circles and press on so{n}the boss can't escape.{goto:00B222}
 
 #id 0050 ptr=113074 box=summary
 JP: 多数の魔方陣が設けられた秘密の迷宮だ。{n}ボスと戦うときは、その挙動に注目せよ。{goto:00B222}
-EN: A secret labyrinth full of{n}magic circles. When you{n}fight the boss, watch how it{n}moves.{goto:00B222}
+EN: A secret maze full of{n}magic circles. Watch how{n}the boss moves.{goto:00B222}
 
 #id 0051 ptr=1130AF box=summary
 JP: ロイホー地方の森林。{n}せまいところで戦うので、{n}魔物軍と正面衝突するはめになるぞ。{goto:00B222}
-EN: The Roiho region's forest.{n}The fighting is in tight{n}quarters, so you'll clash{n}head-on with the Monsters.{goto:00B222}
+EN: The Roiho forest. Fights{n}are in tight quarters, so{n}you'll clash head-on with{n}the Monsters.{goto:00B222}
 
 #id 0052 ptr=1130E9 box=summary
 JP: 点在する足場をうまく利用して昇っていこう。{n}ときには、ユニット同士の助け合いも必要だよ。{goto:00B222}
-EN: Climb using the scattered{n}footholds. Sometimes units{n}must help each other.{goto:00B222}
+EN: Climb using the scattered{n}footholds. Units may need{n}to help each other.{goto:00B222}
 
 #id 0053 ptr=113127 box=summary
 JP: 魔物に占拠された巨大砦をとりもどせ!{n}{goto:00B222}
-EN: Retake the huge fort the{n}monsters have seized!{n}{goto:00B222}
+EN: Retake the huge fort the{n}monsters seized!{goto:00B222}
 
 #id 0054 ptr=113146 box=summary
 JP: 雪原に魔物が集結しているぞ。{n}中央突破で、いっきにけちらそう。{goto:00B222}
-EN: Monsters are massing on the{n}snowfield. Break through the{n}center and scatter them all{n}at once.{goto:00B222}
+EN: Monsters mass on the{n}snowfield. Break through{n}the center and scatter{n}them all at once.{goto:00B222}
 
 #id 0055 ptr=113174 box=summary
 JP: ここは秘密のラセン回廊。{n}{goto:00B222}
-EN: This is the secret Spiral{n}Corridor.{n}{goto:00B222}
+EN: This is the secret Spiral{n}Corridor.{goto:00B222}
 
 #id 0056 ptr=11318A box=summary
 JP: ここは秘密のジャングルだよ。{n}{goto:00B222}
-EN: This is the secret jungle.{n}{goto:00B222}
+EN: The secret jungle.{goto:00B222}
 
 #id 0057 ptr=1131A0 box=summary
 JP: {goto:00B222}

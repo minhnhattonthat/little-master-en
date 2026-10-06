@@ -8,7 +8,7 @@ EN: Piston
 
 #id 0002 ptr=012060 box=name8
 JP: サンシャイン
-EN: Sunshine
+EN: Sunny
 
 #id 0003 ptr=012068 box=name8
 JP: スペース
@@ -20,7 +20,7 @@ EN: Larry
 
 #id 0005 ptr=012078 box=name8
 JP: チャールズ
-EN: Charley
+EN: Chas
 
 #id 0006 ptr=012080 box=name8
 JP: キラー
@@ -40,7 +40,7 @@ EN: Lucky
 
 #id 0010 ptr=0120A0 box=name8
 JP: ギガトン
-EN: Gigaton
+EN: Giga
 
 #id 0011 ptr=0120A8 box=name8
 JP: スパーク
@@ -48,7 +48,7 @@ EN: Spark
 
 #id 0012 ptr=0120B0 box=name8
 JP: ヒクソン
-EN: Hickson
+EN: Hixon
 
 #id 0013 ptr=0120B8 box=name8
 JP: アレクセイ
@@ -56,11 +56,11 @@ EN: Alexei
 
 #id 0014 ptr=0120C0 box=name8
 JP: シャボン
-EN: Bubbles
+EN: Bubble
 
 #id 0015 ptr=0120C8 box=name8
 JP: モーリス
-EN: Maurice
+EN: Morris
 
 #id 0016 ptr=0120D0 box=name8
 JP: マイク
@@ -68,7 +68,7 @@ EN: Mike
 
 #id 0017 ptr=0120D8 box=name8
 JP: ミカエル
-EN: Michael
+EN: Mikael
 
 #id 0018 ptr=0120E0 box=name8
 JP: フレッシュ
@@ -76,7 +76,7 @@ EN: Fresh
 
 #id 0019 ptr=0120E8 box=name8
 JP: ゴージャス
-EN: Gorgeous
+EN: Glam
 
 #id 0020 ptr=0120F0 box=name8
 JP: フラッシュ
@@ -84,7 +84,7 @@ EN: Flash
 
 #id 0021 ptr=0120F8 box=name8
 JP: アントニオ
-EN: Antonio
+EN: Tonio
 
 #id 0022 ptr=012100 box=name8
 JP: ボー
@@ -92,11 +92,11 @@ EN: Beau
 
 #id 0023 ptr=012108 box=name8
 JP: ベルナール
-EN: Bernard
+EN: Bernie
 
 #id 0024 ptr=012110 box=name8
 JP: ローリング
-EN: Rolling
+EN: Rollin
 
 #id 0025 ptr=012118 box=name8
 JP: ハル
@@ -116,11 +116,11 @@ EN: Mikado
 
 #id 0029 ptr=012138 box=name8
 JP: シャーロック
-EN: Sherlock
+EN: Holmes
 
 #id 0030 ptr=012140 box=name8
 JP: シュール
-EN: Surreal
+EN: Dali
 
 #id 0031 ptr=012148 box=name8
 JP: フライング
@@ -248,11 +248,11 @@ EN: Killer
 
 #id 0062 ptr=012240 box=name8
 JP: サンダー
-EN: Thunder
+EN: Bolt
 
 #id 0063 ptr=012248 box=name8
 JP: ハリケーン
-EN: Cyclone
+EN: Storm
 
 #id 0064 ptr=012250 box=name8
 JP: リイム
@@ -292,7 +292,7 @@ EN: Trump
 
 #id 0073 ptr=012298 box=name8
 JP: トムソン
-EN: Thomson
+EN: Tomson
 
 #id 0074 ptr=0122A0 box=name8
 JP: ポポレ
@@ -308,11 +308,11 @@ EN: Bucks
 
 #id 0077 ptr=0122B8 box=name8
 JP: マクガイヤー
-EN: McGuire
+EN: McGee
 
 #id 0078 ptr=0122C0 box=name8
 JP: タンホイザー
-EN: Tannhaus
+EN: Tanner
 
 #id 0079 ptr=0122C8 box=name8
 JP: ゲイルス
@@ -336,15 +336,15 @@ EN: Thanks
 
 #id 0084 ptr=0122F0 box=name8
 JP: ガラット
-EN: Garratt
+EN: Garret
 
 #id 0085 ptr=0122F8 box=name8
 JP: マクドナルド
-EN: McDonald
+EN: McDon
 
 #id 0086 ptr=012300 box=name8
 JP: ビスマルク
-EN: Bismarck
+EN: Otto
 
 #id 0087 ptr=012308 box=name8
 JP: ボブ
@@ -376,11 +376,11 @@ EN: George
 
 #id 0094 ptr=012340 box=name8
 JP: ハレルヤ
-EN: Alleluia
+EN: Halle
 
 #id 0095 ptr=012348 box=name8
 JP: ボイジャー
-EN: Voyager
+EN: Voyage
 
 #id 0096 ptr=012350 box=name8
 JP: バッハ
@@ -388,11 +388,11 @@ EN: Bach
 
 #id 0097 ptr=012358 box=name8
 JP: サンダース
-EN: Sanders
+EN: Sander
 
 #id 0098 ptr=012360 box=name8
 JP: パトリシア
-EN: Patricia
+EN: Patty
 
 #id 0099 ptr=012368 box=name8
 JP: ピーマン
@@ -408,11 +408,11 @@ EN: Zapps
 
 #id 0102 ptr=012380 box=name8
 JP: ガリクソン
-EN: Garikson
+EN: Garik
 
 #id 0103 ptr=012388 box=name8
 JP: カメハメハ
-EN: Kamehame
+EN: Kameha
 
 #id 0104 ptr=012390 box=name8
 JP: チャック
@@ -444,11 +444,11 @@ EN: Drip
 
 #id 0111 ptr=0123C8 box=name8
 JP: バラカン
-EN: Barakan
+EN: Baraka
 
 #id 0112 ptr=0123D0 box=name8
 JP: パトリオット
-EN: Patriot
+EN: Yankee
 
 #id 0113 ptr=0123D8 box=name8
 JP: サムス
@@ -476,7 +476,7 @@ EN: Chopin
 
 #id 0119 ptr=012408 box=name8
 JP: キューカンバ
-EN: Cucumber
+EN: Cuke
 
 #id 0120 ptr=012410 box=name8
 JP: ビートン
@@ -484,11 +484,11 @@ EN: Beaton
 
 #id 0121 ptr=012418 box=name8
 JP: シェリフ
-EN: Sheriff
+EN: Lawman
 
 #id 0122 ptr=012420 box=name8
 JP: ブルクハルト
-EN: Burkhart
+EN: Burke
 
 #id 0123 ptr=012428 box=name8
 JP: グリム
@@ -500,7 +500,7 @@ EN: Orwell
 
 #id 0125 ptr=012438 box=name8
 JP: アンデルセン
-EN: Andersen
+EN: Anders
 
 #id 0126 ptr=012440 box=name8
 JP: ミン
@@ -512,7 +512,7 @@ EN: Drake
 
 #id 0128 ptr=012450 box=name8
 JP: ホーキンズ
-EN: Hawkins
+EN: Hawk
 
 #id 0129 ptr=012458 box=name8
 JP: ハンゾウ
@@ -524,11 +524,11 @@ EN: Goemon
 
 #id 0131 ptr=012468 box=name8
 JP: ジンゴロウ
-EN: Jingoro
+EN: Jingo
 
 #id 0132 ptr=012470 box=name8
 JP: クロスケ
-EN: Kurosuke
+EN: Kuro
 
 #id 0133 ptr=012478 box=name8
 JP: ゲンナイ
@@ -540,11 +540,11 @@ EN: Shogun
 
 #id 0135 ptr=012488 box=name8
 JP: ウタマロ
-EN: Utamaro
+EN: Utama
 
 #id 0136 ptr=012490 box=name8
 JP: シャラク
-EN: Sharaku
+EN: Raku
 
 #id 0137 ptr=012498 box=name8
 JP: ライクバーン

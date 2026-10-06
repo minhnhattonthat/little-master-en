@@ -612,7 +612,7 @@ EN: {p10:16} Quit Game{p10:18}Save and go to{p10:1A}title screen.{end}
 
 #id 0153 ptr=014B1C box=sysmsg
 JP: {p7F:03}{p04:18}アニメーション・・{p04:1A}ダブルアップ・・・{p12:18}サウンド・・・{p12:1A}セーブ・・・・{cFA:00}{end}
-EN: {p7F:03}{p04:18}Animation{p04:1A}Double Up{p12:18}Sound..{p12:1A}Save...{cFA:00}{end}
+EN: {p7F:03}{p04:18}Animation{p04:1A}Double Up{p12:18}Sound.{p12:1A}Save...{cFA:00}{end}
 
 #id 0154 ptr=014B4F box=sysmsg slack=1
 JP: {p0D:18}{c80:00}{c81:020E00}{jF0:67CB02}かんい{goto:6ACB02}
@@ -622,13 +622,13 @@ EN: {p0D:18}{c80:00}{c81:020E00}{jF0:67CB02}Lite{goto:6ACB02}
 JP: フル 
 EN: Full
 
-#id 0156 ptr=014B6A box=sysmsg slack=2
+#id 0156 ptr=014B6A box=sysmsg slack=2 repos=1
 JP: {p19:18}{c80:00}{c81:030E00}{jF0:83CB02}ステレオ{goto:87CB02}
-EN: {p19:18}{c80:00}{c81:030E00}{jF0:83CB02}Stereo{goto:87CB02}
+EN: {p18:18}{c80:00}{c81:030E00}{jF0:83CB02}Stereo{goto:87CB02}
 
-#id 0157 ptr=014B83 box=sysmsg cont=1
+#id 0157 ptr=014B83 box=sysmsg cont=1 slack=2
 JP: モノラル
-EN: Mono
+EN: Mono  
 
 #id 0158 ptr=014B87 box=sysmsg slack=1
 JP: {p0D:1A}{c80:00}{c81:040E00}{jF0:9ECB02}なし{goto:A0CB02}
@@ -638,9 +638,9 @@ EN: {p0D:1A}{c80:00}{c81:040E00}{jF0:9ECB02}Off{goto:A0CB02}
 JP: あり
 EN: On
 
-#id 0160 ptr=014BA0 box=sysmsg
+#id 0160 ptr=014BA0 box=sysmsg slack=1
 JP: {p19:1A}{c80:00}{c81:050E00}{jF0:B8CB02}カット{goto:BBCB02}
-EN: {p19:1A}{c80:00}{c81:050E00}{jF0:B8CB02}Off{goto:BBCB02}
+EN: {p19:1A}{c80:00}{c81:050E00}{jF0:B8CB02}Off {goto:BBCB02}
 
 #id 0161 ptr=014BB8 box=sysmsg cont=1 slack=1
 JP: オート
@@ -1136,7 +1136,7 @@ EN: {p7F:00}Using {c80:00}{c81:980E00}{c82:18}{c88:0AE0A402}.{n}What will happen
 
 #id 0284 ptr=01635E box=sysmsg
 JP: {p7F:03}{p04:18}バトルレポート・・{p04:1A}敵のうごき・・・{p12:18}サウンド・・・{cFA:00}{end}
-EN: {p7F:03}{p04:18}Reports..{p04:1A}Foe Moves{p12:18}Sound..{cFA:00}{end}
+EN: {p7F:03}{p04:18}Reports..{p04:1A}Foe Moves{p12:18}Sound.{cFA:00}{end}
 
 #id 0285 ptr=016387 box=sysmsg slack=1
 JP: {p0D:18}{c80:00}{c81:000E00}{jF0:9FE302}はやい{goto:A2E302}
@@ -1146,13 +1146,13 @@ EN: {p0D:18}{c80:00}{c81:000E00}{jF0:9FE302}Fast{goto:A2E302}
 JP: おそい
 EN: Slow
 
-#id 0287 ptr=0163A2 box=sysmsg slack=2
+#id 0287 ptr=0163A2 box=sysmsg slack=2 repos=1
 JP: {p19:18}{c80:00}{c81:030E00}{jF0:BBE302}ステレオ{goto:BFE302}
-EN: {p19:18}{c80:00}{c81:030E00}{jF0:BBE302}Stereo{goto:BFE302}
+EN: {p18:18}{c80:00}{c81:030E00}{jF0:BBE302}Stereo{goto:BFE302}
 
-#id 0288 ptr=0163BB box=sysmsg cont=1
+#id 0288 ptr=0163BB box=sysmsg cont=1 slack=2
 JP: モノラル
-EN: Mono
+EN: Mono  
 
 #id 0289 ptr=0163BF box=sysmsg
 JP: {p0D:1A}{c80:00}{c81:010E00}{jF0:D7E302}みない{goto:DAE302}

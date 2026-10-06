@@ -4,7 +4,7 @@ from lmtools.blocks import dump_block, insert_block, load_blocks
 from lmtools.tbl import Table
 
 T = Table.load("tbl/jp.tbl")
-HOOKS = [(0x00BE43, 6), (0x00BE70, 5), (0x00BF01, 4), (0x00BF94, 5), (0x01ECE5, 5), (0x00C20E, 5), (0x00B939, 4)]  # src/asm/vwf.asm org sites
+HOOKS = [(0x00BE43, 6), (0x00BE70, 5), (0x00BF01, 4), (0x00BF94, 5), (0x01ECE5, 5), (0x00C20E, 5), (0x00B939, 4), (0x01ECCC, 5)]  # src/asm/vwf.asm org sites
 
 
 def test_empty_en_falls_back_to_jp(base):

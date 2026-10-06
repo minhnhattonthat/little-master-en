@@ -34,9 +34,10 @@
  },
  "summary": {
   "px": 216,
-  "cells": 28,
-  "lines": null,
-  "note": "scenario summaries (msg22): width 28 assumed; line limit unverified (no save state of the briefing screen yet)"
+  "cells": 25,
+  "lines": 5,
+  "scroll": false,
+  "note": "scenario briefing (msg22 0-56): fixed font, window 26 cells (a 26-cell line auto-wraps AND takes the {n}: blank line), 5 lines above the clear condition; overflow scrolls on a blanked screen"
  },
  "sysmsg": {
   "px": 216,
@@ -66,5 +67,13 @@
  },
  "name18": {
   "bytes": 18
+ },
+ "terrain": {
+  "px": 152,
+  "cells": 19,
+  "first_cells": 12,
+  "lines": 3,
+  "scroll": false,
+  "note": "map Information window, terrain (msg06 203-383): name after a bar from col ~9 up to the icons (~12 cells), lines 2-3 cols 2-20; measured from a JP screenshot only (no EN redraw reachable)"
  }
 }

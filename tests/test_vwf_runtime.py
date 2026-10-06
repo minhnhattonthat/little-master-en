@@ -347,3 +347,56 @@ end, emu.eventType.endFrame)
     outside, high, maxcol = map(int, (tmp_path / "o" / "rt.txt").read_text().split())
     assert maxcol >= 26, f"injection did not reach the slot edge (max cell {maxcol})"
     assert (outside, high) == (0, 0), (outside, high, maxcol)
+
+
+def test_menu_tilemap_requests_upload_vwf_tiles(tmp_path):
+    """Menus (hospital) request the tilemap from $01:ECCC every frame: VWF tiles must reach VRAM too."""
+    sfc = build.build(tmp_path / "b", "en")
+    Path("test/lua/_rt.lua").write_text(f'STATE=[[{Path("test/states/hospital.mss").resolve()}]]\n' + '''
+local frame, loaded, ref = 0, false, nil
+ref = emu.addMemoryCallback(function()
+  if loaded then return end
+  local f = io.open(STATE, "rb"); local d = f:read("a"); f:close()
+  emu.loadSavestate(d); loaded = true
+  emu.removeMemoryCallback(ref, emu.callbackType.exec, 0, 0xFFFFFF)
+end, emu.callbackType.exec, 0, 0xFFFFFF)
+emu.addEventCallback(function()
+  if loaded and frame >= 10 and frame < 14 then emu.setInput({down = true}, 0) end
+end, emu.eventType.inputPolled)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 90 then
+    local used, bad = 0, 0
+    for a = 0x9000, 0x97FE, 2 do
+      local t = emu.read16(a, emu.memType.snesWorkRam) & 0x3FF
+      if t >= 0x180 then
+        used = used + 1
+        for b = 0, 15 do
+          if emu.read(0xD800 + (t - 0x180) * 16 + b, emu.memType.snesVideoRam) ~= emu.read(0x1B000 + (t - 0x180) * 16 + b, emu.memType.snesWorkRam) then bad = bad + 1 break end
+        end
+      end
+    end
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(used .. " " .. bad); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''')
+    assert mesen.run(sfc, "_rt.lua", tmp_path / "o") == 0
+    used, bad = map(int, (tmp_path / "o" / "rt.txt").read_text().split())
+    assert used > 0 and bad == 0, (used, bad)
+
+
+def test_scenario_briefing_fits_without_a_blind_scroll(tmp_path):
+    """An overlong briefing scrolls while the screen is still blanked ($10 = 3) and waits for a key: black screen."""
+    sfc = build.build(tmp_path / "b", "en")
+    Path("test/lua/_rt.lua").write_text(f'STATE=[[{Path("test/states/map.mss").resolve()}]]\n' + LOAD + '''
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 220 then
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(tostring(emu.read(0x10, emu.memType.snesWorkRam))); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''')
+    assert mesen.run(sfc, "_rt.lua", tmp_path / "o") == 0
+    assert (tmp_path / "o" / "rt.txt").read_text() == "0"     # display on: Scenario Information is shown
