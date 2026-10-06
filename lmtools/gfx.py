@@ -54,3 +54,74 @@ def render(rom, offset, count, mode="tile", bpp=1, w=8, h=8, cols=16, scale=3, l
         if lab:
             d.text((ox, oy - lab), f"{label + i:X}", fill=0)
     return img
+
+
+def encode_tiles(pixels, bpp) -> bytes:
+    """One 8x8 tile of color indices -> SNES planar bytes (inverse of tile_planar)."""
+    out = bytearray(8 * bpp)
+    for r, row in enumerate(pixels):
+        for x, c in enumerate(row):
+            for p in range(bpp):
+                if (c >> p) & 1:
+                    i = r if bpp == 1 else 16 * (p // 2) + 2 * r + (p % 2)
+                    out[i] |= 0x80 >> x
+    return bytes(out)
+
+
+def cgram_palette(cgram, index, bpp):
+    """Palette `index` of 2**bpp colors from a CGRAM dump (BGR555) as RGB tuples."""
+    n = 1 << bpp
+    words = [cgram[2 * i] | cgram[2 * i + 1] << 8 for i in range(index * n, index * n + n)]
+    return [((w & 31) << 3, (w >> 5 & 31) << 3, (w >> 10 & 31) << 3) for w in words]
+
+
+def tiles_to_png(data, bpp, palette, cols, path):
+    size = 8 * bpp
+    tiles = [tile_planar(data[i:i + size], bpp) for i in range(0, len(data) - size + 1, size)]
+    rows = -(-len(tiles) // cols)
+    im = Image.new("RGB", (cols * 8, rows * 8), palette[0])
+    for t, px in enumerate(tiles):
+        for y in range(8):
+            for x in range(8):
+                im.putpixel(((t % cols) * 8 + x, (t // cols) * 8 + y), palette[px[y][x]])
+    im.save(path)
+
+
+def png_to_tiles(path, bpp, palette) -> bytes:
+    """PNG (multiple of 8 in both sizes, palette colors only) -> planar tiles, left-to-right then top-to-bottom."""
+    im = Image.open(path).convert("RGB")
+    w, h = im.size
+    if w % 8 or h % 8:
+        raise ValueError(f"{path}: size {w}x{h} not a multiple of 8")
+    index = {tuple(c): i for i, c in reversed(list(enumerate(palette)))}
+    out = bytearray()
+    for ty in range(0, h, 8):
+        for tx in range(0, w, 8):
+            px = []
+            for y in range(ty, ty + 8):
+                row = []
+                for x in range(tx, tx + 8):
+                    rgb = im.getpixel((x, y))
+                    if rgb not in index:
+                        raise ValueError(f"{path}: pixel ({x},{y}) color {rgb} not in palette")
+                    row.append(index[rgb])
+                px.append(row)
+            out += encode_tiles(px, bpp)
+    return bytes(out)
+
+
+def find_in_rom(rom, vram, start, end, tile_bytes):
+    """Runs (vram_addr, rom_pc, tiles) of VRAM tiles found verbatim in the ROM; blank/flat tiles are skipped."""
+    runs = []
+    for v in range(start, end - tile_bytes + 1, tile_bytes):
+        t = vram[v:v + tile_bytes]
+        if len(set(t)) <= 1:
+            continue
+        pc = rom.find(t)
+        if pc < 0:
+            continue
+        if runs and runs[-1][0] + runs[-1][2] * tile_bytes == v and runs[-1][1] + runs[-1][2] * tile_bytes == pc:
+            runs[-1] = (runs[-1][0], runs[-1][1], runs[-1][2] + 1)
+        else:
+            runs.append((v, pc, 1))
+    return runs

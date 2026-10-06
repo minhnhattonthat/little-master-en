@@ -31,3 +31,37 @@ def test_glyph_kanji16_column_major_interlaced():
     px = gfx.glyph_kanji16(bytes(data))
     assert px[8][0] == 1 and px[1][15] == 1
     assert sum(map(sum, px)) == 2
+
+
+def test_encode_tiles_inverts_tile_planar():
+    import random
+    random.seed(1)
+    for bpp in (2, 4):
+        px = [[random.randrange(1 << bpp) for _ in range(8)] for _ in range(8)]
+        assert gfx.tile_planar(gfx.encode_tiles(px, bpp), bpp) == px
+
+
+def test_png_round_trip(tmp_path):
+    pal = [(0, 0, 0), (255, 255, 255), (255, 0, 0), (0, 0, 255)]
+    data = bytes(range(64))                       # 4 tiles of 2bpp
+    gfx.tiles_to_png(data, 2, pal, 2, tmp_path / "t.png")
+    assert gfx.png_to_tiles(tmp_path / "t.png", 2, pal) == data
+
+
+def test_png_off_palette_pixel_is_named(tmp_path):
+    import pytest
+    from PIL import Image
+    im = Image.new("RGB", (8, 8), (0, 0, 0)); im.putpixel((3, 5), (1, 2, 3)); im.save(tmp_path / "bad.png")
+    with pytest.raises(ValueError, match=r"bad.png: pixel \(3,5\)"):
+        gfx.png_to_tiles(tmp_path / "bad.png", 2, [(0, 0, 0), (255, 255, 255)])
+
+
+def test_find_in_rom_reports_runs():
+    rom = bytes(100) + bytes(range(1, 97)) + bytes(50)
+    vram = bytes(64) + bytes(range(1, 97))
+    assert gfx.find_in_rom(rom, vram, 0, len(vram), 32) == [(64, 100, 3)]
+
+
+def test_cgram_palette_converts_bgr555():
+    cg = bytes([0x00, 0x00, 0x1F, 0x00, 0xE0, 0x03, 0x00, 0x7C])     # black, red, green, blue
+    assert gfx.cgram_palette(cg, 0, 2) == [(0, 0, 0), (248, 0, 0), (0, 248, 0), (0, 0, 248)]
