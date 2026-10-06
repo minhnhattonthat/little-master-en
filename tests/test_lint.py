@@ -112,3 +112,10 @@ def test_pad_char_switch_is_layout_and_c9C_is_a_name():
     e = Entry(19, 0, {}, "{c9C:120E00}は{c85:060E00}レベル{end}", "{c9C:120E00} is LV {c9B:CE}{c85:060E00}{c9B:20}.{end}")
     assert lint_entry(e, "wide", WID, W, {}) == []
     assert lint.NAME_INS >= {"c9C"} and "c9C" not in lint.NUM_INS
+
+
+def test_window_without_scroll_gets_no_jp_line_allowance():
+    jp = "あああああああああああああああああああああああああああああああああああああああ{n}あ{n}あ{end}"   # JP line wraps
+    e = Entry(20, 0, {}, jp, "a{n}b{n}c{n}d{end}")
+    assert lint_entry(e, "w", WID, {"w": {"px": 216, "lines": 3}}, {}) == []
+    assert lint_entry(e, "w", WID, {"w": {"px": 216, "lines": 3, "scroll": False}}, {}) == ["#20: page 1 has 4 lines > 3"]

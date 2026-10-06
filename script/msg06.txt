@@ -1,214 +1,214 @@
 #id 0000 ptr=030A00 box=desc
 JP: 姿はちいさく、力もそれほど強くはない。{n}質より量で勝負のユニット。{n}ときおり、チーズを運んでくるぞ。{end}
-EN: 
+EN: Small, and not very strong. A unit{n}that wins by numbers, not quality.{n}Sometimes it brings you cheese!{end}
 
 #id 0001 ptr=030A3B box=desc
 JP: 防御力が ひときわ高いユニット。{n}水路などでは、隠された能力を発揮するぞ。{end}
-EN: 
+EN: A unit with outstanding defense.{n}In waterways and such, it shows{n}off a hidden talent!{end}
 
 #id 0002 ptr=030A6C box=desc
 JP: いろんなモノをはき出して、相手を攻撃する{n}空のユニット。{n}3種類の攻撃パターンをもっているぞ。{end}
-EN: 
+EN: A sky unit that attacks by spitting{n}out all kinds of things. It has{n}3 different attack patterns!{end}
 
 #id 0003 ptr=030AA6 box=desc
 JP: スタンダードな能力をもった射撃ユニット。{n}間接攻撃をうまくつかっていこう。{n}上手に育ててやれば、貴重な戦力になるぞ。{end}
-EN: 
+EN: A shooter with standard abilities.{n}Make good use of its ranged attack.{n}Raise it well and it'll be a big help!{end}
 
 #id 0004 ptr=030AF0 box=desc
 JP: 名前どおりのサボテン魔獣。{n}間接攻撃力は なかなかのものがあるぞ。マラカスを投げるよ。アミーゴ!{end}
-EN: 
+EN: A cactus beast, just like the name.{n}Its ranged attack is pretty strong.{n}It throws maracas. Amigo!{end}
 
 #id 0005 ptr=030B2B box=desc
 JP: 高い機動性をほこる ダチョウユニット。{n}空のユニットなので、防御面でやや不安あり。{end}
-EN: 
+EN: An ostrich unit with great mobility.{n}As a sky unit, its defense is{n}a little shaky.{end}
 
 #id 0006 ptr=030B5F box=desc
 JP: かわいらしい タヌキのユニットだが、{n}攻撃力はなかなかのもの。{n}龍や虎の姿に化けるぞ。{end}
-EN: 
+EN: A cute raccoon-dog unit, but its{n}attack power is no joke. It can{n}change into a dragon or a tiger!{end}
 
 #id 0007 ptr=030B92 box=desc
 JP: するどいキバで襲いかかる水のユニット。{n}会心率が高いのが特徴だ。{n}親ワニ子ワニ攻撃が強力だぞ。ワニワニ。{end}
-EN: 
+EN: A water unit that strikes with sharp{n}fangs. It lands critical hits often.{n}Its mom-and-baby croc attack hurts!{end}
 
 #id 0008 ptr=030BD5 box=desc
 JP: 脅威のジャンプ力で、間接攻撃もできるぞ。{n}バネをいかした ファイヤーアッパーが必殺ブローだ。{n}HPが少なくなると、パラライズ攻撃を出すぞ。{end}
-EN: 
+EN: Amazing jumps let it attack from range!{n}Its spring-loaded Fire Upper is a{n}killer blow. Paralyze attack at low HP.{end}
 
 #id 0009 ptr=030C28 box=desc
 JP: するどい爪で相手を引き裂く魔物。{n}高い防御力を誇る中堅ユニットだ。{n}HPが少なくなると、ポイズン攻撃を出す。{end}
-EN: 
+EN: A monster that rends foes with sharp{n}claws. A solid unit with high defense.{n}Uses a Poison attack when its HP is low.{end}
 
 #id 0010 ptr=030C71 box=desc
 JP: ユーモラスな容姿とは うらはらに、{n}高い攻撃力を誇る射撃ユニットだ。{n}HPも多いから強いタフだぞ。{end}
-EN: 
+EN: Don't let its funny looks fool you:{n}a shooter with high attack power.{n}Lots of HP, too. Tough stuff!{end}
 
 #id 0011 ptr=030CAE box=desc
 JP: 機動力と防御力の優れたユニットだ。{n}味方につければ頼もしい働きをするぞ。ライオンビームを君はみたか?{end}
-EN: 
+EN: A unit with great mobility and defense.{n}A dependable ally to have around.{n}Have you seen the Lion Beam?{end}
 
 #id 0012 ptr=030CED box=desc
 JP: 非常に高い能力を持つユニットだ。{n}その攻撃力はLVに応じて、強力になる。{n}LVが高いドラゴンは近寄りがたい存在だ。{end}
-EN: 
+EN: A unit with very high abilities. Its{n}attack grows stronger with its LV. A{n}high-LV Dragon is hard to approach.{end}
 
 #id 0013 ptr=030D38 box=desc
 JP: 不思議な空飛ぶニワトリさんだ。防御力は{n}あまり高くないが、機動性に優れているので{n}使いやすいユニットだ。たまごを産むぞ。{end}
-EN: 
+EN: A strange flying chicken. Its defense{n}isn't great, but it's very mobile and{n}easy to use. It lays eggs!{end}
 
 #id 0014 ptr=030D84 box=desc
 JP: 合体でのみ、姿を現わす珍しいユニット。{n}高い攻撃力とHPを誇るが、{n}機動性に難ありの重戦車タイプ。{end}
-EN: 
+EN: A rare unit that appears only through{n}fusion. Great attack and HP, but it's{n}a slow-moving heavy tank type.{end}
 
 #id 0015 ptr=030DC7 box=desc
 JP: 平均的な能力を持ったユニット。{n}防御力は低いけど、HPが多いタフなヤツだ。{n}一撃必殺のジェイソン攻撃もあるぞ。{end}
-EN: 
+EN: A unit with average abilities. Low{n}defense, but tough with lots of HP.{n}Watch for its one-hit Jason attack!{end}
 
 #id 0016 ptr=030E10 box=desc
 JP: 魔獣盗賊団スカル・ボンバーズの構成員。{n}それぞれの能力は、それほど高くない。{n}HPが少なくなると、ポイズン攻撃をしかけてくるぞ。{end}
-EN: 
+EN: A member of the Beast Bandits, the{n}Skull Bombers. Not very strong alone.{n}Uses a Poison attack when its HP is low.{end}
 
 #id 0017 ptr=030E5F box=desc
 JP: 空を飛び、口から怪光線を発する操り{n}人形。魔導士がコハクの力で動かしているが、{n}ときには自分の意思で行動することも。{end}
-EN: 
+EN: A flying puppet that fires strange rays.{n}A mage moves it with amber, but{n}sometimes it acts on its own.{end}
 
 #id 0018 ptr=030EAF box=desc
 JP: 地獄の門を守る番犬。{n}その鋭い牙は、鋼の鎧をも引きちぎるという。{n}口からしゃく熱の炎をはく。{end}
-EN: 
+EN: The watchdog guarding the gates of Hell.{n}Its fangs can tear through steel armor.{n}It breathes scorching fire.{end}
 
 #id 0019 ptr=030EEC box=desc
 JP: 雪ダルマの精霊。夜になって気温がさがると{n}元気になる。コミカルなユニットだが、{n}HPが少なくなると、ポイズン攻撃を出すぞ。{end}
-EN: 
+EN: A snowman spirit that perks up when the{n}night turns cold. A comical unit, but{n}uses a Poison attack when its HP is low.{end}
 
 #id 0020 ptr=030F36 box=desc
 JP: スカルボンバーズを影でまとめるニヒルな人狼。{n}ニンジュツを学んでおり、情に厚い一面も。{end}
-EN: 
+EN: A cool werewolf who quietly runs the{n}Skull Bombers. He studied ninjutsu,{n}and has a soft heart, too.{end}
 
 #id 0021 ptr=030F6A box=desc
 JP: スカルボンバーズの頭目。生前は船乗りを{n}していたが、この世界に未練があったため、{n}アンデッドになった。非常に気性があらい。{end}
-EN: 
+EN: The Skull Bombers' boss. A sailor in{n}life, he became undead because he{n}clung to this world. A real hothead.{end}
 
 #id 0022 ptr=030FB6 box=desc
 JP: 彫像に命が吹き込まれた魔導生物。{n}硬い装甲に身をつつみ、{n}鋭い槍で突進してくる強力なユニットだ。{end}
-EN: 
+EN: A magical being: a statue given life.{n}Clad in hard armor, it charges with{n}a sharp lance. A strong unit.{end}
 
 #id 0023 ptr=030FFA box=desc
 JP: 突然変異によって巨大化したマウスマンが、{n}独自の進化を遂げた モンスター。{n}巨体の割には、抜群のSPDを誇る。{end}
-EN: 
+EN: A Mouseman grown huge by mutation that{n}evolved its own way. It's surprisingly{n}fast for its size.{end}
 
 #id 0024 ptr=031044 box=desc
 JP: バレエを闘いに取り入れた、{n}恐るべき格闘センスを持つ白鳥。{n}秘技・白鳥の舞が敵を撃つ!{end}
-EN: 
+EN: A swan with a frightening sense for{n}combat, who brought ballet to battle.{n}Secret art: Swan Dance strikes!{end}
 
 #id 0025 ptr=031080 box=desc
 JP: いたずら好きの幽霊。主に遺跡や塔の中{n}に住み着いている。ポルターガイストを引き起こ{n}し、侵入者を追い払う。{end}
-EN: 
+EN: A prankster ghost that haunts ruins and{n}towers. It causes poltergeists to{n}drive intruders away.{end}
 
 #id 0026 ptr=0310C7 box=desc
 JP: 蒼月直属のニンジャ部隊に所属する暗{n}殺者。高いSPDと一撃必殺のクリティカ{n}ルヒットに注意。{end}
-EN: 
+EN: An assassin in Sougetsu's own ninja{n}squad. Beware its high SPD and its{n}one-hit critical strikes.{end}
 
 #id 0027 ptr=031108 box=desc
 JP: 間接攻撃しかできないユニットだ。{n}魔法攻撃のおどろくべき射程は脅威だが、{n}接近してしまえば恐くないぞ。{end}
-EN: 
+EN: A unit that only attacks from range.{n}Its magic has a frightening reach,{n}but up close it's nothing to fear.{end}
 
 #id 0028 ptr=03114B box=desc
 JP: スカルボンバーズの切込み隊長。{n}攻撃力、防御力ともに優れているので、{n}あなどれない。{end}
-EN: 
+EN: The Skull Bombers' vanguard leader.{n}Strong in both attack and defense,{n}so don't take it lightly.{end}
 
 #id 0029 ptr=031181 box=desc
 JP: 盗掘団を束ねる若き頭目。{n}野望に取り付かれた瞳は何を見つめるのか‥‥{end}
-EN: 
+EN: The young leader of the tomb raiders.{n}What do those eyes, gripped by{n}ambition, see......{end}
 
 #id 0030 ptr=0311B2 box=desc
 JP: 雷光の騎士の称号を持つ若き勇者。{n}不思議な能力で、動物と心を通わせること{n}ができる。我らが勇者軍のリーダー。{end}
-EN: 
+EN: A young hero titled Knight of Lightning.{n}His strange power links him to animals.{n}The leader of our Heroes.{end}
 
 #id 0031 ptr=031200 box=desc
 JP: 怪力無双のミノタウロス。リイムの良きパートナー{n}であり、理解者でもある。格闘技の経験を{n}活かした、豪快無比な攻撃が魅力。{end}
-EN: 
+EN: A minotaur of matchless strength and{n}Reem's good partner and friend. His{n}bold martial-arts attacks are a treat.{end}
 
 #id 0032 ptr=031253 box=desc
 JP: コハクを使って、ユニットのHPを回復させる。{n}回復には、回数制限があるぞ。{n}ピンチになると、変身して身を守る。{end}
-EN: 
+EN: Restores units' HP using amber, a{n}limited number of times. In a pinch,{n}transforms to protect herself.{end}
 
 #id 0033 ptr=031298 box=desc
 JP: タムタムの最強変身がこのモーモー・スーツだ。{n}その力はミノタウロスに匹敵する破壊力!{n}すごいね。{end}
-EN: 
+EN: The Moomoo Suit is Tamtam's mightiest{n}form. Its destructive power rivals a{n}minotaur's! Amazing!{end}
 
 #id 0034 ptr=0312D3 box=desc
 JP: コハクの力を解放して、敵に攻撃魔法を{n}かけるコハク使い。勝ち気な性格だけど、{n}怖がりな一面も。ペットのハムスを連れている。{end}
-EN: 
+EN: A mage who unleashes amber to cast{n}attack magic. Feisty, but a bit of a{n}scaredy-cat. Has a pet hamster, Hamus.{end}
 
 #id 0035 ptr=031322 box=desc
 JP: コハクの力を解放して、味方に援護魔法{n}をかけるコハク使い。おっとりした性格だけど、{n}芯は強い女の子。ペットの名前はハムス。{end}
-EN: 
+EN: A mage who unleashes amber to cast{n}support magic. Easygoing, but strong{n}inside. Her pet is named Hamus.{end}
 
 #id 0036 ptr=031372 box=desc
 JP: 魔導力によって出現したゴールに、{n}自らの頭を叩き込む肉体派。{n}得意技は 3ポイントシュート。{end}
-EN: 
+EN: A bruiser who slams his own head into{n}a hoop conjured by magic. His{n}specialty is the 3-point shot.{end}
 
 #id 0037 ptr=0313B0 box=desc
 JP: 魔導科学が生み出したスカルマシーン。{n}クラシックなデザインの戦車だ。MVは少ないが、{n}攻撃力と防御力は非常に強力。{end}
-EN: 
+EN: A Skull Machine born of magitech: a{n}classic-style tank. Low MV, but its{n}attack and defense are very strong.{end}
 
 #id 0038 ptr=0313FD box=desc
 JP: 魔導科学が生み出したスカルマシーン。{n}コハクの力を利用して、浮力を得ている。{n}射程は長いが、接近戦には弱い。{end}
-EN: 
+EN: A Skull Machine born of magitech that{n}floats on amber power. Long range,{n}but weak in close combat.{end}
 
 #id 0039 ptr=031447 box=desc
 JP: 宝箱に擬態したユニット。クリティカルヒットが{n}怖い。本物の宝箱とミミックを見分ける事は{n}不可能なのだ。{end}
-EN: 
+EN: A unit disguised as a chest. Fear its{n}critical hits. Telling a real chest{n}from a Mimic is impossible.{end}
 
 #id 0040 ptr=03148A box=desc
 JP: 植物の精霊。どこにでも花を咲かせちゃう{n}ヘンな能力を持っている。太陽の光が大好きなので、昼間は元気がいいぞ。{end}
-EN: 
+EN: A plant spirit with the odd power to{n}make flowers bloom anywhere. It loves{n}sunlight, so it's lively by day.{end}
 
 #id 0041 ptr=0314D3 box=desc
 JP: そまつなよろいに守られた新米兵士。{n}不馴れな戦いに、とまどっている。{n}{end}
-EN: 
+EN: A rookie soldier in cheap armor,{n}bewildered by battles he isn't{n}used to yet.{end}
 
 #id 0042 ptr=0314FF box=desc
 JP: ヘビーアーマーに身をつつんだ重装兵士。{n}歩みはノロいが、破壊力はバツグン。{end}
-EN: 
+EN: A heavy soldier clad in heavy armor.{n}Slow on its feet, but its destructive{n}power is outstanding.{end}
 
 #id 0043 ptr=03152E box=desc
 JP: カワイイ子猫の姿をしているのは カモフラージュ。{n}その正体は、人をだます悪魔なのだ。{n}天球儀から、ほしを召還するよ。{end}
-EN: 
+EN: Its cute kitten look is camouflage.{n}It's really a demon that tricks people.{n}Summons stars from its celestial globe.{end}
 
 #id 0044 ptr=031576 box=desc
 JP: ヤゴによって呼び出された魔界の精霊。{n}その姿は、太陽を模しており、{n}口から強烈なブレスをはく。{end}
-EN: 
+EN: A demon-world spirit summoned by Yago.{n}Shaped like the sun, it breathes{n}a fierce breath from its mouth.{end}
 
 #id 0045 ptr=0315B3 box=desc
 JP: ヤゴによって呼び出された魔界の精霊。{n}その姿は、月を模しており、{n}強烈なパラライズ攻撃をしかけてくる。{end}
-EN: 
+EN: A demon-world spirit summoned by Yago.{n}Shaped like the moon, it unleashes{n}a fierce Paralyze attack.{end}
 
 #id 0046 ptr=0315F4 box=desc
 JP: ヤゴによって呼び出された魔界の精霊。{n}その姿は星を模しており、{n}強烈な体当たり攻撃をしかけてくる。{end}
-EN: 
+EN: A demon-world spirit summoned by Yago.{n}Shaped like a star, it unleashes{n}a fierce body slam.{end}
 
 #id 0047 ptr=031635 box=desc
 JP: 最強最後の合体魔獣。{n}その基本性能は、なんとマウスマンの32倍!{n}さすがネズミの王様である。{end}
-EN: 
+EN: The last and mightiest fusion beast.{n}Its base stats are 32 times those of{n}a Mouseman! The king of mice indeed.{end}
 
 #id 0048 ptr=031673 box=desc
 JP: 合体によって生まれた、コアラの王様。{n}コアラマンの欠点を克服しているぞ。{n}王冠がチャームポイントだ。{end}
-EN: 
+EN: The king of koalas, born of fusion.{n}It overcomes the Koalaman's flaws.{n}Its crown is its charm point.{end}
 
 #id 0049 ptr=0316B1 box=desc
 JP: おもちゃの塔を守るおもちゃの兵隊さん。{n}不思議な力で動いているぞ。{end}
-EN: 
+EN: Toy soldiers guarding the Toy Tower.{n}A strange power makes them move.{end}
 
 #id 0050 ptr=0316DC box=desc
 JP: 寒いところを好むユニットだ。{n}攻撃力と移動力が高いぞ。{n}氷のブロックを蹴飛ばしちゃうよ。{end}
-EN: 
+EN: A unit that likes cold places. High{n}attack power and mobility. It kicks{n}blocks of ice around!{end}
 
 #id 0051 ptr=031715 box=desc
 JP: 吹雪が大好きな、雪の魔獣。{n}グルグルパンチと、クリティカルヒットが強力だ。{n}モコモコの毛皮がチャーミング。{end}
-EN: 
+EN: A snow beast that loves blizzards. Its{n}Spinning Punch and critical hits are{n}strong. Its fluffy fur is charming.{end}
 
 #id 0052 ptr=031756 box=desc
 JP: おもちゃのおうまさんです。パカパカ。{n}みためは かわいいけれど、{n}ニンジン攻撃は痛いぞー!{end}
-EN: 
+EN: A toy horsey. Clip-clop. It looks{n}cute, but its carrot attack hurts!{end}
 
 #id 0053 ptr=031787 box=desc
 JP: {end}
@@ -256,83 +256,83 @@ EN:
 
 #id 0064 ptr=031792 box=desc
 JP: 姿はちいさいが、そのおかげでSPDは速い。{n}HPが少なくなると、ポイズン攻撃を出すぞ。{n}うーん、オレンジ色のニクイやつ。{end}
-EN: 
+EN: Small, but that makes its SPD high.{n}Uses a Poison attack when its HP is low.{n}Hmm, that pesky orange guy.{end}
 
 #id 0065 ptr=0317D6 box=desc
 JP: 防御力がひときわ高いユニット。{n}攻撃力は低いが、必殺率は高い。{n}水路などでは、隠された能力を発揮するぞ。{end}
-EN: 
+EN: A unit with outstanding defense. Low{n}attack, but high critical rate. In{n}waterways, it shows a hidden talent!{end}
 
 #id 0066 ptr=03181E box=desc
 JP: 羽を青く染めた、ペリカンマンの兄貴だ。{n}3種類のモノをはき出して攻撃する。{n}HPが少なくなると、パラライズ攻撃が出るぞ。{end}
-EN: 
+EN: Pelicanman's big brother, with blue-dyed{n}wings. Spits 3 kinds of things. Uses a{n}Paralyze attack when its HP is low.{end}
 
 #id 0067 ptr=031869 box=desc
 JP: アーチェリーのウデを磨くあまりに、{n}間接攻撃しか出来なくなってしまったユニット。{n}射撃のウデ前はバツグン。威力もバツグン。{end}
-EN: 
+EN: It polished its archery so much it can{n}now only attack from range. Superb aim.{n}Superb power, too.{end}
 
 #id 0068 ptr=0318B3 box=desc
 JP: マリンブルーのサボテン野郎。{n}マラカスから繰り出される攻撃は、いずれも強力。HPが少なくなると、ポイズン攻撃が出る。{end}
-EN: 
+EN: A marine-blue cactus guy. Every attack{n}from its maracas is strong. Uses a{n}Poison attack when its HP is low.{end}
 
 #id 0069 ptr=0318FA box=desc
 JP: 高い機動性をほこるユニット。{n}空のユニットなので、防御面でやや不安あり。{n}HPが少なくなると、ポイズン攻撃が出る。{end}
-EN: 
+EN: A unit with great mobility. As a sky{n}unit, its defense is a little shaky.{n}Poison attack when its HP is low.{end}
 
 #id 0070 ptr=031942 box=desc
 JP: HPと攻撃力が高い、てごわいユニット。{n}龍と虎の姿に化けるぞ。{n}HPが少なくなると、パラライズ攻撃が出る。{end}
-EN: 
+EN: A tough unit with high HP and attack.{n}Changes into a dragon or a tiger. Uses{n}a Paralyze attack when its HP is low.{end}
 
 #id 0071 ptr=031984 box=desc
 JP: するどいキバで襲いかかる水のユニット。{n}攻撃力は高いが、防御力はゼロ。{n}{end}
-EN: 
+EN: A water unit that strikes with sharp{n}fangs. High attack, but zero defense.{end}
 
 #id 0072 ptr=0319B2 box=desc
 JP: トレーニングをつんで、はいいろになったカンガルー。{n}ジャンプ力を活かした間接攻撃が強いぞ。{n}HPが少なくなると、ポイズン攻撃が出る。{end}
-EN: 
+EN: A kangaroo trained until it turned gray.{n}Its jumping ranged attacks are strong.{n}Poison attack when its HP is low.{end}
 
 #id 0073 ptr=031A00 box=desc
 JP: 高い防御力を誇る緑の魔物。{n}HPは少ないが、ポイズン攻撃を持っている。{n}ひとくせあるユニットだ。{end}
-EN: 
+EN: A green monster with high defense. Low{n}HP, but it has a Poison attack.{n}A tricky unit.{end}
 
 #id 0074 ptr=031A3D box=desc
 JP: 攻撃力が高く、HPも多い強力なユニットだ。{n}間接攻撃の射程は3。接近戦もOK。{n}強敵なので、こころして挑むように。{end}
-EN: 
+EN: A strong unit with high attack and HP.{n}Ranged reach 3, and fine up close too.{n}A tough foe, so fight with care.{end}
 
 #id 0075 ptr=031A8A box=desc
 JP: パワーアップしたライオンマン。{n}体色が紫色なのは、敵をイカクするためだ。{n}トランス攻撃を持っているぞ。{end}
-EN: 
+EN: A powered-up Lionman. Its purple body{n}is meant to intimidate foes.{n}It has a Trance attack.{end}
 
 #id 0076 ptr=031AC6 box=desc
 JP: 非常に強力なユニットだ。{n}唯一の欠点は、攻撃力がやや低いことだが、{n}HPの多さと射程の長さで十分カバーしている。{end}
-EN: 
+EN: A very strong unit. Its one flaw is its{n}slightly low attack, but plenty of HP{n}and long range make up for it.{end}
 
 #id 0077 ptr=031B11 box=desc
 JP: 洞窟で独自の進化をとげたチキンマン。{n}過酷な環境に適応したクチバシは鋭さをましている。HPが少なくなると、パラライズ攻撃を出す。{end}
-EN: 
+EN: A Chickenman that evolved in caves. Its{n}beak, adapted to the harsh habitat, is{n}sharper. Paralyze attack at low HP.{end}
 
 #id 0078 ptr=031B63 box=desc
 JP: 近寄りがたい色をしているが、{n}機動性に難があるのはあいかわらず。{n}合体でのみ、その姿を現わす。{end}
-EN: 
+EN: Its color keeps others away, but it's{n}as slow as ever. It appears only{n}through fusion.{end}
 
 #id 0079 ptr=031B9E box=desc
 JP: 防御力が低い、うたれ弱いユニットだ。{n}HPが少なくなると、ポイズン攻撃を出す。{end}
-EN: 
+EN: A fragile unit with low defense.{n}Uses a Poison attack when its HP is low.{end}
 
 #id 0080 ptr=031BCF box=desc
 JP: ポップな服装でキメてる陽気なオシャレさん。{n}ガイコツなのに、HPは多いヘンなやつだ。{n}HPが少なくなると、ポイズン攻撃をしかけてくる。{end}
-EN: 
+EN: A cheerful dandy in poppy clothes.{n}A skeleton, yet oddly full of HP. Uses{n}a Poison attack when its HP is low.{end}
 
 #id 0081 ptr=031C1B box=desc
 JP: 長い年月をへて、意志をもつようになった人形。夜になると活発に行動する怪奇派である。{n}HPが少なくなると、トランス攻撃をしかけてくる。{end}
-EN: 
+EN: A doll that gained a will over long{n}years. A creepy type, active at night.{n}Trance attack when its HP is low.{end}
 
 #id 0082 ptr=031C70 box=desc
 JP: 真夜中に何処ともなく現れる夜の番人。{n}その恐ろしい姿は、みるものに死を予感させる。{n}HPが少なくなると、トランス攻撃が出る。{end}
-EN: 
+EN: A night watchman who appears from{n}nowhere at midnight. Its sight foretells{n}death. Trance attack when its HP is low.{end}
 
 #id 0083 ptr=031CC1 box=desc
 JP: 吹雪がだいすきな、氷の精霊。{n}体温はスノーマンより低い。{n}HPが少なくなると、ウイーク攻撃を出す。{end}
-EN: 
+EN: An ice spirit that loves blizzards.{n}Even colder than a Snowman. Uses a{n}Weak attack when its HP is low.{end}
 
 #id 0084 ptr=031CFF box=desc
 JP: {end}
@@ -344,35 +344,35 @@ EN:
 
 #id 0086 ptr=031D01 box=desc
 JP: カッパーコーティングを施されたドラゴンナイト。{n}その鋭い槍は、切れ味をましている。{n}HPが少なくなると、スロウ攻撃を出す。{end}
-EN: 
+EN: A copper-coated Wyrm Knight. Its sharp{n}lance cuts even better. Uses a Slow{n}attack when its HP is low.{end}
 
 #id 0087 ptr=031D48 box=desc
 JP: オレンジマウスマンの変異体だ。その巨体から{n}降りおろすコン棒は、絶大な破壊力を誇る。{n}HPが少なくなると、スロウ攻撃を出す。{end}
-EN: 
+EN: A mutant Orangemouse. Its club, swung{n}from that huge body, is devastating.{n}Slow attack when its HP is low.{end}
 
 #id 0088 ptr=031D98 box=desc
 JP: 明日のプリマを夢見る若き乙女。{n}桃色の羽は、高い防御力のみなもとだ。{n}HPが少なくなると、トランス攻撃を出す。{end}
-EN: 
+EN: A young maiden dreaming of being prima.{n}Her pink wings give her high defense.{n}Trance attack when her HP is low.{end}
 
 #id 0089 ptr=031DE2 box=desc
 JP: 悪さが大好きな幽霊。{n}だれかれかまわず、ちょっかいをかけてくるイヤなヤツだ。{n}HPが少なくなると、ポイズン攻撃を出す。{end}
-EN: 
+EN: A ghost that loves mischief, a nasty{n}one that pesters anyone at all.{n}Poison attack when its HP is low.{end}
 
 #id 0090 ptr=031E27 box=desc
 JP: ニンジャ部隊の中核をなす存在。{n}高いSPDと、必殺のクリティカルヒットが恐い。{n}HPが少なくなると、ポイズン攻撃をしかけてくる。{end}
-EN: 
+EN: The core of the ninja squad. Fear its{n}high SPD and deadly critical hits.{n}Poison attack when its HP is low.{end}
 
 #id 0091 ptr=031E75 box=desc
 JP: マテドラル軍の攻撃の要。{n}魔法攻撃の驚くべき射程と、凶悪な{n}ウイーク攻撃は、勇者軍の脅威となるだろう。{end}
-EN: 
+EN: The heart of Matedral's attack force.{n}Its magic's reach and vicious Weak{n}attack will threaten the Heroes.{end}
 
 #id 0092 ptr=031EBD box=desc
 JP: グリーンソードを持つガイコツファイター。{n}スカルボンバーズの小隊長的な存在で、{n}配下にパイレーツの部隊が付くことが多い。{end}
-EN: 
+EN: A skeleton fighter with a green sword.{n}A Skull Bombers squad leader, often{n}with a band of Pirates under him.{end}
 
 #id 0093 ptr=031F07 box=desc
 JP: ヴァイス団をまとめる若き頭目。{n}秘宝騒動を転機とし、心をいれかえて、{n}マテドラル王国の復興に尽力をつくしている。{end}
-EN: 
+EN: The young leader of Weiss's band. The{n}treasure affair changed his heart, and{n}he now works to rebuild Matedral.{end}
 
 #id 0094 ptr=031F51 box=desc
 JP: {end}
@@ -388,7 +388,7 @@ EN:
 
 #id 0097 ptr=031F54 box=desc
 JP: タムタムの最強変身がこのモーモー・スーツだ。{n}その力はミノタウロスに匹敵する破壊力!{n}すごいね。{end}
-EN: 
+EN: The Moomoo Suit is Tamtam's mightiest{n}form. Its destructive power rivals a{n}minotaur's! Amazing!{end}
 
 #id 0098 ptr=031F8F box=desc
 JP: {end}
@@ -400,19 +400,19 @@ EN:
 
 #id 0100 ptr=031F91 box=desc
 JP: スカル・ダンクが名声を得て昇格すると、{n}スカル・ダンカーになる。ゴールをむりやりゲットする実力派だ。トランス攻撃も出るよ。{end}
-EN: 
+EN: A famous Skull Dunk gets promoted to{n}Skull Dunker: a pro who scores no matter{n}what. Uses a Trance attack, too.{end}
 
 #id 0101 ptr=031FDA box=desc
 JP: スカル・タンクを改良して造られたSシリーズ。{n}タンクは攻撃力と間接攻撃力が変わらないのが特徴だ。名前のSは、スペシャルの意。{end}
-EN: 
+EN: The S series, an improved Skull Tank.{n}Its attack and ranged attack are equal.{n}The S stands for Special.{end}
 
 #id 0102 ptr=03202A box=desc
 JP: スカル・ポンプの改良強化型マシーン。{n}搭載されているバクダンが強力になったようだ。{n}射程は長いが、間接攻撃しかできない。{end}
-EN: 
+EN: An upgraded Skull Pump. Its bombs seem{n}more powerful. Long range, but it can{n}only attack from range.{end}
 
 #id 0103 ptr=032077 box=desc
 JP: 宝箱に擬態したユニット。クリティカルヒットが{n}怖い。本物の宝箱とミミックを見分けるの{n}は不可能なのだ。{end}
-EN: 
+EN: A unit disguised as a chest. Fear its{n}critical hits. Telling a real chest{n}from a Mimic is impossible.{end}
 
 #id 0104 ptr=0320B9 box=desc
 JP: {end}
@@ -420,11 +420,11 @@ EN:
 
 #id 0105 ptr=0320BA box=desc
 JP: ようやく戦場にもなれてきた、のびざかりの兵士。{n}もう少し武功をつむと、ソルジャーに昇格する。{end}
-EN: 
+EN: A growing soldier, now used to battle.{n}A bit more glory and he'll be promoted{n}to Holy Sentry.{end}
 
 #id 0106 ptr=0320F2 box=desc
 JP: パープルコーティングをほどこしたアーマーに身をつつむ、{n}マテドラルの重装兵士。防御力がすごく高い。HPが少なくなると、トランス攻撃をしかけてくる。{end}
-EN: 
+EN: A Matedral heavy soldier in purple-coated{n}armor. Very high defense. Uses a Trance{n}attack when its HP is low.{end}
 
 #id 0107 ptr=032148 box=desc
 JP: {end}
@@ -456,11 +456,11 @@ EN:
 
 #id 0114 ptr=03214F box=desc
 JP: ペングーの純血種が、この、こうていペングー。{n}絶滅の危機にひんしている貴重な種族だ。{n}HPが少なくなると、スロウ攻撃を出す。{end}
-EN: 
+EN: The pure-blooded Pengoo: the King{n}Pengoo. A precious, endangered species.{n}Slow attack when its HP is low.{end}
 
 #id 0115 ptr=03219D box=desc
 JP: 雪の少ない環境に適応したイエティ。{n}体色は、草むらなどになじむ保護色になっている。HPが少なくなると、スロウ攻撃を出す。{end}
-EN: 
+EN: A Yeti adapted to places with little{n}snow. Its color blends into grass.{n}Slow attack when its HP is low.{end}
 
 #id 0116 ptr=0321EA box=desc
 JP: {end}

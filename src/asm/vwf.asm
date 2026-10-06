@@ -1,16 +1,16 @@
 ; VWF for the message renderer. Design + RE: docs/re/text-engine.md "Dynamic tiles and VWF hooks".
 ;
-; Each visible text line gets a "line slot" of W cells (32, or 27 = 216 px in windows of 3+ lines), taken from the
-; top of the dynamic tiles down: slot L is tiles $180 + 128 - (L+1)*W ... and cell c of a line is tile slot0 + c - col0
-; (col0 = cursor column where the line's first glyph went). Window labels drawn as UI glyphs fill the tiles from the
-; bottom up (from 2*$0A1A, sometimes drawn after the text), so they stay clear of the slots.
+; Each text line gets a "line slot" of 27 cells (216 px, the lint limit), taken from the top of the dynamic tiles
+; down: slot L is tiles $180 + 128 - (L+1)*27 ..., the first line after a window clear takes slot 0, and cell c of a
+; line is tile slot0 + c - col0 (col0 = cursor column of the line's first glyph). Window labels drawn as UI glyphs
+; fill the tiles from the bottom up (from 2*$0A1A, sometimes drawn after the text), so they stay clear of the slots.
 ; Glyphs are ORed into those 2bpp tiles (plane 0 = top 8 rows, plane 1 = bottom 8 rows) and the
 ; whole slot buffer is uploaded by the NMI ($57 = $FE) once per screen update: drawing only marks the buffer
 ; dirty, and the hook on the game's tilemap upload ($00:C20E) sends the tiles first. Tiles are stored EOR $6F
 ; (the game's font is inverted: $6F = $FFFF in every window seen).
-; Fixed font (original renderer) is used when: menu mode ($0A1C), kanji in the message ($0A18),
-; too few line slots for the window, a cursor-set code appeared in the message, the cursor is outside the
-; window's rows, or char not $20-$7E.
+; Fixed font (original renderer) is used when: menu mode ($0A1C),
+; too few line slots for the window, a cursor-set code appeared in the message, the cursor is above the
+; window, or char not $20-$7E.
 ; All VWF RAM is long-addressed (.l): DB belongs to the game.
 
 !px     = $7FFF00         ; pixel offset inside the current cell (0-7)
@@ -67,8 +67,9 @@ vwf_start:
     PHP : REP #$30 : PHX : PHY
     JSR vwf_layout
     LDA #$0000 : STA.l !novwf
-    LDA $0A18 : ORA $0A1C : BNE .fixed           ; kanji message / menu mode: slot buffer is not ours
-    LDA.l !nlines : BNE .ok                      ; 0: the visible lines' slots do not fit above the labels
+    LDA $0A1C : BNE .fixed                       ; menu mode: slot buffer is not ours
+    LDA.l !nlines : CMP #$0000 : BEQ .fixed
+    LDA $09F6 : LSR : CMP.l !nlines : BCC .ok : BEQ .ok   ; visible lines <= slots?
 .fixed:
     LDA #$0001 : STA.l !novwf
     BRA .done
@@ -79,21 +80,17 @@ vwf_start:
     PLY : PLX : PLP
     JML $00BE49
 
-vwf_layout:               ; !base = 2*$0A1A; !nlines = visible lines ($09F6/2) of !width cells, or 0 if they don't fit
-    LDA $0A1A : ASL : STA.l !base
-    LDA #$0020 : STA.l !width
-    LDA $09F6 : LSR : STA.l !nlines : STA.l !row                  ; (!row, !v: scratch)
-    CMP #$0003 : BCC + : LDA #$001B : STA.l !width                ; 3+ lines: 27 cells each (lint: 216 px)
-+   LDA #$0080 : STA.l !v
--   LDA.l !row : BEQ +                                            ; !v = 128 - nlines*width
-    DEC : STA.l !row
-    LDA.l !v : SEC : SBC.l !width : STA.l !v
-    BRA -
-+   LDA.l !v : BMI .none : CMP.l !base : BCC .none               ; slots must stay above the labels
-    RTS
-.none:
+vwf_layout:               ; !base = 2*($0A1A + $0A18): labels + this message's kanji/UI glyphs (the game copies them
+                          ; there); !width = 27, !nlines = (128 - base) / 27 (0 if base >= 128)
+    LDA $0A1A : CLC : ADC $0A18 : ASL : STA.l !base
+    LDA #$001B : STA.l !width
     LDA #$0000 : STA.l !nlines
-    RTS
+    LDA #$0080 : SEC : SBC.l !base : STA.l !v                      ; (!v: scratch)
+-   LDA.l !v : SEC : SBC.l !width : BMI +
+    STA.l !v
+    LDA.l !nlines : INC : STA.l !nlines
+    BRA -
++   RTS
 
 vwf_advance_line:         ; px = 0, line = (line + 1) mod nlines, slot0 = 128 - (line+1)*width, clear it (16-bit A/X/Y)
     LDA #$0000 : STA.l !px : STA.l !partial
@@ -120,9 +117,9 @@ vwf_clearslot:            ; blank the !width tiles of the current slot
 vwf_dispatch:             ; renderer: A = char (16-bit), X = tilemap offset (16-bit)
     CMP #$00CE : BNE + : JML $00BE4F            ; replayed: no-op char
 +   PHA
-    LDA $0A1C : ORA $0A18 : BNE .fixed
+    LDA $0A1C : BNE .fixed
     LDA.l !novwf : BNE .fixed
-    LDA $09FE : SEC : SBC $09F2 : CMP $09F6 : BCS .fixed   ; cursor outside the window's rows (panel values): no slot
+    LDA $09FE : CMP $09F2 : BCC .fixed           ; cursor above the window (panel values): no slot
     LDA 1,s : CMP #$0020 : BCC .fixed : CMP #$007F : BCS .fixed
     PLA
     JSR vwf_draw
@@ -231,9 +228,10 @@ vwf_setcol:
 vwf_clear:
     PHP : REP #$30 : PHX
     JSR vwf_layout
-    LDA #$0000 : STA.l !px : STA.l !line : STA.l !partial
-    LDA #$0001 : STA.l !needslot                 ; the first glyph after a clear takes a fresh slot
-    LDA $0A18 : ORA $0A1C : BNE +                ; kanji tiles / menu mode: !slots is not ours
+    LDA #$0000 : STA.l !px : STA.l !partial
+    LDA #$FFFF : STA.l !line                     ; the first glyph after a clear takes slot 0 (the top one)
+    LDA #$0001 : STA.l !needslot
+    LDA $0A1C : BNE +                            ; menu mode: !slots is not ours
     LDA.l !base : ASL : ASL : ASL : ASL : TAX    ; clear from the first VWF tile to the end
     LDA $6F                                      ; blank tile = paper (inversion mask)
 -   CPX #$0800 : BCS +

@@ -103,7 +103,8 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
             jp_pages = _pages(e.jp)
             cap = win.get("cells") or (win["px"] // 8 if win.get("px") else None)
             for i, page in enumerate(_pages(e.en)):
-                allowed = max(win["lines"], _shown_lines(jp_pages[i], cap) if i < len(jp_pages) else 0)
+                jp_lines = _shown_lines(jp_pages[i], cap) if i < len(jp_pages) and win.get("scroll", True) else 0
+                allowed = max(win["lines"], jp_lines)                # JP may auto-wrap and scroll; scroll=false: fixed
                 if len(page) > allowed:
                     out.append(f"#{e.id}: page {i + 1} has {len(page)} lines > {allowed}")
     if enc is not None:

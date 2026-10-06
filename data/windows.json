@@ -28,9 +28,9 @@
  },
  "desc": {
   "px": 216,
-  "cells": 28,
   "lines": 3,
-  "note": "unit/terrain/item descriptions (msg06); JP relies on auto-wrap, EN breaks lines explicitly"
+  "note": "unit/terrain/item descriptions (msg06): VWF with 27-cell slots (216 px) since the M3 slot change; JP relies on auto-wrap, EN breaks lines explicitly",
+  "scroll": false
  },
  "summary": {
   "px": 216,

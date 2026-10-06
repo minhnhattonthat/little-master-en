@@ -145,6 +145,9 @@ under a `{cF1}` palette.
 
 On personal info, `$0A1A` is 0 when the description starts, and the "Exit/Next" labels (UI glyphs) are copied into the
 low slot tiles afterwards; the panel values ("?" element) are separate messages drawn above the window. So the VWF now
-takes line slots from the top of the tile buffer down (one per visible line, 27 cells = 216 px when the window has 3+
-lines, else 32), and glyphs whose cursor row is outside the window (`$09F2`..`$09F2+$09F6`) use the fixed font.
-
+takes 27-cell line slots (216 px, the lint limit) from the top of the tile buffer down, the first line after a window
+clear in the top slot, and glyphs whose cursor row is above the window top (`$09F2`) use the fixed font. `$09F6` is not
+always the real text height (the map turn panel holds 2 lines with `$09F6` = 4 rows, but other windows hold more), so the
+slot count is "as many as fit": `(128 - 2*($0A1A + $0A18)) / 27`. Messages with kanji/UI glyphs (`$0A18` > 0) may use the
+VWF too: the game copies their glyphs to slots `$0A1A..` (bottom up), below the VWF slots. Menu mode (`$0A1C`) and
+positioned layouts (`{pXX:YY}`, e.g. the turn panel) still use the fixed font.

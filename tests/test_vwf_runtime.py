@@ -54,24 +54,26 @@ end, emu.eventType.endFrame)
     assert int(res) >= 1, "the {g10} cell was overwritten by the next VWF glyph"
 
 
-def test_vwf_code_leaves_slot_buffer_alone_in_kanji_messages(tmp_path):
+def test_vwf_code_leaves_kanji_tiles_alone(tmp_path):
+    """Messages with UI/kanji glyphs: the game copies them to slots $0A1A.. (2 tiles each); the VWF must not touch them."""
     sfc = build.build(tmp_path / "b", "en")
     res = run(sfc, "batte_caution", '''
-local vwfwrites = 0
-emu.addMemoryCallback(function()
+local hits = 0
+emu.addMemoryCallback(function(addr)
   local st = emu.getState()
-  if loaded and frame > 10 and (st["cpu.k"] or 0) == 0xC0
-     and emu.read16(0x0A18, emu.memType.snesWorkRam) ~= 0 then vwfwrites = vwfwrites + 1 end
+  local first = 0x1B000 + 32 * emu.read16(0x0A1A, emu.memType.snesWorkRam)
+  local last = first + 32 * emu.read16(0x0A18, emu.memType.snesWorkRam)
+  if loaded and frame > 10 and (st["cpu.k"] or 0) == 0xC0 and addr >= first and addr < last then hits = hits + 1 end
 end, emu.callbackType.write, 0x1B000, 0x1B7FF, emu.cpuType.snes, emu.memType.snesWorkRam)
 emu.addEventCallback(function()
   if not loaded then return end
   frame = frame + 1
   if frame == 200 then
-    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(tostring(vwfwrites)); f:close(); emu.stop(0)
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(tostring(hits)); f:close(); emu.stop(0)
   end
 end, emu.eventType.endFrame)
 ''', tmp_path / "o2")
-    assert int(res) == 0, f"{res} writes to $7F:B000 from VWF code during a kanji message"
+    assert int(res) == 0, f"{res} VWF writes to the message's kanji tiles"
 
 
 def test_overlong_inline_text_renders_and_event_continues(tmp_path, monkeypatch):
@@ -295,3 +297,4 @@ end, emu.eventType.endFrame)
 ''')
     assert mesen.run(sfc, "_rt.lua", tmp_path / "o") == 0
     assert (tmp_path / "o" / "rt.txt").read_text() == "0"     # no 'B' (TAMBORIN BREAD) in the MOOMOO DYNAMITE title rows
+
