@@ -26,17 +26,25 @@ def run(sfc, state, body, out):
     return (Path(out) / "rt.txt").read_text()
 
 
-def test_fixed_char_between_vwf_glyphs_keeps_its_cell(tmp_path, monkeypatch):
+PEACOCK_JP = "ピーコック、君は急いで家にもどるんだ"      # ev0A #24, the line open in ordinary_field_message
+PEACOCK_EN = '{p7F:02}{speed:02}"Peacock, run home!{n}{delay:30} We\'ll stop them."{end}'   # fixed baseline (M2 test line)
+
+
+def inject_peacock(monkeypatch, make):
+    """Replace the EN of the field line in ordinary_field_message with make(PEACOCK_EN), whatever the script says."""
     real = build.parse
 
-    def inject(text):
+    def f(text):
         es = real(text)
         for e in es:
-            if "Peacock, run home!" in e.en:
-                e.en = e.en.replace("Peacock", "Pea{g10}cock")
+            if PEACOCK_JP in e.jp and "{speed:02}" in e.jp:
+                e.en = make(PEACOCK_EN)
         return es
+    monkeypatch.setattr(build, "parse", f)
 
-    monkeypatch.setattr(build, "parse", inject)
+
+def test_fixed_char_between_vwf_glyphs_keeps_its_cell(tmp_path, monkeypatch):
+    inject_peacock(monkeypatch, lambda en: en.replace("Peacock", "Pea{g10}cock"))
     sfc = build.build(tmp_path / "b", "en")
     res = run(sfc, "ordinary_field_message", '''
 emu.addEventCallback(function()
@@ -77,17 +85,8 @@ end, emu.eventType.endFrame)
 
 
 def test_overlong_inline_text_renders_and_event_continues(tmp_path, monkeypatch):
-    real = build.parse
     long_line = '{p7F:02}{speed:02}"Peacock, hurry back home now!{n}{delay:30} We will hold those thugs off."{end}'
-
-    def inject(text):
-        es = real(text)
-        for e in es:
-            if "Peacock, run home!" in e.en:
-                e.en = long_line if "{speed:02}" in e.jp else e.en
-        return es
-
-    monkeypatch.setattr(build, "parse", inject)
+    inject_peacock(monkeypatch, lambda en: long_line)
     sfc = build.build(tmp_path / "b", "en")
     res = run(sfc, "ordinary_field_message", '''
 local inline = 0
@@ -169,8 +168,7 @@ end, emu.eventType.endFrame)
 
 
 def test_line_ending_on_the_edge_leaves_the_border(tmp_path, monkeypatch):
-    peacock = '{p7F:02}{speed:02}"Peacock, run home!{n}{delay:30} We\'ll stop them."{end}'
-    inject_en(monkeypatch, peacock, "{p7F:02}{speed:02}" + "M" * 28 + "{end}")
+    inject_peacock(monkeypatch, lambda en: "{p7F:02}{speed:02}" + "M" * 28 + "{end}")
     sfc = build.build(tmp_path / "b", "en")
     res = run(sfc, "ordinary_field_message", '''
 emu.addEventCallback(function()
@@ -188,16 +186,7 @@ end, emu.eventType.endFrame)
 
 
 def test_fixed_font_draws_lowercase_with_uppercase_tiles(tmp_path, monkeypatch):
-    real = build.parse
-
-    def inject(text):
-        es = real(text)
-        for e in es:
-            if "Peacock, run home!" in e.en:
-                e.en = e.en.replace("Peacock", "{p02:16}zz_z")
-        return es
-
-    monkeypatch.setattr(build, "parse", inject)
+    inject_peacock(monkeypatch, lambda en: en.replace("Peacock", "{p02:16}zz_z"))
     sfc = build.build(tmp_path / "b", "en")
     res = run(sfc, "ordinary_field_message", '''
 emu.addEventCallback(function()
@@ -414,16 +403,7 @@ def test_full_width_line_then_newline_has_no_blank_line(tmp_path, monkeypatch):
         line += "n"
     while sum(w[c] for c in line) + w["i"] <= LINE_PX:
         line += "i"
-    real = build.parse
-
-    def inject(text):
-        es = real(text)
-        for e in es:
-            if "Peacock, run home!" in e.en:
-                e.en = e.en.replace("Peacock, run home!", line + "{n}B")
-        return es
-
-    monkeypatch.setattr(build, "parse", inject)
+    inject_peacock(monkeypatch, lambda en: en.replace("Peacock, run home!", line + "{n}B"))
     sfc = build.build(tmp_path / "b", "en")
     res = run(sfc, "ordinary_field_message", '''
 emu.addEventCallback(function()
