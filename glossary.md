@@ -32,6 +32,15 @@ inside unrelated words would cause false lint hits. Columns: JP | EN | max | not
 | リチャード | Richard | | |
 | ミーシャ | Misha | | |
 | ボルシチ | Borscht | | villager |
+| ラドック | Radock | | speaker label of Professor Radock |
+| ライム | Lime | | Princess of Rainark |
+| 司会者 | Host | | quiz show host |
+| ポトフ | Potofu | | |
+| タップン | Tappun | | |
+| ミーシャの母 | Misha's mom | | speaker label |
+| ハムス | Hamus | | the twins' pet hamster |
+| プーちゃん | Poo | | Misha's plush toy |
+| ゲザガイン | Gezagain | | black demon dragon of the first game |
 
 ## Places
 

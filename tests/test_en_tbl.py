@@ -28,3 +28,7 @@ def test_ui_symbols_use_the_game_glyph_codes():
 
 def test_extra_game_symbols():
     assert EN.encode("♡‥～‼▲▼") == bytes.fromhex("1F1C1D1B090A")
+
+
+def test_music_note_encodes_like_the_game():
+    assert EN.encode("♪") == bytes.fromhex("FE")
