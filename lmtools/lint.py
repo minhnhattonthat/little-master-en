@@ -140,6 +140,10 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
     for term, en_term in (glossary.items() if e.meta.get("gloss") != "off" else []):   # gloss=off: tight UI labels
         if term in e.jp and en_term.lower() not in flat.lower():
             out.append(f"#{e.id}: glossary: {term} should be '{en_term}'")
+    for jp_page, en_page in zip(_pages(e.jp), _pages(e.en)):     # speaker label: a glossary name, then 「
+        first, nxt = HEADER.sub("", jp_page[0]), (jp_page[1] if len(jp_page) > 1 else "")
+        if first in glossary and nxt.startswith("「") and HEADER.sub("", en_page[0]) != glossary[first]:
+            out.append(f"#{e.id}: speaker '{first}' should be '{glossary[first]}'")
     return out
 
 
@@ -163,3 +167,16 @@ def lint_all(root=".") -> list[str]:
         for e in parse((root / f"script/{b.name}.txt").read_text(encoding="utf-8")):
             out += [f"{b.name} {m}" for m in lint_entry(e, b.box, widths, windows, glossary, enc)]
     return out
+
+
+def missing(root=".", blocks=None) -> list[str]:
+    """`<block> #<id>` for every entry with JP text (kana/kanji outside codes) and no EN."""
+    root = Path(root)
+    names = blocks or [b.name for b in load_blocks(root / "data/blocks.json")]
+    out = []
+    for name in names:
+        for e in parse((root / f"script/{name}.txt").read_text(encoding="utf-8")):
+            if not e.en and re.search(r"[ぁ-んァ-ヶ一-龯]", re.sub(r"\{[^}]*\}", "", e.jp)):
+                out.append(f"{name} #{e.id}")
+    return out
+

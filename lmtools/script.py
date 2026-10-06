@@ -61,3 +61,27 @@ def merge_en(path, fresh) -> list[int]:
         e.meta = {**metas.get((e.ptr, e.jp), {}), **e.meta}
         e.en = by_key.pop((e.ptr, e.jp), e.en)
     return [e.id for e in old if e.en and (e.ptr, e.jp) in by_key]
+
+
+def apply_tsv(path, tsv) -> tuple[int, list[int]]:
+    """Set EN from `id<TAB>EN` lines (# comments allowed). Returns (applied, ids not in the file)."""
+    path = Path(path)
+    es = parse(path.read_text(encoding="utf-8"))
+    tr = {}
+    for line in tsv.splitlines():
+        if line.strip() and not line.startswith("#"):
+            i, en = line.split("\t", 1)
+            tr[int(i)] = en
+    applied = 0
+    for e in es:
+        if e.id in tr:
+            e.en = tr.pop(e.id)
+            applied += 1
+    save(path, es, force=True)
+    return applied, sorted(tr)
+
+
+def show(entries, lo, hi) -> str:
+    """`id<TAB>metas<TAB>JP` for entries lo..hi (metas that matter when translating: cont, win, slack)."""
+    return "\n".join(f"{e.id}\t{' '.join(f'{k}={v}' for k, v in e.meta.items() if k in ('cont', 'win', 'slack'))}\t{e.jp}"
+                     for e in entries if lo <= e.id <= hi)

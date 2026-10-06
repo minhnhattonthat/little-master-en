@@ -58,3 +58,18 @@ def test_merge_en_keeps_translator_metas(tmp_path):
     fresh = [Entry(0, 0x10, {"box": "b"}, "あ{end}")]
     merge_en(p, fresh)
     assert fresh[0].meta == {"box": "b", "win": "item", "slack": "2", "gloss": "off"}
+
+
+def test_apply_tsv_sets_en_and_reports_unknown_ids(tmp_path):
+    from lmtools.script import apply_tsv
+    p = tmp_path / "s.txt"
+    save(p, [Entry(0, 0x10, {}, "あ{end}", ""), Entry(1, 0x20, {}, "い{end}", "")])
+    assert apply_tsv(p, "1\tI{end}\n7\tX{end}\n") == (1, [7])
+    assert parse(p.read_text(encoding="utf-8"))[1].en == "I{end}"
+    assert b"\r\n" not in p.read_bytes()
+
+
+def test_show_lists_range_with_metas():
+    from lmtools.script import show
+    es = [Entry(0, 1, {"box": "a"}, "あ{end}"), Entry(1, 2, {"cont": "1"}, "い{end}"), Entry(2, 3, {}, "う{end}")]
+    assert show(es, 1, 2) == "1\tcont=1\tい{end}\n2\t\tう{end}"

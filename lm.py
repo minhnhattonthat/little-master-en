@@ -101,9 +101,23 @@ def cmd_roundtrip(a):
 
 
 def cmd_lint(a):
+    if a.missing is not None:
+        msgs = lint.missing(".", a.missing or None)
+        print(chr(10).join(msgs) if msgs else "nothing missing")
+        sys.exit(1 if msgs else 0)
     msgs = lint.lint_all()
     print(chr(10).join(msgs) if msgs else "lint clean")
     sys.exit(1 if msgs else 0)
+
+
+def cmd_show(a):
+    print(script.show(script.parse(Path(f"script/{a.block}.txt").read_text(encoding="utf-8")), a.lo, a.hi))
+
+
+def cmd_apply(a):
+    n, unknown = script.apply_tsv(Path(f"script/{a.block}.txt"), Path(a.tsv).read_text(encoding="utf-8"))
+    print(f"applied {n}; unknown ids {unknown}")
+    sys.exit(1 if unknown else 0)
 
 
 def cmd_build(a):
@@ -148,7 +162,13 @@ def build_parser():
     p.add_argument("--out", default="build"); p.add_argument("--source", default="en", choices=["en", "jp"])
     p.add_argument("--no-lint", action="store_true")
     p.set_defaults(fn=cmd_build)
-    sub.add_parser("lint", help="check EN lines (widths, lines, controls, glossary, name bytes)").set_defaults(fn=cmd_lint)
+    p = sub.add_parser("lint", help="check EN lines (widths, lines, controls, glossary, speakers, name bytes)")
+    p.add_argument("--missing", nargs="*", metavar="BLOCK", help="list untranslated entries instead (all blocks if none)")
+    p.set_defaults(fn=cmd_lint)
+    p = sub.add_parser("show", help="list a block's entries lo..hi (id, metas, JP)")
+    p.add_argument("block"); p.add_argument("lo", type=int); p.add_argument("hi", type=int); p.set_defaults(fn=cmd_show)
+    p = sub.add_parser("apply", help="set EN lines from an id<TAB>EN file")
+    p.add_argument("block"); p.add_argument("tsv"); p.set_defaults(fn=cmd_apply)
     p = sub.add_parser("boot"); p.add_argument("rom", nargs="?"); p.set_defaults(fn=cmd_boot)
     return ap
 
