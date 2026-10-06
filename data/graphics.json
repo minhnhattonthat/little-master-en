@@ -1,0 +1,9 @@
+[
+  {"name": "title_subtitle", "kind": "bitmap8", "set": "title", "id": 11, "piece_y": 96,
+   "x": 70, "y": 98, "png": "src/gfx/title_subtitle.png",
+   "new_at": "0x206000", "new_room": 8192,
+   "greys": {"0": 0, "16": 24, "24": 31, "32": 15, "40": 27, "48": 18, "56": 22, "64": 21, "72": 41, "80": 20,
+             "88": 14, "96": 23, "104": 28, "112": 19, "120": 16, "128": 13, "136": 17, "144": 29, "168": 25,
+             "184": 7, "192": 8, "200": 10, "216": 9, "232": 6, "248": 1},
+   "note": "Title BG1 is one 256x224 8bpp bitmap in 7 chunk-codec pieces (ids 8-14, 32 lines each). The edited piece is stored whole as new chunks in the reserved $C0:E000-$C0:FFFF (index ED00+, within the unpacker's 16-bit reach), so its stream shrinks and fits in place."}
+]

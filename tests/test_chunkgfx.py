@@ -30,3 +30,9 @@ def test_encode_round_trips_title():
         data = chunkgfx.decode(base, chunkgfx.TITLE, i)
         dictionary, stream, start = chunkgfx.encode(data, start=0)
         assert chunkgfx.decode_stream(stream, lambda k: dictionary[16 * k:16 * k + 16], start) == data
+
+
+
+def test_stream_len_counts_operands():
+    stream = bytes([0x03, 0x41, 0x22, 0x80, 0x05, 0x85, 0x00, 0xAA])
+    assert chunkgfx.stream_len(stream, 0) == 7

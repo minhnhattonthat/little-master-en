@@ -276,3 +276,5 @@ name_copy:
     STA $0400,x : INX
     LDA.l !namelen : DEC : STA.l !namelen : BNE -
 +   JML $00B948               ; PLY / RTS
+
+assert pc() <= $C0E000, "bank $C0 code/data must stay below $C0E000 (graphics chunks, data/graphics.json)"

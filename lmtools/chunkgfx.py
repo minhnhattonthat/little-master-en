@@ -26,6 +26,20 @@ def _entry(buf, table, id_):
         y += 8
 
 
+def set_entry(buf, table, id_, stream_pc, start):
+    """Point entry `id_` at a stream placed at `stream_pc` (same bank as the table) and new chunks from `start`."""
+    t = rom.lorom_to_pc(table)
+    _entry(buf, table, id_)
+    y = 8
+    while buf[t + y] | buf[t + y + 1] << 8 != id_:
+        y += 8
+    off = stream_pc - t
+    if not 0 <= off < 0x8000 - (table & 0x7FFF):
+        raise ValueError(f"stream {stream_pc:06X} outside table bank")
+    buf[t + y + 2:t + y + 4] = off.to_bytes(2, "little")
+    buf[t + y + 4:t + y + 6] = start.to_bytes(2, "little")
+
+
 def chunk_pc(dict_addr, idx):
     """PC of dictionary chunk `idx`; mirrors the unpacker's bank math (none/raises in the unreachable gap)."""
     off = 16 * idx
@@ -52,6 +66,17 @@ def decode_stream(stream, fetch, start, pos=0):
             out += fetch(last) * n
         else:
             out += fetch(last + (op & 0x7F))
+
+
+def stream_len(stream, pos):
+    """Bytes in the op stream at `pos`, including the 00 terminator."""
+    p = pos
+    while True:
+        op = stream[p]; p += 1
+        if op == 0:
+            return p - pos
+        if 0x40 <= op <= 0x80:
+            p += 1
 
 
 def decode(buf, cset, id_):

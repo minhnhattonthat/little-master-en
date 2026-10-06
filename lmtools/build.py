@@ -1,8 +1,9 @@
 """Build: base -> expand -> asar -> script (EN, JP fallback) -> checksum -> build/lm_en.sfc + .bps."""
+import json
 import subprocess
 from pathlib import Path
 
-from . import bps, rom
+from . import bps, chunkgfx, rom
 from .blocks import insert_block, load_blocks
 from .font import parse_font, vwf_blobs
 from .relocate import Alloc, relocate_block
@@ -22,6 +23,56 @@ def _tool(path, name):
 
 VWF_GLYPHS = 0x200000     # $C0:8000 (vwf.asm vwf_glyphs)
 VWF_WIDTHS = 0x200600     # $C0:8600 (vwf.asm vwf_widths)
+
+
+def _px8(t):
+    return [[sum(((t[16 * (p // 2) + 2 * r + (p % 2)] >> (7 - x)) & 1) << p for p in range(8)) for x in range(8)] for r in range(8)]
+
+
+def _tile8(px):
+    out = bytearray(64)
+    for r in range(8):
+        for x in range(8):
+            for p in range(8):
+                if px[r][x] >> p & 1:
+                    out[16 * (p // 2) + 2 * r + (p % 2)] |= 0x80 >> x
+    return bytes(out)
+
+
+def _patch_bitmap8(piece, e):
+    """Overwrite e's PNG box in one 32-line piece of a 256-wide 8bpp linear-tilemap bitmap."""
+    from PIL import Image
+    im = Image.open(ROOT / e["png"]).convert("RGB")
+    greys = {int(v): i for v, i in e["greys"].items()}
+    tiles = [_px8(piece[64 * t:64 * t + 64]) for t in range(len(piece) // 64)]
+    for y in range(im.height):
+        for x in range(im.width):
+            rgb = im.getpixel((x, y))
+            if rgb[0] != rgb[1] or rgb[1] != rgb[2] or rgb[0] not in greys:
+                raise ValueError(f"{e['png']}: pixel ({x},{y}) color {rgb} not in palette")
+            X, Y = e["x"] + x, e["y"] - e["piece_y"] + y
+            if not (0 <= X < 256 and 0 <= Y < 32):
+                raise ValueError(f"{e['png']}: pixel ({x},{y}) lands outside piece {e['id']}")
+            tiles[(Y // 8) * 32 + X // 8][Y % 8][X % 8] = greys[rgb[0]]
+    return b"".join(_tile8(t) for t in tiles)
+
+
+def insert_graphics(work):
+    for e in json.loads((ROOT / "data/graphics.json").read_text(encoding="utf-8")):
+        cset = {"title": chunkgfx.TITLE}[e["set"]]
+        piece = _patch_bitmap8(chunkgfx.decode(work, cset, e["id"]), e)
+        at, room = int(e["new_at"], 16), e["new_room"]
+        start = (at - chunkgfx.chunk_pc(cset["dict"], 0)) // 16
+        assert chunkgfx.chunk_pc(cset["dict"], start) == at
+        new, stream, _ = chunkgfx.encode(piece, start)       # all chunks new: stream stays tiny
+        if len(new) > room:
+            raise ValueError(f"{e['name']}: {len(new)} bytes of new chunks > {room} reserved")
+        work[at:at + len(new)] = new
+        pos, _ = chunkgfx._entry(work, cset["table"], e["id"])
+        if len(stream) > chunkgfx.stream_len(work, pos):
+            raise ValueError(f"{e['name']}: stream {len(stream)} bytes > original")
+        work[pos:pos + len(stream)] = stream
+        chunkgfx.set_entry(work, cset["table"], e["id"], pos, start)
 
 
 def write_fonts(work):
@@ -53,6 +104,8 @@ def build(out_dir="build", source="en") -> Path:
     finally:
         work_file.unlink(missing_ok=True)
     write_fonts(work)
+    if source == "en":
+        insert_graphics(work)
     jp, en = Table.load(ROOT / "tbl/jp.tbl"), Table.load(ROOT / "tbl/en.tbl")
     alloc = Alloc()
     for b in load_blocks(ROOT / "data/blocks.json"):
