@@ -2224,7 +2224,7 @@ EN: Well done. Correct.{end}
 
 #id 0556 ptr=036295 box=desc win=msg
 JP: リイムの相棒。モーモーのフルネームは?{n}{scroll:00}赤のパネル:モーモー・ダイバクハツ{n}黄のパネル:モーモー・ダイナマイツ{n}青のパネル:モーモー・ダイナマイト{end}
-EN: Full name of Reem's pal Moomoo?{n}{scroll:00}Red panel: Moomoo Kaboom{n}Yellow panel: Moomoo Dynamite{n}Blue panel: Moomoo Dinamite{end}
+EN: Full name of Reem's pal Moomoo?{n}{scroll:00}Red panel: Moomoo Kaboom{n}Yellow panel: Moomoo Dynamo{n}Blue panel: Moomoo Dynamite{end}
 
 #id 0557 ptr=0362E7 box=desc win=msg
 JP: おみごと。強そうな名前ですよね。{end}

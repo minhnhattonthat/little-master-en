@@ -552,11 +552,11 @@ EN: Likeburn
 
 #id 0138 ptr=0124A0 box=name8
 JP: ダイナマイツ
-EN: Dynamite
+EN: Dynamo
 
 #id 0139 ptr=0124A8 box=name8
 JP: タンバリン
-EN: Tamborin
+EN: Tabor
 
 #id 0140 ptr=0124B0 box=name8
 JP: ブレッド
@@ -568,7 +568,7 @@ EN: Bread
 
 #id 0142 ptr=0124C0 box=name8
 JP: キャンベル
-EN: Campbell
+EN: Campel
 
 #id 0143 ptr=0124C8 box=name8
 JP: &&ヤゴ

@@ -18,11 +18,11 @@ inside unrelated words would cause false lint hits. Columns: JP | EN | max | not
 |---|---|---|---|
 | リイム・ライクバーン | Reem Likeburn | | hero, "Knight of Lightning". Alternatives: Rime / Liim, Raikburn |
 | リイム | Reem | 8 | |
-| モーモー | Moomoo | 8 | minotaur, full name モーモー・ダイナマイツ Moomoo Dynamites |
-| タムタム | Tamtam | 8 | priest, full name タムタム・タンバリン Tamtam Tambourine |
+| モーモー | Moomoo | 8 | minotaur, full name モーモー・ダイナマイツ Moomoo Dynamo (unit list fits 13 cells) |
+| タムタム | Tamtam | 8 | priest, full name タムタム・タンバリン Tamtam Tabor (a small drum; 13-cell unit list) |
 | シャルル | Charles | 8 | full name シャルル・ブレッド Charles Bread |
 | リルル | Lilulu | 8 | |
-| ヴァイス | Weiss | 8 | leader of the Skull Bombers. Alternative: Vice |
+| ヴァイス | Weiss | 8 | leader of the Skull Bombers. Alternative: Vice. Surname キャンベル Campel (13-cell unit list) |
 | ヤゴ | Yago | 8 | |
 | 蒼月 | Sougetsu | 8 | also written ソウゲツ in the unit table |
 | トランプ | Trump | 8 | Bombers member ("trump card"). Alternative: Joker |
