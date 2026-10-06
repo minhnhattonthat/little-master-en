@@ -32,15 +32,23 @@ PEACOCK_EN = '{p7F:02}{speed:02}"Peacock, run home!{n}{delay:30} We\'ll stop the
 
 def inject_peacock(monkeypatch, make):
     """Replace the EN of the field line in ordinary_field_message with make(PEACOCK_EN), whatever the script says."""
-    real = build.parse
+    real, real_build, hits = build.parse, build.build, []
 
     def f(text):
         es = real(text)
         for e in es:
             if PEACOCK_JP in e.jp and "{speed:02}" in e.jp:
                 e.en = make(PEACOCK_EN)
+                hits.append(e.id)
         return es
+
+    def checked_build(*a, **k):                     # the injection must really happen, or the test proves nothing
+        hits.clear()
+        out = real_build(*a, **k)
+        assert len(hits) == 1, f"field line matched {len(hits)} entries"
+        return out
     monkeypatch.setattr(build, "parse", f)
+    monkeypatch.setattr(build, "build", checked_build)
 
 
 def test_fixed_char_between_vwf_glyphs_keeps_its_cell(tmp_path, monkeypatch):
