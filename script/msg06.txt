@@ -512,83 +512,83 @@ EN:
 
 #id 0128 ptr=0321F6 box=desc
 JP: 燃えるような赤いボディに鋼のような意志を秘めた最強のマウスマンだ。{n}HPが少なくなると、ポイズン攻撃を出すぞ。{end}
-EN: 
+EN: The mightiest Mouseman: a fiery red body{n}hiding a will of steel. Uses a Poison{n}attack when its HP is low.{end}
 
 #id 0129 ptr=03223A box=desc
 JP: 黄金にかがやくボディはほとんどの衝撃を吸収してしまう。最強のゴーレムだ。{n}ピンチになると、スロウ攻撃を出すぞ。{end}
-EN: 
+EN: Its shining gold body absorbs nearly{n}every blow. The mightiest Golem. Uses a{n}Slow attack when in a pinch.{end}
 
 #id 0130 ptr=03227D box=desc
 JP: 黄金の羽につつまれた最強のペリカンだ。{n}HPが少なくなると、ウイーク攻撃をだすぞ。{end}
-EN: 
+EN: The mightiest pelican, wrapped in golden{n}feathers. Uses a Weak attack when its{n}HP is low.{end}
 
 #id 0131 ptr=0322AF box=desc
 JP: むらさき色の弓を持つラビットマン。{n}広い射程が強力な間接攻撃ユニットだ。{n}HPが少なくなると、ウイーク攻撃をだすぞ。{end}
-EN: 
+EN: A Rabbitman with a purple bow. A ranged{n}unit with a powerful, wide reach. Weak{n}attack when its HP is low.{end}
 
 #id 0132 ptr=0322F9 box=desc
 JP: 名前がカッコいいカクタスの突然変異体だ。{n}HPが少なくなると、エピデミック攻撃をだすぞ。{end}
-EN: 
+EN: A cactus mutant with a cool name.{n}Uses an Epidemic attack when its HP{n}is low.{end}
 
 #id 0133 ptr=032330 box=desc
 JP: 猛烈な脚力で突進するダチョウの親分だ。{n}HPが少なくなると、トランス攻撃をだすぞ。{n}ダッシュ一発! がんばろう。{end}
-EN: 
+EN: The ostrich boss, charging on mighty legs.{n}Trance attack when its HP is low.{n}One big dash! Go for it.{end}
 
 #id 0134 ptr=032376 box=desc
 JP: ちょっとズルがしこい赤毛の古だぬきだ。{n}HPが少なくなると、ウイーク攻撃をだすぞ。{end}
-EN: 
+EN: A sly old red-haired raccoon-dog.{n}Uses a Weak attack when its HP is low.{end}
 
 #id 0135 ptr=0323A6 box=desc
 JP: おおきな口で、相手をかじる赤ワニさんだ。{n}親ワニ子ワニ攻撃は健在だぞ。ワニワニ。{n}HPが少なくなると、エピデミック攻撃をだす。{end}
-EN: 
+EN: A red croc that chomps with a big mouth.{n}The mom-and-baby croc attack lives on!{n}Epidemic attack when its HP is low.{end}
 
 #id 0136 ptr=0323F3 box=desc
 JP: 苦闘のすえ、ついに格闘ロードの頂点に{n}のぼりつめたカンガルーだ。HPが少なくなると、トランス攻撃をだすぞ。{end}
-EN: 
+EN: A kangaroo who fought hard to reach the{n}top of the fighting road. Uses a Trance{n}attack when its HP is low.{end}
 
 #id 0137 ptr=032432 box=desc
 JP: 全身まっ赤な魔界よりの使者。ピンチになるとカース攻撃を出すぞ。{end}
-EN: 
+EN: A messenger from the demon world, red{n}all over. Uses a Curse attack when in{n}a pinch.{end}
 
 #id 0138 ptr=03245C box=desc
 JP: スカーレットはサイクロプス族のエリートの称号。{n}間接攻撃しかできないユニットだが、攻撃力は{n}高い。ピンチになるとカース攻撃を出すぞ。{end}
-EN: 
+EN: Scarlet is the elite title of the Cyclops.{n}It only attacks from range, but hits hard.{n}Uses a Curse attack when in a pinch.{end}
 
 #id 0139 ptr=0324AD box=desc
 JP: 黄金のたてがみが勇ましいライオン族の闘士だ。{n}鋭い眼光で相手をいかくするぞ。{n}HPが少なくなると、パラライズ攻撃を出す。{end}
-EN: 
+EN: A brave lion warrior with a golden mane.{n}Its sharp glare intimidates foes. Uses a{n}Paralyze attack when its HP is low.{end}
 
 #id 0140 ptr=0324F9 box=desc
 JP: 高い知能をもつファイヤードラゴンは、めったに{n}その姿を人前にさらすことのない幻のドラゴンだ。{n}HPが少なくなると、エピデミック攻撃をだすぞ。{end}
-EN: 
+EN: The clever Fire Dragon is a phantom that{n}rarely shows itself to people. Uses an{n}Epidemic attack when its HP is low.{end}
 
 #id 0141 ptr=03254A box=desc
 JP: 豪華けんらんきらびやか! 黄金のチキンマンだ。{n}HPが少なくなると、エピデミック攻撃をだすぞ。{n}黄金のくちばしで敵をつっつくよ。コケコケ♪{end}
-EN: 
+EN: So gorgeous! A golden Chickenman.{n}Epidemic attack when its HP is low.{n}Pecks foes with a golden beak. Cluck!{end}
 
 #id 0142 ptr=03259A box=desc
 JP: 彼らはコアラ族のなかでも気性の荒い種族だ。{n}まっ赤な体色は相手を圧倒するすごい迫力だぞ。{n}ピンチになると、スロウ攻撃を出すよ。{end}
-EN: 
+EN: The most hot-tempered of the koala tribe.{n}Its red body is overwhelming! Uses a{n}Slow attack when in a pinch.{end}
 
 #id 0143 ptr=0325ED box=desc
 JP: 警戒色をしたレッドオーク。ブルーオークとは{n}兄弟みたいな間柄だ。力はそれほど強くないが、{n}HPが少なくなると、ウイーク攻撃をだすぞ。{end}
-EN: 
+EN: A Red Orc in warning colors, like a brother{n}to the Blue Orc. Not that strong, but{n}uses a Weak attack when its HP is low.{end}
 
 #id 0144 ptr=03263C box=desc
 JP: 黄金に輝くボンバーズの上級構成員だ。{n}あいかわらず数で勝負のユニットだが、{n}ピンチになると、トランス攻撃をだすのでやっかいだ。{end}
-EN: 
+EN: A senior Bombers member, shining gold.{n}Still wins by numbers, but its Trance{n}attack in a pinch makes it a pain.{end}
 
 #id 0145 ptr=032689 box=desc
 JP: みるからに不気味な あやつりにんぎょうだ。{n}おまけに必殺率もなかなかのもの。へたにちょっかいをかけると、カース攻撃で呪われちゃうぞ。{end}
-EN: 
+EN: A puppet that's creepy just to look at,{n}with a nasty critical rate, too. Mess with{n}it and its Curse attack will get you!{end}
 
 #id 0146 ptr=0326D5 box=desc
 JP: 地獄より使わされた黄金の犬。{n}紫の炎を操り、全てを燃やし尽くすといわれる{n}滅びの魔物だ。カース攻撃で敵を苦しめるぞ。{end}
-EN: 
+EN: A golden hound sent from Hell, a monster{n}of ruin said to burn all with purple{n}flames. Its Curse attack torments foes.{end}
 
 #id 0147 ptr=032723 box=desc
 JP: 年期のはいった雪ダルマの精霊。{n}ちょっと黄色いけど、きにしないきにしない。{n}ピンチになると、スロウ攻撃を出すぞ。{end}
-EN: 
+EN: A seasoned snowman spirit. A little{n}yellow, but never mind, never mind.{n}Uses a Slow attack when in a pinch.{end}
 
 #id 0148 ptr=032766 box=desc
 JP: {end}
@@ -600,31 +600,31 @@ EN:
 
 #id 0150 ptr=032768 box=desc
 JP: ゴールドコーティングを施されたドラゴンナイト。{n}欠点の少ない、かなり強力なユニットだ。{n}ピンチになると、ウイーク攻撃をだすぞ。{end}
-EN: 
+EN: A gold-coated Wyrm Knight. A very strong{n}unit with few weak points. Uses a Weak{n}attack when in a pinch.{end}
 
 #id 0151 ptr=0327B0 box=desc
 JP: 山のような巨体に、非常に高い攻撃力を{n}秘めたファイヤーマウスマンの突然変異体だ。{n}HPが少なくなると、エピデミック攻撃をだすぞ。{end}
-EN: 
+EN: A mutant Firemouse with a mountainous{n}body and very high attack. Uses an{n}Epidemic attack when its HP is low.{end}
 
 #id 0152 ptr=032803 box=desc
 JP: 舞踏界のスターとなる黄金の白鳥だ。{n}HPが少なくなると、トランス攻撃をだすぞ。{n}彼の活躍は、伝説となって語りつがれるだろう。{end}
-EN: 
+EN: A golden swan, star of the dance world.{n}Trance attack when its HP is low. Its{n}exploits will become legend.{end}
 
 #id 0153 ptr=032852 box=desc
 JP: 亡霊だけあって、身のこなしは非常に素早い。{n}相手にするときはSPDに気をくばったほうがいい。{n}ピンチになるとカース攻撃を出すぞ。{end}
-EN: 
+EN: Being a ghost, it moves very swiftly.{n}Mind your SPD when you take it on. Uses{n}a Curse attack when in a pinch.{end}
 
 #id 0154 ptr=0328A0 box=desc
 JP: 蒼月率いるニンジャ部隊に所属する上忍。{n}赤い装束は上級忍者のあかしだ。{n}HPが少なくなると、トランス攻撃をだすぞ。{end}
-EN: 
+EN: A master ninja in Sougetsu's squad. The{n}red garb marks a top ninja. Uses a{n}Trance attack when its HP is low.{end}
 
 #id 0155 ptr=0328ED box=desc
 JP: 驚くべき攻撃力を持つ上級魔導士だ。{n}なんとか接近戦に持ち込んで倒そう。{n}HPが少なくなると、トランス攻撃をだすぞ。{end}
-EN: 
+EN: A senior mage with amazing attack power.{n}Get in close somehow and take it down.{n}Trance attack when its HP is low.{end}
 
 #id 0156 ptr=03293A box=desc
 JP: ゴールドソードを持つ、スカルボンバーズ最強の{n}闘士だ。普段はトランプの護衛をつとめている。HPが少なくなると、ウイーク攻撃をだすぞ。{end}
-EN: 
+EN: The Skull Bombers' strongest fighter,{n}with a gold sword. Usually Trump's guard.{n}Weak attack when its HP is low.{end}
 
 #id 0157 ptr=032989 box=desc
 JP: {end}
@@ -656,19 +656,19 @@ EN:
 
 #id 0164 ptr=032990 box=desc
 JP: ダンク・マスターは、どんな状況からでも、ゴールを{n}ゲットする技術をもっているスーパープレイヤーだ。{n}HPが少なくなると、パラライズ攻撃を出すぞ。{end}
-EN: 
+EN: A Dunk Master is a superstar who can{n}score from any situation. Uses a{n}Paralyze attack when its HP is low.{end}
 
 #id 0165 ptr=0329E1 box=desc
 JP: Sシリーズをさらに強化、改良して造られたのが{n}この、タンク・スーパースペシャルだ。{n}装甲の強化で、より実戦的になったようだぞ。{end}
-EN: 
+EN: The S series, improved even further:{n}the Tank Super Special. Stronger armor{n}makes it more battle-ready.{end}
 
 #id 0166 ptr=032A2D box=desc
 JP: ポンプSに超強力なバクダンを積んだモデル。{n}それがこの、ポンプ・スーパーストライクだ。{n}あいもかわらず、間接攻撃しかできないぞ。{end}
-EN: 
+EN: A Pump S loaded with super bombs: the{n}Pump Super Strike. As always, it can{n}only attack from range.{end}
 
 #id 0167 ptr=032A76 box=desc
 JP: 体色が金色なので、すごくいいものが入って{n}いるように見えるが、それはワナだ。{n}HPが少なくなると、エピデミック攻撃をだすぞ。{end}
-EN: 
+EN: Its gold color makes it look like it{n}holds great stuff, but it's a trap!{n}Epidemic attack when its HP is low.{end}
 
 #id 0168 ptr=032ABE box=desc
 JP: {end}
@@ -676,11 +676,11 @@ EN:
 
 #id 0169 ptr=032ABF box=desc
 JP: ヴァイス率いるマテドラル軍の精鋭。{n}赤い鎧は力の象徴だ。{n}HPが少なくなると、パラライズ攻撃を出すぞ。{end}
-EN: 
+EN: The elite of Matedral's army, led by{n}Weiss. Red armor is a symbol of power.{n}Paralyze attack when its HP is low.{end}
 
 #id 0170 ptr=032B00 box=desc
 JP: レッドアーマーに身をつつんだマテドラル軍最強の{n}重装兵士。ヴァイスの直属の部下だ。{n}HPが少なくなると、トランス攻撃をだすぞ。{end}
-EN: 
+EN: Matedral's mightiest heavy soldier, in{n}red armor, serving Weiss directly. Uses{n}a Trance attack when its HP is low.{end}
 
 #id 0171 ptr=032B4F box=desc
 JP: {end}
@@ -712,11 +712,11 @@ EN:
 
 #id 0178 ptr=032B56 box=desc
 JP: 南国育ちのペンギンさんだ。普段はジャングルに{n}生息しているので、体の色がカラフルだね。{n}ピンチになると、スロウ攻撃を出すぞ。{end}
-EN: 
+EN: A penguin raised in the tropics. It lives{n}in jungles, so it's very colorful. Uses{n}a Slow attack when in a pinch.{end}
 
 #id 0179 ptr=032BA1 box=desc
 JP: もとは雪山にしか生息していなかった魔獣だが、{n}最近は暖かいところにも適応したようだ。{n}ピンチになると、スロウ攻撃を出すぞ。{end}
-EN: 
+EN: A beast once found only on snowy peaks,{n}it seems to have adapted to warm places.{n}Uses a Slow attack when in a pinch.{end}
 
 #id 0180 ptr=032BED box=desc
 JP: {end}
@@ -810,1622 +810,1622 @@ EN:
 JP: {end}
 EN: 
 
-#id 0203 ptr=032C04 box=desc
+#id 0203 ptr=032C04 box=desc win=item
 JP: ブロック{n}侵入不可の場所{end}
-EN: 
+EN: Block{n}An impassable spot{end}
 
-#id 0204 ptr=032C17 box=desc
+#id 0204 ptr=032C17 box=desc win=item
 JP: 芝生{n}消費MV 2{n}あおあおとした芝{end}
-EN: 
+EN: Lawn{n}MV cost 2{n}Lush, green grass{end}
 
-#id 0205 ptr=032C2F box=desc
+#id 0205 ptr=032C2F box=desc win=item
 JP: 広葉樹{n}消費MV 4{n}地形効果が たかいぞ{end}
-EN: 
+EN: Broadleaf tree{n}MV cost 4{n}High terrain bonus!{end}
 
-#id 0206 ptr=032C4E box=desc
+#id 0206 ptr=032C4E box=desc win=item
 JP: 針葉樹{n}消費MV 4{n}地形効果が たかいぞ{end}
-EN: 
+EN: Conifer{n}MV cost 4{n}High terrain bonus!{end}
 
-#id 0207 ptr=032C6D box=desc
+#id 0207 ptr=032C6D box=desc win=item
 JP: 枯れ木{n}消費MV 4{n}地形効果が たかいぞ{end}
-EN: 
+EN: Dead tree{n}MV cost 4{n}High terrain bonus!{end}
 
-#id 0208 ptr=032C8B box=desc
+#id 0208 ptr=032C8B box=desc win=item
 JP: 広葉樹の森{n}消費MV 4{n}地形効果が すごくたかいぞ{end}
-EN: 
+EN: Broadleaf forest{n}MV cost 4{n}Huge terrain bonus!{end}
 
-#id 0209 ptr=032CB0 box=desc
+#id 0209 ptr=032CB0 box=desc win=item
 JP: 針葉樹の森{n}消費MV 4{n}地形効果が すごくたかいぞ{end}
-EN: 
+EN: Conifer forest{n}MV cost 4{n}Huge terrain bonus!{end}
 
-#id 0210 ptr=032CD5 box=desc
+#id 0210 ptr=032CD5 box=desc win=item
 JP: 芝の荒れ地{n}消費MV 3{n}地形効果は 芝よりひくいぞ{end}
-EN: 
+EN: Rough lawn{n}MV cost 3{n}Less terrain bonus{end}
 
-#id 0211 ptr=032CFA box=desc
+#id 0211 ptr=032CFA box=desc win=item
 JP: 芝生にあるガレキ{n}消費MV 5{n}歩きにくいが 有利な地形{end}
-EN: 
+EN: Rubble on lawn{n}MV cost 5{n}Slow but favorable{end}
 
-#id 0212 ptr=032D20 box=desc
+#id 0212 ptr=032D20 box=desc win=item
 JP: 土{n}消費MV 2{n}生き物を育む おおいなる大地{end}
-EN: 
+EN: Dirt{n}MV cost 2{n}Great earth of life{end}
 
-#id 0213 ptr=032D40 box=desc
+#id 0213 ptr=032D40 box=desc win=item
 JP: 土の荒れ地{n}消費MV 3{n}荒れ地は 進みにくい{end}
-EN: 
+EN: Rough dirt{n}MV cost 3{n}Rough land is slow{end}
 
-#id 0214 ptr=032D60 box=desc
+#id 0214 ptr=032D60 box=desc win=item
 JP: 土にあるガレキ{n}消費MV 5{n}歩きにくいが 有利な土地{end}
-EN: 
+EN: Rubble on dirt{n}MV cost 5{n}Slow but favorable{end}
 
-#id 0215 ptr=032D84 box=desc
+#id 0215 ptr=032D84 box=desc win=item
 JP: 砂地{n}消費MV 5{n}死を呼ぶ 静かなる場所{end}
-EN: 
+EN: Sand{n}MV cost 5{n}Silent and deadly{end}
 
-#id 0216 ptr=032DA3 box=desc
+#id 0216 ptr=032DA3 box=desc win=item
 JP: 砂にあるガレキ{n}消費MV 5{n}歩きにくいが 有利な土地{end}
-EN: 
+EN: Rubble on sand{n}MV cost 5{n}Slow but favorable{end}
 
-#id 0217 ptr=032DC7 box=desc
+#id 0217 ptr=032DC7 box=desc win=item
 JP: ジャングルの土{n}消費MV 3{n}こけむした 湿った大地{end}
-EN: 
+EN: Jungle soil{n}MV cost 3{n}Damp, mossy earth{end}
 
-#id 0218 ptr=032DE8 box=desc
+#id 0218 ptr=032DE8 box=desc win=item
 JP: 熱帯雨林{n}消費MV 4{n}うっそうとした 密林{end}
-EN: 
+EN: Rainforest{n}MV cost 4{n}A dense jungle{end}
 
-#id 0219 ptr=032E07 box=desc
+#id 0219 ptr=032E07 box=desc win=item
 JP: 水{n}消費MV 3{n}ちゃぷちゃぷと いい気持ち{end}
-EN: 
+EN: Water{n}MV cost 3{n}Splish-splash, ahh{end}
 
-#id 0220 ptr=032E23 box=desc
+#id 0220 ptr=032E23 box=desc win=item
 JP: 魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0221 ptr=032E48 box=desc
+#id 0221 ptr=032E48 box=desc win=item
 JP: ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
-EN: 
+EN: Warp panel{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0222 ptr=032E69 box=desc
+#id 0222 ptr=032E69 box=desc win=item
 JP: スイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
-EN: 
+EN: Switch panel{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0223 ptr=032E8C box=desc
+#id 0223 ptr=032E8C box=desc win=item
 JP: クレーター{n}消費MV 4{n}地形効果が たかいぞ{end}
-EN: 
+EN: Crater{n}MV cost 4{n}High terrain bonus!{end}
 
-#id 0224 ptr=032EAA box=desc
+#id 0224 ptr=032EAA box=desc win=item
 JP: 石床{n}消費MV 2{n}石の床は 歩きやすい{end}
-EN: 
+EN: Stone floor{n}MV cost 2{n}Easy to walk on{end}
 
-#id 0225 ptr=032EC6 box=desc
+#id 0225 ptr=032EC6 box=desc win=item
 JP: 山{n}消費MV 6{n}歩きにくいが 地形効果がたかい{end}
-EN: 
+EN: Mountain{n}MV cost 6{n}High terrain bonus{end}
 
-#id 0226 ptr=032EE7 box=desc
+#id 0226 ptr=032EE7 box=desc win=item
 JP: 険しい山{n}消費MV 2{n}空ユニットのみ 侵入可能{end}
-EN: 
+EN: Steep mountain{n}MV cost 2{n}Sky units only{end}
 
-#id 0227 ptr=032F09 box=desc
+#id 0227 ptr=032F09 box=desc win=item
 JP: すごく険しい山{n}侵入不可の 山岳地帯{n}{end}
-EN: 
+EN: Sheer mountain{n}Impassable peaks{n}{end}
 
-#id 0228 ptr=032F27 box=desc
+#id 0228 ptr=032F27 box=desc win=item
 JP: 橋{n}消費MV 3{n}大地と大地を つなぐ橋{end}
-EN: 
+EN: Bridge{n}MV cost 3{n}Links land to land{end}
 
-#id 0229 ptr=032F44 box=desc
+#id 0229 ptr=032F44 box=desc win=item
 JP: 傷んだ橋{n}消費MV 5{n}古くいたんだ 橋です{end}
-EN: 
+EN: Worn bridge{n}MV cost 5{n}An old, worn bridge{end}
 
-#id 0230 ptr=032F61 box=desc
+#id 0230 ptr=032F61 box=desc win=item
 JP: 雪原{n}消費MV 4{n}雪がつもって 歩きにくい{end}
-EN: 
+EN: Snowfield{n}MV cost 4{n}Snowy and slow{end}
 
-#id 0231 ptr=032F7E box=desc
+#id 0231 ptr=032F7E box=desc win=item
 JP: 凍った芝生{n}消費MV 2{n}地形効果は ひくめです{end}
-EN: 
+EN: Frozen lawn{n}MV cost 2{n}Low terrain bonus{end}
 
-#id 0232 ptr=032FA0 box=desc
+#id 0232 ptr=032FA0 box=desc win=item
 JP: 凍った土{n}消費MV 2{n}凍てついた おおいなる大地{end}
-EN: 
+EN: Frozen dirt{n}MV cost 2{n}Great frozen earth{end}
 
-#id 0233 ptr=032FC1 box=desc
+#id 0233 ptr=032FC1 box=desc win=item
 JP: 樹氷{n}消費MV 6{n}地形効果が すごくたかい{end}
-EN: 
+EN: Rime trees{n}MV cost 6{n}Huge terrain bonus{end}
 
-#id 0234 ptr=032FE0 box=desc
+#id 0234 ptr=032FE0 box=desc win=item
 JP: 凍った針葉樹{n}消費MV 4{n}もうすこし凍ると 樹氷になる{end}
-EN: 
+EN: Frozen conifer{n}MV cost 4{n}Almost rime trees{end}
 
-#id 0235 ptr=033006 box=desc
+#id 0235 ptr=033006 box=desc win=item
 JP: 凍った枯れ木{n}消費MV 4{n}かちかちに凍った 枯れ木{end}
-EN: 
+EN: Frozen dead tree{n}MV cost 4{n}Frozen solid{end}
 
-#id 0236 ptr=033029 box=desc
+#id 0236 ptr=033029 box=desc win=item
 JP: 雪山{n}消費MV 6{n}雪がふかくて 歩きにくい{end}
-EN: 
+EN: Snowy mountain{n}MV cost 6{n}Deep snow, slow{end}
 
-#id 0237 ptr=033046 box=desc
+#id 0237 ptr=033046 box=desc win=item
 JP: 険しい雪山{n}消費MV 2{n}空ユニットのみ 侵入可能{end}
-EN: 
+EN: Steep snow peak{n}MV cost 2{n}Sky units only{end}
 
-#id 0238 ptr=03306A box=desc
+#id 0238 ptr=03306A box=desc win=item
 JP: 凍った山{n}消費MV 6{n}つるつるすべって 歩きにくい{end}
-EN: 
+EN: Icy mountain{n}MV cost 6{n}Slippery and slow{end}
 
-#id 0239 ptr=03308A box=desc
+#id 0239 ptr=03308A box=desc win=item
 JP: 険しい山{n}消費MV 2{n}空ユニットのみ 侵入可能{end}
-EN: 
+EN: Steep mountain{n}MV cost 2{n}Sky units only{end}
 
-#id 0240 ptr=0330AC box=desc
+#id 0240 ptr=0330AC box=desc win=item
 JP: 凍った魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Frozen magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0241 ptr=0330D5 box=desc
+#id 0241 ptr=0330D5 box=desc win=item
 JP: 氷原{n}消費MV 2{n}つるつるすべるので 注意しよう{end}
-EN: 
+EN: Ice field{n}MV cost 2{n}Slippery! Careful{end}
 
-#id 0242 ptr=0330F5 box=desc
+#id 0242 ptr=0330F5 box=desc win=item
 JP: ライモスのタイル床{n}消費MV 2{n}タイル張りで 歩きやすい{end}
-EN: 
+EN: Laimos tiles{n}MV cost 2{n}Tiled, easy to walk{end}
 
-#id 0243 ptr=033118 box=desc
+#id 0243 ptr=033118 box=desc win=item
 JP: 壊れた 橋{n}消費MV 3{n}水に沈んでいます{end}
-EN: 
+EN: Broken bridge{n}MV cost 3{n}Sunk in the water{end}
 
-#id 0244 ptr=033134 box=desc
+#id 0244 ptr=033134 box=desc win=item
 JP: ライモスのレンガ床{n}消費MV 2{n}古代に焼かれた 古いレンガ{end}
-EN: 
+EN: Laimos bricks{n}MV cost 2{n}Ancient fired brick{end}
 
-#id 0245 ptr=03315A box=desc
+#id 0245 ptr=03315A box=desc win=item
 JP: クルクルの芝生{n}消費MV 2{n}クルクル地方 特有の芝{end}
-EN: 
+EN: Kurukuru lawn{n}MV cost 2{n}Grass of Kurukuru{end}
 
-#id 0246 ptr=03317E box=desc
+#id 0246 ptr=03317E box=desc win=item gloss=off
 JP: クルクル魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Kurukuru circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0247 ptr=0331A7 box=desc
+#id 0247 ptr=0331A7 box=desc win=item
 JP: クルクルの木{n}消費MV 3{n}クルクル回る 不思議な木{end}
-EN: 
+EN: Kurukuru tree{n}MV cost 3{n}It spins! How odd{end}
 
-#id 0248 ptr=0331CA box=desc
+#id 0248 ptr=0331CA box=desc win=item
 JP: くるくるの針葉樹{n}消費MV 3{n}地形効果が たかいぞ{end}
-EN: 
+EN: Kurukuru conifer{n}MV cost 3{n}High terrain bonus!{end}
 
-#id 0249 ptr=0331EE box=desc
+#id 0249 ptr=0331EE box=desc win=item
 JP: 砦の石床{n}消費MV 2{n}砦に囲まれた 石の床{end}
-EN: 
+EN: Fort stone floor{n}MV cost 2{n}Stone inside a fort{end}
 
-#id 0250 ptr=03320E box=desc
+#id 0250 ptr=03320E box=desc win=item
 JP: 砂にある倒木{n}消費MV 6{n}地形効果が たかいぞ{end}
-EN: 
+EN: Log on sand{n}MV cost 6{n}High terrain bonus!{end}
 
-#id 0251 ptr=033230 box=desc
+#id 0251 ptr=033230 box=desc win=item
 JP: クルクルの枯れ木{n}消費MV 4{n}地形効果が たかいぞ{end}
-EN: 
+EN: Kurukuru dead tree{n}MV cost 4{n}High terrain bonus!{end}
 
-#id 0252 ptr=033253 box=desc
+#id 0252 ptr=033253 box=desc win=item
 JP: 燃え上がる芝{n}消費MV 3{n}炎わきたつ 危険な場所{end}
-EN: 
+EN: Burning lawn{n}MV cost 3{n}Blazing and deadly{end}
 
-#id 0253 ptr=033277 box=desc
+#id 0253 ptr=033277 box=desc win=item
 JP: 燃え上がる木{n}消費MV 3{n}燃える炎が デンジャラス{end}
-EN: 
+EN: Burning tree{n}MV cost 3{n}Flames! Dangerous!{end}
 
-#id 0254 ptr=033299 box=desc
+#id 0254 ptr=033299 box=desc win=item
 JP: 植え込み{n}侵入不可{n}植え込みにはいっては いけません{end}
-EN: 
+EN: Hedge{n}Impassable{n}Keep off the hedge{end}
 
-#id 0255 ptr=0332BC box=desc
+#id 0255 ptr=0332BC box=desc win=item
 JP: エンタシス柱{n}侵入不可{n}屋根をささえる 大事な柱{end}
-EN: 
+EN: Entasis pillar{n}Impassable{n}Holds up the roof{end}
 
-#id 0256 ptr=0332DF box=desc
+#id 0256 ptr=0332DF box=desc win=item
 JP: 公園の備品{n}侵入不可{n}くつろぐときには ベンチをどうぞ{end}
-EN: 
+EN: Park fixture{n}Impassable{n}Relax on a bench{end}
 
-#id 0257 ptr=033303 box=desc
+#id 0257 ptr=033303 box=desc win=item
 JP: オブジェ{n}侵入不可{n}制作者 J・L・ピカード{end}
-EN: 
+EN: Sculpture{n}Impassable{n}By J. L. Picard{end}
 
-#id 0258 ptr=033321 box=desc
+#id 0258 ptr=033321 box=desc win=item
 JP: ソロモンの塔{n}侵入不可{n}そびえたつ 巨大な塔{end}
-EN: 
+EN: Tower of Solomon{n}Impassable{n}A towering spire{end}
 
-#id 0259 ptr=033340 box=desc
+#id 0259 ptr=033340 box=desc win=item
 JP: 遺跡{n}侵入不可{n}いにしえの建造物{end}
-EN: 
+EN: Ruins{n}Impassable{n}Ancient structures{end}
 
-#id 0260 ptr=03335A box=desc
+#id 0260 ptr=03335A box=desc win=item
 JP: 崖{n}侵入不可{n}崖で遊んでは いけません{end}
-EN: 
+EN: Cliff{n}Impassable{n}Don't play here!{end}
 
-#id 0261 ptr=033375 box=desc
+#id 0261 ptr=033375 box=desc win=item
 JP: トゲ{n}侵入不可{n}チクチク痛くて はいれません{end}
-EN: 
+EN: Spikes{n}Impassable{n}Ouch! Can't go in{end}
 
-#id 0262 ptr=033391 box=desc
+#id 0262 ptr=033391 box=desc win=item
 JP: はね橋{n}侵入不可{n}橋がおりたら わたれます{end}
-EN: 
+EN: Drawbridge{n}Impassable{n}Cross when lowered{end}
 
-#id 0263 ptr=0333AD box=desc
+#id 0263 ptr=0333AD box=desc win=item
 JP: 玄関{n}消費MV 2{n}ご用の方は こちらへどうぞ{end}
-EN: 
+EN: Entrance{n}MV cost 2{n}Visitors, this way{end}
 
-#id 0264 ptr=0333CB box=desc
+#id 0264 ptr=0333CB box=desc win=item
 JP: 壊れた家{n}侵入不可{n}ご用のあるかたは 玄関へどうぞ{end}
-EN: 
+EN: Ruined house{n}Impassable{n}Use the entrance{end}
 
-#id 0265 ptr=0333EE box=desc
+#id 0265 ptr=0333EE box=desc win=item
 JP: 合体の神殿{n}不思議な壺の力で ユニットを{n}合体させる神聖な場所{end}
-EN: 
+EN: Fusion Temple{n}Its magic pot fuses{n}units. A holy site.{end}
 
-#id 0266 ptr=03341D box=desc
+#id 0266 ptr=03341D box=desc win=item
 JP: 民家{n}侵入不可{n}ご用のあるかたは 玄関へどうぞ{end}
-EN: 
+EN: House{n}Impassable{n}Use the entrance{end}
 
-#id 0267 ptr=03343E box=desc
+#id 0267 ptr=03343E box=desc win=item
 JP: 宝箱{n}侵入不可{n}なにかいいもの 入っているかな?{end}
-EN: 
+EN: Chest{n}Impassable{n}Something good?{end}
 
-#id 0268 ptr=03345E box=desc
+#id 0268 ptr=03345E box=desc win=item
 JP: 宝箱{n}侵入不可{n}箱の中身は からっぽです{end}
-EN: 
+EN: Chest{n}Impassable{n}It's empty{end}
 
-#id 0269 ptr=03347C box=desc
+#id 0269 ptr=03347C box=desc win=item
 JP: 閉じた扉{n}侵入不可{n}扉を開けなきゃ 通れない{end}
-EN: 
+EN: Closed door{n}Impassable{n}Open it to pass{end}
 
-#id 0270 ptr=03349C box=desc
+#id 0270 ptr=03349C box=desc win=item
 JP: 開いた扉{n}消費MV 2{n}どうぞ お通りください{end}
-EN: 
+EN: Open door{n}MV cost 2{n}Please, go through{end}
 
-#id 0271 ptr=0334B9 box=desc
+#id 0271 ptr=0334B9 box=desc win=item
 JP: 砂漠魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Desert magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0272 ptr=0334E2 box=desc
+#id 0272 ptr=0334E2 box=desc win=item
 JP: 草{n}消費MV 2{n}草が生えてる場所{end}
-EN: 
+EN: Grass{n}MV cost 2{n}A grassy spot{end}
 
-#id 0273 ptr=0334FB box=desc
+#id 0273 ptr=0334FB box=desc win=item
 JP: 草むら{n}消費MV 3{n}草に足をとられて 歩きにくい{end}
-EN: 
+EN: Thicket{n}MV cost 3{n}Grass trips you up{end}
 
-#id 0274 ptr=03351B box=desc
+#id 0274 ptr=03351B box=desc win=item
 JP: 砦の扉(閉){n}侵入不可{n}扉を開けなきゃ 通れない{end}
-EN: 
+EN: Fort door (shut){n}Impassable{n}Open it to pass{end}
 
-#id 0275 ptr=03353E box=desc
+#id 0275 ptr=03353E box=desc win=item
 JP: 砦の扉(開){n}消費MV 2{n}どうぞ お通りください{end}
-EN: 
+EN: Fort door (open){n}MV cost 2{n}Please, go through{end}
 
-#id 0276 ptr=03355E box=desc
+#id 0276 ptr=03355E box=desc win=item
 JP: 民家{n}侵入不可{n}ご用のかたは 玄関へどうぞ{end}
-EN: 
+EN: House{n}Impassable{n}Use the entrance{end}
 
-#id 0277 ptr=03357D box=desc
+#id 0277 ptr=03357D box=desc win=item
 JP: ジェネレーター{n}侵入不可{n}敵が発生する 危険な場所{end}
-EN: 
+EN: Generator{n}Impassable{n}Spawns enemies!{end}
 
-#id 0278 ptr=0335A2 box=desc
+#id 0278 ptr=0335A2 box=desc win=item
 JP: ジェネレーター{n}消費MV 3{n}敵が発生する 危険な場所{end}
-EN: 
+EN: Generator{n}MV cost 3{n}Spawns enemies!{end}
 
-#id 0279 ptr=0335C7 box=desc
+#id 0279 ptr=0335C7 box=desc win=item
 JP: 雪だるま{n}消費MV 4{n}かわいい雪だるま{end}
-EN: 
+EN: Snowman{n}MV cost 4{n}A cute snowman{end}
 
-#id 0280 ptr=0335E0 box=desc
+#id 0280 ptr=0335E0 box=desc win=item
 JP: 氷づけの魚{n}消費MV 2{n}お魚が凍っています{end}
-EN: 
+EN: Frozen fish{n}MV cost 2{n}Fish frozen in ice{end}
 
-#id 0281 ptr=0335FD box=desc
+#id 0281 ptr=0335FD box=desc win=item
 JP: クイズパネル{n}消費MV 2{n}パネルに乗って 答えましょう{end}
-EN: 
+EN: Quiz panel{n}MV cost 2{n}Step on to answer{end}
 
-#id 0282 ptr=03361E box=desc
+#id 0282 ptr=03361E box=desc win=item
 JP: クルクルのカンバン{n}侵入不可{n}前に立てば 道が示される{end}
-EN: 
+EN: Kurukuru sign{n}Impassable{n}Points the way{end}
 
-#id 0283 ptr=033642 box=desc
+#id 0283 ptr=033642 box=desc win=item
 JP: クイズ村の木{n}侵入不可{n}近道しないよう なわがはってます{end}
-EN: 
+EN: Quiz Village tree{n}Impassable{n}Roped: no shortcuts{end}
 
-#id 0284 ptr=033667 box=desc
+#id 0284 ptr=033667 box=desc win=item
 JP: 地下へ続く穴{n}侵入不可{n}深く 落ちると 危険です{end}
-EN: 
+EN: Hole going down{n}Impassable{n}Deep! Don't fall in{end}
 
-#id 0285 ptr=03368C box=desc
+#id 0285 ptr=03368C box=desc win=item
 JP: 未設定{end}
-EN: 
+EN: Unset{end}
 
-#id 0286 ptr=033693 box=desc
+#id 0286 ptr=033693 box=desc win=item
 JP: ブロック{n}侵入不可の場所{n}{end}
-EN: 
+EN: Block{n}An impassable spot{n}{end}
 
-#id 0287 ptr=0336A7 box=desc
+#id 0287 ptr=0336A7 box=desc win=item
 JP: 土{n}消費MV 2{n}生き物を育む おおいなる大地{end}
-EN: 
+EN: Dirt{n}MV cost 2{n}Great earth of life{end}
 
-#id 0288 ptr=0336C7 box=desc
+#id 0288 ptr=0336C7 box=desc win=item
 JP: 雑草の生えた土{n}消費MV 2{n}やがて草むらになります{end}
-EN: 
+EN: Weedy dirt{n}MV cost 2{n}Will become thicket{end}
 
-#id 0289 ptr=0336E9 box=desc
+#id 0289 ptr=0336E9 box=desc win=item
 JP: ひび割れた土床{n}消費MV 3{n}ちょっと 歩きにくい{end}
-EN: 
+EN: Cracked earth{n}MV cost 3{n}A bit hard to walk{end}
 
-#id 0290 ptr=033709 box=desc
+#id 0290 ptr=033709 box=desc win=item
 JP: ジャスバンの床{n}消費MV 2{n}とても古い 床です{end}
-EN: 
+EN: Jasvan floor{n}MV cost 2{n}A very old floor{end}
 
-#id 0291 ptr=033727 box=desc
+#id 0291 ptr=033727 box=desc win=item
 JP: ジャスバンの床{n}消費MV 3{n}ちょっと 歩きにくい{end}
-EN: 
+EN: Jasvan floor{n}MV cost 3{n}A bit hard to walk{end}
 
-#id 0292 ptr=033745 box=desc
+#id 0292 ptr=033745 box=desc win=item
 JP: 石床{n}消費MV 2{n}まる石が しきつめられている{end}
-EN: 
+EN: Stone floor{n}MV cost 2{n}Paved with cobbles{end}
 
-#id 0293 ptr=033763 box=desc
+#id 0293 ptr=033763 box=desc win=item
 JP: ゴツゴツした石床{n}消費MV 3{n}ちょっと 歩きにくい{end}
-EN: 
+EN: Rough stone floor{n}MV cost 3{n}A bit hard to walk{end}
 
-#id 0294 ptr=033783 box=desc
+#id 0294 ptr=033783 box=desc win=item
 JP: ゴツゴツしたレンガ床{n}消費MV 3{n}ちょっと 歩きにくい{end}
-EN: 
+EN: Rough brick floor{n}MV cost 3{n}A bit hard to walk{end}
 
-#id 0295 ptr=0337A4 box=desc
+#id 0295 ptr=0337A4 box=desc win=item
 JP: 洞窟の床{n}消費MV 2{n}{end}
-EN: 
+EN: Cave floor{n}MV cost 2{n}{end}
 
-#id 0296 ptr=0337B6 box=desc
+#id 0296 ptr=0337B6 box=desc win=item
 JP: 砂利{n}消費MV 3{n}足をとられて 歩きにくい{end}
-EN: 
+EN: Gravel{n}MV cost 3{n}Hard on the feet{end}
 
-#id 0297 ptr=0337D3 box=desc
+#id 0297 ptr=0337D3 box=desc win=item
 JP: ライナーク城の床{n}消費MV 2{n}みごとな 石の床です{end}
-EN: 
+EN: Rainark floor{n}MV cost 2{n}Fine stone flooring{end}
 
-#id 0298 ptr=0337F4 box=desc
+#id 0298 ptr=0337F4 box=desc win=item
 JP: 城のじゅうたん{n}消費MV 2{n}地形効果が たかいよ{end}
-EN: 
+EN: Castle carpet{n}MV cost 2{n}High terrain bonus{end}
 
-#id 0299 ptr=033815 box=desc
+#id 0299 ptr=033815 box=desc win=item
 JP: マテドラル城の床{n}消費MV 2{n}みごとな 石の床です{end}
-EN: 
+EN: Matedral floor{n}MV cost 2{n}Fine stone flooring{end}
 
-#id 0300 ptr=033836 box=desc
+#id 0300 ptr=033836 box=desc win=item
 JP: 屋内石床(普){n}消費MV 2{n}{end}
-EN: 
+EN: Indoor stone floor{n}MV cost 2{n}{end}
 
-#id 0301 ptr=03384D box=desc
+#id 0301 ptr=03384D box=desc win=item
 JP: 針床 出{n}消費MV 3{n}針をふむと ダメージを受けます{end}
-EN: 
+EN: Spike floor (up){n}MV cost 3{n}Spikes hurt you{end}
 
-#id 0302 ptr=033870 box=desc
+#id 0302 ptr=033870 box=desc win=item
 JP: 針床 引{n}消費MV 2{n}いまは ふんでも平気{end}
-EN: 
+EN: Spike floor (down){n}MV cost 2{n}Safe to step on now{end}
 
-#id 0303 ptr=03388E box=desc
+#id 0303 ptr=03388E box=desc win=item
 JP: 魔方陣{n}消費MV 2{n}不思議な力で 体力が回復します{end}
-EN: 
+EN: Magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0304 ptr=0338B6 box=desc
+#id 0304 ptr=0338B6 box=desc win=item
 JP: ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
-EN: 
+EN: Warp panel{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0305 ptr=0338D7 box=desc
+#id 0305 ptr=0338D7 box=desc win=item
 JP: スイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
-EN: 
+EN: Switch panel{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0306 ptr=0338FA box=desc
+#id 0306 ptr=0338FA box=desc win=item
 JP: 月のパネル{n}侵入不可{n}レリーフが彫られています{end}
-EN: 
+EN: Moon panel{n}Impassable{n}Has a carved relief{end}
 
-#id 0307 ptr=033918 box=desc
+#id 0307 ptr=033918 box=desc win=item
 JP: 太陽のパネル{n}侵入不可{n}レリーフが彫られています{end}
-EN: 
+EN: Sun panel{n}Impassable{n}Has a carved relief{end}
 
-#id 0308 ptr=033938 box=desc
+#id 0308 ptr=033938 box=desc win=item
 JP: ガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
-EN: 
+EN: Rubble{n}MV cost 5{n}High terrain bonus{end}
 
-#id 0309 ptr=03395A box=desc
+#id 0309 ptr=03395A box=desc win=item
 JP: ガレキ{n}侵入不可{n}チクチク痛くて 入れません{end}
-EN: 
+EN: Rubble{n}Impassable{n}Ouch! Can't go in{end}
 
-#id 0310 ptr=033977 box=desc
+#id 0310 ptr=033977 box=desc win=item
 JP: 土の荒れ地{n}消費MV 3{n}荒れた大地 歩きにくい{end}
-EN: 
+EN: Rough dirt{n}MV cost 3{n}Rough and slow{end}
 
-#id 0311 ptr=033999 box=desc
+#id 0311 ptr=033999 box=desc win=item
 JP: クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: 
+EN: Crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0312 ptr=0339B7 box=desc
+#id 0312 ptr=0339B7 box=desc win=item
 JP: ピラミッド クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: 
+EN: Pyramid crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0313 ptr=0339DB box=desc
+#id 0313 ptr=0339DB box=desc win=item
 JP: すのこ床{n}消費MV 2{n}歩きやすいな{end}
-EN: 
+EN: Slatted floor{n}MV cost 2{n}Easy walking{end}
 
-#id 0314 ptr=0339F2 box=desc
+#id 0314 ptr=0339F2 box=desc win=item
 JP: 屋内の湖{n}消費MV 3{n}静かに 波うつ水{end}
-EN: 
+EN: Indoor lake{n}MV cost 3{n}Gently rippling{end}
 
-#id 0315 ptr=033A0F box=desc
+#id 0315 ptr=033A0F box=desc win=item
 JP: 屋内の砂地{n}消費MV 5{n}歩きにくく 静かな場所{end}
-EN: 
+EN: Indoor sand{n}MV cost 5{n}Slow and silent{end}
 
-#id 0316 ptr=033A32 box=desc
+#id 0316 ptr=033A32 box=desc win=item
 JP: 大理石の床{n}消費MV 2{n}{end}
-EN: 
+EN: Marble floor{n}MV cost 2{n}{end}
 
-#id 0317 ptr=033A46 box=desc
+#id 0317 ptr=033A46 box=desc win=item
 JP: 崩れた大理石{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
-EN: 
+EN: Broken marble{n}MV cost 5{n}High terrain bonus{end}
 
-#id 0318 ptr=033A6F box=desc
+#id 0318 ptr=033A6F box=desc win=item
 JP: 大理石魔方陣{n}消費MV 2{n}不思議な力で 体力が回復します{end}
-EN: 
+EN: Marble magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0319 ptr=033A9D box=desc
+#id 0319 ptr=033A9D box=desc win=item
 JP: おもちゃのブロック床{n}消費MV 2{n}おもちゃの塔の カラフルな床{end}
-EN: 
+EN: Toy block floor{n}MV cost 2{n}Colorful Toy Tower{end}
 
-#id 0320 ptr=033AC3 box=desc
+#id 0320 ptr=033AC3 box=desc win=item
 JP: 乱雑なブロック床{n}消費MV 4{n}ブロックが置かれていて 歩きにくい{end}
-EN: 
+EN: Messy block floor{n}MV cost 4{n}Blocks in the way{end}
 
-#id 0321 ptr=033AEC box=desc
+#id 0321 ptr=033AEC box=desc win=item
 JP: ブロック魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Block magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0322 ptr=033B15 box=desc
+#id 0322 ptr=033B15 box=desc win=item
 JP: ブロックスイッチ{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
-EN: 
+EN: Block switch{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0323 ptr=033B39 box=desc
+#id 0323 ptr=033B39 box=desc win=item
 JP: ブロックワープ{n}消費MV 2{n}遠き場所へ みちびかれます{end}
-EN: 
+EN: Block warp{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0324 ptr=033B5B box=desc
+#id 0324 ptr=033B5B box=desc win=item
 JP: ブロッククレーター{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: 
+EN: Block crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0325 ptr=033B7D box=desc
+#id 0325 ptr=033B7D box=desc win=item
 JP: 石床魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Stone magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0326 ptr=033BA6 box=desc
+#id 0326 ptr=033BA6 box=desc win=item
 JP: 石床ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
-EN: 
+EN: Stone warp panel{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0327 ptr=033BCB box=desc
+#id 0327 ptr=033BCB box=desc win=item
 JP: 石床スイッチ{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
-EN: 
+EN: Stone switch{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0328 ptr=033BEF box=desc
+#id 0328 ptr=033BEF box=desc win=item
 JP: 鉄の床{n}消費MV 2{n}魔導科学で 創られた金属{end}
-EN: 
+EN: Iron floor{n}MV cost 2{n}Magitech metal{end}
 
-#id 0329 ptr=033C12 box=desc
+#id 0329 ptr=033C12 box=desc win=item
 JP: 鉄床魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Iron magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0330 ptr=033C3B box=desc
+#id 0330 ptr=033C3B box=desc win=item
 JP: 鉄床ワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
-EN: 
+EN: Iron warp panel{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0331 ptr=033C60 box=desc
+#id 0331 ptr=033C60 box=desc win=item
 JP: 鉄床スイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
-EN: 
+EN: Iron switch panel{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0332 ptr=033C87 box=desc
+#id 0332 ptr=033C87 box=desc win=item
 JP: さびた鉄床{n}消費MV 4{n}魔法科学でも さびはとめられない{end}
-EN: 
+EN: Rusty iron floor{n}MV cost 4{n}Even magic rusts{end}
 
-#id 0333 ptr=033CAD box=desc
+#id 0333 ptr=033CAD box=desc win=item
 JP: ベルトコンベア{n}消費MV 2{n}魔法科学の力で 動きます{end}
-EN: 
+EN: Conveyor belt{n}MV cost 2{n}Runs on magitech{end}
 
-#id 0334 ptr=033CD1 box=desc
+#id 0334 ptr=033CD1 box=desc win=item
 JP: ベルトコンベア{n}消費MV 10{n}魔法科学の力で 動きます{end}
-EN: 
+EN: Conveyor belt{n}MV cost 10{n}Runs on magitech{end}
 
-#id 0335 ptr=033CF6 box=desc
+#id 0335 ptr=033CF6 box=desc win=item
 JP: 鉄床クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: 
+EN: Iron crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0336 ptr=033D18 box=desc
+#id 0336 ptr=033D18 box=desc win=item
 JP: 鉄床のガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
-EN: 
+EN: Iron rubble{n}MV cost 5{n}High terrain bonus{end}
 
-#id 0337 ptr=033D3F box=desc
+#id 0337 ptr=033D3F box=desc win=item
 JP: 教会のガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
-EN: 
+EN: Church rubble{n}MV cost 5{n}High terrain bonus{end}
 
-#id 0338 ptr=033D66 box=desc
+#id 0338 ptr=033D66 box=desc win=item
 JP: 教会魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Church magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0339 ptr=033D8F box=desc
+#id 0339 ptr=033D8F box=desc win=item
 JP: 教会床クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: 
+EN: Church crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0340 ptr=033DB3 box=desc
+#id 0340 ptr=033DB3 box=desc win=item
 JP: 城のワープパネル{n}消費MV 2{n}遠き場所へ みちびかれます{end}
-EN: 
+EN: Castle warp panel{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0341 ptr=033DD7 box=desc
+#id 0341 ptr=033DD7 box=desc win=item
 JP: 城のスイッチパネル{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
-EN: 
+EN: Castle switch{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0342 ptr=033DFD box=desc
+#id 0342 ptr=033DFD box=desc win=item
 JP: 城の石床{n}消費MV2{n}りっぱな 石の床{end}
-EN: 
+EN: Castle stone floor{n}MV cost 2{n}Grand stone floor{end}
 
-#id 0343 ptr=033E18 box=desc
+#id 0343 ptr=033E18 box=desc win=item
 JP: ピラミッドの床{n}消費MV 2{n}ふしぎな模様が刻まれてます{end}
-EN: 
+EN: Pyramid floor{n}MV cost 2{n}Odd patterns carved{end}
 
-#id 0344 ptr=033E3B box=desc
+#id 0344 ptr=033E3B box=desc win=item gloss=off
 JP: ピラミッド魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Pyramid circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0345 ptr=033E65 box=desc
+#id 0345 ptr=033E65 box=desc win=item
 JP: ピラミッドスイッチ{n}消費MV 2{n}ふむと 仕掛けが作動します{end}
-EN: 
+EN: Pyramid switch{n}MV cost 2{n}Step on to trigger{end}
 
-#id 0346 ptr=033E8A box=desc
+#id 0346 ptr=033E8A box=desc win=item
 JP: ピラミッドワープ{n}消費MV 2{n}遠き場所へ みちびかれます{end}
-EN: 
+EN: Pyramid warp{n}MV cost 2{n}Leads somewhere far{end}
 
-#id 0347 ptr=033EAD box=desc
+#id 0347 ptr=033EAD box=desc win=item
 JP: 教会の床{n}消費MV 2{n}ワックスでピカピカ{end}
-EN: 
+EN: Church floor{n}MV cost 2{n}Waxed to a shine{end}
 
-#id 0348 ptr=033EC8 box=desc
+#id 0348 ptr=033EC8 box=desc win=item
 JP: 教会クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: 
+EN: Church crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0349 ptr=033EEA box=desc
+#id 0349 ptr=033EEA box=desc win=item
 JP: 教会魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Church magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0350 ptr=033F13 box=desc
+#id 0350 ptr=033F13 box=desc win=item
 JP: 城魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Castle magic circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0351 ptr=033F3A box=desc
+#id 0351 ptr=033F3A box=desc win=item
 JP: ピラミッドのガレキ{n}消費MV 5{n}歩きにくいが 地形効果がたかい{end}
-EN: 
+EN: Pyramid rubble{n}MV cost 5{n}High terrain bonus{end}
 
-#id 0352 ptr=033F62 box=desc
+#id 0352 ptr=033F62 box=desc win=item
 JP: シーソー 出{n}消費MV 2{n}ユニットが 飛ばされます{end}
-EN: 
+EN: Seesaw (up){n}MV cost 2{n}Launches units{end}
 
-#id 0353 ptr=033F81 box=desc
+#id 0353 ptr=033F81 box=desc win=item
 JP: シーソー 引{n}消費MV 2{n}ユニットが 飛ばされます{end}
-EN: 
+EN: Seesaw (down){n}MV cost 2{n}Launches units{end}
 
-#id 0354 ptr=033FA0 box=desc
+#id 0354 ptr=033FA0 box=desc win=item
 JP: まぼろしの床{n}消費MV 2{n}ぶきみな床{end}
-EN: 
+EN: Phantom floor{n}MV cost 2{n}An eerie floor{end}
 
-#id 0355 ptr=033FB8 box=desc
+#id 0355 ptr=033FB8 box=desc win=item gloss=off
 JP: まぼろしの魔方陣{n}消費MV 2{n}ふしぎな力で 体力が回復します{end}
-EN: 
+EN: Phantom circle{n}MV cost 2{n}Its power heals HP{end}
 
-#id 0356 ptr=033FE2 box=desc
+#id 0356 ptr=033FE2 box=desc win=item
 JP: 輝く大理石{n}消費MV 2{n}こうごうしい 輝きを放ってます{end}
-EN: 
+EN: Shining marble{n}MV cost 2{n}A holy radiance{end}
 
-#id 0357 ptr=034007 box=desc
+#id 0357 ptr=034007 box=desc win=item
 JP: 室内の柱{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: 
+EN: Indoor pillar{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0358 ptr=034027 box=desc
+#id 0358 ptr=034027 box=desc win=item
 JP: 民家{n}侵入不可{n}ご用のかたは 玄関にどうぞ{end}
-EN: 
+EN: House{n}Impassable{n}Use the entrance{end}
 
-#id 0359 ptr=034046 box=desc
+#id 0359 ptr=034046 box=desc win=item
 JP: ジェネレータ{n}消費MV 3{n}敵が発生する 危険な場所{end}
-EN: 
+EN: Generator{n}MV cost 3{n}Spawns enemies!{end}
 
-#id 0360 ptr=03406A box=desc
+#id 0360 ptr=03406A box=desc win=item
 JP: ジェネレータ{n}侵入不可{n}敵が発生する 危険な場所{end}
-EN: 
+EN: Generator{n}Impassable{n}Spawns enemies!{end}
 
-#id 0361 ptr=03408E box=desc
+#id 0361 ptr=03408E box=desc win=item
 JP: 教会のドア{n}侵入不可{n}勝手に開けては いけません{end}
-EN: 
+EN: Church door{n}Impassable{n}Not yours to open{end}
 
-#id 0362 ptr=0340B0 box=desc
+#id 0362 ptr=0340B0 box=desc win=item
 JP: 教会の祭壇{n}侵入不可{n}神父さんいがいは 近寄っちゃダメ{end}
-EN: 
+EN: Church altar{n}Impassable{n}Priests only!{end}
 
-#id 0363 ptr=0340D8 box=desc
+#id 0363 ptr=0340D8 box=desc win=item
 JP: 教会{n}侵入不可{n}聖ガウディ教会です{end}
-EN: 
+EN: Church{n}Impassable{n}St. Gaudi Church{end}
 
-#id 0364 ptr=0340F3 box=desc
+#id 0364 ptr=0340F3 box=desc win=item
 JP: パズルパネル2{n}侵入不可{n}おなじ絵柄を そろえよう{end}
-EN: 
+EN: Puzzle panel 2{n}Impassable{n}Match the pictures{end}
 
-#id 0365 ptr=034113 box=desc
+#id 0365 ptr=034113 box=desc win=item
 JP: パズルパネル1{n}消費MV 2{n}敵を倒すと パネルが変わります{end}
-EN: 
+EN: Puzzle panel 1{n}MV cost 2{n}Defeat foes to flip{end}
 
-#id 0366 ptr=034137 box=desc
+#id 0366 ptr=034137 box=desc win=item
 JP: 玉座{n}侵入不可{n}王様いがいは 近寄っちゃダメ{end}
-EN: 
+EN: Throne{n}Impassable{n}For the king only!{end}
 
-#id 0367 ptr=034158 box=desc
+#id 0367 ptr=034158 box=desc win=item
 JP: ジャスバン像{n}侵入不可{n}天使の彫像です{end}
-EN: 
+EN: Jasvan statue{n}Impassable{n}An angel statue{end}
 
-#id 0368 ptr=034175 box=desc
+#id 0368 ptr=034175 box=desc win=item
 JP: 危険な穴{n}侵入不可{n}底はふかいぞ 近付かないように{end}
-EN: 
+EN: Dangerous pit{n}Impassable{n}Deep! Stay away{end}
 
-#id 0369 ptr=034199 box=desc
+#id 0369 ptr=034199 box=desc win=item
 JP: しょく台{n}侵入不可{n}ロウソクをたてる台です{end}
-EN: 
+EN: Candlestand{n}Impassable{n}Holds candles{end}
 
-#id 0370 ptr=0341B5 box=desc
+#id 0370 ptr=0341B5 box=desc win=item
 JP: 合体の神殿{n}不思議な壺の力で ユニットを{n}合体させる 神聖なる場所{end}
-EN: 
+EN: Fusion Temple{n}Its magic pot fuses{n}units. A holy site.{end}
 
-#id 0371 ptr=0341E6 box=desc
+#id 0371 ptr=0341E6 box=desc win=item
 JP: 宝箱{n}侵入不可{n}なにかいいもの はいっているかな?{end}
-EN: 
+EN: Chest{n}Impassable{n}Something good?{end}
 
-#id 0372 ptr=034206 box=desc
+#id 0372 ptr=034206 box=desc win=item
 JP: 宝箱{n}侵入不可{n}箱の中身は 空っぽです{end}
-EN: 
+EN: Chest{n}Impassable{n}It's empty{end}
 
-#id 0373 ptr=034224 box=desc
+#id 0373 ptr=034224 box=desc win=item
 JP: 開いた扉{n}消費MV 2{n}どうぞ お通りください{end}
-EN: 
+EN: Open door{n}MV cost 2{n}Please, go through{end}
 
-#id 0374 ptr=034241 box=desc
+#id 0374 ptr=034241 box=desc win=item
 JP: 閉じた扉{n}侵入不可{n}扉を開けなきゃ 通れません{end}
-EN: 
+EN: Closed door{n}Impassable{n}Open it to pass{end}
 
-#id 0375 ptr=034262 box=desc
+#id 0375 ptr=034262 box=desc win=item
 JP: 王室の紋章{n}侵入不可{n}王室のシンボル{end}
-EN: 
+EN: Royal crest{n}Impassable{n}Symbol of royalty{end}
 
-#id 0376 ptr=03427F box=desc
+#id 0376 ptr=03427F box=desc win=item
 JP: 玄関{n}消費MV 2{n}ご用の方は こちらへどうぞ{end}
-EN: 
+EN: Entrance{n}MV cost 2{n}Visitors, this way{end}
 
-#id 0377 ptr=03429D box=desc
+#id 0377 ptr=03429D box=desc win=item
 JP: 階段{n}侵入不可{n}上や下にみちびく 場所{end}
-EN: 
+EN: Stairs{n}Impassable{n}Lead up or down{end}
 
-#id 0378 ptr=0342BB box=desc
+#id 0378 ptr=0342BB box=desc win=item
 JP: 虹色の魔石{n}侵入不可{n}妖しげな光をはなつ魔石{end}
-EN: 
+EN: Rainbow Jewel{n}Impassable{n}It glows eerily{end}
 
-#id 0379 ptr=0342DE box=desc
+#id 0379 ptr=0342DE box=desc win=item
 JP: 魔石の台座{n}侵入不可{n}魔石のならびは虹の色{end}
-EN: 
+EN: Jewel pedestal{n}Impassable{n}Order: rainbow{end}
 
-#id 0380 ptr=034300 box=desc
+#id 0380 ptr=034300 box=desc win=item
 JP: パネルスイッチ{n}消費MV 2{n}スイッチに乗ると パネルが変わる{end}
-EN: 
+EN: Panel switch{n}MV cost 2{n}Flips the panels{end}
 
-#id 0381 ptr=034324 box=desc
+#id 0381 ptr=034324 box=desc win=item
 JP: 教会の椅子{n}消費MV 4{n}ここに座って お話しをききます{end}
-EN: 
+EN: Church pew{n}MV cost 4{n}Sit and listen{end}
 
-#id 0382 ptr=034349 box=desc
+#id 0382 ptr=034349 box=desc win=item
 JP: 洞窟クレーター{n}消費MV 4{n}地形効果が たかいよ{end}
-EN: 
+EN: Cave crater{n}MV cost 4{n}High terrain bonus{end}
 
-#id 0383 ptr=03436B box=desc
+#id 0383 ptr=03436B box=desc win=item
 JP: 未設定{end}
-EN: 
+EN: Unset{end}
 
-#id 0384 ptr=034372 box=desc
+#id 0384 ptr=034372 box=desc win=item
 JP: はめると力がわいてくるふしぎなリングユニットのSTRを1アップします。{n}装備品だよ{end}
-EN: 
+EN: A strange ring that{n}gives power. ATK+1.{n}It's equipment!{end}
 
-#id 0385 ptr=0343A0 box=desc
+#id 0385 ptr=0343A0 box=desc win=item
 JP: はめると力がわいてくるふしぎなリングユニットのSTRを1アップします。{n}装備品だよ{end}
-EN: 
+EN: A strange ring that{n}gives power. ATK+1.{n}It's equipment!{end}
 
-#id 0386 ptr=0343CE box=desc
+#id 0386 ptr=0343CE box=desc win=item
 JP: はめると力がわいてくるふしぎなリングユニットのSTRを1アップします。{n}装備品だよ{end}
-EN: 
+EN: A strange ring that{n}gives power. ATK+1.{n}It's equipment!{end}
 
-#id 0387 ptr=0343FC box=desc
+#id 0387 ptr=0343FC box=desc win=item
 JP: ちからのリング+3は、はめると{n}ユニットのSTRを3アップします。{n}装備品だよ{end}
-EN: 
+EN: Power Ring+3: wear{n}it for ATK+3.{n}It's equipment!{end}
 
-#id 0388 ptr=034427 box=desc
+#id 0388 ptr=034427 box=desc win=item
 JP: ちからのリング+3は、はめると{n}ユニットのSTRを3アップします。{n}装備品だよ{end}
-EN: 
+EN: Power Ring+3: wear{n}it for ATK+3.{n}It's equipment!{end}
 
-#id 0389 ptr=034452 box=desc
+#id 0389 ptr=034452 box=desc win=item
 JP: ちからのリング+3は、はめると{n}ユニットのSTRを3アップします。{n}装備品だよ{end}
-EN: 
+EN: Power Ring+3: wear{n}it for ATK+3.{n}It's equipment!{end}
 
-#id 0390 ptr=03447D box=desc
+#id 0390 ptr=03447D box=desc win=item
 JP: むかしの兵隊さんが使ってた{n}指輪だ。STRが5アップするよ。{n}これも装備品だよ{end}
-EN: 
+EN: A ring old soldiers{n}used. ATK+5.{n}Equipment, too!{end}
 
-#id 0391 ptr=0344AD box=desc
+#id 0391 ptr=0344AD box=desc win=item
 JP: むかしの兵隊さんが使ってた{n}指輪だ。STRが5アップするよ。{n}これも装備品だよ{end}
-EN: 
+EN: A ring old soldiers{n}used. ATK+5.{n}Equipment, too!{end}
 
-#id 0392 ptr=0344DD box=desc
+#id 0392 ptr=0344DD box=desc win=item
 JP: むかしの兵隊さんが使ってた{n}指輪だ。STRが5アップするよ。{n}これも装備品だよ{end}
-EN: 
+EN: A ring old soldiers{n}used. ATK+5.{n}Equipment, too!{end}
 
-#id 0393 ptr=03450D box=desc
+#id 0393 ptr=03450D box=desc win=item
 JP: 聖なる指輪だ。{n}ユニットのSTRを7アップするよ。{n}これはお買得な装備品だぜ{end}
-EN: 
+EN: A holy ring. ATK+7.{n}A bargain piece of{n}equipment!{end}
 
-#id 0394 ptr=03453C box=desc
+#id 0394 ptr=03453C box=desc win=item
 JP: 聖なる指輪だ。{n}ユニットのSTRを7アップするよ。{n}これはお買得な装備品だぜ{end}
-EN: 
+EN: A holy ring. ATK+7.{n}A bargain piece of{n}equipment!{end}
 
-#id 0395 ptr=03456B box=desc
+#id 0395 ptr=03456B box=desc win=item
 JP: 聖なる指輪だ。{n}ユニットのSTRを7アップするよ。{n}これはお買得な装備品だぜ{end}
-EN: 
+EN: A holy ring. ATK+7.{n}A bargain piece of{n}equipment!{end}
 
-#id 0396 ptr=03459A box=desc
+#id 0396 ptr=03459A box=desc win=item
 JP: マルスのゆびわ を はめれば、{n}ユニットのSTRが9アップするぞ。{n}装備品だよ{end}
-EN: 
+EN: Wear the Mars Ring{n}for ATK+9.{n}It's equipment!{end}
 
-#id 0397 ptr=0345C5 box=desc
+#id 0397 ptr=0345C5 box=desc win=item
 JP: マルスのゆびわ を はめれば、{n}ユニットのSTRが9アップするぞ。{n}装備品だよ{end}
-EN: 
+EN: Wear the Mars Ring{n}for ATK+9.{n}It's equipment!{end}
 
-#id 0398 ptr=0345F0 box=desc
+#id 0398 ptr=0345F0 box=desc win=item
 JP: マルスのゆびわ を はめれば、{n}ユニットのSTRが9アップするぞ。{n}装備品だよ{end}
-EN: 
+EN: Wear the Mars Ring{n}for ATK+9.{n}It's equipment!{end}
 
-#id 0399 ptr=03461B box=desc
+#id 0399 ptr=03461B box=desc win=item
 JP: これは げんこつリング です。{n}ユニットのSTRを11アップします。{n}装備品だよ{end}
-EN: 
+EN: The Fist Ring.{n}Raises ATK by 11.{n}It's equipment!{end}
 
-#id 0400 ptr=034647 box=desc
+#id 0400 ptr=034647 box=desc win=item
 JP: これは げんこつリング です。{n}ユニットのSTRを11アップします。{n}装備品だよ{end}
-EN: 
+EN: The Fist Ring.{n}Raises ATK by 11.{n}It's equipment!{end}
 
-#id 0401 ptr=034673 box=desc
+#id 0401 ptr=034673 box=desc win=item
 JP: これは げんこつリング です。{n}ユニットのSTRを11アップします。{n}装備品だよ{end}
-EN: 
+EN: The Fist Ring.{n}Raises ATK by 11.{n}It's equipment!{end}
 
-#id 0402 ptr=03469F box=desc
+#id 0402 ptr=03469F box=desc win=item
 JP: これは プラチナリング です。{n}ユニットのSTRを13アップします。{n}装備品だよ{end}
-EN: 
+EN: The Plat. Ring.{n}Raises ATK by 13.{n}It's equipment!{end}
 
-#id 0403 ptr=0346CB box=desc
+#id 0403 ptr=0346CB box=desc win=item
 JP: これは プラチナリング です。{n}ユニットのSTRを13アップします。{n}装備品だよ{end}
-EN: 
+EN: The Plat. Ring.{n}Raises ATK by 13.{n}It's equipment!{end}
 
-#id 0404 ptr=0346F7 box=desc
+#id 0404 ptr=0346F7 box=desc win=item
 JP: これは プラチナリング です。{n}ユニットのSTRを13アップします。{n}装備品だよ{end}
-EN: 
+EN: The Plat. Ring.{n}Raises ATK by 13.{n}It's equipment!{end}
 
-#id 0405 ptr=034723 box=desc
+#id 0405 ptr=034723 box=desc win=item
 JP: これは おうじゃのゆびわ です。{n}ユニットのSTRを15アップします。{n}装備品だよ{end}
-EN: 
+EN: The King Ring.{n}Raises ATK by 15.{n}It's equipment!{end}
 
-#id 0406 ptr=034750 box=desc
+#id 0406 ptr=034750 box=desc win=item
 JP: これは おうじゃのゆびわ です。{n}ユニットのSTRを15アップします。{n}装備品だよ{end}
-EN: 
+EN: The King Ring.{n}Raises ATK by 15.{n}It's equipment!{end}
 
-#id 0407 ptr=03477D box=desc
+#id 0407 ptr=03477D box=desc win=item
 JP: これは おうじゃのゆびわ です。{n}ユニットのSTRを15アップします。{n}装備品だよ{end}
-EN: 
+EN: The King Ring.{n}Raises ATK by 15.{n}It's equipment!{end}
 
-#id 0408 ptr=0347AA box=desc
+#id 0408 ptr=0347AA box=desc win=item
 JP: これは まもりのブレス です。{n}ユニットのDEFを1アップします。{n}装備品だよ{end}
-EN: 
+EN: The Ward Brace.{n}Raises DEF by 1.{n}It's equipment!{end}
 
-#id 0409 ptr=0347D5 box=desc
+#id 0409 ptr=0347D5 box=desc win=item
 JP: これは まもりのブレス です。{n}ユニットのDEFを1アップします。{n}装備品だよ{end}
-EN: 
+EN: The Ward Brace.{n}Raises DEF by 1.{n}It's equipment!{end}
 
-#id 0410 ptr=034800 box=desc
+#id 0410 ptr=034800 box=desc win=item
 JP: これは まもりのブレス です。{n}ユニットのDEFを1アップします。{n}装備品だよ{end}
-EN: 
+EN: The Ward Brace.{n}Raises DEF by 1.{n}It's equipment!{end}
 
-#id 0411 ptr=03482B box=desc
+#id 0411 ptr=03482B box=desc win=item
 JP: これは まもりのブレス+3 です。{n}ユニットのDEFを3アップします。{n}装備品だよ{end}
-EN: 
+EN: The Ward Brc+3.{n}Raises DEF by 3.{n}It's equipment!{end}
 
-#id 0412 ptr=034858 box=desc
+#id 0412 ptr=034858 box=desc win=item
 JP: これは まもりのブレス+3 です。{n}ユニットのDEFを3アップします。{n}装備品だよ{end}
-EN: 
+EN: The Ward Brc+3.{n}Raises DEF by 3.{n}It's equipment!{end}
 
-#id 0413 ptr=034885 box=desc
+#id 0413 ptr=034885 box=desc win=item
 JP: これは まもりのブレス+3 です。{n}ユニットのDEFを3アップします。{n}装備品だよ{end}
-EN: 
+EN: The Ward Brc+3.{n}Raises DEF by 3.{n}It's equipment!{end}
 
-#id 0414 ptr=0348B2 box=desc
+#id 0414 ptr=0348B2 box=desc win=item
 JP: これは せんしのうでわ です。{n}ユニットのDEFを5アップします。{n}装備品だよ{end}
-EN: 
+EN: The Brave Cuff.{n}Raises DEF by 5.{n}It's equipment!{end}
 
-#id 0415 ptr=0348DD box=desc
+#id 0415 ptr=0348DD box=desc win=item
 JP: これは せんしのうでわ です。{n}ユニットのDEFを5アップします。{n}装備品だよ{end}
-EN: 
+EN: The Brave Cuff.{n}Raises DEF by 5.{n}It's equipment!{end}
 
-#id 0416 ptr=034908 box=desc
+#id 0416 ptr=034908 box=desc win=item
 JP: これは せんしのうでわ です。{n}ユニットのDEFを5アップします。{n}装備品だよ{end}
-EN: 
+EN: The Brave Cuff.{n}Raises DEF by 5.{n}It's equipment!{end}
 
-#id 0417 ptr=034933 box=desc
+#id 0417 ptr=034933 box=desc win=item
 JP: これは ガードブレス です。{n}ユニットのDEFを7アップします。{n}装備品だよ{end}
-EN: 
+EN: The GuardBrace.{n}Raises DEF by 7.{n}It's equipment!{end}
 
-#id 0418 ptr=03495D box=desc
+#id 0418 ptr=03495D box=desc win=item
 JP: これは ガードブレス です。{n}ユニットのDEFを7アップします。{n}装備品だよ{end}
-EN: 
+EN: The GuardBrace.{n}Raises DEF by 7.{n}It's equipment!{end}
 
-#id 0419 ptr=034987 box=desc
+#id 0419 ptr=034987 box=desc win=item
 JP: これは ガードブレス です。{n}ユニットのDEFを7アップします。{n}装備品だよ{end}
-EN: 
+EN: The GuardBrace.{n}Raises DEF by 7.{n}It's equipment!{end}
 
-#id 0420 ptr=0349B1 box=desc
+#id 0420 ptr=0349B1 box=desc win=item
 JP: これは きみょうなうでわ です。{n}ユニットのDEFを9アップします。{n}装備品だよ{end}
-EN: 
+EN: The Odd Cuff.{n}Raises DEF by 9.{n}It's equipment!{end}
 
-#id 0421 ptr=0349DD box=desc
+#id 0421 ptr=0349DD box=desc win=item
 JP: これは きみょうなうでわ です。{n}ユニットのDEFを9アップします。{n}装備品だよ{end}
-EN: 
+EN: The Odd Cuff.{n}Raises DEF by 9.{n}It's equipment!{end}
 
-#id 0422 ptr=034A09 box=desc
+#id 0422 ptr=034A09 box=desc win=item
 JP: これは きみょうなうでわ です。{n}ユニットのDEFを9アップします。{n}装備品だよ{end}
-EN: 
+EN: The Odd Cuff.{n}Raises DEF by 9.{n}It's equipment!{end}
 
-#id 0423 ptr=034A35 box=desc
+#id 0423 ptr=034A35 box=desc win=item
 JP: これは ゴールドブレス です。{n}ユニットのDEFを11アップします。{n}装備品だよ{end}
-EN: 
+EN: The Gold Brace.{n}Raises DEF by 11.{n}It's equipment!{end}
 
-#id 0424 ptr=034A61 box=desc
+#id 0424 ptr=034A61 box=desc win=item
 JP: これは ゴールドブレス です。{n}ユニットのDEFを11アップします。{n}装備品だよ{end}
-EN: 
+EN: The Gold Brace.{n}Raises DEF by 11.{n}It's equipment!{end}
 
-#id 0425 ptr=034A8D box=desc
+#id 0425 ptr=034A8D box=desc win=item
 JP: これは ゴールドブレス です。{n}ユニットのDEFを11アップします。{n}装備品だよ{end}
-EN: 
+EN: The Gold Brace.{n}Raises DEF by 11.{n}It's equipment!{end}
 
-#id 0426 ptr=034AB9 box=desc
+#id 0426 ptr=034AB9 box=desc win=item
 JP: これは はおうのうでわ です。{n}ユニットのDEFを13アップします。{n}装備品だよ{end}
-EN: 
+EN: The Lord Cuff.{n}Raises DEF by 13.{n}It's equipment!{end}
 
-#id 0427 ptr=034AE5 box=desc
+#id 0427 ptr=034AE5 box=desc win=item
 JP: これは はおうのうでわ です。{n}ユニットのDEFを13アップします。{n}装備品だよ{end}
-EN: 
+EN: The Lord Cuff.{n}Raises DEF by 13.{n}It's equipment!{end}
 
-#id 0428 ptr=034B11 box=desc
+#id 0428 ptr=034B11 box=desc win=item
 JP: これは はおうのうでわ です。{n}ユニットのDEFを13アップします。{n}装備品だよ{end}
-EN: 
+EN: The Lord Cuff.{n}Raises DEF by 13.{n}It's equipment!{end}
 
-#id 0429 ptr=034B3D box=desc
+#id 0429 ptr=034B3D box=desc win=item
 JP: これは ガイア・ブレス です。{n}ユニットのDEFを15アップします。{n}装備品だよ{end}
-EN: 
+EN: The Gaia Brace.{n}Raises DEF by 15.{n}It's equipment!{end}
 
-#id 0430 ptr=034B69 box=desc
+#id 0430 ptr=034B69 box=desc win=item
 JP: これは ガイア・ブレス です。{n}ユニットのDEFを15アップします。{n}装備品だよ{end}
-EN: 
+EN: The Gaia Brace.{n}Raises DEF by 15.{n}It's equipment!{end}
 
-#id 0431 ptr=034B95 box=desc
+#id 0431 ptr=034B95 box=desc win=item
 JP: これは ガイア・ブレス です。{n}ユニットのDEFを15アップします。{n}装備品だよ{end}
-EN: 
+EN: The Gaia Brace.{n}Raises DEF by 15.{n}It's equipment!{end}
 
-#id 0432 ptr=034BC1 box=desc
+#id 0432 ptr=034BC1 box=desc win=item
 JP: これは かんせつペンダント です。{n}間接STRを1アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The RangeCharm.{n}Ranged ATK +1.{n}For ranged units.{end}
 
-#id 0433 ptr=034BF6 box=desc
+#id 0433 ptr=034BF6 box=desc win=item
 JP: これは かんせつペンダント です。{n}間接STRを1アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The RangeCharm.{n}Ranged ATK +1.{n}For ranged units.{end}
 
-#id 0434 ptr=034C2B box=desc
+#id 0434 ptr=034C2B box=desc win=item
 JP: これは かんせつペンダントZ です。{n}間接STRを3アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The RangeChm Z.{n}Ranged ATK +3.{n}For ranged units.{end}
 
-#id 0435 ptr=034C61 box=desc
+#id 0435 ptr=034C61 box=desc win=item
 JP: これは かんせつペンダントZ です。{n}間接STRを3アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The RangeChm Z.{n}Ranged ATK +3.{n}For ranged units.{end}
 
-#id 0436 ptr=034C97 box=desc
+#id 0436 ptr=034C97 box=desc win=item
 JP: これは パワーペンダント です。{n}間接STRを5アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The PowerCharm.{n}Ranged ATK +5.{n}For ranged units.{end}
 
-#id 0437 ptr=034CCB box=desc
+#id 0437 ptr=034CCB box=desc win=item
 JP: これは パワーペンダント です。{n}間接STRを5アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The PowerCharm.{n}Ranged ATK +5.{n}For ranged units.{end}
 
-#id 0438 ptr=034CFF box=desc
+#id 0438 ptr=034CFF box=desc win=item
 JP: これは ホークアイ です。{n}間接STRを7アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The Hawkeye.{n}Ranged ATK +7.{n}For ranged units.{end}
 
-#id 0439 ptr=034D30 box=desc
+#id 0439 ptr=034D30 box=desc win=item
 JP: これは ホークアイ です。{n}間接STRを7アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The Hawkeye.{n}Ranged ATK +7.{n}For ranged units.{end}
 
-#id 0440 ptr=034D61 box=desc
+#id 0440 ptr=034D61 box=desc win=item
 JP: これは スーパーペンダント です。{n}間接STRを9アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The SuperCharm.{n}Ranged ATK +9.{n}For ranged units.{end}
 
-#id 0441 ptr=034D96 box=desc
+#id 0441 ptr=034D96 box=desc win=item
 JP: これは スーパーペンダント です。{n}間接STRを9アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The SuperCharm.{n}Ranged ATK +9.{n}For ranged units.{end}
 
-#id 0442 ptr=034DCB box=desc
+#id 0442 ptr=034DCB box=desc win=item
 JP: これは スナイパーズアイ です。{n}間接STRを11アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The Sniper Eye.{n}Ranged ATK +11.{n}For ranged units.{end}
 
-#id 0443 ptr=034E00 box=desc
+#id 0443 ptr=034E00 box=desc win=item
 JP: これは スナイパーズアイ です。{n}間接STRを11アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The Sniper Eye.{n}Ranged ATK +11.{n}For ranged units.{end}
 
-#id 0444 ptr=034E35 box=desc
+#id 0444 ptr=034E35 box=desc win=item
 JP: これは ミラクルペンダント です。{n}間接STRを13アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The MiracleChm.{n}Ranged ATK +13.{n}For ranged units.{end}
 
-#id 0445 ptr=034E6B box=desc
+#id 0445 ptr=034E6B box=desc win=item
 JP: これは ミラクルペンダント です。{n}間接STRを13アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The MiracleChm.{n}Ranged ATK +13.{n}For ranged units.{end}
 
-#id 0446 ptr=034EA1 box=desc
+#id 0446 ptr=034EA1 box=desc win=item
 JP: これは ロビンのペンダント です。{n}間接STRを15アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The Robin Chrm.{n}Ranged ATK +15.{n}For ranged units.{end}
 
-#id 0447 ptr=034ED7 box=desc
+#id 0447 ptr=034ED7 box=desc win=item
 JP: これは ロビンのペンダント です。{n}間接STRを15アップします。{n}間接攻撃ユニット用です。{end}
-EN: 
+EN: The Robin Chrm.{n}Ranged ATK +15.{n}For ranged units.{end}
 
-#id 0448 ptr=034F0D box=desc
+#id 0448 ptr=034F0D box=desc win=item
 JP: これを持っていれば合体のときに{n}上級ユニットにチェンジできるよ。{n}合体できるユニットにもたせてね。{end}
-EN: 
+EN: Fusing with this{n}makes a higher unit{n}Give it to a fuser!{end}
 
-#id 0449 ptr=034F46 box=desc
+#id 0449 ptr=034F46 box=desc win=item
 JP: これを持っていれば合体のときに{n}上級ユニットにチェンジできるよ。{n}合体できるユニットにもたせてね。{end}
-EN: 
+EN: Fusing with this{n}makes a higher unit{n}Give it to a fuser!{end}
 
-#id 0450 ptr=034F7F box=desc
+#id 0450 ptr=034F7F box=desc win=item
 JP: このクツをはけば MVが{n}1ポイントアップするよ。{n}貴重な装備品です。{end}
-EN: 
+EN: Wear these shoes{n}for MV +1.{n}Rare equipment.{end}
 
-#id 0451 ptr=034FA8 box=desc
+#id 0451 ptr=034FA8 box=desc win=item
 JP: このクツをはけば MVが{n}1ポイントアップするよ。{n}貴重な装備品です。{end}
-EN: 
+EN: Wear these shoes{n}for MV +1.{n}Rare equipment.{end}
 
-#id 0452 ptr=034FD1 box=desc
+#id 0452 ptr=034FD1 box=desc win=item
 JP: これは ドラゴンのキバ です。{n}ユニットの会心率を3アップします装備品だよ{end}
-EN: 
+EN: The DragonFang.{n}Crit rate +3.{n}It's equipment!{end}
 
-#id 0453 ptr=034FFD box=desc
+#id 0453 ptr=034FFD box=desc win=item
 JP: これは ドラゴンのキバ です。{n}ユニットの会心率を3アップします装備品だよ{end}
-EN: 
+EN: The DragonFang.{n}Crit rate +3.{n}It's equipment!{end}
 
-#id 0454 ptr=035029 box=desc
+#id 0454 ptr=035029 box=desc win=item
 JP: これは マモノのおまもり です。{n}ユニットの必殺率を3アップします装備品だよ{end}
-EN: 
+EN: The Fiend Ward.{n}Deadly rate +3.{n}It's equipment!{end}
 
-#id 0455 ptr=035056 box=desc
+#id 0455 ptr=035056 box=desc win=item
 JP: これは マモノのおまもり です。{n}ユニットの必殺率を3アップします装備品だよ{end}
-EN: 
+EN: The Fiend Ward.{n}Deadly rate +3.{n}It's equipment!{end}
 
-#id 0456 ptr=035083 box=desc
+#id 0456 ptr=035083 box=desc win=item
 JP: これは ドラゴンのすごいキバ です。{n}ユニットの会心率を5アップします装備品だよ{end}
-EN: 
+EN: The Great Fang.{n}Crit rate +5.{n}It's equipment!{end}
 
-#id 0457 ptr=0350B2 box=desc
+#id 0457 ptr=0350B2 box=desc win=item
 JP: これは マモノのおふだ です。{n}ユニットの必殺率を5アップします装備品だよ{end}
-EN: 
+EN: The Fiend Tag.{n}Deadly rate +5.{n}It's equipment!{end}
 
-#id 0458 ptr=0350DE box=desc
+#id 0458 ptr=0350DE box=desc win=item
 JP: ピースバッジをつけていれば{n}敵の特殊攻撃を無効に{n}できる。便利だよ{end}
-EN: 
+EN: Wear the Peace Pin{n}to block enemy{n}special attacks!{end}
 
-#id 0459 ptr=035109 box=desc
+#id 0459 ptr=035109 box=desc win=item
 JP: ピースバッジをつけていれば敵の{n}特殊攻撃を無効に{n}できる。便利だよ{end}
-EN: 
+EN: Wear the Peace Pin{n}to block enemy{n}special attacks!{end}
 
-#id 0460 ptr=035134 box=desc
+#id 0460 ptr=035134 box=desc win=item
 JP: この帽子をかぶれば戦闘のときにエレメンタル命中率を無効に{n}することができるよ{end}
-EN: 
+EN: This cap cancels{n}element hit rates{n}in battle.{end}
 
-#id 0461 ptr=035164 box=desc
+#id 0461 ptr=035164 box=desc win=item
 JP: この帽子をかぶれば戦闘のときにエレメンタル命中率を無効に{n}することができるよ{end}
-EN: 
+EN: This cap cancels{n}element hit rates{n}in battle.{end}
 
-#id 0462 ptr=035194 box=desc
+#id 0462 ptr=035194 box=desc win=item
 JP: ゆうしゃのあかし は 秘密のアイテム{n}装備するとスゴイことになるよ。{end}
-EN: 
+EN: The Hero Token is a{n}secret item. Equip{n}it for big things!{end}
 
-#id 0463 ptr=0351BB box=desc
+#id 0463 ptr=0351BB box=desc win=item
 JP: うしのてっけん は 秘密のアイテム{n}装備するとすごく強くなるよ{end}
-EN: 
+EN: The Bull Fist is a{n}secret item. Equip{n}it to get strong!{end}
 
-#id 0464 ptr=0351E0 box=desc
+#id 0464 ptr=0351E0 box=desc win=item
 JP: えいようまんてん、ちからのリンゴ。{n}たべるとユニットのSTRが1ふえる。{n}いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: Pwr Apple: healthy!{n}Eat it for ATK+1.{n}Gone once eaten.{end}
 
-#id 0465 ptr=035216 box=desc
+#id 0465 ptr=035216 box=desc win=item
 JP: こいつは かんせつのリンゴ。{n}たべると間接STRが1ふえるんだ。いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: A Rng Apple. Eat it{n}for Ranged ATK+1.{n}Gone once eaten.{end}
 
-#id 0466 ptr=035249 box=desc
+#id 0466 ptr=035249 box=desc win=item
 JP: まもりのリンゴは だいちのめぐみ。{n}たべるとユニットのDEFが1ふえる。{n}いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: Def Apple, a gift{n}of earth. DEF+1.{n}Gone once eaten.{end}
 
-#id 0467 ptr=03527F box=desc
+#id 0467 ptr=03527F box=desc win=item
 JP: すかっとさわやか すばやさのリンゴ。{n}たべるとユニットのSPDが1ふえます。いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: A zesty Spd Apple.{n}Eat it for SPD+1.{n}Gone once eaten.{end}
 
-#id 0468 ptr=0352B6 box=desc
+#id 0468 ptr=0352B6 box=desc win=item
 JP: これは貴重な ラッキーアップル。{n}たべるとLUCKが10ふえちゃう。{n}いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: A rare LuckyApple.{n}Eat it for LUCK+10.{n}Gone once eaten.{end}
 
-#id 0469 ptr=0352EC box=desc
+#id 0469 ptr=0352EC box=desc win=item
 JP: ちょっとすっぱい ちからのあおリンゴ。たべるとユニットのSTRが3ふえます。いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: A tart PwrGrApple.{n}Eat it for ATK+3.{n}Gone once eaten.{end}
 
-#id 0470 ptr=035323 box=desc
+#id 0470 ptr=035323 box=desc win=item
 JP: かんせつのあおリンゴは ユニットの{n}間接STRを2ふやします。{n}いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: RngGrApple: Ranged{n}ATK+2 when eaten.{n}Gone once eaten.{end}
 
-#id 0471 ptr=035356 box=desc
+#id 0471 ptr=035356 box=desc win=item
 JP: まもりのあおリンゴは めずらしいよ。{n}たべるとユニットのDEFが3ふえます。いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: DefGrApple is rare.{n}Eat it for DEF+3.{n}Gone once eaten.{end}
 
-#id 0472 ptr=03538D box=desc
+#id 0472 ptr=03538D box=desc win=item
 JP: 早熟な すばやさのあおリンゴ。{n}たべるとユニットのSPDが5ふえます。いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: Ripe early! Eat the{n}SpdGrApple: SPD+5.{n}Gone once eaten.{end}
 
-#id 0473 ptr=0353C3 box=desc
+#id 0473 ptr=0353C3 box=desc win=item
 JP: こいつはゴージャス ちからのメロン。{n}たべるとユニットのSTRが5ふえます。いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: Gorgeous Pwr Melon!{n}Eat it for ATK+5.{n}Gone once eaten.{end}
 
-#id 0474 ptr=0353FA box=desc
+#id 0474 ptr=0353FA box=desc win=item
 JP: おなじくゴージャス かんせつのメロン。たべると間接STRが5ふえます。{n}いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: Gorgeous Rng Melon!{n}Ranged ATK +5.{n}Gone once eaten.{end}
 
-#id 0475 ptr=035431 box=desc
+#id 0475 ptr=035431 box=desc win=item
 JP: まもりのメロンは ガイアのめぐみ。{n}たべるとユニットのDEFが5ふえます。いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: Def Melon, a gift{n}of Gaia. DEF+5.{n}Gone once eaten.{end}
 
-#id 0476 ptr=035467 box=desc
+#id 0476 ptr=035467 box=desc win=item
 JP: こいつは貴重だ すばやさのメロン。たべるとユニットのSPDが5ふえます。いちどたべると なくなっちゃうよ{end}
-EN: 
+EN: A rare Spd Melon.{n}Eat it for SPD+5.{n}Gone once eaten.{end}
 
-#id 0477 ptr=03549E box=desc
+#id 0477 ptr=03549E box=desc win=item
 JP: これはすごい マスクメロン ですよ。{n}STR、かんせつSTR、DEF、{n}SPDが それぞれ5成長します{end}
-EN: 
+EN: A great Muskmelon!{n}ATK, Rng ATK, DEF,{n}SPD each grow 5.{end}
 
-#id 0478 ptr=0354D4 box=desc
+#id 0478 ptr=0354D4 box=desc win=item
 JP: これは すごいもの です。{n}会心率とSPDが10あがります{n}秘密のアイテムですよ。{end}
-EN: 
+EN: Something wondrous!{n}Crit rate, SPD +10.{n}A secret item.{end}
 
-#id 0479 ptr=035503 box=desc
+#id 0479 ptr=035503 box=desc win=item
 JP: これは すごすぎるもの です。{n}STR、かんせつSTR、DEF、{n}SPDが それぞれ10成長します{end}
-EN: 
+EN: Way too wondrous!{n}ATK, Rng ATK, DEF,{n}SPD each grow 10.{end}
 
-#id 0480 ptr=035537 box=desc
+#id 0480 ptr=035537 box=desc win=item
 JP: やくそう を つかうと{n}パラライズ、ポイズン、トランスを{n}治療します{end}
-EN: 
+EN: Use an Herb to cure{n}Paralyze, Poison{n}and Trance.{end}
 
-#id 0481 ptr=03555C box=desc
+#id 0481 ptr=03555C box=desc win=item
 JP: おくすり を つかうと{n}パラライズ、ポイズン、トランス、{n}スロウ、ウイークを治療します{end}
-EN: 
+EN: Medicine cures{n}Paralyze, Poison,{n}Trance, Slow, Weak.{end}
 
-#id 0482 ptr=03558A box=desc
+#id 0482 ptr=03558A box=desc win=item
 JP: この万能薬は カース以外の{n}状態異常をすべて治療します出かけるときは 忘れずに{end}
-EN: 
+EN: Panacea cures all{n}ills except Curse.{n}Don't forget it!{end}
 
-#id 0483 ptr=0355BF box=desc
+#id 0483 ptr=0355BF box=desc win=item
 JP: 天使のお守り は ユニットに{n}ふりかかる災いを すべてはらってくれます。こまったときはコレをどうぞ{end}
-EN: 
+EN: AngelCharm wards{n}off every woe. In a{n}pinch, use this!{end}
 
-#id 0484 ptr=0355F5 box=desc
+#id 0484 ptr=0355F5 box=desc win=item
 JP: EXPがいっぱいつまった経験の種これをたべれば、たたかわなくても{n}ユニットのEXPが 99になります{end}
-EN: 
+EN: A seed full of EXP.{n}Eat it and a unit's{n}EXP becomes 99!{end}
 
-#id 0485 ptr=03562B box=desc
+#id 0485 ptr=03562B box=desc win=item
 JP: これは グーのおまもり です。{n}つかうと ユニットのエレメンタルが{n}グーに変化します。{end}
-EN: 
+EN: The Rock Charm. Use{n}it to make a unit's{n}element Rock.{end}
 
-#id 0486 ptr=035659 box=desc
+#id 0486 ptr=035659 box=desc win=item
 JP: これは チョキのおまもり です。{n}つかうと ユニットのエレメンタルが{n}グーに変化します。{end}
-EN: 
+EN: The Scis.Charm. Use{n}it to make a unit's{n}element Scissors.{end}
 
-#id 0487 ptr=035688 box=desc
+#id 0487 ptr=035688 box=desc win=item
 JP: これは パーのおまもり です。{n}つかうと ユニットのエレメンタルが{n}パーに変化します。{end}
-EN: 
+EN: The PaperCharm. Use{n}it to make a unit's{n}element Paper.{end}
 
-#id 0488 ptr=0356B6 box=desc
+#id 0488 ptr=0356B6 box=desc win=item
 JP: これは ちからのドロップ です。{n}つかうとSTRが1ふえます。{n}しばらくすると効果がなくなります{end}
-EN: 
+EN: The Pwr Drop gives{n}ATK+1 when used.{n}Wears off in time.{end}
 
-#id 0489 ptr=0356E9 box=desc
+#id 0489 ptr=0356E9 box=desc win=item
 JP: これは かんせつのドロップ です。{n}つかうと間接STRが1ふえます。{n}しばらくすると効果がなくなります{end}
-EN: 
+EN: The Rng Drop gives{n}Ranged ATK+1.{n}Wears off in time.{end}
 
-#id 0490 ptr=035721 box=desc
+#id 0490 ptr=035721 box=desc win=item
 JP: これは まもりのドロップ です。{n}つかうとDEFが1ふえます。{n}しばらくすると効果がなくなります{end}
-EN: 
+EN: The Def Drop gives{n}DEF+1 when used.{n}Wears off in time.{end}
 
-#id 0491 ptr=035754 box=desc
+#id 0491 ptr=035754 box=desc win=item
 JP: これは すばやさのドロップ です。{n}つかうとSPDが1ふえます。{n}しばらくすると効果がなくなります{end}
-EN: 
+EN: The Spd Drop gives{n}SPD+1 when used.{n}Wears off in time.{end}
 
-#id 0492 ptr=035788 box=desc
+#id 0492 ptr=035788 box=desc win=item
 JP: これは フルーツキャンディ です。{n}つかうと すごいことがおこります。{n}このアイテムはなくなります。{end}
-EN: 
+EN: The FruitCandy. Use{n}it for an amazing{n}effect. One use.{end}
 
-#id 0493 ptr=0357BB box=desc
+#id 0493 ptr=0357BB box=desc win=item
 JP: これは あさひのランプ です。{n}つかうと すごいことがおこります。{n}いちどつかうと なくなります{end}
-EN: 
+EN: The Dawn Lamp. Use{n}it for an amazing{n}effect. One use.{end}
 
-#id 0494 ptr=0357EC box=desc
+#id 0494 ptr=0357EC box=desc win=item
 JP: これは よるのロウソク です。{n}つかうと すごいことがおこります。{n}いちどつかうと なくなります{end}
-EN: 
+EN: The Nightlight. Use{n}it for an amazing{n}effect. One use.{end}
 
-#id 0495 ptr=03581D box=desc
+#id 0495 ptr=03581D box=desc win=item
 JP: これは げんきのもと です。{n}行動終了したユニットを{n}げんきにしてくれます。{end}
-EN: 
+EN: The Pep Pill. It{n}refreshes a unit{n}that already acted.{end}
 
-#id 0496 ptr=035848 box=desc
+#id 0496 ptr=035848 box=desc win=item
 JP: これは マキモノ01 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Scroll 01.{n}A story item.{n}It can't be used.{end}
 
-#id 0497 ptr=035871 box=desc
+#id 0497 ptr=035871 box=desc win=item
 JP: これは マキモノ02 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Scroll 02.{n}A story item.{n}It can't be used.{end}
 
-#id 0498 ptr=03589A box=desc
+#id 0498 ptr=03589A box=desc win=item
 JP: これは マキモノ03 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Scroll 03.{n}A story item.{n}It can't be used.{end}
 
-#id 0499 ptr=0358C3 box=desc
+#id 0499 ptr=0358C3 box=desc win=item
 JP: これは マキモノ04 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Scroll 04.{n}A story item.{n}It can't be used.{end}
 
-#id 0500 ptr=0358EC box=desc
+#id 0500 ptr=0358EC box=desc win=item
 JP: これは マキモノ05 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Scroll 05.{n}A story item.{n}It can't be used.{end}
 
-#id 0501 ptr=035915 box=desc
+#id 0501 ptr=035915 box=desc win=item
 JP: これは マキモノ06 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Scroll 06.{n}A story item.{n}It can't be used.{end}
 
-#id 0502 ptr=03593E box=desc
+#id 0502 ptr=03593E box=desc win=item
 JP: これは マキモノ07 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Scroll 07.{n}A story item.{n}It can't be used.{end}
 
-#id 0503 ptr=035967 box=desc
+#id 0503 ptr=035967 box=desc win=item
 JP: これは マキモノ08 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Scroll 08.{n}A story item.{n}It can't be used.{end}
 
-#id 0504 ptr=035990 box=desc
+#id 0504 ptr=035990 box=desc win=item
 JP: これは クリスタル01 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Crystal 01.{n}A story item.{n}It can't be used.{end}
 
-#id 0505 ptr=0359BA box=desc
+#id 0505 ptr=0359BA box=desc win=item
 JP: これは クリスタル02 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Crystal 02.{n}A story item.{n}It can't be used.{end}
 
-#id 0506 ptr=0359E4 box=desc
+#id 0506 ptr=0359E4 box=desc win=item
 JP: これは クリスタル03 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Crystal 03.{n}A story item.{n}It can't be used.{end}
 
-#id 0507 ptr=035A0E box=desc
+#id 0507 ptr=035A0E box=desc win=item
 JP: これは クリスタル04 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Crystal 04.{n}A story item.{n}It can't be used.{end}
 
-#id 0508 ptr=035A38 box=desc
+#id 0508 ptr=035A38 box=desc win=item
 JP: これは クリスタル05 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Crystal 05.{n}A story item.{n}It can't be used.{end}
 
-#id 0509 ptr=035A62 box=desc
+#id 0509 ptr=035A62 box=desc win=item
 JP: これは クリスタル06 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Crystal 06.{n}A story item.{n}It can't be used.{end}
 
-#id 0510 ptr=035A8C box=desc
+#id 0510 ptr=035A8C box=desc win=item
 JP: これは クリスタル07 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Crystal 07.{n}A story item.{n}It can't be used.{end}
 
-#id 0511 ptr=035AB6 box=desc
+#id 0511 ptr=035AB6 box=desc win=item
 JP: これは クリスタル08 です。{n}ストーリーアイテムです。{n}つかうことは できません{end}
-EN: 
+EN: This is Crystal 08.{n}A story item.{n}It can't be used.{end}
 
-#id 0512 ptr=035AE0 box=desc
+#id 0512 ptr=035AE0 box=desc win=msg
 JP: 問題です 猫の足は何本?{n}{scroll:00}赤のパネル:4本{n}黄のパネル:5本{n}青のパネル:6本{end}
-EN: 
+EN: Quiz! How many legs does a cat have?{n}{scroll:00}Red panel: 4{n}Yellow panel: 5{n}Blue panel: 6{end}
 
-#id 0513 ptr=035B17 box=desc
+#id 0513 ptr=035B17 box=desc win=msg
 JP: おみごと。正解は赤です。簡単でしたね。{end}
-EN: 
+EN: Well done. The answer is red. Easy, huh?{end}
 
-#id 0514 ptr=035B30 box=desc
+#id 0514 ptr=035B30 box=desc win=msg
 JP: ライナークの王様の名前は?{n}{scroll:00}赤のパネル:リチャード3世{n}黄のパネル:ハッピー 3世{n}青のパネル:バーナード3世{end}
-EN: 
+EN: What's the name of Rainark's king?{n}{scroll:00}Red panel: Richard III{n}Yellow panel: Happy III{n}Blue panel: Bernard III{end}
 
-#id 0515 ptr=035B75 box=desc
+#id 0515 ptr=035B75 box=desc win=msg
 JP: おみごと。正解は赤です。{end}
-EN: 
+EN: Well done. The answer is red.{end}
 
-#id 0516 ptr=035B85 box=desc
+#id 0516 ptr=035B85 box=desc win=msg
 JP: ライナークに攻め込んできた黒魔竜の名は?{n}{scroll:00}赤のパネル:ゲザガイン{n}黄のパネル:ブラックドラゴン{n}青のパネル:バンピー{end}
-EN: 
+EN: Name the black dragon that hit Rainark!{n}{scroll:00}Red panel: Gezagain{n}Yellow panel: Black Dragon{n}Blue panel: Bumpy{end}
 
-#id 0517 ptr=035BCC box=desc
+#id 0517 ptr=035BCC box=desc win=msg
 JP: おみごと。正解は赤です。{end}
-EN: 
+EN: Well done. The answer is red.{end}
 
-#id 0518 ptr=035BDC box=desc
+#id 0518 ptr=035BDC box=desc win=msg
 JP: カンガルーのおなかの袋は何に使う?{n}{scroll:00}赤のパネル:子供を入れる{n}黄のパネル:お金を入れる{n}青のパネル:荷物を入れる{end}
-EN: 
+EN: What does a kangaroo use its pouch for?{n}{scroll:00}Red panel: Carrying babies{n}Yellow panel: Holding money{n}Blue panel: Holding luggage{end}
 
-#id 0519 ptr=035C26 box=desc
+#id 0519 ptr=035C26 box=desc win=msg
 JP: おみごと。正解は赤です。あたりまえですね。{end}
-EN: 
+EN: Well done. The answer is red. Obviously!{end}
 
-#id 0520 ptr=035C3F box=desc
+#id 0520 ptr=035C3F box=desc win=msg
 JP: クルクルの森の木はちょっと不思議。どうして?{n}{scroll:00}赤のパネル:クルクル回っている{n}黄のパネル:不思議な匂いがする{n}青のパネル:夜になると色が変わる{end}
-EN: 
+EN: Kurukuru Forest's trees are odd. Why?{n}{scroll:00}Red panel: They spin round and round{n}Yellow panel: They smell strange{n}Blue panel: They change color at night{end}
 
-#id 0521 ptr=035C9A box=desc
+#id 0521 ptr=035C9A box=desc win=msg
 JP: おみごと。正解は赤です。{end}
-EN: 
+EN: Well done. The answer is red.{end}
 
-#id 0522 ptr=035CAA box=desc
+#id 0522 ptr=035CAA box=desc win=msg
 JP: ライナークの王女さま。ライム姫の年齢は?{n}{scroll:00}赤のパネル:16才{n}黄のパネル:17才{n}青のパネル:14才{end}
-EN: 
+EN: How old is Princess Lime of Rainark?{n}{scroll:00}Red panel: 16{n}Yellow panel: 17{n}Blue panel: 14{end}
 
-#id 0523 ptr=035CEB box=desc
+#id 0523 ptr=035CEB box=desc win=msg
 JP: おみごと。正解は赤です。{end}
-EN: 
+EN: Well done. The answer is red.{end}
 
-#id 0524 ptr=035CFB box=desc
+#id 0524 ptr=035CFB box=desc win=msg
 JP: 宗教国家マテドラルで一番偉い人は?{n}{scroll:00}赤のパネル:教王 ハウサー{n}黄のパネル:狂王 ハウサー{n}青のパネル:王様 ハウサー{end}
-EN: 
+EN: Who ranks highest in holy Matedral?{n}{scroll:00}Red panel: Pontiff Hauser{n}Yellow panel: Mad King Hauser{n}Blue panel: King Hauser{end}
 
-#id 0525 ptr=035D4B box=desc
+#id 0525 ptr=035D4B box=desc win=msg
 JP: おみごと。正解は赤です。{end}
-EN: 
+EN: Well done. The answer is red.{end}
 
-#id 0526 ptr=035D5B box=desc
+#id 0526 ptr=035D5B box=desc win=msg
 JP: ラクナマイト大陸の名前の由来は?{n}{scroll:00}赤のパネル:幸運と力{n}黄のパネル:楽な仕事{n}青のパネル:権力と統制{end}
-EN: 
+EN: Where does 'Lucknamight' come from?{n}{scroll:00}Red panel: Luck and might{n}Yellow panel: An easy job{n}Blue panel: Power and control{end}
 
-#id 0527 ptr=035DA4 box=desc
+#id 0527 ptr=035DA4 box=desc win=msg
 JP: おみごと。ラック&マイトなんだって。{end}
-EN: 
+EN: Well done. It's Luck & Might, they say.{end}
 
-#id 0528 ptr=035DB7 box=desc
+#id 0528 ptr=035DB7 box=desc win=msg
 JP: リイムの父の名は?{n}赤のパネル:マイト・ライクバーン{n}黄のパネル:ナイト・ライクバーン{n}青のパネル:リック・ライクバーン{end}
-EN: 
+EN: What's the name of Reem's father?{n}Red panel: Might Likeburn{n}Yellow panel: Knight Likeburn{n}Blue panel: Rick Likeburn{end}
 
-#id 0529 ptr=035DF9 box=desc
+#id 0529 ptr=035DF9 box=desc win=msg
 JP: おみごと。正解は赤です。{end}
-EN: 
+EN: Well done. The answer is red.{end}
 
-#id 0530 ptr=035E09 box=desc
+#id 0530 ptr=035E09 box=desc win=msg
 JP: トンチ問題。次の中でほらふきは誰?{n}赤のパネル:ビッグマウスマン{n}黄のパネル:ペリカンマン{n}青のパネル:ダチョラー{end}
-EN: 
+EN: Trick question! Who's the big talker?{n}{scroll:00}Red panel: Big Mouseman{n}Yellow panel: Pelicanman{n}Blue panel: Ostrich{end}
 
-#id 0531 ptr=035E4B box=desc
+#id 0531 ptr=035E4B box=desc win=msg
 JP: おみごと。大口をたたくんですね。{end}
-EN: 
+EN: Well done. He's got a big mouth!{end}
 
-#id 0532 ptr=035E5E box=desc
+#id 0532 ptr=035E5E box=desc win=msg
 JP: 属性問題。なかまはずれは誰でしょう?{n}{scroll:00}赤のパネル:ゴーレム{n}黄のパネル:ペリカンマン{n}青のパネル:ゴースト{end}
-EN: 
+EN: Type quiz! Which is the odd one out?{n}{scroll:00}Red panel: Golem{n}Yellow panel: Pelicanman{n}Blue panel: Ghost{end}
 
-#id 0533 ptr=035E9F box=desc
+#id 0533 ptr=035E9F box=desc win=msg
 JP: ゴーレムは空を飛べませんね。正解です。{end}
-EN: 
+EN: Golems can't fly, can they? Correct.{end}
 
-#id 0534 ptr=035EB7 box=desc
+#id 0534 ptr=035EB7 box=desc win=msg
 JP: ペリカンマンが口からださないものは?{n}{scroll:00}赤のパネル:サンマ{n}黄のパネル:まんぼー{n}青のパネル:おさかな{end}
-EN: 
+EN: What doesn't Pelicanman spit out?{n}{scroll:00}Red panel: Saury{n}Yellow panel: Sunfish{n}Blue panel: Fish{end}
 
-#id 0535 ptr=035EF1 box=desc
+#id 0535 ptr=035EF1 box=desc win=msg
 JP: おみごと。正解です。でるわけないですよね。{end}
-EN: 
+EN: Well done. Correct. No way it could!{end}
 
-#id 0536 ptr=035F09 box=desc
+#id 0536 ptr=035F09 box=desc win=msg
 JP: シャルルとリルルのペットの名前は?{n}{scroll:00}赤のパネル:ハムス{n}黄のパネル:トッポ{n}青のパネル:チップ{end}
-EN: 
+EN: Name Charles and Lilulu's pet!{n}{scroll:00}Red panel: Hamus{n}Yellow panel: Topo{n}Blue panel: Chip{end}
 
-#id 0537 ptr=035F41 box=desc
+#id 0537 ptr=035F41 box=desc win=msg
 JP: 正解です。リルルが名付けたんだって。{end}
-EN: 
+EN: Correct. Lilulu named it, they say.{end}
 
-#id 0538 ptr=035F58 box=desc
+#id 0538 ptr=035F58 box=desc win=msg
 JP: 僧侶のタムタムはいつも何を持ってる?{n}{scroll:00}赤のパネル:いやしの杖{n}黄のパネル:コハクソード{n}青のパネル:お弁当{end}
-EN: 
+EN: What does priest Tamtam always carry?{n}{scroll:00}Red panel: Healing staff{n}Yellow panel: Amber sword{n}Blue panel: A lunch box{end}
 
-#id 0539 ptr=035F9B box=desc
+#id 0539 ptr=035F9B box=desc win=msg
 JP: おみごと。正解は赤です。{end}
-EN: 
+EN: Well done. The answer is red.{end}
 
-#id 0540 ptr=035FAB box=desc
+#id 0540 ptr=035FAB box=desc win=msg
 JP: コアラマンはなにを食べるの?{n}{scroll:00}赤のパネル:ユーカリの葉{n}黄のパネル:ササの葉{n}青のパネル:たけのこ{end}
-EN: 
+EN: What do Koalamen eat?{n}{scroll:00}Red panel: Eucalyptus leaves{n}Yellow panel: Bamboo leaves{n}Blue panel: Bamboo shoots{end}
 
-#id 0541 ptr=035FE6 box=desc
+#id 0541 ptr=035FE6 box=desc win=msg
 JP: おみごと。正解は赤です。{end}
-EN: 
+EN: Well done. The answer is red.{end}
 
-#id 0542 ptr=035FF6 box=desc
+#id 0542 ptr=035FF6 box=desc win=msg
 JP: ジリジリ砂漠は怖いところです。どうして?{n}{scroll:00}赤のパネル:地雷がうまってる{n}黄のパネル:竜巻がくる{n}青のパネル:迷子になる{end}
-EN: 
+EN: Jirijiri Desert is scary. Why?{n}{scroll:00}Red panel: Mines are buried there{n}Yellow panel: Tornadoes come{n}Blue panel: You get lost{end}
 
-#id 0543 ptr=036041 box=desc
+#id 0543 ptr=036041 box=desc win=msg
 JP: 正解です。地雷はふみたくないですよね。{end}
-EN: 
+EN: Correct. Nobody wants to step on a mine.{end}
 
-#id 0544 ptr=036059 box=desc
+#id 0544 ptr=036059 box=desc win=msg
 JP: ルビーゴーレムってどんな色にみえる?{n}{scroll:00}赤のパネル:白っぽい色{n}黄のパネル:赤っぽい色{n}青のパネル:青っぽい色{end}
-EN: 
+EN: What color does a Ruby Golem look?{n}{scroll:00}Red panel: Whitish{n}Yellow panel: Reddish{n}Blue panel: Bluish{end}
 
-#id 0545 ptr=03609D box=desc
+#id 0545 ptr=03609D box=desc win=msg
 JP: おみごと。ルビー色だから赤ですね。{end}
-EN: 
+EN: Well done. Ruby means red, of course.{end}
 
-#id 0546 ptr=0360B1 box=desc
+#id 0546 ptr=0360B1 box=desc win=msg
 JP: マウスマンが二人で壺に入ったら、{n}ゴーレムになっちゃった。どうして?{n}{scroll:00}赤のパネル:変身しちゃったから{n}黄のパネル:合体しちゃったから{n}青のパネル:引退しちゃったから{end}
-EN: 
+EN: Two Mousemen got in a pot and became{n}a Golem. Why?{n}{scroll:00}Red panel: They transformed{n}Yellow panel: They fused{n}Blue panel: They retired{end}
 
-#id 0547 ptr=036114 box=desc
+#id 0547 ptr=036114 box=desc win=msg
 JP: おみごと。正解です。合体ってふしぎですよね。{end}
-EN: 
+EN: Well done. Correct. Fusion is a mystery!{end}
 
-#id 0548 ptr=03612F box=desc
+#id 0548 ptr=03612F box=desc win=msg
 JP: ゾウのおハナはなぜ長いの?{n}{scroll:00}赤のパネル:大人と子供を区別するため{n}黄のパネル:よくわからないけど、便利だから{n}青のパネル:本当は長くない{end}
-EN: 
+EN: Why is an elephant's trunk so long?{n}{scroll:00}Red panel: To tell adults from kids{n}Yellow panel: Not sure, but it's handy{n}Blue panel: It isn't really long{end}
 
-#id 0549 ptr=036186 box=desc
+#id 0549 ptr=036186 box=desc win=msg
 JP: おみごと。正解です。器用ですよね。{end}
-EN: 
+EN: Well done. Correct. So nimble!{end}
 
-#id 0550 ptr=03619C box=desc
+#id 0550 ptr=03619C box=desc win=msg
 JP: オスのライオンの特徴ってなんだろう?{n}{scroll:00}赤のパネル:しなやかな足{n}黄のパネル:立派なたてがみ{n}青のパネル:あまいマスク{end}
-EN: 
+EN: What marks a male lion?{n}{scroll:00}Red panel: Graceful legs{n}Yellow panel: A splendid mane{n}Blue panel: A handsome face{end}
 
-#id 0551 ptr=0361E2 box=desc
+#id 0551 ptr=0361E2 box=desc win=msg
 JP: おみごと。正解です。めだつよね。{end}
-EN: 
+EN: Well done. Correct. It stands out!{end}
 
-#id 0552 ptr=0361F5 box=desc
+#id 0552 ptr=0361F5 box=desc win=msg
 JP: ネコの瞳は、明るいところではどうなってる?{n}{scroll:00}赤のパネル:まるくなっている{n}黄のパネル:ほそくなっている{n}青のパネル:あかくなっている{end}
-EN: 
+EN: What do a cat's pupils do in bright light?{n}{scroll:00}Red panel: They go round{n}Yellow panel: They go narrow{n}Blue panel: They go red{end}
 
-#id 0553 ptr=036240 box=desc
+#id 0553 ptr=036240 box=desc win=msg
 JP: おみごと。正解です。{end}
-EN: 
+EN: Well done. Correct.{end}
 
-#id 0554 ptr=03624D box=desc
+#id 0554 ptr=03624D box=desc win=msg
 JP: カードマンって、どんなマークつけてたっけ?{n}{scroll:00}赤のパネル:スペード{n}黄のパネル:ハート{n}青のパネル:ダイヤ{end}
-EN: 
+EN: What mark did Cardman wear again?{n}{scroll:00}Red panel: Spade{n}Yellow panel: Heart{n}Blue panel: Diamond{end}
 
-#id 0555 ptr=036288 box=desc
+#id 0555 ptr=036288 box=desc win=msg
 JP: おみごと。正解です。{end}
-EN: 
+EN: Well done. Correct.{end}
 
-#id 0556 ptr=036295 box=desc
+#id 0556 ptr=036295 box=desc win=msg
 JP: リイムの相棒。モーモーのフルネームは?{n}{scroll:00}赤のパネル:モーモー・ダイバクハツ{n}黄のパネル:モーモー・ダイナマイツ{n}青のパネル:モーモー・ダイナマイト{end}
-EN: 
+EN: Full name of Reem's pal Moomoo?{n}{scroll:00}Red panel: Moomoo Kaboom{n}Yellow panel: Moomoo Dynamite{n}Blue panel: Moomoo Dinamite{end}
 
-#id 0557 ptr=0362E7 box=desc
+#id 0557 ptr=0362E7 box=desc win=msg
 JP: おみごと。強そうな名前ですよね。{end}
-EN: 
+EN: Well done. A strong-sounding name, huh?{end}
 
-#id 0558 ptr=0362FB box=desc
+#id 0558 ptr=0362FB box=desc win=msg
 JP: ワニのクロコダイル。この種族はおなかのウロコに{n}珍しい特徴があります。なにが珍しいんでしょう?{n}{scroll:00}赤のパネル:ウロコがすきとおっている{n}黄のパネル:ウロコに穴があいている{n}青のパネル:ウロコがつながっている{end}
-EN: 
+EN: The crocodile's belly scales have a rare{n}feature. What makes them rare?{n}{scroll:00}Red panel: They're see-through{n}Yellow panel: They have holes{n}Blue panel: They're joined together{end}
 
-#id 0559 ptr=03636F box=desc
+#id 0559 ptr=03636F box=desc win=msg
 JP: 正解です。小さい穴がひとつあいているんだよ。{end}
-EN: 
+EN: Correct. Each has one tiny hole.{end}
 
-#id 0560 ptr=03638A box=desc
+#id 0560 ptr=03638A box=desc win=msg
 JP: サイの足には「ひずめ」がいくつ ついているかな?{n}{scroll:00}赤のパネル:2つ{n}黄のパネル:3つ{n}青のパネル:4つ{end}
-EN: 
+EN: How many hooves are on a rhino's foot?{n}{scroll:00}Red panel: 2{n}Yellow panel: 3{n}Blue panel: 4{end}
 
-#id 0561 ptr=0363C5 box=desc
+#id 0561 ptr=0363C5 box=desc win=msg
 JP: 正解です。おおきなひずめがひとつと、その両わきに{n}ちいさなひずめがついているんだよ。{end}
-EN: 
+EN: Correct. One big hoof, with a small one{n}on each side.{end}
 
-#id 0562 ptr=0363F3 box=desc
+#id 0562 ptr=0363F3 box=desc win=msg
 JP: キリンは背高のっぽさん。首と足の他にも{n}長いところがあるんだよ。さて、それはどこ?{n}{scroll:00}赤のパネル:つの{n}黄のパネル:した{n}青のパネル:しっぽ{end}
-EN: 
+EN: Giraffes are tall. Besides the neck and{n}legs, what else of theirs is long?{n}{scroll:00}Red panel: Horns{n}Yellow panel: Tongue{n}Blue panel: Tail{end}
 
-#id 0563 ptr=036445 box=desc
+#id 0563 ptr=036445 box=desc win=msg
 JP: 正解です。長い舌をつかってはっぱを食べるよ。{end}
-EN: 
+EN: Correct. They eat leaves with that long{n}tongue.{end}
 
-#id 0564 ptr=036461 box=desc
+#id 0564 ptr=036461 box=desc win=msg
 JP: ライオンは数頭で群れをつくって暮しています。{n}この群れのことをなんとよぶでしょう?{n}{scroll:00}赤のパネル:サークル{n}黄のパネル:プライド{n}青のパネル:コミューン{end}
-EN: 
+EN: Lions live in groups. What is such a{n}group called?{n}{scroll:00}Red panel: A circle{n}Yellow panel: A pride{n}Blue panel: A commune{end}
 
-#id 0565 ptr=0364B8 box=desc
+#id 0565 ptr=0364B8 box=desc win=msg
 JP: おみごと。正解です。{end}
-EN: 
+EN: Well done. Correct.{end}
 
-#id 0566 ptr=0364C5 box=desc
+#id 0566 ptr=0364C5 box=desc win=msg
 JP: どうしてオオカミは遠ぼえをするの?{n}{scroll:00}赤のパネル:求愛のしるし{n}黄のパネル:仲間と連絡をとるため{n}青のパネル:狩りをはじめる合図{end}
-EN: 
+EN: Why do wolves howl?{n}{scroll:00}Red panel: To court a mate{n}Yellow panel: To keep in touch{n}Blue panel: To signal a hunt{end}
 
-#id 0567 ptr=036515 box=desc
+#id 0567 ptr=036515 box=desc win=msg
 JP: おみごと。正解です。{end}
-EN: 
+EN: Well done. Correct.{end}
 
-#id 0568 ptr=036522 box=desc
+#id 0568 ptr=036522 box=desc win=msg
 JP: 海にすむラッコは、眠るときにある工夫をします。{n}体が流されないようにする その工夫とは?{n}{scroll:00}赤のパネル:むれの仲間と手をつなぐ{n}黄のパネル:海そうを体にまきつける{n}青のパネル:石をたくさんひろってきて重りにする{end}
-EN: 
+EN: Sea otters sleep with a clever trick so{n}they don't drift away. What is it?{n}{scroll:00}Red panel: Holding hands with friends{n}Yellow panel: Wrapping up in seaweed{n}Blue panel: Weighing down with stones{end}
 
-#id 0569 ptr=0365A0 box=desc
+#id 0569 ptr=0365A0 box=desc win=msg
 JP: おみごと。正解です。{n}海そうを船のいかりみたいにしてつかうんだね。{end}
-EN: 
+EN: Well done. Correct.{n}They use seaweed like a ship's anchor.{end}
 
-#id 0570 ptr=0365C6 box=desc
+#id 0570 ptr=0365C6 box=desc win=msg
 JP: よちよち歩きのペンギンさん。{n}ひれ状に変化したつばさのことをなんて呼ぶ?{n}{scroll:00}赤のパネル:フライヤー{n}黄のパネル:フリッパー{n}青のパネル:ブーメラン{end}
-EN: 
+EN: Waddling penguins! What do you call{n}their fin-like wings?{n}{scroll:00}Red panel: Flyers{n}Yellow panel: Flippers{n}Blue panel: Boomerangs{end}
 
-#id 0571 ptr=03661A box=desc
+#id 0571 ptr=03661A box=desc win=msg
 JP: おみごと。このフリッパーを回転させておよぐんだよ。{end}
-EN: 
+EN: Well done. They swim by turning their{n}flippers.{end}
 
-#id 0572 ptr=036636 box=desc
+#id 0572 ptr=036636 box=desc win=msg
 JP: スカルパイレーツは体の一部を武器にして{n}相手を攻撃します。さて、それはどこ?{n}{scroll:00}赤のパネル:うで{n}黄のパネル:あたま{n}青のパネル:あし{end}
-EN: 
+EN: Skull Pirates attack with a part of{n}their body. Which part?{n}{scroll:00}Red panel: Arm{n}Yellow panel: Head{n}Blue panel: Leg{end}
 
-#id 0573 ptr=036688 box=desc
+#id 0573 ptr=036688 box=desc win=msg
 JP: おみごと。正解です。なんかすごいよね。{end}
-EN: 
+EN: Well done. Correct. Pretty wild, huh?{end}
 
-#id 0574 ptr=03669E box=desc
+#id 0574 ptr=03669E box=desc win=msg
 JP: リルルとシャルルは「XX魔法使い」。{n}このXXにあてはまる言葉は?{n}{scroll:00}赤のパネル:精霊{n}黄のパネル:コハク{n}青のパネル:どーぶつ{end}
-EN: 
+EN: Lilulu and Charles are 'XX mages.'{n}What word goes in XX?{n}{scroll:00}Red panel: Spirit{n}Yellow panel: Amber{n}Blue panel: Critter{end}
 
-#id 0575 ptr=0366EB box=desc
+#id 0575 ptr=0366EB box=desc win=msg
 JP: おみごと。正解です。コハクは地面に落ちてるよ。{end}
-EN: 
+EN: Well done. Correct. Amber lies on the{n}ground, you know.{end}
 
-#id 0576 ptr=036708 box=desc
+#id 0576 ptr=036708 box=desc win=msg
 JP: カバさんのおおきなあくびには意味があるんだって。{n}どんな意味があるのかな?{n}{scroll:00}赤のパネル:水にもぐるじゅんび{n}黄のパネル:ゆうこうのしるし{n}青のパネル:いかくしている{end}
-EN: 
+EN: They say a hippo's big yawn means{n}something. What could it mean?{n}{scroll:00}Red panel: Getting ready to dive{n}Yellow panel: A sign of friendship{n}Blue panel: It's a threat{end}
 
-#id 0577 ptr=036766 box=desc
+#id 0577 ptr=036766 box=desc win=msg
 JP: おみごと。正解です。{end}
-EN: 
+EN: Well done. Correct.{end}
 
-#id 0578 ptr=036773 box=desc
+#id 0578 ptr=036773 box=desc win=msg
 JP: ワンちゃん問題。{n}つぎのうち、犬が怒ったときにやらないことはどれ?{n}{scroll:00}赤のパネル:しっぽをたてる{n}黄のパネル:みみをたてる{n}青のパネル:しっぽをふる{end}
-EN: 
+EN: Doggy quiz!{n}What does an angry dog NOT do?{n}{scroll:00}Red panel: Raise its tail{n}Yellow panel: Raise its ears{n}Blue panel: Wag its tail{end}
 
-#id 0579 ptr=0367C7 box=desc
+#id 0579 ptr=0367C7 box=desc win=msg
 JP: 正解です。しっぽをふるのはうれしいからですね。{end}
-EN: 
+EN: Correct. A wagging tail means it's happy.{end}
 
-#id 0580 ptr=0367E1 box=desc
+#id 0580 ptr=0367E1 box=desc win=msg
 JP: ちいさなシマリスは「XXぶくろ」に食べ物を{n}つめて運びます。XXにあてはまる言葉は?{n}{scroll:00}赤のパネル:「しっぽ」{n}黄のパネル:「みみ」{n}青のパネル:「ほお」{end}
-EN: 
+EN: Little chipmunks carry food in their{n}'XX pouches.' What goes in XX?{n}{scroll:00}Red panel: 'Tail'{n}Yellow panel: 'Ear'{n}Blue panel: 'Cheek'{end}
 
-#id 0581 ptr=036839 box=desc
+#id 0581 ptr=036839 box=desc win=msg
 JP: おみごと。正解です。シマリスのほおぶくろには{n}ドングリが2つぐらい入るんだよ。{end}
-EN: 
+EN: Well done. Correct. A chipmunk's cheek{n}pouches hold about 2 acorns.{end}
 
-#id 0582 ptr=036864 box=desc
+#id 0582 ptr=036864 box=desc win=msg
 JP: 砂漠を旅するラクダさん。{n}背中についている大きなコブの中身はなあに?{n}{scroll:00}赤のパネル:酸素がたくわえてある{n}黄のパネル:水がたくわえてある{n}青のパネル:脂肪がたくわえてある{end}
-EN: 
+EN: Camels travel the desert. What's inside{n}the big hump on their back?{n}{scroll:00}Red panel: Stored oxygen{n}Yellow panel: Stored water{n}Blue panel: Stored fat{end}
 
-#id 0583 ptr=0368CC box=desc
+#id 0583 ptr=0368CC box=desc win=msg
 JP: おみごと。正解です。{n}脂肪をエネルギーにかえて旅をするよ。{end}
-EN: 
+EN: Well done. Correct.{n}They turn the fat into energy as they go.{end}
 
-#id 0584 ptr=0368EF box=desc
+#id 0584 ptr=0368EF box=desc win=msg
 JP: 怖い怖～いガイコツ軍団「スカル・ボンバーズ」。{n}2人のリーダーは誰と誰?{n}{scroll:00}赤のパネル:リイムとモーモー{n}黄のパネル:ヴァイスとピーコック{n}青のパネル:蒼月とトランプ{end}
-EN: 
+EN: The scary, scary skeleton gang, the{n}Skull Bombers. Who are its 2 leaders?{n}{scroll:00}Red panel: Reem and Moomoo{n}Yellow panel: Weiss and Peacock{n}Blue panel: Sougetsu and Trump{end}
 
-#id 0585 ptr=036951 box=desc
+#id 0585 ptr=036951 box=desc win=msg
 JP: 正解。トランプのほうが偉そうにしているけど、{n}陰のリーダーは蒼月なんだよ。{end}
-EN: 
+EN: Correct. Trump acts like the boss, but{n}the real leader is Sougetsu.{end}
 
-#id 0586 ptr=03697D box=desc
+#id 0586 ptr=03697D box=desc win=msg
 JP: カバさんのおおきなあくびには意味があるんだって。{n}どんな意味があるのかな?{n}{scroll:00}赤のパネル:水にもぐるじゅんび{n}黄のパネル:ゆうこうのしるし{n}青のパネル:いかくしている{end}
-EN: 
+EN: They say a hippo's big yawn means{n}something. What could it mean?{n}{scroll:00}Red panel: Getting ready to dive{n}Yellow panel: A sign of friendship{n}Blue panel: It's a threat{end}
 
-#id 0587 ptr=0369DB box=desc
+#id 0587 ptr=0369DB box=desc win=msg
 JP: おみごと。正解です。{end}
-EN: 
+EN: Well done. Correct.{end}
 
-#id 0588 ptr=0369E8 box=desc
+#id 0588 ptr=0369E8 box=desc win=msg
 JP: ワンちゃん問題。{n}つぎのうち、犬が怒ったときにやらないことはどれ?{n}{scroll:00}赤のパネル:しっぽをたてる{n}黄のパネル:みみをたてる{n}青のパネル:しっぽをふる{end}
-EN: 
+EN: Doggy quiz!{n}What does an angry dog NOT do?{n}{scroll:00}Red panel: Raise its tail{n}Yellow panel: Raise its ears{n}Blue panel: Wag its tail{end}
 
-#id 0589 ptr=036A3C box=desc
+#id 0589 ptr=036A3C box=desc win=msg
 JP: 正解です。しっぽをふるのはうれしいからですね。{end}
-EN: 
+EN: Correct. A wagging tail means it's happy.{end}
 
-#id 0590 ptr=036A56 box=desc
+#id 0590 ptr=036A56 box=desc win=msg
 JP: ちいさなシマリスは「XXぶくろ」に食べ物を{n}つめて運びます。XXにあてはまる言葉は?{n}{scroll:00}赤のパネル:「しっぽ」{n}黄のパネル:「みみ」{n}青のパネル:「ほお」{end}
-EN: 
+EN: Little chipmunks carry food in their{n}'XX pouches.' What goes in XX?{n}{scroll:00}Red panel: 'Tail'{n}Yellow panel: 'Ear'{n}Blue panel: 'Cheek'{end}
 
-#id 0591 ptr=036AAE box=desc
+#id 0591 ptr=036AAE box=desc win=msg
 JP: おみごと。正解です。シマリスのほおぶくろには{n}ドングリが2つぐらい入るんだよ。{end}
-EN: 
+EN: Well done. Correct. A chipmunk's cheek{n}pouches hold about 2 acorns.{end}
 
-#id 0592 ptr=036AD9 box=desc
+#id 0592 ptr=036AD9 box=desc win=msg
 JP: 砂漠を旅するラクダさん。{n}背中についている大きなコブの中身はなあに?{n}{scroll:00}赤のパネル:酸素がたくわえてある{n}黄のパネル:水がたくわえてある{n}青のパネル:脂肪がたくわえてある{end}
-EN: 
+EN: Camels travel the desert. What's inside{n}the big hump on their back?{n}{scroll:00}Red panel: Stored oxygen{n}Yellow panel: Stored water{n}Blue panel: Stored fat{end}
 
-#id 0593 ptr=036B41 box=desc
+#id 0593 ptr=036B41 box=desc win=msg
 JP: おみごと。正解です。{n}脂肪をエネルギーにかえて旅をするよ。{end}
-EN: 
+EN: Well done. Correct.{n}They turn the fat into energy as they go.{end}
 
-#id 0594 ptr=036B64 box=desc
+#id 0594 ptr=036B64 box=desc win=msg
 JP: 怖い怖～いガイコツ軍団「スカル・ボンバーズ」。{n}2人のリーダーは誰と誰?{n}{scroll:00}赤のパネル:リイムとモーモー{n}黄のパネル:ヴァイスとピーコック{n}青のパネル:蒼月とトランプ{end}
-EN: 
+EN: The scary, scary skeleton gang, the{n}Skull Bombers. Who are its 2 leaders?{n}{scroll:00}Red panel: Reem and Moomoo{n}Yellow panel: Weiss and Peacock{n}Blue panel: Sougetsu and Trump{end}
 
-#id 0595 ptr=036BC6 box=desc
+#id 0595 ptr=036BC6 box=desc win=msg
 JP: 正解。トランプのほうが偉そうにしているけど、{n}陰のリーダーは蒼月なんだよ。{end}
-EN: 
+EN: Correct. Trump acts like the boss, but{n}the real leader is Sougetsu.{end}
 
-#id 0596 ptr=036BF2 box=desc
+#id 0596 ptr=036BF2 box=desc win=msg
 JP: カバさんのおおきなあくびには意味があるんだって。{n}どんな意味があるのかな?{n}{scroll:00}赤のパネル:水にもぐるじゅんび{n}黄のパネル:ゆうこうのしるし{n}青のパネル:いかくしている{end}
-EN: 
+EN: They say a hippo's big yawn means{n}something. What could it mean?{n}{scroll:00}Red panel: Getting ready to dive{n}Yellow panel: A sign of friendship{n}Blue panel: It's a threat{end}
 
-#id 0597 ptr=036C50 box=desc
+#id 0597 ptr=036C50 box=desc win=msg
 JP: おみごと。正解です。{end}
-EN: 
+EN: Well done. Correct.{end}
 
-#id 0598 ptr=036C5D box=desc
+#id 0598 ptr=036C5D box=desc win=msg
 JP: ワンちゃん問題。{n}つぎのうち、犬が怒ったときにやらないことはどれ?{n}{scroll:00}赤のパネル:しっぽをたてる{n}黄のパネル:みみをたてる{n}青のパネル:しっぽをふる{end}
-EN: 
+EN: Doggy quiz!{n}What does an angry dog NOT do?{n}{scroll:00}Red panel: Raise its tail{n}Yellow panel: Raise its ears{n}Blue panel: Wag its tail{end}
 
-#id 0599 ptr=036CB1 box=desc
+#id 0599 ptr=036CB1 box=desc win=msg
 JP: 正解です。しっぽをふるのはうれしいからですね。{end}
-EN: 
+EN: Correct. A wagging tail means it's happy.{end}
 
-#id 0600 ptr=036CCB box=desc
+#id 0600 ptr=036CCB box=desc win=msg
 JP: ちいさなシマリスは「XXぶくろ」に食べ物を{n}つめて運びます。XXにあてはまる言葉は?{n}{scroll:00}赤のパネル:「しっぽ」{n}黄のパネル:「みみ」{n}青のパネル:「ほお」{end}
-EN: 
+EN: Little chipmunks carry food in their{n}'XX pouches.' What goes in XX?{n}{scroll:00}Red panel: 'Tail'{n}Yellow panel: 'Ear'{n}Blue panel: 'Cheek'{end}
 
-#id 0601 ptr=036D23 box=desc
+#id 0601 ptr=036D23 box=desc win=msg
 JP: おみごと。正解です。シマリスのほおぶくろには{n}ドングリが2つぐらい入るんだよ。{end}
-EN: 
+EN: Well done. Correct. A chipmunk's cheek{n}pouches hold about 2 acorns.{end}
 
-#id 0602 ptr=036D4E box=desc
+#id 0602 ptr=036D4E box=desc win=msg
 JP: 砂漠を旅するラクダさん。{n}背中についている大きなコブの中身はなあに?{n}{scroll:00}赤のパネル:酸素がたくわえてある{n}黄のパネル:水がたくわえてある{n}青のパネル:脂肪がたくわえてある{end}
-EN: 
+EN: Camels travel the desert. What's inside{n}the big hump on their back?{n}{scroll:00}Red panel: Stored oxygen{n}Yellow panel: Stored water{n}Blue panel: Stored fat{end}
 
-#id 0603 ptr=036DB6 box=desc
+#id 0603 ptr=036DB6 box=desc win=msg
 JP: おみごと。正解です。{n}脂肪をエネルギーにかえて旅をするよ。{end}
-EN: 
+EN: Well done. Correct.{n}They turn the fat into energy as they go.{end}
 
-#id 0604 ptr=036DD9 box=desc
+#id 0604 ptr=036DD9 box=desc win=msg
 JP: 怖い怖～いガイコツ軍団「スカル・ボンバーズ」。{n}2人のリーダーは誰と誰?{n}{scroll:00}赤のパネル:リイムとモーモー{n}黄のパネル:ヴァイスとピーコック{n}青のパネル:蒼月とトランプ{end}
-EN: 
+EN: The scary, scary skeleton gang, the{n}Skull Bombers. Who are its 2 leaders?{n}{scroll:00}Red panel: Reem and Moomoo{n}Yellow panel: Weiss and Peacock{n}Blue panel: Sougetsu and Trump{end}
 
-#id 0605 ptr=036E3B box=desc
+#id 0605 ptr=036E3B box=desc win=msg
 JP: 正解。トランプのほうが偉そうにしているけど、{n}陰のリーダーは蒼月なんだよ。{end}
-EN: 
+EN: Correct. Trump acts like the boss, but{n}the real leader is Sougetsu.{end}
 
-#id 0606 ptr=036E67 box=desc
+#id 0606 ptr=036E67 box=desc win=msg
 JP: カバさんのおおきなあくびには意味があるんだって。{n}どんな意味があるのかな?{n}{scroll:00}赤のパネル:水にもぐるじゅんび{n}黄のパネル:ゆうこうのしるし{n}青のパネル:いかくしている{end}
-EN: 
+EN: They say a hippo's big yawn means{n}something. What could it mean?{n}{scroll:00}Red panel: Getting ready to dive{n}Yellow panel: A sign of friendship{n}Blue panel: It's a threat{end}
 
-#id 0607 ptr=036EC5 box=desc
+#id 0607 ptr=036EC5 box=desc win=msg
 JP: おみごと。正解です。{end}
-EN: 
+EN: Well done. Correct.{end}
