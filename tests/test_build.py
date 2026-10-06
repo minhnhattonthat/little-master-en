@@ -46,7 +46,7 @@ def test_bad_en_char_names_block_and_entry(tmp_path, monkeypatch):
 
     def fake_parse(text):
         es = real_parse(text)
-        if es and es[0].meta.get("box") == "dialog" and not es[0].en:
+        if es and es[0].meta.get("box") == "dialog":
             es[0].en = "Hi あ{end}"
         return es
 
