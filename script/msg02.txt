@@ -556,11 +556,11 @@ EN: {p7F:09}You have no items.{scroll:00}{end}
 
 #id 0139 ptr=0148A1 box=sysmsg slack=3
 JP: {p10:16} 行動終了です。{p10:18}全ての行動を終了し{p10:1A}て敵にターンをゆずります{end}
-EN: {p10:16} End Turn{p10:18}End all moves{p10:1A}and pass turn.{end}
+EN: {p10:16} End Turn{p10:18}End all moves{p10:1A}and pass turn{end}
 
 #id 0140 ptr=0148D2 box=sysmsg slack=7
 JP: {p10:16} アイテムの使用{p10:18}持っている アイテムを{p10:1A}使用します{end}
-EN: {p10:16} Use Item{p10:18}Use an item{p10:1A}you're holding{end}
+EN: {p10:16} Use Item{p10:18}Use an item{p10:1A}you have.{end}
 
 #id 0141 ptr=0148F9 box=sysmsg slack=3
 JP: {p10:16} ユニットの詳しい説明{p10:18}を呼びだします。ユニットを{p10:1A}カーソルで選んでください{end}
@@ -572,7 +572,7 @@ EN: {p10:16} Quit Game{p10:18}Save and go to{p10:1A}title screen.{end}
 
 #id 0143 ptr=01495A box=sysmsg slack=3
 JP: {c80:00}{c81:6A0E00}{jF0:98C902}{p10:16} 魔法を使用します。{p10:18}カーソルをユニットにあわ{p10:1A}せてAボタンで決定です{end}
-EN: {c80:00}{c81:6A0E00}{jF0:98C902}{p10:16} Cast Magic{p10:18}Aim at a unit,{p10:1A}press A.{end}
+EN: {c80:00}{c81:6A0E00}{jF0:98C902}{p10:16} Cast Magic{p10:18}Aim at a unit{p10:1A}and press A.{end}
 
 #id 0144 ptr=014998 box=sysmsg slack=3
 JP: {p10:16} 敵を攻撃します。{p10:18}カーソルを敵ユニットにあわ{p10:1A}せてAボタンで決定です{end}
@@ -588,7 +588,7 @@ EN: {p10:16} End Move{p10:18}If on a house,{p10:1A}you visit it.{end}
 
 #id 0147 ptr=014A2C box=sysmsg slack=8
 JP: {p10:16} 地面を捜索します。{p10:18}HPを ちょっぴり消費{p10:1A}しちゃいます{end}
-EN: {p10:16} Search{p10:18}Search ground.{p10:1A}Costs some HP.{end}
+EN: {p10:16} Search{p10:18}Search ground{p10:1A}Uses some HP.{end}
 
 #id 0148 ptr=014A57 box=sysmsg slack=3
 JP: {p10:16} コンフィグ設定{p10:18}設定を変更したいとき{p10:1A}に使用します{end}
@@ -596,15 +596,15 @@ EN: {p10:16} Config{p10:18}Change game{p10:1A}settings.{end}
 
 #id 0149 ptr=014A81 box=sysmsg slack=7
 JP: {p10:16} キャッスル{p10:18}リイムがライナーク城に{p10:1A}移動します{end}
-EN: {p10:16} Castle{p10:18}Reem heads to{p10:1A}Castle Rainark{end}
+EN: {p10:16} Castle{p10:18}Reem returns{p10:1A}to Rainark.{end}
 
 #id 0150 ptr=014AA4 box=sysmsg slack=7
 JP: {p10:16} アイテム表示{p10:18}持っているアイテムを{p10:1A}表示します{end}
-EN: {p10:16} Items{p10:18}Show items{p10:1A}you're holding{end}
+EN: {p10:16} Items{p10:18}Show items{p10:1A}you have.{end}
 
 #id 0151 ptr=014AC9 box=sysmsg slack=4
 JP: {p10:16} リターン{p10:18}城に移動する前の{p10:1A}場所へ戻ります{end}
-EN: {p10:16} Return{p10:18}Go back to{p10:1A}where you were{end}
+EN: {p10:16} Return{p10:18}Return to the{p10:1A}previous spot{end}
 
 #id 0152 ptr=014AEE box=sysmsg slack=3
 JP: {p10:16} ゲームの中断です。{p10:18}現状をセーブしてタイトル{p10:1A}画面にもどります{end}
@@ -622,7 +622,7 @@ EN: {p0D:18}{c80:00}{c81:020E00}{jF0:67CB02}Lite{goto:6ACB02}
 JP: フル 
 EN: Full
 
-#id 0156 ptr=014B6A box=sysmsg slack=2 repos=1
+#id 0156 ptr=014B6A box=sysmsg slack=2 repos=1 wrap=30
 JP: {p19:18}{c80:00}{c81:030E00}{jF0:83CB02}ステレオ{goto:87CB02}
 EN: {p18:18}{c80:00}{c81:030E00}{jF0:83CB02}Stereo{goto:87CB02}
 
@@ -840,7 +840,7 @@ EN:
 
 #id 0210 ptr=0153B3 box=sysmsg slack=8
 JP: {p02:16}{c94:1B20}{p02:18}{c94:1B20}{p02:16}{c80:00}コハクつかい、{c81:240000}{c82:12}{c88:124BD202}の{n}魔法がパワーアップしました。{scroll:00}{end}
-EN: {p02:16}{c94:1B20}{p02:18}{c94:1B20}{p02:16}{c80:00}Used amber!{n}{c81:240000}{c82:12}{c88:124BD202} powered up!{scroll:00}{end}
+EN: {p02:16}{c94:1B20}{p02:18}{c94:1B20}{p02:16}{c80:00}Used amber! Powered up:{n}{c81:240000}{c82:12}{c88:124BD202}{scroll:00}{end}
 
 #id 0211 ptr=0153F2 box=sysmsg
 JP: {p02:18}{goto:FDD302}
@@ -1146,7 +1146,7 @@ EN: {p0D:18}{c80:00}{c81:000E00}{jF0:9FE302}Fast{goto:A2E302}
 JP: おそい
 EN: Slow
 
-#id 0287 ptr=0163A2 box=sysmsg slack=2 repos=1
+#id 0287 ptr=0163A2 box=sysmsg slack=2 repos=1 wrap=30
 JP: {p19:18}{c80:00}{c81:030E00}{jF0:BBE302}ステレオ{goto:BFE302}
 EN: {p18:18}{c80:00}{c81:030E00}{jF0:BBE302}Stereo{goto:BFE302}
 

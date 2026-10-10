@@ -12,9 +12,7 @@ TITLE_IDS = range(8, 15)          # seven 8 KB pieces -> VRAM $0000-$DFFF (BG1 8
 @pytest.fixture(scope="module")
 def title_vram(tmp_path_factory):
     out = tmp_path_factory.mktemp("title")
-    hdr = 'INPUTS = {[70] = "start", [80] = "start", [90] = "start"}\nAT = 200\nNAME = "title"\n'
-    Path("test/lua/_cg.lua").write_text(hdr + Path("test/lua/vram_dump.lua").read_text())
-    assert mesen.run(rom.BASE, "_cg.lua", out) == 0
+    assert mesen.run(rom.BASE, "title_dump.lua", out) == 0
     return (out / "title.vram").read_bytes()
 
 

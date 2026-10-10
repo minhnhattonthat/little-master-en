@@ -431,3 +431,93 @@ end, emu.eventType.endFrame)
     rows = sorted({int(r) for r in res.split()})
     assert sum(w[c] for c in line) > LINE_PX - 4, sum(w[c] for c in line)
     assert {24, 26} <= set(rows), rows       # window rows 24-27: the long line on 24, 'B' on 26 (no blank line, no scroll)
+
+
+def test_flush_keeps_tiles_pending_while_nmi_skips_commands(tmp_path):
+    # M6 carry-over C1: with $10 == 2 the wait at $00:E3BE returns at once and the NMI skips the $57 dispatch, so a
+    # $FE request would stay pending and the game's own INC $57 would turn it into $FF (a different upload).
+    sfc = build.build(tmp_path / "b", "en")
+    sym = {l.split()[1]: int(l.split()[0].replace(":", ""), 16)
+           for l in (tmp_path / "b" / "lm_en.sym").read_text().splitlines() if l[:2] == "C0" and len(l.split()) == 2}
+    flush, rets = sym["vwf_flush"], [sym["vwf_c20e"] + 3, sym["vwf_eccc"] + 3]
+    res = run(sfc, "ordinary_field_message", f'''
+local forced, saved, result = false, 0, "no dirty flush"
+emu.addMemoryCallback(function()
+  if forced or not loaded or emu.read(0x7FFF18, emu.memType.snesMemory) == 0 then return end
+  forced = true; saved = emu.read(0x10, emu.memType.snesWorkRam); emu.write(0x10, 2, emu.memType.snesWorkRam)
+end, emu.callbackType.exec, {flush}, {flush}, emu.cpuType.snes, emu.memType.snesMemory)
+for _, r in ipairs({{{rets[0]}, {rets[1]}}}) do
+  emu.addMemoryCallback(function()
+    if forced and result == "no dirty flush" then
+      result = string.format("57=%02X dirty=%d", emu.read(0x57, emu.memType.snesWorkRam), emu.read(0x7FFF18, emu.memType.snesMemory))
+      emu.write(0x10, saved, emu.memType.snesWorkRam)
+    end
+  end, emu.callbackType.exec, r, r, emu.cpuType.snes, emu.memType.snesMemory)
+end
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 200 then local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(result); f:close(); emu.stop(0) end
+end, emu.eventType.endFrame)
+''', tmp_path / "o")
+    assert res.startswith("57="), res
+    assert not res.startswith("57=FE") and "dirty=0" not in res, res
+
+
+def test_vwf_glyph_after_ui_glyph_keeps_the_ui_cell(tmp_path, monkeypatch):
+    # M6 carry-over C2: a D0 (kanji/UI) glyph bypasses vwf_dispatch, so !partial from the preceding VWF cell survived
+    # and the next VWF glyph stepped back onto the D0 glyph's right half.
+    inject_peacock(monkeypatch, lambda en: en.replace("Peacock", "Pea{uiE8}cock"))
+    sfc = build.build(tmp_path / "b", "en")
+    res = run(sfc, "ordinary_field_message", '''
+local cell, before = nil, nil
+emu.addMemoryCallback(function()
+  if not loaded or cell then return end
+  local ptr = emu.read16(0x14, emu.memType.snesWorkRam) | (emu.read(0x16, emu.memType.snesWorkRam) << 16)
+  -- render buffer: D0 <kanji slot> <next char>; ours is the one followed by the 'c' of "cock"
+  if emu.read(ptr + 1, emu.memType.snesMemory) == 0x63 then cell = 0x9000 + emu.getState()["cpu.x"] + 2 end
+end, emu.callbackType.exec, 0x00BEBB, 0x00BEBB, emu.cpuType.snes, emu.memType.snesMemory)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if cell and before == nil then before = emu.read16(cell, emu.memType.snesWorkRam) end
+  if frame == 300 then
+    local now = cell and emu.read16(cell, emu.memType.snesWorkRam) or -1
+    local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(string.format("%d %d", before or -1, now)); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''', tmp_path / "o")
+    before, now = map(int, res.split())
+    assert before >= 0, "no D0 glyph drawn"
+    assert now == before, f"D0 glyph right half {before:04X} overwritten by {now:04X}"
+
+
+def test_window_clear_keeps_label_tiles_when_no_slots_are_reserved(tmp_path):
+    # Playtest bug_black_info_header (B2): a window clear with $0A1A == $0A18 == 0 blanked the whole VWF buffer from tile 0,
+    # wiping the "Information" label glyphs still shown in the panel header (black bar).
+    sfc = build.build(tmp_path / "b", "en")
+    sym = {l.split()[1]: int(l.split()[0].replace(":", ""), 16)
+           for l in (tmp_path / "b" / "lm_en.sym").read_text().splitlines() if l[:2] == "C0" and len(l.split()) == 2}
+    clear = sym["vwf_clear"]
+    res = run(sfc, "terrain_info", f'''
+local snap, saved, saved18, result = nil, 0, 0, "no clear"
+local function tiles() local t = {{}}; for a = 0x7FB000, 0x7FB05F do t[#t + 1] = emu.read(a, emu.memType.snesMemory) end; return table.concat(t, ",") end
+emu.addMemoryCallback(function()
+  if not loaded or snap then return end
+  saved, saved18 = emu.read16(0x0A1A, emu.memType.snesWorkRam), emu.read16(0x0A18, emu.memType.snesWorkRam)
+  emu.write16(0x0A1A, 0, emu.memType.snesWorkRam); emu.write16(0x0A18, 0, emu.memType.snesWorkRam); snap = tiles()
+end, emu.callbackType.exec, {clear}, {clear}, emu.cpuType.snes, emu.memType.snesMemory)
+emu.addMemoryCallback(function()
+  if snap and result == "no clear" then
+    result = (tiles() == snap) and "kept" or "changed"
+    if string.find(snap, "^[0,]*$") then result = "blank before" end
+    emu.write16(0x0A1A, saved, emu.memType.snesWorkRam); emu.write16(0x0A18, saved18, emu.memType.snesWorkRam)
+  end
+end, emu.callbackType.exec, 0x01ECEA, 0x01ECEA, emu.cpuType.snes, emu.memType.snesMemory)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 300 then local f = io.open(OUT_DIR .. "/rt.txt", "w"); f:write(result); f:close(); emu.stop(0) end
+end, emu.eventType.endFrame)
+''', tmp_path / "o")
+    assert res == "kept", res

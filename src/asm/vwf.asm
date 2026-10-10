@@ -31,11 +31,19 @@
 !width  = $7FFF1E         ; cells per line slot
 !col0   = $7FFF20         ; cursor column of the current line's first glyph
 !slot0  = $7FFF22         ; first tile index (0-127) of the current line slot
+!dlo    = $7FFF26         ; dirty byte range in !slots since the last upload: [!dlo, !dhi)
+!dhi    = $7FFF28
+!upofs  = $7FFF2A         ; range for the NMI $FE upload (vwf_nmi_upload); !uplen 0 = whole buffer
+!uplen  = $7FFF2C
 !slots  = $7FB000         ; 128 x 16-byte tiles -> VRAM $6C00 (BG tiles $180-$1FF)
 
 org $00BE43               ; renderer message start; was: STZ $0A10 / STZ $0A06
     JML vwf_start
     NOP : NOP
+
+org $00BE6B               ; renderer D0 (kanji/UI glyph) check; was: CMP #$00D0 / BEQ $BEBB
+    JML vwf_d0
+    NOP
 
 org $00BE70               ; renderer char path; was: CMP #$00CE / BEQ $BE4F
     JML vwf_dispatch
@@ -51,6 +59,9 @@ org $00BF94               ; cursor set {pXX:YY}, row part (both the column and t
 org $01ECE5               ; window clear; was: REP #$20 / LDA #$2000
     JML vwf_clear
     NOP
+
+org $00D927               ; NMI $57=$FE upload of $7F:B000 (fixed 2 KB); was: LDA #$80 / STA $2115
+    JML vwf_nmi_upload    ; returns to $D951 (STZ $57 / RTS)
 
 org $00C20E               ; tilemap upload request; was: PHP / SEP #$20 / INC $57
     JML vwf_c20e
@@ -118,6 +129,12 @@ vwf_clearslot:            ; blank the !width tiles of the current slot
     RTS
 
 ; ---------------------------------------------------------------- char path
+vwf_d0:                   ; a D0 glyph takes the (fresh) cursor cell: drop !partial so the next VWF glyph
+    CMP #$00D0 : BNE +        ; doesn't step back onto its right half (M6 C2)
+    PHA : LDA #$0000 : STA.l !partial : STA.l !px : PLA
+    JML $00BEBB
++   JML $00BE70
+
 vwf_dispatch:             ; renderer: A = char (16-bit), X = tilemap offset (16-bit)
     CMP #$00CE : BNE + : JML $00BE4F            ; replayed: no-op char
 +   PHA
@@ -196,7 +213,7 @@ vwf_draw:                 ; A = char; draws glyph at (!line, $09FC, !px); advanc
     LDA.l !px : BEQ +                            ; partly filled cell: park the cursor on the next one so
     INX : INX : INC $09FC                        ; fixed-font output (prompt arrow, numbers) gets a fresh cell
     LDA #$0001 : STA.l !partial
-+   LDA #$0001 : STA.l !dirty                   ; uploaded by vwf_c20e before the next tilemap upload
++   JSR vwf_mark                                ; uploaded by vwf_c20e before the next tilemap upload
     RTS
 
 vwf_c20e:                 ; game asks for a tilemap upload: send dirty VWF tiles first ($57 = one command per frame)
@@ -218,13 +235,51 @@ vwf_flush:                ; if !slots changed: NMI upload !slots -> VRAM $6C00 (
     REP #$20
     PHA
     LDA.l !dirty : BEQ +
+    SEP #$20 : LDA $10 : CMP #$02 : REP #$20 : BEQ +   ; $10 == 2: no NMI wait/$57 dispatch; keep !dirty
     LDA #$0000 : STA.l !dirty
+    LDA.l !dhi : CMP #$0801 : BCS .full          ; only the touched slots: the map scroll ($01:F3A0) uses
+    LDA.l !dlo : CMP.l !dhi : BCS .full          ; $7F:B000 as scratch, so other tiles may be trashed (B2)
+    STA.l !upofs
+    LDA.l !dhi : SEC : SBC.l !dlo : STA.l !uplen : BRA .req
+.full:
+    LDA #$0000 : STA.l !uplen
+.req:
+    LDA #$0800 : STA.l !dlo : LDA #$0000 : STA.l !dhi
     LDA #$6C00 : STA $78
     SEP #$20 : LDA #$FE : STA $57 : REP #$20
     JSL $00E3BE
 +   PLA
     PLP
     RTS
+
+vwf_mark:                 ; !dirty, and widen [!dlo, !dhi) to the current slot (16-bit A)
+    LDA.l !slot0 : ASL : ASL : ASL : ASL
+    CMP.l !dlo : BCS + : STA.l !dlo
++   LDA.l !slot0 : CLC : ADC.l !width : ASL : ASL : ASL : ASL
+    CMP.l !dhi : BCC + : STA.l !dhi
++   LDA #$0001 : STA.l !dirty
+    RTS
+
+vwf_nmi_upload:           ; NMI, A 8-bit / X 16-bit: DMA ch1 $7F:B000+!upofs (!uplen bytes; 0 = all 2 KB) -> VRAM $78
+    LDA #$80 : STA $2115
+    REP #$20
+    LDA.l !uplen : BEQ .all
+    STA $4315
+    LDA.l !upofs : CLC : ADC #$B000 : STA $4312
+    LDA.l !upofs : LSR : CLC : ADC $78 : STA $2116
+    LDA #$0000 : STA.l !uplen
+    BRA .go
+.all:
+    LDA $78 : STA $2116
+    LDA #$B000 : STA $4312
+    LDA #$0800 : STA $4315
+.go:
+    SEP #$20
+    LDA #$01 : STA $4310
+    LDA #$18 : STA $4311
+    LDA #$7F : STA $4314
+    LDA #$02 : STA $420B
+    JML $00D951
 
 ; ---------------------------------------------------------------- newline / cursor / clear
 vwf_newline:
@@ -249,12 +304,8 @@ vwf_clear:
     LDA #$0000 : STA.l !px : STA.l !partial
     LDA #$FFFF : STA.l !line                     ; the first glyph after a clear takes slot 0 (the top one)
     LDA #$0001 : STA.l !needslot
-    LDA $0A1C : BNE +                            ; menu mode: !slots is not ours
-    LDA.l !base : ASL : ASL : ASL : ASL : TAX    ; clear from the first VWF tile to the end
-    LDA $6F                                      ; blank tile = paper (inversion mask)
--   CPX #$0800 : BCS +
-    STA.l !slots,x : INX : INX : BRA -
-+   PLX : PLP
+    PLX : PLP                                    ; no bulk blanking: each slot is cleared when a line takes it
+                                                 ; (vwf_clearslot), and label glyphs below a stale !base stay (B2)
     REP #$20                                     ; replayed
     LDA #$2000
     JML $01ECEA
