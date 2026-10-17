@@ -4,17 +4,21 @@
     "PYTHONIOENCODING": "utf-8",
     "PYTHONPATH": "H:/translation/little-master"
   },
-  "hooks": {
-    "PreToolUse": [
-      {
-        "matcher": "Bash",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "python H:/translation/.claude/skills/translate-retro-game/scripts/hooks/guard_bash.py"
-          }
-        ]
-      }
+  "permissions": {
+    "deny": [
+      "WebFetch(domain:tcrf.net)"
     ]
+  },
+  "extraKnownMarketplaces": {
+    "retro-translation": {
+      "source": {
+        "source": "github",
+        "repo": "minhnhattonthat/translate-retro-game"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "translate-retro-game@retro-translation": true
   }
 }
