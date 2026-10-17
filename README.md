@@ -11,3 +11,9 @@ This repo holds the source only: no ROM data. Everything is built from the origi
 - Notes: `docs/` (reverse engineering, style, playtest log), `glossary.md` (names).
 
 Credits: minhnhattonthat, with Claude (Anthropic). Original game (c) 1995 Tokuma Shoten Intermedia / Zener Works.
+
+## Support
+
+If you enjoy this translation, you can support my work on Ko-fi:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/minhnhattonthat)
