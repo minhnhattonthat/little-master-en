@@ -4,6 +4,9 @@ Fan translation of *Little Master: Nijiiro no Maseki* (Little Master: Jewels of 
 
 **Play it:** download `LittleMaster_EN_v1.0.zip` from [Releases](../../releases), and apply the `.bps` to your own Japanese ROM (CRC32 `B916334C`, 2 MB, no header). Patched ROM CRC32 `85B10100`.
 
+**Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
+helps most.
+
 This repo holds the source only: no ROM data. Everything is built from the original ROM you supply.
 
 - Full script translation (19 blocks, 3723 entries), variable-width font, relocated text, translated title subtitle.

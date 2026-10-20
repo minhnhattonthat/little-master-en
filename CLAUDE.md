@@ -24,6 +24,7 @@ Skill: translate-retro-game (H:/translation/.claude/skills/translate-retro-game/
 - Names exactly as in `glossary.md`. Western order (Reem Likeburn). Honorifics dropped (プーちゃん -> Poo). Credits language: not recorded, ask.
 - 勇者軍 "the Heroes", 魔物軍 "the Monsters", カラード "Calard" (not "Colored"), Jasvan (map art JUSVAN left as drawn).
 - Full names, no abbreviations; prefer engine work (VWF, wider box, relocation) to cutting meaning.
+- Player bug reports: GitHub issues (`gh issue list --label bug`). Copy the attached save into `work/states/`, reproduce in the emulator, fix, commit with `Fixes #N`, and update the Status section.
 
 ## Gotchas
 - Copied names stop at a space or 00: write `Skull_Pirate` (drawn as a space). Byte limits: unit 8, weapon/armor/accessory 10, monster 11.
