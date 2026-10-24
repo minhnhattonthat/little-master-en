@@ -16,13 +16,12 @@ Message ID = 16-bit: high byte = table number, low byte = entry. `$01:EE4A` read
 | 5 | `030000` | `$06` | 256 | `msg06` |
 | 6-10 | `1B0800`, `1B0A00`, `1B0C00`, `1B0E00`, `1B1000` | `$36` | 53 each | `msg36`: five variant tables over one shared pool (`1B1200-1B1758`) |
 | 11 | `111F59` | `$22` | 72 | `msg22`: place names, indexed by `$7E:EA82`; 60-63 are raw `003C-003F` (copied as is), 64-71 castle rooms/shops |
-| 12 | `111FE9` | `$22` | 17 | `msg22` |
+| 12 | `111FE9` | `$22` | 27 | `msg22`: 0-16 spell texts, 17-19 raw `0011-0013` (copied as is), 20-26 status-ailment messages (`0C14`-`0C1A`, "Caution" window) |
 | 13 | `030400` | `$06` | 128 | `msg06` |
 | 14 | `030600` | `$06` | 256 | `msg06` (shares 1 string with #1) |
 | 15 | `030800` | `$06` | 96 | `msg06` |
 | 18 | `1B8000` | `$37` | 256 | `msg37` |
 | 19 | `1B8200` | `$37` | 232 | `msg37` (232 = up to the first string at `1B83D0`) |
-| – | `112011` | `$22` | 7 | `msg22`: status-ailment messages (not in the table list; referenced from code) |
 
 Counts stop where the next table or the pool's first string begins.
 

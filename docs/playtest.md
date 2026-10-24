@@ -38,7 +38,7 @@ Status starts as `open`. When it's fixed, the row gets the test name and the com
 | C4 | script | wording polish: msg36 #445 #482 #231 #574 #270/#548/#606 #391 #612; ev0A #193 #301 #287; ev22 #62 (M4 review; ev0A #287 kept, no room) | | fixed | test_repository_is_lint_clean | 956a553 |
 | C5 | unknown screen | `09DB16` speech-bubble graphic not yet seen (M5) | | open | | |
 | #1a | world map, castle rooms/shops ("Area:") | a briefing printed instead of the place name: msg22 table #11 counted 60 entries, the relocated copy cut off names 64-71 | player's Snes9x state (place `$43`) | fixed | test_build_relocates_message_tables | e4ba635 |
-| #1b | stage 4 mid-stage | briefing #47 + Begin Stage prompt drawn in the small window over the battle map, not the Scenario Information panel | player's Snes9x state only (no Mesen state) | open | | |
+| #1b | stages 4, 5, 8, after a battle | a briefing in the "Caution" window instead of a status message (paralyzed, poisoned...): msg22 table #12 counted 17 entries, the relocated copy cut off the ailment messages 20-26 (`0C15` = paralyzed) | `issue1_stage4/8.snes9x.state` (`tools/s9x_state.py` + `tools/lua/s9x_load.lua`) | fixed | test_build_relocates_message_tables | |
 
 ## Notes
 

@@ -66,9 +66,12 @@ def test_build_relocates_message_tables(tmp_path):
     for i in range(20):
         v = int.from_bytes(data[0x10000 + 4 * i:0x10003 + 4 * i], "little")
         assert rom.lorom_to_pc(v) >= 0x208000, f"list entry {i} still at {v:06X}"
-    t11 = rom.lorom_to_pc(int.from_bytes(data[0x10000 + 4 * 11:0x10003 + 4 * 11], "little"))
-    p = rom.lorom_to_pc(rom.pc_to_lorom(t11) & 0xFF0000 | int.from_bytes(data[t11 + 2 * 67:t11 + 2 * 67 + 2], "little"))
-    assert T.decode(data, p)[0] == "「タップンの武器屋さん」{end}"   # place names past entry 59 (issue #1: castle showed a briefing)
+    def msg(table, entry):
+        t = rom.lorom_to_pc(int.from_bytes(data[0x10000 + 4 * table:0x10003 + 4 * table], "little"))
+        v = int.from_bytes(data[t + 2 * entry:t + 2 * entry + 2], "little")
+        return T.decode(data, rom.lorom_to_pc(rom.pc_to_lorom(t) & 0xFF0000 | v))[0]
+    assert msg(11, 67) == "「タップンの武器屋さん」{end}"   # place names past entry 59 (issue #1: castle showed a briefing)
+    assert "パラライズ" in msg(12, 21)   # status ailments past entry 16 (issue #1: stages 4/8 showed a briefing)
 
 
 def test_failed_build_leaves_no_stale_outputs(tmp_path, monkeypatch):

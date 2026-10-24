@@ -89,10 +89,6 @@
   "box": "summary",
   "tables": [
    [
-    "0x112011",
-    7
-   ],
-   [
     "0x111EE3",
     59
    ],
@@ -102,10 +98,10 @@
    ],
    [
     "0x111FE9",
-    17
+    27
    ]
   ],
-  "note": "7 status-ailment msgs (table at 112011), tables #2 (scenario summaries), #11, #12"
+  "note": "tables #2 (scenario summaries), #11, #12 (17 spell texts, raw 0011-0013, 7 status-ailment msgs)"
  },
  {
   "name": "msg02",

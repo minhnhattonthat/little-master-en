@@ -18,7 +18,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Text: `script/*.txt` (19 blocks, 3723 entries), defined in `data/blocks.json`. Window widths for lint: `data/windows.json`. Graphics inserts: `data/graphics.json`.
 - Tables: `tbl/jp.tbl`, `tbl/en.tbl`. VWF: `src/asm/vwf.asm`, `src/font/vwf.txt`. Fonts and their licences: `docs/fonts.md`.
 - Glossary (names, byte limits): `glossary.md`. Line rules, voices: `docs/style.md`. RE notes index: `docs/re/README.md`. Spec/plans: `docs/superpowers/`.
-- Savestates: `work/states/*.mss` (gitignored; tests need them). Lua: `tools/lua/*.lua`; throwaway probes `tools/lua/_*` (gitignored).
+- Savestates: `work/states/*.mss` (gitignored; tests need them). Player Snes9x/RetroArch states: `tools/s9x_state.py` dumps them, `tools/lua/s9x_load.lua` injects them over a Mesen state of the same mode. Lua: `tools/lua/*.lua`; throwaway probes `tools/lua/_*` (gitignored).
 - Playtest guide + bug log: `docs/playtest.md`.
 
 ## Rulings
