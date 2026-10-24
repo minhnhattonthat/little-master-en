@@ -39,6 +39,8 @@ inside unrelated words would cause false lint hits. Columns: JP | EN | max | not
 | 司会者 | Host | | quiz show host |
 | ポトフ | Potofu | | |
 | タップン | Tappun | | |
+| Dr.・メエ | Dr. Mee | | runs the hospital (place name) |
+| サンデー | Sunday | | runs the item shop (place name) |
 | ミーシャの母 | Misha's mom | | speaker label |
 | ハムス | Hamus | | the twins' pet hamster |
 | プーちゃん | Poo | | Misha's plush toy |

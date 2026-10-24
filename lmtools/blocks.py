@@ -46,11 +46,17 @@ def slots(b):
     return [t + i * w for t, n in b.tables for i in range(n)]
 
 
+def raw_slot(v) -> bool:
+    """A table value below $8000 is not a LoROM ROM pointer (msg22 table #11 has 003C-003F mid-table): copy it as is."""
+    return v & 0xFFFF < 0x8000
+
+
 def pointers(rom, b) -> list[int]:
     w, out = _width(b), []
     for s in slots(b):
         v = int.from_bytes(rom[s:s + w], "little")
-        out.append(lorom_to_pc(b.bank << 16 | v if w == 2 else v))
+        if not raw_slot(v):
+            out.append(lorom_to_pc(b.bank << 16 | v if w == 2 else v))
     return out
 
 
@@ -294,6 +300,8 @@ def _insert_pool(rom, layout, b, entries, tbl, source, en_tbl):
     w = _width(b)
     for s in slots(b):
         v = int.from_bytes(layout[s:s + w], "little")
+        if raw_slot(v):
+            continue
         old = lorom_to_pc(b.bank << 16 | v if w == 2 else v)
         nv = pc_to_lorom(new[old])
         nv = nv & 0xFFFF if w == 2 else nv | v & 0x800000

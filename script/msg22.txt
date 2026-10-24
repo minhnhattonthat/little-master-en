@@ -490,98 +490,126 @@ EN: "Bridge or Wood"{end}
 JP: 「ライナーク王城」{end}
 EN: "Castle Rainark"{end}
 
-#id 0123 ptr=113666 box=summary
+#id 0123 ptr=11351A box=summary
+JP: 「王様の部屋」{end}
+EN: "King's Room"{end}
+
+#id 0124 ptr=113526 box=summary
+JP: 「Dr.・メエのホスピタル」{end}
+EN: "Dr. Mee's Hospital"{end}
+
+#id 0125 ptr=113534 box=summary
+JP: 「タップンの武器屋さん」{end}
+EN: "Tappun's Weapons"{end}
+
+#id 0126 ptr=113544 box=summary
+JP: 「ヒミツのお部屋」{end}
+EN: "Secret Room"{end}
+
+#id 0127 ptr=113550 box=summary
+JP: 「サンデーのアイテムショップ」{end}
+EN: "Sunday's Item Shop"{end}
+
+#id 0128 ptr=113560 box=summary
+JP: 「」{end}
+EN: ""{end}
+
+#id 0129 ptr=113563 box=summary
+JP: 「」{end}
+EN: ""{end}
+
+#id 0130 ptr=113666 box=summary
 JP: {p11:16}"グー"のエレメンタルに{p11:18}よくきく攻撃魔法。{p11:1A}射程は 2だよ。{end}
 EN: {p11:16}Spell strong{p11:18}vs. Rock.{p11:1A}Range: 2.{end}
 
-#id 0124 ptr=113693 box=summary
+#id 0131 ptr=113693 box=summary
 JP: {p11:16}"チョキ"のエレメンタルに{p11:18}よくきく攻撃魔法。{p11:1A}射程は 2だよ。{end}
 EN: {p11:16}Spell strong{p11:18}vs. Scissors.{p11:1A}Range: 2.{end}
 
-#id 0125 ptr=1136C1 box=summary
+#id 0132 ptr=1136C1 box=summary
 JP: {p11:16}"パー"のエレメンタルに{p11:18}よくきく攻撃魔法。{p11:1A}射程は 2だよ。{end}
 EN: {p11:16}Spell strong{p11:18}vs. Paper.{p11:1A}Range: 2.{end}
 
-#id 0126 ptr=1136EE box=summary
+#id 0133 ptr=1136EE box=summary
 JP: {p11:16}カーソルで選んだポイント{p11:18}のまわりにいるユニット{p11:1A}全員に ダメージ。{end}
 EN: {p11:16}Hurts every{p11:18}unit around{p11:1A}the cursor.{end}
 
-#id 0127 ptr=11371B box=summary
+#id 0134 ptr=11371B box=summary
 JP: {p11:16}カーソルで選んだユニット{p11:18}にダメージ。どんなに離れ{p11:1A}ていてもつかえるよ。{end}
 EN: {p11:16}Hurts one{p11:18}unit, from{p11:1A}any range.{end}
 
-#id 0128 ptr=113749 box=summary
+#id 0135 ptr=113749 box=summary
 JP: {p11:16}カーソルで選んだユニット{p11:18}と同じ種族全員に{p11:1A}みちづれダメージ。{end}
 EN: {p11:16}Hurts all of{p11:18}the target's{p11:1A}race.{end}
 
-#id 0129 ptr=113776 box=summary
+#id 0136 ptr=113776 box=summary
 JP: {p11:16}カーソルで選んだユニット{p11:18}と同じエレメンタルをもつ{p11:1A}ユニットすべてにダメージ{end}
 EN: {p11:16}Hurts every{p11:18}unit with the{p11:1A}same element{end}
 
-#id 0130 ptr=1137A6 box=summary
+#id 0137 ptr=1137A6 box=summary
 JP: {p11:16}すべての敵にダメージを{p11:18}あたえる魔法。{p11:1A}すごく強力だよ。{end}
 EN: {p11:16}A spell that{p11:18}hurts all{p11:1A}foes. Wow!{end}
 
-#id 0131 ptr=1137CF box=summary
+#id 0138 ptr=1137CF box=summary
 JP: {p11:16}ユニットの防御力を{p11:18}アップさせる魔法。{p11:1A}たくましくなるよ。{end}
 EN: {p11:16}Spell that{p11:18}raises DEF.{p11:1A}Be tough!{end}
 
-#id 0132 ptr=1137F9 box=summary
+#id 0139 ptr=1137F9 box=summary
 JP: {p11:16}ユニットの攻撃力を{p11:18}アップさせる魔法。{p11:1A}ガンガン攻めよう。{end}
 EN: {p11:16}Spell that{p11:18}raises ATK.{p11:1A}Charge in!{end}
 
-#id 0133 ptr=113824 box=summary
+#id 0140 ptr=113824 box=summary
 JP: {p11:16}ユニットの移動力を{p11:18}アップさせる魔法。{p11:1A}たくさん動けるよ。{end}
 EN: {p11:16}Spell that{p11:18}raises MV.{p11:1A}Move more!{end}
 
-#id 0134 ptr=11384F box=summary
+#id 0141 ptr=11384F box=summary
 JP: {p11:16}ユニットのラックを{p11:18}アップさせる魔法。{p11:1A}いいことあるかも♡{end}
 EN: {p11:16}Boosts a{p11:18}unit's luck{p11:1A}Lucky!♡{end}
 
-#id 0135 ptr=113876 box=summary
+#id 0142 ptr=113876 box=summary
 JP: {p11:16}ユニットのコンディションを{p11:18}なおします。LVがあがれば{p11:1A}いろいろ なおせるよ。{end}
 EN: {p11:16}Cures status.{p11:18}At higher LV{p11:1A}cures more.{end}
 
-#id 0136 ptr=1138A5 box=summary
+#id 0143 ptr=1138A5 box=summary
 JP: {p11:16}ユニットの防御力を{p11:18}ダウンさせる魔法。{p11:1A}頑丈なヤツにかけろ。{end}
 EN: {p11:16}Spell that{p11:18}lowers DEF.{p11:1A}Use on tanks{end}
 
-#id 0137 ptr=1138D2 box=summary
+#id 0144 ptr=1138D2 box=summary
 JP: {p11:16}ユニットの攻撃力を{p11:18}ダウンさせる魔法。{p11:1A}強力なヤツにはコレ。{end}
 EN: {p11:16}Spell that{p11:18}lowers ATK.{p11:1A}For brutes!{end}
 
-#id 0138 ptr=1138FF box=summary
+#id 0145 ptr=1138FF box=summary
 JP: {p11:16}ユニットのスピードを{p11:18}ダウンさせる魔法。{p11:1A}すばやいヤツもノロくなる{end}
 EN: {p11:16}Spell that{p11:18}lowers SPD.{p11:1A}Slows speedy{end}
 
-#id 0139 ptr=11392A box=summary
+#id 0146 ptr=11392A box=summary
 JP: {p11:16}{c94:0D20}{p11:18}{c94:0D20}{p11:1A}{c94:0C20}{cFA:00}{end}
 EN: 
 
-#id 0140 ptr=113943 box=summary
+#id 0147 ptr=113943 box=summary
 JP: {p7F:01}{c80:00}{c9C:520E00}は、ポイズン攻撃をうけた!{n}毒が消えるまでダメージをうけます。{end}
 EN: {p7F:01}{c80:00}{c9C:520E00} is poisoned!{n}Damage until it wears off.{end}
 
-#id 0141 ptr=113972 box=summary
+#id 0148 ptr=113972 box=summary
 JP: {p7F:01}{c80:00}{c9C:520E00}は、パラライズ攻撃をうけた!{n}行動不能になりました。{end}
 EN: {p7F:01}{c80:00}{c9C:520E00} is paralyzed!{n}It can't act.{end}
 
-#id 0142 ptr=11399E box=summary
+#id 0149 ptr=11399E box=summary
 JP: {p7F:01}{c80:00}{c9C:520E00}は、トランス攻撃をうけた!{n}行動不能になりました。{end}
 EN: {p7F:01}{c80:00}{c9C:520E00} is in a trance!{n}It can't act.{end}
 
-#id 0143 ptr=1139C9 box=summary
+#id 0150 ptr=1139C9 box=summary
 JP: {p7F:01}{c80:00}{c9C:520E00}は、スロウ攻撃をうけた!{n}スピードがダウン。1ターンごとにおやすみをとります。{end}
 EN: {p7F:01}{c80:00}{c9C:520E00} is slowed!{n}SPD down, it rests each turn.{end}
 
-#id 0144 ptr=1139FE box=summary
+#id 0151 ptr=1139FE box=summary
 JP: {p7F:01}{c80:00}{c9C:520E00}は、ウイーク攻撃をうけた!{n}攻撃力、防御力が半分になりました。{end}
 EN: {p7F:01}{c80:00}{c9C:520E00} is weakened!{n}ATK and DEF are halved.{end}
 
-#id 0145 ptr=113A33 box=summary
+#id 0152 ptr=113A33 box=summary
 JP: {p7F:01}{c80:00}{c9C:520E00}は、病気になってしまった!{n}攻撃力ダウン! HPも減っちゃうゾ。{end}
 EN: {p7F:01}{c80:00}{c9C:520E00} fell sick!{n}ATK down, and HP drains too!{end}
 
-#id 0146 ptr=113A65 box=summary
+#id 0153 ptr=113A65 box=summary
 JP: {p7F:01}{c80:00}{c9C:520E00}は、カース攻撃をうけた!{n}回復魔法、補助魔法が きかなくなった。{end}
 EN: {p7F:01}{c80:00}{c9C:520E00} is cursed!{n}Heal/support magic fails.{end}

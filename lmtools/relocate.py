@@ -4,7 +4,7 @@ A table is "listed" when the message table list at PC 010000 points at it: patch
 Tables that share strings form a group placed in one 32 KB bank (16-bit pointers). Unlisted tables stay in place.
 """
 from .blocks import (Block, JUMP, REMAP, TERMINATED, _check_entries, _enc, _pick, insert_block, jump_targets,
-                     pointers, pool_strings)
+                     pointers, pool_strings, raw_slot)
 from .rom import lorom_to_pc, pc_to_lorom
 
 TABLE_LIST, LIST_LEN = 0x010000, 20
@@ -110,7 +110,11 @@ def relocate_block(rom, layout, b, entries, tbl, source, en_tbl, alloc):
         at = base
         for t, n in tables:
             for i in range(n):
-                old = lorom_to_pc(b.bank << 16 | int.from_bytes(layout[t + 2 * i:t + 2 * i + 2], "little"))
+                v = layout[t + 2 * i:t + 2 * i + 2]
+                if raw_slot(int.from_bytes(v, "little")):
+                    rom[at + 2 * i:at + 2 * i + 2] = v
+                    continue
+                old = lorom_to_pc(b.bank << 16 | int.from_bytes(v, "little"))
                 rom[at + 2 * i:at + 2 * i + 2] = (pc_to_lorom(new[old]) & 0xFFFF).to_bytes(2, "little")
             for le in listed[t]:
                 rom[le:le + 3] = pc_to_lorom(at).to_bytes(3, "little")

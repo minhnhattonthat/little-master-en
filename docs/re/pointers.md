@@ -15,7 +15,7 @@ Message ID = 16-bit: high byte = table number, low byte = entry. `$01:EE4A` read
 | 4, 17 | `1B0200` | `$36` | 256 | `msg36` |
 | 5 | `030000` | `$06` | 256 | `msg06` |
 | 6-10 | `1B0800`, `1B0A00`, `1B0C00`, `1B0E00`, `1B1000` | `$36` | 53 each | `msg36`: five variant tables over one shared pool (`1B1200-1B1758`) |
-| 11 | `111F59` | `$22` | 60 | `msg22` |
+| 11 | `111F59` | `$22` | 72 | `msg22`: place names, indexed by `$7E:EA82`; 60-63 are raw `003C-003F` (copied as is), 64-71 castle rooms/shops |
 | 12 | `111FE9` | `$22` | 17 | `msg22` |
 | 13 | `030400` | `$06` | 128 | `msg06` |
 | 14 | `030600` | `$06` | 256 | `msg06` (shares 1 string with #1) |

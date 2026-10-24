@@ -54,6 +54,17 @@ def test_relocates_listed_group_and_patches_list(small_list):
     assert pointers(rom, Block(name="u", type="ptr16", tables=[[0x80, 1]], bank=0)) == [0x105]
 
 
+def test_raw_table_value_is_copied_not_followed(small_list):
+    rom = synth()
+    rom[0x42:0x44] = (0x003C).to_bytes(2, "little")                  # mid-table non-pointer, like msg22 table #11
+    base = bytes(rom)
+    b = Block(name="p", type="ptr16", tables=[[0x40, 2], [0x80, 1]], bank=0)
+    assert pointers(rom, b) == [0x100, 0x105]
+    relocate_block(rom, base, b, dump_block(rom, b, T), T, "jp", T, Alloc(0x8000, 0x10000))
+    new_t = lorom_to_pc(int.from_bytes(rom[0:3], "little"))
+    assert rom[new_t + 2:new_t + 4] == (0x003C).to_bytes(2, "little")
+
+
 def test_group_too_big_for_a_bank():
     with pytest.raises(ValueError, match="> 32 KB"):
         Alloc(0, 0x10000).take(0x8001)
