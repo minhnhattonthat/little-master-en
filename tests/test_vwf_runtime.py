@@ -4,8 +4,8 @@ from pathlib import Path
 import pytest
 from lmtools import build, mesen
 
-pytestmark = pytest.mark.skipif(not mesen.MESEN.exists() or not Path("test/states").exists(),
-                                reason="needs Mesen2 and test/states")
+pytestmark = pytest.mark.skipif(not mesen.MESEN.exists() or not Path("work/states").exists(),
+                                reason="needs Mesen2 and work/states")
 
 LOAD = '''local frame, loaded, ref = 0, false, nil
 ref = emu.addMemoryCallback(function()
@@ -21,7 +21,7 @@ end, emu.eventType.inputPolled)
 
 
 def run(sfc, state, body, out):
-    Path("test/lua/_rt.lua").write_text(f'STATE=[[{Path("test/states", state + ".mss").resolve()}]]\n' + LOAD + body)
+    Path("tools/lua/_rt.lua").write_text(f'STATE=[[{Path("work/states", state + ".mss").resolve()}]]\n' + LOAD + body)
     assert mesen.run(sfc, "_rt.lua", out) == 0
     return (Path(out) / "rt.txt").read_text()
 
@@ -227,7 +227,7 @@ def test_personal_info_description_uses_vwf(tmp_path, monkeypatch):
 
     monkeypatch.setattr(build, "parse", inject)
     sfc = build.build(tmp_path / "b", "en")
-    Path("test/lua/_rt.lua").write_text(f'STATE=[[{Path("test/states/personal_infomation.mss").resolve()}]]\n' + '''
+    Path("tools/lua/_rt.lua").write_text(f'STATE=[[{Path("work/states/personal_infomation.mss").resolve()}]]\n' + '''
 local frame, loaded, ref = 0, false, nil
 ref = emu.addMemoryCallback(function()
   if loaded then return end
@@ -269,7 +269,7 @@ end, emu.eventType.endFrame)
 def test_eight_letter_unit_names_stop_at_their_record(tmp_path):
     """unit_names records are 8 bytes, printed up to a space: 'Dynamite' must not run into 'Tamborin Bread'."""
     sfc = build.build(tmp_path / "b", "en")
-    Path("test/lua/_rt.lua").write_text(f'STATE=[[{Path("test/states/personal_infomation.mss").resolve()}]]\n' + '''
+    Path("tools/lua/_rt.lua").write_text(f'STATE=[[{Path("work/states/personal_infomation.mss").resolve()}]]\n' + '''
 local frame, loaded, ref = 0, false, nil
 ref = emu.addMemoryCallback(function()
   if loaded then return end
@@ -311,7 +311,7 @@ def test_overwide_vwf_line_stays_inside_its_slot(tmp_path, monkeypatch):
 
     monkeypatch.setattr(build, "parse", inject)
     sfc = build.build(tmp_path / "b", "en")
-    Path("test/lua/_rt.lua").write_text(f'STATE=[[{Path("test/states/personal_infomation.mss").resolve()}]]\n' + '''
+    Path("tools/lua/_rt.lua").write_text(f'STATE=[[{Path("work/states/personal_infomation.mss").resolve()}]]\n' + '''
 local frame, loaded, ref, outside, maxcol = 0, false, nil, 0, 0
 ref = emu.addMemoryCallback(function()
   if loaded then return end
@@ -349,7 +349,7 @@ end, emu.eventType.endFrame)
 def test_menu_tilemap_requests_upload_vwf_tiles(tmp_path):
     """Menus (hospital) request the tilemap from $01:ECCC every frame: VWF tiles must reach VRAM too."""
     sfc = build.build(tmp_path / "b", "en")
-    Path("test/lua/_rt.lua").write_text(f'STATE=[[{Path("test/states/hospital.mss").resolve()}]]\n' + '''
+    Path("tools/lua/_rt.lua").write_text(f'STATE=[[{Path("work/states/hospital.mss").resolve()}]]\n' + '''
 local frame, loaded, ref = 0, false, nil
 ref = emu.addMemoryCallback(function()
   if loaded then return end
@@ -386,7 +386,7 @@ end, emu.eventType.endFrame)
 def test_scenario_briefing_fits_without_a_blind_scroll(tmp_path):
     """An overlong briefing scrolls while the screen is still blanked ($10 = 3) and waits for a key: black screen."""
     sfc = build.build(tmp_path / "b", "en")
-    Path("test/lua/_rt.lua").write_text(f'STATE=[[{Path("test/states/map.mss").resolve()}]]\n' + LOAD + '''
+    Path("tools/lua/_rt.lua").write_text(f'STATE=[[{Path("work/states/map.mss").resolve()}]]\n' + LOAD + '''
 emu.addEventCallback(function()
   if not loaded then return end
   frame = frame + 1

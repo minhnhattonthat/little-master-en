@@ -1,5 +1,7 @@
 # Glossary
 
+Binding for every translator and reviewer. The user's rulings, with options and reasons: `docs/decisions.md`.
+
 The single source of truth for names and terms. `python lm.py lint` checks that every EN line whose JP contains a
 term (first column) uses the EN form (second column). Keep terms distinctive: a short JP term that also appears
 inside unrelated words would cause false lint hits. Columns: JP | EN | max | notes.

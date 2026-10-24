@@ -7,14 +7,14 @@ from lmtools import build, mesen
 
 STATES = ["ordinary_field_message", "batte_message", "item_menu"]   # next message after one A press = EN test line
 WINDOW = (0, 154, 256, 224)
-pytestmark = pytest.mark.skipif(not mesen.MESEN.exists() or not Path("test/states").exists(),
-                                reason="needs Mesen2 and test/states")
+pytestmark = pytest.mark.skipif(not mesen.MESEN.exists() or not Path("work/states").exists(),
+                                reason="needs Mesen2 and work/states")
 
 
 def shots(sfc, out):
-    lua = Path("test/lua/state_shot.lua").read_text()
+    lua = Path("tools/lua/state_shot.lua").read_text()
     for s in STATES:
-        Path("test/lua/_s.lua").write_text(f'STATE=[[{Path("test/states", s + ".mss").resolve()}]]\nNAME="{s}"\n'
+        Path("tools/lua/_s.lua").write_text(f'STATE=[[{Path("work/states", s + ".mss").resolve()}]]\nNAME="{s}"\n'
                                            f"SHOT_AFTER=200\nPRESS_A_AT={{10}}\n" + lua)
         assert mesen.run(sfc, "_s.lua", out) == 0, s
     return {s: Image.open(Path(out) / f"{s}.png").convert("RGB").crop(WINDOW) for s in STATES}

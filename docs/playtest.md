@@ -22,7 +22,7 @@
 For each problem, add a row to the bug log:
 - **where:** scenario or place;
 - **problem:** what you saw, and what you expected;
-- **state:** a save-state name. In Mesen2, use *File → Save State → Save to file…*, then copy the `.mss` into `test/states/`.
+- **state:** a save-state name. In Mesen2, use *File → Save State → Save to file…*, then copy the `.mss` into `work/states/`.
 
 Status starts as `open`. When it's fixed, the row gets the test name and the commit. `wontfix` rows get a reason in the test column.
 

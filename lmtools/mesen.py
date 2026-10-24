@@ -1,4 +1,4 @@
-"""Run Mesen2 headless with a Lua script from test/lua/."""
+"""Run Mesen2 headless with a Lua script from tools/lua/."""
 import subprocess
 from pathlib import Path
 
@@ -15,7 +15,7 @@ def run(rom_path, script: str, out_dir, timeout=120) -> int:
     out_dir = Path(out_dir).resolve()
     out_dir.mkdir(parents=True, exist_ok=True)
     lua = out_dir / "_run.lua"
-    lua.write_text(f"OUT_DIR = [[{out_dir}]]\n" + (ROOT / "test" / "lua" / script).read_text(encoding="utf-8"),
+    lua.write_text(f"OUT_DIR = [[{out_dir}]]\n" + (ROOT / "tools" / "lua" / script).read_text(encoding="utf-8"),
                    encoding="utf-8")
     return subprocess.run([str(MESEN), "--testrunner", str(Path(rom_path).resolve()), str(lua)],
                           timeout=timeout, capture_output=True).returncode

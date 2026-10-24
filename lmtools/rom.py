@@ -3,7 +3,8 @@ import hashlib
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent / "rom" / "Little Master - Nijiiro no Maseki (Japan).sfc"
-SHA1 = "75b76715d4a20371e0340dbeee3a51ff6a1dbad3"
+SHA1 = next(l.split()[0] for l in (BASE.parents[1] / "rom.sha1").read_text(encoding="utf-8").splitlines()
+            if l.strip() and not l.startswith("#"))
 
 
 def load_base(path=BASE) -> bytearray:

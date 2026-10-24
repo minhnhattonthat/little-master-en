@@ -5,7 +5,7 @@ from pathlib import Path
 import pytest
 from lmtools import build, mesen
 
-STATE = Path("test/states/bug_menu.mss")
+STATE = Path("work/states/bug_menu.mss")
 pytestmark = pytest.mark.skipif(not mesen.MESEN.exists() or not STATE.exists(), reason="needs Mesen2 and bug_menu state")
 
 KEYS = ["a", "up", "up", "left", "down", "down", "right", "up"]     # a clears the RC1 wait; down,down reaches Item
@@ -14,8 +14,8 @@ KEYS = ["a", "up", "up", "left", "down", "down", "right", "up"]     # a clears t
 def test_system_menu_cursor_leaves_item(tmp_path):
     sfc = build.build(tmp_path / "b")
     lua = (f'STATE=[[{STATE.resolve()}]]\nNAME="m"\nKEYS={{' + ",".join(f'"{k}"' for k in KEYS) + "}\n"
-           + Path("test/lua/menu_keys.lua").read_text())
-    Path("test/lua/_menu.lua").write_text(lua)
+           + Path("tools/lua/menu_keys.lua").read_text())
+    Path("tools/lua/_menu.lua").write_text(lua)
     out = tmp_path / "o"
     assert mesen.run(sfc, "_menu.lua", out) == 0
     shots = [(out / f"m_{i}.png").read_bytes() for i in range(len(KEYS))]
@@ -23,7 +23,7 @@ def test_system_menu_cursor_leaves_item(tmp_path):
     assert shots[5] != shots[4] and shots[7] != shots[6], "cursor stuck after the Item description"
 
 
-INFO_STATE = Path("test/states/bug_black_info_header.mss")
+INFO_STATE = Path("work/states/bug_black_info_header.mss")
 
 
 @pytest.mark.skipif(not INFO_STATE.exists(), reason="needs bug_black_info_header state")
@@ -33,7 +33,7 @@ def test_info_header_survives_map_scroll(tmp_path):
     keys = ["b", "right", "right", "down", "down", "a", "left", "up", "left", "down"]   # select Reem, hover around
     sfc = build.build(tmp_path / "b")
     lua = (f'STATE=[[{INFO_STATE.resolve()}]]\nNAME="m"\nKEYS={{' + ",".join(f'"{k}"' for k in keys) + "}\n"
-           + Path("test/lua/menu_keys.lua").read_text() + '''
+           + Path("tools/lua/menu_keys.lua").read_text() + '''
 local snaps = {}
 emu.addEventCallback(function()
   if not loaded then return end
@@ -50,7 +50,7 @@ emu.addEventCallback(function()
   end
 end, emu.eventType.endFrame)
 ''')
-    Path("test/lua/_info.lua").write_text(lua)
+    Path("tools/lua/_info.lua").write_text(lua)
     out = tmp_path / "o"
     assert mesen.run(sfc, "_info.lua", out) == 0
     shown, after = (out / "vram.txt").read_text().split()

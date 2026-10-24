@@ -22,7 +22,7 @@ Smaller runs (256-1023 bytes) exist; list them with `--min 0x100`. Caution: a lo
 `rom.expand()` pads to 4 MB, sets the header ROM-size byte `$7FD7 = $0C` and fixes the checksum.
 
 - New space: PC `200000-3FFFFF`, read at **`$C0:8000-$FF:FFFF`** (also `$40-$7D:8000-FFFF`). Banks `$70-$7D:0000-7FFF` are SRAM.
-- `tests/test_mesen.py::test_expanded_rom_boots` passes. A 3600-frame scripted run (`test/lua/mash.lua`, Start/A mashing into the first dialogue) matches the original's screenshots, except for an animation-phase shift at frame 3000.
+- `tests/test_mesen.py::test_expanded_rom_boots` passes. A 3600-frame scripted run (`tools/lua/mash.lua`, Start/A mashing into the first dialogue) matches the original's screenshots, except for an animation-phase shift at frame 3000.
 - That shift was traced and is **not** caused by expansion:
   - Nothing reads PC `200000+`.
   - The game reads SRAM `$70:0000-0A9F` at boot (`$01:E6E0`, save-data load + checksum), and Mesen fills SRAM with random bytes that differ per ROM file. The resulting timing difference shows up in animations.
@@ -42,7 +42,7 @@ See `text-engine.md`. Key locations:
 
 ## Graphics and compression survey
 
-Unique VRAM DMA sources over a 3600-frame run (`test/lua/_dma.lua`, not committed):
+Unique VRAM DMA sources over a 3600-frame run (`tools/lua/_dma.lua`, not committed):
 
 | Source | Size | What |
 |---|---|---|

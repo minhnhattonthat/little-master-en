@@ -4,7 +4,7 @@ Source of truth: `tbl/jp.tbl`. Verified by `tests/test_jp_table.py` (strings see
 
 ## How it was found
 
-- `test/lua/trace_reads.lua` (Mesen2 headless) logged ROM reads with the reading PC during the intro.
+- `tools/lua/trace_reads.lua` (Mesen2 headless) logged ROM reads with the reading PC during the intro.
 - Kanji glyph reads come from `$00:BC0F` (32 bytes each, PC `020000+`). The string bytes are read by the preprocessor at `$00:B68D` from `$36:9759` (PC `1B1759`), reached via the pointer table at PC `1B0000` (see `pointers.md`).
 - Single-byte codes were mapped by overwriting the intro string with code runs and screenshotting the result (`build/probe/*`, helper script kept out of repo).
 - Control codes and their argument counts come from disassembling the preprocessor (`python lm.py dis 00B680`); see `text-engine.md`.

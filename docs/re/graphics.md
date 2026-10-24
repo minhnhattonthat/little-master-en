@@ -2,7 +2,7 @@
 
 ## Tools
 
-- `test/lua/vram_dump.lua` (globals `STATE`, `INPUTS`, `AT`, `NAME`) writes `NAME.vram/.cgram/.oam/.ppu/.png`. `.ppu` has mode, chr/map addresses (words), 64-wide/high flags and scroll *at frame end*. Mid-frame register changes (map screen) make this unreliable there.
+- `tools/lua/vram_dump.lua` (globals `STATE`, `INPUTS`, `AT`, `NAME`) writes `NAME.vram/.cgram/.oam/.ppu/.png`. `.ppu` has mode, chr/map addresses (words), 64-wide/high flags and scroll *at frame end*. Mid-frame register changes (map screen) make this unreliable there.
 - `python lm.py vramfind dump.vram --bpp 4` lists runs of VRAM tiles found verbatim in the ROM. Single-tile hits are usually coincidences.
 - `python lm.py gfxexport` exports ROM tiles with a CGRAM palette. `lmtools.gfx` has `encode_tiles`, `png_to_tiles`, `tiles_to_png` and `cgram_palette`.
 

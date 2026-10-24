@@ -1,4 +1,14 @@
-# Reverse-engineering notes (M1)
+# Reverse-engineering notes
+
+One file per subsystem (text engine, pointers, compression, font, graphics). Mark every finding with how far it is
+proven, so a later session doesn't build on a guess:
+
+- **verified** - and how: a decoded known string, a corrupt-and-boot test, a breakpoint hit on the drawing path, a
+  passing roundtrip test. Name the test or savestate.
+- **guess** - and why it seems likely (byte pattern, another game, an earlier patch's notes). Promote it to verified
+  before code depends on it.
+
+Addresses are for the dump in `rom.sha1` unless a note says otherwise. The notes below were written in M1-M5.
 
 | Doc | Summary |
 |---|---|
@@ -15,7 +25,7 @@
   - It needs a `settings.json` next to the exe (portable mode, which skips the first-run wizard) with `Debug.ScriptWindow.AllowIoOsAccess = true`, or Lua `io` is nil. `mesen.run` writes this file if it's missing.
   - Lua API as verified: `emu.addEventCallback(fn, emu.eventType.endFrame|inputPolled)`, `emu.addMemoryCallback(fn, emu.callbackType.read|write, start, end, emu.cpuType.snes, emu.memType.snesPrgRom|snesWorkRam|snesMemory|...)`, `emu.takeScreenshot()`, `emu.getScreenBuffer()`, `emu.read(addr, memType)`, `emu.setInput({start=true}, 0)` (inside `inputPolled`), `emu.getState()["cpu.k"/"cpu.pc"]`, `emu.stop(code)`.
   - Mesen fills SRAM with random bytes per ROM file, so runs of *different* ROMs can drift in animation timing (see memory-map.md).
-- **Committed Lua:** `test/lua/boot.lua` (smoke test), `mash.lua` (3600-frame Start/A run with screenshots), `trace_reads.lua` (ROM reads with PC). Throwaway helpers are `test/lua/_*.lua` (gitignored).
+- **Committed Lua:** `tools/lua/boot.lua` (smoke test), `mash.lua` (3600-frame Start/A run with screenshots), `trace_reads.lua` (ROM reads with PC). Throwaway helpers are `tools/lua/_*.lua` (gitignored).
 - `python lm.py <cmd>`:
   - `info`: check the base ROM.
   - `gfx`: render a font or tiles to PNG (`--mode tile|linear|kanji16`).
