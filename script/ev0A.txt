@@ -900,7 +900,7 @@ EN: {p7F:02}{speed:02}"Owowow."{end}
 
 #id 0225 ptr=053F45 box=dialog
 JP: {p7F:02}{speed:02}「モーモーのバカぁ!{delay:20} なんてことすんのよ!」{end}
-EN: {p7F:02}{speed:02}"Moomoo, you idiot!{delay:20} What did you do!"{end}
+EN: {p7F:02}{speed:02}"Moomoo, you dummyyy!{delay:20} What'd you do!"{end}
 
 #id 0226 ptr=053F73 box=dialog
 JP: {p7F:02}{speed:02}「いたた‥‥{delay:20} え?{delay:20} ここは?」{end}
@@ -924,7 +924,7 @@ EN: {p7F:02}{speed:02}"Give the professor back!"{end}
 
 #id 0231 ptr=05405C box=dialog
 JP: {p7F:02}{speed:02}「こんなやり方は 好きじゃないんですけどね、{n}{delay:20} 彼は 深く知りすぎてしまった」{end}
-EN: {p7F:02}{speed:02}"I don't like doing it this way,{n}{delay:20} but he knew too much."{end}
+EN: {p7F:02}{speed:02}"I'm not fond of such methods, mind you,{n}{delay:20} but he knew too much."{end}
 
 #id 0232 ptr=054099 box=dialog
 JP: {p7F:02}{speed:02}「事が無事にはこぶまで、{n}{delay:20} ヘタに行動されたくないんですよ」{end}
@@ -1540,7 +1540,7 @@ EN: {p7F:02}{speed:02}"Hey, hey,{delay:20} what is this place?"{end}
 
 #id 0385 ptr=056E26 box=dialog
 JP: {p7F:02}{speed:02}「さっさと俺たちを もとの所にもどしな。{n}{delay:30} あんまりおいたがひどいと ゆるさないぜ」{end}
-EN: {p7F:02}{speed:02}"Send us back where we were, pronto.{n}{delay:30} Keep up the mischief and ya'll be sorry."{end}
+EN: {p7F:02}{speed:02}"Send us back where we were, pronto.{n}{delay:30} More mischief and you'll be sorry."{end}
 
 #id 0386 ptr=056EF3 box=dialog
 JP: {p7F:02}{end}

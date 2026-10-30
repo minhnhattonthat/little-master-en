@@ -1692,11 +1692,11 @@ EN: Reem{n}"Yes, sir.{n} What will you do, Professor?"{end}
 
 #id 0423 ptr=1B41DA box=dialog
 JP: ラドック{n}「‥‥わしは、もうすこしこの石版を調べてみよう。{n} 結果が出たら、城へ行くとするよ」{end}
-EN: Radock{n}"...I'll study this tablet a bit more.{n} I'll come to the castle with results, eh?"{end}
+EN: Radock{n}"...I'll study this tablet a bit more.{n} I'll come to the castle with results."{end}
 
 #id 0424 ptr=1B4212 box=dialog
 JP: シャルル{n}「あたし、一足先に{n} マテドラルに もどってます!」{end}
-EN: Charles{n}"I'll head back to Matedral{n} ahead of you, okay?!"{end}
+EN: Charles{n}"I'll head back to Matedral{n} ahead of you!"{end}
 
 #id 0425 ptr=1B4235 box=dialog
 JP: リイム{n}「僕たちはライナークに戻ってから、{n} マテドラルに むかうよ」{end}
@@ -1888,7 +1888,7 @@ EN: Reem{n}"Lilulu, calm down.{n} What do you think of Weiss?"{end}
 
 #id 0472 ptr=1B4C9D box=dialog
 JP: リルル{n}「えっと、そんなに悪い人じゃなさそうですよね」{delay:78}{clear:00}「ボンバーズの魔物さんとだって、なかよくなれる{n} はずだって、リルルも考えてたんです。{n} でも、ちょっとやりかたが乱暴ですよね」{end}
-EN: Lilulu{n}"Um, he doesn't seem so bad."{delay:78}{clear:00}"I always thought we could be friends{n} with the Bombers' monsters too.{n} But his methods are a little rough."{end}
+EN: Lilulu{n}"Um, he doesn't seem so bad, does he?"{delay:78}{clear:00}"Lilulu thought we could be friends{n} with the Bombers' monsters too.{n} But his methods are a little rough."{end}
 
 #id 0473 ptr=1B4D06 box=dialog
 JP: シャルル{n}「いたいじゃない!」{delay:78}{clear:00}「まったく乱暴なんだから。{n} もうちょっと やさしくしてよね!」{end}
@@ -1904,7 +1904,7 @@ EN: Charles{n}"He was a tomb raider, wasn't he?"{delay:78}{clear:00}"He shows up
 
 #id 0476 ptr=1B4DCC box=dialog
 JP: 「教王も 自分を見失ってる気がする‥‥」{delay:78}{clear:00}「そりゃあ、魔物と人間の共存は、{n} 教王が常に考えてらっしゃることだわ」{delay:78}{clear:00}「もちろん、私だって{n} 実現してほしいと おもってる‥‥」{delay:78}{clear:00}「でも、こんなやりかたは ないとおもう{n} イヤな予感がするわ」{end}
-EN: "I think the Pontiff has lost himself too..."{delay:78}{clear:00}"Sure, monsters and humans together{n} is what the Pontiff always hopes for."{delay:78}{clear:00}"Of course, I want{n} it to come true too..."{delay:78}{clear:00}"But not like this.{n} I have a bad feeling about it."{end}
+EN: "I think the Pontiff has lost himself too..."{delay:78}{clear:00}"Sure, monsters and humans together{n} is what the Pontiff always hopes for."{delay:78}{clear:00}"Of course, I want{n} it to come true too..."{delay:78}{clear:00}"But not like this.{n} Oh, I have such a bad feeling about it."{end}
 
 #id 0477 ptr=1B4E69 box=dialog
 JP: タムタム{n}「魔石とカラードの秘宝は同じ物なのかしら?{n} 教授なら、なにか解るんじゃないかしら‥‥」{delay:78}{clear:00}「‥‥ヴァイスには、まだ気を許せないわね。{n} パートナーのヤゴにも 大きな力を感じたわ」{end}

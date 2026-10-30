@@ -68,7 +68,7 @@ EN:
 
 #id 0017 ptr=1140B2 box=dialog
 JP: {p7F:02}{speed:02}「おお、ありがとよ。{n}{delay:30} それよりも大変じゃ。{delay:30}やはり本当だったんじゃ」{end}
-EN: {p7F:02}{speed:02}"Ah, thank you, thank you.{n}{delay:30} But this is big!{delay:30} It was true after all, eh?"{end}
+EN: {p7F:02}{speed:02}"Ah, thank you, thank you.{n}{delay:30} But this is big!{delay:30} It was true after all!"{end}
 
 #id 0018 ptr=1140E9 box=dialog
 JP: {p7F:02}{speed:02}「この古文書を見るのじゃ。{n}{delay:30} ほれ、{delay:20}ここの部分じゃ」{end}
@@ -128,7 +128,7 @@ EN: {p7F:02}{speed:02}"I'll get you, meow!"{end}
 
 #id 0032 ptr=114662 box=dialog
 JP: {p7F:02}{speed:02}「みて!{delay:20} 古文書と同じ形だわ」{end}
-EN: {p7F:02}{speed:02}"Look!{delay:20}{n} The same shape as the old document."{end}
+EN: {p7F:02}{speed:02}"Look!{delay:20}{n} Why, it's just like the old document!"{end}
 
 #id 0033 ptr=114684 box=dialog
 JP: {p7F:02}{speed:02}「リイム、{delay:20}虹色の魔石を!」{end}
@@ -356,7 +356,7 @@ EN:
 
 #id 0089 ptr=1160B9 box=dialog
 JP: {p7F:02}{speed:02}「やべえっス、入り口が、{n} ふさがっちまったっス～～～～～!」{end}
-EN: {p7F:02}{speed:02}"Uh-oh, the entrance is{n} blocked～～～～～!"{end}
+EN: {p7F:02}{speed:02}"Yikes, sir, the entrance is{n} all blocked up～～～～～!"{end}
 
 #id 0090 ptr=1160F9 box=dialog
 JP: {clear:00}{speed:02}ゴンゴン‥‥。{delay:0A}ゴンゴン‥‥。{end}
@@ -364,7 +364,7 @@ EN: {clear:00}{speed:02}Thud thud...{delay:0A}Thud thud...{end}
 
 #id 0091 ptr=116138 box=dialog
 JP: {p7F:02}{speed:02}「あっ! 助かった!{n} 教授、助けが来たみたいっスよ!」{end}
-EN: {p7F:02}{speed:02}"Ah! We're saved!{n} Professor, looks like help's here, sir!"{end}
+EN: {p7F:02}{speed:02}"Ah! We're saved!{n} Professor, help's here, y'see!"{end}
 
 #id 0092 ptr=116167 box=dialog
 JP: {p7F:02}{speed:02}「しかし、そっちは‥‥‥」{end}

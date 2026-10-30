@@ -228,7 +228,7 @@ EN: Radock{n}"You dolt! You should've come sooner!"{end}
 
 #id 0057 ptr=1B8C18 box=dialog
 JP: ラドック{n}「おお、いかん。いかん。{n} そんなことは どうでもいいのじゃ!」{delay:78}{clear:00}「わかった。ワシには全て わかったぞ」{delay:78}{clear:00}「カラードの教典に記された、願いをかなえる{n} 秘宝とは、まさに魔石の事!{n} そして、ジャスバンに封じられしは、魔物じゃ!」{end}
-EN: Radock{n}"Oh, no, no.{n} That doesn't matter!"{delay:78}{clear:00}"Aha! Now I see it all!"{delay:78}{clear:00}"The wish-granting treasure in the{n} Calard scripture is the Jewels!{n} And sealed in Jasvan is a monster!"{end}
+EN: Radock{n}"Oh, no, no.{n} That doesn't matter!"{delay:78}{clear:00}"Aha! Now I see it all, my boy!"{delay:78}{clear:00}"The wish-granting treasure in the{n} Calard scripture is the Jewels!{n} And sealed in Jasvan is a monster!"{end}
 
 #id 0058 ptr=1B8CA7 box=dialog
 JP: リイム{n}「?」{end}
@@ -1104,7 +1104,7 @@ EN: "Come, let's go. Our ideal is still far off."{end}
 
 #id 0276 ptr=1BAF9A box=dialog
 JP: モーモー{n}「おっ、主役のおでましだぜ」{delay:78}{clear:00}「よかったな、ヴァイス。また、マテドラルに{n} もどれんだろ?」{end}
-EN: Moomoo{n}"Hey, the star of the show's here."{delay:78}{clear:00}"Good for ya, Weiss. Ya get to go back{n} to Matedral now, right?"{end}
+EN: Moomoo{n}"Hey, the star of the show's here."{delay:78}{clear:00}"Good for ya, Weiss. You get to go back{n} to Matedral now, right?"{end}
 
 #id 0277 ptr=1BAFD5 box=dialog
 JP: シャルル{n}「こんどは仲間同士ってワケか‥‥」{delay:78}{clear:00}「でもね、あたしは あんたのこと完全に{n} 信用したわけじゃないわよ」{delay:78}{clear:00}「教王の御命令だから、しかたなく{n} いっしょに組むんですからね」{n}{delay:78}{clear:00}「‥‥まぁ、ちょっとは{n} 期待してあげても いいけどね♪」{end}
@@ -1368,7 +1368,7 @@ EN:
 
 #id 0342 ptr=1BBA0B box=dialog
 JP: 「しんきろうの平原へ ようこそ。{n} ここにはミラージュと呼ばれる4本の塔がある」{delay:78}{clear:00}「この塔は、心を映す不思議の塔。{n} 魔物を恐れれば、魔物が現れ、{n} 水を恐れれば、水が現れる」{delay:78}{clear:00}「それはマボロシのような ものなのかもしれない」{delay:78}{clear:00}「しかし、そのマボロシを克服すれば、{n} いくばくかの経験を得ることができる」{delay:78}{clear:00}「もし、この先、お主たちが入れない階が{n} あったとしたら、それは塔が拒んでおるのじゃ。{n} また別な機会に 挑戦すればよいじゃろう」{delay:78}{clear:00}「さあ、昇るがよい!!」{end}
-EN: "Welcome to the Plain of Mirages.{n} Here stand four towers called Mirages."{delay:78}{clear:00}"These towers reflect the heart.{n} Fear monsters, and monsters appear.{n} Fear water, and water appears."{delay:78}{clear:00}"Perhaps it is all an illusion."{delay:78}{clear:00}"But overcome the illusion,{n} and you will gain some experience."{delay:78}{clear:00}"If there is a floor you can't enter,{n} the tower is refusing you.{n} Try again another time."{delay:78}{clear:00}"Now, climb!!"{end}
+EN: "Welcome to the Plain of Mirages.{n} Here stand four towers called Mirages."{delay:78}{clear:00}"These towers reflect the heart.{n} Fear monsters, and monsters appear.{n} Fear water, and water appears."{delay:78}{clear:00}"Perhaps it is all an illusion."{delay:78}{clear:00}"But overcome the illusion,{n} and you will gain some experience."{delay:78}{clear:00}"If there is a floor you can't enter,{n} the tower is refusing you.{n} Try again another time, eh?"{delay:78}{clear:00}"Now, climb, young ones!!"{end}
 
 #id 0343 ptr=1BBB33 box=dialog
 JP: タムタム{n}「ここは‥‥」{end}
@@ -1396,7 +1396,7 @@ EN: Reem{n}"He was just knocked back home.{n} ...He's probably fine."{end}
 
 #id 0349 ptr=1BBBBE box=dialog
 JP: シャルル{n}「また、もどってくるかしら?」{end}
-EN: Charles{n}"Will he come back?"{end}
+EN: Charles{n}"Will he come back, I wonder?"{end}
 
 #id 0350 ptr=1BBBD3 box=dialog
 JP: モーモー{n}「さあね?」{end}
@@ -1552,7 +1552,7 @@ EN:
 
 #id 0388 ptr=1BBD7F box=dialog cont=1
 JP: モーモー{n}「おっ、主役のおでましだぜ」{delay:78}{clear:00}「よかったな、ヴァイス。また、マテドラルに{n} もどれんだろ?」
-EN: Moomoo{n}"Hey, the star of the show's here."{delay:78}{clear:00}"Good for ya, Weiss. Ya get to go back{n} to Matedral now, right?"
+EN: Moomoo{n}"Hey, the star of the show's here."{delay:78}{clear:00}"Good for ya, Weiss. You get to go back{n} to Matedral now, right?"
 
 #id 0389 ptr=1BBDB9 box=dialog
 JP: {end}
