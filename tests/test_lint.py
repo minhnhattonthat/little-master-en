@@ -35,6 +35,18 @@ def test_lines_per_page():
     assert lint_entry(e2, "dialog", WID, W, {}) == []
 
 
+def test_addpage_allows_extra_timed_pages_only():
+    jp = "あ{n}い{delay:30}{clear:00}う{end}"
+    two = "A{delay:30}{clear:00}B{n}{delay:30}{clear:00}C{end}"           # one page more than JP
+    assert "control" in lint_entry(Entry(8, 0, {}, jp, two), "dialog", WID, W, {})[0]         # opt-in needed
+    assert lint_entry(Entry(9, 0, {"addpage": "1"}, jp, two), "dialog", WID, W, {}) == []
+    keyless = "A{delay:30}{clear:00}B{clear:00}C{end}"                        # a new page must have its delay
+    assert lint_entry(Entry(10, 0, {"addpage": "1"}, jp, keyless), "dialog", WID, W, {}) == \
+        ["#10: addpage: every {clear} needs a {delay} right before it"]
+    three = "A{delay:30}{clear:00}B{delay:30}{clear:00}C{delay:30}{clear:00}D{end}"
+    assert "control" in lint_entry(Entry(11, 0, {"addpage": "1"}, jp, three), "dialog", WID, W, {})[0]
+
+
 def test_positioned_segments_keep_their_cells():
     e = Entry(7, 0, {}, "{p02:10}勇者軍{p02:12}OK{end}", "{p02:10}Heroes!{p02:12}OK{end}")
     assert lint_entry(e, "wide", WID, W, {}) == ["#7: segment 1 is 7 cells > 6 (positioned layout)"]

@@ -145,6 +145,11 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
         out.append(f"#{e.id}: lowercase under {{cF1}} palette draws UI graphics: '{ui}'")
     repos = "repos" in e.meta                   # repos: a value moved on its screen row (budget still per segment)
     jc, ec = _controls(e.jp, repos), _controls(e.en, repos)
+    extra = int(e.meta.get("addpage", 0))       # addpage=N: N more timed pages than JP ({delay}{clear}, M7 engine test)
+    if extra:
+        if re.search(r"(?<!\})\{clear:00\}|(?<!\{delay:[0-9A-Fa-f]{2}\})\{clear:00\}", e.en):
+            out.append(f"#{e.id}: addpage: every {{clear}} needs a {{delay}} right before it")
+        ec = ec - Counter({"{clear:00}": extra})
     if jc != ec:
         out.append(f"#{e.id}: control codes differ: missing {sorted((jc - ec).elements())} extra {sorted((ec - jc).elements())}")
     flat = POS.sub(" ", re.sub(r"\{(n|delay:[0-9A-Fa-f]{2})\}", " ", e.en)).replace("_", " ")

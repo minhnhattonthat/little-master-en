@@ -521,3 +521,49 @@ emu.addEventCallback(function()
 end, emu.eventType.endFrame)
 ''', tmp_path / "o")
     assert res == "kept", res
+
+
+def test_added_timed_page_clears_and_draws_the_next_page(tmp_path, monkeypatch):
+    """addpage=N (lint): an EN page JP doesn't have, as the game's own {delay}{clear} pair. Page 1 must be wiped and
+    page 2 drawn on the window's first row, and the event must go on to its next inline text."""
+    real, hits = build.parse, []
+
+    def f(text):
+        es = real(text)
+        for e in es:
+            if PEACOCK_JP in e.jp and "{speed:02}" in e.jp:
+                e.en = '{p7F:02}{speed:02}"Peacock, run home!"{delay:30}{clear:00}"We\'ll stop them."{end}'
+                e.meta["addpage"] = "1"
+                hits.append(e.id)
+        return es
+    monkeypatch.setattr(build, "parse", f)
+    sfc = build.build(tmp_path / "b", "en")
+    assert len(hits) == 1
+    res = run(sfc, "ordinary_field_message", '''
+local inline, first = 0, {}
+emu.addMemoryCallback(function() if loaded then inline = inline + 1 end end,
+  emu.callbackType.exec, 0x01FA4E, 0x01FA4E, emu.cpuType.snes, emu.memType.snesMemory)
+local function row24()
+  local t = {}
+  for c = 0, 31 do t[#t+1] = emu.read16(0x9000 + 24 * 64 + c * 2, emu.memType.snesWorkRam) end
+  return table.concat(t, ",")
+end
+emu.addEventCallback(function()
+  if loaded and frame > 400 and frame % 60 < 4 then emu.setInput({a = true}, 0) end
+end, emu.eventType.inputPolled)
+emu.addEventCallback(function()
+  if not loaded then return end
+  frame = frame + 1
+  if frame == 250 or frame == 340 then
+    first[#first+1] = row24()
+    local s = io.open(OUT_DIR .. "/page" .. #first .. ".png", "wb"); s:write(emu.takeScreenshot()); s:close()
+  end
+  if frame == 900 then
+    local f = io.open(OUT_DIR .. "/rt.txt", "w")
+    f:write(tostring(inline) .. " " .. tostring(first[1] ~= first[2])); f:close(); emu.stop(0)
+  end
+end, emu.eventType.endFrame)
+''', tmp_path / "o")
+    inline, changed = res.split()
+    assert changed == "true", "row 24 is the same before and after the added page"
+    assert int(inline) >= 2, "event did not continue past the added page"
