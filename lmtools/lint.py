@@ -150,6 +150,8 @@ def lint_entry(e, box, widths, windows, glossary, enc=None) -> list[str]:
         if re.search(r"(?<!\})\{clear:00\}|(?<!\{delay:[0-9A-Fa-f]{2}\})\{clear:00\}", e.en):
             out.append(f"#{e.id}: addpage: every {{clear}} needs a {{delay}} right before it")
         ec = ec - Counter({"{clear:00}": extra})
+    if e.jp.endswith("{end}") != e.en.endswith("{end}"):   # {end} is layout-free inside, but the build needs it last
+        out.append(f"#{e.id}: EN must end with {{end}} exactly when JP does")
     if jc != ec:
         out.append(f"#{e.id}: control codes differ: missing {sorted((jc - ec).elements())} extra {sorted((ec - jc).elements())}")
     flat = POS.sub(" ", re.sub(r"\{(n|delay:[0-9A-Fa-f]{2})\}", " ", e.en)).replace("_", " ")

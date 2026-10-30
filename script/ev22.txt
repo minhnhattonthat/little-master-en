@@ -76,7 +76,7 @@ EN: {p7F:02}{speed:02}"Now, look at this old document.{n}{delay:30} Here,{delay:
 
 #id 0019 ptr=11415B box=dialog
 JP: {p7F:0E}主人「まいどあり。次もひいきにしておくれ」{end}
-EN: {p7F:0E}Owner: "Thanks! Come again soon."{end}
+EN: {p7F:0E}Owner: "Much obliged! Do come again soon."{end}
 
 #id 0020 ptr=1141B9 box=dialog
 JP: {p7F:0E}医者「おだいじに」{end}
@@ -108,11 +108,11 @@ EN: {p0D:1A}Viewing map{end}
 
 #id 0027 ptr=114489 box=dialog
 JP: {p7F:02}{speed:02}「こーなったら最後の手段だニャーン。{n}{delay:0A} お前たちの力を借りるニャー!」{end}
-EN: {p7F:02}{speed:02}"Time for my last resort, nyaan.{n}{delay:0A} Lend me your power, meow!"{end}
+EN: {p7F:02}{speed:02}"If it's come to this, it's my last resort, nyaan.{n}{delay:0A} Lend me your power, meow!"{end}
 
 #id 0028 ptr=114518 box=dialog
 JP: {p7F:02}{speed:02}「あいつらを、やっつけるニャーー!」{end}
-EN: {p7F:02}{speed:02}"Get them, meeeow!"{end}
+EN: {p7F:02}{speed:02}"Go get those guys, meeeow!"{end}
 
 #id 0029 ptr=114562 box=dialog
 JP: {p7F:00}体力を自分で回復しました。{end}
@@ -128,11 +128,11 @@ EN: {p7F:02}{speed:02}"I'll get you, meow!"{end}
 
 #id 0032 ptr=114662 box=dialog
 JP: {p7F:02}{speed:02}「みて!{delay:20} 古文書と同じ形だわ」{end}
-EN: {p7F:02}{speed:02}"Look!{delay:20}{n} Why, it matches the old document!"{end}
+EN: {p7F:02}{speed:02}"Look!{delay:20} Why, it's the same{n} shape as in the old document!"{end}
 
 #id 0033 ptr=114684 box=dialog
 JP: {p7F:02}{speed:02}「リイム、{delay:20}虹色の魔石を!」{end}
-EN: {p7F:02}{speed:02}"Reem,{delay:20} the Rainbow Jewels!"{end}
+EN: {p7F:02}{speed:02}"Reem,{delay:20} use the Rainbow Jewels!"{end}
 
 #id 0034 ptr=1146A9 box=dialog
 JP: {p7F:02}{speed:02}「うん、{delay:20}やってみるよ」{end}
@@ -152,7 +152,7 @@ EN: {p7F:02}{speed:02}"This is bad, meow."{end}
 
 #id 0038 ptr=1147D0 box=dialog
 JP: {p7F:01}間違えてしまいました。退場してもらいます。{n}「うわっ、おとしあなだ～」{end}
-EN: {p7F:01}Wrong answer. You must leave.{n}"Whoa, a trapdooooor!"{end}
+EN: {p7F:01}That was wrong. Now you'll have to leave.{n}"Whoa, a trapdooooor!"{end}
 
 #id 0039 ptr=11485C box=dialog
 JP: {p7F:00}どこからか‥不思議な玉が‥。{scroll:00}{end}
@@ -220,7 +220,7 @@ EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{end}
 
 #id 0055 ptr=114FD8 box=dialog
 JP: {p7F:02}{speed:02}「コンベアの乗りごこちは どうかね?{delay:20} ん?」{end}
-EN: {p7F:02}{speed:02}"How's the conveyor ride?{delay:20} Hm?"{end}
+EN: {p7F:02}{speed:02}"How do you like the conveyor ride?{delay:20} Hm?"{end}
 
 #id 0056 ptr=114FFD box=dialog
 JP: {p7F:02}{speed:02}「ただ のっかってるだけじゃ、{n}{delay:20} 我輩のところには たどりつけないよ」{end}
@@ -228,7 +228,7 @@ EN: {p7F:02}{speed:02}"Just riding along won't get you{n}{delay:20} to me, the g
 
 #id 0057 ptr=115030 box=dialog
 JP: {p7F:02}{speed:02}「よーく頭を使うことだね。{delay:30}ヒャハ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"You'd best think real hard.{delay:30} Hyaha."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"You'd best use that head of yours.{delay:30} Hyaha."{scroll:00}{end}
 
 #id 0058 ptr=11505F box=dialog
 JP: {p7F:02}「すべれーーーー」{end}

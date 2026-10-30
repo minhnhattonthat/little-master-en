@@ -28,11 +28,11 @@ EN: {p7F:03}"Eeeeeeeeeeeeeeeeeeeek!"{end}
 
 #id 0007 ptr=01C019 box=dialog
 JP: {p7F:02}{speed:02}「これは‥{delay:20}バルバル鳥じゃないね。{delay:20}はなしてやろう」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"This...{delay:20}isn't a Barbar Bird.{delay:20} Let it go."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"This...{delay:20}isn't a Barbar Bird.{delay:20} I'll let it go."{scroll:00}{end}
 
 #id 0008 ptr=01C050 box=dialog
 JP: {p7F:02}{speed:02}「ああ‥これだ。{delay:30}このイロはまさにバルバル鳥。{n}{delay:30} やっとつかまえたぞ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Ah... this is it.{delay:30} This color...{n} A Barbar Bird for sure.{delay:30} Got one at last."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Ah... this is it.{delay:30} This color is surely{n} a Barbar Bird's.{delay:30} I finally caught one!"{scroll:00}{end}
 
 #id 0009 ptr=01C095 box=dialog
 JP: {p7F:02}{speed:02}「こら～! 鳥をいじめてはいか～ん!」{end}
@@ -80,11 +80,11 @@ EN: {p7F:00}You gained a tremendous power.{n}You can now enter the secret menu.{
 
 #id 0020 ptr=01CBFD box=dialog
 JP: {p7F:02}{speed:02}「ぬぬぬ、秘密のスイッチを 見つけるとは、{n} やるでござるな」{end}
-EN: {p7F:02}{speed:02}"Grr, to find the secret switch...{n} Not bad, I say."{end}
+EN: {p7F:02}{speed:02}"Grr, to think you'd find the secret switch...{n} You're quite good, I say."{end}
 
 #id 0021 ptr=01CC2A box=dialog
 JP: {p7F:02}{speed:02}「しかし、ここは通さないでござる」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"But you shall not pass, I say."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"But I will not let you through here, I say."{scroll:00}{end}
 
 #id 0022 ptr=01D189 box=dialog
 JP: {p7F:00}スイッチパネルを ふみました。{n}大きな音がして 壁が崩れました。{end}
@@ -100,11 +100,11 @@ EN: {p7F:00}You stepped on a switch panel.{n}The conveyor belts reversed.{end}
 
 #id 0025 ptr=01D749 box=dialog
 JP: {p7F:02}{speed:02}「よくここまで来ましたね。{delay:30}おめでとう。{n}{delay:30} それではごきげんよう」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Well done, getting this far.{delay:30} Congrats.{n}{delay:30} And now, farewell."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"You've done well to come this far.{n}{delay:30} Congratulations.{delay:30} And now, farewell."{scroll:00}{end}
 
 #id 0026 ptr=01D781 box=dialog
 JP: {p7F:02}{speed:02}「すばらしい。{delay:30}あなたは全問正解しました。{n}{delay:30} この先の、スペシャルアイテムがもらえます」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Splendid.{delay:30} You got every answer right.{n}{delay:30} The special item ahead is yours."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Splendid.{delay:30} You answered every question right.{n}{delay:30} You may claim the special item ahead."{scroll:00}{end}
 
 #id 0027 ptr=01D7C9 box=dialog
 JP: {p7F:02}{speed:02}「好きなほうのパネルにのってね」{scroll:00}{end}
@@ -140,11 +140,11 @@ EN: {p7F:00}The door opened.{end}
 
 #id 0035 ptr=01DB96 box=dialog
 JP: {p7F:02}{speed:02}「ここを開けては ダメでスワン。{n}{delay:30} この私が こらしめてあげまスワン!」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"You mustn't open this, swan.{n}{delay:30} I'll teach you a lesson, swan!"{scroll:00}{end}
+EN: {p7F:02}{speed:02}"You mustn't open this, swan.{n}{delay:30} I'll teach you a lesson myself, swan!"{scroll:00}{end}
 
 #id 0036 ptr=01DBDC box=dialog
 JP: {p7F:00}??? 何も起こりません。どうしましょう?{scroll:00}{end}
-EN: {p7F:00}??? Nothing happens. What now?{scroll:00}{end}
+EN: {p7F:00}??? Nothing happens. What should we do?{scroll:00}{end}
 
 #id 0037 ptr=01DCAD box=dialog
 JP: {p7F:01}この台座には、もう魔石が置かれています。{scroll:00}{end}
@@ -164,7 +164,7 @@ EN: {p7F:00}You stopped placing the Jewel.{scroll:00}{end}
 
 #id 0041 ptr=01DD84 box=dialog
 JP: {p7F:00}台座の魔石が反応しています。{end}
-EN: {p7F:00}The pedestal Jewels are reacting.{end}
+EN: {p7F:00}The Jewels on the pedestals are reacting.{end}
 
 #id 0042 ptr=01DE63 box=dialog
 JP: {p7F:02}{speed:02}「ダメダメ。キミたちには無理だニャ」{end}
@@ -196,7 +196,7 @@ EN: {p7F:00}You stepped on a switch panel.{n}The conveyor belts reversed.{end}
 
 #id 0049 ptr=01E251 box=dialog
 JP: {p7F:00}秘密の世界への道のりは遠いです。{scroll:00}{end}
-EN: {p7F:00}The way to the secret world is long.{scroll:00}{end}
+EN: {p7F:00}The road to the secret world is a long one.{scroll:00}{end}
 
 #id 0050 ptr=01E270 box=dialog
 JP: {p7F:00}秘密の世界への扉が開かれました。{scroll:00}{end}
@@ -208,7 +208,7 @@ EN: {p7F:00}No one seems to be here.{scroll:00}{end}
 
 #id 0052 ptr=01E2AA box=dialog
 JP: {p7F:02}{speed:02}「‥‥とおもったけど、もう仲間がいっぱいみたいだね。{delay:30} 残念、またこんどさそってね」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"...Or not. Looks like your party's full.{n}{delay:30} Too bad. Ask me again sometime."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"...Or so I thought, but it seems your party's{n} already full.{delay:30} Too bad. Invite me next time."{scroll:00}{end}
 
 #id 0053 ptr=01E2F7 box=dialog
 JP: {p7F:00}新しい仲間が 加わりました。{scroll:00}{end}
@@ -216,7 +216,7 @@ EN: {p7F:00}A new ally joined!{scroll:00}{end}
 
 #id 0054 ptr=01E312 box=dialog
 JP: {p7F:00}壊れた家です。人の気配は ありません。{scroll:00}{end}
-EN: {p7F:00}A ruined house. No sign of anyone.{scroll:00}{end}
+EN: {p7F:00}It's a ruined house. There's no sign of anyone.{scroll:00}{end}
 
 #id 0055 ptr=01E333 box=dialog
 JP: {p7F:02}{speed:02}「ここは家なのだ」{scroll:00}{end}
@@ -244,7 +244,7 @@ EN: {p7F:02}{speed:02}"Squeak squeak.{delay:30} If you're off to{n} Professor Ra
 
 #id 0061 ptr=01E4B5 box=dialog
 JP: {p7F:02}{speed:02}「おやおや、お客さんとはめずらしいね」{scroll:00}{clear:00}「え?{delay:20} ピラミッドに行くのかい?{n}{delay:30} おもしろそうだね。{delay:30}よし、ボクもついていくよ」{end}
-EN: {p7F:02}{speed:02}"My, my, visitors are rare here."{scroll:00}{clear:00}"Huh?{delay:20} Going to the pyramid?{n}{delay:30} Sounds fun.{delay:30} Okay, I'll come too."{end}
+EN: {p7F:02}{speed:02}"My, my, visitors are rare here."{scroll:00}{clear:00}"Huh?{delay:20} You're going to the pyramid?{n}{delay:30} That sounds fun.{delay:30} All right, I'll come too."{end}
 
 #id 0062 ptr=01E527 box=dialog
 JP: {p7F:02}{speed:02}「わたしも おてつだいしましょう。{delay:30}ペリペリ」{end}
@@ -252,11 +252,11 @@ EN: {p7F:02}{speed:02}"I'll lend a hand too.{delay:30} Peri-peri."{end}
 
 #id 0063 ptr=01E566 box=dialog
 JP: {p7F:02}{speed:02}「シーソーふむんでしょ?{delay:30} ぼくもてつだってあげるポン」{end}
-EN: {p7F:02}{speed:02}"Stepping on seesaws?{delay:30} I'll help too, pon."{end}
+EN: {p7F:02}{speed:02}"You're stepping on seesaws, right?{n}{delay:30} I'll help you out, pon."{end}
 
 #id 0064 ptr=01E5AA box=dialog
 JP: {p7F:02}{speed:02}「ポ～ルタ～ さがしものてつだってあげるよ。{delay:30}ガガガ♡」{end}
-EN: {p7F:02}{speed:02}"Pol～ter～ I'll help you search.{delay:30} Gagaga♡"{end}
+EN: {p7F:02}{speed:02}"Pol～ter～ I'll help you find what{n} you're looking for.{delay:30} Gagaga♡"{end}
 
 #id 0065 ptr=01E5EE box=dialog
 JP: {p7F:02}{speed:02}「やあ、こんにちは。{delay:30}ぼくも ついていくよ」{end}
@@ -268,11 +268,11 @@ EN: {p7F:02}{speed:02}"Thank goodness!{delay:20} I was locked in.{n}{delay:30} I
 
 #id 0067 ptr=01E682 box=dialog
 JP: {p7F:02}{speed:02}「ああ、たすかったわ。{delay:30}まよっちゃったの。{n}{delay:30} 出口はどこかしら?{delay:30} 連れていってくださる?」{end}
-EN: {p7F:02}{speed:02}"Oh my, I'm saved.{delay:30} I got lost.{n}{delay:30} Where's the exit?{delay:30} Won't you take me?"{end}
+EN: {p7F:02}{speed:02}"Oh my, I'm saved.{delay:30} I'd gotten lost.{n}{delay:30} Where's the exit?{delay:30} Would you kindly take me?"{end}
 
 #id 0068 ptr=01E6E0 box=dialog
 JP: {p7F:02}{speed:02}「ああっ、やっと助けがきてくれた。{n}{delay:30} もうちょっとで 枯れちゃうところだったよ」{end}
-EN: {p7F:02}{speed:02}"Ahh, help at last.{n}{delay:30} I nearly wilted away."{end}
+EN: {p7F:02}{speed:02}"Ahh, help has finally come!{n}{delay:30} I was just about to wilt away."{end}
 
 #id 0069 ptr=01E733 box=dialog
 JP: {p7F:02}{speed:02}「シャーッ! オレモ ナカマ ニ イレロ!」{end}
@@ -288,7 +288,7 @@ EN: {p7F:02}{speed:02}"Quack♡ Quack♡"{end}
 
 #id 0072 ptr=01E7F1 box=dialog
 JP: {p7F:02}{speed:02}「だれか、{delay:20}だれかボンバーズをとめてくだされ!{n}{delay:30} このままじゃ村は壊滅してしまいますぞ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Someone,{delay:20} someone stop the Bombers!{n}{delay:30} At this rate the village is doomed, I say!"{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Someone,{delay:20} someone, please stop the Bombers!{n}{delay:30} At this rate the village will be ruined, I say!"{scroll:00}{end}
 
 #id 0073 ptr=01E839 box=dialog
 JP: {p7F:02}{speed:02}「この家は、最初に狙われるような{n} きがするなあ。{delay:30}ブルブル」{scroll:00}{end}
@@ -328,11 +328,11 @@ EN: {p7F:02}{speed:02}"I have a feeling this house{n} will be hit last.{delay:30
 
 #id 0082 ptr=01EA39 box=dialog
 JP: {p7F:02}{speed:02}「この家の左にある 立て札の前にたつのだ。{n}{delay:30} そして、矢印のとおりに進むがよい」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Stand before the sign left of this house.{n}{delay:30} Then go the way the arrows point."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Stand before the sign to the left of{n} this house.{delay:30} Then follow the arrows."{scroll:00}{end}
 
 #id 0083 ptr=01EA85 box=dialog
 JP: {p7F:02}{speed:02}「残念でした。こっちはハズレだよ。{delay:30}2つ並んだ{n} 立て札のところまで 戻ってごらん」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Too bad. This way's wrong.{delay:30} Go back to{n} the two signs standing side by side."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Too bad! This is the wrong way.{delay:30} Try going{n} back to the two signs standing side by side."{scroll:00}{end}
 
 #id 0084 ptr=01EAC3 box=dialog
 JP: {p7F:02}{speed:02}「ゴメン、今ちょっと 手がはなせないんだ。{n}{delay:30} またあとで きてくれない?」{scroll:00}{end}
@@ -340,11 +340,11 @@ EN: {p7F:02}{speed:02}"Sorry, I'm a little busy right now.{n}{delay:30} Could yo
 
 #id 0085 ptr=01EB06 box=dialog
 JP: {p7F:02}{speed:02}「ここを護るは 4つの結界。{n}{delay:30} 絵の描かれたパネルは、その鍵になっている」{scroll:00}{clear:00}「パネルの上で 魔物を倒せ。{n}{delay:30} 図柄が揃うとき、道は開かれるであろう」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Four barriers guard this place.{n}{delay:30} The picture panels are their keys."{scroll:00}{clear:00}"Defeat monsters on the panels.{n}{delay:30} Match the pictures to open the way."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Four barriers guard this place.{n}{delay:30} The panels bearing pictures are their keys."{scroll:00}{clear:00}"Defeat monsters on the panels.{n}{delay:30} When the pictures match, the way shall open."{scroll:00}{end}
 
 #id 0086 ptr=01EB75 box=dialog
 JP: {p7F:02}{speed:02}「たいへんだ たいへんだ!{n}{delay:30} ついにここも ボンバーズに目をつけられちまった」{scroll:00}{clear:00}「はやいとこ逃げなきゃ、なにされるか わからないよ。{n}{delay:30} キミたちも、はやく逃げたほうが いいぜ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Oh no, oh no!{n}{delay:30} At last the Bombers are after us too."{scroll:00}{clear:00}"Gotta run, or who knows what they'll do.{n}{delay:30} You'd better get away quick, too."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Oh no, oh no!{n}{delay:30} At last the Bombers are after us too."{scroll:00}{clear:00}"Gotta get away fast, or who knows what{n} they'll do to us.{delay:30} You'd better run quick, too."{scroll:00}{end}
 
 #id 0087 ptr=01EBE7 box=dialog
 JP: {p7F:00}・・・だれもいないようです。{scroll:00}{end}
@@ -352,11 +352,11 @@ EN: {p7F:00}...No one seems to be here.{scroll:00}{end}
 
 #id 0088 ptr=01EBFE box=dialog
 JP: {p7F:02}{speed:02}「このあいだ、おれの友達が{n} たつまきにとばされて ひどいめにあった」{scroll:00}{clear:00}「おまえさんたちも きをつけな‥‥{n}{delay:20} とはいっても どうすることもできないんだけどさ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"The other day, a friend of mine got{n} blown off by a tornado. Terrible."{scroll:00}{clear:00}"You be careful too...{n}{delay:20} Not that there's anything you can do."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"The other day, a friend of mine got blown{n} away by a tornado and had an awful time."{scroll:00}{clear:00}"You be careful too...{n}{delay:20} Not that you can really do much about it."{scroll:00}{end}
 
 #id 0089 ptr=01EC63 box=dialog
 JP: {p7F:02}{speed:02}「いやー、まいったまいった。{n}{delay:30} このあいだ、たつまきに とばされちゃってさ」{scroll:00}{clear:00}「沖の出島まで つれていかれちゃうんだもん。{n}{delay:30} ここまで帰ってくるのが ひと苦労だったよ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Man, what a mess.{n}{delay:30} A tornado blew me away the other day."{scroll:00}{clear:00}"It carried me all the way to the islet.{n}{delay:30} Getting back here was a real pain."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Man, what a mess.{n}{delay:30} A tornado blew me away the other day."{scroll:00}{clear:00}"It took me all the way to the islet offshore.{n}{delay:30} Getting back here was a real pain."{scroll:00}{end}
 
 #id 0090 ptr=01ECD4 box=dialog
 JP: {p7F:02}{speed:02}「ここらへんは いっつも雨が降ってるんだ。{n}{delay:30} だから、スンゲー大きな 水たまりができるのよ」{scroll:00}{clear:00}「オレおよげないからさ、水たまりは困っちゃうのよ。{n}{delay:30} だって、ひあがるまでは 通せんぼなんだもん」{n}{clear:00}「やんなっちゃうよなあ」{scroll:00}{end}
@@ -368,15 +368,15 @@ EN: {p7F:02}{speed:02}"Welcome.{n}{delay:30} Go ahead, open the chest out front.
 
 #id 0092 ptr=01ED8D box=dialog
 JP: {p7F:02}{speed:02}「おれ、あこがれのヴァイス団に入ったんだ。{n}{delay:30} トレジャーハンターだぜ。{delay:20}かっこいいだろ?」{scroll:00}{clear:00}「腕に自信があるなら、あんたらもどうだい?{n}{delay:30} 人手がほしいみたいだから、いれてもらえるかもよ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"I joined Weiss's band, my dream!{n}{delay:30} I'm a treasure hunter.{delay:20} Cool, huh?"{scroll:00}{clear:00}"If you're good, how about joining?{n}{delay:30} Seems they need help. You might get in."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"I joined Weiss's band, just like I dreamed!{n}{delay:30} I'm a treasure hunter now.{delay:20} Cool, huh?"{scroll:00}{clear:00}"If you think you're tough, why not join too?{n}{delay:30} They need hands, so they might let you in."{scroll:00}{end}
 
 #id 0093 ptr=01EE16 box=dialog
 JP: {p7F:02}{speed:02}「ややや! よくここまで これましたね。{n}{delay:30} 何回ぐらい 地雷ふんじゃった?」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Whoa! You made it this far.{n}{delay:30} How many mines did you step on?"{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Whoa! You did well to make it this far.{n}{delay:30} How many mines did you step on?"{scroll:00}{end}
 
 #id 0094 ptr=01EE60 box=dialog
 JP: {p7F:02}{speed:02}「えっ、そりゃスゴい!」{scroll:00}{clear:00}「よし、{delay:20}勘のさえわたったキミには{n} これをプレゼントしちゃおう!」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Huh, that's amazing!"{scroll:00}{clear:00}"Okay,{delay:20} for your sharp instincts,{n} here's a present!"{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Huh, that's amazing!"{scroll:00}{clear:00}"Okay,{delay:20} with instincts as sharp as yours,{n} you've earned this present!"{scroll:00}{end}
 
 #id 0095 ptr=01EEA2 box=dialog
 JP: {p7F:00}勇者軍は"せんしのうでわ"を いただいた。{scroll:00}{end}
@@ -384,7 +384,7 @@ EN: {p7F:00}The Heroes received a "Brave Cuff".{scroll:00}{end}
 
 #id 0096 ptr=01EEC8 box=dialog
 JP: {p7F:02}{speed:02}「ふーん、いい勘してるねぇ。{n}{delay:30} まあ、これでも食べていきなよ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Hmm, good instincts.{n}{delay:30} Well, have some of these."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Hmm, you've got pretty good instincts.{n}{delay:30} Well, have some of these before you go."{scroll:00}{end}
 
 #id 0097 ptr=01EEF7 box=dialog
 JP: {p7F:00}勇者軍は、ドロップを4つ いただいた。{scroll:00}{end}
@@ -396,7 +396,7 @@ EN: {p7F:02}{speed:02}"Well, that's how it goes, I guess.{n}{delay:30} Good luck
 
 #id 0099 ptr=01EF56 box=dialog
 JP: {p7F:02}{speed:02}「ありゃりゃりゃ、それは大変だったね。{delay:30} これで キズぐすりでも買いなよ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Oh my, that was rough.{n}{delay:30} Buy some salve with this."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Oh dear, that must have been rough.{n}{delay:30} Here, buy yourself some salve with this."{scroll:00}{end}
 
 #id 0100 ptr=01EF98 box=dialog
 JP: {p7F:02}{speed:02}「それじゃ がんばってね～～～」{scroll:00}{end}
@@ -404,7 +404,7 @@ EN: {p7F:02}{speed:02}"Good luck, then～～～"{scroll:00}{end}
 
 #id 0101 ptr=01EFB4 box=dialog
 JP: {p7F:02}{speed:02}「ねー、プーちゃんさがしてくれるんでしょ?{n}{delay:30} やくそくだよ。{delay:30}途中であきらめないでね♡」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Hey, you'll find Poo for me, right?{n}{delay:30} Promise.{delay:30} Don't give up halfway♡"{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Hey, you'll find Poo for me, right?{n}{delay:30} You promised.{delay:30} Don't give up halfway, okay♡"{scroll:00}{end}
 
 #id 0102 ptr=01EFF3 box=dialog
 JP: {p7F:02}{speed:02}「砂場を 掘るのじゃ。!{n}{delay:30} 掘って、掘って、{delay:20}掘りまくるのじゃー!」{scroll:00}{end}
@@ -416,15 +416,15 @@ EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{clear:
 
 #id 0104 ptr=01F0DA box=dialog
 JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「はーい、なかなかガンバルね。{n}{delay:30} そろそろ 歩きつかれたんじゃない?」{scroll:00}{clear:00}「オーケイ、OK。{delay:20}キミたちに 楽をさせてあげよう。{n}{delay:30} そこのコンベアに のっかりな」{scroll:00}{clear:00}「キミたちを いいところに運んであげるよ。ヒャハ♡」{scroll:00}{end}
-EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{clear:00}"Well, well, you're trying hard.{n}{delay:30} Getting tired of walking yet?"{scroll:00}{clear:00}"Okay, OK.{delay:20} I'll make it easy for you.{n}{delay:30} Hop on that conveyor."{scroll:00}{clear:00}"I'll carry you somewhere nice. Hyaha♡"{scroll:00}{end}
+EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{clear:00}"Well, well, you're really hanging in there.{n}{delay:30} Aren't you getting tired of walking by now?"{scroll:00}{clear:00}"Okay, OK.{delay:20} I'll make it easy for you.{n}{delay:30} Hop on that conveyor."{scroll:00}{clear:00}"I'll carry you somewhere nice. Hyaha♡"{scroll:00}{end}
 
 #id 0105 ptr=01F183 box=dialog
 JP: {p7F:02}{speed:02}「ここはクルクルの森。{n}{delay:30} 西にぬけると、ライモスの遺跡があります」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"This is Kurukuru Forest.{n}{delay:30} West of here are the Laimos ruins."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"This is Kurukuru Forest.{n}{delay:30} Head west and you'll reach the Laimos ruins."{scroll:00}{end}
 
 #id 0106 ptr=01F1B7 box=dialog
 JP: {p7F:02}{speed:02}「部屋を分かつは、知力の扉。{n}{delay:30} パネルスイッチをふんで、図柄を揃えよ」{scroll:00}{clear:00}「答えは、いずこかに記されている」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"The rooms are split by a door of wits.{n}{delay:30} Step on the panel switches to match."{scroll:00}{clear:00}"The answer is written somewhere."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"A door of wits divides the rooms.{n}{delay:30} Match the pictures with the panel switches."{scroll:00}{clear:00}"The answer is written somewhere."{scroll:00}{end}
 
 #id 0107 ptr=01F20B box=dialog
 JP: {p7F:02}{speed:02}「ここは、ジャスバンの遺跡。{n}{delay:30} スイッチをふむと、扉がひらく」{scroll:00}{end}
@@ -432,7 +432,7 @@ EN: {p7F:02}{speed:02}"These are the Jasvan Ruins.{n}{delay:30} Step on the swit
 
 #id 0108 ptr=01F23C box=dialog
 JP: {p7F:02}{speed:02}「祭壇は、この奥にあります。{n}{delay:30} 参拝がすんだら、針をもとにもどしておくように」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"The altar is further in.{n}{delay:30} After your visit, reset the spikes."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"The altar lies further in.{n}{delay:30} Once you've worshipped, put the spikes back."{scroll:00}{end}
 
 #id 0109 ptr=01F278 box=dialog
 JP: {p7F:02}{speed:02}「ここは 不思議な ピラミッド。{n}{delay:30} 足下をふみしめよ。{delay:30}さすれば、道はひらかれん」{scroll:00}{end}
@@ -440,39 +440,39 @@ EN: {p7F:02}{speed:02}"This is the mysterious pyramid.{n}{delay:30} Tread firmly
 
 #id 0110 ptr=01F2B8 box=dialog
 JP: {p7F:02}{speed:02}「ここは、まよいの森って 呼ばれてんだぜ。{n}{delay:30} カンバンをしっかり見とかないと、すぐに迷子さ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"They call this the Lost Woods.{n}{delay:30} Watch the signs, or you'll get lost fast."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"They call this the Lost Woods.{n}{delay:30} Watch the signs, or you'll be lost in no time."{scroll:00}{end}
 
 #id 0111 ptr=01F2FA box=dialog
 JP: {p7F:02}{speed:02}「ここは おもちゃの塔だよ」{scroll:00}{clear:00}「扉を開けたければ、{n} 宝箱を開けることだね。{delay:30} ケケケ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"This is the Toy Tower."{scroll:00}{clear:00}"If you want the doors open,{n} open the treasure chests.{delay:30} Keh heh heh."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"This is the Toy Tower."{scroll:00}{clear:00}"If you want the doors open, you'd better{n} open the treasure chests.{delay:30} Keh heh heh."{scroll:00}{end}
 
 #id 0112 ptr=01F33F box=dialog
 JP: {p7F:02}{speed:02}「ここは、おもちゃの塔の シーソーのお部屋。{n}{delay:30} シーソーをつかえば、壁を飛び越えられるよ」{scroll:00}{clear:00}「2人ひとくみで 行動しないと、{n} シーソーを うまく使えないから注意してね」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"This is the Toy Tower's seesaw room.{n}{delay:30} Use the seesaws to jump over walls."{scroll:00}{clear:00}"Seesaws only work if you{n} move in pairs, so be careful."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"This is the Toy Tower's seesaw room.{n}{delay:30} Use the seesaws to jump over walls."{scroll:00}{clear:00}"If you don't move in pairs, the seesaws{n} won't work right, so be careful."{scroll:00}{end}
 
 #id 0113 ptr=01F3B4 box=dialog
 JP: {p7F:02}{speed:02}「シーソーハ フタリジャナイト ウゴカセナイヨ。{n}{delay:30} ココマデ コレタンダカラ ワカッテルヨネ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"SEESAWS NEED TWO TO MOVE.{n}{delay:30} YOU GOT THIS FAR, SO YOU KNOW."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"SEESAWS NEED TWO TO MOVE.{n}{delay:30} YOU GOT THIS FAR, SO YOU KNOW THAT."{scroll:00}{end}
 
 #id 0114 ptr=01F3F2 box=dialog
 JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「おどろいたでしょ?{delay:30} 分身した我が輩の強さを{n} 思い知らしてあげましょう」{scroll:00}{clear:00}「さぁ、{delay:30}どこからでも かかってきなさい。{delay:30}ヒャハ♡」{scroll:00}{end}
-EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{clear:00}"Surprised?{delay:30} Behold the might of{n} the great Dr. Skull, multiplied!"{scroll:00}{clear:00}"Come,{delay:30} attack from anywhere.{delay:30} Hyaha♡"{scroll:00}{end}
+EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{clear:00}"Surprised?{delay:30} Behold the might of{n} the great Dr. Skull, multiplied!"{scroll:00}{clear:00}"Come,{delay:30} come at me from wherever you like.{delay:30}{n} Hyaha♡"{scroll:00}{end}
 
 #id 0115 ptr=01F470 box=dialog
 JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「まずは この先のパネルをふんで 次の部屋に{n} すすんでください。{delay:30}運だめしのゲームをしましょう」{scroll:00}{clear:00}「3枚のパネルからお好きなパネルをお選び下さい。{delay:30} ただし、パネルをふむときは みなさんでどうぞ」{scroll:00}{clear:00}「パネルをふむと この部屋の入り口が{n} 閉まる仕掛けに なってますからね。{scroll:00}{clear:00} ヘタすりゃ、全員とじこめられてアウトです。{n}{delay:30} では、幸運を祈ってますよ。{delay:30}ヒャハ♡」{scroll:00}{end}
-EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{clear:00}"Step on the panel ahead, go on to the{n} next room.{delay:30} Let's play a game of luck."{scroll:00}{clear:00}"Please pick any one of the 3 panels.{n}{delay:30} But step on it all together."{scroll:00}{clear:00}"Stepping on a panel closes{n} this room's entrance.{scroll:00}{clear:00} Mess up, and you're all locked in. Out!{n}{delay:30} Well, good luck to you.{delay:30} Hyaha♡"{scroll:00}{end}
+EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{clear:00}"First, step on the panel ahead and go on to{n} the next room.{delay:30} Let's play a game of luck."{scroll:00}{clear:00}"Please pick any one of the 3 panels.{n}{delay:30} But when you step on it, do it all together."{scroll:00}{clear:00}"Stepping on a panel triggers a trap{n} that closes this room's entrance.{scroll:00}{clear:00} Mess up, and you're all locked in. Game over!{n}{delay:30} Well then, I wish you luck.{delay:30} Hyaha♡"{scroll:00}{end}
 
 #id 0116 ptr=01F57C box=dialog
 JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「おやおや、けっこう がんばりますね。{n}{delay:30} この調子で 私をたのしませてくださいよ」{scroll:00}{end}
-EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{clear:00}"My, my, you're doing quite well.{n}{delay:30} Keep entertaining me like this."{scroll:00}{end}
+EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{clear:00}"My, my, you're doing quite well.{n}{delay:30} Keep it up and keep me entertained."{scroll:00}{end}
 
 #id 0117 ptr=01F5D5 box=dialog
 JP: {p7F:02}{speed:02}「マテドラルの城で なにがおこってるんだい?{n}{delay:30} 兵隊がおしかけてきて、えれえ騒ぎだよ」{scroll:00}{clear:00}「いったいどうなっちまうんだ?」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"What's going on at Matedral Castle?{n}{delay:30} Soldiers barged in, it's a huge fuss."{scroll:00}{clear:00}"What on earth will happen?"{scroll:00}{end}
+EN: {p7F:02}{speed:02}"What's going on at Matedral Castle?{n}{delay:30} Soldiers barged in, and there's a huge fuss."{scroll:00}{clear:00}"What on earth is gonna happen now?"{scroll:00}{end}
 
 #id 0118 ptr=01F629 box=dialog
 JP: {p7F:02}{speed:02}「ああ、こまったこまった。{n}{delay:30} はね橋のスイッチを 占拠されちゃったッ!」{scroll:00}{clear:00}「ああッ、この大変なときにッ!{n}{delay:30} ああッ、これでは 兄に会いにいけないッ!」{scroll:00}{clear:00}「橋のむこうには、私の兄が暮しているんですよ。{n}{delay:30} 私とちがって、たくましいんですよ、これがッ!」{scroll:00}{clear:00}「橋さえかかれば、兄が おちからになれるのにッ。{n}{delay:30} ああッ、ひよわな自分がもどかしいッ!」{end}
-EN: {p7F:02}{speed:02}"Oh, what to do, what to do.{n}{delay:30} They took the drawbridge switch!"{scroll:00}{clear:00}"Ah! At a time like this!{n}{delay:30} Ah! Now I can't go see my brother!"{scroll:00}{clear:00}"My brother lives across the bridge.{n}{delay:30} Unlike me, he's really tough!"{scroll:00}{clear:00}"If only the bridge were down, he'd help.{n}{delay:30} Ah! My weakness is so frustrating!"{end}
+EN: {p7F:02}{speed:02}"Oh, what to do, what to do.{n}{delay:30} They took the drawbridge switch!"{scroll:00}{clear:00}"Ah! At a time like this!{n}{delay:30} Ah! Now I can't go see my brother!"{scroll:00}{clear:00}"My brother lives across the bridge.{n}{delay:30} Unlike me, he's really tough, I tell you!"{scroll:00}{clear:00}"If only the bridge were down, he could{n} help you.{delay:30} Ah! I hate being such a weakling!"{end}
 
 #id 0119 ptr=01F70F box=dialog
 JP: {p7F:02}{speed:02}「ああ、たすかったッ。{delay:30}オレもついていくぜッ!」{end}
@@ -520,7 +520,7 @@ EN: {p7F:02}{speed:02}"Thanks for coming.{delay:30} I'll join you, penguin."{end
 
 #id 0130 ptr=01F96B box=dialog
 JP: {p7F:02}{speed:02}「おもての ゆきだるまを くずしてごらん。{n}{delay:30} いいものが みつかるかもよ。{delay:30}うー、寒い寒い」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Try breaking the snowman out front.{n}{delay:30} You might find something.{delay:30} Brr, cold."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Try breaking the snowman out front.{n}{delay:30} You might find something nice.{delay:30} Brr, so cold!"{scroll:00}{end}
 
 #id 0131 ptr=01F9B4 box=dialog
 JP: {p7F:00}なんと、宝箱は ミミックだった!{scroll:00}{end}

@@ -28,6 +28,11 @@ def test_layout_codes_dont_count_for_parity():
     assert lint_entry(e, "wide", WID, W, {}) == []
 
 
+def test_dropped_end_is_reported():
+    e = Entry(4, 0, {}, "あ{end}", "A")
+    assert lint_entry(e, "wide", WID, W, {}) == ["#4: EN must end with {end} exactly when JP does"]
+
+
 def test_lines_per_page():
     e = Entry(5, 0, {}, "あ{n}い{end}", "A{n}B{n}C{end}")
     assert lint_entry(e, "dialog", WID, W, {}) == ["#5: page 1 has 3 lines > 2"]
