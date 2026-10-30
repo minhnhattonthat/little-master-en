@@ -64,18 +64,19 @@ def merge_en(path, fresh) -> list[int]:
 
 
 def apply_tsv(path, tsv) -> tuple[int, list[int]]:
-    """Set EN from `id<TAB>EN` lines (# comments allowed). Returns (applied, ids not in the file)."""
+    """Set EN from `id<TAB>EN[<TAB>addpage=N]` lines (# comments allowed). Returns (applied, ids not in the file)."""
     path = Path(path)
     es = parse(path.read_text(encoding="utf-8"))
     tr = {}
     for line in tsv.splitlines():
         if line.strip() and not line.startswith("#"):
-            i, en = line.split("\t", 1)
-            tr[int(i)] = en
+            i, en, *meta = line.split("\t")
+            tr[int(i)] = en, dict(m.split("=", 1) for m in meta if m.startswith("addpage="))
     applied = 0
     for e in es:
         if e.id in tr:
-            e.en = tr.pop(e.id)
+            e.en, meta = tr.pop(e.id)
+            e.meta.update(meta)
             applied += 1
     save(path, es, force=True)
     return applied, sorted(tr)

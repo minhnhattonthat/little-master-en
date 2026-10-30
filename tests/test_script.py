@@ -69,6 +69,15 @@ def test_apply_tsv_sets_en_and_reports_unknown_ids(tmp_path):
     assert b"\r\n" not in p.read_bytes()
 
 
+def test_apply_tsv_third_column_sets_addpage(tmp_path):
+    from lmtools.script import apply_tsv
+    p = tmp_path / "s.txt"
+    save(p, [Entry(0, 0x10, {"box": "a"}, "あ{end}", "")])
+    apply_tsv(p, "0\tA{delay:30}{clear:00}B{end}\taddpage=1\n")
+    e = parse(p.read_text(encoding="utf-8"))[0]
+    assert (e.en, e.meta) == ("A{delay:30}{clear:00}B{end}", {"box": "a", "addpage": "1"})
+
+
 def test_show_lists_range_with_metas():
     from lmtools.script import show
     es = [Entry(0, 1, {"box": "a"}, "あ{end}"), Entry(1, 2, {"cont": "1"}, "い{end}"), Entry(2, 3, {}, "う{end}")]

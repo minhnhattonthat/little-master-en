@@ -262,7 +262,11 @@ end, emu.eventType.endFrame)
 ''')
     assert mesen.run(sfc, "_rt.lua", tmp_path / "o") == 0
     vwf, rows, fixed = map(int, (tmp_path / "o" / "rt.txt").read_text().split())
-    assert vwf >= 15 and fixed == 0, (vwf, fixed)    # every row of the 3 lines has >= 15 VWF cells; no fixed letters
+    from lmtools.font import parse_font
+    from lmtools.lint import _px
+    w = {ch: x for ch, (x, _) in parse_font(Path("src/font/vwf.txt").read_text(encoding="utf-8")).items()}
+    cells = min(_px(s, w) for s in ("Moomoo is a mighty minotaur.", "Second line of text here.", "Third line, the last one.")) // 8
+    assert vwf >= cells and fixed == 0, (vwf, cells, fixed)    # every row of the 3 lines is VWF cells; no fixed letters
                                                      # (units) and no slot tile shared with labels outside (1000s)
 
 
