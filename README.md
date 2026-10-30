@@ -2,7 +2,7 @@
 
 Fan translation of *Little Master: Nijiiro no Maseki* (Little Master: Jewels of Rainbow), Tokuma Shoten Intermedia / Zener Works, 1995.
 
-**Play it:** download `LittleMaster_EN_v1.0.zip` from [Releases](../../releases), and apply the `.bps` to your own Japanese ROM (CRC32 `B916334C`, 2 MB, no header). Patched ROM CRC32 `85B10100`.
+**Play it:** download `LittleMaster_EN_v1.2.zip` from [Releases](../../releases), and apply the `.bps` to your own Japanese ROM (CRC32 `B916334C`, 2 MB, no header). Patched ROM CRC32 `EFF10D92`. Tested in Mesen2. Unofficial; no pre-patched ROMs.
 
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate helps most.
 
@@ -21,6 +21,15 @@ Known issues: one speech-bubble graphic (ROM `09DB16`) may still be Japanese; no
 This repo holds the source only: no ROM data. Everything is built from the original ROM you supply.
 
 - Full script translation (19 blocks, 3723 entries), variable-width font, relocated text, translated title subtitle.
+
+## Translation status
+
+| Part | Status |
+|---|---|
+| Story dialogue and event text | Translated; every chapter story-reviewed for continuity and character voice |
+| Menus, items, spells, units, battle messages | Translated |
+| Title screen subtitle | Translated |
+| Graphics | Translated, except possibly one speech-bubble graphic (ROM `09DB16`), not yet seen in game |
 
 ## What's here
 
