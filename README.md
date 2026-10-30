@@ -10,7 +10,7 @@ Fan translation of *Little Master: Nijiiro no Maseki* (Little Master: Jewels of 
 
 | Part | Status |
 |---|---|
-| Dialogue / story | Translated |
+| Dialogue / story | Translated; every chapter story-reviewed for continuity and character voice |
 | Units, items, spells, monsters, battle messages | Translated |
 | Title screen | Translated (subtitle "~ Jewels of Rainbow ~") |
 | World-map labels, UI label graphics, intro credits | English in the original (the map art spells Jusvan; the script uses Jasvan) |
@@ -21,15 +21,6 @@ Known issues: one speech-bubble graphic (ROM `09DB16`) may still be Japanese; no
 This repo holds the source only: no ROM data. Everything is built from the original ROM you supply.
 
 - Full script translation (19 blocks, 3723 entries), variable-width font, relocated text, translated title subtitle.
-
-## Translation status
-
-| Part | Status |
-|---|---|
-| Story dialogue and event text | Translated; every chapter story-reviewed for continuity and character voice |
-| Menus, items, spells, units, battle messages | Translated |
-| Title screen subtitle | Translated |
-| Graphics | Translated, except possibly one speech-bubble graphic (ROM `09DB16`), not yet seen in game |
 
 ## What's here
 
