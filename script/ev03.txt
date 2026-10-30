@@ -208,7 +208,7 @@ EN: {p7F:00}No one seems to be here.{scroll:00}{end}
 
 #id 0052 ptr=01E2AA box=dialog
 JP: {p7F:02}{speed:02}「‥‥とおもったけど、もう仲間がいっぱいみたいだね。{delay:30} 残念、またこんどさそってね」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"...I thought so, but your party's full.{n}{delay:30} Too bad. Ask me again sometime."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"...Or not. Looks like your party's full.{n}{delay:30} Too bad. Ask me again sometime."{scroll:00}{end}
 
 #id 0053 ptr=01E2F7 box=dialog
 JP: {p7F:00}新しい仲間が 加わりました。{scroll:00}{end}
@@ -268,7 +268,7 @@ EN: {p7F:02}{speed:02}"Thank goodness!{delay:20} I was locked in.{n}{delay:30} I
 
 #id 0067 ptr=01E682 box=dialog
 JP: {p7F:02}{speed:02}「ああ、たすかったわ。{delay:30}まよっちゃったの。{n}{delay:30} 出口はどこかしら?{delay:30} 連れていってくださる?」{end}
-EN: {p7F:02}{speed:02}"Oh, I'm saved.{delay:30} I got lost.{n}{delay:30} Where's the exit?{delay:30} Will you take me?"{end}
+EN: {p7F:02}{speed:02}"Oh my, I'm saved.{delay:30} I got lost.{n}{delay:30} Where's the exit?{delay:30} Won't you take me?"{end}
 
 #id 0068 ptr=01E6E0 box=dialog
 JP: {p7F:02}{speed:02}「ああっ、やっと助けがきてくれた。{n}{delay:30} もうちょっとで 枯れちゃうところだったよ」{end}
@@ -288,7 +288,7 @@ EN: {p7F:02}{speed:02}"Quack♡ Quack♡"{end}
 
 #id 0072 ptr=01E7F1 box=dialog
 JP: {p7F:02}{speed:02}「だれか、{delay:20}だれかボンバーズをとめてくだされ!{n}{delay:30} このままじゃ村は壊滅してしまいますぞ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Someone,{delay:20} someone stop the Bombers!{n}{delay:30} At this rate the village is done for!"{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Someone,{delay:20} someone stop the Bombers!{n}{delay:30} At this rate the village is doomed, I say!"{scroll:00}{end}
 
 #id 0073 ptr=01E839 box=dialog
 JP: {p7F:02}{speed:02}「この家は、最初に狙われるような{n} きがするなあ。{delay:30}ブルブル」{scroll:00}{end}
@@ -408,7 +408,7 @@ EN: {p7F:02}{speed:02}"Hey, you'll find Poo for me, right?{n}{delay:30} Promise.
 
 #id 0102 ptr=01EFF3 box=dialog
 JP: {p7F:02}{speed:02}「砂場を 掘るのじゃ。!{n}{delay:30} 掘って、掘って、{delay:20}掘りまくるのじゃー!」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Dig in the sand!{n}{delay:30} Dig, dig,{delay:20} dig like crazy!"{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Dig in the sand, sonny!{n}{delay:30} Dig, dig,{delay:20} dig like crazy!"{scroll:00}{end}
 
 #id 0103 ptr=01F02C box=dialog
 JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「ヒャッヒャッヒャ!{delay:20} ワープの迷路は{n} 気に入って もらえましたか?」{scroll:00}{clear:00}「パネルのとび先を覚えないと、{n} 先にすすむのは ムズかしいですよ」{scroll:00}{clear:00}「頭をつかって、挑戦してくださいねー!{n}{delay:30} ムリかな?{delay:20} ヒャハ♡」{scroll:00}{end}
@@ -456,7 +456,7 @@ EN: {p7F:02}{speed:02}"SEESAWS NEED TWO TO MOVE.{n}{delay:30} YOU GOT THIS FAR, 
 
 #id 0114 ptr=01F3F2 box=dialog
 JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「おどろいたでしょ?{delay:30} 分身した我が輩の強さを{n} 思い知らしてあげましょう」{scroll:00}{clear:00}「さぁ、{delay:30}どこからでも かかってきなさい。{delay:30}ヒャハ♡」{scroll:00}{end}
-EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{clear:00}"Surprised?{delay:30} Let me show you{n} the strength of my many selves."{scroll:00}{clear:00}"Come,{delay:30} attack from anywhere.{delay:30} Hyaha♡"{scroll:00}{end}
+EN: {p7F:02}{speed:02} Dr. Skull's voice comes from somewhere.{scroll:00}{clear:00}"Surprised?{delay:30} Behold the might of{n} the great Dr. Skull, multiplied!"{scroll:00}{clear:00}"Come,{delay:30} attack from anywhere.{delay:30} Hyaha♡"{scroll:00}{end}
 
 #id 0115 ptr=01F470 box=dialog
 JP: {p7F:02}{speed:02} どこからか Dr..スカルの声がきこえてくる。{scroll:00}{clear:00}「まずは この先のパネルをふんで 次の部屋に{n} すすんでください。{delay:30}運だめしのゲームをしましょう」{scroll:00}{clear:00}「3枚のパネルからお好きなパネルをお選び下さい。{delay:30} ただし、パネルをふむときは みなさんでどうぞ」{scroll:00}{clear:00}「パネルをふむと この部屋の入り口が{n} 閉まる仕掛けに なってますからね。{scroll:00}{clear:00} ヘタすりゃ、全員とじこめられてアウトです。{n}{delay:30} では、幸運を祈ってますよ。{delay:30}ヒャハ♡」{scroll:00}{end}
@@ -528,7 +528,7 @@ EN: {p7F:00}Whoa, the treasure chest was a Mimic!{scroll:00}{end}
 
 #id 0132 ptr=01F9CE box=dialog
 JP: {p7F:02}{speed:02}「よくぞ、みつけてくださった。{delay:30}ともに戦いましょう」{end}
-EN: {p7F:02}{speed:02}"Thanks for finding me.{delay:30} Let's fight!"{end}
+EN: {p7F:02}{speed:02}"You found me!{delay:30} Let's fight together."{end}
 
 #id 0133 ptr=01FA10 box=dialog
 JP: {p7F:02}{speed:02}「それじゃ、{n}{delay:20} 全問正解をめざして 頑張るでチュー」{scroll:00}{end}

@@ -124,7 +124,7 @@ EN: {p7F:02}{speed:02}"Wait, don't take that stone!"{end}
 
 #id 0031 ptr=050B1C box=dialog
 JP: {p7F:02}{speed:02}「ここは俺様の管轄だ。{n}{delay:30} 勝手に入ってくるんじゃねえ!」{end}
-EN: {p7F:02}{speed:02}"This is my turf.{n}{delay:30} Don't you barge in here!"{end}
+EN: {p7F:02}{speed:02}"This is my turf, you punks.{n}{delay:30} Don't you go barging in!"{end}
 
 #id 0032 ptr=050B53 box=dialog
 JP: {p7F:02}{speed:02}「一歩でも動いてみやがれ、ブッとばしたるぞ!」{end}
@@ -236,11 +236,11 @@ EN: {p7F:02}{speed:02}"What's this?{delay:20} A weird pebble."{end}
 
 #id 0059 ptr=051173 box=dialog
 JP: {p7F:02}{speed:02}「‥‥いまのは 誰なのよ?」{end}
-EN: {p7F:02}{speed:02}"...Who was that just now?"{end}
+EN: {p7F:02}{speed:02}"...Just who was that, huh?"{end}
 
 #id 0060 ptr=051193 box=dialog
 JP: {p7F:02}{speed:02}「盗掘団ね。{delay:30}彼らが 荒らし回ったから{n} 結界が 役に立たなくなってるのよ」{end}
-EN: {p7F:02}{speed:02}"Tomb raiders.{delay:30} They ransacked the place,{n} so the barrier doesn't work anymore."{end}
+EN: {p7F:02}{speed:02}"Hmph, tomb raiders.{delay:30} They trashed it,{n} so the barrier doesn't work anymore."{end}
 
 #id 0061 ptr=0511D6 box=dialog
 JP: {p7F:02}{speed:02}「なんてことなの!」{end}
@@ -268,7 +268,7 @@ EN: {p7F:02}{speed:02}"Huh?{delay:30} Voices from inside the cave?"{end}
 
 #id 0067 ptr=05152F box=dialog
 JP: {p7F:02}{speed:02}???「なんだよこりゃ!?{n}{delay:30}    いってえ どうなってやがんでい!?」{end}
-EN: {p7F:02}{speed:02}???"What the heck is this!?{n}{delay:30}    What's going on here!?"{end}
+EN: {p7F:02}{speed:02}???"What the heck is this!?{n}{delay:30}    What in blazes is goin' on!?"{end}
 
 #id 0068 ptr=051561 box=dialog
 JP: {p7F:02}{speed:02}???「‥‥むう」{end}
@@ -312,11 +312,11 @@ EN: {p7F:02}{speed:02}"Wouldn't Professor Radock know?"{end}
 
 #id 0078 ptr=05179B box=dialog
 JP: {p7F:02}{speed:02}「そうね、でも‥‥{n}{delay:30} どうやって これを伝えればいいのかしら‥‥」{end}
-EN: {p7F:02}{speed:02}"Maybe, but...{n}{delay:30} how do we get this to him..."{end}
+EN: {p7F:02}{speed:02}"Maybe, but...{n}{delay:30} how do we get this to him, I wonder..."{end}
 
 #id 0079 ptr=0517D9 box=dialog
 JP: {p7F:02}{speed:02}「そんなん簡単だぜ」{end}
-EN: {p7F:02}{speed:02}"That's easy."{end}
+EN: {p7F:02}{speed:02}"Heh, that ain't hard."{end}
 
 #id 0080 ptr=051838 box=dialog repos=1 slack=16
 JP: {p06:0C}リイム達は 謎の石板をたずさえて{p06:0F}ラドック教授の元を 訪ねることに{end}
@@ -504,15 +504,15 @@ EN: {p7F:02}{speed:02}"How fun.{delay:30} It's made of blocks."{end}
 
 #id 0126 ptr=05246D box=dialog
 JP: {p7F:02}{speed:02}「ここに 子供たちがいるのか?{n}{delay:30} 誰も いねえじゃねえか」{end}
-EN: {p7F:02}{speed:02}"The kids are here?{n}{delay:30} There's nobody around."{end}
+EN: {p7F:02}{speed:02}"Kids're here?{n}{delay:30} Ain't nobody around."{end}
 
 #id 0127 ptr=0524A1 box=dialog
 JP: {p7F:02}{speed:02}「あら、知らないの?{delay:30} 昼間の おもちゃは{n} おもちゃ箱に入ってるもんなのよ」{end}
-EN: {p7F:02}{speed:02}"Didn't you know?{delay:30} In the daytime,{n} toys stay in the toy box."{end}
+EN: {p7F:02}{speed:02}"Oh, didn't you know?{delay:30} By day,{n} toys stay in their toy box, of course."{end}
 
 #id 0128 ptr=0524E0 box=dialog
 JP: {p7F:02}{speed:02}「???{delay:30} そーいうもんかねえ」{end}
-EN: {p7F:02}{speed:02}"???{delay:30} Is that so..."{end}
+EN: {p7F:02}{speed:02}"???{delay:30} If ya say so..."{end}
 
 #id 0129 ptr=052503 box=dialog
 JP: {p7F:02}{speed:02}「でも、へんね。{delay:30} なんか ふんいきが違うわ‥‥」{end}
@@ -524,7 +524,7 @@ EN: {p7F:02}{speed:02}"THIS IS THE TOY TOWER.{n}{delay:30} INTRUDERS, LEAVE!"{en
 
 #id 0131 ptr=052585 box=dialog
 JP: {p7F:02}{speed:02}「おっと、{delay:20}とても 楽しい場所とは思えねえなあ」{end}
-EN: {p7F:02}{speed:02}"Whoa,{delay:20} this doesn't look like a fun place."{end}
+EN: {p7F:02}{speed:02}"Whoa,{delay:20} this sure ain't no fun place."{end}
 
 #id 0132 ptr=0525B4 box=dialog
 JP: {p7F:02}{speed:02}「へんよね。{delay:30}ここのおもちゃは 子供好きな{n} やさしい精霊だったはず」{end}
@@ -532,11 +532,11 @@ EN: {p7F:02}{speed:02}"It's strange.{delay:30} The toys here were{n} gentle spir
 
 #id 0133 ptr=0525E9 box=dialog
 JP: {p7F:02}{speed:02}「なんで こんなことになっちゃったのかしら?」{end}
-EN: {p7F:02}{speed:02}"How did it come to this?"{end}
+EN: {p7F:02}{speed:02}"How did it come to this, I wonder?"{end}
 
 #id 0134 ptr=052689 box=dialog
 JP: {p7F:02}{speed:02}「!?{delay:30} 何かしら、この箱」{end}
-EN: {p7F:02}{speed:02}"!?{delay:30} What's this box?"{end}
+EN: {p7F:02}{speed:02}"!?{delay:30} I wonder what this box is."{end}
 
 #id 0135 ptr=0526AC box=dialog
 JP: {p7F:02}{speed:02}「開けてみるしか‥‥{delay:30}ないんじゃない?」{end}
@@ -580,7 +580,7 @@ EN: {p7F:02}{speed:02}"Eek!"{end}
 
 #id 0145 ptr=052850 box=dialog
 JP: {p7F:02}{speed:02}「平気よ、{delay:20}顔は怖いけどワルモンじゃないわ。{n}{delay:30} お姉ちゃんたちは、あなたたちを 助けにきたのよ」{end}
-EN: {p7F:02}{speed:02}"It's fine,{delay:20} he looks scary but he's good.{n}{delay:30} We came to save you all."{end}
+EN: {p7F:02}{speed:02}"It's fine,{delay:20} he looks scary but he's good.{n}{delay:30} We came to save you all, you know."{end}
 
 #id 0146 ptr=052896 box=dialog
 JP: {p7F:02}{speed:02}「ここにいるのは あなただけ?」{end}
@@ -740,7 +740,7 @@ EN: {p7F:02}{speed:02}"Moomoo!"{end}
 
 #id 0185 ptr=05354C box=dialog
 JP: {p7F:02}{speed:02}「なんだ、行き止まりだぜ」{end}
-EN: {p7F:02}{speed:02}"Huh, a dead end."{end}
+EN: {p7F:02}{speed:02}"Huh. Dead end."{end}
 
 #id 0186 ptr=05357B box=dialog
 JP: {p7F:02}{speed:02}「もー、{delay:20}考えなしに 突っ走っちゃうんだから」{end}
@@ -748,11 +748,11 @@ EN: {p7F:02}{speed:02}"Honestly,{delay:20} charging in without thinking."{end}
 
 #id 0187 ptr=0535B2 box=dialog
 JP: {p7F:02}{speed:02}「ようこそ 侵入者の諸君。{delay:30}我輩は、{n} ここの管理を任されておる Dr..スカルだ」{end}
-EN: {p7F:02}{speed:02}"Welcome, intruders.{delay:30} I am{n} Dr. Skull, in charge of this place."{end}
+EN: {p7F:02}{speed:02}"Welcome, intruders.{delay:30} I am the great{n} Dr. Skull, keeper of this place."{end}
 
 #id 0188 ptr=0535F2 box=dialog
 JP: {p7F:02}{speed:02}「このソロモンの塔は、{delay:20}いたるところに 我輩の{n} 生みだした仕掛けが 凝らしてある」{end}
-EN: {p7F:02}{speed:02}"This Tower of Solomon is filled{delay:20} with{n} tricks of my own design."{end}
+EN: {p7F:02}{speed:02}"This Tower of Solomon is filled{delay:20} with{n} brilliant tricks of my own design."{end}
 
 #id 0189 ptr=053630 box=dialog
 JP: {p7F:02}{speed:02}「ギミックを うまくこなして、{n} フロアーを突破することが できるかな?」{end}
@@ -760,7 +760,7 @@ EN: {p7F:02}{speed:02}"Can you handle the gimmicks{n} and get through each floor
 
 #id 0190 ptr=053662 box=dialog
 JP: {p7F:02}{speed:02}「みごと最上階まで 来られたら、{n}{delay:20} 我輩が お相手してさしあげよう」{end}
-EN: {p7F:02}{speed:02}"If you make it to the top,{n}{delay:20} I'll face you myself."{end}
+EN: {p7F:02}{speed:02}"Make it to the top, and I,{n}{delay:20} the great Dr. Skull, shall face you."{end}
 
 #id 0191 ptr=05369A box=dialog
 JP: {p7F:02}{speed:02}「まずは、お手並みはいけん。{n}{delay:30} そこの貼り紙を よく見たまえ」{end}
@@ -984,7 +984,7 @@ EN: {p7F:02}{speed:02}"Over there!"{end}
 
 #id 0246 ptr=054578 box=dialog
 JP: {p7F:02}{speed:02}「約束どおり、{delay:20}この我輩が お相手しましょう」{end}
-EN: {p7F:02}{speed:02}"As promised,{delay:20} I'll face you myself."{end}
+EN: {p7F:02}{speed:02}"As promised,{delay:20} I, the great{n} Dr. Skull, shall face you myself."{end}
 
 #id 0247 ptr=0545D1 box=dialog
 JP: {p7F:02}{speed:02}「さあ、{delay:20}かかってきたまえ。{delay:30}ヒャハ!」{end}
@@ -1008,7 +1008,7 @@ EN: {p7F:02}{speed:02}"That's enough!"{end}
 
 #id 0252 ptr=05472F box=dialog
 JP: {p7F:02}{speed:02}「俺たちが来たからには、{delay:20}好き勝手させねえぜ!」{end}
-EN: {p7F:02}{speed:02}"Now we're here,{delay:20} you won't run wild!"{end}
+EN: {p7F:02}{speed:02}"We're here now,{delay:20} so ya ain't runnin' wild!"{end}
 
 #id 0253 ptr=054790 box=dialog repos=1 slack=20
 JP: {p08:0C}勇者軍は 魔石を求めて{p0A:0F}クルクルの森にむかいます{end}
@@ -1104,7 +1104,7 @@ EN: {p7F:02}{speed:02}"Gyaha gyaha,{delay:20} now, Princess,{delay:20} hand{n} t
 
 #id 0276 ptr=054E9F box=dialog
 JP: {p7F:02}{speed:02}「嫌です!」{end}
-EN: {p7F:02}{speed:02}"No!"{end}
+EN: {p7F:02}{speed:02}"I will not!"{end}
 
 #id 0277 ptr=054EBE box=dialog
 JP: {p7F:02}{speed:02}「ギャハハ、{delay:20}嫌だってよ」{end}
@@ -1128,7 +1128,7 @@ EN: {p7F:02}{speed:02}"Stop!"{end}
 
 #id 0282 ptr=054FEE box=dialog
 JP: {p7F:02}{speed:02}「汚い手で、姫に さわるんじゃねぇ!」{end}
-EN: {p7F:02}{speed:02}"Keep your filthy hands off her!"{end}
+EN: {p7F:02}{speed:02}"Get yer filthy hands off the princess!"{end}
 
 #id 0283 ptr=055088 box=dialog repos=1 slack=20
 JP: {p07:0C}勇者軍は 急ぎマテドラルへむかう{p05:0F}クレパスの氷河をぬけて 近道をすることに{end}
@@ -1224,7 +1224,7 @@ EN: {p7F:02}{speed:02}"Right."{end}
 
 #id 0306 ptr=055890 box=dialog
 JP: {p7F:02}{speed:02}「ハデに やってくれてるぜ!」{end}
-EN: {p7F:02}{speed:02}"They're really tearing it up!"{end}
+EN: {p7F:02}{speed:02}"They sure ain't holdin' back!"{end}
 
 #id 0307 ptr=0558B0 box=dialog
 JP: {p7F:02}{speed:02}「教王が 心配だ。{delay:30}一気にいくよ!」{end}
@@ -1268,7 +1268,7 @@ EN: {p7F:02}{speed:02}"You've gone too far!"{end}
 
 #id 0317 ptr=055AFD box=dialog
 JP: {p7F:02}{speed:02}「るせえ!{delay:20} 俺様に 意見するんじゃねえ!」{end}
-EN: {p7F:02}{speed:02}"Shut up!{delay:20} Don't you lecture me!"{end}
+EN: {p7F:02}{speed:02}"Shaddap!{delay:20} Don't lecture the great Trump!"{end}
 
 #id 0318 ptr=055B2A box=dialog
 JP: {p7F:02}{speed:02}「我らの理想を 忘れたのか!?{n}{delay:30} ここまですることはない!」{end}
@@ -1276,11 +1276,11 @@ EN: {p7F:02}{speed:02}"Have you forgotten our ideals!?{n}{delay:30} There's no n
 
 #id 0319 ptr=055B60 box=dialog
 JP: {p7F:02}{speed:02}「理想!?{delay:20} 知ったこっちゃねえよ。{n}{delay:30} 俺様は、暴れられれば それでいいんだよ!」{end}
-EN: {p7F:02}{speed:02}"Ideals!?{delay:20} Who cares.{n}{delay:30} As long as I get to cut loose, I'm happy!"{end}
+EN: {p7F:02}{speed:02}"Ideals!?{delay:20} Ain't my problem.{n}{delay:30} Long as I get to cut loose, I'm happy!"{end}
 
 #id 0320 ptr=055B9F box=dialog
 JP: {p7F:02}{speed:02}「ヴァイスの小僧は 気に喰わねえが、{n}{delay:20} 好きかってやれるぶん 気分がいいぜぇ」{end}
-EN: {p7F:02}{speed:02}"I can't stand that Weiss brat, but{n}{delay:20} doing as I please feels great."{end}
+EN: {p7F:02}{speed:02}"Can't stand that Weiss brat, but{n}{delay:20} doin' whatever I please feels great!"{end}
 
 #id 0321 ptr=055BE1 box=dialog
 JP: {p7F:02}{speed:02}「どうしたんだ、{delay:26}我らが 彼らに協力するのは{n} 理想実現の為ではなかったのか?」{end}
@@ -1328,7 +1328,7 @@ EN: {p7F:02}{speed:02}"The Bombers' best squad will face you."{end}
 
 #id 0332 ptr=055EEC box=dialog
 JP: {p7F:02}{speed:02}「どーだ、{delay:20}ビビったか?{n}{delay:30} てめえらも これで最後だぜ。{delay:30}ヒャッヒャッヒャ!」{end}
-EN: {p7F:02}{speed:02}"Well,{delay:20} scared?{n}{delay:30} This is the end for you.{delay:30} Hya hya hya!"{end}
+EN: {p7F:02}{speed:02}"Well,{delay:20} scared?{n}{delay:30} You punks are done for.{delay:30} Hya hya hya!"{end}
 
 #id 0333 ptr=055F34 box=dialog
 JP: {p7F:02}{speed:02}「おい!{delay:20} ガイコツさんよ!」{end}
@@ -1336,7 +1336,7 @@ EN: {p7F:02}{speed:02}"Hey!{delay:20} Mister Skeleton!"{end}
 
 #id 0334 ptr=055F56 box=dialog
 JP: {p7F:02}{speed:02}「逃げるなら 今のうちだぜ」{end}
-EN: {p7F:02}{speed:02}"Better run while you can."{end}
+EN: {p7F:02}{speed:02}"Better run while ya can."{end}
 
 #id 0335 ptr=055F77 box=dialog
 JP: {p7F:02}{speed:02}「ヌガーー‼」{end}
@@ -1372,7 +1372,7 @@ EN: {p7F:02}{speed:02}"Matching them up again, huh?"{end}
 
 #id 0343 ptr=05616E box=dialog
 JP: {p7F:02}{speed:02}「まって、このレバーは なにかしら?」{end}
-EN: {p7F:02}{speed:02}"Wait, what's this lever?"{end}
+EN: {p7F:02}{speed:02}"Wait, what's this lever, I wonder?"{end}
 
 #id 0344 ptr=0561BE box=dialog
 JP: {p7F:02}{speed:02}「なるほどね」{end}
@@ -1424,7 +1424,7 @@ EN: {p7F:02}{speed:02}"...Princess Lime,{delay:20} please stand back."{end}
 
 #id 0356 ptr=0565AA box=dialog
 JP: {p7F:02}{speed:02}「リイム‥‥{delay:30} おきをつけて‥‥」{end}
-EN: {p7F:02}{speed:02}"Reem...{delay:30} be careful..."{end}
+EN: {p7F:02}{speed:02}"Reem...{delay:30} please be careful..."{end}
 
 #id 0357 ptr=056660 box=dialog
 JP: {p7F:02}{speed:02}「ヴァイス、{delay:20}ヤツらがくるぞ、{delay:20}剣をとれ!{n}{delay:30} 迎え撃つぞ」{end}
@@ -1436,7 +1436,7 @@ EN: {p7F:02}{speed:02}"......"{end}
 
 #id 0359 ptr=0566A8 box=dialog
 JP: {p7F:02}{speed:02}「なにしてやがんでい、{delay:20}ほら、{delay:20}おめえたち!{n}{delay:30} 闘いの準備だ!{delay:20} おれに続け!」{end}
-EN: {p7F:02}{speed:02}"What're you doing?{delay:20} Come on,{delay:20} you lot!{n}{delay:30} Get ready to fight!{delay:20} Follow me!"{end}
+EN: {p7F:02}{speed:02}"What're ya doin'?{delay:20} C'mon,{delay:20} you mugs!{n}{delay:30} Get ready to fight!{delay:20} Follow me!"{end}
 
 #id 0360 ptr=05671D box=dialog
 JP: {p7F:02}{speed:02}「きやがったな、{delay:20}ここが お前らの墓場だ!{n}{delay:30} さあ、いくぜ。{delay:20}こんどこそギタギタにしてや‥」{end}
@@ -1488,11 +1488,11 @@ EN: {p7F:02}{speed:02}"But...{delay:30} I..."{end}
 
 #id 0372 ptr=056A00 box=dialog
 JP: {p7F:02}{speed:02}「あなたの行動で 傷ついた人達がいるわ」{end}
-EN: {p7F:02}{speed:02}"People were hurt by what you did."{end}
+EN: {p7F:02}{speed:02}"Your actions hurt people, you know."{end}
 
 #id 0373 ptr=056A24 box=dialog
 JP: {p7F:02}{speed:02}「なにをすれば いいのか?{n}{delay:30} それは、{delay:20}これから考えれば いいことよ」{end}
-EN: {p7F:02}{speed:02}"What should you do?{n}{delay:30} You can think about that{delay:20} from now on."{end}
+EN: {p7F:02}{speed:02}"What should you do?{n}{delay:30} That,{delay:20} you can work out from here."{end}
 
 #id 0374 ptr=056A5F box=dialog
 JP: {p7F:02}{speed:02}「・・・・」{end}
@@ -1540,7 +1540,7 @@ EN: {p7F:02}{speed:02}"Hey, hey,{delay:20} what is this place?"{end}
 
 #id 0385 ptr=056E26 box=dialog
 JP: {p7F:02}{speed:02}「さっさと俺たちを もとの所にもどしな。{n}{delay:30} あんまりおいたがひどいと ゆるさないぜ」{end}
-EN: {p7F:02}{speed:02}"Send us back where we were, now.{n}{delay:30} Push your luck and you'll be sorry."{end}
+EN: {p7F:02}{speed:02}"Send us back where we were, pronto.{n}{delay:30} Keep up the mischief and ya'll be sorry."{end}
 
 #id 0386 ptr=056EF3 box=dialog
 JP: {p7F:02}{end}
@@ -1592,7 +1592,7 @@ EN: {p7F:02}{speed:02}"Someday,{delay:20} with stronger friends,{n}{delay:20} I'
 
 #id 0398 ptr=0571CC box=dialog
 JP: {p7F:02}{speed:02}「いつでもきやがれ。{n}{delay:30} 魔界から 出られるもんならな!」{end}
-EN: {p7F:02}{speed:02}"Come anytime.{n}{delay:30} If you can get out of the demon world!"{end}
+EN: {p7F:02}{speed:02}"Bring it on anytime.{n}{delay:30} If ya can get outta the demon world!"{end}
 
 #id 0399 ptr=05727C box=dialog
 JP: {p7F:02}{speed:02}「くやしいニャー」{end}
@@ -1640,7 +1640,7 @@ EN: {p7F:02}{speed:02}"Welcome to the Village of Illusions.{n}{delay:30} Here,{d
 
 #id 0410 ptr=0576AC box=dialog
 JP: {p7F:02}{speed:02}「この塔は不思議なもので、{n}{delay:20} 訪れる者の心を 映すのじゃ」{end}
-EN: {p7F:02}{speed:02}"These towers are strange things.{n}{delay:20} They reflect the hearts of visitors."{end}
+EN: {p7F:02}{speed:02}"Strange things, these towers.{n}{delay:20} They reflect visitors' hearts, they do."{end}
 
 #id 0411 ptr=0576DF box=dialog
 JP: {p7F:02}{speed:02}「魔物を恐れれば 魔物が現れ、{n}{delay:20} 水を恐れれば 水が現れる」{end}
@@ -1660,7 +1660,7 @@ EN: {p7F:02}{speed:02}"As the rumor spread,{delay:20} at some point{n}{delay:20}
 
 #id 0415 ptr=0577CD box=dialog
 JP: {p7F:02}{speed:02}「さてさて、{delay:20}おまえさんたちは{n}{delay:20} ミラージュの塔に 何を見るかのお?」{end}
-EN: {p7F:02}{speed:02}"Now then,{delay:20} what will you{n}{delay:20} see in the Mirage Towers?"{end}
+EN: {p7F:02}{speed:02}"Now then,{delay:20} what will you folks{n}{delay:20} see in the Mirage Towers, eh?"{end}
 
 #id 0416 ptr=057889 box=dialog
 JP: {p7F:02}{speed:02}「ここは‥‥?」{end}

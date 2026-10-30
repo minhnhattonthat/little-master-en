@@ -16,6 +16,9 @@ subagents. Do not touch git, tools, or any other script file.
   Find them with: `python -X utf8 lm.py show <block> 0 9999` and the JP.
 - Change wording only. Keep every control code where it is (`{delay}`, `{scroll}`, `{clear}`, `{p..}`, `{color}`),
   the speaker label line, names exactly as in `glossary.md`, and the meaning. One device per line is enough.
+- Never add content the JP lacks (insults, requests, new clauses): a device colours a line, it does not change what
+  is said. Bad: よろしくね -> "Be nice to me, will you?!"; 人質がいるのよ -> "...hostage, dummy!". Don't tack the same
+  tic ("my boy", "eh?") on every line of a speaker; vary it and skip it where it reads oddly.
 
 ## How
 1. Write `work/tl/voice/<block>.tsv`: `id<TAB>full EN line` (with every control code, exactly as the script stores

@@ -68,11 +68,11 @@ EN:
 
 #id 0017 ptr=1140B2 box=dialog
 JP: {p7F:02}{speed:02}「おお、ありがとよ。{n}{delay:30} それよりも大変じゃ。{delay:30}やはり本当だったんじゃ」{end}
-EN: {p7F:02}{speed:02}"Ah, thank you.{n}{delay:30} But listen.{delay:30} It was true after all."{end}
+EN: {p7F:02}{speed:02}"Ah, thank you, thank you.{n}{delay:30} But this is big!{delay:30} It was true after all, eh?"{end}
 
 #id 0018 ptr=1140E9 box=dialog
 JP: {p7F:02}{speed:02}「この古文書を見るのじゃ。{n}{delay:30} ほれ、{delay:20}ここの部分じゃ」{end}
-EN: {p7F:02}{speed:02}"Look at this old document.{n}{delay:30} Here,{delay:20} this part."{end}
+EN: {p7F:02}{speed:02}"Now, look at this old document.{n}{delay:30} Here,{delay:20} this part, you see."{end}
 
 #id 0019 ptr=11415B box=dialog
 JP: {p7F:0E}主人「まいどあり。次もひいきにしておくれ」{end}
@@ -208,7 +208,7 @@ EN: {p7F:02}{speed:02}"La la la～～～～.{delay:20} Lu lu lu～～～～♡"{
 
 #id 0052 ptr=114EE6 box=dialog
 JP: {p7F:02}{speed:02}「ふふふ。{delay:20}わしの歌はどうじゃった」{end}
-EN: {p7F:02}{speed:02}"Heh heh.{delay:20} How did you like my song?"{end}
+EN: {p7F:02}{speed:02}"Heh heh.{delay:20} How did you like my song, eh?"{end}
 
 #id 0053 ptr=114F6E box=dialog
 JP: {p7F:08}ベルトがまわる。{n}ぼくらもうごく。{end}
@@ -224,7 +224,7 @@ EN: {p7F:02}{speed:02}"How's the conveyor ride?{delay:20} Hm?"{end}
 
 #id 0056 ptr=114FFD box=dialog
 JP: {p7F:02}{speed:02}「ただ のっかってるだけじゃ、{n}{delay:20} 我輩のところには たどりつけないよ」{end}
-EN: {p7F:02}{speed:02}"Just riding along{n}{delay:20} won't get you to me."{end}
+EN: {p7F:02}{speed:02}"Just riding along won't get you{n}{delay:20} to me, the great Dr. Skull!"{end}
 
 #id 0057 ptr=115030 box=dialog
 JP: {p7F:02}{speed:02}「よーく頭を使うことだね。{delay:30}ヒャハ」{scroll:00}{end}
@@ -246,9 +246,9 @@ EN: {p7F:02}{speed:02}"What's this panel?"{end}
 JP: {p7F:02}{speed:02}「2つの絵が 描いてあるわ」{end}
 EN: {p7F:02}{speed:02}"It has two pictures on it."{end}
 
-#id 0062 ptr=115148 box=dialog
+#id 0062 ptr=115148 box=dialog gloss=off
 JP: {p7F:02}{speed:02}「これを、{delay:20}どーにかしなきゃ ならないようだな{delay:20} モーモー」{end}
-EN: {p7F:02}{speed:02}"Looks like we gotta{delay:20} do something{n} about this,{delay:20} Moomoo."{end}
+EN: {p7F:02}{speed:02}"Looks like we gotta{delay:20} do something{n} about this.{delay:20} Moo moo."{end}
 
 #id 0063 ptr=115186 box=dialog
 JP: {p7F:02}{speed:02}「パネルを 守るでチュー!」{end}
@@ -332,7 +332,7 @@ EN:
 
 #id 0083 ptr=115DB6 box=dialog
 JP: {p7F:02}{speed:02}「やったっスね、教授!」{end}
-EN: {p7F:02}{speed:02}"You did it, Professor!"{end}
+EN: {p7F:02}{speed:02}"You did it, Professor, sir!"{end}
 
 #id 0084 ptr=115DD2 box=dialog
 JP: {p7F:02}{speed:02}「うむ、今度こそみつけたぞ。{n} この古文書が、本物であるならば、{end}
@@ -340,7 +340,7 @@ EN: {p7F:02}{speed:02}"Indeed, this time I've found it.{n} If this old document 
 
 #id 0085 ptr=115E05 box=dialog
 JP: {p7F:02}{speed:02} カラードの 秘宝伝承を裏付ける、{n} なによりの証拠になるじゃろう。やったぞい!」{end}
-EN: {p7F:02}{speed:02} it's the best proof yet of the{n} Calard treasure legend. Yes!"{end}
+EN: {p7F:02}{speed:02} it'll be the best proof yet of the{n} Calard treasure legend. Ho ho!"{end}
 
 #id 0086 ptr=115E53 box=dialog
 JP: {p7F:02}{speed:02}「うおっ、地震か!!」{end}
@@ -364,7 +364,7 @@ EN: {clear:00}{speed:02}Thud thud...{delay:0A}Thud thud...{end}
 
 #id 0091 ptr=116138 box=dialog
 JP: {p7F:02}{speed:02}「あっ! 助かった!{n} 教授、助けが来たみたいっスよ!」{end}
-EN: {p7F:02}{speed:02}"Ah! We're saved!{n} Professor, help is here!"{end}
+EN: {p7F:02}{speed:02}"Ah! We're saved!{n} Professor, looks like help's here, sir!"{end}
 
 #id 0092 ptr=116167 box=dialog
 JP: {p7F:02}{speed:02}「しかし、そっちは‥‥‥」{end}
@@ -388,7 +388,7 @@ EN: {clear:00}"Whoaaaaa!!"{end}
 
 #id 0097 ptr=1162DB box=dialog
 JP: {p7F:02}{speed:02}「もう大丈夫だぜ!」{end}
-EN: {p7F:02}{speed:02}"It's all right now!"{end}
+EN: {p7F:02}{speed:02}"You're safe now, ya hear!"{end}
 
 #id 0098 ptr=116328 box=dialog
 JP: {p7F:02}{speed:02}「そうげつ様とトランプ様の御命令だ!{n}{delay:30} 邪魔者を ここに近づけるんじゃねえぞ～!」{end}
