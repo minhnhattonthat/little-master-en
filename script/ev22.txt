@@ -148,7 +148,7 @@ EN: {p7F:01}The Moon appeared.{end}
 
 #id 0037 ptr=114797 box=dialog
 JP: {p7F:02}{speed:02}「こりゃまいったニャー」{end}
-EN: {p7F:02}{speed:02}"This is bad, meow."{end}
+EN: {p7F:02}{speed:02}"Now I'm in a real fix, meow."{end}
 
 #id 0038 ptr=1147D0 box=dialog
 JP: {p7F:01}間違えてしまいました。退場してもらいます。{n}「うわっ、おとしあなだ～」{end}
@@ -356,7 +356,7 @@ EN:
 
 #id 0089 ptr=1160B9 box=dialog
 JP: {p7F:02}{speed:02}「やべえっス、入り口が、{n} ふさがっちまったっス～～～～～!」{end}
-EN: {p7F:02}{speed:02}"Yikes, sir, the entrance is{n} all blocked up～～～～～!"{end}
+EN: {p7F:02}{speed:02}"Yikes, boss, the entrance is{n} all blocked up～～～～～!"{end}
 
 #id 0090 ptr=1160F9 box=dialog
 JP: {clear:00}{speed:02}ゴンゴン‥‥。{delay:0A}ゴンゴン‥‥。{end}

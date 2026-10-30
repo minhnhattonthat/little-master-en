@@ -1276,7 +1276,7 @@ EN: Weiss{n}"But... I..."{end}
 
 #id 0319 ptr=1BB766 box=dialog
 JP: タムタム{n}「あなたの行動で傷ついた人達がいるわ」{delay:78}{clear:00}「なにをすればいいのか?{n} それは、これから考えればいいことよ」{end}
-EN: Tamtam{n}"Your actions hurt people, you know."{delay:78}{clear:00}"What should you do now?{n} That's something to think about from now on."{end}
+EN: Tamtam{n}"Your actions hurt people, you know."{delay:78}{clear:00}"What should you do now?{n} You can work that out from here, you know."{end}
 
 #id 0320 ptr=1BB7AB box=dialog
 JP: ヴァイス{n}「‥‥‥‥」{end}
@@ -1440,7 +1440,7 @@ EN: Weiss{n}"You guys really are something after all.{n} Who'd have thought you'
 
 #id 0360 ptr=1BBCD5 box=dialog
 JP: 「ヤゴに いいように利用されていたなんて‥‥{n} まったく、マヌケな話だぜ」{end}
-EN: "To think Yago was playin' me all along...{n} Man, what a chump I was."{end}
+EN: "To think Yago was playin' me all along...{n} Man, what a joke."{end}
 
 #id 0361 ptr=1BBCFE box=dialog
 JP: リイム{n}「‥‥いいんだよ、ヴァイス。もういいんだ」{end}

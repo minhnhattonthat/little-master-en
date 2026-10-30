@@ -1492,7 +1492,7 @@ EN: {p7F:02}{speed:02}"There are people who were hurt by{n} what you did, you kn
 
 #id 0373 ptr=056A24 box=dialog
 JP: {p7F:02}{speed:02}「なにをすれば いいのか?{n}{delay:30} それは、{delay:20}これから考えれば いいことよ」{end}
-EN: {p7F:02}{speed:02}"What should you do?{n}{delay:30} That,{delay:20} you can think about from now on."{end}
+EN: {p7F:02}{speed:02}"What should you do?{n}{delay:30} You can work that out{delay:20} from here, you know."{end}
 
 #id 0374 ptr=056A5F box=dialog
 JP: {p7F:02}{speed:02}「・・・・」{end}

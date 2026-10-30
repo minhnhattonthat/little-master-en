@@ -308,7 +308,7 @@ EN: "Hyah! Hyah!!"{end}
 
 #id 0077 ptr=1B153B box=dialog
 JP: 「いくわよっ シャインフォール!」{end}
-EN: "Here I come! Shine Fall!"{end}
+EN: "Here I go～! Shine Fall!"{end}
 
 #id 0078 ptr=1B154D box=dialog
 JP: 「とんでっちゃえ ウインドストリーム!」{end}
@@ -980,7 +980,7 @@ EN: Moomoo{n}"Eh, ain't nothin'."     {n}{end}
 
 #id 0245 ptr=1B2A99 box=dialog
 JP: ヴァイス{n}「まったくマヌケな話だぜ。{n} ちょっとサフランの遺跡に 足を伸ばしてた隙に ボンバーズに 狙われちまうとはな」{end}
-EN: Weiss{n}"Man, what a dumb thing to happen.{n} The Bombers hit us while I was off{n} pokin' around the Saffron Ruins."{end}
+EN: Weiss{n}"Man, what a joke.{n} The Bombers hit us while I was off{n} pokin' around the Saffron Ruins."{end}
 
 #id 0246 ptr=1B2ADD box=dialog
 JP: タムタム{n}「あなたたち 盗掘団なの!?」  {n}{end}
@@ -1308,7 +1308,7 @@ EN: "We may cause you some trouble,{n} but we do appreciate your cooperation."{e
 
 #id 0327 ptr=1B3741 box=dialog
 JP: タムタム{n}「勝手なこと いわないでよ」{end}
-EN: Tamtam{n}"Don't talk such nonsense!"{end}
+EN: Tamtam{n}"Don't go saying whatever you please!"{end}
 
 #id 0328 ptr=1B3757 box=dialog
 JP: モーモー{n}「俺たちが いるかぎり、{n} 好きかってには させないぜ!」{end}
@@ -1364,7 +1364,7 @@ EN: Reem{n}"Are the Bombers after Jasvan too?"{end}
 
 #id 0341 ptr=1B3908 box=dialog
 JP: リルル{n}「ジャスバンは カラード教の聖地として{n} 崇められている遺跡です」{end}
-EN: Lilulu{n}"Jasvan is revered as a holy site{n} of the Calard faith."{end}
+EN: Lilulu{n}"Jasvan is a ruin revered as a holy{n} site of the Calard faith."{end}
 
 #id 0342 ptr=1B3934 box=dialog
 JP: モーモー{n}「そんな有名な遺跡だ、{n} 今回の騒動では 真っ先に調べたんだろ?」{end}
@@ -1528,7 +1528,7 @@ EN:
 
 #id 0382 ptr=1B3A8F box=dialog
 JP: トランプ{n}「ほんとうに、ここにお宝が ねむってるのかよ?」{end}
-EN: Trump{n}"Is there really treasure sleeping here?"{end}
+EN: Trump{n}"There's really treasure stashed here?!"{end}
 
 #id 0383 ptr=1B3AAE box=dialog
 JP: 蒼月{n}「ええ。‥‥どんな願いもかなう伝説の秘宝です」{delay:78}{clear:00}「ついにみつけました。{n} われらの悲願が成就するときが きたんですよ」{end}
@@ -1572,7 +1572,7 @@ EN: Trump{n}"Tch... You punks got lucky."{delay:78}{clear:00}"But I've made up m
 
 #id 0393 ptr=1B3CBD box=dialog
 JP: モーモー{n}「ふん‥‥ なんでえ、あいつら」{end}
-EN: Moomoo{n}"Hmph... What's eatin' those guys?"{end}
+EN: Moomoo{n}"Hmph... What's with those guys?"{end}
 
 #id 0394 ptr=1B3CD3 box=dialog
 JP: リイム{n}「よし、僕たちも中に入ろう」{end}
@@ -1600,7 +1600,7 @@ EN: Charles{n}"'Dunno'? Oh, I can't believe you!"{delay:78}{clear:00}"This is a 
 
 #id 0400 ptr=1B3DCE box=dialog
 JP: リイム{n}「あ、ああ。‥‥まあ、知らずにやったことだし‥‥{n} その‥‥この場合は仕方ないんじゃないか‥な?」{end}
-EN: Reem{n}"Oh, uh... Well, he didn't know...{n} So... it can't be helped here... right?"{end}
+EN: Reem{n}"Oh, uh... Well, he didn't know any better...{n} So, um... I guess it can't be helped this time?"{end}
 
 #id 0401 ptr=1B3E09 box=dialog
 JP: シャルル{n}「勇者殿まで そんな事を!」{end}
@@ -1608,7 +1608,7 @@ EN: Charles{n}"Not you too, Hero!"{end}
 
 #id 0402 ptr=1B3E21 box=dialog
 JP: 「マテドラルの司祭として、{n} こんな暴挙は 見過ごせないわ!」{delay:78}{clear:00}「さあ、早く元に戻しなさいよ!」{end}
-EN: "As a priest of Matedral, I can't{n} overlook an outrage like this!"{delay:78}{clear:00}"Now put it back, will you?!"{end}
+EN: "As a priestess of Matedral, I can't{n} overlook an outrage like this!"{delay:78}{clear:00}"Now put it back, will you?!"{end}
 
 #id 0403 ptr=1B3E60 box=dialog
 JP: モーモー{n}「わかったわかった、あとでもどしておくさ」{end}
@@ -2032,7 +2032,7 @@ EN: Reem{n}"Could the Bombers want Jasvan too?"{end}
 
 #id 0508 ptr=1B55F0 box=dialog
 JP: リルル{n}「ジャスバンは、カラード教の聖地として{n} 崇められている遺跡です」{end}
-EN: Lilulu{n}"Jasvan is revered as a holy site{n} of the Calard faith."{end}
+EN: Lilulu{n}"Jasvan is a ruin revered as a holy{n} site of the Calard faith."{end}
 
 #id 0509 ptr=1B561C box=dialog
 JP: モーモー{n}「そんな有名な遺跡だ、{n} 今回の騒動では真っ先に調べたんだろ?」{end}
@@ -2452,7 +2452,7 @@ EN: Host{n}"Wh-wh-what did you say?!{n} You skip the qualifiers and go{n} straig
 
 #id 0613 ptr=1B675B box=dialog
 JP: 「ほほほ、ほんらいなら、バラマキクイズの予選を{n} 勝ち抜かなければ、ゲートクイズには{n} 挑戦できないんですぞ。それを‥‥ それを‥‥」{delay:78}{clear:00}「いきなりゲートクイズへの 挑戦を認めた{n} この私の気持ちを～～～!!」{end}
-EN: "Wh-why, normally you must win the{n} Scatter Quiz qualifier before you{n} may try the Gate Quiz. And yet..."{delay:78}{clear:00}"I let you go straight to the Gate Quiz,{n} and you can't appreciate it～～～!!"{end}
+EN: "Wh-why, normally you must win the{n} Scatter Quiz qualifier before you{n} may try the Gate Quiz. And yet..."{delay:78}{clear:00}"Think how I felt, letting you go{n} straight to the Gate Quiz～～～!!"{end}
 
 #id 0614 ptr=1B67D5 box=dialog
 JP: リイム{n}「わ、わかりました」{end}
