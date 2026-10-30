@@ -48,7 +48,7 @@ EN: {p7F:02}{speed:02}"Reem!{delay:20} Are you all right?"{end}
 
 #id 0012 ptr=113F93 box=dialog
 JP: {p7F:02}{speed:02}「うん、{delay:20}それよりも教授たちを」{end}
-EN: {p7F:02}{speed:02}"Yeah.{delay:20} Help the professor."{end}
+EN: {p7F:02}{speed:02}"Yeah.{delay:20} More importantly,{n} help the professor and the others."{end}
 
 #id 0013 ptr=113FB8 box=dialog
 JP: {p7F:02}{speed:02}「ええ」{end}
@@ -66,9 +66,9 @@ EN: {p7F:02}{speed:02}"Honestly,{delay:20} I'll hear about it later,{n}{delay:20
 JP: {p7F:02}{end}
 EN: 
 
-#id 0017 ptr=1140B2 box=dialog
+#id 0017 ptr=1140B2 box=dialog addpage=1
 JP: {p7F:02}{speed:02}「おお、ありがとよ。{n}{delay:30} それよりも大変じゃ。{delay:30}やはり本当だったんじゃ」{end}
-EN: {p7F:02}{speed:02}"Ah, thank you, thank you.{n}{delay:30} But this is big!{delay:30} It was true after all!"{end}
+EN: {p7F:02}{speed:02}"Ah, thank you, thank you.{n}{delay:30} Never mind that, this is big!"{delay:30}{clear:00}"It was true after all!"{end}
 
 #id 0018 ptr=1140E9 box=dialog
 JP: {p7F:02}{speed:02}「この古文書を見るのじゃ。{n}{delay:30} ほれ、{delay:20}ここの部分じゃ」{end}
@@ -128,7 +128,7 @@ EN: {p7F:02}{speed:02}"I'll get you, meow!"{end}
 
 #id 0032 ptr=114662 box=dialog
 JP: {p7F:02}{speed:02}「みて!{delay:20} 古文書と同じ形だわ」{end}
-EN: {p7F:02}{speed:02}"Look!{delay:20}{n} Why, it's just like the old document!"{end}
+EN: {p7F:02}{speed:02}"Look!{delay:20}{n} Why, it matches the old document!"{end}
 
 #id 0033 ptr=114684 box=dialog
 JP: {p7F:02}{speed:02}「リイム、{delay:20}虹色の魔石を!」{end}
@@ -228,7 +228,7 @@ EN: {p7F:02}{speed:02}"Just riding along won't get you{n}{delay:20} to me, the g
 
 #id 0057 ptr=115030 box=dialog
 JP: {p7F:02}{speed:02}「よーく頭を使うことだね。{delay:30}ヒャハ」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Use your heads.{delay:30} Hyaha."{scroll:00}{end}
+EN: {p7F:02}{speed:02}"You'd best think real hard.{delay:30} Hyaha."{scroll:00}{end}
 
 #id 0058 ptr=11505F box=dialog
 JP: {p7F:02}「すべれーーーー」{end}
@@ -240,7 +240,7 @@ EN: {p7F:02}"Whoa. I'm sliiiding!"{end}
 
 #id 0060 ptr=115107 box=dialog
 JP: {p7F:02}{speed:02}「このパネルは 何だろう?」{end}
-EN: {p7F:02}{speed:02}"What's this panel?"{end}
+EN: {p7F:02}{speed:02}"What could this panel be?"{end}
 
 #id 0061 ptr=115127 box=dialog
 JP: {p7F:02}{speed:02}「2つの絵が 描いてあるわ」{end}
@@ -300,7 +300,7 @@ EN: {p02:0C}In unknown Matedral, what{p02:0F}awaits the Heroes?{end}
 
 #id 0075 ptr=115752 box=dialog
 JP: {p7F:02}{speed:02}「ぼくたちも おともします。{n}{delay:30} つれていってください。{delay:30}ラビラビ」{end}
-EN: {p7F:02}{speed:02}"We'll come with you too.{n}{delay:30} Please take us.{delay:30} Hop-hop."{end}
+EN: {p7F:02}{speed:02}"We'll accompany you too.{n}{delay:30} Please take us along.{delay:30} Hop-hop."{end}
 
 #id 0076 ptr=115783 box=dialog
 JP: {p7F:00}新しい仲間が 加わりました。{end}
@@ -340,7 +340,7 @@ EN: {p7F:02}{speed:02}"Indeed, this time I've found it.{n} If this old document 
 
 #id 0085 ptr=115E05 box=dialog
 JP: {p7F:02}{speed:02} カラードの 秘宝伝承を裏付ける、{n} なによりの証拠になるじゃろう。やったぞい!」{end}
-EN: {p7F:02}{speed:02} it'll be the best proof yet of the{n} Calard treasure legend. Ho ho!"{end}
+EN: {p7F:02}{speed:02} it'll be the best proof yet of the{n} Calard treasure legend. I did it, ho ho!"{end}
 
 #id 0086 ptr=115E53 box=dialog
 JP: {p7F:02}{speed:02}「うおっ、地震か!!」{end}
@@ -364,7 +364,7 @@ EN: {clear:00}{speed:02}Thud thud...{delay:0A}Thud thud...{end}
 
 #id 0091 ptr=116138 box=dialog
 JP: {p7F:02}{speed:02}「あっ! 助かった!{n} 教授、助けが来たみたいっスよ!」{end}
-EN: {p7F:02}{speed:02}"Ah! We're saved!{n} Professor, help's here, y'see!"{end}
+EN: {p7F:02}{speed:02}"Ah! We're saved!{n} Professor, looks like help's here, y'see!"{end}
 
 #id 0092 ptr=116167 box=dialog
 JP: {p7F:02}{speed:02}「しかし、そっちは‥‥‥」{end}
@@ -392,7 +392,7 @@ EN: {p7F:02}{speed:02}"You're safe now, ya hear!"{end}
 
 #id 0098 ptr=116328 box=dialog
 JP: {p7F:02}{speed:02}「そうげつ様とトランプ様の御命令だ!{n}{delay:30} 邪魔者を ここに近づけるんじゃねえぞ～!」{end}
-EN: {p7F:02}{speed:02}"Orders from Sougetsu and Trump!{n}{delay:30} Don't let any meddlers near here～!"{end}
+EN: {p7F:02}{speed:02}"By order of Lords Sougetsu and Trump!{n}{delay:30} Don't let any meddlers near here～!"{end}
 
 #id 0099 ptr=116368 box=dialog
 JP: {p7F:02}{speed:02}「ヒッヒーーー!」{end}
@@ -400,7 +400,7 @@ EN: {p7F:02}{speed:02}"Hee-heee!"{end}
 
 #id 0100 ptr=1163E9 box=dialog
 JP: {p7F:02}{speed:02}「ふはは、ネズミが ワナにかかったようだな。{n}{delay:30} はさみうちに してくれるわ!」{scroll:00}{end}
-EN: {p7F:02}{speed:02}"Fwahaha, the rats fell into the trap.{n}{delay:30} We'll catch you in a pincer!"{scroll:00}{end}
+EN: {p7F:02}{speed:02}"Fwahaha, looks like the rats got trapped.{n}{delay:30} We'll catch you in a pincer!"{scroll:00}{end}
 
 #id 0101 ptr=116438 box=dialog
 JP: {p7F:00}激しい雨で、水たまりが できました。{end}

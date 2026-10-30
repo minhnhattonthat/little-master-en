@@ -31,3 +31,30 @@ One line per finding. Tick each `[x]` when fixed, or `[x] waived: reason`. The r
 - [ ] ev0A:0387 - two "meow" in one short line
 - [ ] ev0A:0373 - "you can work out from here" stiff
 - [ ] ev22:0091 - みたい dropped -> "Professor, seems help's here, y'see!"
+
+## Nuance pass round 4 (Minors)
+- [ ] msg36:0130 - "grabbin' it": no antecedent -> "it's gonna be mine..."
+- [ ] msg36:0152 - "Saved!" stiff -> "We're saved! Looks like help's here, Professor!"
+- [ ] msg36:0163 - 教授たち: professor dropped -> "Help the professor and the rest!" (width)
+- [ ] msg36:0191 - "Hya ha!" -> "Hya ha ha!" (width)
+- [ ] msg36:0213 - "He is delighted" -> "He's delighted."
+- [ ] msg36:0278 - いけませんな -> "Ah, how remiss of me."
+- [ ] msg36:0297 - "them" -> "everyone properly"
+- [ ] msg36:0327 - 勝手なこと -> "You've got some nerve!"
+- [ ] msg36:0334 - plural "leaders" may be right (Sougetsu + Trump)
+- [ ] msg36:0585 - "What will you do" -> "What do you want with the children!?"
+- [ ] msg37:0099 - Sougetsu おっと -> "Now, now."
+- [ ] msg37:0298 - "without misjudging things" -> "with clear judgment"
+- [ ] ev03:0086 - "At last" -> "Now the Bombers are after us here too."
+- [ ] ev03:0092 - 人手 -> "need people"
+- [ ] ev03:0098 - middle-tier result -> "about average, I guess" (was reverted by mistake)
+- [ ] ev03:0110 - しっかり lost (width)
+- [ ] ev0A:0010 - "downhill" -> "down the mountain" (width)
+- [ ] ev0A:0052 - "go on ahead and see" -> "push on and see"
+- [ ] ev0A:0062 - "inner altar" -> "the altar in back"
+- [ ] ev0A:0080 - 謎の -> "mysterious" (cells)
+- [ ] ev0A:0116 - "Still," -> "Man, those ruins sure are huge. Moo."
+- [ ] ev0A:0210 - add "around here"
+- [ ] ev0A:0350 - "prepared" breaks 0351 echo -> "once you are ready"
+- [ ] ev22:0012 - "More importantly" stiff -> "Never mind me, help the professor and the others."
+- [ ] ev22:0057 - "real hard" folksy for Skull -> "Best use those heads of yours."
